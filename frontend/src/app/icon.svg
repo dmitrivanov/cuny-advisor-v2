@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>CUNY Advisor V2</title>
+  <rect width="64" height="64" rx="14" fill="#1d4ed8"/>
+  <path d="M12 19c8-2 14-1 20 3 6-4 12-5 20-3v29c-8-2-14-1-20 3-6-4-12-5-20-3Z" fill="#fff"/>
+  <path d="M32 23v27" fill="none" stroke="#1d4ed8" stroke-width="3"/>
+  <path d="m38 32 4 4 7-8" fill="none" stroke="#1d4ed8" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

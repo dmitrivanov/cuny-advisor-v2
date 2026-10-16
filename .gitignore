@@ -219,3 +219,14 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 .DS_Store
+
+# V2 frontend and local configuration
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key

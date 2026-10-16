@@ -1,11 +1,18 @@
 # Repository instructions
 
-## Current authorization: Phase 00 — planning only
+## Current authorization: Phase 01A — local application skeleton only
 
-Create and maintain planning documentation only. Do not generate application code,
-scaffolding, migrations, dependency manifests, infrastructure, or deployment changes
-until the user explicitly authorizes an implementation phase. Do not deploy, connect
-to production data, import student records, or provision external services.
+The user's third prompt authorizes a Next.js App Router / TypeScript / Tailwind
+frontend, FastAPI backend, versioned health route, English landing page and local
+connectivity status, backend pytest tests, frontend checks, environment examples,
+local README and basic GitHub Actions CI. Local dependency installation and checks
+are within scope. Do not commit, push, deploy, provision services, use production
+connections, real student data or secrets, or modify V1.
+
+Do not implement authentication/accounts, guest persistence, PostgreSQL models or
+migrations, CMS, Gemini, audits/planning or transcripts. Phase 00 documents remain
+future architecture; their broader Phase 01 checklist is not authorization to build
+those features now. Stop after Phase 01A and report exact verification results.
 
 Work only in `cuny-advisor-v2`. The previous repository,
 [academic-advisement-system](https://github.com/dmitrivanov/academic-advisement-system),
@@ -29,7 +36,7 @@ its deployment. Preserve unrelated user changes.
 
 Read [security](docs/SECURITY.md), [access control](docs/ACCESS_CONTROL.md),
 [CMS design](docs/CMS_DESIGN.md), and [decisions](docs/DECISIONS.md) alongside the
-original documents. All remain planning-only; no database connections or secrets.
+original documents. Their broader features remain planned; no database connections or secrets.
 
 Guests have fixed 24-hour private workspaces, including transcript safeguards,
 summary preview and optional explicit-consent advisor handoff. Registered users
@@ -71,8 +78,9 @@ cross-campus isolation, transcript review, AI fallback, accessibility, and cost
 limits. Document evidence and limitations; never claim policy validation,
 compliance, performance, or institutional endorsement without supporting review.
 
-## Phase 00 completion
+## Historical Phase 00 completion
 
-Verify all eleven Phase 00 Markdown files, relative links, and consistency. Report
-the document scope and unresolved dependencies, then stop. Do not begin Phase 01
-or create a deployment as part of this task.
+The eleven Phase 00 Markdown files established the planning baseline.
+The Phase 00 deliverable was documentation only. Current Phase 01A authorization
+is defined above and supersedes the previous planning-only restriction within
+that limited scope; later phases remain unauthorized.

@@ -1,18 +1,27 @@
 # Repository instructions
 
-## Current authorization: Phase 01A — local application skeleton only
+## Current authorization: Phase 01C — documentation and read-only V1 audit
 
-The user's third prompt authorizes a Next.js App Router / TypeScript / Tailwind
-frontend, FastAPI backend, versioned health route, English landing page and local
-connectivity status, backend pytest tests, frontend checks, environment examples,
-local README and basic GitHub Actions CI. Local dependency installation and checks
-are within scope. Do not commit, push, deploy, provision services, use production
-connections, real student data or secrets, or modify V1.
+Work exclusively in `cuny-advisor-v2` on the existing `docs/phase01c-v1-audit`
+branch. The owner authorizes comprehensive source-based read-only analysis of V1,
+five audit/modernization/UX/boundary documents, and necessary roadmap/decision
+updates. Preserve unrelated uncommitted Phase 01B work. V2 is a secure, modular
+modernization of useful V1 concepts, not a complete functional reinvention.
 
-Do not implement authentication/accounts, guest persistence, PostgreSQL models or
-migrations, CMS, Gemini, audits/planning or transcripts. Phase 00 documents remain
-future architecture; their broader Phase 01 checklist is not authorization to build
-those features now. Stop after Phase 01A and report exact verification results.
+V1 is strictly read-only: do not edit, format, install dependencies, run seeders,
+migrate, refactor, commit or push there. Use authorized read-only GitHub source
+access if no verified local checkout is available. Never connect to V1 or other
+production databases, use production credentials, call live AI, or load real
+student data. The production reference may be inspected as a public UI only;
+never authenticate, submit student data, or trigger AI/academic mutations there.
+
+No application implementation, frontend/backend refactoring, database changes,
+dependency installation, deployment, PR, commit or push. No academic source or
+institutional approval is inferred from V1 code or professor feedback. Distinguish
+source-verified, UI-observed, documentation-claimed and runtime-unverified findings;
+cite pinned source revisions, file paths, functions and line ranges when available.
+Document inaccessible evidence without guessing. Stop after the audit documents
+and final report, and wait for owner review before any implementation.
 
 Work only in `cuny-advisor-v2`. The previous repository,
 [academic-advisement-system](https://github.com/dmitrivanov/academic-advisement-system),
@@ -81,6 +90,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 01A authorization
+The Phase 00 deliverable was documentation only. Current Phase 01C authorization
 is defined above and supersedes the previous planning-only restriction within
 that limited scope; later phases remain unauthorized.

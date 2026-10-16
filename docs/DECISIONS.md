@@ -52,3 +52,16 @@ or CUNY approval is claimed in this documentation update.
 No role holder, college policy, contract, provider retention guarantee, or CUNY
 integration is established by this register. Phase 01 acceptance is specified in
 the [roadmap](IMPLEMENTATION_ROADMAP.md); implementation still needs authorization.
+
+## Third-prompt authorization: Phase 01A
+
+D19 — Required: local application skeleton only, as scoped in the roadmap. This
+supersedes D01's planning-only restriction for this subset. Authentication, student
+accounts, database models/migrations, CMS, Gemini, audits/planners and transcripts
+remain excluded. No production connections, real student data, V1 changes, commit,
+push or deployment. Broader Phase 01 approval is not implied.
+
+D20 — Selected implementation: separate `frontend/` and `backend/` applications;
+fixed same-origin Next.js health proxy to a loopback-only FastAPI origin; no CORS
+or persistence required. Health indicates process reachability, not readiness of
+future integrations. CI checks only, with no deployment jobs or secrets.

@@ -1,6 +1,7 @@
 # Implementation roadmap
 
-Status: proposed sequence, 2026-10-16. Phase 00 is the only authorized phase.
+Status: proposed sequence, 2026-10-16. Phase 01A local skeleton is now authorized;
+all broader implementation phases remain gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
 
@@ -15,6 +16,21 @@ Exit: requested files exist, links and requirements align, no application code o
 deployment is introduced, and unrelated local changes are preserved. Summarize
 the documents and stop. Planning completion does not resolve academic or legal
 questions and does not grant permission to start Phase 01.
+
+## Phase 01A — Local application skeleton (authorized subset)
+
+Third-prompt scope: Next.js App Router, TypeScript and Tailwind; FastAPI with
+`GET /api/v1/health`; English landing page and local connectivity status; pytest;
+frontend lint/typecheck/build; safe environment examples, README and basic CI.
+The frontend's `/api/health` is a fixed local proxy with timeout, contract validation
+and safe unavailable response. The backend health check is process liveness only.
+
+Acceptance: backend tests pass; frontend lint, typecheck and build pass; local
+health/proxy success and backend-unavailable behavior are checked. CI defines the
+same checks but is not claimed to have run on GitHub. No authentication, accounts,
+database models/migrations, CMS, Gemini, academic engine or transcript handling.
+No deployment, production access, real student data, commit or push. This subset
+does not satisfy the broader Phase 01 checklist below. Stop after reporting results.
 
 ## Phase 01 — Foundation and synthetic boundaries
 

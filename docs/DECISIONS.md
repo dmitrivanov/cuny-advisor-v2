@@ -1,0 +1,54 @@
+# Phase 00 decision register
+
+Second Codex prompt baseline, 2026-10-16. “Required” identifies user direction;
+“Selected design” is a Phase 00 architectural choice for review. Neither means
+implemented, institutionally approved, or authorized for Phase 01 execution.
+Historical source facts remain in the [PRD](PRD.md); no new external verification
+or CUNY approval is claimed in this documentation update.
+
+| ID | Status | Decision and consequence |
+| --- | --- | --- |
+| D01 | Required | Planning only; documentation edits, no application code, deployment, database connections, secrets or V1 modifications. Stop for review. |
+| D02 | Required | Next.js + TypeScript + Tailwind; FastAPI modular monolith; PostgreSQL + SQLAlchemy + Alembic; server-side Gemini Gateway. |
+| D03 | Required | Isolated V2 PostgreSQL schema; never reuse V1 schema, credentials, migrations or runtime data. |
+| D04 | Selected design | Name the future schema `cuny_advisor_v2`; use a dedicated V2 database and database roles where provisioned. Schema separation alone is not a security boundary. No database is provisioned now. |
+| D05 | Required | Guests and registered students; initial email/password authentication with future SSO. English-only initial UI, advising responses and reports. |
+| D06 | Required | Guest workspaces expire 24 hours after creation; registered accounts save/resume profiles, plans, progress and reports. Guest transcript upload is supported only with privacy controls. |
+| D07 | Selected design | Fixed guest TTL; synchronous denial at expiry; asynchronous comprehensive purge with a 1h target. Backup/provider lifecycle must meet the advertised guest promise. |
+| D08 | Required | Guest summary and explicit-consent advisor handoff; secure conversion to a registered account. |
+| D09 | Selected design | Handoff retains no independent payload until an authorized recipient accepts before guest expiry. Only an explicitly consented case snapshot may then outlive the guest workspace under a disclosed retention policy. |
+| D10 | Selected design | Conversion needs active guest possession, verified account authentication, explicit selected-data save/merge and atomic ownership claim. No implicit linking by email or name. |
+| D11 | Required | Scoped platform, college, department/program, faculty, editor/publisher, academic approver, advisor, registered-student and guest roles; delegated approval authority. |
+| D12 | Required | Super Admin does not automatically have academic authority. Admins propose academic changes; verified authorized academic reviewers approve them. Faculty identity and contributions require verification/review. |
+| D13 | Selected design | Explicit expiring delegation chains, no self-approval, immutable revision-bound approval and revalidation at publication. Administrative role grants cannot establish academic legitimacy on their own. |
+| D14 | Required | Official catalog data stays separate from faculty contributions; deterministic rules and versioned provenance control academic outcomes. |
+| D15 | Required | Approved configurable CMS blocks, drag-and-drop ordering, campus overrides, draft/preview/publish, revisions/rollback/audit; no arbitrary code or unsafe HTML. |
+| D16 | Selected design | Typed block trees, protected notices, pinned effective campus compositions, independent editorial review and additional academic review for academic assertions. |
+| D17 | Required | Multi-campus from the first data boundaries, BMCC first; no invented CUNY approvals. |
+| D18 | Selected design | Minimal student-data access independent of administrative roles; assignment/consent grants for advisors; private authorization-proxied downloads. |
+
+## Superseded assumptions
+
+- Initial OIDC-only identity is replaced by email/password; OIDC/SSO remains future
+  capability and is not a prerequisite for synthetic Phase 01 development.
+- Generic “admin/steward” shorthand now resolves to the specific scoped roles in
+  [access control](ACCESS_CONTROL.md); it never grants blanket academic authority.
+- Unspecified guest retention is replaced by fixed 24-hour workspace expiry.
+  Registered and accepted-handoff retention durations are still open.
+- Phase 00 now contains eleven Markdown planning files, including AGENTS.md.
+
+## Open decisions and owners to assign
+
+| Item | Proposed owner | Gate |
+| --- | --- | --- |
+| Institutional process for reviewer authority, faculty identity and academic delegation | College academic authority + security | Real academic approval or faculty publication |
+| Registered-data and accepted-case retention, consent language and contact verification | Product + institutional privacy reviewers | Real student processing/handoff |
+| Storage/backup/provider ability to delete guest payloads on schedule | Technical + privacy/security owners | Guest transcript enablement |
+| Password/session library, MFA and abuse parameters; future SSO account linking | Technical + security owners | Authentication release |
+| CMS template catalog, protected blocks and override scope | Product + content governance | CMS pilot |
+| Dedicated DB hosting/roles, migration privileges and recovery procedures | Technical/service owner | Any database provisioning proposal |
+| Staffing, BMCC program sources, pilot consent and hosting approval | Product + institutional sponsor | Real-user pilot |
+
+No role holder, college policy, contract, provider retention guarantee, or CUNY
+integration is established by this register. Phase 01 acceptance is specified in
+the [roadmap](IMPLEMENTATION_ROADMAP.md); implementation still needs authorization.

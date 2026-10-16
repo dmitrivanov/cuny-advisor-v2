@@ -1,30 +1,98 @@
-import Link from "next/link";
+import { AcademicIcon } from "@/components/academic-icon";
 import { ConnectivityStatus } from "@/components/connectivity-status";
+import { SiteHeader } from "@/components/site-header";
+import { GlassButton } from "@/components/ui/glass-button";
+import { GlassCard } from "@/components/ui/glass-card";
+import { GlassPanel } from "@/components/ui/glass-panel";
+
+const previews = [
+  { icon: "book", title: "Understand your requirements", description: "A clearer view of what your program asks of you, with sources you can trace.", category: "Degree progress" },
+  { icon: "compass", title: "Explore your next steps", description: "Space to consider your options alongside your goals, schedule, and responsibilities.", category: "Thoughtful planning" },
+  { icon: "conversation", title: "Prepare for a conversation", description: "Bring your questions and context together for a more useful meeting with an advisor.", category: "Human guidance" },
+] as const;
 
 export default function Home() {
   return (
     <div className="min-h-screen">
-      <header className="border-b border-slate-200 bg-white">
-        <div className="mx-auto flex max-w-5xl flex-wrap items-center justify-between gap-4 px-6 py-6">
-          <Link href="/" className="text-lg font-bold tracking-tight">CUNY Advisor <span className="text-blue-700">V2</span></Link>
-          <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-semibold text-slate-600">Local preview · Phase 01A</span>
+      <SiteHeader />
+      <main id="main-content" tabIndex={-1} className="page-container pb-12 pt-10 sm:pt-14">
+        <div className="mb-10 flex flex-wrap items-center gap-3 text-sm text-muted">
+          <span className="preview-label"><span className="size-1.5 rounded-full bg-brand" aria-hidden="true" />Design preview · Phase 01B</span>
+          <span>Starting with BMCC</span>
         </div>
-      </header>
-      <main id="main-content" className="mx-auto max-w-5xl px-6 py-16 sm:py-24">
-        <p className="mb-4 text-sm font-semibold tracking-wide text-blue-700">STARTING WITH BMCC</p>
-        <h1 className="max-w-3xl text-4xl font-bold leading-tight tracking-tight sm:text-6xl">A clearer path through your academic journey.</h1>
-        <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">We’re building a place to understand degree requirements, explore your options, and prepare for conversations with an advisor.</p>
-        <div className="mt-12 grid gap-6 md:grid-cols-[1.2fr_1fr]">
-          <section className="rounded-2xl border border-slate-200 bg-white p-7" aria-labelledby="preview-title">
-            <h2 id="preview-title" className="text-xl font-bold">The foundation comes first</h2>
-            <p className="mt-3 leading-7 text-slate-600">This preview checks that the website and its local API can communicate. Advising tools and student workspaces are planned for later phases.</p>
-            <p className="mt-5 rounded-lg bg-blue-50 p-4 text-sm leading-6 text-blue-900">No student information is collected in this preview. Academic advising is not available yet.</p>
+        <section className="grid items-center gap-10 pb-12 lg:grid-cols-2 lg:gap-12 lg:pb-16" aria-labelledby="hero-title">
+          <div>
+            <p className="eyebrow mb-5">Your journey. A little more clarity.</p>
+            <h1 id="hero-title" className="text-display font-semibold">A clearer path.<br /><span className="font-editorial font-normal italic text-brand">A confident next step.</span></h1>
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted">College comes with questions. We’re building a calmer place to explore your options, understand your path, and prepare for what comes next.</p>
+            <div className="mt-8 flex flex-wrap gap-3">
+              <GlassButton as="a" href="#approach">Explore the approach<AcademicIcon name="arrow" className="size-4" /></GlassButton>
+              <GlassButton as="a" href="#project-status" variant="secondary">About this preview</GlassButton>
+            </div>
+            <p className="mt-5 text-sm text-muted">Built with care. Guided by academic evidence.</p>
+          </div>
+          <GlassPanel aria-labelledby="principles-title" className="relative">
+            <div className="mb-8 flex items-center justify-between gap-4">
+              <span className="icon-tile"><AcademicIcon name="compass" className="size-6" /></span>
+              <span className="preview-label">Our guiding principles</span>
+            </div>
+            <p className="eyebrow mb-3">A more considered approach</p>
+            <h2 id="principles-title" className="text-2xl font-semibold tracking-tight sm:text-3xl">An academic path.<br />A human perspective.</h2>
+            <ol className="mt-7 space-y-5">
+              {[
+                ["Clarity before complexity", "Understand the why behind a next step."],
+                ["Your life, in the picture", "Make room for goals and everyday realities."],
+                ["People at the center", "Support conversations with human advisors."],
+              ].map(([title, description], index) => (
+                <li key={title} className="flex gap-4">
+                  <span className="flex size-8 shrink-0 items-center justify-center rounded-full bg-soft text-xs font-semibold text-brand" aria-hidden="true">0{index + 1}</span>
+                  <div><h3 className="text-sm font-semibold">{title}</h3><p className="mt-1 text-sm text-muted">{description}</p></div>
+                </li>
+              ))}
+            </ol>
+            <p className="mt-8 border-t border-line pt-4 text-xs leading-relaxed text-muted">A statement of intent. Advising services are not available in this preview.</p>
+          </GlassPanel>
+        </section>
+
+        <aside id="project-status" aria-labelledby="project-status-title" className="mb-14 flex flex-col gap-4 rounded-card border border-line bg-soft p-6 sm:flex-row sm:gap-5">
+          <AcademicIcon name="shield" className="size-6 shrink-0 text-brand" />
+          <div>
+            <h2 id="project-status-title" className="font-semibold">A preview, with clear boundaries</h2>
+            <p className="mt-2 text-sm leading-relaxed text-muted">This independent project is in development and does not represent institutional approval by CUNY or BMCC. No student information is collected here. Academic advising, accounts, and student workspaces are not available yet.</p>
+          </div>
+        </aside>
+
+        <section id="approach" aria-labelledby="approach-title">
+          <div className="mb-7 flex flex-wrap items-end justify-between gap-4">
+            <div><p className="eyebrow mb-2">Looking ahead</p><h2 id="approach-title" className="text-2xl font-semibold tracking-tight sm:text-3xl">Less guesswork. More perspective.</h2></div>
+            <p className="text-sm text-muted">Planned capabilities · Static previews</p>
+          </div>
+          <div className="grid gap-5 md:grid-cols-3">
+            {previews.map((preview) => (
+              <GlassCard key={preview.title} className="flex flex-col items-start">
+                <span className="icon-tile mb-6"><AcademicIcon name={preview.icon} className="size-6" /></span>
+                <p className="eyebrow mb-2">{preview.category}</p>
+                <h3 className="text-lg font-semibold tracking-tight">{preview.title}</h3>
+                <p className="mt-3 grow text-sm leading-7 text-muted">{preview.description}</p>
+                <p className="mt-6 w-full border-t border-line pt-4 text-xs font-medium text-muted">Planned · Not available yet</p>
+              </GlassCard>
+            ))}
+          </div>
+        </section>
+
+        <div className="mt-14 grid items-start gap-8 lg:grid-cols-2">
+          <section aria-labelledby="foundation-title" className="py-3">
+            <p className="eyebrow mb-3">A thoughtful foundation</p>
+            <h2 id="foundation-title" className="text-2xl font-semibold tracking-tight">Trust starts with the details.</h2>
+            <p className="mt-4 max-w-lg leading-7 text-muted">A clear distinction between what is known, what is planned, and what still needs a human conversation. That’s the foundation we’re working toward.</p>
+            <p className="mt-4 text-sm text-muted">For now, this local preview checks the connection between the website and its API.</p>
           </section>
           <ConnectivityStatus />
         </div>
-        <p className="mt-10 max-w-2xl text-sm leading-6 text-slate-500">An independent project in development. This preview does not represent institutional approval by CUNY or BMCC.</p>
       </main>
-      <footer className="mx-auto max-w-5xl border-t border-slate-200 px-6 py-6 text-sm text-slate-500">CUNY Advisor V2 · English-language local preview</footer>
+      <footer className="page-container flex flex-wrap items-center justify-between gap-3 border-t border-line py-7 text-xs text-muted">
+        <p>CUNY Advisor V2 · Independent project</p><p>English-language local preview · Starting with BMCC</p>
+      </footer>
     </div>
   );
 }

@@ -65,3 +65,47 @@ D20 — Selected implementation: separate `frontend/` and `backend/` application
 fixed same-origin Next.js health proxy to a loopback-only FastAPI origin; no CORS
 or persistence required. Health indicates process reachability, not readiness of
 future integrations. CI checks only, with no deployment jobs or secrets.
+
+## Phase 01B — Frontend design-system authorization
+
+D21 — Required: local design-system work only on the existing
+`feature/phase01b-design-system` branch. This supersedes Phase 01A-only authorization
+without expanding into any product workflow or backend work. Preserve health
+contracts, noindex, academic integrity, V1 isolation and institutional disclosures.
+No commit, push, PR or deployment; stop for UI review.
+
+D22 — Selected design: semantic CSS custom properties mapped into Tailwind 4,
+solid-first glass surfaces with bounded progressive blur, native typed controls,
+system fonts, inline original vector icons and static labeled feature previews.
+No new dependencies or design library. Add a Node built-in test for palette contrast
+rather than a cosmetic-component testing framework. Existing npm advisories and
+ESLint compatibility debt from Phase 01A remain unchanged and unsuppressed.
+
+## Phase 01C — Read-only V1 audit and evolutionary modernization
+
+D23 — Required: documentation and read-only analysis only on
+`docs/phase01c-v1-audit`; no application changes, database access/changes,
+dependencies, live AI, real student data, V1 modifications, commit, push, PR or
+deployment. Preserve unrelated Phase 01B work and stop for owner review.
+
+D24 — Owner direction: V2 is a modular, secure, maintainable evolution of useful V1
+concepts. Preserve Completed Course Selector and Degree Map Tree concepts as
+high-priority reusable workspace modules. Improve architecture and UX rather than
+replacing every established workflow. Professor feedback is product input, not
+institutional academic approval.
+
+D25 — Recommended refinement, pending review: one approved versioned academic model
+and deterministic evaluator; selector/progress/plan/transfer/report consume canonical
+results, while the map uses a semantic graph projection. Keep typed requirements
+and evidence richer than visual edges. Model placeholders separately from courses,
+offerings and awards. Make residual requirements and incomplete plans first-class
+across exports; preserve structured planning without AI.
+
+D26 — Evidence baseline: audited V1 commit
+`ba499bc078a4889ed7ed4ad2f381a5c6950753d3` via read-only GitHub access. Deployed
+revision, authenticated UI, production content and academic correctness are
+unverified. React Flow/XYFlow plus worker ELK is a candidate for a future measured
+spike, not an installed or final library choice. No migrations or source corrections
+are authorized. See [inventory](V1_FEATURE_INVENTORY.md), [data audit](V1_DATA_AUDIT.md),
+[migration strategy](V1_TO_V2_MIGRATION.md), [workflows](UX_WORKFLOWS.md), and
+[academic boundaries](ACADEMIC_ENGINE_BOUNDARIES.md).

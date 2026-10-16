@@ -1,6 +1,6 @@
 # Implementation roadmap
 
-Status: proposed sequence, 2026-10-16. Phase 01A local skeleton is now authorized;
+Status: proposed sequence, 2026-10-16. Phase 01C documentation/read-only V1 audit is now authorized;
 all broader implementation phases remain gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
@@ -31,6 +31,57 @@ same checks but is not claimed to have run on GitHub. No authentication, account
 database models/migrations, CMS, Gemini, academic engine or transcript handling.
 No deployment, production access, real student data, commit or push. This subset
 does not satisfy the broader Phase 01 checklist below. Stop after reporting results.
+
+## Phase 01B — Light Frosted Glass design system (authorized subset)
+
+Frontend-only tokens, semantic glass primitives, accessible navigation, English
+landing-page visuals, explicitly static feature previews and ConnectivityStatus
+styling. Preserve its fetching/status behavior, noindex, institutional disclosure
+and the health proxy. No backend/endpoints/schema/test changes or new product
+workflows. See [DESIGN_SYSTEM.md](DESIGN_SYSTEM.md) for usage and verification.
+
+Acceptance: readable palette; native keyboard controls and skip navigation;
+375/768/1440px browser checks where available; solid backdrop-filter fallback and
+reduced-motion support; frontend lint/typecheck/build, lightweight token contrast
+checks and git diff --check. Existing npm advisories remain documented debt; no
+package/security remediation scope is implied. No auth, accounts, persistence,
+AI, academic tools, uploads, CMS, deployment, commit, push or PR. Stop for owner
+review of the local UI; this does not complete the broader Phase 01 below.
+
+## Phase 01C — V1 feature, architecture and data audit (current authorization)
+
+Read V1 source at a pinned revision without executing/importing it or connecting
+to its database. Document source-verified, UI-observed, documentation-claimed,
+owner-reported and runtime-unverified evidence separately. Preserve uncommitted
+Phase 01B work. Deliver [feature inventory](V1_FEATURE_INVENTORY.md),
+[data audit](V1_DATA_AUDIT.md), [modernization strategy](V1_TO_V2_MIGRATION.md),
+[UX workflows](UX_WORKFLOWS.md), and [engine boundaries](ACADEMIC_ENGINE_BOUNDARIES.md).
+
+The owner-directed baseline is evolutionary modernization: preserve the rich
+Completed Course Selector and Degree Map Tree concepts, keep deterministic planning
+usable without AI, and redesign state, rules, privacy and academic governance.
+Acceptance: cite source revision/files/functions/lines; inspect declared ORM and
+safe catalog samples; cover all requested workflows and the partial-plan case;
+label unavailable runtime/UI evidence; validate document links and git diff --check.
+No application code/refactor, database changes, dependencies, production database
+connections, credentials, real data, live AI, V1 writes, commit, push, PR or deployment.
+Stop for owner review; none of the recommendations below authorizes implementation.
+
+### Recommended dependency ordering after review
+
+Within later separately authorized phases: reconcile a narrow source-backed BMCC
+catalog and synthetic academic fixtures → canonical evidence/identity/rule contracts
+and deterministic audit → reusable selector/progress vertical slice → read-only
+map/list projection → deterministic partial-plan validation → canonical destination
+comparison and report parity → optional Gemini explanation → security-gated
+transcripts/CPL/CMS/integrations. Identity/access/retention gates apply whenever
+private state is introduced. This is not a replacement of roadmap safety gates.
+
+The map merits early development alongside selector/progress, rather than being
+an optional late visualization. Benchmark React Flow/XYFlow and ELK before choosing
+them. A partial 50-required/46-placed synthetic plan must preserve residuals and
+reasons in every view/export even with AI disabled. No legacy production migration
+is presumed; reviewed source staging is the preferred future data path.
 
 ## Phase 01 — Foundation and synthetic boundaries
 

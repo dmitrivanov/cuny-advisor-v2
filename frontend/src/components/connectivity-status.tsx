@@ -1,5 +1,7 @@
 "use client";
 
+import { GlassPanel } from "./ui/glass-panel";
+import { GlassButton } from "./ui/glass-button";
 import { useCallback, useEffect, useRef, useState } from "react";
 
 type Status = "checking" | "connected" | "unavailable";
@@ -45,16 +47,19 @@ export function ConnectivityStatus() {
   }, [checkConnection]);
 
   return (
-    <section className="rounded-2xl border border-slate-200 bg-white p-7" aria-labelledby="connection-title">
-      <h2 id="connection-title" className="text-xl font-bold">Local connection</h2>
+    <GlassPanel aria-labelledby="connection-title">
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <h2 id="connection-title" className="text-lg font-semibold tracking-tight">Local connection</h2>
+        <span className="preview-label">Live status</span>
+      </div>
       <p role="status" aria-live="polite" className="mt-5 flex items-center gap-3 font-semibold">
-        <span aria-hidden="true" className={`h-3 w-3 rounded-full ${status === "connected" ? "bg-emerald-600" : status === "unavailable" ? "bg-amber-600" : "bg-slate-400"}`} />
+        <span aria-hidden="true" className={`size-2.5 shrink-0 rounded-full ${status === "connected" ? "bg-success" : status === "unavailable" ? "bg-warning" : "bg-muted"}`} />
         {labels[status]}
       </p>
-      <p className="mt-3 text-sm leading-6 text-slate-600">
+      <p className="mt-3 text-sm leading-7 text-muted">
         {status === "connected" ? "The website successfully reached the local FastAPI health endpoint." : status === "checking" ? "Contacting the local API. This may take a few seconds." : "Start the backend using the README instructions, then check again."}
       </p>
-      <button type="button" onClick={() => { setStatus("checking"); void checkConnection(); }} disabled={status === "checking"} className="mt-6 rounded-lg border border-slate-300 px-4 py-2 text-sm font-semibold hover:bg-slate-50 disabled:opacity-50">Check again</button>
-    </section>
+      <GlassButton variant="secondary" onClick={() => { setStatus("checking"); void checkConnection(); }} disabled={status === "checking"} className="mt-5">Check again</GlassButton>
+    </GlassPanel>
   );
 }

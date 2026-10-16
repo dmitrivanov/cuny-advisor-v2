@@ -1,7 +1,21 @@
 # Logical data model
 
-Status: proposed, 2026-10-16. Conceptual entities only; no SQL, ORM classes, or
-migrations are authorized. See [PRD](PRD.md) for evidence and assumptions.
+Status: target logical model, 2026-10-16. Phase 02A implements a bounded subset as
+frozen in-memory Pydantic contracts; no SQL, ORM classes, migrations or database
+connections. See [PRD](PRD.md) for evidence and assumptions.
+
+## Implemented Phase 02A subset
+
+Campus-scoped CourseIdentity/ProgramIdentity, release-bound CourseVersion,
+shared Category vocabulary, Requirement, Rule/typed expression union, Source and
+DeclaredTotal are implemented under `backend/app/academic/contracts.py`.
+EvaluationInput/Completion/Allocation and Snapshot retain synthetic revision-bound
+inputs, exact decimal credits, source-linked per-rule results and explicit issues.
+ExceptionProposal represents an unapplied request; release lifecycle state is not
+an implemented publication/approval workflow. No student or authorization model
+is implemented. [ACADEMIC_RULES_MODEL.md](ACADEMIC_RULES_MODEL.md) defines the
+supported subset and conservative unsupported states; the entity inventory below
+remains the future normalized persistence design.
 
 ## Conventions and isolation
 

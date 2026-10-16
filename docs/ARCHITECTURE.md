@@ -1,7 +1,20 @@
 # Architecture
 
-Status: proposed design, 2026-10-16. This document creates no running services.
+Status: target architecture with bounded local implementation, 2026-10-16.
+Only the skeleton, design system and Phase 02A prototype are implemented.
 Evidence classifications and external sources: [PRD](PRD.md).
+
+## Current Phase 02A implementation boundary
+
+`backend/app/academic/` contains immutable typed catalog/provenance/rule contracts,
+pure in-memory evaluation and read-only four-column/condition projections. Existing
+Pydantic is reused. A manually curated BMCC CS 2026–2027 draft and separate synthetic
+fixtures establish regressions without exposing a new API. Allocation proposals
+are globally validated; automatic allocation search, publication, persistence and
+full-degree auditing are not implemented. No frontend calculations or health
+contract changed. See [rules model](ACADEMIC_RULES_MODEL.md),
+[sources](BMCC_CATALOG_SOURCE_MAPPING.md) and [parity](V1_SELECTOR_PARITY.md).
+The remaining architecture below is a target, not a claim of delivered services.
 
 ## System boundaries
 

@@ -1,11 +1,13 @@
 # CUNY Advisor V2
 
-Phase 01A is a local application skeleton: an English landing page, a FastAPI
-health endpoint, and a connectivity indicator. This is an independent project,
+The local application has an English landing page, a FastAPI health endpoint,
+and a connectivity indicator with the Phase 01B design system. Phase 02A adds a
+backend-only, in-memory academic catalog/rules prototype and synthetic tests.
+This is an independent project,
 starting with BMCC; it does not imply CUNY or BMCC approval.
 
 There are no accounts, student workspaces, database models/migrations, CMS,
-Gemini calls, degree audits/plans, or transcript handling. Do not enter real student
+Gemini calls, complete graduation audits/plans, or transcript handling. Do not enter real student
 information. V1 is reference-only and is not used by either application.
 
 ## Requirements
@@ -114,13 +116,20 @@ it on GitHub. Stop either local server with Ctrl+C.
 - `frontend/src/app/`: App Router page/layout/styles and fixed health proxy.
 - `frontend/src/components/`: client-side connectivity indicator.
 - `backend/app/`: FastAPI entry point and versioned health router.
-- `backend/tests/`: health contract, allowed method and route-scope checks.
-- `docs/`: future architecture and governance plans, not implemented features.
+- `backend/app/academic/`: typed contracts, partial draft fixture, pure evaluator and projections; no new API.
+- `backend/tests/`: unchanged health checks and synthetic academic regressions.
+- `docs/`: implementation boundaries, source mapping and future architecture/governance plans.
 - `AGENTS.md`: current authorization and contributor instructions.
 
 See [the roadmap](docs/IMPLEMENTATION_ROADMAP.md) and
 [decision register](docs/DECISIONS.md). Phase 01A does not fulfill the broader
 Phase 01 acceptance criteria. Further implementation requires separate authorization.
+
+For the Phase 02A prototype, run backend pytest above and read the
+[rules model](docs/ACADEMIC_RULES_MODEL.md),
+[source mapping](docs/BMCC_CATALOG_SOURCE_MAPPING.md) and
+[selector parity](docs/V1_SELECTOR_PARITY.md). The reference fixture is not
+institutionally approved. No academic service is exposed in the landing page.
 
 ## Verification record
 

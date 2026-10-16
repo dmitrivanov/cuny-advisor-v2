@@ -1,0 +1,1089 @@
+{
+  "schema_version": "1",
+  "id": "bmcc-cs-as-2026-2027-draft-1",
+  "campus_id": "bmcc",
+  "catalog_year": "2026-2027",
+  "program": {
+    "id": "bmcc-program-cs-as",
+    "campus_id": "bmcc"
+  },
+  "credential": "AS",
+  "state": "draft",
+  "sources": [
+    {
+      "id": "program-f1",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Footnotes / 1",
+      "state": "source_verified",
+      "year_confirmed": true,
+      "note": "Observed on official BMCC page; no institutional academic approval."
+    },
+    {
+      "id": "program-f2",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Footnotes / 2",
+      "state": "source_verified",
+      "year_confirmed": true,
+      "note": "Observed on official BMCC page; no institutional academic approval."
+    },
+    {
+      "id": "program-f3",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Footnotes / 3",
+      "state": "source_verified",
+      "year_confirmed": true,
+      "note": "Observed on official BMCC page; no institutional academic approval."
+    },
+    {
+      "id": "program-f4",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Footnotes / 4",
+      "state": "source_verified",
+      "year_confirmed": true,
+      "note": "Observed on official BMCC page; no institutional academic approval."
+    },
+    {
+      "id": "program-f5",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Footnotes / 5",
+      "state": "source_verified",
+      "year_confirmed": true,
+      "note": "Observed on official BMCC page; no institutional academic approval."
+    },
+    {
+      "id": "program-f6",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Footnotes / 6",
+      "state": "source_verified",
+      "year_confirmed": true,
+      "note": "Observed on official BMCC page; no institutional academic approval."
+    },
+    {
+      "id": "program-f7",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Footnotes / 7",
+      "state": "source_verified",
+      "year_confirmed": true,
+      "note": "Observed on official BMCC page; no institutional academic approval."
+    },
+    {
+      "id": "program-totals",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Requirements / section totals and catalog-year note",
+      "state": "source_verified",
+      "year_confirmed": true,
+      "note": "Observed on official BMCC page; no institutional academic approval."
+    },
+    {
+      "id": "program-major",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Curriculum Requirements / CSC courses and MAT 302",
+      "state": "source_verified",
+      "year_confirmed": true,
+      "note": "Observed on official BMCC page; no institutional academic approval."
+    },
+    {
+      "id": "math-current",
+      "url": "https://www.bmcc.cuny.edu/academics/pathways/mathematical-and-quantitative-reasoning/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "MAT 206, MAT 206.5, MAT 301 and MAT 302",
+      "state": "provisional",
+      "year_confirmed": false,
+      "note": "Current course text observed; 2026\u20132027 applicability, grades and placement alternatives not confirmed."
+    },
+    {
+      "id": "science-current",
+      "url": "https://www.bmcc.cuny.edu/academics/pathways/scientific-world/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "CSC 101 and CSC 111",
+      "state": "provisional",
+      "year_confirmed": false,
+      "note": "Credits and course text observed; year and program-specific prerequisite interpretation need review."
+    },
+    {
+      "id": "physics-current",
+      "url": "https://www.bmcc.cuny.edu/academics/pathways/life-and-physical-sciences/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "PHY 215",
+      "state": "provisional",
+      "year_confirmed": false,
+      "note": "Four credits and MAT 302 corequisite observed; year and credit exclusions need review."
+    },
+    {
+      "id": "cis-current",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/course-listings/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "CIS 317 and CIS 345",
+      "state": "provisional",
+      "year_confirmed": false,
+      "note": "Current credits observed (4 and 3); catalog-year applicability unconfirmed."
+    },
+    {
+      "id": "pathways-current",
+      "url": "https://www.bmcc.cuny.edu/academics/pathways/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Common Core / AA, AS, AAS and discipline limit",
+      "state": "provisional",
+      "year_confirmed": false,
+      "note": "Shared framework observed; exact program/year bindings require review. AAS is not assumed identical."
+    },
+    {
+      "id": "math-department-current",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/math/course-listings/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "MAT 206, MAT 206.5, MAT 301 and MAT 302",
+      "state": "provisional",
+      "year_confirmed": false,
+      "note": "Course chain corroborated by department page; exact 2026\u20132027 grade/placement applicability unconfirmed."
+    },
+    {
+      "id": "math-placement-current",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/math/testing-and-placement/",
+      "retrieved_on": "2026-10-16",
+      "catalog_year": "2026-2027",
+      "section": "Requirements for 200 and 300 Level Courses",
+      "state": "provisional",
+      "year_confirmed": false,
+      "note": "Placement/exemption pathways observed; applicability and authorization semantics not encoded."
+    }
+  ],
+  "categories": [
+    {
+      "id": "english",
+      "label": "English Composition"
+    },
+    {
+      "id": "math",
+      "label": "Mathematical and Quantitative Reasoning"
+    },
+    {
+      "id": "science",
+      "label": "Life and Physical Sciences"
+    },
+    {
+      "id": "creative",
+      "label": "Creative Expression"
+    },
+    {
+      "id": "individual",
+      "label": "Individual and Society"
+    },
+    {
+      "id": "scientific",
+      "label": "Scientific World"
+    },
+    {
+      "id": "us",
+      "label": "U.S. Experience in Its Diversity"
+    },
+    {
+      "id": "world",
+      "label": "World Cultures and Global Issues"
+    }
+  ],
+  "courses": [
+    {
+      "identity": {
+        "id": "bmcc-course-mat-206",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-MAT-206",
+      "code": "MAT 206",
+      "title": "Precalculus",
+      "credits": "4",
+      "discipline": null,
+      "source_ids": [
+        "math-current"
+      ],
+      "prerequisite": {
+        "id": "mat206-prereq",
+        "expression": {
+          "op": "unknown",
+          "reason": "MAT 157 / MAT 157.5, placement and grade policies need release review"
+        },
+        "source_ids": [
+          "math-current"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-mat-206dot5",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-MAT-206.5",
+      "code": "MAT 206.5",
+      "title": "Title not captured in this bounded fixture",
+      "credits": "4",
+      "discipline": null,
+      "source_ids": [
+        "math-current"
+      ],
+      "prerequisite": {
+        "id": "mat206dot5-prereq",
+        "expression": {
+          "op": "unknown",
+          "reason": "Placement / departmental approval semantics not implemented"
+        },
+        "source_ids": [
+          "math-current"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-mat-301",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-MAT-301",
+      "code": "MAT 301",
+      "title": "Analytic Geometry and Calculus I",
+      "credits": "4",
+      "discipline": null,
+      "source_ids": [
+        "math-current"
+      ],
+      "prerequisite": {
+        "id": "mat301-prereq",
+        "expression": {
+          "op": "any",
+          "children": [
+            {
+              "op": "completed",
+              "course_id": "bmcc-course-mat-206"
+            },
+            {
+              "op": "completed",
+              "course_id": "bmcc-course-mat-206dot5"
+            }
+          ]
+        },
+        "source_ids": [
+          "math-current",
+          "math-department-current",
+          "math-placement-current"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-mat-302",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-MAT-302",
+      "code": "MAT 302",
+      "title": "Analytic Geometry and Calculus II",
+      "credits": "4",
+      "discipline": null,
+      "source_ids": [
+        "program-major"
+      ],
+      "prerequisite": {
+        "id": "mat302-prereq",
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "completed",
+              "course_id": "bmcc-course-mat-301"
+            },
+            {
+              "op": "unknown",
+              "reason": "Minimum grade, placement/exemption and release applicability require academic review"
+            }
+          ]
+        },
+        "source_ids": [
+          "program-major",
+          "math-placement-current"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-phy-215",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-PHY-215",
+      "code": "PHY 215",
+      "title": "University Physics I",
+      "credits": "4",
+      "discipline": null,
+      "source_ids": [
+        "physics-current"
+      ],
+      "corequisite": {
+        "id": "phy215-coreq",
+        "expression": {
+          "op": "completed",
+          "course_id": "bmcc-course-mat-302"
+        },
+        "source_ids": [
+          "physics-current"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-csc-101",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CSC-101",
+      "code": "CSC 101",
+      "title": "Principles in Information Technology and Computation",
+      "credits": "3",
+      "discipline": null,
+      "source_ids": [
+        "science-current"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-csc-111",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CSC-111",
+      "code": "CSC 111",
+      "title": "Introduction to Programming",
+      "credits": "4",
+      "discipline": null,
+      "source_ids": [
+        "science-current"
+      ],
+      "prerequisite": {
+        "id": "csc111-prereq",
+        "expression": {
+          "op": "unknown",
+          "reason": "Program-qualified alternate prerequisites and departmental approval need reconciliation"
+        },
+        "source_ids": [
+          "science-current"
+        ]
+      }
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-csc-211",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CSC-211",
+      "code": "CSC 211",
+      "title": "Advanced Programming Techniques",
+      "credits": "3",
+      "discipline": null,
+      "source_ids": [
+        "program-major"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-csc-215",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CSC-215",
+      "code": "CSC 215",
+      "title": "Fundamentals of Computer Systems",
+      "credits": "3",
+      "discipline": null,
+      "source_ids": [
+        "program-major"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-csc-231",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CSC-231",
+      "code": "CSC 231",
+      "title": "Discrete Structures and Applications to Computer Science",
+      "credits": "4",
+      "discipline": null,
+      "source_ids": [
+        "program-major"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-csc-331",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CSC-331",
+      "code": "CSC 331",
+      "title": "Data Structures",
+      "credits": "3",
+      "discipline": null,
+      "source_ids": [
+        "program-major"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-csc-350",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CSC-350",
+      "code": "CSC 350",
+      "title": "Software Development",
+      "credits": "3",
+      "discipline": null,
+      "source_ids": [
+        "program-major"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-spe-100",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-SPE-100",
+      "code": "SPE 100",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f4"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-spe-102",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-SPE-102",
+      "code": "SPE 102",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f4"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-317",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-317",
+      "code": "CIS 317",
+      "title": "Title not captured in this bounded fixture",
+      "credits": "4",
+      "discipline": null,
+      "source_ids": [
+        "cis-current"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-345",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-345",
+      "code": "CIS 345",
+      "title": "Title not captured in this bounded fixture",
+      "credits": "3",
+      "discipline": null,
+      "source_ids": [
+        "cis-current"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-359",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-359",
+      "code": "CIS 359",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-362",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-362",
+      "code": "CIS 362",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-364",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-364",
+      "code": "CIS 364",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-385",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-385",
+      "code": "CIS 385",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-395",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-395",
+      "code": "CIS 395",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-csc-103",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CSC-103",
+      "code": "CSC 103",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-gis-201",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-GIS-201",
+      "code": "GIS 201",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-316",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-316",
+      "code": "CIS 316",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-272",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-272",
+      "code": "CIS 272",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-285",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-285",
+      "code": "CIS 285",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-csc-203",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CSC-203",
+      "code": "CSC 203",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    },
+    {
+      "identity": {
+        "id": "bmcc-course-cis-375",
+        "campus_id": "bmcc"
+      },
+      "version_id": "cs-2627-CIS-375",
+      "code": "CIS 375",
+      "title": "Title not captured in this bounded fixture",
+      "credits": null,
+      "discipline": null,
+      "source_ids": [
+        "program-f6"
+      ]
+    }
+  ],
+  "requirements": [
+    {
+      "id": "english",
+      "label": "English Composition",
+      "column": "Required Common Core",
+      "category_id": "english",
+      "kind": "required",
+      "target_credits": "6",
+      "rule": {
+        "id": "english-rule",
+        "expression": {
+          "op": "unknown",
+          "reason": "Eligible English pool and sequence not captured"
+        },
+        "source_ids": [
+          "program-totals"
+        ]
+      }
+    },
+    {
+      "id": "math",
+      "label": "Mathematical and Quantitative Reasoning",
+      "column": "Required Common Core",
+      "category_id": "math",
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "math-rule",
+        "expression": {
+          "op": "any",
+          "children": [
+            {
+              "op": "completed",
+              "course_id": "bmcc-course-mat-206"
+            },
+            {
+              "op": "completed",
+              "course_id": "bmcc-course-mat-301"
+            }
+          ]
+        },
+        "source_ids": [
+          "program-f1"
+        ]
+      }
+    },
+    {
+      "id": "life-science",
+      "label": "Life and Physical Sciences",
+      "column": "Required Common Core",
+      "category_id": "science",
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "life-science-rule",
+        "expression": {
+          "op": "completed",
+          "course_id": "bmcc-course-phy-215"
+        },
+        "source_ids": [
+          "program-f2"
+        ]
+      }
+    },
+    {
+      "id": "creative",
+      "label": "Creative Expression",
+      "column": "Flexible Core",
+      "category_id": "creative",
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "creative-rule",
+        "expression": {
+          "op": "unknown",
+          "reason": "Full release-specific eligible category pool not captured"
+        },
+        "source_ids": [
+          "program-totals"
+        ]
+      }
+    },
+    {
+      "id": "individual",
+      "label": "Individual and Society",
+      "column": "Flexible Core",
+      "category_id": "individual",
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "individual-rule",
+        "expression": {
+          "op": "unknown",
+          "reason": "Full release-specific eligible category pool not captured"
+        },
+        "source_ids": [
+          "program-totals"
+        ]
+      }
+    },
+    {
+      "id": "us",
+      "label": "U.S. Experience in Its Diversity",
+      "column": "Flexible Core",
+      "category_id": "us",
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "us-rule",
+        "expression": {
+          "op": "unknown",
+          "reason": "Full release-specific eligible category pool not captured"
+        },
+        "source_ids": [
+          "program-totals"
+        ]
+      }
+    },
+    {
+      "id": "world",
+      "label": "World Cultures and Global Issues",
+      "column": "Flexible Core",
+      "category_id": "world",
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "world-rule",
+        "expression": {
+          "op": "unknown",
+          "reason": "Full release-specific eligible category pool not captured"
+        },
+        "source_ids": [
+          "program-totals"
+        ]
+      }
+    },
+    {
+      "id": "scientific",
+      "label": "Scientific World",
+      "column": "Flexible Core",
+      "category_id": "scientific",
+      "kind": "required",
+      "target_credits": "6",
+      "rule": {
+        "id": "scientific-rule",
+        "expression": {
+          "op": "all",
+          "children": [
+            {
+              "op": "completed",
+              "course_id": "bmcc-course-csc-101"
+            },
+            {
+              "op": "completed",
+              "course_id": "bmcc-course-csc-111"
+            }
+          ]
+        },
+        "source_ids": [
+          "program-f5"
+        ]
+      }
+    },
+    {
+      "id": "creative-advice",
+      "label": "Speech course advice",
+      "column": "Flexible Core",
+      "category_id": "creative",
+      "kind": "recommended",
+      "target_credits": null,
+      "rule": {
+        "id": "creative-advice-rule",
+        "expression": {
+          "op": "any",
+          "children": [
+            {
+              "op": "completed",
+              "course_id": "bmcc-course-spe-100"
+            },
+            {
+              "op": "completed",
+              "course_id": "bmcc-course-spe-102"
+            }
+          ]
+        },
+        "source_ids": [
+          "program-f4"
+        ]
+      }
+    },
+    {
+      "id": "csc-211",
+      "label": "CSC 211",
+      "column": "Major Requirements",
+      "category_id": null,
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "csc-211-rule",
+        "expression": {
+          "op": "completed",
+          "course_id": "bmcc-course-csc-211"
+        },
+        "source_ids": [
+          "program-major"
+        ]
+      }
+    },
+    {
+      "id": "csc-215",
+      "label": "CSC 215",
+      "column": "Major Requirements",
+      "category_id": null,
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "csc-215-rule",
+        "expression": {
+          "op": "completed",
+          "course_id": "bmcc-course-csc-215"
+        },
+        "source_ids": [
+          "program-major"
+        ]
+      }
+    },
+    {
+      "id": "csc-231",
+      "label": "CSC 231",
+      "column": "Major Requirements",
+      "category_id": null,
+      "kind": "required",
+      "target_credits": "4",
+      "rule": {
+        "id": "csc-231-rule",
+        "expression": {
+          "op": "completed",
+          "course_id": "bmcc-course-csc-231"
+        },
+        "source_ids": [
+          "program-major"
+        ]
+      }
+    },
+    {
+      "id": "csc-331",
+      "label": "CSC 331",
+      "column": "Major Requirements",
+      "category_id": null,
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "csc-331-rule",
+        "expression": {
+          "op": "completed",
+          "course_id": "bmcc-course-csc-331"
+        },
+        "source_ids": [
+          "program-major"
+        ]
+      }
+    },
+    {
+      "id": "csc-350",
+      "label": "CSC 350",
+      "column": "Major Requirements",
+      "category_id": null,
+      "kind": "required",
+      "target_credits": "3",
+      "rule": {
+        "id": "csc-350-rule",
+        "expression": {
+          "op": "completed",
+          "course_id": "bmcc-course-csc-350"
+        },
+        "source_ids": [
+          "program-major"
+        ]
+      }
+    },
+    {
+      "id": "mat-302",
+      "label": "MAT 302",
+      "column": "Major Requirements",
+      "category_id": null,
+      "kind": "required",
+      "target_credits": "4",
+      "rule": {
+        "id": "mat-302-rule",
+        "expression": {
+          "op": "completed",
+          "course_id": "bmcc-course-mat-302"
+        },
+        "source_ids": [
+          "program-major"
+        ]
+      }
+    },
+    {
+      "id": "general-elective",
+      "label": "General Elective / STEM variant allocation pending",
+      "column": "Major Requirements",
+      "category_id": null,
+      "kind": "required",
+      "target_credits": "4",
+      "rule": {
+        "id": "general-elective-rule",
+        "expression": {
+          "op": "unknown",
+          "reason": "Four-credit general elective and permitted Common Core STEM variant allocation need review"
+        },
+        "source_ids": [
+          "program-f7"
+        ]
+      }
+    },
+    {
+      "id": "major-electives",
+      "label": "Program Electives",
+      "column": "Major Electives",
+      "category_id": null,
+      "kind": "required",
+      "target_credits": "6",
+      "rule": {
+        "id": "major-electives-rule",
+        "expression": {
+          "op": "credits",
+          "eligible": [
+            "bmcc-course-cis-317",
+            "bmcc-course-cis-345",
+            "bmcc-course-cis-359",
+            "bmcc-course-cis-362",
+            "bmcc-course-cis-364",
+            "bmcc-course-cis-385",
+            "bmcc-course-cis-395",
+            "bmcc-course-csc-103",
+            "bmcc-course-gis-201",
+            "bmcc-course-cis-316",
+            "bmcc-course-cis-272",
+            "bmcc-course-cis-285",
+            "bmcc-course-csc-203",
+            "bmcc-course-cis-375"
+          ],
+          "minimum": "6"
+        },
+        "source_ids": [
+          "program-f6"
+        ]
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "id": "flexible-discipline-cap",
+      "expression": {
+        "op": "discipline_cap",
+        "maximum": 2
+      },
+      "source_ids": [
+        "program-f3"
+      ]
+    }
+  ],
+  "declared_totals": [
+    {
+      "label": "Required Common Core",
+      "credits": "12",
+      "source_ids": [
+        "program-totals"
+      ]
+    },
+    {
+      "label": "Flexible Core",
+      "credits": "18",
+      "source_ids": [
+        "program-totals"
+      ]
+    },
+    {
+      "label": "Common Core",
+      "credits": "30",
+      "source_ids": [
+        "program-totals"
+      ]
+    },
+    {
+      "label": "Curriculum Requirements",
+      "credits": "30",
+      "source_ids": [
+        "program-totals"
+      ]
+    },
+    {
+      "label": "Degree",
+      "credits": "60",
+      "source_ids": [
+        "program-totals"
+      ]
+    }
+  ],
+  "issues": [
+    "partial_reference_fixture_not_graduation_audit",
+    "stem_credit_allocation_unresolved",
+    "discipline_classifications_unverified",
+    "academic_approval_not_established"
+  ]
+}

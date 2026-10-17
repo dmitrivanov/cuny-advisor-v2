@@ -285,3 +285,32 @@ select MAT 301 / CSC 101, return to chat, verify context, run hypothetical progr
 inspect unresolved/prerequisite evidence, switch to partial CIS and confirm selection
 reset. Try an unsupported question, future module, missing deep link and DB offline.
 Use keyboard-only navigation and narrow viewport. No real student input.
+
+## Optional Phase 04A Gemini conversation
+
+Disabled by default. Fictional information only; no institutional approval or real
+student records. The backend uses the maintained Google GenAI SDK. The browser
+never receives a key. Existing local navigation and academic tools work without AI.
+
+Manually configure ignored `backend/.env.local` from `backend/.env.example` without
+overwriting existing secrets. Start/restart **only your V2 backend** from `backend`:
+
+```sh
+.venv/bin/python -m pip install -r requirements-dev.txt
+.venv/bin/python -m scripts.run_local --port 8000
+```
+
+Existing process environment wins over the explicit dotenv file. Preserve your
+existing exported local V2 database settings separately; no implicit migrations or
+imports occur. Keep Next.js bound to loopback with existing `API_BASE_URL`.
+Open `/campus/bmcc`, opt into fictional external AI, send a natural message and
+review proposed changes before Apply. The existing readiness UI chooses the next
+question; existing sourced academic modules retain all academic authority.
+
+Optional owner-only live smoke through the frontend proxy (one fictional turn):
+`cd backend && .venv/bin/python -m scripts.smoke_gemini --live`.
+Without `--live` it makes no requests; no live request runs in CI.
+
+See [configuration, limits and security](docs/GEMINI_GATEWAY.md),
+[session/confirmation flow](docs/CONVERSATION_ORCHESTRATION.md) and
+[actual checks/screenshots](docs/PHASE_04A_VERIFICATION.md). No deployment is authorized.

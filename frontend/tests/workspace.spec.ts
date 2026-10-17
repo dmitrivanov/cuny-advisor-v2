@@ -226,7 +226,7 @@ test("unsupported prompt discloses deterministic boundary; future deep link offe
   await page.goto("/campus/bmcc");
   await prompt(page, "Am I eligible to graduate?");
   await expect(
-    page.getByText(/Live AI advising is not available yet/),
+    page.getByText(/Live AI advising is not available in local mode/),
   ).toBeVisible();
   await page.goto("/campus/bmcc#planner");
   await expect(page.getByText(/Not implemented. No upload/)).toBeVisible();

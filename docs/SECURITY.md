@@ -125,3 +125,9 @@ Production-like readiness additionally requires tested deletion/restore behavior
 an incident owner and response plan, privileged access review, dependency review,
 and approval of retention, hosting and provider arrangements. Phase 01 tests use
 synthetic payloads and disposable local resources only after authorization.
+
+## Phase 04A local-only controls
+
+The new conversation route is loopback-only and explicitly disabled without local configuration. The same-origin proxy, bounded body, random session quotas, provider timeout/retry bounds and confirmation checks are implemented prototype controls, not authenticated student access. No real student data is authorized. All provider prose remains unverified; PII/injection heuristics are incomplete. External-provider privacy/institutional review remains required. No request/response body logging or persistent conversation storage is introduced.
+
+See [Gemini gateway](GEMINI_GATEWAY.md), [orchestration](CONVERSATION_ORCHESTRATION.md) and [verification](PHASE_04A_VERIFICATION.md).

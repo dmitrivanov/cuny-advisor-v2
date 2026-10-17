@@ -323,3 +323,9 @@ assistant immediately. Hover/focus provides transient context; other campuses sh
 only an unavailable notice with a Dismiss button. Chat offers “Back to campuses.”
 The graph stays spatial on mobile; only decorative arcs move, paused during
 interaction and absent under reduced motion. No dashboard or module menu was added.
+
+## Phase 04A — optional fictional natural conversation
+
+BMCC chat shows a concise Google Gemini privacy notice only when the local backend is configured. Without consent, existing supported prompts remain. After consent, natural messages show user/AI-labelled responses, loading, safe fallback and allowlisted action buttons. Proposed profile/goal changes appear in a compact Apply/Discard review; stale context disables Apply. Confirmation recomputes the existing one-question readiness flow. No wizard, dashboard or default grades. Catalog/selector/progress retain exact context and unresolved outcomes.
+
+See [Gemini gateway](GEMINI_GATEWAY.md), [orchestration](CONVERSATION_ORCHESTRATION.md) and [verification](PHASE_04A_VERIFICATION.md).

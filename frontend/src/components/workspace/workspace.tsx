@@ -13,6 +13,15 @@ import {
   interpretBounded,
   validateProposal,
 } from "@/lib/advising/orchestration";
+import {
+  conversationFacts,
+  decodeConversation,
+  confirmConversation,
+  describeReported,
+  fieldLabel,
+} from "@/lib/advising/conversation";
+import { goalLabels } from "@/lib/advising/readiness";
+import type { ConversationProposal } from "@/lib/advising/orchestration";
 import type { Campus } from "@/lib/advising/campuses";
 import { AcademicIcon } from "@/components/academic-icon";
 import { GlassPanel } from "@/components/ui/glass-panel";
@@ -37,7 +46,12 @@ import {
 const contextKey = (
   item: Pick<Summary, "campus_id" | "program_id" | "release_id">,
 ) => JSON.stringify([item.campus_id, item.program_id, item.release_id]);
-type Message = { role: "you" | "guide"; text: string; actions?: ModuleId[] };
+type Message = {
+  role: "you" | "guide";
+  text: string;
+  actions?: ModuleId[];
+  ai?: boolean;
+};
 export function Workspace({ campus }: { campus: Campus }) {
   const { advising, setAdvising } = useAdvising();
   useEffect(
@@ -59,10 +73,36 @@ export function Workspace({ campus }: { campus: Campus }) {
   const returnFocus = useRef<HTMLElement | null>(null);
   const previousModule = useRef<ModuleId>("chat");
   const [input, setInput] = useState("");
+  const [aiAvailable, setAiAvailable] = useState(false);
+  const [consent, setConsent] = useState(false);
+  const [busy, setBusy] = useState(false);
+  const [aiError, setAiError] = useState("");
+  const [pending, setPending] = useState<{
+    proposal: ConversationProposal;
+    snapshot: string;
+  } | null>(null);
+  const aiSession = useRef<string | null>(null);
+  const aiAbort = useRef<AbortController | null>(null);
+  useEffect(() => {
+    const controller = new AbortController();
+    fetch("/api/conversation/status", {
+      cache: "no-store",
+      signal: controller.signal,
+    })
+      .then((r) => (r.ok ? r.json() : null))
+      .then((value) => {
+        if (value?.enabled === true) setAiAvailable(true);
+      })
+      .catch(() => {});
+    return () => {
+      controller.abort();
+      aiAbort.current?.abort();
+    };
+  }, []);
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "guide",
-      text: `Hi! I’m the ${campus.shortName} advising assistant prototype. What would you like help with today? Supported prompts and fictional information only.`,
+      text: `Hi! I’m the ${campus.shortName} advising assistant prototype. What would you like help with today? Fictional information only.`,
       actions: ["completed"],
     },
   ]);
@@ -205,7 +245,7 @@ export function Workspace({ campus }: { campus: Campus }) {
     window.history.pushState(null, "", url);
     readLocation();
   }
-  function send(text: string) {
+  function sendLocal(text: string) {
     if (!text.trim()) return;
     const proposal = interpretBounded(text);
     const accepted = proposal && validateProposal(proposal, advising);
@@ -224,6 +264,96 @@ export function Workspace({ campus }: { campus: Campus }) {
       { role: "guide", ...reply },
     ]);
     setInput("");
+  }
+  async function send(text: string) {
+    if (!text.trim() || busy) return;
+    if (!aiAvailable || !consent) {
+      sendLocal(text);
+      return;
+    }
+    setBusy(true);
+    setAiError("");
+    setPending(null);
+    setInput("");
+    const snapshot = JSON.stringify(advising);
+    setMessages((items) => [
+      ...items.slice(-37),
+      { role: "you", text: text.trim().slice(0, 600) },
+    ]);
+    const controller = new AbortController();
+    aiAbort.current = controller;
+    const timer = setTimeout(() => controller.abort(), 30000);
+    try {
+      if (!aiSession.current) {
+        const response = await fetch("/api/conversation/session", {
+          method: "POST",
+          signal: controller.signal,
+        });
+        if (!response.ok) throw new Error();
+        const session = await response.json();
+        if (typeof session.session_id !== "string") throw new Error();
+        aiSession.current = session.session_id;
+      }
+      const response = await fetch("/api/conversation", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        cache: "no-store",
+        signal: controller.signal,
+        body: JSON.stringify({
+          session_id: aiSession.current,
+          campus_id: campus.id,
+          message: text.trim().slice(0, 600),
+          facts: conversationFacts(advising),
+          goal: advising.session.primaryGoal,
+          history: messages.slice(-8).map(({ role, text }) => ({ role, text })),
+          external_ai_consent: true,
+          module: ["catalog", "completed", "progress"].includes(state.active)
+            ? state.active
+            : "chat",
+          catalog_context: state.catalog
+            ? {
+                campus_id: state.catalog.release.campus_id,
+                program_id: state.catalog.release.program.id,
+                release_id: state.catalog.release.id,
+                applicability: "unresolved",
+              }
+            : null,
+        }),
+      });
+      if (!response.ok) throw new Error();
+      const value: unknown = await response.json();
+      if (
+        value &&
+        typeof value === "object" &&
+        "mode" in value &&
+        value.mode === "fallback"
+      )
+        throw new Error();
+      const proposal = decodeConversation(value, advising);
+      if (!proposal) throw new Error();
+      if (proposal.updates.length || proposal.goal)
+        setPending({ proposal, snapshot });
+      setMessages((items) => [
+        ...items,
+        {
+          role: "guide",
+          text: proposal.message,
+          actions: proposal.actions,
+          ai: true,
+        },
+      ]);
+    } catch {
+      if (!controller.signal.aborted || aiAbort.current === controller) {
+        setAiError(
+          "AI conversation is unavailable or its proposal was rejected. Local navigation remains available.",
+        );
+        const reply = guidance(text);
+        setMessages((items) => [...items, { role: "guide", ...reply }]);
+      }
+    } finally {
+      clearTimeout(timer);
+      setBusy(false);
+    }
   }
   const active = modules.find((module) => module.id === state.active)!;
   const catalog = state.catalog;
@@ -268,12 +398,13 @@ export function Workspace({ campus }: { campus: Campus }) {
           <span className="brand-mark">
             <AcademicIcon name="compass" className="size-5" />
           </span>
-          <strong>
-            CUNY Advisor
-          </strong>
+          <strong>CUNY Advisor</strong>
         </a>
         <div className="flex flex-wrap items-center gap-3 text-xs text-muted">
-          <span>{campus.shortName} · No live AI</span>
+          <span>
+            {campus.shortName} ·{" "}
+            {aiAvailable && consent ? "AI conversation" : "No live AI"}
+          </span>
           <Link className="source-link" href="/">
             Back to campuses
           </Link>
@@ -318,7 +449,11 @@ export function Workspace({ campus }: { campus: Campus }) {
                   className={`message message--${message.role}`}
                 >
                   <p className="mb-2 text-xs font-semibold text-muted">
-                    {message.role === "you" ? "You" : "Local guide"}
+                    {message.role === "you"
+                      ? "You"
+                      : message.ai
+                        ? "AI assistant · Unverified conversation"
+                        : "Local guide"}
                   </p>
                   <p className="whitespace-pre-wrap text-sm leading-7">
                     {message.text}
@@ -340,6 +475,104 @@ export function Workspace({ campus }: { campus: Campus }) {
                 </article>
               ))}
             </div>
+            {aiAvailable && (
+              <div className="adaptive-question mt-4">
+                <p className="text-sm">
+                  Optional AI conversation sends your fictional messages and
+                  limited profile context to Google Gemini. No real transcripts,
+                  student IDs, SSNs or sensitive records. Independent prototype;
+                  no institutional approval.
+                </p>
+                <label className="field-label mt-2">
+                  <input
+                    type="checkbox"
+                    checked={consent}
+                    disabled={busy}
+                    onChange={(event) => {
+                      setConsent(event.target.checked);
+                      setPending(null);
+                    }}
+                  />{" "}
+                  Use external AI for fictional conversation
+                </label>
+              </div>
+            )}
+            {busy && (
+              <p role="status" className="mt-3 text-sm">
+                Preparing a response…
+              </p>
+            )}
+            {aiError && (
+              <p role="alert" className="workspace-notice mt-3">
+                {aiError}{" "}
+                <button
+                  type="button"
+                  className="source-link"
+                  onClick={() => {
+                    setConsent(false);
+                    setPending(null);
+                  }}
+                >
+                  Use local mode
+                </button>
+              </p>
+            )}
+            {pending && (
+              <section
+                className="adaptive-question mt-4"
+                aria-label="Review proposed fictional changes"
+              >
+                <h2 className="text-sm font-semibold">
+                  Review proposed fictional changes
+                </h2>
+                <p className="text-xs">
+                  Nothing has changed yet. Confirm corrections explicitly;
+                  conflicting confirmed facts are never overwritten
+                  automatically.
+                </p>
+                <ul className="my-3 text-sm">
+                  {pending.proposal.updates.map((update) => (
+                    <li key={update.key}>
+                      {fieldLabel(update.key)}:{" "}
+                      {describeReported(
+                        update.fact.state === "known"
+                          ? update.fact.value
+                          : null,
+                      )}
+                    </li>
+                  ))}
+                  {pending.proposal.goal && (
+                    <li>Goal: {goalLabels[pending.proposal.goal]}</li>
+                  )}
+                </ul>
+                {pending.snapshot !== JSON.stringify(advising) && (
+                  <p role="alert">
+                    Context changed. Discard these changes and ask again.
+                  </p>
+                )}
+                <GlassButton
+                  disabled={pending.snapshot !== JSON.stringify(advising)}
+                  onClick={() => {
+                    setAdvising((current) =>
+                      confirmConversation(
+                        current,
+                        pending.proposal,
+                        pending.snapshot,
+                      ),
+                    );
+                    setPending(null);
+                  }}
+                >
+                  Apply reported changes
+                </GlassButton>{" "}
+                <GlassButton
+                  variant="secondary"
+                  onClick={() => setPending(null)}
+                >
+                  Discard changes
+                </GlassButton>
+              </section>
+            )}
             <form
               className="mt-6"
               onSubmit={(event) => {
@@ -348,7 +581,9 @@ export function Workspace({ campus }: { campus: Campus }) {
               }}
             >
               <label className="field-label" htmlFor="chat-input">
-                Your navigation prompt
+                {aiAvailable && consent
+                  ? "Your message"
+                  : "Your navigation prompt"}
               </label>
               <textarea
                 className="workspace-input mt-2"
@@ -357,13 +592,19 @@ export function Workspace({ campus }: { campus: Campus }) {
                 maxLength={600}
                 value={input}
                 onChange={(event) => setInput(event.target.value)}
-                placeholder="Try: Open completed courses"
+                placeholder={
+                  aiAvailable && consent
+                    ? "Tell me what you would like to explore"
+                    : "Try: Open completed courses"
+                }
               />
               <div className="mt-3 flex items-center justify-between gap-3">
                 <p className="text-xs text-muted">
-                  Supported prompts only. Messages stay in this tab.
+                  {aiAvailable && consent
+                    ? "Fictional information only. External AI is enabled."
+                    : "Supported prompts only. Messages stay in this tab."}
                 </p>
-                <GlassButton type="submit" disabled={!input.trim()}>
+                <GlassButton type="submit" disabled={!input.trim() || busy}>
                   Send
                 </GlassButton>
               </div>
@@ -602,7 +843,10 @@ export function Workspace({ campus }: { campus: Campus }) {
           </GlassPanel>
         )}
         <footer className="prototype-footer">
-          <p>Independent prototype · No live AI</p>
+          <p>
+            Independent prototype ·{" "}
+            {aiAvailable && consent ? "External AI conversation" : "No live AI"}
+          </p>
           <details>
             <summary>About this prototype</summary>
             <p>

@@ -3,13 +3,16 @@ import { useState } from "react";
 import type { Dispatch } from "react";
 import { GlassButton } from "@/components/ui/glass-button";
 import { getProgress } from "@/lib/workspace/api";
+import { courseTitle, selectorColumns } from "@/lib/workspace/presentation";
 import { previewBody } from "@/lib/workspace/state";
 import type { Action } from "@/lib/workspace/state";
 import type {
   Catalog,
   Course,
+  Group,
   Progress,
   Result,
+  RuleExpression,
   Summary,
   WorkspaceState,
 } from "@/lib/workspace/types";
@@ -17,11 +20,124 @@ import type {
 function CourseLabel({ course }: { course: Course }) {
   return (
     <>
-      <strong>{course.code}</strong> · {course.title}
-      <span className="block text-xs text-muted">
-        {course.credits ?? "Unknown"} catalog credits · {course.identity.id}
-      </span>
+      <strong className="course-code">{course.code}</strong>
+      <span className="course-title">{courseTitle(course)}</span>
     </>
+  );
+}
+function Condition({
+  expression,
+  catalog,
+}: {
+  expression: RuleExpression;
+  catalog: Catalog;
+}) {
+  const name = (id: string) =>
+    catalog.release.courses.find((course) => course.identity.id === id)?.code ??
+    "Course reference unavailable";
+  switch (expression.op) {
+    case "completed":
+      return (
+        <span>
+          {name(expression.course_id)}
+          {expression.minimum_grade_rank !== null
+            ? " (minimum grade condition; grade remains unknown)"
+            : ""}
+        </span>
+      );
+    case "all":
+    case "any":
+      return (
+        <div>
+          <p>{expression.op === "all" ? "All of:" : "Any of:"}</p>
+          <ul className="list-disc pl-5">
+            {expression.children.map((child, index) => (
+              <li key={index}>
+                <Condition expression={child} catalog={catalog} />
+              </li>
+            ))}
+          </ul>
+        </div>
+      );
+    case "credits":
+      return (
+        <span>
+          {expression.minimum} credits from{" "}
+          {expression.eligible.map(name).join(", ")}
+        </span>
+      );
+    case "unknown":
+      return <span>Unresolved: {expression.reason.replaceAll("_", " ")}</span>;
+    case "no_conditions":
+      return <span>No conditions in the captured rule.</span>;
+    case "discipline_cap":
+      return <span>Discipline course cap: {expression.maximum}</span>;
+  }
+}
+function ClassDetails({
+  course,
+  catalog,
+  group,
+}: {
+  course: Course;
+  catalog: Catalog;
+  group: Group;
+}) {
+  return (
+    <details className="class-details">
+      <summary>
+        Class details<span className="sr-only"> for {course.code}</span>
+      </summary>
+      <div className="space-y-2 text-xs text-muted">
+        <p>Catalog credits: {course.credits ?? "Not captured"}</p>
+        <p>
+          {group.kind} · target {group.target_credits ?? "not captured"}{" "}
+          credits. {group.condition_label}
+        </p>
+        <p>
+          Requirement applicability: {group.label}. Selection alone does not
+          establish satisfaction.
+        </p>
+        <div>
+          Prerequisites:{" "}
+          {course.prerequisite ? (
+            <Condition
+              expression={course.prerequisite.expression}
+              catalog={catalog}
+            />
+          ) : (
+            "Not captured; eligibility is unresolved."
+          )}
+        </div>
+        {course.corequisite && (
+          <div>
+            Corequisites:{" "}
+            <Condition
+              expression={course.corequisite.expression}
+              catalog={catalog}
+            />
+          </div>
+        )}
+        <p>
+          Source verification is not institutional approval. No section
+          availability is established.
+        </p>
+        {course.source_ids.map((id) => {
+          const source = catalog.release.sources.find((item) => item.id === id);
+          return source ? (
+            <p key={id}>
+              {source.section} · {source.state.replaceAll("_", " ")} · academic
+              review {source.academic_review}. {source.note}
+              {source.conflicts_with.length
+                ? " Conflicting evidence remains unresolved."
+                : ""}
+            </p>
+          ) : (
+            <p key={id}>Source details unavailable; unresolved.</p>
+          );
+        })}
+      </div>
+    </details>
   );
 }
 function Reason({ result }: { result: Result }) {
@@ -61,7 +177,8 @@ export function CatalogExplorer({
     <div className="space-y-6">
       <p className="text-sm text-muted">
         Read-only persisted draft ·{" "}
-        {catalog.release.campus_id === "bmcc" && catalog.release.program.id === "bmcc-program-cis-aas"
+        {catalog.release.campus_id === "bmcc" &&
+        catalog.release.program.id === "bmcc-program-cis-aas"
           ? "CIS is a partial reference. Missing groups, elective metadata and credit values remain unresolved."
           : "Reference data retains provisional and unresolved interpretations."}
       </p>
@@ -175,10 +292,9 @@ export function CompletedCourses({
   return (
     <div>
       <p className="mb-4 text-sm text-muted">
-        Hypothetical passed courses only. A shared course has one selection
-        across all columns. Columns show referenced course pools; not every
-        listed course is necessarily required. Selection neither allocates
-        credit nor waives prerequisites.
+        Select fictional passed courses. Shared courses are selected once.
+        Selection does not allocate credit, verify a record or waive
+        prerequisites.
       </p>
       <label className="field-label mb-5">
         Filter completed-course options
@@ -190,71 +306,139 @@ export function CompletedCourses({
         />
       </label>
       <div className="selector-grid">
-        {catalog.columns.map((column, columnIndex) => (
-          <section className="selector-column" key={column.title}>
-            <h3 className="mb-4 font-semibold">{column.title}</h3>
+        {selectorColumns(catalog.columns).map((column, columnIndex) => (
+          <section
+            className="selector-column"
+            key={column.title}
+            aria-label={column.title}
+          >
+            <h2 className="selector-heading">{column.title}</h2>
             {column.groups.length === 0 && (
-              <p className="text-sm text-muted">
-                No groups captured in this partial release.
+              <p className="requirement-card text-sm text-muted">
+                Requirements not yet captured in this partial release.
               </p>
             )}
-            {column.groups.map((group, groupIndex) => (
-              <fieldset className="mb-5 min-w-0" key={group.requirement_id}>
-                <legend className="mb-2 text-sm font-semibold text-brand">
-                  {group.label}
-                </legend>
-                <p className="mb-2 text-xs text-muted">
-                  {group.kind} · target {group.target_credits ?? "unknown"}{" "}
-                  credits
-                </p>
-                <p className="mb-2 text-xs text-muted">
-                  {group.condition_label}
-                </p>
-                {group.course_ids.length === 0 && (
-                  <p className="text-sm text-muted">
-                    Course pool not captured; review catalog evidence.
-                  </p>
-                )}
-                {group.course_ids.map((id) => {
-                  const course = catalog.release.courses.find(
+            {column.groups.map((group, groupIndex) => {
+              const courses = group.course_ids
+                .map((id) =>
+                  catalog.release.courses.find(
                     (course) => course.identity.id === id,
-                  );
-                  if (
-                    !course ||
-                    !`${course.code} ${course.title}`
-                      .toLowerCase()
-                      .includes(search.toLowerCase())
-                  )
-                    return null;
-                  return (
-                    <label
-                      key={id}
-                      className="course-choice"
-                      htmlFor={`course-${columnIndex}-${groupIndex}-${id}`}
-                    >
-                      <input
-                        id={`course-${columnIndex}-${groupIndex}-${id}`}
-                        type="checkbox"
-                        checked={state.selected.includes(id)}
-                        onChange={() =>
-                          dispatch({ type: "toggle", course: id })
-                        }
-                      />
-                      <span>
-                        <CourseLabel course={course} />
-                      </span>
-                    </label>
-                  );
-                })}
-              </fieldset>
-            ))}
+                  ),
+                )
+                .filter((course): course is Course => !!course);
+              const visible = courses.filter((course) =>
+                `${course.code} ${courseTitle(course)}`
+                  .toLowerCase()
+                  .includes(search.toLowerCase()),
+              );
+              if (search && courses.length && !visible.length) return null;
+              return (
+                <fieldset className="selector-group" key={group.requirement_id}>
+                  <legend
+                    className={
+                      courses.length === 1 && group.label === courses[0].code
+                        ? "sr-only"
+                        : "group-label"
+                    }
+                  >
+                    {group.label}
+                    {group.kind === "recommended" ? " · Recommended" : ""}
+                  </legend>
+                  {!courses.length && (
+                    <div className="requirement-card">
+                      <p className="text-sm">
+                        Eligible courses not yet verified · unresolved
+                      </p>
+                    </div>
+                  )}
+                  {courses.length !== 1 && (
+                    <details className="requirement-details">
+                      <summary>
+                        Requirement details
+                        <span className="sr-only"> for {group.label}</span>
+                      </summary>
+                      <p>
+                        {group.kind} · target{" "}
+                        {group.target_credits ?? "not captured"} credits
+                      </p>
+                      <p>{group.condition_label}</p>
+                      {!courses.length && (
+                        <p>
+                          No verified eligible course pool is available here. No
+                          satisfaction or credit is inferred.
+                        </p>
+                      )}
+                    </details>
+                  )}
+                  {visible.map((course) => {
+                    const selected = state.selected.includes(
+                      course.identity.id,
+                    );
+                    const inputId = `course-${columnIndex}-${groupIndex}-${course.identity.id}`;
+                    return (
+                      <article
+                        className={`selector-course ${selected ? "selector-course--selected" : ""}`}
+                        key={course.identity.id}
+                        aria-label={course.code}
+                      >
+                        <label className="selector-choice" htmlFor={inputId}>
+                          <input
+                            id={inputId}
+                            type="checkbox"
+                            checked={selected}
+                            onChange={() =>
+                              dispatch({
+                                type: "toggle",
+                                course: course.identity.id,
+                              })
+                            }
+                          />
+                          <span className="min-w-0">
+                            <CourseLabel course={course} />
+                            {selected && (
+                              <span className="selection-label">Selected</span>
+                            )}
+                          </span>
+                        </label>
+                        <ClassDetails
+                          course={course}
+                          catalog={catalog}
+                          group={group}
+                        />
+                      </article>
+                    );
+                  })}
+                </fieldset>
+              );
+            })}
           </section>
         ))}
       </div>
+      {search &&
+        !catalog.columns.some((column) =>
+          column.groups.some((group) =>
+            group.course_ids.some((id) => {
+              const course = catalog.release.courses.find(
+                (item) => item.identity.id === id,
+              );
+              return (
+                course &&
+                `${course.code} ${courseTitle(course)}`
+                  .toLowerCase()
+                  .includes(search.toLowerCase())
+              );
+            }),
+          ),
+        ) && (
+          <p role="status" className="mt-4 text-sm">
+            No matching selectable courses. Incomplete requirements remain
+            unresolved.
+          </p>
+        )}
       <section className="mt-6 rounded-card border border-line bg-soft p-5">
-        <h3 className="font-semibold">
+        <h2 className="font-semibold">
           Selected once · {state.selected.length} courses
-        </h3>
+        </h2>
         <p className="mt-2 text-sm text-muted">
           Explicit optional allocations below feed the deterministic preview. No
           automatic allocation or credit splitting is performed. Credits are

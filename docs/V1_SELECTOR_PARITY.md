@@ -1,7 +1,7 @@
 # Completed Course Selector parity — Phase 02A
 
 The owner/professor-approved product contract preserves four top-level columns,
-in this order: **Required Common Core**, **Flexible Core**, **Major Requirements**,
+in the canonical backend order: **Required Common Core**, **Flexible Core**, **Major Requirements**,
 **Major Electives**. Flexible Core holds non-major general education categories;
 the major elective pool is program-specific. Approval of this layout is product
 direction, not institutional policy approval. No selector UI is implemented or
@@ -68,3 +68,21 @@ concept while consuming canonical results. Known V1 risks documented in the
 [audit](V1_DATA_AUDIT.md) do not imply its mathematics chain was broken. See the
 [rules model](ACADEMIC_RULES_MODEL.md) for deliberately unsupported policy and
 the [source mapping](BMCC_CATALOG_SOURCE_MAPPING.md) for verification gaps.
+
+
+## Phase 03A frontend visual refinement (2026-10-17)
+
+The owner explicitly authorizes V1 visual ordering: Major Requirements, Major
+Electives, Required Common Core, Flexible Core. This supersedes the old frontend
+ordering requirement only. The canonical enum/backend projection and all four
+semantics above remain unchanged. `selectorColumns` sorts a copy for display and
+preserves group identities; tests check both this and rendered ordering.
+
+Reinspected the pinned audit-cache `frontend/db_progress_graph.html` as text:
+`DISPLAY_AREAS` (1848–1865), `renderCompletedCourseGrid` (3098 onward),
+`createSelectableCourseCard` (3175 onward) and card CSS (73–175). No user comparison
+screenshots were available, and V1 was not executed or modified. Code/title/
+checkbox hierarchy, consistent cards and “Class details” inspired the refinement.
+V1 automatic recognition, locking, hidden-satisfied courses and completion/credit
+helpers were deliberately not copied: those would change academic semantics or
+imply functionality/evidence absent in V2. Blank pools stay explicitly unresolved.

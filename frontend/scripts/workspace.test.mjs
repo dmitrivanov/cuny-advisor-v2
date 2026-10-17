@@ -157,3 +157,38 @@ test("retrying the exact immutable context preserves existing selections", () =>
     ["mat301"],
   );
 });
+
+test("selector presentation reorders copies without changing canonical semantics or identities", async () => {
+  const { selectorColumns, selectorOrder, courseTitle } =
+    await import("../src/lib/workspace/presentation.ts");
+  const columns = [
+    "Required Common Core",
+    "Flexible Core",
+    "Major Requirements",
+    "Major Electives",
+  ].map((title) => ({ title, groups: [{ requirement_id: title }] }));
+  const before = JSON.stringify(columns);
+  const displayed = selectorColumns(columns);
+  assert.deepEqual(
+    displayed.map((column) => column.title),
+    selectorOrder,
+  );
+  assert.equal(JSON.stringify(columns), before);
+  for (const column of displayed)
+    assert.equal(
+      column,
+      columns.find((item) => item.title === column.title),
+    );
+  assert.equal(
+    courseTitle({ title: "Title not captured in this bounded fixture" }),
+    "Title not available",
+  );
+  assert.equal(
+    courseTitle({ title: "Title not captured in this partial fixture" }),
+    "Title not available",
+  );
+  assert.equal(
+    courseTitle({ title: "Analytic Geometry and Calculus I" }),
+    "Analytic Geometry and Calculus I",
+  );
+});

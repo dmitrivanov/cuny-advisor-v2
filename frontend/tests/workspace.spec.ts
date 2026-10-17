@@ -24,8 +24,15 @@ async function mockCatalog(page: Page) {
   });
 }
 async function choose(page: Page, index = csIndex) {
-  if (!(await page.getByLabel("Program / catalog release").isVisible()))
-    await page.getByText("Choose / change catalog", { exact: true }).click();
+  // Wait for the deep-linked module to hydrate before inspecting its disclosure.
+  // A one-shot isVisible() can run while the initial chat is still rendered.
+  const disclosure = page.locator("details.context-choice");
+  await expect(disclosure).toBeVisible();
+  if ((await disclosure.getAttribute("open")) === null)
+    await disclosure
+      .getByText("Choose / change catalog", { exact: true })
+      .click();
+  await expect(page.getByLabel("Program / catalog release")).toBeEnabled();
   await page.getByLabel("Program / catalog release").selectOption(key(index));
   await expect(
     page
@@ -268,21 +275,30 @@ test("missing exact release displays a safe scope error", async ({ page }) => {
   ).toBeVisible();
 });
 
-test("invalid preview displays a safe validation error", async ({ page }) => {
-  await mockCatalog(page);
-  await page.route("**/preview", (route) =>
-    route.fulfill({ status: 422, json: { detail: "private" } }),
-  );
-  await page.goto("/campus/bmcc#progress");
-  await choose(page);
-  await page
-    .getByRole("checkbox", { name: /For this fictional scenario/ })
-    .check();
-  await page.getByRole("button", { name: "Run deterministic preview" }).click();
-  await expect(
-    page.getByRole("alert").filter({ hasText: "Invalid selection" }),
-  ).toBeVisible();
-});
+for (const delay of [0, 150])
+  test(`invalid preview displays a safe validation error (catalog delay ${delay}ms)`, async ({
+    page,
+  }) => {
+    await mockCatalog(page);
+    await page.route("**/api/academic/releases", async (route) => {
+      await new Promise((resolve) => setTimeout(resolve, delay));
+      await route.fulfill({ json: releases });
+    });
+    await page.route("**/preview", (route) =>
+      route.fulfill({ status: 422, json: { detail: "private" } }),
+    );
+    await page.goto("/campus/bmcc#progress", { waitUntil: "commit" });
+    await choose(page);
+    await page
+      .getByRole("checkbox", { name: /For this fictional scenario/ })
+      .check();
+    await page
+      .getByRole("button", { name: "Run deterministic preview" })
+      .click();
+    await expect(
+      page.getByRole("alert").filter({ hasText: "Invalid selection" }),
+    ).toBeVisible();
+  });
 
 for (const width of [375, 768, 1440])
   test(`responsive ${width}px; keyboard, focus and readable titles`, async ({

@@ -3,6 +3,9 @@ import type { Page } from "@playwright/test";
 import releases from "./fixtures/releases.json" with { type: "json" };
 import cs from "./fixtures/catalog-cs.json" with { type: "json" };
 import cis from "./fixtures/catalog-cis.json" with { type: "json" };
+test.use({
+  video: process.env.CAPTURE_MULTICAMPUS_SHOTS === "1" ? "on" : "off",
+});
 const info = (page: Page) => page.locator("#campus-information");
 const node = (page: Page, name: string) =>
   page.getByRole("button", { name: new RegExp(`^${name} ·`) });
@@ -27,86 +30,102 @@ async function mock(page: Page) {
   );
 }
 
-test("art-directed constellation has one pilot, accessible information and no fake assistant", async ({
+test("graph-first landing exposes contextual details and a dismissible unavailable notice", async ({
   page,
 }) => {
   await page.setViewportSize({ width: 1440, height: 1050 });
   await page.goto("/");
   await expect(
-    page.getByRole("heading", { name: /Your next chapter/ }),
+    page.getByRole("heading", { name: "Choose your campus." }),
   ).toBeVisible();
   await expect(page.locator(".campus-node")).toHaveCount(8);
-  await expect(node(page, "BMCC")).toHaveAttribute(
-    "aria-label",
-    /Pilot available/,
+  await expect(info(page)).toHaveCount(0);
+  await shot(page, "landing-1440");
+  await node(page, "BMCC").focus();
+  await expect(info(page)).toContainText(
+    "Borough of Manhattan Community College",
   );
+  await expect(node(page, "BMCC")).toHaveAttribute(
+    "aria-describedby",
+    "campus-information",
+  );
+  await shot(page, "bmcc-focus");
+  await node(page, "CCNY").focus();
+  await expect(info(page)).toContainText("The City College of New York");
+  await shot(page, "ccny-focus");
+  await node(page, "CCNY").click();
+  await expect(page.getByRole("status")).toContainText("Assistant unavailable");
+  await expect(page).toHaveURL(/\/$/);
+  await page.getByRole("button", { name: "Dismiss campus notice" }).click();
+  await expect(page.getByRole("status")).toHaveCount(0);
+  await node(page, "BMCC").hover();
+  await expect(info(page)).toContainText("Local pilot available");
+  await node(page, "BMCC").press("Escape");
+  await expect(info(page)).toHaveCount(0);
+  await page.getByText("Accessible campus list", { exact: true }).click();
   await expect(
     page.getByRole("link", { name: "Talk to BMCC Advisor", exact: true }),
   ).toBeVisible();
-  await shot(page, "landing-1440");
-  await node(page, "BMCC").hover();
-  await expect(info(page).getByRole("heading")).toHaveText(
-    "Borough of Manhattan Community College",
-  );
-  await shot(page, "bmcc-focus");
-  await node(page, "CCNY").hover();
-  await expect(info(page).getByRole("heading")).toHaveText(
-    "The City College of New York",
-  );
-  await expect(info(page)).toContainText("Unavailable");
-  await expect(info(page).getByRole("link")).toHaveCount(0);
-  await shot(page, "ccny-focus");
-  // Geometry must not reflow on hover; the node's transform is the only movement.
-  const panel = await info(page).boundingBox();
-  await node(page, "BMCC").hover();
-  const next = await info(page).boundingBox();
-  expect(panel?.width).toBe(next?.width);
-  await page.getByText("Accessible campus list", { exact: true }).click();
-  await expect(
-    page.getByText("Queensborough Community College — Future / unavailable"),
-  ).toBeVisible();
 });
 
-test("keyboard focus matches hover and reduced motion disables zoom transitions", async ({
-  page,
-}) => {
-  await page.emulateMedia({ reducedMotion: "reduce" });
-  await page.goto("/");
-  await node(page, "CCNY").focus();
-  await expect(info(page).getByRole("heading")).toHaveText(
-    "The City College of New York",
-  );
-  const style = await node(page, "CCNY").evaluate((el) => {
-    const s = getComputedStyle(el);
-    return {
-      duration: s.transitionDuration,
-      outline: s.outlineStyle,
-      transform: s.transform,
-    };
+for (const key of ["Enter", "Space"])
+  test(`native ${key} opens BMCC directly`, async ({ page }) => {
+    await page.goto("/");
+    await node(page, "BMCC").focus();
+    await node(page, "BMCC").press(key);
+    await expect(page).toHaveURL(/\/campus\/bmcc$/);
   });
-  expect(style.duration).toBe("0s");
-  expect(style.outline).not.toBe("none");
-  await node(page, "BMCC").focus();
-  await expect(
-    info(page).getByRole("link", { name: "Talk to BMCC Advisor" }),
-  ).toBeVisible();
+
+test.describe("ambient motion verification", () => {
+  test("ambient layers animate while all campus targets stay fixed, pause on focus, and respect reduced motion", async ({
+    page,
+  }) => {
+    await page.goto("/");
+    const orbit = page.locator(".constellation-orbit");
+    await expect(orbit).toHaveCSS("animation-name", "orbital-drift");
+    const before = await node(page, "BMCC").boundingBox();
+    const initialTransform = await orbit.evaluate(
+      (el) => getComputedStyle(el).transform,
+    );
+    await page.waitForTimeout(1800);
+    expect(
+      await orbit.evaluate((el) => getComputedStyle(el).transform),
+    ).not.toBe(initialTransform);
+    expect(await node(page, "BMCC").boundingBox()).toEqual(before);
+    await node(page, "CCNY").focus();
+    await expect(orbit).toHaveCSS("animation-play-state", "paused");
+    await expect(node(page, "CCNY")).toHaveCSS("outline-style", "solid");
+    await page.emulateMedia({ reducedMotion: "reduce" });
+    await expect(orbit).toHaveCSS("animation-name", "none");
+    await expect(node(page, "CCNY")).toHaveCSS("transition-duration", "0s");
+    await node(page, "BMCC").hover();
+    await node(page, "BMCC").click();
+    await expect(page).toHaveURL(/\/campus\/bmcc$/);
+  });
 });
 
 for (const width of [375, 768, 1440])
-  test(`landing ${width}px no node clipping or overflow; touch-style selection`, async ({
+  test(`landing ${width}px keeps targets separate, unclipped and directly actionable`, async ({
     page,
   }) => {
     await page.setViewportSize({ width, height: 1050 });
     await page.goto("/");
     expect(
       await page.evaluate(
-        () => document.documentElement.scrollWidth <= window.innerWidth,
+        () => document.documentElement.scrollWidth <= innerWidth,
       ),
     ).toBe(true);
     const boxes = await page.locator(".campus-node").evaluateAll((nodes) =>
       nodes.map((n) => {
         const b = n.getBoundingClientRect();
-        return { x: b.x, right: b.right, width: b.width, height: b.height };
+        return {
+          x: b.x,
+          y: b.y,
+          right: b.right,
+          bottom: b.bottom,
+          width: b.width,
+          height: b.height,
+        };
       }),
     );
     expect(
@@ -114,14 +133,24 @@ for (const width of [375, 768, 1440])
         (b) => b.x >= 0 && b.right <= width && b.width >= 44 && b.height >= 44,
       ),
     ).toBe(true);
-    await node(page, "CCNY").click();
-    await expect(info(page)).toContainText("Future assistant");
-    await node(page, "BMCC").click();
-    await expect(info(page)).toContainText("Local pilot available");
+    for (let i = 0; i < boxes.length; i++)
+      for (let j = i + 1; j < boxes.length; j++) {
+        const a = boxes[i],
+          b = boxes[j];
+        expect(
+          a.right <= b.x ||
+            b.right <= a.x ||
+            a.bottom <= b.y ||
+            b.bottom <= a.y,
+        ).toBe(true);
+      }
     if (width !== 1440) await shot(page, `landing-${width}`);
-    await info(page)
-      .getByRole("link", { name: "Talk to BMCC Advisor" })
-      .click();
+    await node(page, "CCNY").click();
+    await expect(page.getByRole("status")).toContainText(
+      "Assistant unavailable",
+    );
+    await page.getByRole("button", { name: "Dismiss campus notice" }).click();
+    await node(page, "BMCC").click();
     await expect(page).toHaveURL(/\/campus\/bmcc$/);
     await expect(page.getByRole("log")).toContainText(
       "BMCC advising assistant prototype",
@@ -205,8 +234,8 @@ test("adaptive goal asks one relevant question; correction preserves assistant a
   await expect(next).toContainText(
     "No course history or scheduling preferences are needed",
   );
-  await page.getByRole("link", { name: "Choose another campus" }).click();
-  await info(page).getByRole("link", { name: "Talk to BMCC Advisor" }).click();
+  await page.getByRole("link", { name: "Back to campuses" }).click();
+  await node(page, "BMCC").click();
   await page.getByText("Fictional profile & goal", { exact: true }).click();
   await expect(
     page.getByText(/Current answer: known.*LaGuardia/),
@@ -265,17 +294,16 @@ test("exploration opens contextual module without collecting planning preference
 
 test.describe("actual touch input", () => {
   test.use({ hasTouch: true, viewport: { width: 375, height: 900 } });
-  test("first tap reveals details; future campus has no assistant action", async ({
+  test("touch dismisses an unavailable notice and opens BMCC in one tap", async ({
     page,
   }) => {
     await page.goto("/");
     await node(page, "CCNY").tap();
-    await expect(info(page).getByRole("heading")).toHaveText(
-      "The City College of New York",
+    await expect(page.getByRole("status")).toContainText(
+      "Assistant unavailable",
     );
-    await expect(info(page).getByRole("link")).toHaveCount(0);
+    await page.getByRole("button", { name: "Dismiss campus notice" }).tap();
     await node(page, "BMCC").tap();
-    await info(page).getByRole("link", { name: "Talk to BMCC Advisor" }).tap();
     await expect(page).toHaveURL(/\/campus\/bmcc$/);
   });
 });

@@ -292,7 +292,8 @@ in Phase 01C. Exact source/UI/runtime distinctions remain part of every finding.
 
 ## Phase 03B: campus entry and adaptive fictional context
 
-The current journey is landing → campus selection → `/campus/bmcc` conversation →
+The current journey is graph-first landing → direct BMCC node activation →
+`/campus/bmcc` conversation →
 one useful goal-dependent question → explicit supported academic action. Earlier
 Phase 03A statements about a conversation-only default now refer to the campus
 route; `/` contains the network landing. Known future campus routes contain only
@@ -316,3 +317,9 @@ selector state; returning to the same assistant starts a new workspace conversat
 Full refresh clears profile/session too. Within a workspace, tool return preserves
 conversation and selection. Explicit copy/confirm controls transfer fictional
 selector history or selected draft context to profile, never credits or approval.
+
+Owner review refinement: mouse click, tap and native Enter/Space on BMCC open its
+assistant immediately. Hover/focus provides transient context; other campuses show
+only an unavailable notice with a Dismiss button. Chat offers “Back to campuses.”
+The graph stays spatial on mobile; only decorative arcs move, paused during
+interaction and absent under reduced motion. No dashboard or module menu was added.

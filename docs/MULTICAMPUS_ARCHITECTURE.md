@@ -20,6 +20,17 @@ are `planned`. Availability is a local product decision, not a college fact.
 requires more than adding a node: separately reviewed catalogs, capability routing,
 academic/security tests and owner authorization. No other campus inherits BMCC rules.
 
+## Owner-review entry interaction
+
+The constellation occupies the primary landing area; no persistent information panel
+or hero is rendered. Native BMCC button activation routes directly to `/campus/bmcc`.
+Hover/focus exposes a small description connected with `aria-describedby`; Escape
+clears it. Planned campuses expose only a dismissible live status notice. No selection
+implies enrollment. The expandable accessible list retains a direct BMCC link.
+“Back to campuses” in chat retains the independent in-memory profile as before.
+Decorative orbits alone animate slowly; target geometry is fixed, interaction pauses
+motion and reduced-motion disables it. This adds no academic or provider behavior.
+
 ## Routing and state
 
 - `/`: dark campus selection, no operational chat or academic fetch.

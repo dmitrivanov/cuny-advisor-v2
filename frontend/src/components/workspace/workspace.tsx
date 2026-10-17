@@ -269,13 +269,13 @@ export function Workspace({ campus }: { campus: Campus }) {
             <AcademicIcon name="compass" className="size-5" />
           </span>
           <strong>
-            CUNY Advisor <span className="font-normal text-muted">V2</span>
+            CUNY Advisor
           </strong>
         </a>
         <div className="flex flex-wrap items-center gap-3 text-xs text-muted">
           <span>{campus.shortName} · No live AI</span>
           <Link className="source-link" href="/">
-            Choose another campus
+            Back to campuses
           </Link>
         </div>
       </header>

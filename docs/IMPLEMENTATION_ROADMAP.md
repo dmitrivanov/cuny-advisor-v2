@@ -477,3 +477,9 @@ scoped academic governance, and safe CMS capabilities. These accumulate across
 Phases 01–06; none can be omitted by calling an earlier milestone the initial release.
 SSO and multilingual support are future scope. All real-user operation still requires
 Phase 07 approval. Phase 00 finalization stops for review and starts none of this work.
+
+Phase 03B owner review (PR #10): graph-first layout, direct accessible campus entry,
+dismissible unavailable notices, fixed-target ambient scenery, shared branding and
+browser-test synchronization hardening are included in this same bounded phase.
+No Phase 03C, Gemini, additional campus catalog, profile persistence or planner is
+implemented or authorized by these refinements.

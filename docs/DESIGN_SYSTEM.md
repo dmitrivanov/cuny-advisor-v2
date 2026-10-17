@@ -221,13 +221,20 @@ orbits and thin SVG connections give eight intentional positions depth without a
 map, logo, transfer claim or dense chart. Native typography/initials, subtle gradients,
 fine borders and opaque detail surfaces avoid heavy GPU layers.
 
-Focus/hover raises a node with 1.12 scale, restrained glow and 360ms tuned ease-out;
-adjacent links brighten and other nodes recede. Click/tap pins details. No continuous
-motion or layout reflow; decorative overflow is clipped at the landing boundary.
-Reduced motion disables transitions/zoom; no interaction depends on animation. The
-same buttons become a compact two-column selector below 640px; tablet stacks the
-information panel under a spatial graph. Accessible list and native BMCC link work
-without SVG, and default SSR availability requires no graph rendering.
+The graph is the dominant content under a compact compass wordmark and “Choose your
+campus.” instruction. There is no hero or persistent side panel. The same wordmark,
+control radii, typography and indigo accent connect dark entry and light chat.
+Focus/hover adds glow and a small descriptive tooltip without moving hit targets.
+Click/tap or native Enter/Space opens BMCC immediately. Unavailable nodes show a
+concise dismissible status notice; an accessible list provides a direct BMCC link.
+A spatial layout remains at 375/768/1440px with mobile spacing adjusted to keep
+all targets separate and at least 44px. Context labels do not carry academic facts.
+
+Only two decorative orbit layers animate: 100-second rotation and 18-second subtle
+opacity/scale breathing. Labels, nodes and SVG connections stay fixed. Interaction
+pauses scenery; reduced motion removes animations/transitions entirely. No JS frame
+loop, force simulation, new dependency or expensive blur is involved. Animation
+quality requires observing motion; screenshots document layout only.
 
 Text tokens have additional contrast regressions. Focus uses a warm high-contrast
 outline. Only BMCC has an entry action. Other campuses show unavailable text rather

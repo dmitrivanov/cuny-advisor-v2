@@ -308,3 +308,19 @@ select applicable catalogs or execute arbitrary tools. Program dates never assig
 release. Explicit fictional scenario/course copying actions do not verify records.
 No backend/schema/fixture changes, AI, real data, institutional integration or deployment.
 Commit/push/PR are scoped authorizations, not merge or later-phase approval.
+
+## Phase 03B owner review — PR #10
+
+Owner-authorized refinement: graph-first campus entry replaces the large hero and
+persistent information panel. BMCC nodes navigate directly on click/tap/Enter/Space;
+planned nodes only display dismissible unavailable notices. Focus/hover details are
+transient descriptions. An accessible list remains available. Selecting an assistant
+never establishes enrollment or academic authority.
+
+Slow CSS transform/opacity animation is allowed only on decorative orbital layers;
+interactive nodes/labels remain fixed. Interaction pauses motion, reduced-motion
+removes it. Shared compass wordmark, typography and existing glass/radius/accent
+language link dark entry to light minimal chat. No additional dependencies, backend,
+catalog, schema, evaluator or provider changes are authorized by this refinement.
+CI failure traces are retained for seven days for synthetic browser tests; previous
+run 39073305717 did not upload its trace, limiting retrospective root-cause evidence.

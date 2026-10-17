@@ -15,7 +15,7 @@ read-only and is never connected. All academic uncertainty remains explicit.
 ## Campus entry and conversation
 
 `/` is an interactive CUNY campus selector. BMCC is the only local pilot; all other
-listed assistants are future/unavailable. Choose “Talk to BMCC Advisor” to open
+listed assistants are future/unavailable. Click/tap BMCC (or activate its node with Enter/Space) to open
 `/campus/bmcc`, then use supported prompts, adaptive fictional answers and contextual
 tools. Assistant selection does not establish enrollment. No live AI is enabled.
 

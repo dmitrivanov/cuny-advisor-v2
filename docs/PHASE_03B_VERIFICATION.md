@@ -29,7 +29,7 @@ on 2026-10-17, Senior Colleges/Community Colleges sections. Availability/positio
 are project choices. Edges mean illustrative network membership only, not transfer
 agreements, geography or academic pathways. No official logos are used.
 
-## Actual checks
+## Initial implementation checks (before owner refinements)
 
 Existing Python 3.14.5, Node 24.18.0 and npm 11.16.0 dependencies were reused.
 Frontend source/tests were copied to ignored `var/phase03b-validation/frontend`,
@@ -107,16 +107,16 @@ was performed. All new profile examples are fictional and remain in tab memory.
 
 ## Eight screenshots and visual self-review
 
-Opened every image locally; reviewed typography, art-directed balance, label/node
-separation, thin curved connections, restrained glow, whole-word text, glass/light
-chat transition, mobile selector and tablet information layout. Hover frames wait
-for the finite transition to settle; there is no continuous animation. Only desktop/
-tablet present the constellation; mobile deliberately uses the permitted accessible
-selector instead of squeezing the graph. No graph library, external logo or imagery.
+All eight images have been recaptured for owner refinements. Opened and inspected
+layout, readable labels, graph balance, focus outlines, transient details, shared
+compass branding and existing academic cards. Mobile and tablet now retain a
+spatial graph; the large hero and persistent information panel are removed.
+Still images verify layout only, not animation quality. No graph library, external
+logo, image dependency or added package.
 
 1. [Landing, 1440px](images/phase03b-landing-1440.png)
-2. [BMCC hovered](images/phase03b-bmcc-focus.png)
-3. [CCNY hovered, unavailable](images/phase03b-ccny-focus.png)
+2. [BMCC keyboard focus](images/phase03b-bmcc-focus.png)
+3. [CCNY keyboard focus, unavailable](images/phase03b-ccny-focus.png)
 4. [Landing, 768px](images/phase03b-landing-768.png)
 5. [Landing, 375px](images/phase03b-landing-375.png)
 6. [BMCC chat entry](images/phase03b-chat-entry.png)
@@ -145,7 +145,7 @@ selector instead of squeezing the graph. No graph library, external logo or imag
 
 - [ ] Inspect landing/hover at 1440px and tablet 768px: no overlaps, calm motion.
 - [ ] Test keyboard and reduced motion; inspect CCNY and confirm no entry action.
-- [ ] Test mobile tap then explicit BMCC entry; review accessible campus list.
+- [ ] Test direct mobile BMCC tap; review accessible campus list.
 - [ ] Confirm assistant choice does not populate current institution/relationship.
 - [ ] Explore programs without a survey; change goal and answer one question.
 - [ ] Correct the current institution; inspect invalidated program/context assumptions.
@@ -154,3 +154,72 @@ selector instead of squeezing the graph. No graph library, external logo or imag
 - [ ] Switch routes/refresh; verify documented transient-state behavior.
 
 Stop at owner PR review. Do not merge, deploy, start another phase or integrate Gemini.
+
+## Owner-review refinements — final local verification
+
+### CI investigation
+
+Inspected failed push run **39073305717**, frontend job **117515226923**, and
+successful PR run **39073323947** on the same reviewed commit `9898e89`.
+The failure was a 30-second timeout in the 422 preview test; 25 other tests passed.
+The successful run completed backend, PostgreSQL and frontend jobs. The failed run
+has **zero uploaded artifacts**: the advertised trace/error context cannot be
+retrieved. Its precise blocked action therefore cannot be established retrospectively.
+
+A local diagnostic reproduced a concrete race in the old `choose()` test helper:
+navigate to `#progress` at response commit, observe `isVisible() === false` before
+the module mounts, then await/click the catalog summary. The summary is initially
+open when mounted, so that click **closes** it (`open === null`), leaving the select
+hidden and the original helper waiting. This fits the intermittent timeout; it is
+not proof that the unavailable CI trace took exactly this path. There is no evidence
+of changed backend/academic behavior or a 422 mock-contract defect.
+
+The helper now waits for the module disclosure, checks its actual open attribute,
+and waits for the select to become enabled. The unchanged safe-error assertion is
+exercised at early navigation with immediate and 150ms delayed discovery responses.
+No timeout increase, retry policy, weaker assertion or application delay was added.
+CI now uploads synthetic failure traces for seven days to prevent this evidence gap.
+
+### Results and visual evidence
+
+- `npm test`: **47 passed**, zero failures.
+- `npm run lint`, `npm run typecheck`, `npm run build`: passed on the final source.
+- `npm run test:browser -- --grep 'invalid preview' --repeat-each=15`:
+  **30 passed** (15 runs of each immediate/delayed variant).
+- Final full-suite repetition (`npm run test:browser -- --repeat-each=2`):
+  **58 passed**, zero failures.
+- Full capture run: **29 passed**, including mobile non-overlap, direct click,
+  Enter/Space, real touch, Escape/dismissal, described hover/focus context, profile,
+  selector, preview, exact context and academic uncertainty regressions.
+- Backend `.venv/bin/python -m pytest -q -m 'not postgres'`:
+  **102 passed, 61 deselected**. `.venv/bin/python -m pip check`: passed.
+- PostgreSQL checks execute against fresh disposable databases in the pushed branch's
+  existing CI jobs. See PR #10 checks for their post-push result; no destructive
+  PostgreSQL tests were run against the owner's reviewed local development database.
+- `git diff --check`: passed. No dedicated documentation-link command is configured.
+
+The initial refinement capture run found a 375px BMCC/Hunter target overlap, corrected
+with smaller mobile target widths (still over 44px), retaining the actual graph.
+A video-capture configuration error was corrected before successful capture; no
+failed run is counted as a pass. Loopback browser checks require sandbox escalation;
+the initial sandbox-denied listener did not test application behavior.
+
+All eight linked screenshots above show the new interface. A short recording was
+captured with existing Playwright video support at ignored local path
+`var/phase03b-review/ambient-campus-entry.webm` (not a committed dependency/artifact).
+Automated motion checks observe a changing decorative transform over 1.8 seconds,
+identical BMCC bounds, pause on focus and no animation under reduced motion, then
+direct navigation. The recording is available for owner motion-quality review;
+still screenshots do not establish motion quality. No hardware CPU benchmark,
+real mobile device, Safari/Firefox or assistive-technology audit was performed.
+
+A separate unmocked in-app browser smoke on the owner's existing port-3000 server
+confirmed CCNY unavailable/dismissal, direct BMCC entry, the shared chat header,
+“Back to campuses,” release discovery and rendering of the persisted partial CIS
+selector with unresolved groups. The browser automation's native select had input
+limitations; this is not counted as a fresh CS/preview end-to-end verification.
+The full CS/preview regression coverage above is mocked; the initial unmocked CS
+check is separately documented earlier. Existing services were left running.
+
+No backend, evaluator, API contract, academic fixture, schema, dependency, lockfile,
+V1, production data or deployment was changed. PR #10 remains subject to owner review.

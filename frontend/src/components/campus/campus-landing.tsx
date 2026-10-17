@@ -1,12 +1,13 @@
 "use client";
 import Link from "next/link";
+import { AcademicIcon } from "@/components/academic-icon";
 import { useState, useEffect } from "react";
 import type { CSSProperties } from "react";
 import { campuses, campusById } from "@/lib/advising/campuses";
 import { useRouter } from "next/navigation";
 /** No randomness, map coordinates, institutional logos or transfer-edge semantics. */
 export function CampusLanding() {
-  const [selected, setSelected] = useState("bmcc");
+  const [notice, setNotice] = useState<string | null>(null);
   const [hovered, setHovered] = useState<string | null>(null);
   const [focused, setFocused] = useState<string | null>(null);
   const router = useRouter();
@@ -34,7 +35,7 @@ export function CampusLanding() {
     )
       router.replace(`/campus/bmcc${url.search}${url.hash}`);
   }, [router]);
-  const active = campusById(hovered ?? focused ?? selected)!;
+  const active = campusById(hovered ?? focused ?? "");
   return (
     <main className="campus-landing">
       <a className="skip-link" href="#campus-list">
@@ -42,22 +43,17 @@ export function CampusLanding() {
       </a>
       <header className="constellation-header">
         <Link href="/" aria-label="CUNY Advisor home">
-          CA<span className="constellation-wordmark">CUNY Advisor</span>
+          <span className="brand-mark">
+            <AcademicIcon name="compass" className="size-5" />
+          </span>
+          <span className="constellation-wordmark">CUNY Advisor</span>
         </Link>
         <span>
           Independent prototype <span aria-hidden="true">/</span> No live AI
         </span>
       </header>
       <section className="constellation-intro">
-        <p className="constellation-eyebrow">
-          ONE UNIVERSITY. MANY POSSIBLE PATHS.
-        </p>
-        <h1>
-          Your next chapter
-          <br />
-          <em>starts with a conversation.</em>
-        </h1>
-        <p>Choose a campus to begin.</p>
+        <h1>Choose your campus.</h1>
       </section>
       <section
         className="constellation-layout"
@@ -65,7 +61,8 @@ export function CampusLanding() {
       >
         <div
           className="constellation"
-          data-active={active.id}
+          data-active={active?.id}
+          data-interacting={!!(hovered || focused || notice)}
           onMouseLeave={() => setHovered(null)}
         >
           <div className="constellation-orbit" aria-hidden="true" />
@@ -86,7 +83,7 @@ export function CampusLanding() {
               .map((c) => (
                 <path
                   key={c.id}
-                  data-emphasized={active.id === c.id || active.id === "bmcc"}
+                  data-emphasized={active?.id === c.id || active?.id === "bmcc"}
                   d={`M 39 49 Q ${(39 + c.visualPosition.x) / 2} ${c.visualPosition.y} ${c.visualPosition.x} ${c.visualPosition.y}`}
                 />
               ))}
@@ -106,16 +103,28 @@ export function CampusLanding() {
                 } as CSSProperties
               }
               aria-label={`${c.shortName} · ${c.assistantAvailability === "pilot" ? "Pilot available" : "Future assistant unavailable"}`}
-              aria-pressed={selected === c.id}
-              aria-controls="campus-information"
-              data-emphasized={hovered === c.id || focused === c.id}
-              data-receded={!!(hovered ?? focused) && active.id !== c.id}
+              aria-describedby={
+                active?.id === c.id ? "campus-information" : undefined
+              }
+              data-emphasized={active?.id === c.id}
+              data-receded={!!(hovered ?? focused) && active?.id !== c.id}
               onMouseEnter={() => setHovered(c.id)}
-              onFocus={() => setFocused(c.id)}
-              onBlur={() => setFocused(null)}
-              onClick={() => {
-                setSelected(c.id);
+              onFocus={() => {
+                setFocused(c.id);
                 setHovered(null);
+              }}
+              onBlur={() => setFocused(null)}
+              onKeyDown={(event) => {
+                if (event.key === "Escape") {
+                  setNotice(null);
+                  setFocused(null);
+                  setHovered(null);
+                }
+              }}
+              onClick={() => {
+                if (c.assistantAvailability === "pilot")
+                  router.push(`/campus/${c.slug}`);
+                else setNotice(c.id);
               }}
             >
               <span className="campus-orb" aria-hidden="true">
@@ -142,45 +151,42 @@ export function CampusLanding() {
               </span>
             </button>
           ))}
-        </div>
-        <aside
-          className="campus-information"
-          id="campus-information"
-          aria-live="polite"
-          aria-atomic="true"
-        >
-          <p className="constellation-eyebrow">YOUR CAMPUS PERSPECTIVE</p>
-          <p className="campus-detail-index">
-            {String(campuses.indexOf(active) + 1).padStart(2, "0")}{" "}
-            <span>/ 08</span>
-          </p>
-          <h2>{active.name}</h2>
-          <p>
-            {active.type === "community_college"
-              ? "Community college"
-              : "Senior college"}
-          </p>
-          <span
-            className={`campus-availability ${active.assistantAvailability === "pilot" ? "campus-availability--pilot" : ""}`}
-          >
-            {active.assistantAvailability === "pilot"
-              ? "Local pilot available"
-              : "Future assistant · Unavailable"}
-          </span>
-          <p className="campus-detail-copy">
-            {active.assistantAvailability === "pilot"
-              ? "Explore the reviewed local catalog and fictional course scenarios. Your choice opens an assistant; it does not establish where you study."
-              : "This college is part of the CUNY network. Its assistant and academic catalog are not implemented in this prototype."}
-          </p>
-          {active.assistantAvailability === "pilot" ? (
-            <Link className="campus-enter" href={`/campus/${active.slug}`}>
-              Talk to {active.shortName} Advisor{" "}
-              <span aria-hidden="true">↗</span>
-            </Link>
-          ) : (
-            <p className="campus-unavailable">No assistant to enter yet</p>
+          {active && (
+            <div
+              id="campus-information"
+              role="tooltip"
+              className="campus-tooltip"
+              style={
+                {
+                  "--detail-x": `${active.visualPosition.x}%`,
+                  "--detail-y": `${active.visualPosition.y}%`,
+                } as CSSProperties
+              }
+            >
+              <strong>{active.name}</strong>
+              <span>
+                {active.assistantAvailability === "pilot"
+                  ? "Local pilot available · Opens an assistant, not enrollment."
+                  : "Future assistant · Unavailable"}
+              </span>
+            </div>
           )}
-        </aside>
+        </div>
+        {notice && (
+          <div className="campus-notice" role="status" aria-live="polite">
+            <p>
+              <strong>{campusById(notice)?.shortName}</strong> · Assistant
+              unavailable. This campus is planned for a future release.
+            </p>
+            <button
+              type="button"
+              onClick={() => setNotice(null)}
+              aria-label="Dismiss campus notice"
+            >
+              Dismiss
+            </button>
+          </div>
+        )}
       </section>
       <footer className="constellation-footer">
         <p>Illustrative network, not a map or verified transfer pathways.</p>

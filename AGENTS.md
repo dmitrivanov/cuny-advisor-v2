@@ -17,8 +17,11 @@ full planner/audit, equivalencies, institutional integrations, production or V1 
 Use fictional data and disposable V2 resources only. Never infer catalog applicability
 from a start date or upgrade student reports to institutional verification.
 
-Respect existing services and unrelated work. Commit/push this branch and open a
-review PR to main after actual checks. Do not merge, deploy, rewrite history, start
+Owner-review refinements are authorized on this same branch: graph-first layout,
+direct accessible campus activation, transient notices, decorative CSS orbital motion
+with stable targets/pause/reduced-motion, shared branding and CI/test hardening.
+Respect existing services and unrelated work. Commit/push this branch and update
+existing PR #10 after actual checks; do not create a new PR. Do not merge, deploy, rewrite history, start
 Gemini or proceed beyond Phase 03B. Permanent restrictions below remain in force.
 
 V1 is strictly read-only at reference commit

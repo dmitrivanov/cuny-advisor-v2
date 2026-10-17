@@ -230,3 +230,10 @@ out/
 !.env.*.example
 *.pem
 *.key
+
+# Browser verification artifacts (review screenshots are explicit docs/images assets)
+frontend/test-results/
+frontend/playwright-report/
+# TypeScript application libraries are source, not Python virtualenv artifacts.
+!frontend/src/lib/
+!frontend/src/lib/**

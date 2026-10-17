@@ -1,32 +1,27 @@
 # Repository instructions
 
-## Current authorization: Phase 02C — PostgreSQL persistence foundation
+## Current authorization: Phase 02D — Chat-first academic workspace
 
-Work exclusively in `cuny-advisor-v2` on `feature/phase02c-persistence`.
-Phase 02B merged through PR #6 (`8d10a00830f704c016817480b4452085f011601c`)
-is the baseline. Implement only isolated local/disposable PostgreSQL persistence,
-SQLAlchemy 2.x, psycopg, Alembic, immutable draft catalogs/evidence, synthetic
-snapshots, repository adapters and regression/CI checks. These dependencies are
-authorized. Preserve the pure Pydantic contracts, evaluator results, mathematics
-paths and four-column selector contract. No program-specific evaluator formulas.
+Work exclusively on `feature/phase02d-course-selector` in `cuny-advisor-v2`.
+Phase 02C merged through PR #7 (`315c1c8`) is the baseline. The owner authorizes
+session-local deterministic chat/navigation, a typed module registry, shared
+hypothetical academic context, PostgreSQL-backed read-only catalog/selector APIs,
+a limited pure-engine progress preview, frontend modules, tests and documentation.
+Preserve the four-column selector, exact credits, immutable catalogs, uncertainty,
+prerequisite/degree separation and the hardened repository. No duplicated academic
+calculations in TypeScript. No startup migrations/imports or database fallback.
 
-Read architecture, data model, decisions, roadmap, academic boundaries, source
-mapping, rule model, selector parity and persistence design before changes.
-Keep schema `cuny_advisor_v2` explicit everywhere, including Alembic tracking.
-Use distinct migration/runtime roles, loopback disposable V2-only databases and
-synthetic snapshots only. No production/institutional/V1 credentials, cross-schema
-access, runtime DDL, automatic startup migrations/imports or automatic publication.
+Use only disposable V2 resources and schema `cuny_advisor_v2`, existing dedicated
+roles, reviewed local catalogs and synthetic/hypothetical inputs. No real student
+records, accounts/authentication, persistence of chat/selections, transcript upload,
+CMS/publication, AI/Gemini, full planner/audit, advisor reports, production or V1
+connections. Do not start Phase 03/04 or deploy. Source verification is not approval.
+Future modules must be visibly unavailable; unsupported chat requests get explicit
+non-AI guidance, never fabricated academic advice. Preserve unrelated user work.
 
-No new endpoints, frontend features, accounts, real student data, transcripts,
-CMS, AI, complete audit/planner, scheduled scraping, deployment or later phases.
-Unknown academic interpretations remain unresolved. Source verification is not
-institutional approval; no persistence operation grants academic authority.
-
-Inspect all changed/untracked files and run backend/frontend checks, including
-real PostgreSQL integration where available. Report unrun checks honestly.
-Commit only this phase, push the current branch and create a PR against `main`.
-Do not merge, force push, rewrite unrelated commits, deploy or begin another phase.
-Stop for owner review. Preserve unrelated work; risky synchronization needs review.
+After scoped review and actual tests, commit, push this branch and open a PR to
+`main`. Do not merge, force push, rewrite history or start another phase. Stop for
+owner review. Report unrun browser/database checks honestly.
 
 V1 is strictly read-only at reference commit
 `ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
@@ -57,7 +52,7 @@ its deployment. Preserve unrelated user changes.
 Read [security](docs/SECURITY.md), [access control](docs/ACCESS_CONTROL.md),
 [CMS design](docs/CMS_DESIGN.md), and [decisions](docs/DECISIONS.md) alongside the
 original documents. Their broader features remain planned; only the disposable
-V2 persistence slice above is authorized.
+V2 workspace and persistence slice above is authorized.
 
 Guests have fixed 24-hour private workspaces, including transcript safeguards,
 summary preview and optional explicit-consent advisor handoff. Registered users
@@ -103,6 +98,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 02C authorization
+The Phase 00 deliverable was documentation only. Current Phase 02D authorization
 is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

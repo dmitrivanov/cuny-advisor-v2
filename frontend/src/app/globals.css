@@ -125,3 +125,35 @@ body {
   .glass-button { border-color: ButtonText; }
   :focus-visible { outline-color: Highlight; }
 }
+
+/* Phase 02D: connected workspace, using the established semantic palette. */
+.workspace-context { display:grid; gap:1rem; padding:1.25rem; border:1px solid var(--border); border-radius:var(--ds-radius-card); background:var(--surface-solid); }
+.field-label { display:block; min-width:0; font-size:.875rem; font-weight:600; }
+.workspace-input { display:block; width:100%; min-height:var(--size-control); margin-top:.5rem; padding:.75rem; border:1px solid var(--muted); border-radius:var(--ds-radius-control); background:var(--surface-solid); color:var(--ink); font:inherit; font-weight:400; }
+.workspace-input:disabled { background:var(--surface-soft); color:var(--muted); }
+.workspace-notice { padding:1rem 1.25rem; border:1px solid var(--border); border-radius:var(--ds-radius-control); background:var(--surface-soft); font-size:.875rem; line-height:1.7; overflow-wrap:anywhere; }
+.module-link { display:inline-flex; align-items:center; min-height:var(--size-control); padding:.5rem .875rem; border:1px solid var(--border); border-radius:var(--ds-radius-control); background:var(--surface-solid); color:var(--muted); font-size:.875rem; cursor:pointer; }
+.module-link--active { color:var(--on-brand); background:var(--brand); border-color:var(--brand); }
+.module-link:hover:not(.module-link--active), .action-card:hover, .suggested-prompt:hover { background:var(--surface-soft); color:var(--brand); }
+.workspace-columns { display:grid; gap:1.5rem; align-items:start; }
+.conversation-panel, .module-panel { overflow-wrap:anywhere; }
+.conversation-messages { max-height:30rem; overflow-y:auto; display:grid; gap:1rem; padding:.25rem; }
+.message { padding:1rem; border:1px solid var(--border); border-radius:var(--ds-radius-card); background:var(--surface-solid); }
+.message--you { background:var(--surface-lavender); margin-left:1rem; }
+.action-card, .suggested-prompt { min-height:var(--size-control); padding:.75rem; border:1px solid var(--border); border-radius:var(--ds-radius-control); background:var(--surface-solid); color:var(--brand); text-align:left; font-size:.875rem; cursor:pointer; }
+.workspace-module-card { display:block; width:100%; padding:1.5rem; background:var(--surface-card); border:1px solid var(--border); box-shadow:var(--ds-shadow-card); border-radius:var(--ds-radius-card); text-align:left; cursor:pointer; }
+.workspace-module-card:hover { border-color:var(--brand); }
+.selector-grid { display:grid; gap:1rem; }
+.selector-column { min-width:0; padding:1rem; background:var(--surface-solid); border:1px solid var(--border); border-radius:var(--ds-radius-control); }
+.course-choice { display:flex; align-items:flex-start; gap:.75rem; min-height:var(--size-control); padding:.75rem; margin-block:.5rem; border:1px solid var(--border); border-radius:var(--ds-radius-control); background:var(--surface-solid); font-size:.875rem; cursor:pointer; }
+.course-choice input { width:1.125rem; height:1.125rem; flex-shrink:0; margin-top:.25rem; accent-color:var(--brand); }
+.course-detail { padding:1rem; background:var(--surface-solid); border:1px solid var(--border); border-radius:var(--ds-radius-control); }
+summary { cursor:pointer; min-height:var(--size-control); align-content:center; }
+.source-link { color:var(--brand); text-decoration:underline; text-underline-offset:3px; cursor:pointer; }
+.outcome { display:inline-block; border:1px solid currentColor; border-radius:var(--ds-radius-control); padding:.125rem .5rem; font-size:.75rem; font-weight:600; }
+.outcome--met { color:var(--success); } .outcome--unmet { color:var(--ink); } .outcome--unresolved { color:var(--warning); }
+.metric { padding:1rem; background:var(--surface-soft); border-radius:var(--ds-radius-control); } .metric dt { font-size:.75rem; } .metric dd { margin-top:.25rem; font-size:1.5rem; font-weight:600; overflow-wrap:anywhere; }
+@media (min-width:48rem) { .workspace-context { grid-template-columns:1fr 1.25fr; } .selector-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@media (min-width:80rem) { .workspace-columns { grid-template-columns:minmax(18rem, .75fr) minmax(0,1.8fr); } .workspace-columns--home { grid-template-columns:minmax(0,1.4fr) minmax(18rem,.8fr); } .selector-grid { grid-template-columns:repeat(4,minmax(0,1fr)); } }
+.context-choice { min-width:0; }
+@media (max-width:40rem) { .workspace-header-badge { display:none; } }

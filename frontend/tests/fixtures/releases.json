@@ -1,0 +1,18 @@
+[
+  {
+    "campus_id": "bmcc",
+    "program_id": "bmcc-program-cs-as",
+    "release_id": "bmcc-cs-as-2026-2027-draft-2",
+    "catalog_year": "2026-2027",
+    "credential": "AS",
+    "revision_id": "browser-test-draft"
+  },
+  {
+    "campus_id": "bmcc",
+    "program_id": "bmcc-program-cis-aas",
+    "release_id": "bmcc-cis-aas-2026-2027-draft-1",
+    "catalog_year": "2026-2027",
+    "credential": "AAS",
+    "revision_id": "browser-test-draft"
+  }
+]

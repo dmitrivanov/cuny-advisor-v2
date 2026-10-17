@@ -1,16 +1,63 @@
 # V2 user journeys and synchronized academic workspace
 
-Phase 01C design recommendation. V1 behavior evidence lives in
+Phase 01C journey baseline with implemented Phase 02D slice below. V1 behavior evidence lives in
 [V1_FEATURE_INVENTORY.md](V1_FEATURE_INVENTORY.md); canonical contracts are in
 [ACADEMIC_ENGINE_BOUNDARIES.md](ACADEMIC_ENGINE_BOUNDARIES.md). These are future
 workflows, not implemented features or institutional process approvals.
+
+## Implemented Phase 02D: chat-first, modules second
+
+`/` opens Chat Workspace, never the selector or an admin dashboard. The local guide
+matches only the four documented prompts (case/terminal punctuation normalized):
+
+- “Show me the academic programs.” → Catalog action.
+- “Open completed courses.” → Completed Courses action.
+- “I want to review my degree requirements.” → Catalog / Progress actions.
+- “Show the Computer Science catalog.” → Catalog action; the user still chooses
+  the CS release explicitly, without silently replacing academic context.
+
+Unknown questions get an explicit “Live AI advising is not available yet” response
+and supported module actions. This is an exact navigation router, not a simulated
+language model. No generated academic explanations, arbitrary intents or server-side
+chat history. The conversation is capped in tab memory; React renders text safely.
+
+A typed registry declares stable IDs, descriptions, hash targets, availability,
+supported context and actions. Chat, Completed Courses and Catalog are active;
+Degree Progress is a limited preview. Planner, Transcript Review and Advisor Tools
+are visibly future informational panels with no functional upload/plan/report actions.
+
+Desktop presents the persistent conversation beside the active academic module.
+Mobile collapses module navigation initially and can collapse/open the conversation
+without losing it. Native details and form controls support keyboard use; effects
+reuse existing glass tokens, solid fallbacks, focus and reduced-motion settings.
+
+Campus/program/year/release and hypothetical selections/allocations are shared in
+one typed React reducer. Selection uses opaque course IDs and appears checked in
+every matching category, with one unique selected list. The four columns are only
+backend AST projections. Context changes explicitly clear selections/allocations
+and hide stale previews. Retrying the same immutable release preserves selections.
+No localStorage/sessionStorage/cookie persistence. Refresh creates a new conversation
+and empty selections. `?campus=...&program=...&release=...#catalog` restores only the
+exact catalog context/module; missing context fails visibly, never picks latest.
+Back/forward updates module/context; context changes clear incompatible inputs.
+
+Progress requires an explicit fictional passed-course assumption. Users can propose
+allocations in the selector; no greedy allocation or credit totals are calculated
+in TypeScript. Unknown grades/evidence/policies remain unresolved. Captured missing
+credit metadata blocks the preview rather than inventing a number. Source evidence,
+requirements, recommendation status and prerequisite results remain separately
+inspectable. See [API contracts](WORKSPACE_API.md).
+
+The broader journeys below remain future targets where they describe accounts,
+24-hour guest storage, verification, planning, transfer, uploads, reports or approval.
+Current session-local prototype state is not an implemented 24-hour guest workspace.
 
 ## Shared interaction model
 
 Preserve V1's strongest ideas: completed-course selection, collapsible degree map,
 structured semester plan, comparison and reviewable advising summary. Redesign them
 as reusable workspace modules, not separate pages/iframes passing copied JSON.
-Chat is one entry and navigation aid; every academic action also has a structured
+Chat is the default entry and persistent navigation aid; every academic action also has a structured
 non-chat route. Keep academic calculations independent of model availability.
 [CHAT] [SELECT] [GRAPH] [PLAN] [STATE]
 

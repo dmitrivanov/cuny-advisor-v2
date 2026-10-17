@@ -2,7 +2,8 @@
 
 Status: target architecture with bounded local implementation, 2026-10-17.
 The skeleton, design system, bounded Phase 02A/02B prototypes and Phase 02C local
-persistence adapter are implemented; broader services below remain targets.
+persistence adapter and bounded Phase 02D workspace are implemented; broader
+services below remain targets.
 Evidence classifications and external sources: [PRD](PRD.md).
 
 ## Current Phase 02A implementation boundary
@@ -37,6 +38,31 @@ resources. The API/health/frontend do not connect to PostgreSQL. This is neither
 academic publication nor a student database. Local DB checks could not run without
 Docker/PostgreSQL; real integration tests run in the separate CI service job.
 See [implemented design, tradeoffs and checklist](PERSISTENCE_DESIGN_PHASE_02C.md).
+
+## Implemented Phase 02D workspace boundary
+
+Next.js `/` is a persistent chat-first shell with a typed module registry, exact
+local navigation router and one session-local academic reducer. Module navigation
+and chat action cards open the same catalog/selector/limited progress views. Chat
+remains available; future module placeholders are explicitly unavailable.
+
+FastAPI adds scoped read-only catalog discovery/content plus hypothetical evaluation
+through explicit repository dependency injection. The browser uses a bounded local
+Next.js proxy and typed client. PostgreSQL is the sole runtime catalog source; no
+frontend fixture arrays, in-memory service fallback, startup seed or new migration.
+Complete releases load once per scoped request before pure evaluation. The shared
+context is frontend tab memory, never mutable per-user backend globals or DB rows.
+
+The service projects requirement AST membership for the four columns but does not
+reimplement satisfaction, allocation or prerequisites. The hypothetical adapter
+leaves grades unknown and refuses to invent missing course credits. It does not
+persist requests/results. [API](WORKSPACE_API.md) and [UX](UX_WORKFLOWS.md) document
+contracts, context lifecycle, current versus future modules and uncertainty.
+
+Gemini remains a future Phase 04 boundary. No LLM call/SDK, fake AI abstraction,
+provider credential or generated advising is introduced. Playwright is a pinned
+**development-only** test dependency for mocked-API browser flows/responsiveness;
+no runtime UI framework is added. Existing npm advisories remain technical debt.
 
 ## System boundaries
 

@@ -1,19 +1,16 @@
 # CUNY Advisor V2
 
-The local application has an English landing page, a FastAPI health endpoint,
-and a connectivity indicator with the Phase 01B design system. Phase 02A adds a
-backend-only, in-memory academic catalog/rules prototype and synthetic tests.
-Phase 02B adds scoped academic evidence, partial program fixtures and synthetic
-non-credit claims; it provides no new public academic service or student storage.
-This is an independent project,
-starting with BMCC; it does not imply CUNY or BMCC approval.
+The default home is a chat-first academic workspace. A deterministic local guide
+opens modules; **no live AI advising is available**. Explore the persisted draft
+catalog, select hypothetical completed courses and run a limited deterministic
+progress preview. Semester planning, transcript review and advisor tools are
+explicitly future modules.
 
-Phase 02C adds optional local PostgreSQL persistence for immutable draft catalog
-fixtures and synthetic snapshots. It does not connect the running API to a database.
-
-There are no accounts, student workspaces, CMS,
-Gemini calls, complete graduation audits/plans, or transcript handling. Do not enter real student
-information. V1 is reference-only and is not used by either application.
+This independent project starts with BMCC and has no CUNY/BMCC endorsement.
+Use fictional scenarios only. No accounts, real student records, uploads, chat
+storage, complete graduation audit, academic publication or production deployment.
+Selections/conversation live only in tab memory and disappear on refresh. V1 stays
+read-only and is never connected. All academic uncertainty remains explicit.
 
 ## Requirements
 
@@ -198,7 +195,7 @@ without it. See [persistence design and reviewer checklist](docs/PERSISTENCE_DES
 5. Optionally import the reviewed CS/CIS assemblies explicitly:
 
    ```sh
-   python -m app.persistence.import_fixtures --revision-id bmcc-2026-27-local-draft-r1
+   python -m app.persistence.import_fixtures --revision-id bmcc-2026-27-reviewed-fixture-r1
    ```
 
    Each program is atomic and independently repeatable; this is not bundle-wide
@@ -225,3 +222,49 @@ Local implementation verification had no Docker/PostgreSQL available, so local D
 integration was not executed. Consult the Phase 02C PR's actual CI results before
 accepting database behavior. Source/artifact capture, academic approval, accounts,
 real records, CMS and deployment remain deferred.
+
+
+## Phase 02D workspace and review
+
+Start the backend and frontend as above. For functional catalog modules, export the
+V2 variables **in the backend terminal**, explicitly bootstrap/migrate/import the
+reviewed CS/CIS fixtures using the optional PostgreSQL workflow above, then restart
+uvicorn with that environment. Health remains DB independent. No startup migration
+or seed is run. Without PostgreSQL, chat/navigation still work and modules show
+truthful setup errors; no frontend fixtures stand in for a database.
+
+Open `/` to start in chat. Use a supported prompt, or the collapsible module menu.
+Choose an exact persisted program/release explicitly. Completed Courses preserves
+the four columns and unique IDs. Optional allocations are exact-string proposals,
+not automatic degree credit. In Degree Progress, acknowledge the fictional passed-
+course assumption and run the preview. Unknown grades, policies and metadata remain
+unresolved. CIS is partial; no graduation eligibility is claimed.
+
+Release changes clear hypothetical data. Reload clears conversation/selections but
+retains a deep-linked context: `/?campus=bmcc&program=bmcc-program-cs-as&release=bmcc-cs-as-2026-2027-draft-2#catalog`.
+A missing release fails, never falls back. Nothing is saved to browser storage.
+
+Supported exact local prompts (case/punctuation normalized): “Show me the academic
+programs.”, “Open completed courses.”, “I want to review my degree requirements.”,
+“Show the Computer Science catalog.” Unknown questions receive a no-live-AI message.
+Chat text is not submitted to an API. Gemini remains future Phase 04.
+
+From frontend, `npm test`, `npm run lint`, `npm run typecheck`, `npm run build`.
+For actual browser regressions: `npx playwright install chromium`, then
+`npm run test:browser` (starts built Next.js on loopback port 3100). Playwright is a
+pinned development-only dependency for these interactive flows; there are no new
+runtime packages. Browser tests mock academic API responses with reviewed public
+test fixtures; they do not claim browser-to-PostgreSQL coverage. Backend CI separately
+runs the real PostgreSQL API/repository tests. No SQLite substitute. Local DB tests
+skip when unavailable; report them separately. Existing five high npm advisories
+remain pre-existing technical debt; no unrelated audit fixes were attempted.
+
+[Workspace API](docs/WORKSPACE_API.md) · [UX and context lifecycle](docs/UX_WORKFLOWS.md).
+Review screenshots in `docs/images/phase02d-*.png` were captured with explicitly
+mocked catalog APIs at 375/768/1440px; academic data there is test response data.
+
+Manual review: start with chat, choose the CS release, open Completed Courses,
+select MAT 301 / CSC 101, return to chat, verify context, run hypothetical progress,
+inspect unresolved/prerequisite evidence, switch to partial CIS and confirm selection
+reset. Try an unsupported question, future module, missing deep link and DB offline.
+Use keyboard-only navigation and narrow viewport. No real student input.

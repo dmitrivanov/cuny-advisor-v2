@@ -43,6 +43,20 @@ that accounts, academic approvals, raw source artifacts, CMS, RLS or production
 student records exist. Full table inventory and constraints are documented in the
 [persistence design](PERSISTENCE_DESIGN_PHASE_02C.md).
 
+## Phase 02D session-local projection models
+
+No database models or migrations are added. `ReleaseSummary`, `CatalogView`,
+selector groups, `HypotheticalRequest` and `ProgressView` are API/application DTOs.
+They wrap existing immutable contracts and exact Decimal serialization. The service
+never saves an evaluation snapshot. Hypothetical validity assumptions are not an
+institutional verification state; missing grades/source evidence are preserved.
+
+Frontend module/context state owns current module, explicit campus/program/year/
+release, unique selected course IDs and optional exact-string allocation drafts.
+Chat messages remain in memory only. Changing context resets selections and results;
+refresh restores only deep-linked catalog identity/module, never personal data.
+These are not student, account, profile, transcript or 24-hour guest-workspace records.
+
 ## Conventions and isolation
 
 Use opaque IDs, UTC timestamps, explicit status, creator, and revision metadata.

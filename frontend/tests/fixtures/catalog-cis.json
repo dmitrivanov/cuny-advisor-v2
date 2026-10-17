@@ -1,0 +1,722 @@
+{
+  "release": {
+    "schema_version": "1",
+    "id": "bmcc-cis-aas-2026-2027-draft-1",
+    "campus_id": "bmcc",
+    "catalog_year": "2026-2027",
+    "program": {
+      "id": "bmcc-program-cis-aas",
+      "campus_id": "bmcc"
+    },
+    "credential": "AAS",
+    "state": "draft",
+    "sources": [
+      {
+        "id": "cis-required",
+        "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-information-systems-cis/",
+        "retrieved_on": "2026-10-16",
+        "catalog_year": "2026-2027",
+        "section": "Required Common Core / Notes",
+        "state": "source_verified",
+        "year_confirmed": true,
+        "note": "Program Notes explicitly identify 2026–2027; source verification is not institutional approval.",
+        "publisher": "BMCC",
+        "campus_id": "bmcc",
+        "program_id": "bmcc-program-cis-aas",
+        "claim_scope": "CIS AAS math alternatives MAT 157, 206 or 301; required-core total 14.",
+        "published_on": null,
+        "revised_on": null,
+        "effective_on": null,
+        "conflicts_with": [],
+        "academic_review": "required"
+      },
+      {
+        "id": "cis-flexible",
+        "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-information-systems-cis/",
+        "retrieved_on": "2026-10-16",
+        "catalog_year": "2026-2027",
+        "section": "Flexible Core / Notes",
+        "state": "source_verified",
+        "year_confirmed": true,
+        "note": "Program Notes explicitly identify 2026–2027; source verification is not institutional approval.",
+        "publisher": "BMCC",
+        "campus_id": "bmcc",
+        "program_id": "bmcc-program-cis-aas",
+        "claim_scope": "Scientific World shows CSC 101 and CSC 110 or CSC 111; exact parenthesization and flexible total require review.",
+        "published_on": null,
+        "revised_on": null,
+        "effective_on": null,
+        "conflicts_with": [],
+        "academic_review": "required"
+      },
+      {
+        "id": "cis-curriculum",
+        "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-information-systems-cis/",
+        "retrieved_on": "2026-10-16",
+        "catalog_year": "2026-2027",
+        "section": "Curriculum Requirements / Notes",
+        "state": "source_verified",
+        "year_confirmed": true,
+        "note": "Program Notes explicitly identify 2026–2027; source verification is not institutional approval.",
+        "publisher": "BMCC",
+        "campus_id": "bmcc",
+        "program_id": "bmcc-program-cis-aas",
+        "claim_scope": "CIS 345 is a three-credit curriculum requirement; curriculum total 36 and degree total 60.",
+        "published_on": null,
+        "revised_on": null,
+        "effective_on": null,
+        "conflicts_with": [],
+        "academic_review": "required"
+      },
+      {
+        "id": "cis-electives",
+        "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-information-systems-cis/",
+        "retrieved_on": "2026-10-16",
+        "catalog_year": "2026-2027",
+        "section": "Footnotes 1–2 / Program Electives / Electives",
+        "state": "source_verified",
+        "year_confirmed": true,
+        "note": "Program Notes explicitly identify 2026–2027; source verification is not institutional approval.",
+        "publisher": "BMCC",
+        "campus_id": "bmcc",
+        "program_id": "bmcc-program-cis-aas",
+        "claim_scope": "Six-credit program elective pool differs from CS; other electives allow specified disciplines except CIS 100, or MAT 206; open pool not fully enumerated.",
+        "published_on": null,
+        "revised_on": null,
+        "effective_on": null,
+        "conflicts_with": [],
+        "academic_review": "required"
+      }
+    ],
+    "categories": [
+      {
+        "id": "english",
+        "label": "English Composition"
+      },
+      {
+        "id": "math",
+        "label": "Mathematical and Quantitative Reasoning"
+      },
+      {
+        "id": "science",
+        "label": "Life and Physical Sciences"
+      },
+      {
+        "id": "creative",
+        "label": "Creative Expression"
+      },
+      {
+        "id": "individual",
+        "label": "Individual and Society"
+      },
+      {
+        "id": "scientific",
+        "label": "Scientific World"
+      },
+      {
+        "id": "us",
+        "label": "U.S. Experience in Its Diversity"
+      },
+      {
+        "id": "world",
+        "label": "World Cultures and Global Issues"
+      }
+    ],
+    "courses": [
+      {
+        "identity": {
+          "id": "bmcc-course-mat-157",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-MAT-157",
+        "code": "MAT 157",
+        "title": "Title not captured in this partial fixture",
+        "credits": "4",
+        "discipline": null,
+        "source_ids": [
+          "cis-required"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-mat-206",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-MAT-206",
+        "code": "MAT 206",
+        "title": "Title not captured in this partial fixture",
+        "credits": "4",
+        "discipline": null,
+        "source_ids": [
+          "cis-required"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-mat-301",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-MAT-301",
+        "code": "MAT 301",
+        "title": "Title not captured in this partial fixture",
+        "credits": "4",
+        "discipline": null,
+        "source_ids": [
+          "cis-required"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-csc-101",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CSC-101",
+        "code": "CSC 101",
+        "title": "Title not captured in this partial fixture",
+        "credits": "3",
+        "discipline": null,
+        "source_ids": [
+          "cis-flexible"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-csc-110",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CSC-110",
+        "code": "CSC 110",
+        "title": "Title not captured in this partial fixture",
+        "credits": "4",
+        "discipline": null,
+        "source_ids": [
+          "cis-flexible"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-csc-111",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CSC-111",
+        "code": "CSC 111",
+        "title": "Title not captured in this partial fixture",
+        "credits": "4",
+        "discipline": null,
+        "source_ids": [
+          "cis-flexible"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-345",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-345",
+        "code": "CIS 345",
+        "title": "Title not captured in this partial fixture",
+        "credits": "3",
+        "discipline": null,
+        "source_ids": [
+          "cis-curriculum"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-gis-101",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-GIS-101",
+        "code": "GIS 101",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-gis-201",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-GIS-201",
+        "code": "GIS 201",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-359",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-359",
+        "code": "CIS 359",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-362",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-362",
+        "code": "CIS 362",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-364",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-364",
+        "code": "CIS 364",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-459",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-459",
+        "code": "CIS 459",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-490",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-490",
+        "code": "CIS 490",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-316",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-316",
+        "code": "CIS 316",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-272",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-272",
+        "code": "CIS 272",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-285",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-285",
+        "code": "CIS 285",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "bmcc-course-cis-375",
+          "campus_id": "bmcc"
+        },
+        "version_id": "bmcc-cis-2627-CIS-375",
+        "code": "CIS 375",
+        "title": "Title not captured in this partial fixture",
+        "credits": null,
+        "discipline": null,
+        "source_ids": [
+          "cis-electives"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      }
+    ],
+    "requirements": [
+      {
+        "id": "cis-math",
+        "label": "Mathematical and Quantitative Reasoning",
+        "column": "Required Common Core",
+        "category_id": "math",
+        "kind": "required",
+        "target_credits": "4",
+        "rule": {
+          "id": "cis-math-rule",
+          "expression": {
+            "op": "any",
+            "children": [
+              {
+                "op": "completed",
+                "course_id": "bmcc-course-mat-157",
+                "minimum_grade_rank": null
+              },
+              {
+                "op": "completed",
+                "course_id": "bmcc-course-mat-206",
+                "minimum_grade_rank": null
+              },
+              {
+                "op": "completed",
+                "course_id": "bmcc-course-mat-301",
+                "minimum_grade_rank": null
+              }
+            ]
+          },
+          "source_ids": [
+            "cis-required"
+          ]
+        }
+      },
+      {
+        "id": "cis-english",
+        "label": "English Composition",
+        "column": "Required Common Core",
+        "category_id": "english",
+        "kind": "required",
+        "target_credits": "6",
+        "rule": {
+          "id": "cis-english-rule",
+          "expression": {
+            "op": "unknown",
+            "reason": "Eligible English pool not captured"
+          },
+          "source_ids": [
+            "cis-required"
+          ]
+        }
+      },
+      {
+        "id": "cis-scientific",
+        "label": "Scientific World — grouping needs review",
+        "column": "Flexible Core",
+        "category_id": "scientific",
+        "kind": "required",
+        "target_credits": null,
+        "rule": {
+          "id": "cis-scientific-rule",
+          "expression": {
+            "op": "all",
+            "children": [
+              {
+                "op": "unknown",
+                "reason": "Confirm CSC 101 AND (CSC 110 OR CSC 111) grouping and category allocation"
+              },
+              {
+                "op": "completed",
+                "course_id": "bmcc-course-csc-101",
+                "minimum_grade_rank": null
+              },
+              {
+                "op": "any",
+                "children": [
+                  {
+                    "op": "completed",
+                    "course_id": "bmcc-course-csc-110",
+                    "minimum_grade_rank": null
+                  },
+                  {
+                    "op": "completed",
+                    "course_id": "bmcc-course-csc-111",
+                    "minimum_grade_rank": null
+                  }
+                ]
+              }
+            ]
+          },
+          "source_ids": [
+            "cis-flexible"
+          ]
+        }
+      },
+      {
+        "id": "cis-major-network",
+        "label": "CIS 345",
+        "column": "Major Requirements",
+        "category_id": null,
+        "kind": "required",
+        "target_credits": "3",
+        "rule": {
+          "id": "cis-major-network-rule",
+          "expression": {
+            "op": "completed",
+            "course_id": "bmcc-course-cis-345",
+            "minimum_grade_rank": null
+          },
+          "source_ids": [
+            "cis-curriculum"
+          ]
+        }
+      },
+      {
+        "id": "cis-program-electives",
+        "label": "Program Electives",
+        "column": "Major Electives",
+        "category_id": null,
+        "kind": "required",
+        "target_credits": "6",
+        "rule": {
+          "id": "cis-program-electives-rule",
+          "expression": {
+            "op": "credits",
+            "eligible": [
+              "bmcc-course-gis-101",
+              "bmcc-course-gis-201",
+              "bmcc-course-cis-359",
+              "bmcc-course-cis-362",
+              "bmcc-course-cis-364",
+              "bmcc-course-cis-459",
+              "bmcc-course-cis-490",
+              "bmcc-course-cis-316",
+              "bmcc-course-cis-272",
+              "bmcc-course-cis-285",
+              "bmcc-course-cis-375"
+            ],
+            "minimum": "6"
+          },
+          "source_ids": [
+            "cis-electives"
+          ]
+        }
+      },
+      {
+        "id": "cis-other-electives",
+        "label": "Other Electives — pool incomplete",
+        "column": "Major Requirements",
+        "category_id": null,
+        "kind": "required",
+        "target_credits": "3",
+        "rule": {
+          "id": "cis-other-electives-rule",
+          "expression": {
+            "op": "unknown",
+            "reason": "Open discipline pool, CIS 100 exclusion and MAT 206 alternative need complete identities and allocation review"
+          },
+          "source_ids": [
+            "cis-electives"
+          ]
+        }
+      }
+    ],
+    "constraints": [],
+    "declared_totals": [
+      {
+        "label": "Required Common Core",
+        "credits": "14",
+        "source_ids": [
+          "cis-required"
+        ]
+      },
+      {
+        "label": "Curriculum Requirements",
+        "credits": "36",
+        "source_ids": [
+          "cis-curriculum"
+        ]
+      },
+      {
+        "label": "Degree",
+        "credits": "60",
+        "source_ids": [
+          "cis-curriculum"
+        ]
+      }
+    ],
+    "issues": [
+      "partial_reference_fixture_not_graduation_audit",
+      "cis_flexible_grouping_unresolved",
+      "cis_elective_metadata_incomplete",
+      "academic_approval_not_established"
+    ]
+  },
+  "columns": [
+    {
+      "title": "Required Common Core",
+      "groups": [
+        {
+          "requirement_id": "cis-math",
+          "label": "Mathematical and Quantitative Reasoning",
+          "kind": "required",
+          "target_credits": "4",
+          "course_ids": [
+            "bmcc-course-mat-157",
+            "bmcc-course-mat-206",
+            "bmcc-course-mat-301"
+          ],
+          "condition_label": "Alternative modeled conditions"
+        },
+        {
+          "requirement_id": "cis-english",
+          "label": "English Composition",
+          "kind": "required",
+          "target_credits": "6",
+          "course_ids": [],
+          "condition_label": "Unresolved policy"
+        }
+      ]
+    },
+    {
+      "title": "Flexible Core",
+      "groups": [
+        {
+          "requirement_id": "cis-scientific",
+          "label": "Scientific World — grouping needs review",
+          "kind": "required",
+          "target_credits": null,
+          "course_ids": [
+            "bmcc-course-csc-101",
+            "bmcc-course-csc-110",
+            "bmcc-course-csc-111"
+          ],
+          "condition_label": "All modeled conditions apply"
+        }
+      ]
+    },
+    {
+      "title": "Major Requirements",
+      "groups": [
+        {
+          "requirement_id": "cis-major-network",
+          "label": "CIS 345",
+          "kind": "required",
+          "target_credits": "3",
+          "course_ids": [
+            "bmcc-course-cis-345"
+          ],
+          "condition_label": "Specified course condition"
+        },
+        {
+          "requirement_id": "cis-other-electives",
+          "label": "Other Electives — pool incomplete",
+          "kind": "required",
+          "target_credits": "3",
+          "course_ids": [],
+          "condition_label": "Unresolved policy"
+        }
+      ]
+    },
+    {
+      "title": "Major Electives",
+      "groups": [
+        {
+          "requirement_id": "cis-program-electives",
+          "label": "Program Electives",
+          "kind": "required",
+          "target_credits": "6",
+          "course_ids": [
+            "bmcc-course-gis-101",
+            "bmcc-course-gis-201",
+            "bmcc-course-cis-359",
+            "bmcc-course-cis-362",
+            "bmcc-course-cis-364",
+            "bmcc-course-cis-459",
+            "bmcc-course-cis-490",
+            "bmcc-course-cis-316",
+            "bmcc-course-cis-272",
+            "bmcc-course-cis-285",
+            "bmcc-course-cis-375"
+          ],
+          "condition_label": "Explicit credit allocation required"
+        }
+      ]
+    }
+  ],
+  "limitation": "Draft catalog. Source verification is not institutional approval. Partial data is not a complete audit."
+}

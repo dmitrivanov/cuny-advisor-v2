@@ -1,7 +1,7 @@
 # Implementation roadmap
 
-Status: proposed sequence, 2026-10-16. Phase 02A merged through PR #5; bounded
-Phase 02B evidence reconciliation is authorized. Later implementation remains gated.
+Status: proposed sequence with bounded implementation, 2026-10-17.
+Phase 02B merged through PR #6; Phase 02C local persistence is authorized. Later implementation remains gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
 
@@ -277,6 +277,41 @@ Exit: an academic reviewer approves every implemented rule and source mapping;
 all golden fixtures pass without AI; reruns reproduce results; unknown rules,
 source conflicts, release withdrawal, and invalid allocation fail safely.
 Owner: catalog steward/registrar delegate plus technical lead, unconfirmed.
+
+### Phase 02C — PostgreSQL persistence foundation
+
+Implemented 2026-10-17 on `feature/phase02c-persistence`, following merged Phase 02B
+PR #6. This explicit authorization supersedes Phase 02B's proposal-only database
+restriction for the slice described here.
+
+Delivered: 16 schema-qualified SQLAlchemy Core tables; frozen Alembic migration;
+explicit disposable database bootstrap with distinct roles; immutable transactional
+and repeatable draft imports; exact release/synthetic snapshot round trips with
+projection/hash validation; explicit program/campus/year context; adapter calling
+the unchanged evaluator; real PostgreSQL CI integration job and local workflow.
+No frontend/API changes, accounts, real records, academic publication, CMS, AI,
+full audit/planner, V1 access or deployment.
+
+Acceptance checks cover fresh/empty migration behavior, scoped FK rejection,
+two programs/years, same code with distinct campus identities, unchanged math paths,
+precision/scale, non-credit claims, evidence conflicts, historical/current engine
+IDs, corrupt storage, immutable conflicts, rollback and runtime DDL denial.
+Database-independent tests run locally; PostgreSQL tests skip locally when the URL
+is absent because Docker/PostgreSQL were unavailable. Actual final local checks
+and real CI results are reported in the PR, separately; not all production or
+academic correctness gates are complete.
+
+Remaining: independently verified academic authority, policy reconciliation,
+raw source capture, sealed campus manifest/publication lifecycle, product access
+control/RLS, backup/restore and operational validation. These are not delivered by
+schema isolation or source provenance. See [design/checklist](PERSISTENCE_DESIGN_PHASE_02C.md).
+
+Proposed next user-visible slice, **not authorized**: a read-only explorer of one
+explicit retained catalog draft with evidence/uncertainty explanations and the
+approved four-column projection. No planner or academic approval is implied.
+
+The owner authorizes a scoped commit, push and PR to main after verification.
+Stop for review; never merge, deploy or start the next phase automatically.
 
 ## Phase 03 — Student workspace and semester planning
 

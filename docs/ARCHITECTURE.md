@@ -1,7 +1,8 @@
 # Architecture
 
-Status: target architecture with bounded local implementation, 2026-10-16.
-Only the skeleton, design system and bounded Phase 02A/02B prototypes are implemented.
+Status: target architecture with bounded local implementation, 2026-10-17.
+The skeleton, design system, bounded Phase 02A/02B prototypes and Phase 02C local
+persistence adapter are implemented; broader services below remain targets.
 Evidence classifications and external sources: [PRD](PRD.md).
 
 ## Current Phase 02A implementation boundary
@@ -19,9 +20,23 @@ The remaining architecture below is a target, not a claim of delivered services.
 Phase 02B adds scoped evidence/conflict validation, non-credit claims with no award
 semantics, shared category vocabulary, a second partial program and immutable old
 versus new-engine snapshot tests. All remain in memory with no new endpoints or
-frontend behavior. [Phase 02C persistence](PERSISTENCE_DESIGN_PHASE_02C.md) is a
-proposal only; the source and policy gaps remain explicit in the
+frontend behavior. [Phase 02C persistence](PERSISTENCE_DESIGN_PHASE_02C.md) is an
+implemented local draft adapter; the source and policy gaps remain explicit in the
 [evidence matrix](ACADEMIC_POLICY_EVIDENCE.md).
+
+## Implemented Phase 02C persistence boundary
+
+SQLAlchemy Core tables and `CatalogRepository` under `backend/app/persistence/`
+retain exact validated DTO JSONB plus normalized, hash-checked scoped projections.
+The repository loads complete Pydantic releases before invoking the unchanged pure
+evaluator. Campus edition/revision and program release bindings remain distinct.
+No ORM/session enters the academic contracts. All 16 tables and Alembic tracking
+use `cuny_advisor_v2`. Explicit local bootstrap, separate migration/runtime roles,
+append-only writes and manual migrations/imports operate only on disposable V2
+resources. The API/health/frontend do not connect to PostgreSQL. This is neither
+academic publication nor a student database. Local DB checks could not run without
+Docker/PostgreSQL; real integration tests run in the separate CI service job.
+See [implemented design, tradeoffs and checklist](PERSISTENCE_DESIGN_PHASE_02C.md).
 
 ## System boundaries
 

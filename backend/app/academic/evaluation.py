@@ -26,8 +26,8 @@ from .contracts import (
     Rule,
     Snapshot,
     Unknown,
-    EvidenceState,
 )
+from .evidence import source_problem
 
 ZERO = Decimal("0")
 
@@ -47,33 +47,13 @@ def _arithmetic_context(inputs: EvaluationInput) -> Context:
     )
 
 
-def _source_problem(source_ids: tuple[str, ...], release: Release) -> Result | None:
-    sources = {s.id: s for s in release.sources}
-    for source_id in source_ids:
-        source = sources[source_id]
-        reason = None
-        if source.state in (EvidenceState.PROVISIONAL, EvidenceState.CONFLICTING):
-            reason = f"source_{source.state}:{source_id}"
-        elif source.state == EvidenceState.VERIFIED and not source.year_confirmed:
-            reason = f"unconfirmed_catalog_year:{source_id}"
-        elif source.state == EvidenceState.SYNTHETIC and any(
-            s.state != EvidenceState.SYNTHETIC for s in release.sources
-        ):
-            reason = "synthetic_rule_in_reference_release"
-        if reason:
-            return Result(
-                status=Outcome.UNRESOLVED, reason=reason, source_ids=source_ids
-            )
-    return None
-
-
 def _course_problem(
     course_ids: tuple[str, ...], release: Release, *, require_credits: bool = False
 ) -> Result | None:
     courses = {c.identity.id: c for c in release.courses}
     for course_id in course_ids:
         course = courses[course_id]
-        problem = _source_problem(course.source_ids, release)
+        problem = source_problem(course.source_ids, release)
         if problem:
             return problem
         if require_credits and course.credits is None:
@@ -187,7 +167,7 @@ def _checked_rule(
     records: tuple[Completion, ...],
     amounts: dict[str, Decimal],
 ) -> Result:
-    problem = _source_problem(rule.source_ids, release)
+    problem = source_problem(rule.source_ids, release)
     if problem:
         return problem
     return _expression(rule.expression, release, records, amounts)
@@ -219,6 +199,17 @@ def _input_issues(release: Release, inputs: EvaluationInput) -> tuple[str, ...]:
     if len({c.course_id for c in inputs.completions}) != len(inputs.completions):
         issues.append("repeat_policy_not_implemented")
     courses = {c.identity.id: c for c in release.courses}
+    requirement_ids = {r.id for r in release.requirements}
+    if len({e.id for e in inputs.non_credit_evidence}) != len(
+        inputs.non_credit_evidence
+    ):
+        issues.append("duplicate_non_credit_evidence")
+    for evidence in inputs.non_credit_evidence:
+        if evidence.course_id not in courses or (
+            evidence.requirement_id is not None
+            and evidence.requirement_id not in requirement_ids
+        ):
+            issues.append("invalid_non_credit_reference")
     for record in inputs.completions:
         course = courses.get(record.course_id)
         if course is None:
@@ -279,6 +270,27 @@ def eligible_courses(expression: Expression) -> frozenset[str]:
     return frozenset()
 
 
+def _non_credit_result(
+    result: Result,
+    rule: Rule,
+    inputs: EvaluationInput,
+    requirement_id: str | None = None,
+) -> Result:
+    if result.status == Outcome.UNMET and any(
+        e.course_id in eligible_courses(rule.expression)
+        or (requirement_id is not None and e.requirement_id == requirement_id)
+        for e in inputs.non_credit_evidence
+    ):
+        return Result(
+            status=Outcome.UNRESOLVED,
+            reason="non_credit_evidence_requires_academic_review",
+            rule_id=rule.id,
+            source_ids=rule.source_ids,
+            children=(result,),
+        )
+    return result
+
+
 def evaluate(release: Release, inputs: EvaluationInput) -> Snapshot:
     """Evaluate a synthetic snapshot with isolated exact credit arithmetic."""
     with localcontext(_arithmetic_context(inputs)):
@@ -325,6 +337,9 @@ def _evaluate(release: Release, inputs: EvaluationInput) -> Snapshot:
                         ),
                     )
                 )
+            result = _non_credit_result(
+                result, requirement.rule, inputs, requirement.id
+            )
         results.append(
             RequirementResult(
                 requirement_id=requirement.id,
@@ -411,6 +426,7 @@ def _eligibility(
         return Result(
             status=Outcome.UNRESOLVED, reason="corequisite_timing_not_implemented"
         )
-    return _rule(
+    result = _rule(
         rule, release, inputs.completions, {c.id: c.credits for c in inputs.completions}
     )
+    return _non_credit_result(result, rule, inputs)

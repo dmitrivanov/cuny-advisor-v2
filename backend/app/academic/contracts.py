@@ -25,6 +25,7 @@ class EvidenceState(StrEnum):
     PROVISIONAL = "provisional"
     CONFLICTING = "conflicting"
     SYNTHETIC = "synthetic"
+    UNRESOLVED = "unresolved"
 
 
 class Source(Contract):
@@ -36,13 +37,28 @@ class Source(Contract):
     state: EvidenceState
     year_confirmed: bool = False
     note: str
+    publisher: str | None = None
+    campus_id: Identifier | None = None
+    program_id: Identifier | None = None
+    claim_scope: str | None = None
+    published_on: date | None = None
+    revised_on: date | None = None
+    effective_on: date | None = None
+    conflicts_with: tuple[Identifier, ...] = ()
+    academic_review: Literal["required"] = "required"
 
     @model_validator(mode="after")
     def official_evidence_has_locator(self):
-        if self.state != EvidenceState.SYNTHETIC and (
+        if self.state not in (EvidenceState.SYNTHETIC, EvidenceState.UNRESOLVED) and (
             not self.url or not self.url.startswith("https://")
         ):
             raise ValueError("non-synthetic evidence requires an HTTPS source URL")
+        if self.program_id is not None and self.campus_id is None:
+            raise ValueError("program evidence requires explicit campus scope")
+        if self.published_on and self.published_on > self.retrieved_on:
+            raise ValueError("publication cannot follow retrieval")
+        if self.revised_on and self.revised_on > self.retrieved_on:
+            raise ValueError("revision cannot follow retrieval")
         return self
 
 
@@ -190,6 +206,16 @@ class Release(Contract):
         ):
             raise ValueError("cross-campus catalog reference")
         source_ids = {s.id for s in self.sources}
+        for source in self.sources:
+            if source.campus_id is not None and source.campus_id != self.campus_id:
+                raise ValueError("cross-campus source evidence")
+            if source.program_id is not None and source.program_id != self.program.id:
+                raise ValueError("cross-program source evidence")
+            if (
+                not set(source.conflicts_with) <= source_ids
+                or source.id in source.conflicts_with
+            ):
+                raise ValueError("invalid evidence conflict reference")
         if any(not set(t.source_ids) <= source_ids for t in self.declared_totals):
             raise ValueError("unknown declared-total source")
         course_ids = {c.identity.id for c in self.courses}
@@ -246,12 +272,23 @@ class Allocation(Contract):
     credits: PositiveCredits
 
 
+class NonCreditEvidence(Contract):
+    """Synthetic placement/exemption/waiver claim; never an award or approval."""
+
+    id: Identifier
+    course_id: Identifier
+    kind: Literal["placement", "exemption", "waiver"]
+    requirement_id: Identifier | None = None
+    note: str
+
+
 class EvaluationInput(Contract):
     campus_id: Identifier
     release_id: Identifier
     record_revision: Identifier
     completions: tuple[Completion, ...] = ()
     allocations: tuple[Allocation, ...] = ()
+    non_credit_evidence: tuple[NonCreditEvidence, ...] = ()
 
 
 class Outcome(StrEnum):
@@ -277,7 +314,7 @@ class RequirementResult(Contract):
 
 
 class Snapshot(Contract):
-    engine_version: Literal["02a.1"] = "02a.1"
+    engine_version: Literal["02a.1", "02b.1"] = "02b.1"
     release: Release
     inputs: EvaluationInput
     results: tuple[RequirementResult, ...]

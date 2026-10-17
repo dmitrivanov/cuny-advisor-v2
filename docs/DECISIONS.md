@@ -156,3 +156,33 @@ only. No merge, deployment, Phase 02B, dependency, database or endpoint work.
 Final review strengthens course-metadata provenance checks, keeps missing elective
 credits unresolved, and demonstrates course reuse in a second fictional program.
 Credit arithmetic also isolates caller Decimal precision to preserve exact replay.
+
+## Phase 02B — Evidence and policy reconciliation
+
+D34 — Required: bounded evidence/provenance validation, manually curated partial
+catalog fixtures, deterministic synthetic regressions and documentation on
+`feature/phase02b-catalog-evidence`, based on merged PR #5. Owner authorizes review,
+commit, normal push and PR to `main`; no merge, deployment, Phase 02C implementation,
+new dependencies, endpoints, UI, database, institutional API or real records.
+This supersedes earlier phase-specific restrictions only for this scope.
+
+D35 — Reconciliation: CUNY STEM frameworks support separating requirement
+satisfaction from unique earned-credit counting. They do not settle BMCC CS's exact
+general-elective allocation. Keep unsupported cross-group allocations unresolved;
+the restriction is an implementation limit, not a claimed institutional prohibition.
+No universal grade/repeat/placement/transfer rule is invented. Explicit CR/TR
+source disagreement remains a notation conflict, not proof credit is invalid.
+
+D36 — Selected second reference: BMCC Computer Information Systems A.A.S.,
+2026–2027, explicitly stated by its official program Notes. Shared categories and
+course identities, distinct program/version/evidence bindings; incomplete scientific
+grouping and elective credits remain unresolved. Fictional historical 2025–2026
+inputs do not claim an official historical curriculum. See
+[second-program validation](SECOND_PROGRAM_VALIDATION.md).
+
+D37 — Selected incremental implementation: evidence state/scope/date/conflict
+contracts and pure source checks; non-credit claims cannot become completions or
+awards. New engine outputs use `02b.1`; old snapshots are retained with `02a.1`.
+No source state implies academic approval. The [policy matrix](ACADEMIC_POLICY_EVIDENCE.md)
+and [proposed Phase 02C design](PERSISTENCE_DESIGN_PHASE_02C.md) distinguish current
+code from future authority/persistence requirements.

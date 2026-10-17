@@ -1,7 +1,7 @@
 # Architecture
 
 Status: target architecture with bounded local implementation, 2026-10-16.
-Only the skeleton, design system and Phase 02A prototype are implemented.
+Only the skeleton, design system and bounded Phase 02A/02B prototypes are implemented.
 Evidence classifications and external sources: [PRD](PRD.md).
 
 ## Current Phase 02A implementation boundary
@@ -15,6 +15,13 @@ full-degree auditing are not implemented. No frontend calculations or health
 contract changed. See [rules model](ACADEMIC_RULES_MODEL.md),
 [sources](BMCC_CATALOG_SOURCE_MAPPING.md) and [parity](V1_SELECTOR_PARITY.md).
 The remaining architecture below is a target, not a claim of delivered services.
+
+Phase 02B adds scoped evidence/conflict validation, non-credit claims with no award
+semantics, shared category vocabulary, a second partial program and immutable old
+versus new-engine snapshot tests. All remain in memory with no new endpoints or
+frontend behavior. [Phase 02C persistence](PERSISTENCE_DESIGN_PHASE_02C.md) is a
+proposal only; the source and policy gaps remain explicit in the
+[evidence matrix](ACADEMIC_POLICY_EVIDENCE.md).
 
 ## System boundaries
 

@@ -1,4 +1,4 @@
-# BMCC catalog source mapping — Phase 02A
+# BMCC catalog source mapping — Phases 02A–02B
 
 Reviewed 2026-10-16, campus BMCC, target catalog **2026–2027**, Computer Science
 A.S. Official webpages are the owner/professor-selected primary project sources.
@@ -85,3 +85,36 @@ not just rule-level states, for modeled completion/credit/discipline conditions.
 Missing catalog elective credit remains unresolved even when a synthetic input
 supplies a number. No new official-source verification or institutional approval
 is inferred from the added synthetic regression tests.
+
+## Phase 02B reconciliation and revision boundaries
+
+Revisited the official program/course/Pathways entry points on 2026-10-16 and
+followed official grading, placement, transfer and CUNY policy links; targeted
+search located additional official CUNY framework sources. No bulk ingestion or
+institutional login was used. All cited primary pages/PDF were accessible; an
+initial guessed CIS URL failed, then the actual program-directory link succeeded.
+The original Phase 02A fixture remains unchanged. `bmcc_cs_evidence_reference()`
+creates draft revision 2, preserving its course values and unresolved conditions
+while attaching richer evidence and explicit policy-review constraints.
+
+`policy_evidence_2026_2027.json` records claim scope, publisher, target campus/year,
+optional program, publication/revision/effective dates, reciprocal conflict links
+and required academic review. Dates remain unknown unless observed. The CUNY PDF's
+2018-03-15 date is a **revision**, as is the knowledgebase's 2025-03-13 update;
+neither is a confirmed effective date for BMCC 2026–2027. See the complete
+[policy matrix and human questions](ACADEMIC_POLICY_EVIDENCE.md) for source URLs,
+headings, precise interpretations and verification status.
+
+| New source IDs | Locator / use |
+| --- | --- |
+| `cuny-stem`, `cuny-stem-glossary`, `cuny-guidelines` | STEM Variant / glossary / Guidelines pp. 3–4; broader framework, no executed BMCC overlap policy |
+| `bmcc-grades` | Registrar grading I–III; no universal grade threshold or repeat algorithm |
+| `bmcc-transfer-notation`, `bmcc-registrar-notation` | Admissions transfer notation versus registrar current/discontinued table; explicit conflicting CR/TR evidence |
+| `bmcc-transfer-conditions`, `bmcc-transfer-kb` | Incoming transfer conditions and dated summary; no award/equivalence |
+| `bmcc-placement`, `bmcc-csc-prerequisites`, `bmcc-aas-pathways` | Placement, CSC 111 qualification and A.A.S. framework; provisional year binding |
+| `cis-required`, `cis-flexible`, `cis-curriculum`, `cis-electives` | CIS program Required/Flexible/Curriculum/footnotes plus Notes; explicit 2026–2027 source scope |
+
+Second-program details and gaps: [SECOND_PROGRAM_VALIDATION.md](SECOND_PROGRAM_VALIDATION.md).
+There are no synthetic approval decisions in the reference fixtures; synthetic
+tests exercise verification labels only as fictional scenarios. Source-level
+verification is always separate from authority to publish academic decisions.

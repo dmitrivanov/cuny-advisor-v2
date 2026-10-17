@@ -109,3 +109,50 @@ spike, not an installed or final library choice. No migrations or source correct
 are authorized. See [inventory](V1_FEATURE_INVENTORY.md), [data audit](V1_DATA_AUDIT.md),
 [migration strategy](V1_TO_V2_MIGRATION.md), [workflows](UX_WORKFLOWS.md), and
 [academic boundaries](ACADEMIC_ENGINE_BOUNDARIES.md).
+
+## Phase 02A — Official BMCC catalog and academic rules foundation
+
+D27 — Required: official BMCC program and linked course/Pathways webpages are the
+agreed primary academic sources for this project. Target reference is Computer
+Science A.S., 2026–2027. Source verification is distinct from institutional academic
+approval; V1 CSVs, professor product feedback and administrator overrides cannot
+publish academic truth. Evidence and open questions: [source mapping](BMCC_CATALOG_SOURCE_MAPPING.md).
+
+D28 — Owner-approved product contract: preserve four selector columns, ordered
+Required Common Core, Flexible Core, Major Requirements, Major Electives. Retain
+the V1 mathematics progression behavior as correct: 206 → 301 → 302 and the
+301 → 302 path. Degree math alternatives and prerequisite conditions are distinct;
+extra preparation creates no automatic extra degree credit. Exact source labels,
+synthetic grade assumptions and regressions: [parity](V1_SELECTOR_PARITY.md).
+
+D29 — Selected bounded implementation: frozen typed Pydantic contracts, declarative
+nested JSON AST, pure in-memory evaluator and explicit proposed allocation ledger.
+No persistence is established; do not introduce a schema or irreversible API.
+Validate allocations globally without claiming an optimizing allocator or full
+graduation audit. Unsupported conditions and overlap remain unresolved. No new
+packages, endpoints, UI, live AI, production access, real records or deployment.
+
+D30 — Required: reuse shared Pathways category definitions with explicit credential,
+campus, program and catalog-year configuration/overrides. Course identities and
+release versions are separate; no program code or course-code matching in engine
+rules. AA/AS/AAS do not inherit identical requirements. The local snapshot contract
+demonstrates reuse; normalized persistence/multi-program service remains future.
+
+D31 — Required: academic rules remain separate from visualization overrides.
+Selector and condition projections retain canonical rule/source identities and
+grouped logic. Layout must never approve prerequisites, degree credit or exceptions.
+
+D32 — Scope: owner authorizes Phase 02A on `feature/phase02a-academic-foundation`,
+superseding D23 only for this local bounded implementation, synthetic tests and
+documentation. Release states/exception proposals are contracts, not implemented
+governance or verified authority. Stop for review; no commit, push, merge, PR,
+deployment or automatic Phase 02B work. Details: [rules model](ACADEMIC_RULES_MODEL.md).
+
+D33 — Final-review authorization: the owner independently confirmed the initial
+35-test suite on macOS (`35 passed in 0.15s`) and authorizes critical review,
+necessary Phase 02A corrections/regressions, one commit, a normal feature-branch
+push and a PR targeting `main`. This supersedes D32's commit/push/PR prohibition
+only. No merge, deployment, Phase 02B, dependency, database or endpoint work.
+Final review strengthens course-metadata provenance checks, keeps missing elective
+credits unresolved, and demonstrates course reuse in a second fictional program.
+Credit arithmetic also isolates caller Decimal precision to preserve exact replay.

@@ -1,27 +1,36 @@
 # Repository instructions
 
-## Current authorization: Phase 01C — documentation and read-only V1 audit
+## Current authorization: Phase 02A — catalog and deterministic rules foundation
 
-Work exclusively in `cuny-advisor-v2` on the existing `docs/phase01c-v1-audit`
-branch. The owner authorizes comprehensive source-based read-only analysis of V1,
-five audit/modernization/UX/boundary documents, and necessary roadmap/decision
-updates. Preserve unrelated uncommitted Phase 01B work. V2 is a secure, modular
-modernization of useful V1 concepts, not a complete functional reinvention.
+Work exclusively in `cuny-advisor-v2` on `feature/phase02a-academic-foundation`.
+The owner authorizes typed versioned catalog/provenance/rule contracts, a small
+labeled BMCC Computer Science A.S. 2026–2027 reference fixture, pure in-memory
+synthetic evaluation, focused tests, read-only projections and related documentation.
+Read the Phase 01C audit/boundary/workflow documents and current architecture/data
+model/decisions/roadmap/design system before implementation. Preserve the four-column
+selector contract and both math progression paths as regressions, not V1 bug fixes.
 
-V1 is strictly read-only: do not edit, format, install dependencies, run seeders,
-migrate, refactor, commit or push there. Use authorized read-only GitHub source
-access if no verified local checkout is available. Never connect to V1 or other
-production databases, use production credentials, call live AI, or load real
-student data. The production reference may be inspected as a public UI only;
-never authenticate, submit student data, or trigger AI/academic mutations there.
+Use official BMCC webpages as primary source evidence; owner/professor selection
+of sources and UI grouping does not confer institutional academic approval. Keep
+source-verified, provisional, conflicting and synthetic assertions distinguishable.
+Unknown or unsupported conditions remain unresolved. No complete selector, map UI,
+planner, authentication, student records, transcript handling, CMS, Gemini, database
+models/migrations/connections, new endpoints or production integrations are authorized.
+Persistence is absent: use existing dependencies and an in-memory domain prototype.
+No secrets, real student data, live AI, V1 changes/execution or deployment.
+The owner's Phase 02A final-review authorization permits necessary in-scope fixes,
+one descriptive commit, push of this feature branch to origin, and a GitHub PR
+targeting `main` after successful verification and inspection of modified/untracked
+files. Never merge, force push, rewrite unrelated commits or begin Phase 02B.
+If synchronization needs risky rebase/reset or conflicts affecting unrelated work,
+stop for owner review. Preserve all permanent isolation and integrity restrictions.
+Stop after reporting the PR and checks for owner review; do not deploy.
 
-No application implementation, frontend/backend refactoring, database changes,
-dependency installation, deployment, PR, commit or push. No academic source or
-institutional approval is inferred from V1 code or professor feedback. Distinguish
-source-verified, UI-observed, documentation-claimed and runtime-unverified findings;
-cite pinned source revisions, file paths, functions and line ranges when available.
-Document inaccessible evidence without guessing. Stop after the audit documents
-and final report, and wait for owner review before any implementation.
+V1 is strictly read-only at reference commit
+`ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
+import/execute its application, seed, migrate, refactor or access its database,
+credentials or deployment configuration. Existing pinned audit evidence may be used
+as behavioral reference, never as academic authority.
 
 Work only in `cuny-advisor-v2`. The previous repository,
 [academic-advisement-system](https://github.com/dmitrivanov/academic-advisement-system),
@@ -90,6 +99,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 01C authorization
-is defined above and supersedes the previous planning-only restriction within
+The Phase 00 deliverable was documentation only. Current Phase 02A authorization
+is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

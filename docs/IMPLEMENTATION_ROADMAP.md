@@ -1,7 +1,7 @@
 # Implementation roadmap
 
-Status: proposed sequence, 2026-10-16. Phase 01C documentation/read-only V1 audit is now authorized;
-all broader implementation phases remain gated.
+Status: proposed sequence, 2026-10-16. Phase 02A's bounded local catalog/rules
+foundation is authorized; broader implementation phases remain gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
 
@@ -48,7 +48,7 @@ package/security remediation scope is implied. No auth, accounts, persistence,
 AI, academic tools, uploads, CMS, deployment, commit, push or PR. Stop for owner
 review of the local UI; this does not complete the broader Phase 01 below.
 
-## Phase 01C — V1 feature, architecture and data audit (current authorization)
+## Phase 01C — V1 feature, architecture and data audit (historical scope)
 
 Read V1 source at a pinned revision without executing/importing it or connecting
 to its database. Document source-verified, UI-observed, documentation-claimed,
@@ -147,6 +147,71 @@ real-data processing and production connections remain excluded.
   later-phase features rather than claiming production readiness.
 
 ## Phase 02 — Catalog governance and academic engine
+
+### Phase 02A — Implemented local subset, owner review pending
+
+Typed immutable campus/course/program/release/provenance/requirement contracts,
+constrained nested expressions, a pure in-memory evaluator, global validation of
+explicit allocation proposals and read-only selector/condition projections.
+The small BMCC CS A.S. 2026–2027 draft fixture separates source-verified and
+provisional assertions; fictional policies/histories live in separate test fixtures.
+Four columns and both mathematics paths are regression contracts. Source mapping,
+model limitations and preserved behavior are documented in
+[BMCC_CATALOG_SOURCE_MAPPING.md](BMCC_CATALOG_SOURCE_MAPPING.md),
+[ACADEMIC_RULES_MODEL.md](ACADEMIC_RULES_MODEL.md), and
+[V1_SELECTOR_PARITY.md](V1_SELECTOR_PARITY.md).
+
+Acceptance: tests cover all twelve requested cases, plus invalid references,
+campus/release context, immutable replay, missing grades/classifications, invalid
+allocation and unsupported overlap. The full-degree result stays unresolved.
+No new dependency, endpoint, frontend behavior, database, publication workflow,
+student storage, graph UI, planner, AI, production access or real records.
+Existing health contract and route-scope tests remain unchanged. No V1 writes,
+production access or deployment. The later final-review instruction authorizes one
+reviewed commit, feature-branch push and PR to `main`; never merge or begin Phase 02B.
+Stop for owner review of the PR.
+
+Verification on 2026-10-16: `cd backend && .venv/bin/python -m pytest -q`:
+**35 passed in 0.17s**, including four unchanged health tests. `.venv/bin/python -m
+pip check`: no broken requirements (only an unwritable pip-cache warning).
+`ruff check backend/app backend/tests`: passed; `black --check backend/app/academic
+backend/tests/academic_factory.py backend/tests/test_academic.py`: seven files
+unchanged. Locally available Ruff 0.12.0 and Black 25.9.0 were not added as dependencies.
+`node --test frontend/scripts/design-contrast.test.mjs`: nine passed;
+`npm --prefix frontend run lint`, `npm --prefix frontend run typecheck`, and
+`NEXT_TELEMETRY_DISABLED=1 npm --prefix frontend run build`: exit 0. No frontend
+source changed; the generated `next-env.d.ts` build artifact was restored to HEAD.
+`git diff --check` and changed/new-file whitespace/relative Markdown link checks
+passed. Scope review found only authorized academic prototype/tests and documents.
+Existing CI discovers all pytest cases but no GitHub Actions execution is claimed.
+No browser academic smoke test: no academic UI was built. Existing npm advisories
+remain unchanged technical debt.
+
+Final review: fetched `origin/main` matches the feature branch's pre-commit base
+`c0e14eadbd19b375d992a3cb0436cbe103d39338`; no rebase/reset is needed. The owner
+independently ran the initial suite on macOS: 35 passed in 0.15s. Review adds
+course-metadata evidence gating, unresolved missing catalog credit, and a second
+fictional program reuse/empty-column regression. Credit sums now use an isolated
+Decimal context with sufficient precision for exact addition and caller-independent
+replay. Source authority, full allocation,
+governance, production readiness and later-phase gates remain unchanged.
+
+Final-review verification on 2026-10-16: backend pytest **48 passed in 0.22s**
+(44 academic cases and four unchanged health tests); Ruff and Black passed;
+pip check found no broken requirements. Frontend contrast tests: **9 passed**;
+lint, typecheck and build: exit 0. Generated Next type references were restored;
+no frontend source changes are included. Relative documentation links, changed/new
+file whitespace, targeted sensitive-content inspection and `git diff --check`
+passed. No unrelated files, dependencies, endpoint changes or student data were
+found in the reviewed scope. CI execution/status belongs in the PR report.
+
+Suggested Phase 02B, not authorized: reconcile STEM/overlap, grade/placement and
+discipline policies; capture reviewable immutable sources; exercise another
+program/year; propose a narrow read-only selector/list integration. Review any
+schema/API commitments before implementing them. Phase 02A does not satisfy the
+full governance/engine exit criteria below or the broader Phase 01 security gates.
+
+### Remaining Phase 02 — future, separately authorized
 
 Choose a small BMCC program scope with an academic stakeholder. Curate official
 sources and catalog-assignment rules; define declarative requirements, grades,

@@ -1,6 +1,7 @@
-# Academic rules model — bounded Phase 02A prototype
+# Academic rules model — bounded Phases 02A–02B
 
-Implemented locally on `feature/phase02a-academic-foundation`. This is a pure,
+Phase 02A merged through PR #5; Phase 02B extends it on
+`feature/phase02b-catalog-evidence`. This is a pure,
 in-memory foundation within the FastAPI modular monolith. No new API routes,
 database, authentication, importer, AI, academic UI or production integration.
 The only business endpoint remains `GET /api/v1/health`.
@@ -151,3 +152,43 @@ The existing CI backend job discovers the new tests without workflow changes.
 Ruff and Black were available as local tools; no lint/format dependency was added
 to the project. Exact final results are recorded in the roadmap after verification.
 No new UI exists to browser-test in this phase; frontend and health/proxy are unchanged.
+
+## Implemented Phase 02B extensions
+
+`Source` adds publisher, campus/program claim scope, separate publication/revision/
+effective dates, explicit conflict references, an unresolved state and an
+`academic_review="required"` marker. These are evidence contracts, not approvals.
+Old Phase 02A sources remain parseable with optional scope fields; all newly curated
+reference sources have explicit scope. Release validation rejects crossed campus,
+program and year scope or dangling/self conflict references. Unknown sources may
+have no URL; they remain unresolved and cannot masquerade as verified locators.
+
+`evidence.source_problem` is a pure helper shared by course and rule evaluation.
+It never fetches a website. Missing/provisional/conflicting/unresolved evidence and
+unconfirmed years cannot pass. Conflicts block either linked side, including
+one-sided links, even if someone changes a state label to source-verified. A state
+edit is not resolution or academic authorization.
+
+`NonCreditEvidence` represents fictional placement, exemption and waiver claims
+separately from `Completion`; no credits field is accepted. It does not apply an
+exception or create transfer credit. Relevant unsatisfied modeled conditions return
+`non_credit_evidence_requires_academic_review`; earned and allocated totals stay
+unchanged. Invalid/duplicate references fail safely. Already-supported earned
+completion stays separate; a claim is not required to report a historical course.
+
+Shared category definitions come from one local vocabulary file. The
+new CS evidence revision and partial CIS A.A.S. fixture bind their own rules and
+source scope to those categories. Fixture assembly is explicit and local, not a
+general importer or automatic scraping pipeline. Missing credits, taxonomy, grade
+semantics, STEM allocation and candidate scientific grouping remain unresolved.
+
+New snapshots use engine `02b.1`; parsing retains stored `02a.1` snapshots. The
+golden historical scenario was generated before modifications and has only fictional
+inputs. Tests compare supported result semantics with a new-engine recomputation
+while preserving the old snapshot and label. No full legacy-engine runtime dispatcher
+or persistence is implemented. Exact old execution requires its pinned code artifact.
+
+The earlier Phase 02B recommendation above is historical; only this bounded
+evidence work is now authorized. Proposed persistence is documented in
+[PERSISTENCE_DESIGN_PHASE_02C.md](PERSISTENCE_DESIGN_PHASE_02C.md), not implemented.
+The [policy matrix](ACADEMIC_POLICY_EVIDENCE.md) records human decisions still needed.

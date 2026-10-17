@@ -1,0 +1,34 @@
+[
+  {
+    "id": "english",
+    "label": "English Composition"
+  },
+  {
+    "id": "math",
+    "label": "Mathematical and Quantitative Reasoning"
+  },
+  {
+    "id": "science",
+    "label": "Life and Physical Sciences"
+  },
+  {
+    "id": "creative",
+    "label": "Creative Expression"
+  },
+  {
+    "id": "individual",
+    "label": "Individual and Society"
+  },
+  {
+    "id": "scientific",
+    "label": "Scientific World"
+  },
+  {
+    "id": "us",
+    "label": "U.S. Experience in Its Diversity"
+  },
+  {
+    "id": "world",
+    "label": "World Cultures and Global Issues"
+  }
+]

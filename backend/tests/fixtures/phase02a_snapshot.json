@@ -1,0 +1,581 @@
+{
+  "engine_version": "02a.1",
+  "release": {
+    "schema_version": "1",
+    "id": "synthetic:2025-2026",
+    "campus_id": "test-campus",
+    "catalog_year": "2025-2026",
+    "program": {
+      "id": "synthetic-program",
+      "campus_id": "test-campus"
+    },
+    "credential": "AS",
+    "state": "draft",
+    "sources": [
+      {
+        "id": "synthetic",
+        "url": null,
+        "retrieved_on": "2026-10-16",
+        "catalog_year": "2025-2026",
+        "section": "Synthetic tests",
+        "state": "synthetic",
+        "year_confirmed": false,
+        "note": "Fictional rules only"
+      }
+    ],
+    "categories": [
+      {
+        "id": "shared-math",
+        "label": "Shared mathematical vocabulary"
+      }
+    ],
+    "courses": [
+      {
+        "identity": {
+          "id": "m206",
+          "campus_id": "test-campus"
+        },
+        "version_id": "m206:2025-2026",
+        "code": "M206",
+        "title": "Synthetic m206",
+        "credits": "4",
+        "discipline": "math",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "m301",
+          "campus_id": "test-campus"
+        },
+        "version_id": "m301:2025-2026",
+        "code": "M301",
+        "title": "Synthetic m301",
+        "credits": "4",
+        "discipline": "math",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": {
+          "id": "progression-301",
+          "expression": {
+            "op": "completed",
+            "course_id": "m206",
+            "minimum_grade_rank": 3
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        },
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "m302",
+          "campus_id": "test-campus"
+        },
+        "version_id": "m302:2025-2026",
+        "code": "M302",
+        "title": "Synthetic m302",
+        "credits": "4",
+        "discipline": "math",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": {
+          "id": "progression-302",
+          "expression": {
+            "op": "completed",
+            "course_id": "m301",
+            "minimum_grade_rank": 3
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        },
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "c101",
+          "campus_id": "test-campus"
+        },
+        "version_id": "c101:2025-2026",
+        "code": "C101",
+        "title": "Synthetic c101",
+        "credits": "3",
+        "discipline": "computing",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "c111",
+          "campus_id": "test-campus"
+        },
+        "version_id": "c111:2025-2026",
+        "code": "C111",
+        "title": "Synthetic c111",
+        "credits": "4",
+        "discipline": "computing",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "e1",
+          "campus_id": "test-campus"
+        },
+        "version_id": "e1:2025-2026",
+        "code": "E1",
+        "title": "Synthetic e1",
+        "credits": "3",
+        "discipline": "computing",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "e2",
+          "campus_id": "test-campus"
+        },
+        "version_id": "e2:2025-2026",
+        "code": "E2",
+        "title": "Synthetic e2",
+        "credits": "3",
+        "discipline": "computing",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "speech1",
+          "campus_id": "test-campus"
+        },
+        "version_id": "speech1:2025-2026",
+        "code": "SPEECH1",
+        "title": "Synthetic speech1",
+        "credits": "3",
+        "discipline": "speech",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "speech2",
+          "campus_id": "test-campus"
+        },
+        "version_id": "speech2:2025-2026",
+        "code": "SPEECH2",
+        "title": "Synthetic speech2",
+        "credits": "3",
+        "discipline": "speech",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      }
+    ],
+    "requirements": [
+      {
+        "id": "math",
+        "label": "math",
+        "column": "Required Common Core",
+        "category_id": "shared-math",
+        "kind": "required",
+        "target_credits": "3",
+        "rule": {
+          "id": "math-rule",
+          "expression": {
+            "op": "any",
+            "children": [
+              {
+                "op": "completed",
+                "course_id": "m206",
+                "minimum_grade_rank": null
+              },
+              {
+                "op": "completed",
+                "course_id": "m301",
+                "minimum_grade_rank": null
+              }
+            ]
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      },
+      {
+        "id": "major-calculus",
+        "label": "major-calculus",
+        "column": "Major Requirements",
+        "category_id": null,
+        "kind": "required",
+        "target_credits": "4",
+        "rule": {
+          "id": "major-calculus-rule",
+          "expression": {
+            "op": "completed",
+            "course_id": "m302",
+            "minimum_grade_rank": null
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      },
+      {
+        "id": "scientific",
+        "label": "scientific",
+        "column": "Flexible Core",
+        "category_id": null,
+        "kind": "required",
+        "target_credits": "6",
+        "rule": {
+          "id": "scientific-rule",
+          "expression": {
+            "op": "all",
+            "children": [
+              {
+                "op": "completed",
+                "course_id": "c101",
+                "minimum_grade_rank": null
+              },
+              {
+                "op": "completed",
+                "course_id": "c111",
+                "minimum_grade_rank": null
+              }
+            ]
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      },
+      {
+        "id": "speech-advice",
+        "label": "speech-advice",
+        "column": "Flexible Core",
+        "category_id": null,
+        "kind": "recommended",
+        "target_credits": null,
+        "rule": {
+          "id": "speech-advice-rule",
+          "expression": {
+            "op": "any",
+            "children": [
+              {
+                "op": "completed",
+                "course_id": "speech1",
+                "minimum_grade_rank": null
+              },
+              {
+                "op": "completed",
+                "course_id": "speech2",
+                "minimum_grade_rank": null
+              }
+            ]
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      },
+      {
+        "id": "electives",
+        "label": "electives",
+        "column": "Major Electives",
+        "category_id": null,
+        "kind": "required",
+        "target_credits": "6",
+        "rule": {
+          "id": "electives-rule",
+          "expression": {
+            "op": "credits",
+            "eligible": [
+              "e1",
+              "e2"
+            ],
+            "minimum": "6"
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      }
+    ],
+    "constraints": [
+      {
+        "id": "discipline-cap",
+        "expression": {
+          "op": "discipline_cap",
+          "maximum": 2
+        },
+        "source_ids": [
+          "synthetic"
+        ]
+      }
+    ],
+    "declared_totals": [],
+    "issues": []
+  },
+  "inputs": {
+    "campus_id": "test-campus",
+    "release_id": "synthetic:2025-2026",
+    "record_revision": "synthetic-record-1",
+    "completions": [
+      {
+        "id": "attempt-m301",
+        "course_id": "m301",
+        "credits": "4",
+        "verified": true,
+        "status": "passed",
+        "grade_rank": 3
+      }
+    ],
+    "allocations": [
+      {
+        "requirement_id": "math",
+        "completion_id": "attempt-m301",
+        "credits": "3"
+      }
+    ]
+  },
+  "results": [
+    {
+      "requirement_id": "math",
+      "rule_id": "math-rule",
+      "source_ids": [
+        "synthetic"
+      ],
+      "kind": "required",
+      "result": {
+        "status": "met",
+        "reason": "all_of",
+        "children": [
+          {
+            "status": "met",
+            "reason": "any_of",
+            "children": [
+              {
+                "status": "unmet",
+                "reason": "missing_course:m206",
+                "children": [],
+                "rule_id": null,
+                "source_ids": []
+              },
+              {
+                "status": "met",
+                "reason": "completed:attempt-m301",
+                "children": [],
+                "rule_id": null,
+                "source_ids": []
+              }
+            ],
+            "rule_id": "math-rule",
+            "source_ids": [
+              "synthetic"
+            ]
+          },
+          {
+            "status": "met",
+            "reason": "allocated_credits:3;target:3",
+            "children": [],
+            "rule_id": null,
+            "source_ids": []
+          }
+        ],
+        "rule_id": null,
+        "source_ids": []
+      }
+    },
+    {
+      "requirement_id": "major-calculus",
+      "rule_id": "major-calculus-rule",
+      "source_ids": [
+        "synthetic"
+      ],
+      "kind": "required",
+      "result": {
+        "status": "unmet",
+        "reason": "all_of",
+        "children": [
+          {
+            "status": "unmet",
+            "reason": "missing_course:m302",
+            "children": [],
+            "rule_id": "major-calculus-rule",
+            "source_ids": [
+              "synthetic"
+            ]
+          },
+          {
+            "status": "unmet",
+            "reason": "allocated_credits:0;target:4",
+            "children": [],
+            "rule_id": null,
+            "source_ids": []
+          }
+        ],
+        "rule_id": null,
+        "source_ids": []
+      }
+    },
+    {
+      "requirement_id": "scientific",
+      "rule_id": "scientific-rule",
+      "source_ids": [
+        "synthetic"
+      ],
+      "kind": "required",
+      "result": {
+        "status": "unmet",
+        "reason": "all_of",
+        "children": [
+          {
+            "status": "unmet",
+            "reason": "all_of",
+            "children": [
+              {
+                "status": "unmet",
+                "reason": "missing_course:c101",
+                "children": [],
+                "rule_id": null,
+                "source_ids": []
+              },
+              {
+                "status": "unmet",
+                "reason": "missing_course:c111",
+                "children": [],
+                "rule_id": null,
+                "source_ids": []
+              }
+            ],
+            "rule_id": "scientific-rule",
+            "source_ids": [
+              "synthetic"
+            ]
+          },
+          {
+            "status": "unmet",
+            "reason": "allocated_credits:0;target:6",
+            "children": [],
+            "rule_id": null,
+            "source_ids": []
+          }
+        ],
+        "rule_id": null,
+        "source_ids": []
+      }
+    },
+    {
+      "requirement_id": "speech-advice",
+      "rule_id": "speech-advice-rule",
+      "source_ids": [
+        "synthetic"
+      ],
+      "kind": "recommended",
+      "result": {
+        "status": "unmet",
+        "reason": "any_of",
+        "children": [
+          {
+            "status": "unmet",
+            "reason": "missing_course:speech1",
+            "children": [],
+            "rule_id": null,
+            "source_ids": []
+          },
+          {
+            "status": "unmet",
+            "reason": "missing_course:speech2",
+            "children": [],
+            "rule_id": null,
+            "source_ids": []
+          }
+        ],
+        "rule_id": "speech-advice-rule",
+        "source_ids": [
+          "synthetic"
+        ]
+      }
+    },
+    {
+      "requirement_id": "electives",
+      "rule_id": "electives-rule",
+      "source_ids": [
+        "synthetic"
+      ],
+      "kind": "required",
+      "result": {
+        "status": "unmet",
+        "reason": "all_of",
+        "children": [
+          {
+            "status": "unmet",
+            "reason": "eligible_credits:0;minimum:6",
+            "children": [],
+            "rule_id": "electives-rule",
+            "source_ids": [
+              "synthetic"
+            ]
+          },
+          {
+            "status": "unmet",
+            "reason": "allocated_credits:0;target:6",
+            "children": [],
+            "rule_id": null,
+            "source_ids": []
+          }
+        ],
+        "rule_id": null,
+        "source_ids": []
+      }
+    }
+  ],
+  "constraints": [
+    {
+      "status": "met",
+      "reason": "discipline_cap_met",
+      "children": [],
+      "rule_id": "discipline-cap",
+      "source_ids": [
+        "synthetic"
+      ]
+    }
+  ],
+  "earned_credits": "4",
+  "allocated_credits": "3",
+  "issues": [],
+  "degree_status": "unresolved"
+}

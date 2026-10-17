@@ -1,7 +1,7 @@
 # Implementation roadmap
 
-Status: proposed sequence, 2026-10-16. Phase 02A's bounded local catalog/rules
-foundation is authorized; broader implementation phases remain gated.
+Status: proposed sequence, 2026-10-16. Phase 02A merged through PR #5; bounded
+Phase 02B evidence reconciliation is authorized. Later implementation remains gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
 
@@ -148,7 +148,7 @@ real-data processing and production connections remain excluded.
 
 ## Phase 02 — Catalog governance and academic engine
 
-### Phase 02A — Implemented local subset, owner review pending
+### Phase 02A — Implemented subset, merged through PR #5
 
 Typed immutable campus/course/program/release/provenance/requirement contracts,
 constrained nested expressions, a pure in-memory evaluator, global validation of
@@ -210,6 +210,60 @@ discipline policies; capture reviewable immutable sources; exercise another
 program/year; propose a narrow read-only selector/list integration. Review any
 schema/API commitments before implementing them. Phase 02A does not satisfy the
 full governance/engine exit criteria below or the broader Phase 01 security gates.
+
+The preceding recommendation records the Phase 02A gate at that time. The owner's
+subsequent Phase 02B authorization permits only the bounded subset below.
+
+### Phase 02B — Academic evidence and policy reconciliation
+
+Implemented in-memory Source scope/date/conflict/unresolved contracts, pure evidence
+validation, synthetic non-credit placement/exemption/waiver claims with no awards,
+shared category vocabulary, a new CS evidence revision and a partial CIS A.A.S.
+2026–2027 fixture. Original Phase 02A fixtures are unchanged. A golden fictional
+historical snapshot retains `02a.1`; new-engine recomputation is labeled `02b.1`.
+
+Manual official-source review and unanswered questions are in
+[ACADEMIC_POLICY_EVIDENCE.md](ACADEMIC_POLICY_EVIDENCE.md), with updated
+[source mapping](BMCC_CATALOG_SOURCE_MAPPING.md), [rules model](ACADEMIC_RULES_MODEL.md)
+and [second-program validation](SECOND_PROGRAM_VALIDATION.md). Broader CUNY STEM
+guidance is not a complete BMCC allocation policy. Missing grades, credits,
+classifications, grouping, year applicability and CR/TR source disagreement remain
+explicit. No full-degree audit, rule publication or institutional approval.
+
+Acceptance: preserve all Phase 02A regressions, test unsupported overlap, non-credit
+claims, missing/provisional/conflicting sources, grades/prerequisites, discipline
+and elective metadata, scoped campus/program/year isolation, second-program reuse,
+historical retention and JSON round-trip. Run existing backend/frontend checks and
+review every changed/untracked file. No new dependencies, endpoints, frontend work,
+database/ORM/migrations, real records, AI, transcripts or production connections.
+
+The owner authorizes a scoped commit, normal push of
+`feature/phase02b-catalog-evidence` and PR targeting `main` after verification. Stop
+for owner review; no merge or deployment. [Phase 02C persistence](PERSISTENCE_DESIGN_PHASE_02C.md)
+is a proposal only, covering normalization, immutable releases/evidence, isolated
+`cuny_advisor_v2` SQLAlchemy/Alembic boundaries, staged imports and future integrity
+tests. It is not permission to implement or provision any database.
+
+Actual Phase 02B verification, 2026-10-16:
+
+| Check | Result |
+| --- | --- |
+| `cd backend && .venv/bin/python -m pytest -q` | 70 passed in 0.20s; all original 48 regressions preserved |
+| `ruff check backend/app backend/tests` | Passed |
+| `black --check backend/app/academic backend/tests/academic_factory.py backend/tests/test_academic.py backend/tests/test_catalog_evidence.py` | Nine files unchanged |
+| Backend `.venv/bin/python -m pip check` | No broken requirements; only unwritable cache warning |
+| `node --test frontend/scripts/design-contrast.test.mjs` | Nine passed |
+| `npm --prefix frontend run lint` / `typecheck` | Exit 0 |
+| `NEXT_TELEMETRY_DISABLED=1 npm --prefix frontend run build` | Exit 0; generated Next type references restored, no frontend source changes |
+| Changed/new Markdown links, whitespace and `git diff --check` | Passed |
+
+Fetched `origin/main` matches the pre-commit feature base
+`c09bf59bf12f15693e1e613ffbd7996338c16091`; no rebase/reset needed. Read-only
+critical review covered changed and untracked code, fixtures and documents.
+No dependencies, endpoints, real records, secrets or unrelated work are included.
+Existing CI discovers the additional pytest cases; GitHub results belong in the
+PR completion report. No academic browser workflow exists to smoke-test; no
+browser testing or production readiness is claimed. Existing npm debt is unchanged.
 
 ### Remaining Phase 02 — future, separately authorized
 

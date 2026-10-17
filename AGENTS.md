@@ -1,30 +1,32 @@
 # Repository instructions
 
-## Current authorization: Phase 02A — catalog and deterministic rules foundation
+## Current authorization: Phase 02B — academic evidence and policy reconciliation
 
-Work exclusively in `cuny-advisor-v2` on `feature/phase02a-academic-foundation`.
-The owner authorizes typed versioned catalog/provenance/rule contracts, a small
-labeled BMCC Computer Science A.S. 2026–2027 reference fixture, pure in-memory
-synthetic evaluation, focused tests, read-only projections and related documentation.
-Read the Phase 01C audit/boundary/workflow documents and current architecture/data
-model/decisions/roadmap/design system before implementation. Preserve the four-column
-selector contract and both math progression paths as regressions, not V1 bug fixes.
+Work exclusively in `cuny-advisor-v2` on `feature/phase02b-catalog-evidence`.
+Phase 02A merged through PR #5 is the baseline. The owner authorizes incremental
+in-memory evidence/provenance contracts and validation, deterministic regressions,
+small manually curated official-source/partial fixtures and policy reconciliation.
+Preserve both mathematics paths and the four-column selector contract. Unresolved
+academic interpretations remain unresolved; source verification is not institutional
+approval. No program-specific formulas in generic evaluation functions.
 
-Use official BMCC webpages as primary source evidence; owner/professor selection
-of sources and UI grouping does not confer institutional academic approval. Keep
-source-verified, provisional, conflicting and synthetic assertions distinguishable.
-Unknown or unsupported conditions remain unresolved. No complete selector, map UI,
-planner, authentication, student records, transcript handling, CMS, Gemini, database
-models/migrations/connections, new endpoints or production integrations are authorized.
-Persistence is absent: use existing dependencies and an in-memory domain prototype.
-No secrets, real student data, live AI, V1 changes/execution or deployment.
-The owner's Phase 02A final-review authorization permits necessary in-scope fixes,
-one descriptive commit, push of this feature branch to origin, and a GitHub PR
-targeting `main` after successful verification and inspection of modified/untracked
-files. Never merge, force push, rewrite unrelated commits or begin Phase 02B.
-If synchronization needs risky rebase/reset or conflicts affecting unrelated work,
-stop for owner review. Preserve all permanent isolation and integrity restrictions.
-Stop after reporting the PR and checks for owner review; do not deploy.
+Read the architecture, data model, decisions, roadmap, academic boundaries, source
+mapping, rule model and selector parity before changes. Inspect existing contracts,
+evaluator, projections and tests. Confirm the expected branch/history and preserve
+unrelated work. Do not reset, rebase or discard changes; unexpected state requires
+owner review. Source research is manual and read-only, not bulk scraping/import.
+
+Prepare a proposed Phase 02C PostgreSQL/SQLAlchemy/Alembic persistence design as
+**documentation only**. No databases, connections, schemas, migrations, new endpoints,
+frontend pages/selector UI, authentication, accounts, real student data, transcripts,
+AI, planner, institutional APIs, live transfer awards or deployment. No new
+packages without owner approval. V1, production and institutional accounts remain
+untouched. No secrets or credentials in source, fixtures, logs or chat.
+
+After critical review and passing existing backend/frontend checks, inspect every
+changed/untracked file, commit the scoped Phase 02B work, normally push this feature
+branch to origin and create a PR targeting `main`. Do not merge, force push,
+rewrite unrelated commits, deploy or implement Phase 02C. Stop for owner PR review.
 
 V1 is strictly read-only at reference commit
 `ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
@@ -99,6 +101,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 02A authorization
+The Phase 00 deliverable was documentation only. Current Phase 02B authorization
 is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

@@ -17,6 +17,13 @@ is implemented. [ACADEMIC_RULES_MODEL.md](ACADEMIC_RULES_MODEL.md) defines the
 supported subset and conservative unsupported states; the entity inventory below
 remains the future normalized persistence design.
 
+Phase 02B adds scoped/datable Source evidence, unresolved/conflict relationships,
+and synthetic NonCreditEvidence claims that cannot carry credit or apply waivers.
+Old snapshots retain engine `02a.1`; new outputs identify `02b.1`. Shared category
+vocabulary is reused across the CS/CIS reference assemblies. These are in-memory
+contract extensions, not ORM records. Proposed normalization/migration/round-trip
+gates are in [Phase 02C persistence design](PERSISTENCE_DESIGN_PHASE_02C.md).
+
 ## Conventions and isolation
 
 Use opaque IDs, UTC timestamps, explicit status, creator, and revision metadata.

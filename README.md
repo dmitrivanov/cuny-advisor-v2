@@ -3,6 +3,8 @@
 The local application has an English landing page, a FastAPI health endpoint,
 and a connectivity indicator with the Phase 01B design system. Phase 02A adds a
 backend-only, in-memory academic catalog/rules prototype and synthetic tests.
+Phase 02B adds scoped academic evidence, partial program fixtures and synthetic
+non-credit claims; it provides no new public academic service or student storage.
 This is an independent project,
 starting with BMCC; it does not imply CUNY or BMCC approval.
 
@@ -130,6 +132,11 @@ For the Phase 02A prototype, run backend pytest above and read the
 [source mapping](docs/BMCC_CATALOG_SOURCE_MAPPING.md) and
 [selector parity](docs/V1_SELECTOR_PARITY.md). The reference fixture is not
 institutionally approved. No academic service is exposed in the landing page.
+
+See the [policy evidence matrix](docs/ACADEMIC_POLICY_EVIDENCE.md),
+[second-program validation](docs/SECOND_PROGRAM_VALIDATION.md) and
+[proposed Phase 02C persistence design](docs/PERSISTENCE_DESIGN_PHASE_02C.md).
+Database/ORM/migration work in that design is proposed, not implemented.
 
 ## Verification record
 

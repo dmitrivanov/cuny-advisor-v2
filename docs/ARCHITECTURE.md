@@ -2,7 +2,7 @@
 
 Status: target architecture with bounded local implementation, 2026-10-17.
 The skeleton, design system, bounded Phase 02A/02B prototypes and Phase 02C local
-persistence adapter and bounded Phase 02D workspace are implemented; broader
+persistence adapter and bounded Phase 02D workspace plus Phase 03A frontend refinement are implemented; broader
 services below remain targets.
 Evidence classifications and external sources: [PRD](PRD.md).
 
@@ -41,10 +41,20 @@ See [implemented design, tradeoffs and checklist](PERSISTENCE_DESIGN_PHASE_02C.m
 
 ## Implemented Phase 02D workspace boundary
 
-Next.js `/` is a persistent chat-first shell with a typed module registry, exact
-local navigation router and one session-local academic reducer. Module navigation
-and chat action cards open the same catalog/selector/limited progress views. Chat
-remains available; future module placeholders are explicitly unavailable.
+Next.js `/` is a minimal conversation-only home with a typed module registry,
+exact local navigation router and one session-local academic reducer. Structured
+chat actions or deep links open focused catalog/selector/limited progress views.
+Chat remains mounted but hidden while using a tool; the return action restores
+focus and retains conversation/input/selection state. No persistent module menu
+or dashboard is rendered. Future deep links remain explicitly unavailable.
+
+Phase 03A is a frontend-only presentation refinement. A pure presentation helper
+reorders a copy of the canonical four columns for V1 visual hierarchy; backend
+projection order and all academic interpretations remain unchanged. Class details
+render captured rule structure without evaluating eligibility. Provenance and
+unresolved conditions remain available through disclosures. Source verification
+is not approval. No backend, migration, fixture, schema, provider or dependency
+changes. See [UX workflows](UX_WORKFLOWS.md) and [verification](PHASE_03A_VERIFICATION.md).
 
 FastAPI adds scoped read-only catalog discovery/content plus hypothetical evaluation
 through explicit repository dependency injection. The browser uses a bounded local

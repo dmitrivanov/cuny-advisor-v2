@@ -188,3 +188,26 @@ Browser inspection used the local in-app browser; it is not a Safari/Firefox/dev
 matrix or a screen-reader audit. Reduced-motion/transparency and unsupported-filter
 fallbacks were reviewed in CSS but not emulated in a separate engine/preferences
 session. Manual accessibility and older-browser review remains before real-user use.
+
+
+## Phase 03A contextual workspace application
+
+Conversation home uses one centered frosted panel (maximum 52rem including gutters)
+over the existing quiet gradient; compact branding replaces the portal-style
+header. Academic tools use a wide focused outer panel with a mostly opaque card
+grid, two columns from 768px and four from 1152px; below 768px columns stack.
+The existing semantic palette, surface fallbacks, forced-colors and reduced-motion
+rules are retained. No animated transitions or nested backdrop filters are added.
+
+Course code/title hierarchy uses 15px/13px text, normal whole-word wrapping and
+native checkbox/details controls with 44px interaction rows. All cards share one
+border/padding/radius treatment. Selected cards add visible “Selected” text and a
+subtle border/inset accent. Details are outside labels, so expansion cannot toggle
+completion. Sparse requirement cards explicitly say unresolved rather than filling
+missing data. No duplicate course heading/requirement row for a single same-code
+group. Long identifiers are confined to on-demand reproducibility/evidence views.
+
+Module headings receive focus on entry; return restores the invoking action or
+chat heading. Dedicated views do not impose a modal focus trap. Full disclosure
+remains keyboard-accessible in the footer; neither glass effects nor colors carry
+academic meaning. See [Phase 03A screenshots/checks](PHASE_03A_VERIFICATION.md).

@@ -5,60 +5,76 @@ Phase 01C journey baseline with implemented Phase 02D slice below. V1 behavior e
 [ACADEMIC_ENGINE_BOUNDARIES.md](ACADEMIC_ENGINE_BOUNDARIES.md). These are future
 workflows, not implemented features or institutional process approvals.
 
-## Implemented Phase 02D: chat-first, modules second
+## Implemented Phase 03A: chat is the home
 
-`/` opens Chat Workspace, never the selector or an admin dashboard. The local guide
-matches only the four documented prompts (case/terminal punctuation normalized):
+The default `/` view contains one frosted conversation surface, compact branding,
+a short welcome, input, four supported prompt suggestions and a small independent
+prototype/no-live-AI notice. No persistent module navigation, dashboard, catalog
+selector, future-tool list or catalog error panel is rendered on chat. Catalog
+listing is requested when opening a contextual tool. The full protected disclosure
+is available under “About this prototype”: no endorsement, fictional inputs only,
+no real student information, tab-only state and no complete degree audit.
 
-- “Show me the academic programs.” → Catalog action.
-- “Open completed courses.” → Completed Courses action.
-- “I want to review my degree requirements.” → Catalog / Progress actions.
-- “Show the Computer Science catalog.” → Catalog action; the user still chooses
-  the CS release explicitly, without silently replacing academic context.
+The existing exact deterministic router is unchanged (case and terminal punctuation
+normalized). It supports “Show me the academic programs”, “Open completed courses”,
+“I want to review my degree requirements” and “Show the Computer Science catalog”.
+Unsupported questions explicitly disclose that live AI is unavailable; no unrestricted
+understanding or academic advice is simulated. Structured assistant actions reference
+the existing typed module registry. A future governed Gateway may supply validated
+actions through that boundary; no provider, prompt service or AI SDK is implemented.
 
-Unknown questions get an explicit “Live AI advising is not available yet” response
-and supported module actions. This is an exact navigation router, not a simulated
-language model. No generated academic explanations, arbitrary intents or server-side
-chat history. The conversation is capped in tab memory; React renders text safely.
+An explicit conversation action or supported hash deep link opens a focused module
+view. Chat remains mounted but hidden, with its draft and conversation retained.
+Modules provide a clear title, compact campus/program/year, a disclosed exact-release
+selector and “Return to chatbot”. Opening moves focus to the module heading;
+returning restores the initiating action when available, otherwise the chat heading.
+There is no modal focus trap because this is a dedicated view, not a modal overlay.
+Future-tool deep links show only an unavailable explanation and return action.
 
-A typed registry declares stable IDs, descriptions, hash targets, availability,
-supported context and actions. Chat, Completed Courses and Catalog are active;
-Degree Progress is a limited preview. Planner, Transcript Review and Advisor Tools
-are visibly future informational panels with no functional upload/plan/report actions.
+Selections/explicit allocation strings remain in the same session reducer. Returning
+to chat shows a compact retained-selection count, never a progress dashboard.
+Context changes clear incompatible selections/allocations and previous previews.
+Same-release retry preserves selections. Refresh resets conversation and selections;
+`?campus=...&program=...&release=...#completed` restores only the exact context/tool.
+Back/forward preserves same-context inputs and clears them for context changes.
+No cookies, localStorage, sessionStorage, accounts or 24-hour workspace storage.
 
-Desktop presents the persistent conversation beside the active academic module.
-Mobile collapses module navigation initially and can collapse/open the conversation
-without losing it. Native details and form controls support keyboard use; effects
-reuse existing glass tokens, solid fallbacks, focus and reduced-motion settings.
+The selector visually orders **Major Requirements, Major Electives, Required Common
+Core, Flexible Core**, following the pinned V1 display hierarchy. The backend enum,
+projection order, group membership and academic interpretation are unchanged. The
+presentation helper sorts a copy, preserving group references and identities.
+Cards use a checkbox, prominent code, title and native “Class details” disclosure.
+Unselected/selected cards share borders, spacing and typography; selected cards add
+an explicit text label as well as a subtle color change. Native disclosures are
+outside checkbox labels. Missing titles say “Title not available”; no titles or
+eligible pools are invented. Empty pools have compact unresolved requirement cards.
+Descriptions are not rendered because no validated description field exists.
 
-Campus/program/year/release and hypothetical selections/allocations are shared in
-one typed React reducer. Selection uses opaque course IDs and appears checked in
-every matching category, with one unique selected list. The four columns are only
-backend AST projections. Context changes explicitly clear selections/allocations
-and hide stale previews. Retrying the same immutable release preserves selections.
-No localStorage/sessionStorage/cookie persistence. Refresh creates a new conversation
-and empty selections. `?campus=...&program=...&release=...#catalog` restores only the
-exact catalog context/module; missing context fails visibly, never picks latest.
-Back/forward updates module/context; context changes clear incompatible inputs.
+Class details show captured credits, applicability/condition metadata, structural
+prerequisite/corequisite conditions and evidence state. Rule rendering labels AND/OR
+conditions but performs no academic evaluation. Missing prerequisite data remains
+unresolved; course selection never locks truthful hypothetical history based on
+current eligibility. Source verification never implies institutional approval.
+No raw course/version IDs appear in default course cards. Exact release IDs remain
+available on demand for reproducibility. Full catalog evidence remains inspectable.
 
-Progress requires an explicit fictional passed-course assumption. Users can propose
-allocations in the selector; no greedy allocation or credit totals are calculated
-in TypeScript. Unknown grades/evidence/policies remain unresolved. Captured missing
-credit metadata blocks the preview rather than inventing a number. Source evidence,
-requirements, recommendation status and prerequisite results remain separately
-inspectable. See [API contracts](WORKSPACE_API.md).
+Progress still requires an explicit fictional passed-course assumption. Allocation
+proposals go to the unchanged backend evaluator; no credit allocation/totals are
+calculated in TypeScript. Unknown grades, evidence conflicts and STEM policy remain
+unresolved; missing catalog credits block preview without inventing values.
+See [API contracts](WORKSPACE_API.md), [design system](DESIGN_SYSTEM.md) and
+[Phase 03A verification](PHASE_03A_VERIFICATION.md).
 
-The broader journeys below remain future targets where they describe accounts,
-24-hour guest storage, verification, planning, transfer, uploads, reports or approval.
-Current session-local prototype state is not an implemented 24-hour guest workspace.
+Broader journeys below are future targets for accounts, 24-hour storage, approved
+records, planning, transfer, uploads, reports and governance. They do not describe
+implemented Phase 03A functionality.
 
 ## Shared interaction model
 
 Preserve V1's strongest ideas: completed-course selection, collapsible degree map,
 structured semester plan, comparison and reviewable advising summary. Redesign them
 as reusable workspace modules, not separate pages/iframes passing copied JSON.
-Chat is the default entry and persistent navigation aid; every academic action also has a structured
-non-chat route. Keep academic calculations independent of model availability.
+Chat is the default entry; explicit structured actions and supported deep links open contextual modules. Keep academic calculations independent of model availability.
 [CHAT] [SELECT] [GRAPH] [PLAN] [STATE]
 
 Use the [Light Frosted Glass design system](DESIGN_SYSTEM.md) for the shell and

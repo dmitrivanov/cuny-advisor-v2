@@ -12,6 +12,16 @@ storage, complete graduation audit, academic publication or production deploymen
 Selections/conversation live only in tab memory and disappear on refresh. V1 stays
 read-only and is never connected. All academic uncertainty remains explicit.
 
+## Conversation-first interface
+
+The home screen contains chat and supported prompts only. Use “Open completed
+courses” (or another displayed prompt), then select the assistant's tool action.
+Choose a program/release inside the tool. “Return to chatbot” retains conversation,
+input and fictional selections for this tab. Refresh clears them. A supported deep
+link restores exact catalog context only. No unrestricted AI understanding exists.
+The selector uses compact cards and on-demand details; missing pools remain unresolved.
+See [UX workflow](docs/UX_WORKFLOWS.md) and [Phase 03A review](docs/PHASE_03A_VERIFICATION.md).
+
 ## Requirements
 
 - Node.js 24 LTS and npm (the frontend supports Node 22–24).

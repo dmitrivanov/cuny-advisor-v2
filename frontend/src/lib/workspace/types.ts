@@ -25,9 +25,18 @@ export type Source = {
   conflicts_with: string[];
   academic_review: string;
 };
+export type RuleExpression =
+  | { op: "completed"; course_id: string; minimum_grade_rank: number | null }
+  | { op: "all" | "any"; children: RuleExpression[] }
+  | { op: "credits"; eligible: string[]; minimum: string }
+  | { op: "discipline_cap"; maximum: number }
+  | { op: "unknown"; reason: string }
+  | { op: "no_conditions" };
 export type Course = {
   identity: { id: string; campus_id: string };
   version_id: string;
+  prerequisite?: { expression: RuleExpression } | null;
+  corequisite?: { expression: RuleExpression } | null;
   code: string;
   title: string;
   credits: string | null;

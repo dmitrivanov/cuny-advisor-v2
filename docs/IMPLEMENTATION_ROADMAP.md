@@ -1,9 +1,26 @@
 # Implementation roadmap
 
 Status: proposed sequence with bounded implementation, 2026-10-17.
-Phase 02C merged through PR #7; Phase 02D chat-first workspace is authorized. Later implementation remains gated.
+Phase 02D merged through PR #8; Phase 03A frontend UX refinement is authorized. Later implementation remains gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
+
+## Phase 03A — Minimalist chat-first UX (current bounded slice)
+
+Refine the implemented workspace into a sole chat default and focused contextual
+tools. Preserve all academic/backend/persistence behavior, session-only state and
+exact allocation strings. Compact V1-inspired four-column cards hide technical
+identities by default and disclose captured details and unresolved evidence.
+No live AI, academic logic changes, records, planner, schema changes or deployment.
+
+Acceptance: conversation actions/deep links open tools; return restores focus and
+state; no persistent dashboard/menu or catalog selector on home; 375/768/1440px
+readability and overflow checks; expandable details, unresolved empty pools,
+release clearing/history/refresh behavior; screenshot self-review; frontend unit,
+Playwright, lint/typecheck/build and backend unit regressions. PostgreSQL integration
+rerun is conditional on backend changes (none planned). Actual results live in
+[Phase 03A verification](PHASE_03A_VERIFICATION.md). Owner reviews the scoped PR;
+this does not complete broader student-record, AI, academic governance or pilot gates.
 
 ## Phase 00 — Planning
 

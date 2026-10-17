@@ -261,3 +261,26 @@ restrictions within this bounded slice; later phases remain gated.
 No accounts, transcripts, real records, approval/CMS, planner, advisor reports,
 AI or deployment. Source verification is not institutional approval. Commit/push
 this branch and PR to main are authorized; never merge or start Phase 03/04.
+
+
+## Phase 03A — Minimalist chat-first UX (2026-10-17)
+
+Owner authorization is confined to frontend UX on `feature/phase03a-chat-first-ux`,
+based on merged Phase 02D PR #8 (`d550232`). Chat is the sole default interface;
+context selectors and academic tools appear only after structured conversation
+actions or supported deep links. Dedicated module views replace the dashboard/split
+shell. Return restores originating focus and tab-local conversation and selections.
+Native disclosure exposes the full institutional/privacy/academic limitations.
+
+Use the pinned read-only V1 source hierarchy for compact course cards and visual
+column order: Major Requirements, Major Electives, Required Common Core, Flexible
+Core. This is a presentation-only override of earlier frontend order, not a change
+to canonical projections, requirements or prerequisites. Empty pools remain
+unresolved; absent titles have a short fallback. No AI-recognized state, automatic
+allocation or fabricated description. Captured rules can be displayed structurally;
+all academic calculations remain in the unchanged evaluator.
+
+No new packages, backend endpoints, fixtures, migrations, database schema or AI
+integration. The existing typed registry/Guidance action boundary remains suitable
+for a future separately governed Gateway. Commit/push/PR are authorized; merge,
+deployment and later phases are not. See [verification](PHASE_03A_VERIFICATION.md).

@@ -35,16 +35,22 @@ export function Workspace() {
     message: string;
   } | null>(null);
   const [attempt, setAttempt] = useState(0);
-  const [chatOpen, setChatOpen] = useState(true);
-  const [navOpen, setNavOpen] = useState(false);
+  const conversationRef = useRef<HTMLDivElement>(null);
+  const headingRef = useRef<HTMLHeadingElement>(null);
+  const returnFocus = useRef<HTMLElement | null>(null);
+  const previousModule = useRef<ModuleId>("chat");
   const [input, setInput] = useState("");
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "guide",
-      text: "Welcome. I can open supported modules using the prompts below. This is a deterministic local navigation guide, not a live AI advisor. Please use fictional course selections only.",
-      actions: ["catalog", "completed"],
+      text: "Welcome. What would you like to explore? Choose a supported prompt or open a tool below. Use fictional course selections only.",
+      actions: ["completed"],
     },
   ]);
+  useEffect(() => {
+    const log = conversationRef.current;
+    if (log) log.scrollTop = log.scrollHeight;
+  }, [messages]);
   const readLocation = useCallback(() => {
     const url = new URL(window.location.href);
     dispatch({ type: "navigate", module: moduleFromHash(url.hash) });
@@ -61,7 +67,6 @@ export function Workspace() {
   useEffect(() => {
     void Promise.resolve().then(() => {
       readLocation();
-      setNavOpen(window.matchMedia("(min-width: 768px)").matches);
     });
     window.addEventListener("popstate", readLocation);
     window.addEventListener("hashchange", readLocation);
@@ -71,6 +76,7 @@ export function Workspace() {
     };
   }, [readLocation]);
   useEffect(() => {
+    if (state.active === "chat") return;
     const controller = new AbortController();
     listReleases(controller.signal)
       .then((items) => {
@@ -83,7 +89,7 @@ export function Workspace() {
         if (!controller.signal.aborted) setListingError(error.message);
       });
     return () => controller.abort();
-  }, [attempt]);
+  }, [attempt, state.active]);
   useEffect(() => {
     if (!selection) return;
     const [campus_id, program_id, release_id] = JSON.parse(
@@ -114,14 +120,23 @@ export function Workspace() {
     return () => controller.abort();
   }, [selection, attempt]);
   function navigate(module: ModuleId) {
+    if (state.active === "chat" && module !== "chat")
+      returnFocus.current =
+        document.activeElement instanceof HTMLElement
+          ? document.activeElement
+          : null;
     const url = new URL(window.location.href);
     url.hash = module;
     window.history.pushState(null, "", url);
     dispatch({ type: "navigate", module });
-    if (module === "chat") setChatOpen(true);
-    else if (window.matchMedia("(max-width: 767px)").matches)
-      setChatOpen(false);
   }
+  useEffect(() => {
+    if (previousModule.current === state.active) return;
+    previousModule.current = state.active;
+    if (state.active === "chat" && returnFocus.current?.isConnected)
+      returnFocus.current.focus();
+    else headingRef.current?.focus();
+  }, [state.active]);
   function choose(value: string) {
     const item = releases?.find((item) => contextKey(item) === value);
     const url = new URL(window.location.href);
@@ -163,355 +178,303 @@ export function Workspace() {
           )?.revision_id ?? "explicit deep link",
       }
     : null;
+  const isChat = state.active === "chat";
   return (
     <div className="workspace-root">
-      <a className="skip-link" href="#main-content">
+      <a
+        className="skip-link"
+        href="#main-content"
+        onClick={(event) => {
+          event.preventDefault();
+          document.getElementById("main-content")?.focus();
+        }}
+      >
         Skip to workspace
       </a>
-      <header className="site-header">
-        <div className="page-container flex flex-wrap items-center justify-between gap-3 py-4">
-          <a
-            href="#chat"
-            className="flex items-center gap-3"
-            onClick={(event) => {
-              event.preventDefault();
-              navigate("chat");
-            }}
-          >
-            <span className="brand-mark">
-              <AcademicIcon name="compass" className="size-6" />
-            </span>
-            <span>
-              <strong className="block tracking-tight">
-                CUNY Advisor <span className="font-normal text-muted">V2</span>
-              </strong>
-              <span className="text-xs text-muted">
-                A workspace for your next question
-              </span>
-            </span>
-          </a>
-          <span className="preview-label workspace-header-badge">
-            Local development · No live AI
+      <header className="chat-brand page-container">
+        <a
+          href="#chat"
+          onClick={(event) => {
+            event.preventDefault();
+            navigate("chat");
+          }}
+          className="inline-flex items-center gap-3"
+        >
+          <span className="brand-mark">
+            <AcademicIcon name="compass" className="size-5" />
           </span>
-        </div>
+          <strong>
+            CUNY Advisor <span className="font-normal text-muted">V2</span>
+          </strong>
+        </a>
+        <span className="text-xs text-muted">Local guide · No live AI</span>
       </header>
       <main
         id="main-content"
-        className="page-container pb-10 pt-6"
+        className={`page-container ${isChat ? "chat-home" : "focused-workspace"}`}
         tabIndex={-1}
       >
-        <aside className="workspace-notice mb-6">
-          <strong>Independent academic prototype.</strong> No CUNY or BMCC
-          endorsement. Fictional scenarios only; no real student information.
-          Nothing in this session is saved.
-        </aside>
-        <div className="workspace-context mb-6">
-          <div>
-            <p className="eyebrow mb-2">Academic context</p>
-            <p className="text-sm">
-              {summary
-                ? `${summary.campus_id.toUpperCase()} · ${programName(summary.program_id)} · ${summary.catalog_year}`
-                : "Choose a persisted draft release to explore academic modules."}
-            </p>
+        <div hidden={!isChat}>
+          <GlassPanel
+            className="conversation-panel"
+            aria-labelledby="chat-heading"
+          >
+            <p className="eyebrow mb-3">A place to begin</p>
+            <h1
+              id="chat-heading"
+              ref={isChat ? headingRef : undefined}
+              tabIndex={-1}
+              className="font-editorial text-3xl sm:text-4xl"
+            >
+              What’s your next step?
+            </h1>
             {summary && (
-              <p className="mt-1 break-all text-xs text-muted">
-                {summary.release_id} · {state.selected.length} unique
-                hypothetical selections
+              <p className="mt-3 text-xs text-muted">
+                {programName(summary.program_id)} · {state.selected.length}{" "}
+                unique hypothetical selections retained
               </p>
             )}
-          </div>
-          <details className="context-choice">
-            <summary className="text-sm font-semibold text-brand">
-              Choose / change catalog
-            </summary>
-            <label className="field-label">
-              Program / catalog release
-              <select
-                className="workspace-input"
-                value={selection}
-                onChange={(event) => choose(event.target.value)}
-                disabled={!releases}
-              >
-                <option value="">Choose explicitly — no default year</option>
-                {selection &&
-                  !releases?.some((item) => contextKey(item) === selection) && (
-                    <option value={selection}>
-                      Requested deep-linked release
-                    </option>
-                  )}
-                {releases?.map((item) => (
-                  <option key={contextKey(item)} value={contextKey(item)}>
-                    {item.campus_id.toUpperCase()} ·{" "}
-                    {programName(item.program_id)} · {item.catalog_year} ·{" "}
-                    {item.release_id}
-                  </option>
-                ))}
-              </select>
-            </label>
-          </details>
-          <p className="text-xs text-muted sm:col-span-2">
-            Changing release clears all hypothetical selections and allocations.{" "}
-            {catalog && (
-              <a
-                className="source-link"
-                href={`?campus=${encodeURIComponent(catalog.release.campus_id)}&program=${encodeURIComponent(catalog.release.program.id)}&release=${encodeURIComponent(catalog.release.id)}#${state.active}`}
-              >
-                Open a fresh deep-linked workspace
-              </a>
-            )}
-          </p>
-        </div>
-        {listingError && (
-          <div role="alert" className="workspace-notice mb-5">
-            <p>{listingError}</p>
-            <GlassButton
-              variant="secondary"
-              className="mt-3"
-              onClick={() => setAttempt((value) => value + 1)}
+            <div
+              ref={conversationRef}
+              className="conversation-messages mt-6"
+              role="log"
+              aria-label="Session conversation"
+              aria-live="polite"
+              aria-relevant="additions"
             >
-              Retry catalog connection
-            </GlassButton>
-          </div>
-        )}
-        {!releases && !listingError && (
-          <p role="status" className="mb-4 text-sm">
-            Loading persisted catalog list…
-          </p>
-        )}
-        {releases?.length === 0 && (
-          <p role="status" className="workspace-notice mb-4">
-            No catalog releases imported. Follow the explicit fixture import in
-            README; no catalog is fabricated.
-          </p>
-        )}
-        <details
-          className="module-menu mb-6"
-          open={navOpen}
-          onToggle={(event) => setNavOpen(event.currentTarget.open)}
-        >
-          <summary className="font-semibold">Workspace modules</summary>
-          <nav
-            aria-label="Academic modules"
-            className="mt-3 flex flex-wrap gap-2"
-          >
-            {modules.map((module) => (
-              <a
-                key={module.id}
-                href={`#${module.id}`}
-                aria-current={state.active === module.id ? "page" : undefined}
-                className={`module-link ${state.active === module.id ? "module-link--active" : ""}`}
-                onClick={(event) => {
-                  event.preventDefault();
-                  navigate(module.id);
-                }}
-              >
-                {module.name}
-                {module.availability !== "active" && (
-                  <span className="ml-2 text-xs">
-                    {module.availability === "future" ? "Future" : "Preview"}
-                  </span>
-                )}
-              </a>
-            ))}
-          </nav>
-        </details>
-        <div
-          className={`workspace-columns ${state.active === "chat" ? "workspace-columns--home" : ""}`}
-        >
-          <GlassPanel className="conversation-panel self-start">
-            <div className="mb-5 flex items-start justify-between gap-3">
-              <div>
-                <p className="eyebrow mb-2">Start with a conversation</p>
-                <h1 className="font-editorial text-3xl">
-                  A little more clarity.
-                </h1>
-                <p className="mt-2 text-sm text-muted">
-                  Local navigation guide · Supported prompts only
-                </p>
-              </div>
-              <button
-                className="module-link shrink-0 whitespace-nowrap"
-                aria-expanded={chatOpen}
-                aria-controls="conversation-content"
-                onClick={() => setChatOpen((value) => !value)}
-              >
-                {chatOpen ? "Collapse" : "Open chat"}
-              </button>
-            </div>
-            <div id="conversation-content" hidden={!chatOpen}>
-              <div
-                className="conversation-messages"
-                role="log"
-                aria-label="Session conversation"
-                aria-live="polite"
-                aria-relevant="additions"
-              >
-                {messages.map((message, index) => (
-                  <article
-                    key={index}
-                    className={`message message--${message.role}`}
-                  >
-                    <p className="mb-2 text-xs font-semibold">
-                      {message.role === "you" ? "You" : "Local guide"}
-                    </p>
-                    <p className="whitespace-pre-wrap text-sm leading-7">
-                      {message.text}
-                    </p>
-                    {message.actions && (
-                      <div className="mt-3 flex flex-wrap gap-2">
-                        {message.actions.map((id) => (
-                          <button
-                            key={id}
-                            className="action-card"
-                            onClick={() => navigate(id)}
-                          >
-                            {modules.find((item) => item.id === id)!.name}{" "}
-                            <span aria-hidden="true">↗</span>
-                          </button>
-                        ))}
-                      </div>
-                    )}
-                  </article>
-                ))}
-              </div>
-              <form
-                className="mt-5"
-                onSubmit={(event) => {
-                  event.preventDefault();
-                  send(input);
-                }}
-              >
-                <label className="field-label" htmlFor="chat-input">
-                  Your navigation prompt
-                </label>
-                <textarea
-                  className="workspace-input mt-2"
-                  id="chat-input"
-                  rows={3}
-                  maxLength={600}
-                  value={input}
-                  onChange={(event) => setInput(event.target.value)}
-                  placeholder="Try: Open completed courses"
-                />
-                <div className="mt-3 flex items-center justify-between gap-3">
-                  <p className="text-xs text-muted">
-                    No chat messages are sent to a server.
+              {messages.map((message, index) => (
+                <article
+                  key={index}
+                  className={`message message--${message.role}`}
+                >
+                  <p className="mb-2 text-xs font-semibold text-muted">
+                    {message.role === "you" ? "You" : "Local guide"}
                   </p>
-                  <GlassButton type="submit" disabled={!input.trim()}>
-                    Send
-                  </GlassButton>
-                </div>
-              </form>
-              <details className="mt-5">
-                <summary className="text-sm font-semibold">
-                  Supported prompts
-                </summary>
-                <div className="mt-3 grid gap-2">
-                  {suggestedPrompts.map((prompt) => (
-                    <button
-                      className="suggested-prompt"
-                      key={prompt}
-                      onClick={() => send(prompt)}
-                    >
-                      {prompt}
-                    </button>
-                  ))}
-                </div>
-              </details>
+                  <p className="whitespace-pre-wrap text-sm leading-7">
+                    {message.text}
+                  </p>
+                  {message.actions && (
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {message.actions.map((id) => (
+                        <button
+                          key={id}
+                          className="action-card"
+                          onClick={() => navigate(id)}
+                        >
+                          Open {modules.find((item) => item.id === id)!.name}{" "}
+                          <span aria-hidden="true">↗</span>
+                        </button>
+                      ))}
+                    </div>
+                  )}
+                </article>
+              ))}
+            </div>
+            <form
+              className="mt-6"
+              onSubmit={(event) => {
+                event.preventDefault();
+                send(input);
+              }}
+            >
+              <label className="field-label" htmlFor="chat-input">
+                Your navigation prompt
+              </label>
+              <textarea
+                className="workspace-input mt-2"
+                id="chat-input"
+                rows={2}
+                maxLength={600}
+                value={input}
+                onChange={(event) => setInput(event.target.value)}
+                placeholder="Try: Open completed courses"
+              />
+              <div className="mt-3 flex items-center justify-between gap-3">
+                <p className="text-xs text-muted">
+                  Supported prompts only. Messages stay in this tab.
+                </p>
+                <GlassButton type="submit" disabled={!input.trim()}>
+                  Send
+                </GlassButton>
+              </div>
+            </form>
+            <div
+              className="suggested-prompts mt-5"
+              aria-label="Supported prompts"
+            >
+              {suggestedPrompts.map((prompt) => (
+                <button
+                  className="suggested-prompt"
+                  key={prompt}
+                  onClick={() => send(prompt)}
+                >
+                  {prompt}
+                </button>
+              ))}
             </div>
           </GlassPanel>
-          {state.active === "chat" ? (
-            <aside className="space-y-5">
-              <div className="rounded-card border border-line bg-soft p-6">
-                <p className="eyebrow mb-3">One workspace. Connected tools.</p>
-                <h2 className="text-xl font-semibold">
-                  Where would you like to begin?
-                </h2>
-                <p className="mt-3 text-sm leading-7 text-muted">
-                  Browse a draft catalog, explore hypothetical completions, then
-                  review what the deterministic rules can—and cannot—establish.
+        </div>
+        {!isChat && (
+          <GlassPanel className="module-panel" aria-labelledby="module-heading">
+            <div className="module-heading-row">
+              <div>
+                <p className="eyebrow mb-2">
+                  Contextual tool
+                  {active.availability === "limited"
+                    ? " · Limited preview"
+                    : ""}
                 </p>
+                <h1
+                  id="module-heading"
+                  ref={headingRef}
+                  tabIndex={-1}
+                  className="text-2xl font-semibold"
+                >
+                  {active.name}
+                </h1>
               </div>
-              {modules
-                .filter((module) =>
-                  ["catalog", "completed", "progress"].includes(module.id),
-                )
-                .map((module) => (
-                  <button
-                    key={module.id}
-                    className="workspace-module-card"
-                    onClick={() => navigate(module.id)}
-                  >
-                    <span className="mb-2 block text-lg font-semibold">
-                      {module.name} <span className="text-brand">↗</span>
-                    </span>
-                    <span className="text-sm text-muted">
-                      {module.description}
-                    </span>
-                  </button>
-                ))}
-            </aside>
-          ) : (
-            <GlassPanel className="module-panel min-w-0">
-              <p className="eyebrow mb-2">
-                Academic module · {active.availability}
+              <GlassButton variant="secondary" onClick={() => navigate("chat")}>
+                ← Return to chatbot
+              </GlassButton>
+            </div>
+            {active.availability === "future" ? (
+              <p className="workspace-notice mt-5">
+                Not implemented. No upload, planner, reporting or handoff
+                service is available.
               </p>
-              <h2 className="mb-3 text-2xl font-semibold">{active.name}</h2>
-              <p className="mb-6 text-sm text-muted">{active.description}</p>
-              {active.availability === "future" ? (
-                <p className="workspace-notice">
-                  Not implemented. No upload, planner, reporting or handoff
-                  service is available. Continue with Chat, Catalog or Completed
-                  Courses.
-                </p>
-              ) : !catalog ? (
-                <div>
-                  {catalogError?.key === selection ? (
-                    <p role="alert" className="workspace-notice">
-                      {catalogError.message}
+            ) : (
+              <>
+                <div className="module-context">
+                  <p className="text-sm">
+                    {summary
+                      ? `${summary.campus_id.toUpperCase()} · ${programName(summary.program_id)} · ${summary.catalog_year}`
+                      : "Choose your program and catalog explicitly."}
+                  </p>
+                  <details className="context-choice" open={!selection}>
+                    <summary className="text-sm font-semibold text-brand">
+                      Choose / change catalog
+                    </summary>
+                    <label className="field-label">
+                      Program / catalog release
+                      <select
+                        className="workspace-input"
+                        value={selection}
+                        onChange={(event) => choose(event.target.value)}
+                        disabled={!releases}
+                      >
+                        <option value="">
+                          Choose explicitly — no default year
+                        </option>
+                        {selection &&
+                          !releases?.some(
+                            (item) => contextKey(item) === selection,
+                          ) && (
+                            <option value={selection}>
+                              Requested deep-linked release
+                            </option>
+                          )}
+                        {releases?.map((item) => (
+                          <option
+                            key={contextKey(item)}
+                            value={contextKey(item)}
+                          >
+                            {item.campus_id.toUpperCase()} ·{" "}
+                            {programName(item.program_id)} · {item.catalog_year}{" "}
+                            · {item.release_id}
+                          </option>
+                        ))}
+                      </select>
+                    </label>
+                    <p className="mt-2 text-xs text-muted">
+                      Changing release clears incompatible selections and
+                      allocations.
                     </p>
-                  ) : selection ? (
-                    <p role="status">Loading the exact requested release…</p>
-                  ) : (
-                    <p className="workspace-notice">
-                      Choose a program and release above to open this module.
-                      Existing selections never carry into another release.
-                    </p>
-                  )}
-                  {selection && catalogError?.key === selection && (
+                  </details>
+                </div>
+                {listingError && (
+                  <div role="alert" className="workspace-notice mb-4">
+                    <p>{listingError}</p>
                     <GlassButton
-                      className="mt-4"
                       variant="secondary"
                       onClick={() => setAttempt((value) => value + 1)}
                     >
-                      Retry exact release
+                      Retry catalog connection
                     </GlassButton>
-                  )}
-                </div>
-              ) : (
-                <>
-                  <p className="workspace-notice mb-5">{catalog.limitation}</p>
-                  {state.active === "catalog" && (
-                    <CatalogExplorer
-                      catalog={catalog}
-                      state={state}
-                      dispatch={dispatch}
-                    />
-                  )}
-                  {state.active === "completed" && (
-                    <CompletedCourses state={state} dispatch={dispatch} />
-                  )}
-                  {state.active === "progress" && summary && (
-                    <DegreeProgress state={state} summary={summary} />
-                  )}
-                </>
-              )}
-            </GlassPanel>
-          )}
-        </div>
-        <footer className="mt-8 flex flex-wrap justify-between gap-3 border-t border-line py-5 text-xs text-muted">
-          <p>Independent project · English-language local prototype</p>
-          <p>No official degree audit, live AI or student accounts</p>
+                  </div>
+                )}
+                {!releases && !listingError && (
+                  <p role="status">Loading persisted catalog list…</p>
+                )}
+                {releases?.length === 0 && (
+                  <p role="status" className="workspace-notice">
+                    No catalog releases imported. Follow the explicit fixture
+                    import in README; no catalog is fabricated.
+                  </p>
+                )}
+                {!catalog ? (
+                  <div>
+                    {catalogError?.key === selection ? (
+                      <p role="alert" className="workspace-notice">
+                        {catalogError.message}
+                      </p>
+                    ) : selection ? (
+                      <p role="status">Loading the exact requested release…</p>
+                    ) : (
+                      <p className="text-sm text-muted">
+                        Your selections remain hypothetical. No academic context
+                        is chosen automatically.
+                      </p>
+                    )}
+                    {selection && catalogError?.key === selection && (
+                      <GlassButton
+                        variant="secondary"
+                        className="mt-4"
+                        onClick={() => setAttempt((value) => value + 1)}
+                      >
+                        Retry exact release
+                      </GlassButton>
+                    )}
+                  </div>
+                ) : (
+                  <>
+                    {state.active === "catalog" && (
+                      <CatalogExplorer
+                        catalog={catalog}
+                        state={state}
+                        dispatch={dispatch}
+                      />
+                    )}
+                    {state.active === "completed" && (
+                      <CompletedCourses state={state} dispatch={dispatch} />
+                    )}
+                    {state.active === "progress" && summary && (
+                      <DegreeProgress state={state} summary={summary} />
+                    )}
+                    <details className="mt-6 text-xs text-muted">
+                      <summary>Draft catalog limitations</summary>
+                      <p>{catalog.limitation}</p>
+                      <p className="mt-2 break-all">
+                        Release: {catalog.release.id}
+                      </p>
+                    </details>
+                  </>
+                )}
+              </>
+            )}
+          </GlassPanel>
+        )}
+        <footer className="prototype-footer">
+          <p>Independent prototype · No live AI</p>
+          <details>
+            <summary>About this prototype</summary>
+            <p>
+              No CUNY or BMCC endorsement. Fictional scenarios only; do not
+              enter real student information. Conversation and selections are
+              kept only in tab memory and clear on refresh. This is not a
+              complete degree audit. Source verification is not institutional
+              approval.
+            </p>
+          </details>
         </footer>
       </main>
     </div>

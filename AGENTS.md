@@ -1,27 +1,26 @@
 # Repository instructions
 
-## Current authorization: Phase 02D — Chat-first academic workspace
+## Current authorization: Phase 03A — Minimalist chat-first UX
 
-Work exclusively on `feature/phase02d-course-selector` in `cuny-advisor-v2`.
-Phase 02C merged through PR #7 (`315c1c8`) is the baseline. The owner authorizes
-session-local deterministic chat/navigation, a typed module registry, shared
-hypothetical academic context, PostgreSQL-backed read-only catalog/selector APIs,
-a limited pure-engine progress preview, frontend modules, tests and documentation.
-Preserve the four-column selector, exact credits, immutable catalogs, uncertainty,
-prerequisite/degree separation and the hardened repository. No duplicated academic
-calculations in TypeScript. No startup migrations/imports or database fallback.
+Work exclusively on `feature/phase03a-chat-first-ux` in `cuny-advisor-v2`, based
+on merged Phase 02D PR #8. The owner authorizes frontend-only refinement: a sole
+chat default interface, contextual focused modules with return/focus management,
+compact V1-inspired selector cards, responsive/accessibility tests, screenshots
+and documentation. Preserve the backend/API/repository/evaluator, migrations,
+fixtures, exact credits, academic uncertainty and session-local hypothetical state.
+Visual column reordering does not change canonical academic projections or rules.
 
-Use only disposable V2 resources and schema `cuny_advisor_v2`, existing dedicated
-roles, reviewed local catalogs and synthetic/hypothetical inputs. No real student
-records, accounts/authentication, persistence of chat/selections, transcript upload,
-CMS/publication, AI/Gemini, full planner/audit, advisor reports, production or V1
-connections. Do not start Phase 03/04 or deploy. Source verification is not approval.
-Future modules must be visibly unavailable; unsupported chat requests get explicit
-non-AI guidance, never fabricated academic advice. Preserve unrelated user work.
+Use only disposable V2 resources and schema `cuny_advisor_v2`, dedicated roles,
+reviewed catalogs and fictional inputs. No real student data, accounts, transcripts,
+CMS, full audit/planner, advisor reports, production, V1 connections or AI/Gemini.
+Source verification is not institutional approval. Future tools remain unavailable
+and are not advertised as implemented. No startup migration/import or data fallback.
+Preserve unrelated user work and existing local services.
 
-After scoped review and actual tests, commit, push this branch and open a PR to
-`main`. Do not merge, force push, rewrite history or start another phase. Stop for
-owner review. Report unrun browser/database checks honestly.
+After review and actual tests, commit scoped changes, push this branch and open a
+PR to `main`. Do not merge, force push, rewrite history, deploy, or start another
+phase. Report unrun checks honestly. This authorization does not extend to later
+phases or change permanent academic-integrity/security restrictions below.
 
 V1 is strictly read-only at reference commit
 `ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
@@ -98,6 +97,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 02D authorization
+The Phase 00 deliverable was documentation only. Current Phase 03A authorization
 is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

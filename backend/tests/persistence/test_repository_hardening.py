@@ -433,8 +433,9 @@ def contend(releases, revision_id, barrier_table):
     return results
 
 
+@pytest.mark.parametrize("attempt", range(3))
 @pytest.mark.parametrize("conflicting", [False, True])
-def test_concurrent_same_release_identity(engine, conflicting):
+def test_concurrent_same_release_identity(engine, conflicting, attempt):
     repo = CatalogRepository(engine)
     release = release_for("same-identity-" + uuid4().hex)
     # Seed shared definitions too: only the new binding should contend here.
@@ -463,8 +464,11 @@ def test_concurrent_same_release_identity(engine, conflicting):
         )
 
 
+@pytest.mark.parametrize("attempt", range(3))
 @pytest.mark.parametrize("conflicting", [False, True])
-def test_concurrent_shared_identities_reversed_payload_order(engine, conflicting):
+def test_concurrent_shared_identities_reversed_payload_order(
+    engine, conflicting, attempt
+):
     repo = CatalogRepository(engine)
     first = release_for("opposite-order-" + uuid4().hex)
     empty = first.model_copy(
@@ -519,7 +523,9 @@ def test_ensure_does_not_swallow_secondary_unique_conflicts(engine):
     row = next(
         value for table, value in rows_for(release, "r1") if table is db.membership
     )
-    with pytest.raises(IntegrityError), engine.begin() as connection:
+    with pytest.raises(
+        PersistenceConflict, match="identity conflict"
+    ), engine.begin() as connection:
         course = canonical(release.courses[0])
         course["identity"]["id"] = "rolled-back-course"
         course["version_id"] = "rolled-back-version"

@@ -139,13 +139,11 @@ def key_filter(table, values):
 
 
 def ensure(connection, table, values):
-    # Only an existing primary identity is idempotent. A different unique-key
-    # collision must raise, rather than being swallowed before a missing-row read.
-    connection.execute(
-        insert(table)
-        .values(**values)
-        .on_conflict_do_nothing(index_elements=list(table.primary_key.columns))
-    )
+    # Cover all unique indexes: a PK-only arbiter can still race against another
+    # unique index on the same row. DO NOTHING is not proof of idempotency: only
+    # an exact primary-key/content read below can establish that. A secondary-key
+    # collision with no matching PK is an explicit conflict, not a missing-row error.
+    connection.execute(insert(table).values(**values).on_conflict_do_nothing())
     actual = (
         connection.execute(sa.select(table).where(key_filter(table, values)))
         .mappings()

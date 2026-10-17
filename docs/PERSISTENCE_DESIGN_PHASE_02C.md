@@ -202,9 +202,11 @@ Two write-path corrections:
   writes by dependency-ordered table and complete primary key. Serialized arrays
   and membership positions retain their original order; no evaluator change.
 - Unqualified `ON CONFLICT DO NOTHING` could hide a secondary-unique collision and
-  fail later as an unexplained missing-row lookup. `ensure()` now targets the
-  primary key only, reads complete content, and rejects mismatches/missing rows;
-  secondary-unique violations propagate and roll back the whole import.
+  fail later as an unexplained missing-row lookup. `ensure()` now requires a matching primary-key row and exact typed content;
+  missing/mismatched rows raise `PersistenceConflict` and roll back the import.
+  It deliberately keeps `DO NOTHING` across all unique indexes: real CI contention
+  exposed races on redundant unique indexes when targeting only the PK. Ignoring
+  an INSERT conflict is never itself treated as successful idempotency.
 
 Concurrency tests use independent engines/real PostgreSQL backend PIDs, barriers
 before contested INSERTs, bounded statement/barrier/future timeouts and no retries.
@@ -213,6 +215,7 @@ to expose the old lock-order cycle reliably. Tests cover identical/conflicting
 release IDs and distinct release IDs sharing identical/conflicting versions in
 reversed payload order. Winners load exactly; losers retain no partial binding or
 scoped rows. A separate secondary-unique conflict proves earlier new rows roll back.
+Each contention scenario repeats three times with fresh identities.
 READ COMMITTED is asserted; serializable/repeatable-read retry policy and general
 stress/performance testing remain deferred. This does not claim deadlock freedom
 for arbitrary out-of-repository SQL or future write paths.

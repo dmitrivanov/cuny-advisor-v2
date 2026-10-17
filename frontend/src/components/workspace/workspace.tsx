@@ -1,5 +1,19 @@
 "use client";
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
+import Link from "next/link";
+import { useAdvising } from "@/components/campus/advising-provider";
+import { AdaptiveProfile } from "@/components/campus/adaptive-profile";
+import {
+  applyUpdate,
+  reported,
+  switchCampus,
+  setGoal,
+} from "@/lib/advising/profile";
+import {
+  interpretBounded,
+  validateProposal,
+} from "@/lib/advising/orchestration";
+import type { Campus } from "@/lib/advising/campuses";
 import { AcademicIcon } from "@/components/academic-icon";
 import { GlassPanel } from "@/components/ui/glass-panel";
 import { GlassButton } from "@/components/ui/glass-button";
@@ -24,7 +38,12 @@ const contextKey = (
   item: Pick<Summary, "campus_id" | "program_id" | "release_id">,
 ) => JSON.stringify([item.campus_id, item.program_id, item.release_id]);
 type Message = { role: "you" | "guide"; text: string; actions?: ModuleId[] };
-export function Workspace() {
+export function Workspace({ campus }: { campus: Campus }) {
+  const { advising, setAdvising } = useAdvising();
+  useEffect(
+    () => setAdvising((current) => switchCampus(current, campus.id)),
+    [campus.id, setAdvising],
+  );
   const [state, dispatch] = useReducer(workspaceReducer, initialState);
   const [releases, setReleases] = useState<Summary[] | null>(null);
   const [listingError, setListingError] = useState("");
@@ -43,7 +62,7 @@ export function Workspace() {
   const [messages, setMessages] = useState<Message[]>([
     {
       role: "guide",
-      text: "Welcome. What would you like to explore? Choose a supported prompt or open a tool below. Use fictional course selections only.",
+      text: `Hi! I’m the ${campus.shortName} advising assistant prototype. What would you like help with today? Supported prompts and fictional information only.`,
       actions: ["completed"],
     },
   ]);
@@ -57,13 +76,41 @@ export function Workspace() {
     const parts = ["campus", "program", "release"].map((name) =>
       url.searchParams.get(name),
     );
-    const key = parts.every(Boolean) ? JSON.stringify(parts) : "";
+    const key =
+      parts.every(Boolean) && parts[0] === campus.id
+        ? JSON.stringify(parts)
+        : "";
+    if (parts.every(Boolean) && parts[0] !== campus.id)
+      setCatalogError({
+        key: "",
+        message:
+          "This catalog belongs to another campus. Choose a matching campus catalog explicitly.",
+      });
     if (key !== contextRef.current) {
+      setAdvising((current) => {
+        const fact = current.profile.academicContext;
+        if (fact.state !== "known") return current;
+        const bound = JSON.stringify([
+          fact.value.campusId,
+          fact.value.programId,
+          fact.value.releaseId,
+        ]);
+        return bound === key
+          ? current
+          : applyUpdate(current, {
+              key: "academicContext",
+              fact: {
+                state: "unknown",
+                reason:
+                  "Selected release changed; fictional applicability needs reconfirmation",
+              },
+            });
+      });
       contextRef.current = key;
       dispatch({ type: "reset" });
       setSelection(key);
     }
-  }, []);
+  }, [campus.id, setAdvising]);
   useEffect(() => {
     void Promise.resolve().then(() => {
       readLocation();
@@ -81,7 +128,7 @@ export function Workspace() {
     listReleases(controller.signal)
       .then((items) => {
         if (!controller.signal.aborted) {
-          setReleases(items);
+          setReleases(items.filter((item) => item.campus_id === campus.id));
           setListingError("");
         }
       })
@@ -89,7 +136,7 @@ export function Workspace() {
         if (!controller.signal.aborted) setListingError(error.message);
       });
     return () => controller.abort();
-  }, [attempt, state.active]);
+  }, [attempt, state.active, campus.id]);
   useEffect(() => {
     if (!selection) return;
     const [campus_id, program_id, release_id] = JSON.parse(
@@ -109,6 +156,14 @@ export function Workspace() {
     )
       .then((catalog) => {
         if (!controller.signal.aborted) {
+          if (
+            catalog.release.campus_id !== campus.id ||
+            catalog.release.program.id !== program_id ||
+            catalog.release.id !== release_id
+          )
+            throw new Error(
+              "Catalog does not match this assistant and exact program/release.",
+            );
           dispatch({ type: "catalog", catalog });
           setCatalogError(null);
         }
@@ -118,7 +173,7 @@ export function Workspace() {
           setCatalogError({ key: selection, message: error.message });
       });
     return () => controller.abort();
-  }, [selection, attempt]);
+  }, [selection, attempt, campus.id]);
   function navigate(module: ModuleId) {
     if (state.active === "chat" && module !== "chat")
       returnFocus.current =
@@ -152,7 +207,17 @@ export function Workspace() {
   }
   function send(text: string) {
     if (!text.trim()) return;
-    const reply: Guidance = guidance(text);
+    const proposal = interpretBounded(text);
+    const accepted = proposal && validateProposal(proposal, advising);
+    if (accepted)
+      setAdvising((current) => {
+        let next = proposal.goal ? setGoal(current, proposal.goal) : current;
+        for (const update of proposal.updates) next = applyUpdate(next, update);
+        return next;
+      });
+    const reply: Guidance = accepted
+      ? { text: proposal.message, actions: proposal.actions }
+      : guidance(text);
     setMessages((items) => [
       ...items.slice(-37),
       { role: "you", text: text.trim().slice(0, 600) },
@@ -204,10 +269,15 @@ export function Workspace() {
             <AcademicIcon name="compass" className="size-5" />
           </span>
           <strong>
-            CUNY Advisor <span className="font-normal text-muted">V2</span>
+            CUNY Advisor
           </strong>
         </a>
-        <span className="text-xs text-muted">Local guide · No live AI</span>
+        <div className="flex flex-wrap items-center gap-3 text-xs text-muted">
+          <span>{campus.shortName} · No live AI</span>
+          <Link className="source-link" href="/">
+            Back to campuses
+          </Link>
+        </div>
       </header>
       <main
         id="main-content"
@@ -298,11 +368,16 @@ export function Workspace() {
                 </GlassButton>
               </div>
             </form>
+            <AdaptiveProfile onTool={navigate} />
             <div
               className="suggested-prompts mt-5"
               aria-label="Supported prompts"
             >
-              {suggestedPrompts.map((prompt) => (
+              {[
+                "Explore academic programs",
+                "Plan next semester",
+                "Transfer to another college",
+              ].map((prompt) => (
                 <button
                   className="suggested-prompt"
                   key={prompt}
@@ -312,6 +387,20 @@ export function Workspace() {
                 </button>
               ))}
             </div>
+            <details className="mt-3 text-xs text-muted">
+              <summary>More supported prompts</summary>
+              <div className="suggested-prompts mt-2">
+                {suggestedPrompts.map((prompt) => (
+                  <button
+                    className="suggested-prompt"
+                    key={prompt}
+                    onClick={() => send(prompt)}
+                  >
+                    {prompt}
+                  </button>
+                ))}
+              </div>
+            </details>
           </GlassPanel>
         </div>
         {!isChat && (
@@ -445,11 +534,60 @@ export function Workspace() {
                       />
                     )}
                     {state.active === "completed" && (
-                      <CompletedCourses state={state} dispatch={dispatch} />
+                      <>
+                        <CompletedCourses state={state} dispatch={dispatch} />
+                        <button
+                          className="action-card mt-4"
+                          onClick={() =>
+                            setAdvising((current) =>
+                              applyUpdate(current, {
+                                key: "completedCourses",
+                                fact: reported(
+                                  state.selected.map((id) => {
+                                    const course = catalog.release.courses.find(
+                                      (item) => item.identity.id === id,
+                                    )!;
+                                    return {
+                                      code: course.code,
+                                      institutionId: catalog.release.campus_id,
+                                      context: {
+                                        campusId: catalog.release.campus_id,
+                                        programId: catalog.release.program.id,
+                                        releaseId: catalog.release.id,
+                                        courseId: id,
+                                      },
+                                    };
+                                  }),
+                                ),
+                              }),
+                            )
+                          }
+                        >
+                          Use these fictional completed courses in my profile
+                        </button>
+                      </>
                     )}
                     {state.active === "progress" && summary && (
                       <DegreeProgress state={state} summary={summary} />
                     )}
+                    <button
+                      className="action-card mt-4"
+                      onClick={() =>
+                        setAdvising((current) =>
+                          applyUpdate(current, {
+                            key: "academicContext",
+                            fact: reported({
+                              campusId: catalog.release.campus_id,
+                              programId: catalog.release.program.id,
+                              releaseId: catalog.release.id,
+                              applicability: "hypothetical_confirmed",
+                            }),
+                          }),
+                        )
+                      }
+                    >
+                      Use this draft for the fictional scenario only
+                    </button>
                     <details className="mt-6 text-xs text-muted">
                       <summary>Draft catalog limitations</summary>
                       <p>{catalog.limitation}</p>

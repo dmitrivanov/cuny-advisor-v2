@@ -1,11 +1,26 @@
 # Implementation roadmap
 
 Status: proposed sequence with bounded implementation, 2026-10-17.
-Phase 02D merged through PR #8; Phase 03A frontend UX refinement is authorized. Later implementation remains gated.
+Phase 03A merged through PR #9; Phase 03B multi-campus/profile refinement is authorized. Later implementation remains gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
 
-## Phase 03A — Minimalist chat-first UX (current bounded slice)
+## Phase 03B — Multi-campus profile foundation (current bounded slice)
+
+Typed campus registry and premium constellation entry; BMCC-scoped shared chat;
+campus-neutral profile/session evidence and deterministic goal-dependent readiness/
+questions. Future campus routes remain unavailable. No new academic rules, catalogs,
+backend/schema changes, student persistence, AI, planner or handoff implementation.
+
+Acceptance: names/types source-mapped; campus selection does not enroll a student;
+legacy links migrate safely; profiles distinguish institutions, stages, provenance
+and uncertainty; corrections invalidate dependent assumptions; missing applicability
+stays explicit; no fixed wizard/percentage; keyboard/touch/reduced-motion and
+375/768/1440px screenshots reviewed. Run unit/browser/backend regressions plus
+lint/typecheck/build and scoped diff checks. [Actual verification](PHASE_03B_VERIFICATION.md)
+is separate from planned tests. Owner reviews PR before merge; no deployment/next phase.
+
+## Phase 03A — Minimalist chat-first UX (implemented, merged PR #9)
 
 Refine the implemented workspace into a sole chat default and focused contextual
 tools. Preserve all academic/backend/persistence behavior, session-only state and
@@ -462,3 +477,9 @@ scoped academic governance, and safe CMS capabilities. These accumulate across
 Phases 01–06; none can be omitted by calling an earlier milestone the initial release.
 SSO and multilingual support are future scope. All real-user operation still requires
 Phase 07 approval. Phase 00 finalization stops for review and starts none of this work.
+
+Phase 03B owner review (PR #10): graph-first layout, direct accessible campus entry,
+dismissible unavailable notices, fixed-target ambient scenery, shared branding and
+browser-test synchronization hardening are included in this same bounded phase.
+No Phase 03C, Gemini, additional campus catalog, profile persistence or planner is
+implemented or authorized by these refinements.

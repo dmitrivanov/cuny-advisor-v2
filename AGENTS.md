@@ -1,26 +1,28 @@
 # Repository instructions
 
-## Current authorization: Phase 03A — Minimalist chat-first UX
+## Current authorization: Phase 03B — Multi-campus profile foundation
 
-Work exclusively on `feature/phase03a-chat-first-ux` in `cuny-advisor-v2`, based
-on merged Phase 02D PR #8. The owner authorizes frontend-only refinement: a sole
-chat default interface, contextual focused modules with return/focus management,
-compact V1-inspired selector cards, responsive/accessibility tests, screenshots
-and documentation. Preserve the backend/API/repository/evaluator, migrations,
-fixtures, exact credits, academic uncertainty and session-local hypothetical state.
-Visual column reordering does not change canonical academic projections or rules.
+Work on `feature/phase03b-multicampus-profile`, from latest main after merged
+Phase 03A PR #9 (`cb548e4`). Authorized: campus registry/constellation landing,
+campus-scoped frontend routing, campus-neutral in-memory hypothetical profile and
+session contracts, deterministic goal-dependent readiness/question selection,
+validated structured conversation actions, frontend tests/screenshots/docs and a
+scoped commit/push/PR. BMCC is the only operational local pilot; other campus
+assistants and academic catalogs remain unavailable. Assistant choice is not enrollment.
 
-Use only disposable V2 resources and schema `cuny_advisor_v2`, dedicated roles,
-reviewed catalogs and fictional inputs. No real student data, accounts, transcripts,
-CMS, full audit/planner, advisor reports, production, V1 connections or AI/Gemini.
-Source verification is not institutional approval. Future tools remain unavailable
-and are not advertised as implemented. No startup migration/import or data fallback.
-Preserve unrelated user work and existing local services.
+Preserve evaluator/repositories/APIs, exact credits, uncertainty, scoped course
+selections, immutable catalogs and schema. No duplicate academic rules in TypeScript.
+No database/profile persistence, accounts, student records, uploads, AI/Gemini,
+full planner/audit, equivalencies, institutional integrations, production or V1 access.
+Use fictional data and disposable V2 resources only. Never infer catalog applicability
+from a start date or upgrade student reports to institutional verification.
 
-After review and actual tests, commit scoped changes, push this branch and open a
-PR to `main`. Do not merge, force push, rewrite history, deploy, or start another
-phase. Report unrun checks honestly. This authorization does not extend to later
-phases or change permanent academic-integrity/security restrictions below.
+Owner-review refinements are authorized on this same branch: graph-first layout,
+direct accessible campus activation, transient notices, decorative CSS orbital motion
+with stable targets/pause/reduced-motion, shared branding and CI/test hardening.
+Respect existing services and unrelated work. Commit/push this branch and update
+existing PR #10 after actual checks; do not create a new PR. Do not merge, deploy, rewrite history, start
+Gemini or proceed beyond Phase 03B. Permanent restrictions below remain in force.
 
 V1 is strictly read-only at reference commit
 `ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
@@ -97,6 +99,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 03A authorization
+The Phase 00 deliverable was documentation only. Current Phase 03B authorization
 is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

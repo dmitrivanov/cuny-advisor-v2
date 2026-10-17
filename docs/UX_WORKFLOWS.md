@@ -7,7 +7,8 @@ workflows, not implemented features or institutional process approvals.
 
 ## Implemented Phase 03A: chat is the home
 
-The default `/` view contains one frosted conversation surface, compact branding,
+The campus conversation (`/campus/bmcc` since Phase 03B, formerly `/`) contains
+one frosted conversation surface, compact branding,
 a short welcome, input, four supported prompt suggestions and a small independent
 prototype/no-live-AI notice. No persistent module navigation, dashboard, catalog
 selector, future-tool list or catalog error panel is rendered on chat. Catalog
@@ -287,3 +288,38 @@ in Phase 01C. Exact source/UI/runtime distinctions remain part of every finding.
 [REFUI]: https://github.com/dmitrivanov/academic-advisement-system/blob/ba499bc078a4889ed7ed4ad2f381a5c6950753d3/frontend/cuny_beyond_referral.html#L1-L15
 
 [REFERRAL]: https://github.com/dmitrivanov/academic-advisement-system/blob/ba499bc078a4889ed7ed4ad2f381a5c6950753d3/faq_fallback_api.py#L526-L684
+
+
+## Phase 03B: campus entry and adaptive fictional context
+
+The current journey is graph-first landing → direct BMCC node activation →
+`/campus/bmcc` conversation →
+one useful goal-dependent question → explicit supported academic action. Earlier
+Phase 03A statements about a conversation-only default now refer to the campus
+route; `/` contains the network landing. Known future campus routes contain only
+an unavailable notice, never BMCC tools or fake chats. Bare historical BMCC hashes
+and exact root context links deliberately migrate to the BMCC route.
+
+The selected assistant supplies a perspective, not student enrollment. Current,
+previous and intended institutions/programs remain distinct evidence-aware facts.
+A student can report studying at LaGuardia while exploring BMCC or a future campus.
+Only BMCC is currently operational. An exact bounded correction updates enrollment
+without changing assistant identity; unsupported free text still discloses no AI.
+
+Goals drive questions rather than a fixed survey. Exploration needs no coursework,
+term or schedule information. Planning preparation asks relevant history/term/load
+and keeps catalog uncertainty explicit; it does not produce a plan. Optional profile
+review handles corrections/secondary goals. Details are in [profile](STUDENT_PROFILE_MODEL.md)
+and [readiness](ADAPTIVE_ADVISING_READINESS.md). All facts are fictional/in-memory.
+
+Client navigation to landing retains the independent profile but unmounts chat and
+selector state; returning to the same assistant starts a new workspace conversation.
+Full refresh clears profile/session too. Within a workspace, tool return preserves
+conversation and selection. Explicit copy/confirm controls transfer fictional
+selector history or selected draft context to profile, never credits or approval.
+
+Owner review refinement: mouse click, tap and native Enter/Space on BMCC open its
+assistant immediately. Hover/focus provides transient context; other campuses show
+only an unavailable notice with a Dismiss button. Chat offers “Back to campuses.”
+The graph stays spatial on mobile; only decorative arcs move, paused during
+interaction and absent under reduced motion. No dashboard or module menu was added.

@@ -211,3 +211,32 @@ Module headings receive focus on entry; return restores the invoking action or
 chat heading. Dedicated views do not impose a modal focus trap. Full disclosure
 remains keyboard-accessible in the footer; neither glass effects nor colors carry
 academic meaning. See [Phase 03A screenshots/checks](PHASE_03A_VERIFICATION.md).
+
+
+## Phase 03B campus constellation
+
+A dark navy/ivory/gold landing is a deliberate campus-entry contrast to the retained
+light chat. Scoped `--night-*` tokens keep the light palette unchanged. Elliptical
+orbits and thin SVG connections give eight intentional positions depth without a
+map, logo, transfer claim or dense chart. Native typography/initials, subtle gradients,
+fine borders and opaque detail surfaces avoid heavy GPU layers.
+
+The graph is the dominant content under a compact compass wordmark and “Choose your
+campus.” instruction. There is no hero or persistent side panel. The same wordmark,
+control radii, typography and indigo accent connect dark entry and light chat.
+Focus/hover adds glow and a small descriptive tooltip without moving hit targets.
+Click/tap or native Enter/Space opens BMCC immediately. Unavailable nodes show a
+concise dismissible status notice; an accessible list provides a direct BMCC link.
+A spatial layout remains at 375/768/1440px with mobile spacing adjusted to keep
+all targets separate and at least 44px. Context labels do not carry academic facts.
+
+Only two decorative orbit layers animate: 100-second rotation and 18-second subtle
+opacity/scale breathing. Labels, nodes and SVG connections stay fixed. Interaction
+pauses scenery; reduced motion removes animations/transitions entirely. No JS frame
+loop, force simulation, new dependency or expensive blur is involved. Animation
+quality requires observing motion; screenshots document layout only.
+
+Text tokens have additional contrast regressions. Focus uses a warm high-contrast
+outline. Only BMCC has an entry action. Other campuses show unavailable text rather
+than a disabled fake chat or fabricated academic content. Source/type metadata is
+verified in [multi-campus architecture](MULTICAMPUS_ARCHITECTURE.md).

@@ -41,7 +41,8 @@ See [implemented design, tradeoffs and checklist](PERSISTENCE_DESIGN_PHASE_02C.m
 
 ## Implemented Phase 02D workspace boundary
 
-Next.js `/` is a minimal conversation-only home with a typed module registry,
+The Next.js campus conversation (`/campus/bmcc` since Phase 03B, formerly `/`)
+is a minimal conversation-only home with a typed module registry,
 exact local navigation router and one session-local academic reducer. Structured
 chat actions or deep links open focused catalog/selector/limited progress views.
 Chat remains mounted but hidden while using a tool; the return action restores
@@ -251,3 +252,23 @@ migration privileges are separate. Explicit schema qualification and constrained
 search paths prevent accidental fallback to `public` or V1 tables. Schema naming
 alone is not security isolation. No connection, schema or migration is created in
 Phase 00. Synthetic Phase 01 checks must demonstrate isolation before any rollout.
+
+
+## Implemented Phase 03B multi-campus frontend
+
+`/` is the campus-selection constellation; the Phase 03A conversation moves to
+`/campus/bmcc`. A typed display/capability registry is independent of catalogs.
+Known future campus routes are unavailable; unknown slugs return not found. Legacy
+root BMCC tool links migrate explicitly, preserving exact query/hash context.
+
+A root in-memory provider holds a campus-neutral evidence-aware profile and advising
+session across client navigation. A pure readiness/question layer derives relevant
+missing facts by goal. Selection never infers enrollment, dates never assign catalogs,
+reported course history never implies credit/eligibility, and all actual academic
+evaluation remains in the unchanged backend. Optional future interpreter contracts
+accept only proposals; no AI integration or generic executor is instantiated.
+
+See [multi-campus architecture](MULTICAMPUS_ARCHITECTURE.md), [profile](STUDENT_PROFILE_MODEL.md),
+[readiness](ADAPTIVE_ADVISING_READINESS.md) and [verification](PHASE_03B_VERIFICATION.md).
+Existing backend, PostgreSQL schema/migrations, catalog fixtures and dependencies
+are unchanged. No student persistence, real data, official approval or deployment.

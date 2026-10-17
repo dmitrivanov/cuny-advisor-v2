@@ -24,8 +24,15 @@ async function mockCatalog(page: Page) {
   });
 }
 async function choose(page: Page, index = csIndex) {
-  if (!(await page.getByLabel("Program / catalog release").isVisible()))
-    await page.getByText("Choose / change catalog", { exact: true }).click();
+  // Wait for the deep-linked module to hydrate before inspecting its disclosure.
+  // A one-shot isVisible() can run while the initial chat is still rendered.
+  const disclosure = page.locator("details.context-choice");
+  await expect(disclosure).toBeVisible();
+  if ((await disclosure.getAttribute("open")) === null)
+    await disclosure
+      .getByText("Choose / change catalog", { exact: true })
+      .click();
+  await expect(page.getByLabel("Program / catalog release")).toBeEnabled();
   await page.getByLabel("Program / catalog release").selectOption(key(index));
   await expect(
     page
@@ -65,7 +72,7 @@ test("minimal chat home has no dashboard, context selector or module menu; discl
   page.on("request", (request) => {
     if (request.url().includes("/api/academic/")) academicRequests++;
   });
-  await page.goto("/");
+  await page.goto("/campus/bmcc");
   await expect(
     page.getByRole("heading", { name: "What’s your next step?" }),
   ).toBeVisible();
@@ -89,7 +96,7 @@ test("conversation actions → focused selector → chat → preview retain cont
   page,
 }) => {
   await mockCatalog(page);
-  await page.goto("/");
+  await page.goto("/campus/bmcc");
   await prompt(page, "Open completed courses.");
   await shot(page, "chat-action");
   const action = page
@@ -139,7 +146,7 @@ test("four ordered columns, compact consistent course cards, details and incompl
 }) => {
   await mockCatalog(page);
   await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.goto("/#completed");
+  await page.goto("/campus/bmcc#completed");
   await choose(page);
   expect(await page.locator(".selector-heading").allTextContents()).toEqual([
     "Major Requirements",
@@ -189,7 +196,7 @@ test("shared selection and exact allocation survive chat; deselection and releas
   page,
 }) => {
   await mockCatalog(page);
-  await page.goto("/#completed");
+  await page.goto("/campus/bmcc#completed");
   await choose(page);
   await page
     .getByRole("checkbox", { name: /MAT 301/ })
@@ -216,12 +223,12 @@ test("shared selection and exact allocation survive chat; deselection and releas
 test("unsupported prompt discloses deterministic boundary; future deep link offers return only", async ({
   page,
 }) => {
-  await page.goto("/");
+  await page.goto("/campus/bmcc");
   await prompt(page, "Am I eligible to graduate?");
   await expect(
     page.getByText(/Live AI advising is not available yet/),
   ).toBeVisible();
-  await page.goto("/#planner");
+  await page.goto("/campus/bmcc#planner");
   await expect(page.getByText(/Not implemented. No upload/)).toBeVisible();
   await expect(page.getByLabel("Program / catalog release")).toHaveCount(0);
   await back(page);
@@ -234,7 +241,7 @@ test("unavailable catalog exposes safe error only inside a tool", async ({
   await page.route("**/api/academic/**", (route) =>
     route.fulfill({ status: 503, json: { detail: "private" } }),
   );
-  await page.goto("/#catalog");
+  await page.goto("/campus/bmcc#catalog");
   await expect(
     page.getByRole("alert").filter({ hasText: "README" }),
   ).toBeVisible();
@@ -248,7 +255,7 @@ test("empty catalog is explicit and never fabricated", async ({ page }) => {
   await page.route("**/api/academic/**", (route) =>
     route.fulfill({ json: [] }),
   );
-  await page.goto("/#catalog");
+  await page.goto("/campus/bmcc#catalog");
   await expect(page.getByText(/No catalog releases imported/)).toBeVisible();
 });
 
@@ -260,27 +267,38 @@ test("missing exact release displays a safe scope error", async ({ page }) => {
         : { status: 404, json: { detail: "not found" } },
     ),
   );
-  await page.goto("/?campus=bmcc&program=missing&release=missing#catalog");
+  await page.goto(
+    "/campus/bmcc?campus=bmcc&program=missing&release=missing#catalog",
+  );
   await expect(
     page.getByRole("alert").filter({ hasText: "not found" }),
   ).toBeVisible();
 });
 
-test("invalid preview displays a safe validation error", async ({ page }) => {
-  await mockCatalog(page);
-  await page.route("**/preview", (route) =>
-    route.fulfill({ status: 422, json: { detail: "private" } }),
-  );
-  await page.goto("/#progress");
-  await choose(page);
-  await page
-    .getByRole("checkbox", { name: /For this fictional scenario/ })
-    .check();
-  await page.getByRole("button", { name: "Run deterministic preview" }).click();
-  await expect(
-    page.getByRole("alert").filter({ hasText: "Invalid selection" }),
-  ).toBeVisible();
-});
+for (const delay of [0, 150])
+  test(`invalid preview displays a safe validation error (catalog delay ${delay}ms)`, async ({
+    page,
+  }) => {
+    await mockCatalog(page);
+    await page.route("**/api/academic/releases", async (route) => {
+      await new Promise((resolve) => setTimeout(resolve, delay));
+      await route.fulfill({ json: releases });
+    });
+    await page.route("**/preview", (route) =>
+      route.fulfill({ status: 422, json: { detail: "private" } }),
+    );
+    await page.goto("/campus/bmcc#progress", { waitUntil: "commit" });
+    await choose(page);
+    await page
+      .getByRole("checkbox", { name: /For this fictional scenario/ })
+      .check();
+    await page
+      .getByRole("button", { name: "Run deterministic preview" })
+      .click();
+    await expect(
+      page.getByRole("alert").filter({ hasText: "Invalid selection" }),
+    ).toBeVisible();
+  });
 
 for (const width of [375, 768, 1440])
   test(`responsive ${width}px; keyboard, focus and readable titles`, async ({
@@ -289,7 +307,7 @@ for (const width of [375, 768, 1440])
     await mockCatalog(page);
     await page.setViewportSize({ width, height: 1000 });
     await page.emulateMedia({ reducedMotion: "reduce" });
-    await page.goto("/");
+    await page.goto("/campus/bmcc");
     await page.keyboard.press("Tab");
     await expect(
       page.getByRole("link", { name: "Skip to workspace" }),
@@ -362,7 +380,7 @@ test("refresh and browser history restore exact context only; same-context navig
   await mockCatalog(page);
   const item = releases[csIndex];
   await page.goto(
-    `/?campus=${item.campus_id}&program=${item.program_id}&release=${item.release_id}#completed`,
+    `/campus/bmcc?campus=${item.campus_id}&program=${item.program_id}&release=${item.release_id}#completed`,
   );
   await page
     .getByRole("checkbox", { name: /MAT 301/ })

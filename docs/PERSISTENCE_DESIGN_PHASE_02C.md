@@ -132,6 +132,15 @@ Local verification commands (from backend unless stated):
 | `npm run lint`, `npm run typecheck`, `NEXT_TELEMETRY_DISABLED=1 npm run build` (frontend) | All exit 0; generated type-reference change restored |
 | Local Markdown target checks and `git diff --check` | Passed |
 
+Real PostgreSQL CI evidence: [branch run 39004401425](https://github.com/dmitrivanov/cuny-advisor-v2/actions/runs/39004401425)
+completed successfully on PostgreSQL **17.11**: **15 passed, 80 deselected in 3.44s**,
+no integration skips; bootstrap, upgrade and dependency consistency also passed.
+Backend and frontend jobs passed. Five Alembic configuration deprecation warnings
+identified the missing `path_separator`; the configuration now explicitly sets
+`path_separator = os` and anchors its import path to the config directory. This
+corrects the configuration rather than suppressing warnings. Subsequent head/PR
+checks are reported in the PR; local PostgreSQL remains unavailable.
+
 Reviewers should check:
 
 - [ ] Explicit schema and Alembic version location; frozen SQL and empty downgrade.

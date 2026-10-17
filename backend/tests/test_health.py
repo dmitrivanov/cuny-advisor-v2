@@ -26,7 +26,12 @@ def test_unversioned_health_is_not_exposed(client):
     assert client.get("/health").status_code == 404
 
 
-def test_only_health_business_route_is_registered(client):
+def test_only_scoped_workspace_business_routes_are_registered(client):
     schema = client.get("/openapi.json").json()
-    assert set(schema["paths"]) == {"/api/v1/health"}
-    assert set(schema["paths"]["/api/v1/health"]) == {"get"}
+    prefix = "/api/v1/academic/campuses/{campus_id}/programs/{program_id}/releases/{release_id}"
+    assert {path: set(methods) for path, methods in schema["paths"].items()} == {
+        "/api/v1/health": {"get"},
+        "/api/v1/academic/releases": {"get"},
+        prefix: {"get"},
+        prefix + "/preview": {"post"},
+    }

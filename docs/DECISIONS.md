@@ -227,3 +227,37 @@ Local Docker/PostgreSQL were unavailable: local integration is not claimed. A
 separate CI PostgreSQL service executes database tests; the PR reports actual
 results separately from local unit/frontend checks. Existing frontend advisories
 remain pre-existing technical debt and are not changed by this phase.
+
+
+## Phase 02D — Chat-first workspace and academic modules (2026-10-17)
+
+Owner authorization on `feature/phase02d-course-selector`, baseline Phase 02C PR #7
+merge `315c1c8`. The chat-first requirement supersedes earlier prototype-only UI/API
+restrictions within this bounded slice; later phases remain gated.
+
+- `/` starts in Chat Workspace. The selector is one module, not the product home.
+  Typed registry/hash routes and structured action cards share one persistent shell.
+- Exact deterministic local navigation only, four supported prompts. Unsupported
+  questions explicitly disclose no live AI. Gemini remains separately governed Phase 04.
+- Session-local reducer/context; no chat, hypothetical inputs or student persistence.
+  Release changes clear selections; refresh/deep links restore context only.
+- Read-only discovery/content and fictional preview use the hardened PostgreSQL
+  repository through explicit DI. No fixture fallback or auto migration/import.
+- Four-column membership comes from backend AST projections; stable course IDs
+  avoid duplicate selections. No TypeScript academic calculations. Optional explicit
+  allocation proposals go to the unchanged evaluator, never auto allocated.
+- Hypothetical inputs assume passed only as fictional scenario facts; no record is
+  verified. Grade ranks remain unknown. Missing catalog credits return unresolved
+  without invented zero credit; all existing policy/evidence uncertainty remains.
+- Browser regression coverage justifies Playwright 1.64.1 as the sole new direct
+  development dependency. It adds playwright/playwright-core transitively. No new
+  runtime packages/UI framework or backend dependencies. Native Node tests cover
+  reducer/router/client; Chromium tests use explicit mocked academic APIs. Real
+  PostgreSQL integration is separately tested in backend CI, never SQLite.
+- Pinned public fixture copies under frontend tests are test responses only; no
+  application import uses them. Friendly CS/CIS names are presentation aliases for
+  existing reviewed BMCC program IDs, not invented persisted academic facts.
+
+No accounts, transcripts, real records, approval/CMS, planner, advisor reports,
+AI or deployment. Source verification is not institutional approval. Commit/push
+this branch and PR to main are authorized; never merge or start Phase 03/04.

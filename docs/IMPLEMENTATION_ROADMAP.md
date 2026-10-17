@@ -1,7 +1,7 @@
 # Implementation roadmap
 
 Status: proposed sequence with bounded implementation, 2026-10-17.
-Phase 02B merged through PR #6; Phase 02C local persistence is authorized. Later implementation remains gated.
+Phase 02C merged through PR #7; Phase 02D chat-first workspace is authorized. Later implementation remains gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
 
@@ -312,6 +312,28 @@ approved four-column projection. No planner or academic approval is implied.
 
 The owner authorizes a scoped commit, push and PR to main after verification.
 Stop for review; never merge, deploy or start the next phase automatically.
+
+### Phase 02D — Chat-first workspace and module integration
+
+Implemented bounded slice on `feature/phase02d-course-selector`, from merged PR #7.
+Default chat-first workspace, exact local navigation prompts, typed module registry,
+session-local context/selections/allocations; persisted catalog explorer, four-column
+selector, limited hypothetical progress preview; scoped API/typed client/proxy;
+loading, empty, unavailable/invalid and future-module states. Pure academic engine
+and all academic uncertainty remain authoritative. No student/chat persistence.
+
+Acceptance A–C: mocked-API Chromium chat→catalog→selector→chat→progress flows;
+backend real PostgreSQL discovery/content/preview parity. D–E: existing mathematics,
+non-credit, evidence/grade uncertainty regressions retained; new HTTP preview parity
+and missing-credit handling. F: reducer/browser context changes, refresh/deep links
+and unique identities. G: missing release, malformed/invalid selection and DB failure
+fail safely. Responsive/keyboard/reduced-motion checks at 375/768/1440px. Final
+actual counts, screenshots and PostgreSQL CI execution are reported in the PR.
+
+Implemented modules are limited, not complete product milestones. No LLM, accounts,
+real records, transcript upload, full planner/audit, approvals/CMS or reporting.
+Broader Phase 03/04 remain unauthorized. No institutional endorsement is claimed.
+After scoped tests and review, commit/push and create a PR; do not merge or deploy.
 
 ## Phase 03 — Student workspace and semester planning
 

@@ -157,7 +157,7 @@ Reviewers should check:
 
 No academic approval/publication, change proposals, faculty contribution workflow,
 CMS, source artifact downloader, student/auth tables, RLS, arbitrary imports,
-automatic allocation, backup/restore drill, concurrency/load testing or deployment.
+automatic allocation, backup/restore drill, broad load testing or deployment.
 DB roles are operational roles, not product authorization roles. Composite FKs are
 integrity boundaries; a privileged runtime operator can read all public fixture
 catalogs, so this is not an end-user tenancy/access-control implementation.
@@ -168,3 +168,57 @@ verification is distinct from institutional approval. A proposed next user-visib
 slice is a read-only catalog/evidence explorer over one explicit retained draft,
 with four-column projection and uncertainty explanations, subject to separate
 owner authorization. No next phase is started here.
+
+
+## PR #7 focused integrity and concurrency hardening
+
+Owner-authorized review stays within Phase 02C; Phase 02D is not started.
+
+`_load()` checks **all** rows in the requested campus/program/release for each
+scoped projection. For shared tables it checks exactly the expected primary keys
+and their complete values, including payload/hash. Unreferenced course versions,
+other programs/campuses and historical revisions must not invalidate a release.
+This is referenced-graph integrity checking, not a database-wide orphan audit.
+Tests inject missing/modified shared course versions and category definitions;
+all referencing releases fail, while independent campus versions remain valid.
+Correct exact-content category sharing across campuses is intentional.
+
+Composite FK parents enforce the exact program/release combination for all seven
+scoped relations. Course membership also binds campus/course/version; categories
+reference shared definition hashes; requirements/rule-source/conflict edges bind
+same-context parents. FKs cannot certify that a valid existing version or edge was
+actually selected by the canonical release: `_load()` detects that mismatch and
+extra rows. No broad shared-table scan is needed. A real comparison blind spot was fixed:
+Python dict equality treats JSON `false`/`0` and `3`/`3.0` as equal. Both `_load()`
+and `ensure()` now compare complete canonical JSON text (including types), so a
+modified payload cannot pass by retaining the old hash and Python-equal values.
+The canonical hash serialization itself is unchanged. Owner-only fault injection disables only mutation triggers in
+a rollback-only transaction; PostgreSQL FK/check constraints remain enabled.
+
+Two write-path corrections:
+
+- Payload-order insertion could acquire shared identities in opposite orders,
+  allowing a deadlock across concurrently imported releases. Imports now sort
+  writes by dependency-ordered table and complete primary key. Serialized arrays
+  and membership positions retain their original order; no evaluator change.
+- Unqualified `ON CONFLICT DO NOTHING` could hide a secondary-unique collision and
+  fail later as an unexplained missing-row lookup. `ensure()` now targets the
+  primary key only, reads complete content, and rejects mismatches/missing rows;
+  secondary-unique violations propagate and roll back the whole import.
+
+Concurrency tests use independent engines/real PostgreSQL backend PIDs, barriers
+before contested INSERTs, bounded statement/barrier/future timeouts and no retries.
+If transactions first choose different keys, a second barrier holds those inserts
+to expose the old lock-order cycle reliably. Tests cover identical/conflicting
+release IDs and distinct release IDs sharing identical/conflicting versions in
+reversed payload order. Winners load exactly; losers retain no partial binding or
+scoped rows. A separate secondary-unique conflict proves earlier new rows roll back.
+READ COMMITTED is asserted; serializable/repeatable-read retry policy and general
+stress/performance testing remain deferred. This does not claim deadlock freedom
+for arbitrary out-of-repository SQL or future write paths.
+
+PostgreSQL documents the relevant [ON CONFLICT visibility](https://www.postgresql.org/docs/17/transaction-iso.html)
+and [consistent lock ordering](https://www.postgresql.org/docs/17/explicit-locking.html).
+No new dependencies, tables, migration, academic facts or approval semantics.
+Final focused-review CI results are recorded in PR #7; local PostgreSQL remains
+unavailable and locally skipped database tests must not be counted as passed.

@@ -21,12 +21,15 @@ def canonical(model):
     return json.loads(model.model_dump_json())
 
 
+def json_content(payload):
+    """Preserve JSON types: Python dict equality conflates false/0 and 3/3.0."""
+    return json.dumps(
+        payload, sort_keys=True, separators=(",", ":"), ensure_ascii=False
+    )
+
+
 def digest(payload):
-    return hashlib.sha256(
-        json.dumps(
-            payload, sort_keys=True, separators=(",", ":"), ensure_ascii=False
-        ).encode("utf-8")
-    ).hexdigest()
+    return hashlib.sha256(json_content(payload).encode("utf-8")).hexdigest()
 
 
 def envelope(model):
@@ -136,13 +139,19 @@ def key_filter(table, values):
 
 
 def ensure(connection, table, values):
-    connection.execute(insert(table).values(**values).on_conflict_do_nothing())
+    # Only an existing primary identity is idempotent. A different unique-key
+    # collision must raise, rather than being swallowed before a missing-row read.
+    connection.execute(
+        insert(table)
+        .values(**values)
+        .on_conflict_do_nothing(index_elements=list(table.primary_key.columns))
+    )
     actual = (
         connection.execute(sa.select(table).where(key_filter(table, values)))
         .mappings()
-        .one()
+        .one_or_none()
     )
-    if dict(actual) != values:
+    if actual is None or json_content(dict(actual)) != json_content(values):
         raise PersistenceConflict(f"immutable {table.name} identity conflict")
 
 
@@ -159,8 +168,21 @@ class CatalogRepository:
             )
         if not revision_id or len(revision_id) > 160:
             raise ValueError("explicit catalog revision identity required")
+        # Shared rows must be encountered in the same order by every importer,
+        # even when payload arrays differ. Preserve their original order in JSON
+        # and membership.position, not in database lock acquisition order.
+        table_order = {
+            table: index for index, table in enumerate(db.metadata.sorted_tables)
+        }
+        rows = sorted(
+            rows_for(release, revision_id),
+            key=lambda item: (
+                table_order[item[0]],
+                tuple(item[1][column.name] for column in item[0].primary_key),
+            ),
+        )
         with self.engine.begin() as connection:
-            for table, values in rows_for(release, revision_id):
+            for table, values in rows:
                 ensure(connection, table, values)
 
     def _load(self, connection, campus_id, program_id, release_id):
@@ -212,8 +234,8 @@ class CatalogRepository:
             def key(values):
                 return tuple(values[column.name] for column in table.primary_key)
 
-            if {key(item): item for item in actual} != {
-                key(item): item for item in wanted
+            if {key(item): json_content(item) for item in actual} != {
+                key(item): json_content(item) for item in wanted
             }:
                 raise PersistenceConflict(f"{table.name} projection integrity mismatch")
         return release

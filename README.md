@@ -8,7 +8,10 @@ non-credit claims; it provides no new public academic service or student storage
 This is an independent project,
 starting with BMCC; it does not imply CUNY or BMCC approval.
 
-There are no accounts, student workspaces, database models/migrations, CMS,
+Phase 02C adds optional local PostgreSQL persistence for immutable draft catalog
+fixtures and synthetic snapshots. It does not connect the running API to a database.
+
+There are no accounts, student workspaces, CMS,
 Gemini calls, complete graduation audits/plans, or transcript handling. Do not enter real student
 information. V1 is reference-only and is not used by either application.
 
@@ -135,11 +138,90 @@ institutionally approved. No academic service is exposed in the landing page.
 
 See the [policy evidence matrix](docs/ACADEMIC_POLICY_EVIDENCE.md),
 [second-program validation](docs/SECOND_PROGRAM_VALIDATION.md) and
-[proposed Phase 02C persistence design](docs/PERSISTENCE_DESIGN_PHASE_02C.md).
-Database/ORM/migration work in that design is proposed, not implemented.
+[Phase 02C persistence design](docs/PERSISTENCE_DESIGN_PHASE_02C.md).
+The bounded draft persistence adapter is implemented; academic publication and
+student storage remain deferred.
 
 ## Verification record
 
 See [Phase 01A verification](docs/PHASE_01A_VERIFICATION.md) for exact results,
 including the remaining development-only dependency advisories. The local checks
 are not a claim of a completed GitHub Actions run or production readiness.
+
+## Optional Phase 02C disposable PostgreSQL workflow
+
+Do not use V1, institutional or production resources. This database stores public
+catalog fixtures and explicitly synthetic snapshots only. The web/API still run
+without it. See [persistence design and reviewer checklist](docs/PERSISTENCE_DESIGN_PHASE_02C.md).
+
+1. Install Docker with Compose. Copy `.env.example` to an ignored root `.env` and
+   replace the three password placeholders with **different generated local values**.
+   Use URL-safe characters (or URL-encode passwords in the URLs). Keep the same
+   password in each role's URL and its password variable. Never share the file.
+2. From the repository root, export that trusted local file and start the database:
+
+   ```sh
+   set -a
+   source .env
+   set +a
+   docker compose -p cuny-advisor-v2-local up -d --wait postgres
+   ```
+
+3. Bootstrap **once on a fresh dedicated instance**, then migrate manually:
+
+   ```sh
+   cd backend
+   source .venv/bin/activate
+   python -m pip install -r requirements-dev.txt
+   python -m scripts.bootstrap_local
+   python -m alembic upgrade head
+   ```
+
+   Bootstrap creates the schema and separate `v2_migrator`/`v2_runtime` roles. It
+   refuses existing roles. No application startup step runs this command or migrations.
+   No dotenv loader is installed; variables must be explicitly exported.
+
+4. Run tests **before importing fixtures** to exercise empty downgrade as well:
+
+   ```sh
+   python -m pytest -q -m 'not postgres'
+   python -m pytest -q -m postgres -rs
+   python -m pip check
+   ```
+
+   Without `V2_DATABASE_URL`, DB tests skip honestly; a configured but broken DB
+   fails. Full `python -m pytest -q -rs` runs both sets. Tests append synthetic rows;
+   repeated runs are safe, but empty-downgrade verification skips once history exists.
+   CI supplies a fresh `cuny_advisor_v2_test` database every run. Ruff and Black
+   checks, when installed, are `ruff check .` and `black --check .` from `backend`.
+
+5. Optionally import the reviewed CS/CIS assemblies explicitly:
+
+   ```sh
+   python -m app.persistence.import_fixtures --revision-id bmcc-2026-27-local-draft-r1
+   ```
+
+   Each program is atomic and independently repeatable; this is not bundle-wide
+   publication. Do not edit retained identities in place. Changed content requires
+   a new release and changed course version IDs. No source verification is upgraded.
+
+For psql, use prompted credentials rather than URLs in command history:
+
+```sh
+PGHOST=127.0.0.1 PGPORT=55432 PGDATABASE=cuny_advisor_v2_dev PGUSER=v2_runtime psql -W
+```
+
+Then `\dt cuny_advisor_v2.*` and schema-qualified SELECTs. DBeaver uses the same
+host/port/database/runtime role; enter the password privately. Runtime has no DDL.
+Use the migration role only for explicit migration work. No database is public.
+
+Stop from the repository root with `docker compose -p cuny-advisor-v2-local down`.
+To **destroy only this disposable V2 database and all its synthetic history**, use
+`docker compose -p cuny-advisor-v2-local down -v`, then repeat bootstrap/migrate.
+Never run reset commands against another project/volume. Empty migration downgrade
+is supported with `python -m alembic downgrade base`; retained releases block it.
+
+Local implementation verification had no Docker/PostgreSQL available, so local DB
+integration was not executed. Consult the Phase 02C PR's actual CI results before
+accepting database behavior. Source/artifact capture, academic approval, accounts,
+real records, CMS and deployment remain deferred.

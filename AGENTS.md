@@ -1,32 +1,32 @@
 # Repository instructions
 
-## Current authorization: Phase 02B — academic evidence and policy reconciliation
+## Current authorization: Phase 02C — PostgreSQL persistence foundation
 
-Work exclusively in `cuny-advisor-v2` on `feature/phase02b-catalog-evidence`.
-Phase 02A merged through PR #5 is the baseline. The owner authorizes incremental
-in-memory evidence/provenance contracts and validation, deterministic regressions,
-small manually curated official-source/partial fixtures and policy reconciliation.
-Preserve both mathematics paths and the four-column selector contract. Unresolved
-academic interpretations remain unresolved; source verification is not institutional
-approval. No program-specific formulas in generic evaluation functions.
+Work exclusively in `cuny-advisor-v2` on `feature/phase02c-persistence`.
+Phase 02B merged through PR #6 (`8d10a00830f704c016817480b4452085f011601c`)
+is the baseline. Implement only isolated local/disposable PostgreSQL persistence,
+SQLAlchemy 2.x, psycopg, Alembic, immutable draft catalogs/evidence, synthetic
+snapshots, repository adapters and regression/CI checks. These dependencies are
+authorized. Preserve the pure Pydantic contracts, evaluator results, mathematics
+paths and four-column selector contract. No program-specific evaluator formulas.
 
-Read the architecture, data model, decisions, roadmap, academic boundaries, source
-mapping, rule model and selector parity before changes. Inspect existing contracts,
-evaluator, projections and tests. Confirm the expected branch/history and preserve
-unrelated work. Do not reset, rebase or discard changes; unexpected state requires
-owner review. Source research is manual and read-only, not bulk scraping/import.
+Read architecture, data model, decisions, roadmap, academic boundaries, source
+mapping, rule model, selector parity and persistence design before changes.
+Keep schema `cuny_advisor_v2` explicit everywhere, including Alembic tracking.
+Use distinct migration/runtime roles, loopback disposable V2-only databases and
+synthetic snapshots only. No production/institutional/V1 credentials, cross-schema
+access, runtime DDL, automatic startup migrations/imports or automatic publication.
 
-Prepare a proposed Phase 02C PostgreSQL/SQLAlchemy/Alembic persistence design as
-**documentation only**. No databases, connections, schemas, migrations, new endpoints,
-frontend pages/selector UI, authentication, accounts, real student data, transcripts,
-AI, planner, institutional APIs, live transfer awards or deployment. No new
-packages without owner approval. V1, production and institutional accounts remain
-untouched. No secrets or credentials in source, fixtures, logs or chat.
+No new endpoints, frontend features, accounts, real student data, transcripts,
+CMS, AI, complete audit/planner, scheduled scraping, deployment or later phases.
+Unknown academic interpretations remain unresolved. Source verification is not
+institutional approval; no persistence operation grants academic authority.
 
-After critical review and passing existing backend/frontend checks, inspect every
-changed/untracked file, commit the scoped Phase 02B work, normally push this feature
-branch to origin and create a PR targeting `main`. Do not merge, force push,
-rewrite unrelated commits, deploy or implement Phase 02C. Stop for owner PR review.
+Inspect all changed/untracked files and run backend/frontend checks, including
+real PostgreSQL integration where available. Report unrun checks honestly.
+Commit only this phase, push the current branch and create a PR against `main`.
+Do not merge, force push, rewrite unrelated commits, deploy or begin another phase.
+Stop for owner review. Preserve unrelated work; risky synchronization needs review.
 
 V1 is strictly read-only at reference commit
 `ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
@@ -56,7 +56,8 @@ its deployment. Preserve unrelated user changes.
 
 Read [security](docs/SECURITY.md), [access control](docs/ACCESS_CONTROL.md),
 [CMS design](docs/CMS_DESIGN.md), and [decisions](docs/DECISIONS.md) alongside the
-original documents. Their broader features remain planned; no database connections or secrets.
+original documents. Their broader features remain planned; only the disposable
+V2 persistence slice above is authorized.
 
 Guests have fixed 24-hour private workspaces, including transcript safeguards,
 summary preview and optional explicit-consent advisor handoff. Registered users
@@ -70,8 +71,9 @@ verified Academic Approvers review them. Verified faculty contributions remain
 separate from official catalogs. CMS uses approved blocks only, with reviewed
 publication, campus overrides, version history and safe rollback.
 
-Future persistence uses isolated V2 schema `cuny_advisor_v2`, SQLAlchemy and Alembic,
-with dedicated V2 privileges and no V1 reuse. Do not create or connect to it now.
+Current persistence uses isolated V2 schema `cuny_advisor_v2`, SQLAlchemy and Alembic,
+with dedicated V2 privileges and no V1 reuse. Connections are limited to the
+disposable V2 resources authorized above.
 
 ## Future implementation constraints
 
@@ -101,6 +103,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 02B authorization
+The Phase 00 deliverable was documentation only. Current Phase 02C authorization
 is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

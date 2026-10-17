@@ -186,3 +186,44 @@ awards. New engine outputs use `02b.1`; old snapshots are retained with `02a.1`.
 No source state implies academic approval. The [policy matrix](ACADEMIC_POLICY_EVIDENCE.md)
 and [proposed Phase 02C design](PERSISTENCE_DESIGN_PHASE_02C.md) distinguish current
 code from future authority/persistence requirements.
+
+
+## Phase 02C — Local PostgreSQL persistence foundation (2026-10-17)
+
+The owner authorized this bounded implementation on `feature/phase02c-persistence`
+after Phase 02B PR #6 merged at `8d10a00830f704c016817480b4452085f011601c`.
+Its authorization supersedes the historical Phase 02B database prohibition only
+within this scope. Commit, normal push and PR to main are authorized; no merge,
+deployment or next phase.
+
+- Use PostgreSQL 17, SQLAlchemy Core 2.1.5, Alembic 1.20.0, psycopg/binary 3.3.6;
+  pin Python dependencies and transitive additions in requirements. Core avoids
+  duplicate ORM/domain definitions and lazy loading. No evaluator/DTO changes.
+- Retain exact canonical DTO JSONB/hash plus 16 normalized identity, membership,
+  evidence/rule and snapshot tables. Decimal strings preserve precision and scale;
+  load verifies every normalized projection, not just the envelope hash.
+- Separate campus edition/revision from the program binding (`Release.id`). All
+  contexts are explicit composite keys/FKs. Course code equality is not equivalence.
+  Credential is a program-release attribute; category sharing requires exact content.
+- All writes are immutable **drafts**, transactional and idempotent for identical
+  identities. Same-ID changes reject. Corrections append new identities. A campus
+  revision is an append-only draft collection, not a sealed official manifest.
+- Explicit schema `cuny_advisor_v2`, dedicated disposable loopback resources,
+  bootstrap/migration/runtime role separation, no runtime DDL, no public fallback,
+  and no startup database work. Empty-only downgrade; retained history blocks it.
+- Runtime SELECT/INSERT is for trusted development adapters, not public users or
+  implemented product authorization. Triggers/grants do not make storage tamper-proof
+  against owners/superusers. Academic approvals, RLS and production security need
+  separately reviewed implementation.
+- Retain old engine results separately from new computation; no invented replay
+  of an unavailable old engine. Synthetic snapshots require an explicit caller
+  assertion. No real student data is permitted.
+- Raw source artifacts, governance/publication/CMS, student identity, arbitrary
+  ingestion, backup/restore drills and deployment are deliberately deferred.
+  Policy uncertainty remains unchanged. Source verification is not institutional
+  approval. See [design and reviewer checklist](PERSISTENCE_DESIGN_PHASE_02C.md).
+
+Local Docker/PostgreSQL were unavailable: local integration is not claimed. A
+separate CI PostgreSQL service executes database tests; the PR reports actual
+results separately from local unit/frontend checks. Existing frontend advisories
+remain pre-existing technical debt and are not changed by this phase.

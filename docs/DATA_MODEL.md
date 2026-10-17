@@ -1,8 +1,8 @@
 # Logical data model
 
-Status: target logical model, 2026-10-16. Phase 02A implements a bounded subset as
-frozen in-memory Pydantic contracts; no SQL, ORM classes, migrations or database
-connections. See [PRD](PRD.md) for evidence and assumptions.
+Status: target logical model with bounded Phase 02C persistence, 2026-10-17.
+Phase 02A/02B Pydantic contracts remain authoritative; Phase 02C adds isolated
+SQLAlchemy Core tables, Alembic and an explicit local repository adapter. See [PRD](PRD.md) for evidence and assumptions.
 
 ## Implemented Phase 02A subset
 
@@ -21,8 +21,27 @@ Phase 02B adds scoped/datable Source evidence, unresolved/conflict relationships
 and synthetic NonCreditEvidence claims that cannot carry credit or apply waivers.
 Old snapshots retain engine `02a.1`; new outputs identify `02b.1`. Shared category
 vocabulary is reused across the CS/CIS reference assemblies. These are in-memory
-contract extensions, not ORM records. Proposed normalization/migration/round-trip
-gates are in [Phase 02C persistence design](PERSISTENCE_DESIGN_PHASE_02C.md).
+contract extensions, not ORM records. The bounded normalization/migration/round-trip
+implementation is in [Phase 02C persistence design](PERSISTENCE_DESIGN_PHASE_02C.md).
+
+## Implemented Phase 02C relational slice
+
+Sixteen tables normalize campus/program identity, edition/revision, exact program
+release binding, course identity/version/membership, shared category definitions,
+release category membership, source evidence/conflicts, rule versions/source edges,
+requirements and synthetic snapshots. Composite campus/program/release FKs reject
+crossed context. Credential is versioned on the binding, not inferred from a code.
+Source/AST/requirement/snapshot payloads remain validated JSONB; canonical whole
+release serialization is retained and checked against every normalized projection.
+Credits are exact decimal strings, preserving scale and precision. No float/fixed
+SQL numeric scale. Immutable rows, hashes, scoped reads and atomic/idempotent draft
+imports preserve history. Snapshots reference the retained release hash and preserve
+engine IDs. Explicit synthetic-only storage is not a student record model.
+
+The entity inventory below remains the **future product model**, not a statement
+that accounts, academic approvals, raw source artifacts, CMS, RLS or production
+student records exist. Full table inventory and constraints are documented in the
+[persistence design](PERSISTENCE_DESIGN_PHASE_02C.md).
 
 ## Conventions and isolation
 

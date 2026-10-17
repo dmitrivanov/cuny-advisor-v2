@@ -1,0 +1,18 @@
+# Disposable V2-only development database. Never share this instance with V1.
+services:
+  postgres:
+    image: postgres:17
+    ports:
+      - "127.0.0.1:55432:5432"
+    environment:
+      POSTGRES_DB: cuny_advisor_v2_dev
+      POSTGRES_PASSWORD: ${V2_POSTGRES_PASSWORD:?set a disposable local password}
+    volumes:
+      - v2-postgres:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d cuny_advisor_v2_dev"]
+      interval: 2s
+      timeout: 5s
+      retries: 20
+volumes:
+  v2-postgres:

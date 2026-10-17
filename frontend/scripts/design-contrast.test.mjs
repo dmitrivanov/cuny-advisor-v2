@@ -37,3 +37,13 @@ for (const background of ["brand", "brand-hover"]) {
 test("Keyboard focus ring meets 3:1 against every light surface", () => {
   for (const background of surfaces) assert.ok(contrast("focus", background) >= 3);
 });
+
+for (const foreground of ["night-ink", "night-muted", "night-accent"]) {
+  test(`${foreground}: readable against the dark campus surfaces`, () => {
+    for (const background of ["night", "night-panel"]) assert.ok(contrast(foreground, background) >= 4.5);
+  });
+}
+test("Campus action text and focus remain legible", () => {
+  assert.ok(contrast("night", "night-accent") >= 4.5);
+  assert.ok(contrast("night-accent", "night-panel") >= 3);
+});

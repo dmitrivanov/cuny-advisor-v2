@@ -1,4 +1,4 @@
-import { Workspace } from "@/components/workspace/workspace";
+import { CampusLanding } from "@/components/campus/campus-landing";
 export default function Home() {
-  return <Workspace />;
+  return <CampusLanding />;
 }

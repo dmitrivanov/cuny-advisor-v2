@@ -284,3 +284,27 @@ No new packages, backend endpoints, fixtures, migrations, database schema or AI
 integration. The existing typed registry/Guidance action boundary remains suitable
 for a future separately governed Gateway. Commit/push/PR are authorized; merge,
 deployment and later phases are not. See [verification](PHASE_03A_VERIFICATION.md).
+
+
+## Phase 03B — Multi-campus foundation (2026-10-17)
+
+Owner-authorized branch `feature/phase03b-multicampus-profile` starts from merged
+PR #9 (`cb548e4`). The new campus-selection `/` supersedes the Phase 03A root route
+only; the minimal conversation and its academic modules remain at `/campus/bmcc`.
+BMCC is the sole local pilot. Registry entries describe names, project capabilities
+and visual positions, never academic catalogs or transfer relationships. Decorative
+network edges explicitly have no transfer-equivalence or agreement semantics.
+
+Use native HTML buttons and lightweight SVG/CSS, no graph/AI dependencies, motion
+loops, external logos or WebGL. Keyboard/touch and an accessible list match availability.
+Campus-neutral profile facts are evidence-aware; assistant identity is separate from
+current/previous/destination institutions. Profile/session remain in memory only.
+Goal-dependent readiness controls question selection, not academic rules or capability
+activation. Full planning/transfer/handoff stays unavailable even when information
+is ready. Grades are not globally required; unknown academic conditions remain so.
+
+Proposals from a future provider require runtime validation and cannot upgrade evidence,
+select applicable catalogs or execute arbitrary tools. Program dates never assign a
+release. Explicit fictional scenario/course copying actions do not verify records.
+No backend/schema/fixture changes, AI, real data, institutional integration or deployment.
+Commit/push/PR are scoped authorizations, not merge or later-phase approval.

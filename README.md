@@ -1,7 +1,7 @@
 # CUNY Advisor V2
 
-The default home is a chat-first academic workspace. A deterministic local guide
-opens modules; **no live AI advising is available**. Explore the persisted draft
+The home page is an interactive campus selector. BMCC opens a minimal chat-first
+workspace with deterministic local guidance; **no live AI advising is available**. Explore the persisted draft
 catalog, select hypothetical completed courses and run a limited deterministic
 progress preview. Semester planning, transcript review and advisor tools are
 explicitly future modules.
@@ -12,15 +12,22 @@ storage, complete graduation audit, academic publication or production deploymen
 Selections/conversation live only in tab memory and disappear on refresh. V1 stays
 read-only and is never connected. All academic uncertainty remains explicit.
 
-## Conversation-first interface
+## Campus entry and conversation
 
-The home screen contains chat and supported prompts only. Use “Open completed
-courses” (or another displayed prompt), then select the assistant's tool action.
-Choose a program/release inside the tool. “Return to chatbot” retains conversation,
-input and fictional selections for this tab. Refresh clears them. A supported deep
-link restores exact catalog context only. No unrestricted AI understanding exists.
-The selector uses compact cards and on-demand details; missing pools remain unresolved.
-See [UX workflow](docs/UX_WORKFLOWS.md) and [Phase 03A review](docs/PHASE_03A_VERIFICATION.md).
+`/` is an interactive CUNY campus selector. BMCC is the only local pilot; all other
+listed assistants are future/unavailable. Choose “Talk to BMCC Advisor” to open
+`/campus/bmcc`, then use supported prompts, adaptive fictional answers and contextual
+tools. Assistant selection does not establish enrollment. No live AI is enabled.
+
+Legacy root BMCC query/hash tool links migrate to the scoped route. Profile/session
+facts live only in memory across client navigation; refresh clears them. Leaving
+chat for campus selection clears that workspace's conversation/selector while keeping
+independent profile facts for the current client session. Tool-to-chat return keeps
+state as before. No accounts, personal data storage or real student inputs.
+
+See [multi-campus architecture](docs/MULTICAMPUS_ARCHITECTURE.md),
+[profile/readiness](docs/ADAPTIVE_ADVISING_READINESS.md) and
+[Phase 03B verification](docs/PHASE_03B_VERIFICATION.md).
 
 ## Requirements
 

@@ -199,3 +199,68 @@ summary { cursor:pointer; min-height:var(--size-control); align-content:center; 
   .module-heading-row .glass-button { width:100%; }
   .selector-column { padding:.75rem; }
 }
+
+/* Phase 03B: an art-directed network, not geographic or academic relationships. */
+.campus-landing {
+  --night:#0c1423; --night-panel:#142136; --night-line:#35455e; --night-ink:#f5f3ed;
+  --night-muted:#b7c3d5; --night-accent:#d9c59f; --node-focus:360ms;
+  min-height:100vh; overflow:clip; color:var(--night-ink); color-scheme:dark; background:var(--night);
+  background-image:radial-gradient(ellipse at 32% 48%,#20314a 0,transparent 56%),radial-gradient(ellipse at 89% 7%,#26273a 0,transparent 35%);
+  padding:0 clamp(1.25rem,4vw,4.5rem) 2rem;
+}
+.constellation-header { display:flex; align-items:center; justify-content:space-between; gap:1rem; padding-block:1.75rem; border-bottom:1px solid var(--night-line); max-width:90rem; margin:auto; }
+.constellation-header>a { display:flex; align-items:center; gap:1rem; font-size:.875rem; color:var(--night-accent); letter-spacing:.05em; }
+.constellation-wordmark { color:var(--night-ink); font-weight:600; letter-spacing:0; }
+.constellation-header>span { color:var(--night-muted); font-size:.6875rem; letter-spacing:.04em; }
+.constellation-header>span>span { padding-inline:.65rem; }
+.constellation-intro { max-width:90rem; margin:3.5rem auto 0; }
+.constellation-eyebrow { color:var(--night-accent); font-size:.625rem; font-weight:600; letter-spacing:.18em; line-height:1.8; }
+.constellation-intro h1 { font-size:clamp(2.25rem,4.4vw,4.5rem); line-height:1.16; letter-spacing:-.04em; margin-block:1rem; font-weight:450; }
+.constellation-intro h1 em { font-family:var(--font-heading); font-weight:400; color:var(--night-accent); }
+.constellation-intro>p:last-child { color:var(--night-muted); font-size:.875rem; }
+.constellation-layout { max-width:90rem; margin:1rem auto 0; display:grid; grid-template-columns:minmax(0,1fr) 19rem; align-items:center; gap:2rem; }
+.constellation { position:relative; min-width:0; height:34rem; isolation:isolate; }
+.constellation-orbit { position:absolute; inset:9% 9% 7%; border:1px solid rgb(126 151 185 / 13%); border-radius:50%; transform:rotate(-14deg); pointer-events:none; }
+.constellation-orbit::after { content:""; position:absolute; inset:11% -7%; border:1px solid rgb(126 151 185 / 9%); border-radius:50%; transform:rotate(33deg); }
+.constellation-edges { position:absolute; inset:0; width:100%; height:100%; overflow:visible; pointer-events:none; }
+.constellation-edges path { stroke:#92a9cb; stroke-width:1; vector-effect:non-scaling-stroke; fill:none; opacity:.12; transition:opacity var(--node-focus) ease-out; }
+.constellation-edges path[data-emphasized="true"] { opacity:.38; }
+.network-label { position:absolute; left:45%; top:49%; color:#b7c3d5; font-size:.6875rem; letter-spacing:.26em; pointer-events:none; opacity:.65; }
+.network-label span { display:block; font-size:.4375rem; letter-spacing:.15em; margin-top:.3rem; }
+.campus-node { position:absolute; left:var(--node-x); top:var(--node-y); width:8.5rem; transform:translate(-50%,-50%); text-align:center; display:grid; justify-items:center; gap:.6rem; border-radius:var(--ds-radius-card); cursor:pointer; transition:transform var(--node-focus) cubic-bezier(.2,.7,.2,1),opacity var(--node-focus) ease-out; }
+.campus-orb { display:grid; place-items:center; width:3.5rem; height:3.5rem; border:1px solid #6b7c97; border-radius:50%; background:linear-gradient(140deg,#31435e,#18263d 70%); box-shadow:inset 0 1px 0 rgb(255 255 255 / 12%),0 12px 30px rgb(0 0 0 / 20%); font-size:.625rem; font-weight:600; letter-spacing:.06em; color:#e0e7f0; transition:box-shadow var(--node-focus) ease-out,border-color var(--node-focus) ease-out; }
+.campus-node-label { font-size:.8125rem; font-weight:500; color:var(--night-ink); }
+.campus-node-label small { display:block; margin-top:.15rem; color:var(--night-muted); font-size:.625rem; font-weight:400; }
+.campus-node--pilot .campus-orb { width:4.5rem; height:4.5rem; border-color:var(--night-accent); background:linear-gradient(135deg,#72664f,#302e2b 80%); color:#fff1ce; box-shadow:0 0 40px rgb(217 197 159 / 10%),inset 0 1px 0 rgb(255 255 255 / 22%); }
+.campus-node[data-emphasized="true"] { transform:translate(-50%,calc(-50% - .3rem)) scale(1.12); z-index:2; }
+.campus-node[data-emphasized="true"] .campus-orb { border-color:var(--night-accent); box-shadow:0 0 36px rgb(183 195 213 / 18%),0 18px 28px rgb(0 0 0 / 25%),inset 0 1px 0 rgb(255 255 255 / 25%); }
+.campus-node[data-receded="true"] { opacity:.86; }
+.campus-landing :focus-visible { outline-color:#ead7b4; }
+.campus-information { border:1px solid var(--night-line); border-radius:var(--ds-radius-card); background:var(--night-panel); padding:1.75rem; min-height:31rem; box-shadow:0 24px 60px rgb(0 0 0 / 16%); }
+.campus-detail-index { font-family:var(--font-heading); color:var(--night-accent); font-size:2.75rem; margin:1.5rem 0 .75rem; line-height:1; }
+.campus-detail-index span { font-family:var(--font-body); font-size:.625rem; color:var(--night-muted); }
+.campus-information h2 { min-height:4.25rem; font-size:1.25rem; font-weight:500; line-height:1.45; letter-spacing:-.02em; }
+.campus-information>p:not(.constellation-eyebrow):not(.campus-detail-index) { color:var(--night-muted); font-size:.75rem; line-height:1.8; }
+.campus-availability { display:inline-block; justify-self:start; align-self:start; max-width:100%; font-size:.625rem; border:1px solid var(--night-line); border-radius:999px; padding:.3rem .6rem; margin-top:1rem; color:var(--night-muted); }
+.campus-availability--pilot { color:var(--night-accent); border-color:#7d7056; }
+.campus-detail-copy { min-height:6.5rem; padding-block:1rem; }
+.campus-enter { display:flex; justify-content:space-between; align-items:center; gap:.5rem; padding:.9rem 1rem; min-height:var(--size-control); background:var(--night-accent); color:#172033; font-size:.75rem; font-weight:650; border-radius:var(--ds-radius-control); }
+.campus-unavailable { min-height:var(--size-control); padding-top:.75rem; border-top:1px solid var(--night-line); }
+.constellation-footer { max-width:90rem; margin:1rem auto 0; border-top:1px solid var(--night-line); padding-top:1rem; color:var(--night-muted); font-size:.6875rem; display:flex; flex-wrap:wrap; align-items:start; justify-content:space-between; gap:.5rem 2rem; }
+.constellation-footer details { max-width:34rem; }
+.constellation-footer ul { display:grid; gap:.75rem; padding-block:1rem; }
+.constellation-footer li { display:flex; flex-wrap:wrap; gap:.5rem; }
+.constellation-footer a { color:var(--night-accent); text-decoration:underline; }
+.adaptive-profile { margin-top:1.5rem; }
+.adaptive-question { padding:1rem; border:1px solid var(--border); border-radius:var(--ds-radius-control); background:var(--surface-soft); }
+.adaptive-answer { display:grid; gap:.75rem; margin-block:.75rem; }
+.profile-details { margin-top:1rem; font-size:.75rem; }
+.profile-details>summary { color:var(--muted); }
+@media(min-width:80rem){.constellation-layout { margin-top:-2rem; }}
+@media(max-width:64rem){.constellation-layout { grid-template-columns:1fr; gap:0; }.constellation-information { min-height:0; }.campus-information { display:grid; grid-template-columns:1fr 1fr; gap:.5rem 2rem; min-height:0; }.campus-information .constellation-eyebrow { grid-column:1/-1; }.campus-detail-index { display:none; }.campus-detail-copy { min-height:0; }.constellation-intro { margin-top:2.5rem; }}
+@media(max-width:40rem){
+ .constellation-header { flex-wrap:wrap; padding-block:1rem; }.constellation-intro { margin-top:2rem; }.constellation-intro h1 { font-size:2.4rem; }.constellation { height:auto; display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.75rem; padding-block:2rem; }.constellation-edges,.constellation-orbit,.network-label { display:none; }.campus-node { position:static; width:auto; transform:none; min-height:var(--size-control); padding:.75rem .3rem; grid-template-columns:2.5rem 1fr; gap:.4rem; text-align:left; border:1px solid var(--night-line); background:var(--night-panel); border-radius:var(--ds-radius-control); }.campus-node .campus-orb { width:2.3rem; height:2.3rem; font-size:.5rem; }.campus-node[data-emphasized="true"] { transform:none; border-color:var(--night-accent); }.campus-node-label { font-size:.6875rem; }.campus-node-label small { font-size:.5625rem; }.campus-information { display:block; padding:1.25rem; }.campus-information h2 { min-height:0; margin-top:.75rem; }.campus-information>p { margin-top:.5rem; }.constellation-footer { display:block; }.constellation-footer details { margin-top:.5rem; }
+}
+@media(prefers-reduced-motion:reduce){.campus-node[data-emphasized="true"]{transform:translate(-50%,-50%);}.campus-landing * {transition:none!important;}}
+@media(prefers-reduced-motion:reduce) and (max-width:40rem){.campus-node[data-emphasized="true"]{transform:none;}}
+@media(forced-colors:active){.campus-node,.campus-orb,.campus-information,.campus-enter{border:1px solid CanvasText;box-shadow:none;}.campus-node[data-receded="true"]{opacity:1;}}

@@ -70,8 +70,8 @@ leaves grades unknown and refuses to invent missing course credits. It does not
 persist requests/results. [API](WORKSPACE_API.md) and [UX](UX_WORKFLOWS.md) document
 contracts, context lifecycle, current versus future modules and uncertainty.
 
-Gemini remains a future Phase 04 boundary. No LLM call/SDK, fake AI abstraction,
-provider credential or generated advising is introduced. Playwright is a pinned
+At the Phase 02D/03A baseline Gemini remained future work. The bounded Phase 04A
+local gateway is now described below; the full Phase 04 strategy remains future. Playwright is a pinned
 **development-only** test dependency for mocked-API browser flows/responsiveness;
 no runtime UI framework is added. Existing npm advisories remain technical debt.
 
@@ -272,3 +272,9 @@ See [multi-campus architecture](MULTICAMPUS_ARCHITECTURE.md), [profile](STUDENT_
 [readiness](ADAPTIVE_ADVISING_READINESS.md) and [verification](PHASE_03B_VERIFICATION.md).
 Existing backend, PostgreSQL schema/migrations, catalog fixtures and dependencies
 are unchanged. No student persistence, real data, official approval or deployment.
+
+## Implemented Phase 04A local conversation boundary
+
+Backend-only google-genai adapter, strict proposal contracts, loopback-only bounded conversation API and same-origin proxy add opt-in fictional natural conversation. Existing Phase 03B profile/readiness and academic services remain authoritative. Every model profile/goal change requires confirmation and a matching state snapshot. Academic facts stay in sourced deterministic modules; no generated academic retrieval or database chat storage. No schema, fixture or evaluator changes.
+
+See [Gemini gateway](GEMINI_GATEWAY.md), [orchestration](CONVERSATION_ORCHESTRATION.md) and [verification](PHASE_04A_VERIFICATION.md).

@@ -1,28 +1,27 @@
 # Repository instructions
 
-## Current authorization: Phase 03B — Multi-campus profile foundation
+## Current authorization: Phase 04A — Gemini conversational gateway
 
-Work on `feature/phase03b-multicampus-profile`, from latest main after merged
-Phase 03A PR #9 (`cb548e4`). Authorized: campus registry/constellation landing,
-campus-scoped frontend routing, campus-neutral in-memory hypothetical profile and
-session contracts, deterministic goal-dependent readiness/question selection,
-validated structured conversation actions, frontend tests/screenshots/docs and a
-scoped commit/push/PR. BMCC is the only operational local pilot; other campus
-assistants and academic catalogs remain unavailable. Assistant choice is not enrollment.
+Work on `feature/phase04a-gemini-gateway` from updated main after merged PR #10
+(`ab940ac`). Authorized: backend-only maintained Google GenAI adapter, bounded
+local conversation API/proxy, opt-in fictional chat, schema-validated pending
+profile/session proposals with confirmation, existing readiness/action reuse,
+configuration examples, fake-provider tests, screenshots/docs, commit/push and
+PR to main. BMCC remains the only operational local pilot. Assistant choice is
+not enrollment. Do not read or modify the owner's real local secrets.
 
-Preserve evaluator/repositories/APIs, exact credits, uncertainty, scoped course
-selections, immutable catalogs and schema. No duplicate academic rules in TypeScript.
-No database/profile persistence, accounts, student records, uploads, AI/Gemini,
-full planner/audit, equivalencies, institutional integrations, production or V1 access.
-Use fictional data and disposable V2 resources only. Never infer catalog applicability
-from a start date or upgrade student reports to institutional verification.
+Preserve evaluator/repositories/academic APIs, exact credits, uncertainty, scoped
+course selection, immutable catalogs and schema. No TypeScript academic rules,
+new academic facts, scraping/population, database conversation/profile storage,
+accounts, real student records, uploads, full planner/audit, equivalencies,
+institutional integration, production or V1 access. Synthetic information only.
+Use backend/.env.local only through explicit local startup; process environment
+wins. No live Gemini calls in CI or automatic repeated live calls. Provider keys
+never enter browser, responses, logs or committed material.
 
-Owner-review refinements are authorized on this same branch: graph-first layout,
-direct accessible campus activation, transient notices, decorative CSS orbital motion
-with stable targets/pause/reduced-motion, shared branding and CI/test hardening.
-Respect existing services and unrelated work. Commit/push this branch and update
-existing PR #10 after actual checks; do not create a new PR. Do not merge, deploy, rewrite history, start
-Gemini or proceed beyond Phase 03B. Permanent restrictions below remain in force.
+Respect existing services and unrelated work. Commit/push and open the scoped
+Phase 04A PR after actual checks; stop for owner review. Do not merge, deploy,
+rewrite history or proceed to subsequent phases. Permanent restrictions remain.
 
 V1 is strictly read-only at reference commit
 `ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
@@ -99,6 +98,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 03B authorization
+The Phase 00 deliverable was documentation only. Current Phase 04A authorization
 is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

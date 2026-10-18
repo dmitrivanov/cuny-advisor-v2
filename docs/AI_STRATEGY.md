@@ -157,3 +157,9 @@ claiming multilingual support. Evaluate guest expiry races, consent tampering,
 faculty/catalog conflicts, CMS prompt injection and cross-workspace conversion
 alongside the existing benchmark. Details: [security](SECURITY.md) and
 [access control](ACCESS_CONTROL.md).
+
+## Phase 04A implementation boundary
+
+The bounded local conversational gateway is now implemented separately from the proposed full strategy above. Current controls and actual limits are documented in GEMINI_GATEWAY.md. The earlier dollar/monthly budget and 12-second total turn proposals are not claims of implemented billing enforcement: current transport is 12 seconds per attempt, up to two attempts under 26 seconds total, with process-local count limits. Academic output remains in deterministic modules; generated grounded academic explanations and institutional deployment gates remain future work.
+
+See [Gemini gateway](GEMINI_GATEWAY.md), [orchestration](CONVERSATION_ORCHESTRATION.md) and [verification](PHASE_04A_VERIFICATION.md).

@@ -483,3 +483,9 @@ dismissible unavailable notices, fixed-target ambient scenery, shared branding a
 browser-test synchronization hardening are included in this same bounded phase.
 No Phase 03C, Gemini, additional campus catalog, profile persistence or planner is
 implemented or authorized by these refinements.
+
+## Phase 04A — Gemini conversational gateway (bounded implementation)
+
+This phase adds the local opt-in backend provider/proxy, strict pending profile/session proposals, bounded multi-turn context, safe fallback, fake-provider tests, optional live smoke and setup documentation. It does not complete the broader Phase 04 institutional privacy, academic grounding, model quality, monthly spend, authentication or production safety gates. Model quality must be evaluated with explicit owner opt-in before any broader use. PostgreSQL/evaluator/catalog behavior is unchanged; no scraping or database population is authorized.
+
+See [Gemini gateway](GEMINI_GATEWAY.md), [orchestration](CONVERSATION_ORCHESTRATION.md) and [verification](PHASE_04A_VERIFICATION.md).

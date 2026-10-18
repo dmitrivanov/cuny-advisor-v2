@@ -49,7 +49,8 @@ export function CampusLanding() {
           <span className="constellation-wordmark">CUNY Advisor</span>
         </Link>
         <span>
-          Independent prototype <span aria-hidden="true">/</span> No live AI
+          Independent prototype <span aria-hidden="true">/</span> Fictional
+          scenarios
         </span>
       </header>
       <section className="constellation-intro">
@@ -215,8 +216,9 @@ export function CampusLanding() {
           <p>
             No CUNY or college affiliation, endorsement or academic approval.
             Fictional scenarios only; do not enter real student information. No
-            live AI, complete audit, registration, accounts or saved personal
-            data. Refresh clears session information.
+            complete audit, registration, accounts or saved personal data.
+            Optional external AI conversation requires consent in the BMCC
+            workspace. Refresh clears session information.
           </p>
         </details>
       </footer>

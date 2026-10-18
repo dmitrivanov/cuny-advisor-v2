@@ -324,3 +324,9 @@ language link dark entry to light minimal chat. No additional dependencies, back
 catalog, schema, evaluator or provider changes are authorized by this refinement.
 CI failure traces are retained for seven days for synthetic browser tests; previous
 run 39073305717 did not upload its trace, limiting retrospective root-cause evidence.
+
+## Phase 04A — bounded local Gemini gateway
+
+Owner authorized this branch from merged PR #10 (ab940ac). Use maintained google-genai, configurable stable gemini-3.8-flash (official docs checked 2026-10-17), explicit local dotenv entry point with environment precedence, disabled-by-default provider and per-message external-AI consent. Keep profiles transient, all model changes pending, and deterministic readiness/action/academic authority intact. Conservatively defer academic answers to existing sourced modules; provider text is unverified. Rate limits are process-local, not production authentication or a dollar budget. No automatic live calls, real records, deployment or next-phase work.
+
+See [Gemini gateway](GEMINI_GATEWAY.md), [orchestration](CONVERSATION_ORCHESTRATION.md) and [verification](PHASE_04A_VERIFICATION.md).

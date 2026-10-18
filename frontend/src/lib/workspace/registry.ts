@@ -117,7 +117,7 @@ export function guidance(input: string): Guidance {
         .toLowerCase()
         .replace(/[.!?]+$/, "")
     ] ?? {
-      text: "Live AI advising is not available yet. This local prompt router only supports the listed navigation prompts; it cannot answer academic questions or interpret personal information. Try a supported module.",
+      text: "Live AI advising is not available in local mode. This local prompt router only supports the listed navigation prompts; it cannot answer academic questions or interpret personal information. Try a supported module.",
       actions: ["catalog", "completed", "progress"],
     }
   );

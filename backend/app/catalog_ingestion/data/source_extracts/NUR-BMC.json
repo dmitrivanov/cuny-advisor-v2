@@ -1,0 +1,876 @@
+{
+  "department_id": "NUR-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "0b8550594aa5bf3f2eb9288e42268daa1c70ebad7cc65c7d69d9256fb814113a",
+  "records": [
+    {
+      "id": "1550571-2025-01-25",
+      "courseGroupId": "1550571",
+      "code": "LPN 101",
+      "subjectCode": "LPN",
+      "courseNumber": "101",
+      "longName": "Fundamentals of Nursing (w/ clinicals)",
+      "name": "Fundamentals of Nursing",
+      "description": "The fundamentals of nursing for the LPN includes the role of the LPN in health and wellness, an overview of the healthcare delivery system taking and recording vital signs, the nurses role in caring for immobile patient including how to safety mobilize and transfer patients, care of the skin, wound care and prevention of the complications of bedrest   An adapted version of the nursing process, is introduced.  Other topic subjects include: -Oxygenation, fluid, electrolyte, and Acid-Base Balance, electrolyte replacement, nutrition therapy, urinary and bowel elimination, pre- operative, perioperative and post-operative patient care. How to support the patient through adaptation, for the experience of loss, death and grief.  Discussion about the older adult includes sensory functioning, sensory alterations, client safety, and emergency preparedness, rest and sleep, and providing comfort measure to manage pain. Finally, you will explore federal and state statutory issues and legal and ethical nursing care.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Clinical",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550581-2025-01-25",
+      "courseGroupId": "1550581",
+      "code": "LPN 102",
+      "subjectCode": "LPN",
+      "courseNumber": "102",
+      "longName": "Mental Health Nursing and Therapeutic Communication (w/ clinicals)",
+      "name": "Ment Hlth and Therapeutic Comm",
+      "description": "This course introduces students to the care of a clients with mental health disorders which require intervention within an acute care or ambulatory care setting.  The focus is on the psychosocial needs of clients throughout the life cycle. During this course, the student practical nurse will learn about stress, anxiety, adaptation, coping psychological defense mechanisms and various types of psychiatric/mental health disorders.Focusing on the use of self as a therapeutic agent, students will learn communication techniques, psychopharmcology and other types of  intervention to promote and maintain clients' mental health, as well as assist clients who are mentally ill. Experiences will be provided in psychiatric/mental health settings so that they can effectively care for their patients and their unique mental health needs.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Clinical",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550591-2025-01-25",
+      "courseGroupId": "1550591",
+      "code": "LPN 103",
+      "subjectCode": "LPN",
+      "courseNumber": "103",
+      "longName": "Laboratory Practical Skills/Infection Control (Part 1)",
+      "name": "Lab Prac Skills/Inf Cont (P1)",
+      "description": "The first of the practical skills courses which prepares the LPN student for client care in clinical practice.  With the emphasis on safe client care, this skills course includes effective and ineffective communication techniques with relatives, patients and the multidisciplinary team, adults with special needs and mental health conditions daily hygiene care of an adult patient, assisting with nutrition and hydration, elimination. Basic life support and management of clients in an emergency is included in this skills course. Additionally, the LPN will learn how to monitor and document vital signs, blood sugar and collect urine and stool samples.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 1
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550781-2025-01-25",
+      "courseGroupId": "1550781",
+      "code": "LPN 104",
+      "subjectCode": "LPN",
+      "courseNumber": "104",
+      "longName": "Pharmacology and Nutrition Across the Lifespan (w/ Medication Calculation & Administration)",
+      "name": "Pharm & Ntrn Lspan w Med Calc",
+      "description": "Pharmacology and Nutrition Across the Lifespan provides the student with an introduction to basic pharmacology with emphasis on the physiological mechanisms in health and disease across the lifespan from baby to older adult. The emphasis is medication classifications, and potential interactions with different food groups. This course will include care of the client as it relates to the medications, medication regimens and nutrition. Topics included are medication classifications and actions, common adverse reactions, contraindications, precautions, and food interactions. How the LPN monitors and manages adverse reactions and educates clients about the use of these drugs under the supervision of the RN is addressed as part of the course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550601-2025-01-25",
+      "courseGroupId": "1550601",
+      "code": "LPN 201",
+      "subjectCode": "LPN",
+      "courseNumber": "201",
+      "longName": "Parent-Child Nursing",
+      "name": "Parent-Child Nursing",
+      "description": "This course will introduce the practical nurse to the provision of nursing care for families in the childbearing years. The students will learn how to care for antepartum, intrapartum, and postpartum women; newborns; pediatric clients; and their families utilizing a holistic healthcare approach and family-centered care.  This includes the physical, psychosocial, growth and development and cultural aspects of nursing care. Care of the maternal and newborn client will include supporting the health of the mother, fetus, newborn, and family by promoting good health habits, reducing risk factors and preparing parents for the responsibilities of parenthood. Care of the pediatric client will include developmentally appropriate physical assessment and nursing care of the whole child including the respiratory, cardiovascular, hematological, cerebral, neuromuscular, musculoskeletal, integumentary, gastrointestinal, and genitourinary systems and disorders. Child abuse recognition and mandated reporting will also be covered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Clinical",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550791-2025-01-25",
+      "courseGroupId": "1550791",
+      "code": "LPN 202",
+      "subjectCode": "LPN",
+      "courseNumber": "202",
+      "longName": "Laboratory Practical Skills (Part 2)",
+      "name": "Lab Practical Skills (Part 2)",
+      "description": "This is the second of the practical skills courses which prepares the LPN student to give client care in clinical practice.  With the emphasis on safe client care, this skills course includes communication techniques with babies and children and skills in dealing with women during pregnancy, labor and delivery and postpartum care. Additionally, the LPN will learn how to take and record vital signs in babies and children, take a urinary sample from a baby or child, demonstrate understanding of interactive play in children and how to manage a baby/child emergency.  Further skills include how to administer IV medication, medication via an N/G or PEG tube, exhibit safety in blood transfusion administration and demonstrate how to insert a female urinary catheter. Medication administration of opioids is also addressed together with storage and checking of controlled substances.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 1
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550611-2025-01-25",
+      "courseGroupId": "1550611",
+      "code": "LPN 203",
+      "subjectCode": "LPN",
+      "courseNumber": "203",
+      "longName": "Medical-Surgical Nursing",
+      "name": "Medical-Surgical Nursing",
+      "description": "This unit introduces the students to the care of a client with a disease or disorder requiring medical and/or surgical intervention within an acute care or ambulatory care setting.  The content includes the nursing care of patients with selected medical surgical conditions such as neurological conditions, both acute conditions such as head injury and stroke, and clients requiring long term care who have for example - multiple sclerosis, epilepsy and Parkinson's disease. You will be learning about clients with cardiac, respiratory, gastrointestinal problems and renal conditions commonly seen in long term institutions. Care of the hematological client, clients with reproductive system conditions such as STDs and cancer, and care of the burns patient are just some of the other medical surgical conditions covered within this course. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Clinical",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550801-2025-01-25",
+      "courseGroupId": "1550801",
+      "code": "LPN 204",
+      "subjectCode": "LPN",
+      "courseNumber": "204",
+      "longName": "Laboratory Practical Skills (Part 3)",
+      "name": "Lab Practical Skills (Part 3)",
+      "description": "The third of the practical skills courses prepares the LPN student to give client centered care in clinical practice.  With the emphasis on safe client care, this skills course includes effective and ineffective communication techniques, how to respond appropriately in an emergency or sudden deteriation in a clients condition (basic life support e.g. how to manage a client with epilepsy, cardiac/respiratory arrest, routine suctioning on a stable patient, giving IV medication, setting up running an IV pump, the administration of controlled substances with discussion on safe storage and checking of Controlled substances Additionally, the LPN will promote skin health and apply sterile dressings.  Practicum assessments ? BLS, setting up oxygen and suction equipment, hanging a wound dressing, routine airway/tracheostomy suction demonstration. Setting up and running IV medication, complex communication methods such as communicating with relatives, colleagues and diverse client groups in difficult situations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 1
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550621-2025-08-26",
+      "courseGroupId": "1550621",
+      "code": "LPN 301",
+      "subjectCode": "LPN",
+      "courseNumber": "301",
+      "longName": "Gerontology/Rehabilitation & Restorative Care",
+      "name": "Ger/Rehab & Restorative Care",
+      "description": "This course will enable you to care for the older adult and address their unique needs for this you require an understanding of the functional performance of older adults to enable you to assist in care activities which focuses on the restoration and/or maintenance of physical function. This course will provide the student practical nurse with the knowledge skills and abilities to perform their role in gerontology, rehabilitation/restorative care of the older adult population in terms of their age specific characteristics and healthcare needs. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Clinical",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550811-2025-08-26",
+      "courseGroupId": "1550811",
+      "code": "LPN 302",
+      "subjectCode": "LPN",
+      "courseNumber": "302",
+      "longName": "Transition to Practice (Quality, Legal and Ethical Aspects of Practical Nursing)",
+      "name": "Transition to Practice",
+      "description": "The emphasis in this course is on your transition from Student Nurse to Licensed Practical Nurse. In this course you will examine issues, challenges and current trends in healthcare and how to navigate the clinical setting as a newly qualified Licensed Practical Nurse. This course encourages students to think critically about the nursing profession and career opportunities. You will examine legal and ethical aspects of nursing, cultural and social issues, standards of nursing practice, and inter-professional collaboration, technology in the clinical setting, evidence-based practice and quality improvement.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0891341-1901-01-01",
+      "courseGroupId": "0891341",
+      "code": "NUR 112",
+      "subjectCode": "NUR",
+      "courseNumber": "112",
+      "longName": "Nursing Process I: Fundamentals of Patient Care",
+      "name": "Fund. Of Nursing",
+      "description": "This course is an introduction to the bio-psycho-social and cultural factors that influence the nursing care of any patient/client who needs minimum assistance in the maintenance of health. Concepts and principles are stressed in relation to the application of the nursing process to basic nursing care. Clinical experiences are provided in general hospitals and a nursing home.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 8,
+        "creditHours": {
+          "min": 8,
+          "max": 8,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 16,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 8,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Clinical",
+          "contactHours": 8
+        },
+        {
+          "name": "Laboratory",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0891381-1901-01-01",
+      "courseGroupId": "0891381",
+      "code": "NUR 211",
+      "subjectCode": "NUR",
+      "courseNumber": "211",
+      "longName": "Nursing Process II: Obstetrical and Psychiatric Nursing Care",
+      "name": "Ob & Psy Nur Care",
+      "description": "This course is composed of a seven-week Maternal and Newborn Care component and a seven-week psychiatric Mental Health Nursing component. The Maternal and Newborn Care component focuses on the role of the nurse in the care of the child-bearing family during the antepartal, intrapartal and the postpartal phases of the maternity cycle, as well as the immediate care of the normal newborn and premature infant. The Psychiatric Mental Health Nursing Component introduces the student to basic mental concepts, interventions in crisis and family violence, severe mental health disorders, and substance use disorders highlighting treatment for individuals and families within the community.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 8,
+        "creditHours": {
+          "min": 8,
+          "max": 8,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 16,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 8,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Clinical",
+          "contactHours": 8
+        },
+        {
+          "name": "Laboratory",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0891401-1901-01-01",
+      "courseGroupId": "0891401",
+      "code": "NUR 310",
+      "subjectCode": "NUR",
+      "courseNumber": "310",
+      "longName": "Maternal Child Nursing",
+      "name": "Maternal Child Nursing",
+      "description": "Maternal Child Nursing",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 8,
+        "creditHours": {
+          "min": 8,
+          "max": 8,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 0,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 8,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 0
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0891431-1901-01-01",
+      "courseGroupId": "0891431",
+      "code": "NUR 313",
+      "subjectCode": "NUR",
+      "courseNumber": "313",
+      "longName": "Nursing Process III: Pediatric and Basic Medical-Surgical Nursing Care",
+      "name": "Ped & Med Surg Care",
+      "description": "This course is composed of a seven-week component in Nursing Care of Children and a seven-week component in Basic Medical-Surgical Nursing Care. The Pediatric Nursing component focuses on the child's physical, social, and emotional reaction to illness, the nurse's role in providing support to the child and the members of his/her family during periods of stress. Emphasis is placed upon differences between each phase of growth and development trends in care and measures utilized to promote a healthy childhood and adolescence. The Basic Medical-Surgical Nursing component builds upon previous nursing knowledge and techniques already introduced. Major emphasis is placed upon common recurring health problems. Psycho-social nursing techniques are emphasized as they relate to the care of the client with selected health problems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 8,
+        "creditHours": {
+          "min": 8,
+          "max": 8,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 16,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 8,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Clinical",
+          "contactHours": 8
+        },
+        {
+          "name": "Laboratory",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0891461-1901-01-01",
+      "courseGroupId": "0891461",
+      "code": "NUR 411",
+      "subjectCode": "NUR",
+      "courseNumber": "411",
+      "longName": "Nursing Process IV: Medical-Surgical Nursing",
+      "name": "Nursing Process IV",
+      "description": "This course is composed of a semester of medical-surgical nursing. It is a continuation of medical-surgical nursing introduced in NUR 313. There is emphasis on selected medical-surgical problems and students receive supervision of more advanced medical-surgical nursing skills in the hospital lab.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 8,
+        "creditHours": {
+          "min": 8,
+          "max": 8,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 16,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 8,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Clinical",
+          "contactHours": 8
+        },
+        {
+          "name": "Laboratory",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0891471-2019-03-01",
+      "courseGroupId": "0891471",
+      "code": "NUR 415",
+      "subjectCode": "NUR",
+      "courseNumber": "415",
+      "longName": "Professional Issues in Contemporary Nursing Practice",
+      "name": "Pro Issue Contmp Nursing Pract",
+      "description": "With an emphasis on the process of transitioning from Student Nurse to Registered Professional Nurse, Professional Issues in Contemporary Nursing Practice surveys the issues, challenges and current trends faced by the new Associate Degree Nurse as an individual practitioner, and as a member of the nursing profession.  This course encourages students to think critically about the nursing profession and career opportunities, historical and theoretical nursing frameworks, the legal ethical aspects of nursing, cultural and social issues, standards of nursing practice, delegation and supervision, communication and inter-professional collaboration, technology in the clinical setting, evidence based practice and quality improvement.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "NUR-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

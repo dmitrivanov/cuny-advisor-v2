@@ -1,0 +1,1592 @@
+{
+  "department_id": "TE-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "199246f32d59aaa8edd41a7900e2c36224203f3b1f4c56ec38dc70eaf432bf1e",
+  "records": [
+    {
+      "id": "0882581-2011-08-01",
+      "courseGroupId": "0882581",
+      "code": "ECE 102",
+      "subjectCode": "ECE",
+      "courseNumber": "102",
+      "longName": "Introduction to Early Childhood Education",
+      "name": "Intro To Early Childhood Edu",
+      "description": "This is an introductory course for students planning to work with children ages birth through eight years old.  The following Early Childhood Education topics are explored in depth: philosophies, theories, history, program models, practices and resources, and emerging issues in the field.  Students visit early childhood education settings for first-hand observation of young children.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-08-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1270091-2024-08-28",
+      "courseGroupId": "1270091",
+      "code": "ECE 110",
+      "subjectCode": "ECE",
+      "courseNumber": "110",
+      "longName": "Psychological Foundations of Early Development and Education",
+      "name": "Psy Foundation Early Dev & Edu",
+      "description": "This course examines the psychological and psychosocial foundations of early childhood and relates these foundations to educational practice with young children, birth to eight years.  It focuses on historical and contemporary theories of childhood development.  Early learning is considered in relation to biological factors, child and family factors, program factors and social factors, particularly in diverse urban settings.  Young children's physical, cognitive, communicative, social and emotional development is explored as contributors to and as consequences of early learning experiences.  This course requires 15 Hours of Fieldwork.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "METC - ME_TCED_2 (Psychological Foundations)",
+        "METK - ME_TKED_2 (Psychological Foundations)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        },
+        {
+          "name": "Seminar",
+          "contactHours": 0
+        }
+      ],
+      "catalog_attributes": [
+        "METC - ME_TCED_2 (Psychological Foundations)",
+        "METK - ME_TKED_2 (Psychological Foundations)"
+      ]
+    },
+    {
+      "id": "0882611-2019-10-01",
+      "courseGroupId": "0882611",
+      "code": "ECE 209",
+      "subjectCode": "ECE",
+      "courseNumber": "209",
+      "longName": "Infant Care and Curriculum",
+      "name": "Infant Care and Curriculum",
+      "description": "This course focuses on the theories, methods and materials of early childhood education for infants (birth to eighteen months), with an emphasis on addressing developmental needs and culturally appropriate practices in their education and care.  The following topics are explored in depth: social, emotional, cognitive and physical development of infants; basic principles of infant care giving, including providing culturally sensitive and consistent care; arrangement of the environment and developmentally appropriate experiences to promote infant growth and learning; the role of parents and establishing partnerships with families.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        },
+        {
+          "name": "Seminar",
+          "contactHours": 0
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1270131-2024-08-28",
+      "courseGroupId": "1270131",
+      "code": "ECE 210",
+      "subjectCode": "ECE",
+      "courseNumber": "210",
+      "longName": "Social Foundations of Early Care and Education",
+      "name": "Social Found Early Care & Edu",
+      "description": "This course provides an overview of the social context of early care and education.  It focuses on the historical, philosophical, sociological, and political foundations of programs for young children, birth to eight years. The following topics will be explored in depth: historical and contemporary theories of early childhood education; multicultural and social ecological factors in early care and schooling, particularly for diverse urban settings; early childhood programming; family and community involvement; advocacy, trends and current issues in early childhood practice.  This course requires 30 Hours of Fieldwork.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)",
+        "METC - ME_TCED_1 (Social Foundations)",
+        "METS - ME_TSED_1 (Social Foundations)",
+        "METK - ME_TKED_1 (Social Foundations)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)",
+        "METC - ME_TCED_1 (Social Foundations)",
+        "METK - ME_TKED_1 (Social Foundations)",
+        "METS - ME_TSED_1 (Social Foundations)"
+      ]
+    },
+    {
+      "id": "0882601-2024-08-28",
+      "courseGroupId": "0882601",
+      "code": "ECE 211",
+      "subjectCode": "ECE",
+      "courseNumber": "211",
+      "longName": "Curriculum for Young Children I",
+      "name": "Curr For Young Children I",
+      "description": "This course is an introduction to the theories, methods and materials of curriculum planning in early childhood education (preschool to second grade), with an emphasis on providing developmentally and culturally appropriate learning environments and experiences that encourage creativity in young children.  The following topics are explored in depth: the intellectual and emotional importance of fostering creativity, the role of play in learning, the design of effective Arts-based learning environments; the role of visual arts, music, movement and language arts/emergent literacy in developing children's cognitive, social-emotional, physical, language and self-help skills.  Course work includes workshops in planning and implementing creative arts experiences for young children.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "METC - ME_TCED_4 (Arts in Education)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        },
+        {
+          "name": "Seminar",
+          "contactHours": 0
+        }
+      ],
+      "catalog_attributes": [
+        "METC - ME_TCED_4 (Arts in Education)"
+      ]
+    },
+    {
+      "id": "0882621-2011-08-01",
+      "courseGroupId": "0882621",
+      "code": "ECE 301",
+      "subjectCode": "ECE",
+      "courseNumber": "301",
+      "longName": "Early Childhood Practicum I: Observation and Assessment",
+      "name": "Early Childhood Practicum I",
+      "description": "This is a fieldwork course focusing on the observation and assessment of young children.  It requires supervised participation in an assigned early childhood setting (preschool through second grade) and attendance at a seminar.  Students learn how to relate child development theories and authentic assessment methods to the fieldwork experiences.  Students spend a minimum of sixty hours in the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-08-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0882641-2011-08-01",
+      "courseGroupId": "0882641",
+      "code": "ECE 303",
+      "subjectCode": "ECE",
+      "courseNumber": "303",
+      "longName": "Infants and Toddlers Practicum I: Observation and Assessment",
+      "name": "Inf & Tod Pract I Obs & Assmnt",
+      "description": "This is a fieldwork course focusing on the observation and assessment of infants and toddlers.  It requires supervised participation in an assigned early childhood setting (two months to thirty-six months) and attendance at a seminar.  Students learn how to relate child development theories and authentic assessment methods to their fieldwork experiences.  Students spend a minimum of sixty hours in the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-08-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1270201-2014-05-01",
+      "courseGroupId": "1270201",
+      "code": "ECE 308",
+      "subjectCode": "ECE",
+      "courseNumber": "308",
+      "longName": "Infants and Toddlers Practicum I: Observing and Recording",
+      "name": "Infants & Toddlers Practicum I",
+      "description": "This is a fieldwork course focusing on the observation and assessment of infants and toddlers.  It requires supervised participation in an assigned early childhood setting (birth to thirty-six months) and attendance at a weekly seminar.  Students will learn the appropriate use of assessment and observation strategies to document the development, growth, play and learning of infants and toddlers; and how authentic assessment methods can be used to tailor curriculum to promote children's success.  Recording strategies, rating systems, child studies/portfolios, and various assessment tools are explored. Students spend a minimum of 60 hours in the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "0882651-2014-05-01",
+      "courseGroupId": "0882651",
+      "code": "ECE 309",
+      "subjectCode": "ECE",
+      "courseNumber": "309",
+      "longName": "Toddler Care and Curriculum",
+      "name": "Toddler Care and Curriculum",
+      "description": "This course is a continuation of ECE 209, focusing on the theories, methods and materials of early childhood education for toddlers (ages eighteen months to thirty-six months).  The following topics are explored in depth: social, emotional, cognitive, physical and self-help development of toddlers; basic principles of toddler care giving, including providing culturally sensitive and consistent care; arrangement of the learning environment and developmentally and culturally appropriate experiences to promote toddler growth and learning; the role of parents and establishing partnerships with families.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1270241-2014-05-01",
+      "courseGroupId": "1270241",
+      "code": "ECE 311",
+      "subjectCode": "ECE",
+      "courseNumber": "311",
+      "longName": "Early Childhood Practicum I: Observing and Recording",
+      "name": "Early Childhood Practicum I",
+      "description": "This is a fieldwork course focusing on the observation and assessment of young children. It requires supervised participation in an assigned early childhood setting (preschool to second grade) and attendance at a weekly seminar.  Students will learn the appropriate use of assessment and observation strategies to document the development, growth, play and learning of young children; and how authentic assessment methods can be used to tailor curriculum to promote children's success.  Recording strategies, rating systems, child studies/portfolios, and various assessment tools are explored. Students spend a minimum of 60 hours in the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "0882631-2014-05-01",
+      "courseGroupId": "0882631",
+      "code": "ECE 312",
+      "subjectCode": "ECE",
+      "courseNumber": "312",
+      "longName": "Curriculum for Young Children II",
+      "name": "Curr for Young Children II",
+      "description": "This course is a continuation of ECE 211, focusing on the theories, methods and materials of curriculum planning in early childhood education (preschool to second grade). The emphasis in this course is on providing developmentally and culturally appropriate learning environments and experiences that encourage foundational social scientific, mathematic and scientific thinking and skills in young children.  The following topics are explored in depth: social studies as a lens by which young children can explore our diverse ethno-cultural society and their place in it; the use of materials and play-based techniques to facilitate ways of constructing everyday mathematical ideas; the creation of environments and experiences that stimulate children's scientific curiosity and playful exploration of our natural and human-made world; the use of block/construction and cooking experiences for the integration of social studies, mathematics, science, literacy and the arts. Course work includes workshops in planning and implementing inquiry/play-based experiences for young children.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0882661-2011-08-01",
+      "courseGroupId": "0882661",
+      "code": "ECE 401",
+      "subjectCode": "ECE",
+      "courseNumber": "401",
+      "longName": "Early Childhood Practicum II: Curriculum and Teaching",
+      "name": "ECE Practicum II",
+      "description": "This is a fieldwork course that focuses on gaining practical experience in the classroom.  It requires supervised participation in an assigned early childhood education setting (preschool through second grade) and attendance at a seminar.  Students learn how to relate theories of child development, curriculum planning and effective teaching methods to their fieldwork experiences.  Students spend a minimum of ninety hours in the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-08-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 7
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0882671-2011-08-01",
+      "courseGroupId": "0882671",
+      "code": "ECE 403",
+      "subjectCode": "ECE",
+      "courseNumber": "403",
+      "longName": "Infants and Toddlers Practicum II: Curriculum and Teaching",
+      "name": "Inf/Tod Pract: Curr & Teaching",
+      "description": "This is a fieldwork course that focuses on gaining practical experience in the classroom.  It requires supervised participation in an assigned early childhood education setting (two months to thirty-six months) and attendance at a seminar.  Students learn how to relate theories of child development, curriculum planning and effective teaching methods to their fieldwork experiences.  Students spend a minimum of ninety hours in the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-08-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 7
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1270221-2023-02-01",
+      "courseGroupId": "1270221",
+      "code": "ECE 409",
+      "subjectCode": "ECE",
+      "courseNumber": "409",
+      "longName": "Infants and Toddlers Practicum II: Pedagogy for Infants and Toddlers",
+      "name": "Infants & Toddler Practicum II",
+      "description": "This capstone fieldwork course is designed to (1) reflect a strength-based stance toward children and families and affirm the identities and cultural and linguistic diversity of all learners, (2) develop practical and evidence-based knowledge for supporting language and literacy acquisition and development, and (3) enable students to demonstrate their competencies teaching infants and toddlers. It requires supervised participation in an early childhood education setting (Birth- thirty-six months) and participation in a weekly seminar. Students will explore principles, methods, and materials, informed by current research, for supporting young children’s language and literacy acquisition and development. Students will utilize practical classroom experiences to make connections between theory and practice, develop professional behaviors around working with infants, toddlers, families, and build a comprehensive understanding of the role of language and literacy in an integrated curriculum. Students will design, implement, and evaluate learning experiences that integrate language and literacy learning for infants and toddlers with diverse learning styles and needs, with strong emphasis on child centered, play-oriented, and culturally responsive approaches to teaching, learning and assessment, as well as knowledge that is integrated across the curriculum. Students spend a minimum of 90 hours in the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 5,
+        "creditHours": {
+          "min": 5,
+          "max": 5,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 5,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 8
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "0882591-2024-08-28",
+      "courseGroupId": "0882591",
+      "code": "ECE 410",
+      "subjectCode": "ECE",
+      "courseNumber": "410",
+      "longName": "Educational Foundations and Pedagogy for The Exceptional Child",
+      "name": "Ed Found & Ped Exception Child",
+      "description": "This course examines the education of children (birth to eight years) with special needs, along with the historical, social, cultural, and legal foundations of special education in the U.S.  It explores the causes and effects of various exceptionalities, including: emotional, intellectual, physical, visual, auditory, orthopedic, speech and/or language and giftedness.  Techniques for differentiated learning and universal design are analyzed; issues of ethno-cultural diversity are explored, including methods for working with the families of children with special needs in respectful, non-biased ways.  This course requires 25 Hours of Fieldwork.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "METC - ME_TCED_3 (Special Education)",
+        "METS - ME_TSED_3 (Special Education)",
+        "METK - ME_TKED_3 (Special Education)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "METC - ME_TCED_3 (Special Education)",
+        "METK - ME_TKED_3 (Special Education)",
+        "METS - ME_TSED_3 (Special Education)"
+      ]
+    },
+    {
+      "id": "1270261-2023-02-01",
+      "courseGroupId": "1270261",
+      "code": "ECE 411",
+      "subjectCode": "ECE",
+      "courseNumber": "411",
+      "longName": "Early Childhood Practicum  II: Pedagogy for Young Children",
+      "name": "Early Childhood Practicum II",
+      "description": "This capstone fieldwork course is designed to (1) reflect a strength-based stance toward children and families and affirm the identities and cultural and linguistic diversity of all learners, (2) develop practical and evidence-based knowledge for supporting language and literacy development, and (3) enable students to demonstrate their competencies teaching young children. It requires supervised participation in an early childhood education setting (preschool to second grade) and participation in a weekly seminar. Students will explore principles, methods, and materials, informed by current research, for supporting young children’s language and literacy development. Students will utilize practical classroom experiences to make connections between theory and practice, develop professional behaviors around working with children and families, and build a comprehensive understanding of the role of language and literacy in an integrated curriculum. Students will design, implement, and evaluate learning experiences that integrate language and literacy learning for young children with diverse learning styles and needs, with strong emphasis on child centered, play-oriented approaches to teaching, learning and assessment, as well as knowledge of curriculum content areas. Students spend a minimum of 90 hours in the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 5,
+        "creditHours": {
+          "min": 5,
+          "max": 5,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 5,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 8
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "0882901-2024-08-28",
+      "courseGroupId": "0882901",
+      "code": "EDB 202",
+      "subjectCode": "EDB",
+      "courseNumber": "202",
+      "longName": "Schools in a Linguistically diverse American Society: Bilingual Education",
+      "name": "Bilingual Edu In Urban School",
+      "description": "This course focuses on the historical, sociological, philosophical and linguistic foundations of bilingual education.  It analyzes how educational practices and schools influence society in general, while also exploring issues affecting the academic achievements of bilingual and language minority groups in particular.  Students participate in a minimum of thirty hours of course related fieldwork.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "ELO - CVEG (Civic Engagement)",
+        "ELO - INTERN (Internship)",
+        "METC - ME_TCED_1 (Social Foundations)",
+        "METS - ME_TSED_1 (Social Foundations)",
+        "METK - ME_TKED_1 (Social Foundations)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CVEG (Civic Engagement)",
+        "ELO - INTERN (Internship)",
+        "METC - ME_TCED_1 (Social Foundations)",
+        "METK - ME_TKED_1 (Social Foundations)",
+        "METS - ME_TSED_1 (Social Foundations)"
+      ]
+    },
+    {
+      "id": "1209601-2025-08-26",
+      "courseGroupId": "1209601",
+      "code": "EDS 201",
+      "subjectCode": "EDS",
+      "courseNumber": "201",
+      "longName": "Adolescent Learning and Development",
+      "name": "Adolescent Learning & Dvlpmnt",
+      "description": "In this course, we explore adolescent development within the context of urban schools. Students will examine the key developmental processes — biological, cognitive, social, and emotional — while considering the influences of culture, peers, and family on adolescent behavior and learning. This includes how adolescents learn and how schools contribute to adolescents' growth through educational experiences that are developmentally appropriate, culturally responsive and sustaining. Students will discuss research and theories on adolescent issues, including identity formation, peer relationships, and family dynamics. Emphasis will be placed on understanding the diverse backgrounds of students and how cultural contexts shape their developmental experiences.\n\nTo bridge theory and practice, students are required to complete 36 hours of fieldwork in a 7th-12th grade classroom. Completion of fieldwork hours is required to pass the course. This hands-on experience will allow\nstudents to observe and interact with adolescents, facilitating a deeper understanding of their developmental needs\nand the role educators play in supporting them. Reflection and critical analysis of fieldwork experiences will be integral to the course, enabling students to apply their learning to real-world classroom settings.\n\nField Work: Students complete the required 36 hours of fieldwork for this course by individually participating in an instructor-approved middle or high school classroom. You should identify your own fieldwork placements; however, you must be able to interact with the students and interview one student toward the end of the semester. You are required to record and document evidence of your fieldwork attendance on your fieldwork timesheet.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "METS - ME_TSED_2 (Psychological Foundations)",
+        "METK - ME_TKED_2 (Psychological Foundations)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "METK - ME_TKED_2 (Psychological Foundations)",
+        "METS - ME_TSED_2 (Psychological Foundations)"
+      ]
+    },
+    {
+      "id": "1209611-2024-08-28",
+      "courseGroupId": "1209611",
+      "code": "EDS 202",
+      "subjectCode": "EDS",
+      "courseNumber": "202",
+      "longName": "Special Topics in Secondary School Education",
+      "name": "Spcl Topics In Scndary Sch Edu",
+      "description": "This course focuses on literacy development, second language acquisition and special education accommodation strategies, which constitute three major competency areas in the professional development and the education process of middle and secondary school teachers. In addition to providing firm theoretical groundings in those three overarching and interlocking topics, class sessions will address issues of particular concern to and interest of both middle and secondary education candidates.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "METC - ME_TCED_3 (Special Education)",
+        "METS - ME_TSED_3 (Special Education)",
+        "METK - ME_TKED_3 (Special Education)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "METC - ME_TCED_3 (Special Education)",
+        "METK - ME_TKED_3 (Special Education)",
+        "METS - ME_TSED_3 (Special Education)"
+      ]
+    },
+    {
+      "id": "0882911-2024-08-28",
+      "courseGroupId": "0882911",
+      "code": "EDU 201",
+      "subjectCode": "EDU",
+      "courseNumber": "201",
+      "longName": "Observing Children and their Development",
+      "name": "Observing Children Development",
+      "description": "This course focuses on children's physical, cognitive, linguistic and socio-emotional development, and the related implications for learning.  Within the context of race, class and culture, the following topics are explored in depth: the nature of intelligence, gender identity, attachment and other psychosocial attributes (typical and atypical).  Students participate in a minimum of 20 hours of course-related fieldwork.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)",
+        "METC - ME_TCED_2 (Psychological Foundations)",
+        "METK - ME_TKED_2 (Psychological Foundations)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)",
+        "METC - ME_TCED_2 (Psychological Foundations)",
+        "METK - ME_TKED_2 (Psychological Foundations)"
+      ]
+    },
+    {
+      "id": "0882921-2024-08-28",
+      "courseGroupId": "0882921",
+      "code": "EDU 202",
+      "subjectCode": "EDU",
+      "courseNumber": "202",
+      "longName": "Urban Schools in a Diverse American Society",
+      "name": "Urban Sch in Diverse Amer Soc",
+      "description": "This course provides an overview of the social context of schooling within the diversity of American society. It focuses on the historical, philosophical, social, and political foundations of education, especially in urban settings. The following topics are explored in depth: the notion of schooling, culturally relevant pedagogy, school reform, and issues of inequality and privilege. Students participate in a minimum of 20 hours of course-related fieldwork.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "METC - ME_TCED_1 (Social Foundations)",
+        "METS - ME_TSED_1 (Social Foundations)",
+        "METK - ME_TKED_1 (Social Foundations)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "METC - ME_TCED_1 (Social Foundations)",
+        "METK - ME_TKED_1 (Social Foundations)",
+        "METS - ME_TSED_1 (Social Foundations)"
+      ]
+    },
+    {
+      "id": "0882931-2024-08-28",
+      "courseGroupId": "0882931",
+      "code": "EDU 203",
+      "subjectCode": "EDU",
+      "courseNumber": "203",
+      "longName": "Art in Education",
+      "name": "Art in Education",
+      "description": "This course is an introduction to the theories, methods and materials for integrating visual arts into the elementary school curriculum.  Through reading, writing, and viewing of visual art and participation in hands-on studio projects, students will explore the intellectual and emotional importance of expressing creativity through visual art.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "METC - ME_TCED_4 (Arts in Education)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "METC - ME_TCED_4 (Arts in Education)"
+      ]
+    },
+    {
+      "id": "0882941-2025-08-26",
+      "courseGroupId": "0882941",
+      "code": "EDU 204",
+      "subjectCode": "EDU",
+      "courseNumber": "204",
+      "longName": "Music and Movement in Learning",
+      "name": "Music and Movement in Learning",
+      "description": "This course will prepare future elementary school teachers to bring music to the classroom. Elementary level vocal music will be studied with an emphasis on singing, conducting, and choreography. The first several weeks will be devoted to gaining an understanding of rhythmic   notation through written work and score study. An understanding of time signatures and meter will be emphasized through classroom activities and homework. Subsequent lessons will focus on pitch and reading melodies. An understanding of basic musical forms such as binary and ternary will be gained with consideration given to body movement. Each student will prepare a sample lesson plan for teaching movement in a simple choral piece and teach it to the class. Discussion of standard public school requirements for lesson planning will be included.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557591-2024-01-25",
+      "courseGroupId": "1557591",
+      "code": "EDU 205",
+      "subjectCode": "EDU",
+      "courseNumber": "205",
+      "longName": "Teaching Literacy in the Classroom (1-6 Grades)",
+      "name": "Teaching Literacy in Classroom",
+      "description": "This course is designed to develop your theoretical, practical, methodological and evidence-based knowledge for teaching literacy in grades 1-6. It will also introduce you to key findings that have emerged across the past several decades of literacy research. You will explore principles, methods, and materials for teaching emergent to fluent literacy within a developmentally appropriate and culturally responsive interdisciplinary curriculum that encompasses strategies for developing children?s listening, speaking, reading and writing competencies. Throughout the semester you will be introduced to curriculum development and planning, and assessment tools for teaching literacy with an emphasis on multiethnic and multi-racial children?s literature, as well as the importance of oral storytelling in literacy development. This course offers a flexible set of tools for achieving equitable literacy outcomes with diverse student populations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1561751-2024-08-28",
+      "courseGroupId": "1561751",
+      "code": "EDU 206",
+      "subjectCode": "EDU",
+      "courseNumber": "206",
+      "longName": "Foundations of Disability and Inclusive Education",
+      "name": "Found of Dis & Incl Education",
+      "description": "This class provides students with lenses to analyze how disabilities are represented and understood in cultural, historical, and social contexts, emphasizing how these contexts help inform inclusive education. The historical basis for the disability rights movement and inclusive education will be addressed, including legislation and litigation that has had a significant impact on the field. Pre-service candidates will learn about the characteristics of individuals with diverse abilities, current trends in educational services, as well as ethical principles and professional standards. Pre-service candidates will observe for 24 hours in an inclusive classroom.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1561761-2024-08-28",
+      "courseGroupId": "1561761",
+      "code": "EDU 207",
+      "subjectCode": "EDU",
+      "courseNumber": "207",
+      "longName": "Pedagogical Approaches for Students with Disabilities",
+      "name": "Pedag Approach for Stu w Dis",
+      "description": "This course is designed to investigate current pedagogical approaches and strategiesincluding universal and design, tiered intervention models to address different learning needs for students with disabilities. Students will develop an understanding of the many ways inclusion can be implement through the full range of special education services.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1561771-2024-08-28",
+      "courseGroupId": "1561771",
+      "code": "EDU 208",
+      "subjectCode": "EDU",
+      "courseNumber": "208",
+      "longName": "Partnering with Families, Professional, and Community",
+      "name": "Partner w Fam, Prof,  & Comm",
+      "description": "Pre-service candidates will explore and develop the competencies needed for workingcollaboratively with families, professionals, and the community, including understanding the theories and elements around professional collaboration. This course will reflect a strength-based stance toward children and families and affirm the identities and cultural diversity of all learners and families. The course will focus on developing the skills needed for collaborative service delivery options for students.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1548391-2024-01-25",
+      "courseGroupId": "1548391",
+      "code": "EDU 210",
+      "subjectCode": "EDU",
+      "courseNumber": "210",
+      "longName": "Introduction to Computational Thinking and Instructional Technology I",
+      "name": "Intro Comp Thnk & Instr Tech I",
+      "description": "This course examines the use of and issues surrounding educational technology. The content will focus on computational thinking; computer-related technology; digital literacy; Universal Design of Learning (UDL); supporting learners with various learning styles/needs to use technology; and the application of these concepts into educational settings. This course will equip educational professionals with a wide range of resources, models, methods, and techniques for integrating these topics and skills into their classrooms using evidence-based pedagogy to facilitate all students’ learning. Hands-on experience with a variety of low-tech and high-tech instructional technologies will be embedded throughout the course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "EXPR - EXPR (Experimental)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": [
+        "EXPR - EXPR (Experimental)"
+      ]
+    },
+    {
+      "id": "1548401-2024-01-25",
+      "courseGroupId": "1548401",
+      "code": "EDU 211",
+      "subjectCode": "EDU",
+      "courseNumber": "211",
+      "longName": "Introduction to Computational Thinking and Instructional Technology II",
+      "name": "Intr Comp Thnk & Instr Tech II",
+      "description": "This course continues to examine the use of and issues surrounding computational thinking and educational technology. The content will focus on computational thinking; computer-related technology; digital literacy; Universal Design of Learning (UDL); supporting learners with various learning styles/needs to use technology; abstraction, decomposition, algorithms, and patterns as elements of compositional thinking; and the application of these concepts into educational settings. This course will equip educational professionals with a wide range of resources, models, methods, and techniques for integrating these topics and skills into their classrooms using evidence-based pedagogy to facilitate all students’ learning. Hands-on experience with a variety of low-tech and high-tech instructional technologies will be embedded throughout the course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "TE-BMC"
+      ],
+      "attributes": [
+        "EXPR - EXPR (Experimental)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": [
+        "EXPR - EXPR (Experimental)"
+      ]
+    }
+  ]
+}

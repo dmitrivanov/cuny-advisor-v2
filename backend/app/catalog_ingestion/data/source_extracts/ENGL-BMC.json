@@ -1,0 +1,3046 @@
+{
+  "department_id": "ENGL-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "11bfa1a993602e44bbfc23866f86f62bf4054e05f0f944460bf520b352867195",
+  "records": [
+    {
+      "id": "1560081-2025-01-25",
+      "courseGroupId": "1560081",
+      "code": "CYS 100",
+      "subjectCode": "CYS",
+      "courseNumber": "100",
+      "longName": "Introduction to Children & Youth Studies",
+      "name": "Intro to Children & Youth Stud",
+      "description": "In this course, students will cultivate an understanding of the intricate tapestry of childhood and the child's role within the broader fabric of society. This course offers an introductory exploration into the diverse theories, concepts, philosophies, and methodologies integral to the multidisciplinary domain of Children and Youth Studies. Delving into various aspects of this field, we may cover a range of topics such as the historical evolution of childhood, the realm of children's literature, the intricate issues surrounding child labor, transformative educational reforms, the advocacy of children's rights and safeguarding, the pervasive influence of children's media, and more. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1300131-2025-05-27",
+      "courseGroupId": "1300131",
+      "code": "ENG 100.5",
+      "subjectCode": "ENG",
+      "courseNumber": "100.5",
+      "longName": "Intensive English Composition (Same as ENG 101)",
+      "name": "Intensive English Composition",
+      "description": "ENG 100.5 is a co-requisite first-year writing course that offers additional instructional support.  The course introduces students to the academic writing process through the study of culturally-diverse nonfiction prose.  Emphasis will be placed on developing thesis-driven responses to the writing of others, practicing revision, following the conventions of MLA style, and completing a research project.  Since this course is equivalent to ENG 101, by its successful conclusion students will be ready for English 201 and for the writing they will be asked to do in advanced courses across the curriculum. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "DLA_RC_EnglishComposition",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-05-27",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1546651-2025-08-25",
+      "courseGroupId": "1546651",
+      "code": "ENG 100.7",
+      "subjectCode": "ENG",
+      "courseNumber": "100.7",
+      "longName": "Intensive Composition for ESL Students (Same as ENG 101)",
+      "name": "Intensive Comp for ESL Student",
+      "description": "Students placed in ENG 100.7 are offered extra support, afforded through additional instructional time.   The course introduces students to the academic writing process through the study of culturally-diverse nonfiction prose.   Emphasis will be placed on developing thesis-driven responses to the writing of others, practicing revision, following the conventions of MLA style, and completing a research project.  Since this course is equivalent to ENG 101, by its successful conclusion students will be ready for English 201 and for the writing they will be asked to do in advanced courses across the curriculum.  The course is taught alternately by either English or Academic Literacy & Linguistics faculty.  ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_EnglishComposition",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883611-2025-05-27",
+      "courseGroupId": "0883611",
+      "code": "ENG 101",
+      "subjectCode": "ENG",
+      "courseNumber": "101",
+      "longName": "English Composition",
+      "name": "English Composition",
+      "description": "English Composition is the standard first-year writing course.  The course introduces students to the academic writing process through the study of culturally-diverse nonfiction prose.  Emphasis will be placed on developing thesis-driven responses to the writing of others, practicing revision, following the conventions of MLA style, and completing a research project.  By its successful conclusion, students will be ready for English 201 and for the writing they will be asked to do in advanced courses across the curriculum. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "MEEN - ME_ENGL_1 (English Composition)",
+        "MENR - ME_NURS_1 (English Composition)"
+      ],
+      "requirementDesignation": "RLA_RC_EnglishComposition",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-05-27",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEEN - ME_ENGL_1 (English Composition)",
+        "MENR - ME_NURS_1 (English Composition)"
+      ]
+    },
+    {
+      "id": "1569011-2018-05-01",
+      "courseGroupId": "1569011",
+      "code": "ENG 101H",
+      "subjectCode": "ENG",
+      "courseNumber": "101H",
+      "longName": "English Composition (Honors)",
+      "name": "English Composition (Honors)",
+      "description": "English Composition is the standard freshman writing course. The course introduces students to academic writing. By its conclusion, students will be ready for English 201 and for the writing they will be asked to do in advanced courses across the curriculum. Students completing ENG 101 will have mastered the fundamentals of college-level reading and writing, including developing a thesis-driven response to the writing of others and following the basic conventions of citation and documentation. They will have practiced what Mike Rose calls the “habits of mind” necessary for success in college and in the larger world: summarizing, classifying, comparing, contrasting, and analyzing. Students will be introduced to basic research methods and MLA documentation and complete a research project. Students are required to take a departmental final exam that requires the composition of a 500 word, thesis-driven essay in conversation with two designated texts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MEEN - ME_ENGL_1 (English Composition)",
+        "MENR - ME_NURS_1 (English Composition)"
+      ],
+      "requirementDesignation": "RLA_RC_EnglishComposition",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEEN - ME_ENGL_1 (English Composition)",
+        "MENR - ME_NURS_1 (English Composition)"
+      ]
+    },
+    {
+      "id": "1503221-2020-05-01",
+      "courseGroupId": "1503221",
+      "code": "ENG 116",
+      "subjectCode": "ENG",
+      "courseNumber": "116",
+      "longName": "Creative Writing Foundations",
+      "name": "Creative Writing Foundations",
+      "description": "Through a combination of reading and writing, this course exposes students to the basics of fiction, poetry, and playwriting from the perspective of the practitioner, rather than the perspective of the critic. The class will read literature in three genres, focusing on the craft of how the pieces are structured, and how they achieve their impact on the reader. No prior knowledge of these genres is required. Through a combination of reflection, imitation, writing exercises, and writing assignments, students will produce craft analyses, their own creative works, and reflections on their own creative process.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_CreativeExpression",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883721-2022-02-01",
+      "courseGroupId": "0883721",
+      "code": "ENG 121",
+      "subjectCode": "ENG",
+      "courseNumber": "121",
+      "longName": "English Composition & Introduction to Literature in Tandem",
+      "name": "Eng Comp & Intro to Literature",
+      "description": "This course combines English 101 and 201 into a one-semester course. It is designed for students with a high level of reading and writing proficiency. Departmental permission is required.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 6,
+        "creditHours": {
+          "min": 6,
+          "max": 6,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_EnglishComposition",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 7
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1454561-2018-05-01",
+      "courseGroupId": "1454561",
+      "code": "ENG 121H",
+      "subjectCode": "ENG",
+      "courseNumber": "121H",
+      "longName": "English Composition and Introduction to Literature in Tandem (Honors)",
+      "name": "Eng Com & Intr To Lit (Honors)",
+      "description": "This course combines English 101 and 201 into a one-semester course. It is designed for students with a high level of reading and writing proficiency. Departmental permission is required.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 6,
+        "creditHours": {
+          "min": 6,
+          "max": 6,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_RC_EnglishComposition",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883741-2013-05-01",
+      "courseGroupId": "0883741",
+      "code": "ENG 201",
+      "subjectCode": "ENG",
+      "courseNumber": "201",
+      "longName": "Introduction to Literature",
+      "name": "Introduction to Literature",
+      "description": "This is a course that builds upon skills introduced in English 101.  In this course, literature is the field for the development of critical reading, critical thinking, independent research, and writing skills.  Students are introduced to literary criticisms and acquire basic knowledge necessary for the analysis of texts (including literary terms and some literary theory); they gain proficiency in library and internet research; and they hone their skills as readers and writers.  Assignments move from close readings of literary texts in a variety of genres to analyses that introduce literary terms and broader contexts, culminating in an independent, documented, thesis-driven research paper.  By the conclusion of English 201, students will be prepared for the analytical and research-based writing required in upper-level courses across the curriculum; they will also be prepared for advanced courses in literature.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "MEEN - ME_ENGL_2 (Introduction to Literature)"
+      ],
+      "requirementDesignation": "RLA_RC_EnglishComposition",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEEN - ME_ENGL_2 (Introduction to Literature)"
+      ]
+    },
+    {
+      "id": "1369851-2013-05-01",
+      "courseGroupId": "1369851",
+      "code": "ENG 201H",
+      "subjectCode": "ENG",
+      "courseNumber": "201H",
+      "longName": "Introduction to Literature (Honors)",
+      "name": "Intro to Literature (Honors)",
+      "description": "This is a course that builds upon skills introduced in English 101.  In this course, literature is the field for the development of critical reading, critical thinking, independent research, and writing skills.  Students are introduced to literary criticisms and acquire basic knowledge necessary for the analysis of texts (including literary terms and some literary theory); they gain proficiency in library and internet research; and they hone their skills as readers and writers.  Assignments move from close readings of literary texts in a variety of genres to analyses that introduce literary terms and broader contexts, culminating in an independent, documented, thesis-driven research paper.  By the conclusion of English 201, students will be prepared for the analytical and research-based writing required in upper-level courses across the curriculum; they will also be prepared for advanced courses in literature.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MEEN - ME_ENGL_2 (Introduction to Literature)"
+      ],
+      "requirementDesignation": "RLA_RC_EnglishComposition",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEEN - ME_ENGL_2 (Introduction to Literature)"
+      ]
+    },
+    {
+      "id": "1250251-1901-01-01",
+      "courseGroupId": "1250251",
+      "code": "ENG 250",
+      "subjectCode": "ENG",
+      "courseNumber": "250",
+      "longName": "Introduction to Literary Studies",
+      "name": "Intro To Literary Studies",
+      "description": "Introduction to Literary Studies is an inquiry into what it means to study literature, involving close reading, critical and creative analysis of a wide variety of prose fiction, drama, and poetry, and informed by an introduction to some of theoretical issues currently invigorating literary studies. In addition to works of literature, students will read critical and theoretical works. This course combines a study of literature with continued training in clear and effective expression. It is designed for prospective Writing and Literature majors and other interested students.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "MEEN - ME_ENGL_3 (Intro to Literary Studies)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEEN - ME_ENGL_3 (Intro to Literary Studies)"
+      ]
+    },
+    {
+      "id": "0883781-1901-01-01",
+      "courseGroupId": "0883781",
+      "code": "ENG 252",
+      "subjectCode": "ENG",
+      "courseNumber": "252",
+      "longName": "Intro Shakeskpeare",
+      "name": "Intro Shakeskpeare",
+      "description": "Intro Shakeskpeare",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1348491-2017-02-01",
+      "courseGroupId": "1348491",
+      "code": "ENG 300",
+      "subjectCode": "ENG",
+      "courseNumber": "300",
+      "longName": "Fundamentals of Journalism",
+      "name": "Fundamentals of Journalism",
+      "description": "Fundamentals of Journalism offers an introduction to the practice, purpose, and history of journalism as projections about its future. The course addresses journalism in all its forms and media, e.g. film, print, radio, television, and Internet-based platforms, including Web sites, blogs, Twitter, It provides a foundation in journalism's professional code of ethics and the work of a free press to safeguard social liberty. Skills cultivated will include information gathering establishing credibility, writing, editing and dissemination.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1577451-2017-02-01",
+      "courseGroupId": "1577451",
+      "code": "ENG 300H",
+      "subjectCode": "ENG",
+      "courseNumber": "300H",
+      "longName": "Fundamentals of Journalism (Honors)",
+      "name": "Fundamentals of Journ (Hon)",
+      "description": "Fundamentals of Journalism offers an introduction to the practice, purpose, and history of journalism as projections about its future. The course addresses journalism in all its forms and media, e.g. film, print, radio, television, and Internet-based platforms, including Web sites, blogs, Twitter, It provides a foundation in journalism's professional code of ethics and the work of a free press to safeguard social liberty. Skills cultivated will include information gathering establishing credibility, writing, editing and dissemination.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883901-1901-01-01",
+      "courseGroupId": "0883901",
+      "code": "ENG 301",
+      "subjectCode": "ENG",
+      "courseNumber": "301",
+      "longName": "Journalism I",
+      "name": "Journalism I",
+      "description": "Journalism I",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883921-1901-01-01",
+      "courseGroupId": "0883921",
+      "code": "ENG 303",
+      "subjectCode": "ENG",
+      "courseNumber": "303",
+      "longName": "Journalism: News Writing",
+      "name": "Journalism: News Writing",
+      "description": "This course covers the basic principles and practices of news reporting and writing. Students are taught to write single-incident news stories, conduct balanced interviews and edit their own copy, employing standard copy editing symbols and format. Emphasis is also given to the theoretical side of journalism with an overview of its history, present legal controls, ethical issues and rapidly expanding technology.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1578261-1901-01-01",
+      "courseGroupId": "1578261",
+      "code": "ENG 303H",
+      "subjectCode": "ENG",
+      "courseNumber": "303H",
+      "longName": "Journalism: News Writing (Honors)",
+      "name": "Journalism: News Writing (Hon)",
+      "description": "This course covers the basic principles and practices of news reporting and writing. Students are taught to write single-incident news stories, conduct balanced interviews and edit their own copy, employing standard copy editing symbols and format. Emphasis is also given to the theoretical side of journalism with an overview of its history, present legal controls, ethical issues and rapidly expanding technology.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883931-1901-01-01",
+      "courseGroupId": "0883931",
+      "code": "ENG 304",
+      "subjectCode": "ENG",
+      "courseNumber": "304",
+      "longName": "Journalism: Feature Writing",
+      "name": "Journalism: Feature Writing",
+      "description": "This course provides further opportunities for students to explore journalism. Students conduct interviews, cover stories around the city and write journalistic articles. Opportunities are provided for specialized coverage in areas such as politics, consumerism, science, education, finance, the arts, social change and family life. Topics include layout, headline composition and basics of journalism law.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883941-1901-01-01",
+      "courseGroupId": "0883941",
+      "code": "ENG 310",
+      "subjectCode": "ENG",
+      "courseNumber": "310",
+      "longName": "Cont Urban Writers",
+      "name": "Cont Urban Writers",
+      "description": "Cont Urban Writers",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883951-1901-01-01",
+      "courseGroupId": "0883951",
+      "code": "ENG 311",
+      "subjectCode": "ENG",
+      "courseNumber": "311",
+      "longName": "Creative Writing Workshop",
+      "name": "Creative Writing Workshop",
+      "description": "The objective of this course is to sharpen students' creative writing skills in the genres of the short story, poetry and drama, depending on students' interests and ability.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883981-2025-05-27",
+      "courseGroupId": "0883981",
+      "code": "ENG 314",
+      "subjectCode": "ENG",
+      "courseNumber": "314",
+      "longName": "Creative Nonfiction",
+      "name": "Creative Nonfiction",
+      "description": "This course teaches the writing of formal and informal essays, articles, and reviews in a personal voice. Through the reading of modern and contemporary essayists students learn to identify the unique qualities of writers in order to develop an individual style applicable to the various disciplines of public and personal writing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-05-27",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883991-1901-01-01",
+      "courseGroupId": "0883991",
+      "code": "ENG 315",
+      "subjectCode": "ENG",
+      "courseNumber": "315",
+      "longName": "Playwriting",
+      "name": "Playwriting",
+      "description": "The objective of ENG 315? Playwriting is to sharpen students' creative writing skills and to teach them the elements of playwriting and character development. Through the reading of one-act plays and practice writing exercises each week, students will learn the craft of playwriting. They will write scenes and create their own one act plays.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1337471-2018-05-01",
+      "courseGroupId": "1337471",
+      "code": "ENG 316",
+      "subjectCode": "ENG",
+      "courseNumber": "316",
+      "longName": "Comics and Graphic Narrative",
+      "name": "Comics and Graphic Narrative",
+      "description": "In this course examines the unique syntax, grammar and conventions of this literary art form. It traces graphic narrative’s history from the 19th century, as a working-class commodity in print newspapers, to the mid-20th Century, when it reconfigured itself as a medium of rebellion and mode of autobiography, up to  today. Through regular writing assignments, students will critically engage with the art form and recent scholarship, developing their own arguments about how certain comics communicate specific subjectivities.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1523611-2021-03-01",
+      "courseGroupId": "1523611",
+      "code": "ENG 317",
+      "subjectCode": "ENG",
+      "courseNumber": "317",
+      "longName": "Poetry Writing",
+      "name": "Poetry Writing",
+      "description": "Building on the skills developed in a multi-genre workshop (ENG 116 or ENG 311), this course focuses on poetry from the perspective of a poet writing in a community of poets. Students are taught to give and receive substantive and constructivefeedback on poetry in workshops. Through the study of published poems and work by peers, students develop an understanding of prosody, poetic craft, and poetic structure. An emphasis on reflection, analysis, and revision gives students the tools necessary to produce a portfolio of poems while seeing themselves as entering a community of poets with an awareness of poetry’s complex and diverse histories.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1582461-2021-03-01",
+      "courseGroupId": "1582461",
+      "code": "ENG 317H",
+      "subjectCode": "ENG",
+      "courseNumber": "317H",
+      "longName": "Poetry Writing (Honors)",
+      "name": "Poetry Writing (Honors)",
+      "description": "Building on the skills developed in a multi-genre workshop (ENG 116 or ENG 311), this course focuses on poetry from the perspective of a poet writing in a community of poets. Students are taught to give and receive substantive and constructivefeedback on poetry in workshops. Through the study of published poems and work by peers, students develop an understanding of prosody, poetic craft, and poetic structure. An emphasis on reflection, analysis, and revision gives students the tools necessary to produce a portfolio of poems while seeing themselves as entering a community of poets with an awareness of poetry’s complex and diverse histories.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1523621-2021-03-01",
+      "courseGroupId": "1523621",
+      "code": "ENG 318",
+      "subjectCode": "ENG",
+      "courseNumber": "318",
+      "longName": "Fiction Writing",
+      "name": "Fiction Writing",
+      "description": "This course introduces students to fiction from the perspective of the writer. Students learn to give and receive substantive and constructive feedback in workshops. Through the study of published stories and work by peers, students develop an understanding of the basic elements of short stories such as narrative structure, characterization, point of view, scene structure, and setting. An emphasis on reflection, analysis, and revision gives students the tools necessary to produce short stories while seeing themselves as entering a writing community. Additional genres of fiction, such as micro-fiction, flash-fiction, novellas, and novel chapters, may also be included.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1337481-2016-06-01",
+      "courseGroupId": "1337481",
+      "code": "ENG 320",
+      "subjectCode": "ENG",
+      "courseNumber": "320",
+      "longName": "Environmental Literature and Film",
+      "name": "Environmental Lit. and Film",
+      "description": "This is a class that will focus on a variety of timely and historical environmental and social justice issues related to sustainability at the local, national, and global level. We will read essays, fiction and poetry that establish the field of ecocriticism, then draw on readings and films that have expanded ecocriticism to include environmental justice, urban nature and we shall view films on themes related to the readings.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884001-1901-01-01",
+      "courseGroupId": "0884001",
+      "code": "ENG 321",
+      "subjectCode": "ENG",
+      "courseNumber": "321",
+      "longName": "Film",
+      "name": "Film",
+      "description": "This is a film history and appreciation course, with special emphasis on style, techniques, genres and themes. During one double period in which a full-length film is shown, students are encouraged to take notes. In the next class the film is discussed and analyzed. Students will read about the development of the cinema and write essays about well-known films.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884011-1901-01-01",
+      "courseGroupId": "0884011",
+      "code": "ENG 322",
+      "subjectCode": "ENG",
+      "courseNumber": "322",
+      "longName": "Fiction into Film",
+      "name": "Fiction into Film",
+      "description": "In this course film adaptations of 19th and 20th century fiction are compared to their original versions to determine differences and similarities between literary and cinematic technique. Films based on novels include such award-winning movies as One Flew Over The Cuckoo's Nest, Clockwork Orange, and To Kill A Mockingbird. Also included are film adaptations of stories by writers such as Richard Wright, William Faulkner, Willa Cather, F. Scott Fitzgerald, Ambrose Bierce and Ernest Gaines. Students will learn terms to describe cinematic effects and techniques.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1526831-2021-07-01",
+      "courseGroupId": "1526831",
+      "code": "ENG 329",
+      "subjectCode": "ENG",
+      "courseNumber": "329",
+      "longName": "Native American/Indigenous Literatures",
+      "name": "Native American/Indigenous Lit",
+      "description": "This course examines the wide range of published works by Native/Indigenous peoples from the mainland United States and the Pacific. Course topics may include decolonization, environmental rights, language revitalization efforts, the experiences of urban Natives, and  more. Students will examine the United States’ history of settler colonialism while engaging each writer and work in their geographical, cultural, and  historical context. Authors may include Red Jacket, E. Pauline Johnson, N. Scott Momaday, Leslie Marmon Silko, Louise Erdrich, Joy Harjo, Kathy  Jetnil-Kijiner, and Craig Santos Perez.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1562981-2024-08-28",
+      "courseGroupId": "1562981",
+      "code": "ENG 330",
+      "subjectCode": "ENG",
+      "courseNumber": "330",
+      "longName": "Banned Books & Censorship",
+      "name": "Banned Books & Censorship",
+      "description": "This course investigates the issues of censorship and free speech from multiple perspectives by reading and analyzing various genres of banned literature. In the process, students clarify their own ideas and thoughts about such issues as the role of literature in society, the separation of church and state, the freedom of the press, children’s rights, and what limits there ought to be, if any, on the freedom to read and who, if anyone, is authorized to set them.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884021-1901-01-01",
+      "courseGroupId": "0884021",
+      "code": "ENG 332",
+      "subjectCode": "ENG",
+      "courseNumber": "332",
+      "longName": "The Art of the Detective Story",
+      "name": "The Art of the Detective Story",
+      "description": "This course explores the genre of the detective story: its principal themes, plots, characters and settings; the dramatic changes the genre has undergone (particularly in the twentieth century); its relationship to other literature and new directions of the genre today. In addition, the phenomenal popularity of the detective story will be considered: who is the audience and why has the detective story attracted such a large audience?",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884031-1901-01-01",
+      "courseGroupId": "0884031",
+      "code": "ENG 333",
+      "subjectCode": "ENG",
+      "courseNumber": "333",
+      "longName": "The Short Story",
+      "name": "The Short Story",
+      "description": "This course acquaints students with the wide range and varied forms of the short story as it developed in America, Europe, and other continents. Readings will include works by male and female authors of different periods and nationalities, and some attention may be paid to the historical development of the short story as a genre, as well as the cultural contexts in which the assigned stories were written.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884041-1901-01-01",
+      "courseGroupId": "0884041",
+      "code": "ENG 334",
+      "subjectCode": "ENG",
+      "courseNumber": "334",
+      "longName": "Children's Literature",
+      "name": "Children's Literature",
+      "description": "This course studies and analyzes outstanding classical, contemporary and multicultural literature for children and adolescents, arranged by genre. Students are given an overview of the evolution of the literature from its cultural roots in myth and legend to its present role as a reflector of modern society.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1366281-1901-01-01",
+      "courseGroupId": "1366281",
+      "code": "ENG 334H",
+      "subjectCode": "ENG",
+      "courseNumber": "334H",
+      "longName": "Children's Literature (Honors)",
+      "name": "Children's Literature (Honors)",
+      "description": "This course studies and analyzes outstanding classical, contemporary and multicultural literature for children and adolescents, arranged by genre. Students are given an overview of the evolution of the literature from its cultural roots in myth and legend to its present role as a reflector of modern society.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884051-1901-01-01",
+      "courseGroupId": "0884051",
+      "code": "ENG 335",
+      "subjectCode": "ENG",
+      "courseNumber": "335",
+      "longName": "Autobiography",
+      "name": "Autobiography",
+      "description": "This course will introduce the student to autobiography in the context of literary debate: why do we read autobiography? How do we classify autobiography, as non-fiction or fiction? Works by both men and women of many cultural and socioeconomic backgrounds will be included. Students will examine the various styles, elements, as well as the recurring themes in autobiography, while working on their own reflection of the self.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884061-1901-01-01",
+      "courseGroupId": "0884061",
+      "code": "ENG 336",
+      "subjectCode": "ENG",
+      "courseNumber": "336",
+      "longName": "Postcolonial Literature",
+      "name": "Postcolonial Literature",
+      "description": "This course will study and analyze selected novels, short stories, poems and plays of postcolonial writers from Africa, South Asia and Southeast Asia, the English speaking Caribbean, New Zealand, Canada and Australia. The course will examine the ways in which postcolonial writers transcend a British imperial legacy of colonialism to redefine their own distinctive social and cultural worlds.  Note: This course is crosslisted as:   AFL 336.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884071-1901-01-01",
+      "courseGroupId": "0884071",
+      "code": "ENG 337",
+      "subjectCode": "ENG",
+      "courseNumber": "337",
+      "longName": "Science Fiction",
+      "name": "Science Fiction",
+      "description": "This course examines how science fiction literature envisions the impact of machine technology on the individual and society. The human/machine interaction will be traced from early myths to contemporary science fiction, including works by Asimov, Clarke, Delaney, Gibson, Lem, Orwell, Vonnegut and Zelazny.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884091-1901-01-01",
+      "courseGroupId": "0884091",
+      "code": "ENG 339",
+      "subjectCode": "ENG",
+      "courseNumber": "339",
+      "longName": "Asian American Literature",
+      "name": "Asian American Literature",
+      "description": "Representative works reflective of the collective experiences of Asian American writers are analyzed. American writers are analyzed. Fiction, poetry, drama and non-fiction written from Chinese, Filipino, Asian Indian, Japanese, Korean and South-East Asian cultural perspectives are discussed",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884101-1901-01-01",
+      "courseGroupId": "0884101",
+      "code": "ENG 340",
+      "subjectCode": "ENG",
+      "courseNumber": "340",
+      "longName": "Middle Eastern Literature",
+      "name": "Middle Eastern Literature",
+      "description": "This course surveys fiction, poetry, and drama from writers throughout the Middle East, beginning in the late 19th century and concluding in the present time.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884111-1901-01-01",
+      "courseGroupId": "0884111",
+      "code": "ENG 345",
+      "subjectCode": "ENG",
+      "courseNumber": "345",
+      "longName": "Modern Poetry",
+      "name": "Modern Poetry",
+      "description": "The goals of this course are to stimulate an appreciation for, and an enjoyment of, poetic masterworks mainly of the 20th century. This course includes critical reading and writing; its approach is an in-depth study of poetry which has universal significance. Writers studied include T.S. Eliot, W.H. Auden, Dylan Thomas, e.e. cummings, Pablo Neruda, Langston Hughes, Theodore Roethke, Gwendolyn Brooks and Sylvia Plath.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1165101-1901-01-01",
+      "courseGroupId": "1165101",
+      "code": "ENG 346",
+      "subjectCode": "ENG",
+      "courseNumber": "346",
+      "longName": "Queer Literature",
+      "name": "Queer Literature",
+      "description": "This course focuses on 20th and 21st century texts within the area of Queer literature and by Queer literary artists. It covers a variety of literary and critical texts in order to introduce students to classics of Queer Literature as well as lesser-known masterpieces. The aim of this class is to expand students conceptions about literature, sexuality, and gender and lead them to critically investigate socially-constructed ideas about gender and sexuality. Students will examine and analyze the manner in which the authors and texts subvert and challenge sexual and cultural norms.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884121-1901-01-01",
+      "courseGroupId": "0884121",
+      "code": "ENG 350",
+      "subjectCode": "ENG",
+      "courseNumber": "350",
+      "longName": "Topics in Literature",
+      "name": "Topics in Literature",
+      "description": "This course will focus on a specific theme, concept, cultural milieu, or major author to be announced in advance. Topics for the following semester will be made available by the English Department during registration.  Each section of the course will cover in-depth a single special topic, such as one of the following: the Harlem Renaissance, Literature and the Environment, Utopian and Dystopian Literature, Literature and Medicine, The Beat Generation, Literature of the Working Class, Satire in the 18th Century, Censorship and Literature, Literature of Immigration, War in Literature, Madness and Inspiration in Literature, Gay and Lesbian Literature, and Women in Shakespeare.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884131-1901-01-01",
+      "courseGroupId": "0884131",
+      "code": "ENG 351",
+      "subjectCode": "ENG",
+      "courseNumber": "351",
+      "longName": "Topics in Literature",
+      "name": "Topics in Literature",
+      "description": "This course will focus on a specific theme, concept, cultural milieu, or major author to be announced in advance.  Each section of the course will cover in-depth a single special topic, such as one of the following: the Harlem Renaissance, Literature and the Environment, Utopian and Dystopian Literature, Literature and Medicine, The Beat Generation, Literature of the Working Class, Satire in the 18th Century, Censorship and Literature, Literature of Immigration, War in Literature, Madness and Inspiration in Literature, Gay and Lesbian Literature, and Women in Shakespeare.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884141-1901-01-01",
+      "courseGroupId": "0884141",
+      "code": "ENG 353",
+      "subjectCode": "ENG",
+      "courseNumber": "353",
+      "longName": "Women in Literature",
+      "name": "Women in Literature",
+      "description": "This course focuses on the contributions of women literary artists from a variety of cultures and ethnic groups. It examines how some writers have both reflected the prevailing female stereotypes of their age and background, and also imagined the \"New Woman.\" Enrollment is open to both women and men.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884151-1901-01-01",
+      "courseGroupId": "0884151",
+      "code": "ENG 358",
+      "subjectCode": "ENG",
+      "courseNumber": "358",
+      "longName": "Contemporary Urban Writers",
+      "name": "Contemporary Urban Writers",
+      "description": "This course focuses on the literature of urban America since 1950 and in particular on how contemporary writers use the images and themes of the city.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1092941-2009-11-01",
+      "courseGroupId": "1092941",
+      "code": "ENG 360",
+      "subjectCode": "ENG",
+      "courseNumber": "360",
+      "longName": "Italian American Literature",
+      "name": "Italian American Literature",
+      "description": "Italian American Literature surveys fiction, poetry, and drama throughout the history of Italian Americans in the United States beginning in the first half of the twentieth century and continuing into contemporary America. This literature will be considered in the context of recurring themes in the artistically framed experiences of Italian Americans beginning in the first half of the twentieth century and continuing into contemporary America: cultural-national identity conflict, anti- colonization by church and state, religion, gender relations, generational differences and relations, class conflict, for example, working class vs. the bourgeois, or working class immigrant and sons and daughters vs. the dominant American culture, the problem of education in early Italian American history, the dilemma of cultural and linguistic loss, intercultural conflict, intra-cultural conflict, family values, oppression, social dysfunction, and assimilation.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2009-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884161-2016-05-01",
+      "courseGroupId": "0884161",
+      "code": "ENG 371",
+      "subjectCode": "ENG",
+      "courseNumber": "371",
+      "longName": "British Literature from the Medieval Era to the Eighteenth Century",
+      "name": "British Lit: Medieval - 18 Cen",
+      "description": "This course surveys works of English literature from its origins in pre-Norman England to the eighteenth century. The objectives are three-fold: (1) to develop the student's appreciation for literature and an acquaintance with literary masterpieces written in English during the years of this survey; (2) to introduce the student to the major political and cultural events and ideals that shaped England during these years; (3) to illustrate how cultural and political ideals shape men's thinking and have their reflections in and are reflected by literature. Selections may include Beowulf, Chaucer's Canterbury Tales, Shakespeare's plays and Swift's writings.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884171-2016-05-01",
+      "courseGroupId": "0884171",
+      "code": "ENG 372",
+      "subjectCode": "ENG",
+      "courseNumber": "372",
+      "longName": "British Literature from the Romantic Era through the Twentieth Century",
+      "name": "British Lit: Romantic - 20 Cen",
+      "description": "This survey course is independent of English 371, which is not a prerequisite. It covers the principal figures, styles, themes and philosophies represented during three literary periods: the Romantic Era, the Victorian Age and the Twentieth Century. It exposes students to major works of literature including poetry, plays, short stories, novels and essays. It enables students to appreciate the thoughts and contributions of outstanding writers such as Keats, Wordsworth, Tennyson, Browning, Yeats and Eliot, as well as Dickens, Joyce and Lawrence.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884181-1901-01-01",
+      "courseGroupId": "0884181",
+      "code": "ENG 373",
+      "subjectCode": "ENG",
+      "courseNumber": "373",
+      "longName": "Introduction to Shakespeare",
+      "name": "Introduction to Shakespeare",
+      "description": "This course provides careful, in-depth readings from Shakespeare's tragedies, histories and comedies. The course examines some of the main characteristics of his work, including his major themes, the development of character and plot, and the special worlds that he creates through his poetic language.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884191-2016-05-01",
+      "courseGroupId": "0884191",
+      "code": "ENG 381",
+      "subjectCode": "ENG",
+      "courseNumber": "381",
+      "longName": "American Literature from the Colonial Era to the Civil War",
+      "name": "American Lit: Colonial - Civil",
+      "description": "This course surveys American literature from its colonial beginnings to the American Renaissance of the nineteenth century-from Ann Bradstreet and Cotton Mather to Walt Whitman and Herman Melville. Students learn about the cultural milieu that influenced writers, read major and representative works and sharpen their critical abilities.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884201-2016-10-01",
+      "courseGroupId": "0884201",
+      "code": "ENG 382",
+      "subjectCode": "ENG",
+      "courseNumber": "382",
+      "longName": "American Literature from the Reconstruction Era to the Present",
+      "name": "Amer Lit: Reconstruction-Pres",
+      "description": "Though English 381 is not a prerequisite, this course begins where 381 leaves off and covers select fiction and poetry from the Gilded Age of the late nineteenth century to the present. Students study major writers and literary movements; and an effort is made to place literature in its cultural context. Works by such writers as Mark Twain, Emily Dickinson, Henry James, T.S. Eliot, Richard Wright, F. Scott Fitzgerald and Toni Morrison may be included.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884211-1901-01-01",
+      "courseGroupId": "0884211",
+      "code": "ENG 383",
+      "subjectCode": "ENG",
+      "courseNumber": "383",
+      "longName": "The American Novel",
+      "name": "The American Novel",
+      "description": "This course focuses on the gradual emergence of the American novel both as a literary form and as a reflection and reinforcement of patterns in the fabric of American life. Representative authors may include Hawthorne, Melville and Stowe from the 19th century; Lewis, Cather, Fitzgerald, Faulkner, Hemingway and Steinbeck from the 1920's to the 1950's; and Wright and Mailer of the 1960's and 1970's.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884221-2014-05-01",
+      "courseGroupId": "0884221",
+      "code": "ENG 384",
+      "subjectCode": "ENG",
+      "courseNumber": "384",
+      "longName": "Modern American Drama",
+      "name": "Modern American Drama",
+      "description": "The development of the American theatre since the rise of realism is traced through 1920's dramas by O'Neill, Howard and Rice; comedies of manner by Barry and Behrman; socially conscious plays of the 1930's by Odets, Sherwood and Hellman; and post-war dramas by Williams and Miller.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884241-2021-03-01",
+      "courseGroupId": "0884241",
+      "code": "ENG 391",
+      "subjectCode": "ENG",
+      "courseNumber": "391",
+      "longName": "World Literature from Antiquity to the Early Modern Era",
+      "name": "World Lit Antiquity to Modern",
+      "description": "This course presents a global approach to literature by introducing prose, poetry and drama representative of different world cultures and historical periods, from antiquity to the early modern era. Students engage in close readings of individual texts and contextual/comparative analyses. Written and spoken activities are designed to enhance students' appreciation of literature and their awareness of the ways it arises from, shapes and reflects the world's cultures.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1577441-2021-03-01",
+      "courseGroupId": "1577441",
+      "code": "ENG 391H",
+      "subjectCode": "ENG",
+      "courseNumber": "391H",
+      "longName": "World Literature from Antiquity to the Early Modern Era (Honors)",
+      "name": "World Lit Antiq to Modern(Hon)",
+      "description": "This course presents a global approach to literature by introducing prose, poetry and drama representative of different world cultures and historical periods, from antiquity to the early modern era. Students engage in close readings of individual texts and contextual/comparative analyses. Written and spoken activities are designed to enhance students' appreciation of literature and their awareness of the ways it arises from, shapes and reflects the world's cultures.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884251-2021-03-01",
+      "courseGroupId": "0884251",
+      "code": "ENG 392",
+      "subjectCode": "ENG",
+      "courseNumber": "392",
+      "longName": "World Literature from the Early Modern Era to the Present",
+      "name": "World Lit Early Modern to Pres",
+      "description": "This course presents a global approach to literature by introducing prose, poetry and drama representative of different cultures and historical periods, from the 17th century to the present. Students engage in close readings of individual texts and contextual/comparative analyses. Written and spoken activities are designed to enhance students' appreciation of literature and their awareness of the ways it arises from, shapes, and reflects the world's cultures.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884261-2016-05-01",
+      "courseGroupId": "0884261",
+      "code": "ENG 393",
+      "subjectCode": "ENG",
+      "courseNumber": "393",
+      "longName": "Jewish Literature",
+      "name": "Jewish Literature",
+      "description": "This course aims to acquaint students with representative Judaic works translated from Hebrew or written in English and ranging from Biblical times to the present. The selections concentrate on those writings which have been most influential in the development of Western literature and which best convey Jewish thought, feeling, and experiences, especially in their universal application. The readings will be supplemented by exposure to Judaic music and art, including visits to museums and galleries, individual student projects, and guest lectures. No prior knowledge of the Hebrew language or Jewish culture or literature is required. Prerequisites: ENG 101 and 201, or ENG 121",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884271-1901-01-01",
+      "courseGroupId": "0884271",
+      "code": "ENG 394",
+      "subjectCode": "ENG",
+      "courseNumber": "394",
+      "longName": "Modern European Novel",
+      "name": "Modern European Novel",
+      "description": "European social and political ideas as they are reflected in the works of such novelists as Gide, Silone, Koestler, Camus, Sartre, Mann, and Kafka are examined and analyzed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1546501-2023-02-01",
+      "courseGroupId": "1546501",
+      "code": "ENG 395",
+      "subjectCode": "ENG",
+      "courseNumber": "395",
+      "longName": "Literary Journalism",
+      "name": "Literary Journalism",
+      "description": "Literary Journalism is an often misunderstood genre that combines the evidence-based demands of journalism with the generic conventions of fiction. Often associated with the “New Journalism” of 1960s and 1970s (a movement that included Joan Didion, Hunter S. Thompson, Gay Talese, and Truman Capote among others), the genre of Literary Journalism has much deeper roots and continues into the present. In this course, students will explore the basics of literary journalism, focusing on how the genre balances the methods and ethics of traditional reporting with styles and techniques more commonly associated with fiction. The class will read, discuss, and interrogate various works of literary journalism in order to more clearly understand the field. Students will devise their own individual reporting projects, which they will workshop and develop into a substantial piece of original literary journalism.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ENGL-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

@@ -118,3 +118,13 @@ Second-program details and gaps: [SECOND_PROGRAM_VALIDATION.md](SECOND_PROGRAM_V
 There are no synthetic approval decisions in the reference fixtures; synthetic
 tests exercise verification labels only as fictional scenarios. Source-level
 verification is always separate from authority to publish academic decisions.
+
+## Phase 04C-1 — separate Bulletin browsing snapshot
+
+The historical 2026–2027 fixture mapping above remains unchanged. New ingestion
+uses the explicitly labeled 2025–2026 Bulletin, with current website identity/support
+sources kept year-unconfirmed. It never resolves old policy conflicts by overwriting
+fixture values. [New source inventory, coverage and discrepancies](BMCC_CATALOG_INGESTION.md)
+documents 18 departments, 67 program entries, 1,263 credit courses and two quarantined
+Italian codes. Structured eligibility and program requirements remain pending review;
+source capture is not an academic approval or complete audit.

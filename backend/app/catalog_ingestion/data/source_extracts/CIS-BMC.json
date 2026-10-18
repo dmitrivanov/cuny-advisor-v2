@@ -1,0 +1,3808 @@
+{
+  "department_id": "CIS-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "b720ed76a2ead122cea7a0a53bdf6b90c06d74a800a5688ea4ab71363030de55",
+  "records": [
+    {
+      "id": "0880761-2025-08-25",
+      "courseGroupId": "0880761",
+      "code": "CIS 100",
+      "subjectCode": "CIS",
+      "courseNumber": "100",
+      "longName": "Introduction to Computer Applications",
+      "name": "Intro to Comp Apps",
+      "description": "This course develops an understanding of computer technology through the exploration of software packages on personal computers. The applications include word processing, spreadsheet, and database management. Students will also learn computer terms and concepts as well as the historical, social and economic implications of computer technology for our society.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "MEAC - ME_ACCO_1 (Intro Computer Info Sys & Tech)",
+        "MEFI - ME_FINA_1 (Intro Computer Info Sys & Tech)",
+        "UTAC - UT_ACCT_8 (Intro to Computer Info Systems)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEAC - ME_ACCO_1 (Intro Computer Info Sys & Tech)",
+        "MEFI - ME_FINA_1 (Intro Computer Info Sys & Tech)",
+        "UTAC - UT_ACCT_8 (Intro to Computer Info Systems)"
+      ]
+    },
+    {
+      "id": "0880771-2011-06-01",
+      "courseGroupId": "0880771",
+      "code": "CIS 105",
+      "subjectCode": "CIS",
+      "courseNumber": "105",
+      "longName": "Introduction to Health Information Management Computer Applications",
+      "name": "Intro Comp Med Rec",
+      "description": "This course covers the current use of computers and data processing systems in the medical record field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1153861-2011-06-30",
+      "courseGroupId": "1153861",
+      "code": "CIS 106",
+      "subjectCode": "CIS",
+      "courseNumber": "106",
+      "longName": "Introduction to Health Information Technology",
+      "name": "Intro to Health Info Tech",
+      "description": "This introductory course in Health Information Technology will expose students to the elements, functions and operational environment of a modern HIT system. Students will gain proficiency in personal productivity tools and their use of Internet tools and their impact on HIT. Utilizing industry standard software application, students will understand how to handle and process patient information, maintain personal health records, track patient diagnostics and results, create patient billing, maintain medical documentation, and manage work flow.Corequisite: HIT 331, HIT 332, HIT 333",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-30",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880781-1901-01-01",
+      "courseGroupId": "0880781",
+      "code": "CIS 115",
+      "subjectCode": "CIS",
+      "courseNumber": "115",
+      "longName": "Introduction to Computer and Information Security",
+      "name": "Intro Comp & Info Security",
+      "description": "This course provides an introduction to computer and information security. The significance of information integrity, availability and confidentiality are presented to demonstrate the importance of computer and information security. Students will gain practical skills on how to recognize threats and correct vulnerabilities. Techniques of detection, prevention and recovery from intrusions by malicious software will be taught with emphasis on concepts of organizational security through the institution of policies and procedures, and establishment of business and continuity planning.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880791-1901-01-01",
+      "courseGroupId": "0880791",
+      "code": "CIS 120",
+      "subjectCode": "CIS",
+      "courseNumber": "120",
+      "longName": "Introduction to Data Base Applications",
+      "name": "Intro Data Base App",
+      "description": "This course introduces the student to data base concepts and applications using state-of-the-art data base packages. The student not only studies the theory of data bases, but also implements and tests complete data base applications.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880811-1901-01-01",
+      "courseGroupId": "0880811",
+      "code": "CIS 140",
+      "subjectCode": "CIS",
+      "courseNumber": "140",
+      "longName": "Introduction to Spreadsheet Applications",
+      "name": "Intro Spreadsheet Applications",
+      "description": "This course introduces the student to spreadsheet concepts and applications using state-of-the-art spreadsheet packages. Emphasis is placed on the use of the package to solve a wide range of business problems, including, but not limited to, accounting, scheduling and statistical applications. Students will develop and test a series of projects.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880821-1901-01-01",
+      "courseGroupId": "0880821",
+      "code": "CIS 155",
+      "subjectCode": "CIS",
+      "courseNumber": "155",
+      "longName": "Computer Hardware",
+      "name": "Computer Hardware",
+      "description": "This course introduces students to computer hardware. Computer components such as motherboards, memory chips, disk drives, printers, scanners, storage devices, and keyboards will be covered. Students will learn how to install, maintain, upgrade and configure such hardware components. Students will also be introduced to binary, octal, and hexadecimal number systems as used in computer hardware. Students will be introduced to industry ethics, professional certifications, and career paths in the computer industry.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880831-1901-01-01",
+      "courseGroupId": "0880831",
+      "code": "CIS 160",
+      "subjectCode": "CIS",
+      "courseNumber": "160",
+      "longName": "Desktop Publishing Packages",
+      "name": "Desktop Publishing Packages",
+      "description": "This course teaches students to use desktop publishing software to prepare a variety of documents in different page layouts including alphanumeric (in assorted fonts), graphics in various file formats or a combination of both. Students will learn the basic concepts of desktop publishing and how to organize and compose a document.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1456781-2018-05-01",
+      "courseGroupId": "1456781",
+      "code": "CIS 165",
+      "subjectCode": "CIS",
+      "courseNumber": "165",
+      "longName": "Introduction to Operating Systems",
+      "name": "Intro to Operating Systems",
+      "description": "This course is an introduction to the concepts and organization of operating systems and the management of hardware and software resources of a computer. Emphasis is placed on memory, process, device and file management as well as operating system utilities. The students will be provided with basic working knowledge of computer operating system commands, functions, and management approaches in a variety of operating system environments utilizing both Graphical User Interface (GUI) and command line environments.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880841-1901-01-01",
+      "courseGroupId": "0880841",
+      "code": "CIS 180",
+      "subjectCode": "CIS",
+      "courseNumber": "180",
+      "longName": "Introduction to the Internet",
+      "name": "Introduction to the Internet",
+      "description": "This course introduces basic concepts of the Internet and Internetworking. The subjects covered include basic networking concepts of transmission, topology and switching; highlights of TCPIP protocol; hardware and software needed, and Internet applications of sending and receiving e-mail, navigating through gopher holes, accessing newsgroups, and access to other computers through telnet and World Wide Web.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880851-2024-08-28",
+      "courseGroupId": "0880851",
+      "code": "CIS 200",
+      "subjectCode": "CIS",
+      "courseNumber": "200",
+      "longName": "Introduction Systems and Technologies",
+      "name": "Intro.Info System",
+      "description": "This course introduces the students to the use of information systems in business. The dramatic changes in Information Technology [IT] impacts the ways in which companies operate and compete in local and global economies. Students will explore the global and ethical issues that have developed with the use of information systems. Working individually and in teams, the students will complete case studies on the following topics: Management Information Systems [MIS], systems analysis and design, hardware and software concerns, and telecommunications.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "MEBU - ME_BUSI_1 (Intro Computer Info Sys & Tech)",
+        "MEFI - ME_FINA_1 (Intro Computer Info Sys & Tech)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEBU - ME_BUSI_1 (Intro Computer Info Sys & Tech)",
+        "MEFI - ME_FINA_1 (Intro Computer Info Sys & Tech)"
+      ]
+    },
+    {
+      "id": "0880861-2011-06-01",
+      "courseGroupId": "0880861",
+      "code": "CIS 205",
+      "subjectCode": "CIS",
+      "courseNumber": "205",
+      "longName": "Advanced Health Information Management Computer Applications",
+      "name": "Adv.Health Inf Comp",
+      "description": "This course enables students to gain skills in the use of computer software specifically designed for medical record applications. This is a required course in the MRT curriculum.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1166481-1901-01-01",
+      "courseGroupId": "1166481",
+      "code": "CIS 206",
+      "subjectCode": "CIS",
+      "courseNumber": "206",
+      "longName": "Introduction to Health Information Systems",
+      "name": "Intro to Health Info Systems",
+      "description": "This course will review the important aspects of Health Information Technology (HIT) and introduce the students to the need, purpose and design of health information systems. Students will be exposed to the components of a Health Information System with emphasis on user roles, database, networking and security concepts that govern it. Examples of HIS applications such as Personal Health Records (PHR) and Health Information Exchanges will be used as case studies to highlight the design and implementation considerations of Health Information Systems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1250261-2017-10-01",
+      "courseGroupId": "1250261",
+      "code": "CIS 207",
+      "subjectCode": "CIS",
+      "courseNumber": "207",
+      "longName": "Healthcare Information Technologies and Management Systems",
+      "name": "Healthcare Info Tech And Mgmt",
+      "description": "This course will introduce the important components of Health Information Technologies (HIT) and elements, functions and operational environment of modern Health Information Systems (HIS) and their role in delivery and management of health care services, with specific emphasis on Electronic Health Records (HER).  The students will apply personal productivity software and internet tools to explore their impact on healthcare delivery systems and will be introduced to the components of a Health Information System with focus on database, networking and security concepts that govern it.  The students will also be exposed to handling and processing patient information, tracking patient diagnostics and results, creating patient billing, maintaining medical documentation, and managing workflow.  Examples of HIS applications such as Personal Health Records (PHR) and Health Information Exchanges (HIE) will be used as case studies to highlight the design and implementation considerations of Health Information Systems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880881-1901-01-01",
+      "courseGroupId": "0880881",
+      "code": "CIS 220",
+      "subjectCode": "CIS",
+      "courseNumber": "220",
+      "longName": "Visual Basic",
+      "name": "Visual Basic",
+      "description": "This course covers a full range of BASIC language elements. A series of programs are completed to cover typical business, scientific, graphics, gaming and simulation applications.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880901-1901-01-01",
+      "courseGroupId": "0880901",
+      "code": "CIS 235",
+      "subjectCode": "CIS",
+      "courseNumber": "235",
+      "longName": "Computer Operations I",
+      "name": "Computer Operations I",
+      "description": "This course presents a detailed and practical study of the operation of the mainframe computer. Students learn the command language and control statements for the IBM VM/CMS system. In addition, utility programs, disk concepts and terminal concepts along with operations in a networked environment are introduced. Students are familiarized with file handling techniques and how to compile, store, and load programs for various languages supported by the hardware.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880921-2020-10-01",
+      "courseGroupId": "0880921",
+      "code": "CIS 255",
+      "subjectCode": "CIS",
+      "courseNumber": "255",
+      "longName": "Computer Software",
+      "name": "Computer Software",
+      "description": "This course will introduce students to computer software. The topics covered will include Installation, configuration, security, maintenance, administration, and troubleshooting of the operating system and other software. Students will review binary, octal, hexadecimal numbering systems used in computer systems. Industry ethics and career paths will be reviewed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557311-2024-01-25",
+      "courseGroupId": "1557311",
+      "code": "CIS 272",
+      "subjectCode": "CIS",
+      "courseNumber": "272",
+      "longName": "Introduction to Mobile App Development",
+      "name": "Introduction to Mobile App Dev",
+      "description": "This course is an introduction to mobile application development. It introduces students to fundamental and intermediate concepts such as mobile application design and programming using a cross-platform mobile development tool. In this project-based course, the students will learn to develop real-world applications that incorporate both theoretical and practical concepts. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880931-1901-01-01",
+      "courseGroupId": "0880931",
+      "code": "CIS 280",
+      "subjectCode": "CIS",
+      "courseNumber": "280",
+      "longName": "Advanced Internet Applications",
+      "name": "Advanced Internet Applications",
+      "description": "This course builds upon the knowledge acquired in CIS 180 and introduces the students to the applications of World Wide Web. It teaches how to produce home pages and build hyperlinks to other pages through HTML language; how to configure and install a World Wide Web server; how to use WAIS and other search engines; and to interface with other servers. Students will also be introduced to videoconferencing over the Internet.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557321-2024-01-25",
+      "courseGroupId": "1557321",
+      "code": "CIS 285",
+      "subjectCode": "CIS",
+      "courseNumber": "285",
+      "longName": "Mobile Device Security",
+      "name": "Mobile Device Security",
+      "description": "This course introduces students to the security issues in mobile applications and basic cybersecurity concepts. It is designed to address the security threats to mobile devices, networks and services delivered over the mobile infrastructure. The course includes mobile device vulnerability tests and develop solutions to protect against mobile security threats and malware.  ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880961-2023-02-01",
+      "courseGroupId": "0880961",
+      "code": "CIS 316",
+      "subjectCode": "CIS",
+      "courseNumber": "316",
+      "longName": "Introduction to Digital Forensics",
+      "name": "Introduction Digital Forensics",
+      "description": "This course introduces students to the purpose and process of digital forensics and investigations. Using industry standard software and hardware tools, students will learn the fundamentals of computer forensics and effective investigative strategies to acquire and analyze digital evidence for use in criminal and civil proceedings. Incident response techniques, the chain of custody for proper handling of digital evidence, guidelines for digital evidence collection and forensic reporting  for law enforcement and investigations will be discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "0880991-1901-01-01",
+      "courseGroupId": "0880991",
+      "code": "CIS 325",
+      "subjectCode": "CIS",
+      "courseNumber": "325",
+      "longName": "Systems Analysis",
+      "name": "Systems Analysis",
+      "description": "This course teaches the student how to analyze systems of programs and how to document these analyses. The student will learn CASE (computer assisted systems engineering) tools that are currently used in the field of systems analysis. Students are required to complete a semester project to analyze a complex computer system. This project will require the use of CASE tools to document the input and output requirements, data dictionaries, database design and normalization, ERD (entity relationship diagrams), DFD (data flow diagrams), systems flowcharts, run charts, and PERT (program evaluation review technique) charts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881001-1901-01-01",
+      "courseGroupId": "0881001",
+      "code": "CIS 335",
+      "subjectCode": "CIS",
+      "courseNumber": "335",
+      "longName": "Computer Operations II/JCL",
+      "name": "Computer Operations II/JCL",
+      "description": "This course introduces the student to practical experience operating a mainframe computer through the use of OS/MVS Job Control Language (JCL). The background, purpose and the concepts of operating systems as implemented through OS/MVS JCL are taught through a series of practical assignments. Also covered are the creation and execution of utility and sort/merge programs in the IBM 30XX environment.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881021-2019-10-01",
+      "courseGroupId": "0881021",
+      "code": "CIS 345",
+      "subjectCode": "CIS",
+      "courseNumber": "345",
+      "longName": "Telecommunication Networks I",
+      "name": "Telecommunication Networks I",
+      "description": "This course is an introductory course in telecommunications networks. It covers the fundamentals of networking concepts, such as networking media, topology, switching, and management. It will also include an introduction to Open System Interface (OSI) layered organization and functionality of each layer.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1358881-2023-02-01",
+      "courseGroupId": "1358881",
+      "code": "CIS 359",
+      "subjectCode": "CIS",
+      "courseNumber": "359",
+      "longName": "Information Assurance",
+      "name": "Information Assurance",
+      "description": "This course introduces the fundamentals of information security in the context of computer vulnerabilities/threats and how to safeguard computers and networks. The students will be exposed to the concepts of security planning, security technologies, security organization and the legal and ethical issues associated with implementing computer and network security.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1358891-2023-02-01",
+      "courseGroupId": "1358891",
+      "code": "CIS 362",
+      "subjectCode": "CIS",
+      "courseNumber": "362",
+      "longName": "Cloud Computing",
+      "name": "Cloud Computing",
+      "description": "This course introduces students to the principles, foundations, and applications of Cloud computing. Different types of features, standards, services, and security issues in Cloud computing will be discussed. The students will study the paradigm of computing in which dynamically scalable and often virtualized resources are offered as services over the Internet. Through hands-on assignments and projects, students will learn how to configure and program Infrastructure as a Service (IaaS), how to develop Cloud-based software applications on top of various Cloud platforms, and how to integrate application-level services built on heterogeneous Cloud platforms.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1358901-2017-06-01",
+      "courseGroupId": "1358901",
+      "code": "CIS 364",
+      "subjectCode": "CIS",
+      "courseNumber": "364",
+      "longName": "Mobile Device Programming",
+      "name": "Mobile Device Programming",
+      "description": "This course introduces the unique requirements and methodologies necessary to develop applications for mobile devices. The course will focus on installing, developing, and testing mobile applications. Students will learn the basic framework of a mobile application, mobile user interface design, methods for storing and retrieving information, and mobile security.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "0881041-1901-01-01",
+      "courseGroupId": "0881041",
+      "code": "CIS 365",
+      "subjectCode": "CIS",
+      "courseNumber": "365",
+      "longName": "Business Systems I",
+      "name": "Business Systems I",
+      "description": "This course is an introductory business programming course. It introduces the students to business programming concepts such as analysis, implementation, and documentation of business systems. The students write business programs using a currently used program development language.  The programming assignments include report generation, data validation, sort programs and single and multi-dimensional tables.  The students are required to test and document all programs using standard business programming methods.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881051-1901-01-01",
+      "courseGroupId": "0881051",
+      "code": "CIS 370",
+      "subjectCode": "CIS",
+      "courseNumber": "370",
+      "longName": "Database Driven Website Programming",
+      "name": "Database Driven Web",
+      "description": "This course will familiarize students with approaches for creating web pages that interact with a database.  In this course, students will learn how to use the following technologies: SQL statements to create database queries, HTML forms to realize user interface, and a programming language to implement common gateway interface (CGI).",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881071-2019-04-01",
+      "courseGroupId": "0881071",
+      "code": "CIS 385",
+      "subjectCode": "CIS",
+      "courseNumber": "385",
+      "longName": "Web Programming I",
+      "name": "Web Programming I",
+      "description": "This course introduces students to client-side web programming. Emphasis is placed on structure, formatting and scripting of web pages as well as manipulation of media elements to solve elementary level application problems. A variety of client-based technologies are introduced to facilitate the understanding of design and programming concepts in a web environment. A final project consisting of the creation of an online application will be developed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "0881081-1901-01-01",
+      "courseGroupId": "0881081",
+      "code": "CIS 390",
+      "subjectCode": "CIS",
+      "courseNumber": "390",
+      "longName": "Wireless Programming",
+      "name": "Wireless Programming",
+      "description": "This course provides an introduction to programming in wireless networking environment.  After a brief background of wireless technologies and their applications, a comprehensive survey of wireless application development environments will be presented.  Issues and considerations of wireless application development will be discussed with emphasiss on:  wireless application protocol (WAP) used to establish communicating between devices and scripting languages and libraries such as wireless manipulation language (WML) and extensible hypertext markup language (XHTML) to develop applications that use those protocols.  Students will learn to design, implement and test a wireless application as a term project that is representative of commerical wireless application.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881091-2024-08-28",
+      "courseGroupId": "0881091",
+      "code": "CIS 395",
+      "subjectCode": "CIS",
+      "courseNumber": "395",
+      "longName": "Database Systems I",
+      "name": "Database Systems I",
+      "description": "This course introduces the design, implementation, testing, and manipulation of database management systems. The design techniques include conceptual data modeling, entity relational modeling and normalization techniques. The databases are then implemented using structured query languages. Testing strategies verify data integrity, security, and privacy. Manipulation activities include insert, update, and delete operations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)",
+        "MECI - ME_COIS_4 (Database)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1499601-2018-05-01",
+      "courseGroupId": "1499601",
+      "code": "CIS 395H",
+      "subjectCode": "CIS",
+      "courseNumber": "395H",
+      "longName": "Database Systems I (Honors)",
+      "name": "Database Systems I (Honors)",
+      "description": "This course introduces the design, implementation, testing, and manipulation of database management systems. The design techniques include conceptual data modeling, entity relational modeling and normalization techniques. The databases are then implemented using structured query languages. Testing strategies verify data integrity, security, and privacy. Manipulation activities include insert, update, and delete operations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)",
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "0881121-1901-01-01",
+      "courseGroupId": "0881121",
+      "code": "CIS 420",
+      "subjectCode": "CIS",
+      "courseNumber": "420",
+      "longName": "Systems Implementation",
+      "name": "Systems Implementation",
+      "description": "Students continue from the realm of theory taught in CIS 320, Systems Analysis, to realities of practical applications. The class is divided into teams. A system is developed as a joint effort by each team as it analyzes, systematizes, programs and writes documentation to implement its projects. In addition to the team projects, topics relevant to current computing techniques are discussed and where applicable, demonstrated to or practiced by the class.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881131-2023-02-01",
+      "courseGroupId": "0881131",
+      "code": "CIS 440",
+      "subjectCode": "CIS",
+      "courseNumber": "440",
+      "longName": "Unix",
+      "name": "Unix",
+      "description": "Students are introduced to the UNIX operating system, its external commands, internal structures, and text processing capabilities.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "0881141-2018-05-01",
+      "courseGroupId": "0881141",
+      "code": "CIS 445",
+      "subjectCode": "CIS",
+      "courseNumber": "445",
+      "longName": "Telecommunications Networks II / LAN",
+      "name": "Tele. Networks II",
+      "description": "This course is a second course in telecommunications networks with special emphasis on Local Area Networks (LAN). It covers the fundamentals of LAN technology, such as wiring and topology as well as implementation and managment of LANs. Advanced topics include LAN connectivity and future LAN directions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "0881151-2018-05-01",
+      "courseGroupId": "0881151",
+      "code": "CIS 455",
+      "subjectCode": "CIS",
+      "courseNumber": "455",
+      "longName": "Network Security",
+      "name": "Network Security",
+      "description": "This course provides a comprehensive overview of network security. The topics covered are: general security concepts including authentication methods, common network attacks; and methods for safeguarding against attacks; communication security including remote access, e-mail, the World Wide Web, directory and file transfer, and wireless data; infrastructure security that explores various network devices and media, and the proper use of perimeter topologies such as DMZs, extranets, and intranets to asymmetric and symmetric algorithms, and the types of PKI certificates and their uses; operational/organizational security is discussed as it relates to physical security, disaster recovery, and business continuity, as well as coverage of computer forensics.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1358911-2017-06-01",
+      "courseGroupId": "1358911",
+      "code": "CIS 459",
+      "subjectCode": "CIS",
+      "courseNumber": "459",
+      "longName": "Ethical Hacking and System Defense",
+      "name": "Ethical Hacking and System Def",
+      "description": "This course provides an in-depth look at network security concepts and techniques. It introduces students to the fundamentals of ethical hacking. The course focuses on the code of conduct and ethics of exploiting systems. It employs a hands-on approach when examining networking security techniques. The students will explore problem solving strategies necessary in the field of information security and learn about fundamental system defenses including security configurations and defensive software to prevent unauthorized system access.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "0881181-1901-01-01",
+      "courseGroupId": "0881181",
+      "code": "CIS 475",
+      "subjectCode": "CIS",
+      "courseNumber": "475",
+      "longName": "Wireless Information Networks",
+      "name": "Wireless Information Networks",
+      "description": "This course provides a comprehensive introduction to wireless networking technologies.  It presents the hardware and software components of wireless networks as well as covering of the priniciples of wireless communications with respect to transmission techniques, medium access, encoding and decoding of signals, methods of digital signal processing (DSP) and routing.  Different types of existing and emerging wireless networking technology standards and their applications will be examined with emphasis on their design, implementation, security and maintenance in a business environment.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881191-1901-01-01",
+      "courseGroupId": "0881191",
+      "code": "CIS 480",
+      "subjectCode": "CIS",
+      "courseNumber": "480",
+      "longName": "Operating Systems Concepts",
+      "name": "Operating Systems Concepts",
+      "description": "This course covers the main operating systems that are being used in the computer industry today. Emphasis is placed on OS and its libraries, systems generation, linkage, editor, JCL, and data management techniques. The course reviews other operating systems and compares them to OS.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881211-2020-10-01",
+      "courseGroupId": "0881211",
+      "code": "CIS 485",
+      "subjectCode": "CIS",
+      "courseNumber": "485",
+      "longName": "Web Programming Il",
+      "name": "Web Programming Il",
+      "description": "This course introduces students to server-side web programming. Emphasis is placed on database connectivity in order to solve intermediate level applicationproblems using server side programming language. Students will be assigned web projects that facilitate understanding of design and programming of client server concepts. The final project consists of the creation of a web application with input, output, and database components.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1465561-2018-07-01",
+      "courseGroupId": "1465561",
+      "code": "CIS 490",
+      "subjectCode": "CIS",
+      "courseNumber": "490",
+      "longName": "Introduction Data Science",
+      "name": "Introduction Data Science",
+      "description": "This course introduces the fundamentals of managing large unstructured datasets that are in a variety of formats. The topics include the concept of big data, its characteristics (volume, velocity, variety, veracity); its data models (key value, graph etc.); its storage technologies (Hadoop); its processing tools (NoSQL, ETL, MapReduce) and its role in analytics.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881221-1901-01-01",
+      "courseGroupId": "0881221",
+      "code": "CIS 495",
+      "subjectCode": "CIS",
+      "courseNumber": "495",
+      "longName": "Database Systems Il",
+      "name": "Database Systems Il",
+      "description": "This advanced course builds upon the design, implementation, testing, and manipulation concepts and techniques learned in CIS 395. The course starts with a review of the relational model, entity relational diagrams, normalization, and basic SQL. Database administration topics presented include security, back-up and recovery. Advanced topics in design techniques include indexing structures and data storage. Advanced implementation topics include SQL programming, store procedure and triggers. Advanced manipulation topics include transaction processing concurrency control.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1235291-2015-09-01",
+      "courseGroupId": "1235291",
+      "code": "CSC 101",
+      "subjectCode": "CSC",
+      "courseNumber": "101",
+      "longName": "Principles in Information Technology and Computation",
+      "name": "Principles In Info Tech & Comp",
+      "description": "This course introduces the student to the principles and theories of computation and information processing.  The topics include hardware and software organization, data representation, algorithm development and networking principles.  Special emphasis will be placed on creation of knowledge from data; the impact of computation on daily life; role of abstraction in solving problems; and implementation of algorithms on a variety of platforms including the Internet.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-09-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1552741-2025-01-25",
+      "courseGroupId": "1552741",
+      "code": "CSC 102",
+      "subjectCode": "CSC",
+      "courseNumber": "102",
+      "longName": "Exploring Robotics",
+      "name": "Exploring Robotics",
+      "description": "The course introduces the fundamentals of robotics, such as locomotion, sensing, and control using elementary programming within a graphical environment. Students are introduced to computational thinking and programming concepts through the use of project-based educational robotics activities. Collaborating in small groups, students will participate in projects using robots to address issues for social good.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1519031-2025-05-27",
+      "courseGroupId": "1519031",
+      "code": "CSC 103",
+      "subjectCode": "CSC",
+      "courseNumber": "103",
+      "longName": "Introduction to Data Analytics",
+      "name": "Introduction to Data Analytics",
+      "description": "This course is an introduction to the analysis of data. Topics include data preparation exploratory data analysis and data visualization. Some of the most commonly used classification and clustering techniques will also be covered. Students will apply these topics to real-world problems including science, business and engineering fields.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "CLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-05-27",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881311-2024-08-28",
+      "courseGroupId": "0881311",
+      "code": "CSC 110",
+      "subjectCode": "CSC",
+      "courseNumber": "110",
+      "longName": "Computer Programming I",
+      "name": "Computer Programming I",
+      "description": "This course is an introduction to the fundamental concepts of computer programming using a high-level programming language.  The topics include program design, algorithm development using various control structures, modularization, debugging and documentation. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "MECI - ME_COIS_2 (Programming I)"
+      ],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "MECI - ME_COIS_2 (Programming I)"
+      ]
+    },
+    {
+      "id": "1337391-2025-08-25",
+      "courseGroupId": "1337391",
+      "code": "CSC 111",
+      "subjectCode": "CSC",
+      "courseNumber": "111",
+      "longName": "Introduction to Programming",
+      "name": "Introduction to Programming",
+      "description": "This course is an introduction to the fundamental concepts and terms of computer science, including algorithms, problem solving techniques, data types, concept of loops, conditional statements, modular programming, pointers, arrays, strings, basic file processing, structures and simple classes. Students will use a high-level computer programming language to solve a variety of problems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "MECI - ME_COIS_2 (Programming I)",
+        "UTCO - UT_COSC_1 (Programming I)"
+      ],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "UTCO - UT_COSC_1 (Programming I)"
+      ]
+    },
+    {
+      "id": "1560561-2025-08-25",
+      "courseGroupId": "1560561",
+      "code": "CSC 203",
+      "subjectCode": "CSC",
+      "courseNumber": "203",
+      "longName": "Python Programming for Data Science",
+      "name": "Python Programming Data Sci",
+      "description": "This course builds upon Python programming skills acquired in CSC 101. Students will be introduced to data science tools and advanced Python programming topics such as Dictionaries and Sets, Array-Oriented Programming with NumPy, Strings, Files and Exceptions, Object-Oriented Programming, Recursion, Searching, Sorting and Big O. By the end of this course, students are expected to become proficient in Python programming, master the basic methods of data visualization, and able to manipulate multidimensional data at an advanced level using data science libraries.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881321-2024-08-28",
+      "courseGroupId": "0881321",
+      "code": "CSC 210",
+      "subjectCode": "CSC",
+      "courseNumber": "210",
+      "longName": "Computer Programming II",
+      "name": "Computer Programming II",
+      "description": "This course is a continuation of CSC 110. Students are introduced to elementary data structures, string processing, and searching and sorting techniques. Students are expected to complete several complex programs.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "MECI - ME_COIS_3 (Programming II)"
+      ],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "MECI - ME_COIS_3 (Programming II)"
+      ]
+    },
+    {
+      "id": "1337401-2025-08-25",
+      "courseGroupId": "1337401",
+      "code": "CSC 211",
+      "subjectCode": "CSC",
+      "courseNumber": "211",
+      "longName": "Adv. Programming Techniques",
+      "name": "Adv. Programming Techniques",
+      "description": "This is a second course in programming which will further develop those skills gained in CSC 111 emphasizing reliability, maintainability, and reusability. Students will be introduced to applications of Pointers, Dynamic memory allocation, Arrays, Abstract data types, Objects, classes, and object-oriented design. Additional programming topics such as Inheritance, Polymorphism, Text Processing, Exception Handling, Recursion and Templates will also be covered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "MECI - ME_COIS_3 (Programming II)",
+        "UTCO - UT_COSC_2 (Programming II)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "MECI - ME_COIS_3 (Programming II)",
+        "UTCO - UT_COSC_2 (Programming II)"
+      ]
+    },
+    {
+      "id": "1483781-2016-06-01",
+      "courseGroupId": "1483781",
+      "code": "CSC 211H",
+      "subjectCode": "CSC",
+      "courseNumber": "211H",
+      "longName": "Advanced Programming Technique (Honors)",
+      "name": "Adv Programming Tech (Honors)",
+      "description": "This is a second course in programming which will further develop those skills gained in CSC 111 emphasizing reliability, maintainability, and reusability. Students will be introduced to applications of Pointers, Dynamic memory allocation, Arrays, Abstract data types, Objects, classes, and object-oriented design. Additional programming topics such as Inheritance, Polymorphism, Text Processing, Exception Handling, Recursion and Templates will also be covered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1337421-2016-06-01",
+      "courseGroupId": "1337421",
+      "code": "CSC 215",
+      "subjectCode": "CSC",
+      "courseNumber": "215",
+      "longName": "Fundamentals of Computer Systems",
+      "name": "Fund. of Computer Systems",
+      "description": "This course covers the fundamentals of computer organization and digital logic. Topics include number systems and codes, Boolean algebra, digital circuits, combinational logic design principles, sequential logic design principles, functional components of computer systems, hardware description language, and assembly language. Students will use computer aided design (CAD) tools for digital logic design, analysis and simulation.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881331-2019-04-01",
+      "courseGroupId": "0881331",
+      "code": "CSC 230",
+      "subjectCode": "CSC",
+      "courseNumber": "230",
+      "longName": "Discrete Structures",
+      "name": "Discrete Structures",
+      "description": "This course covers mathematical foundations for computer science. Topics include algorithm analysis, recursion and recurrence, graph theory, trees, Boolean algebra, and modeling computation. Students will be expected to complete projects for each topic involving formal proof techniques, mathematical reasoning and/or programming.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1337441-2025-08-25",
+      "courseGroupId": "1337441",
+      "code": "CSC 231",
+      "subjectCode": "CSC",
+      "courseNumber": "231",
+      "longName": "Discrete Structures and Applications to Computer Science",
+      "name": "Disc Struc & Applic Comp Sci",
+      "description": "This course covers the computer science applications of fundamental mathematical structures. Topics include logic, set theory, function, relations, algorithm, recursion, recurrence relations, principle of counting, graph theory, trees, and Boolean algebra. Students will be expected to complete projects for each topic involving formal proof techniques, mathematical reasoning and/or programming.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "MECS - ME_COSC_3 (Discrete Math Structures)",
+        "UTCO - UT_COSC_5 (Discrete Math Structures)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "UTCO - UT_COSC_5 (Discrete Math Structures)"
+      ]
+    },
+    {
+      "id": "1521391-2016-06-01",
+      "courseGroupId": "1521391",
+      "code": "CSC 231H",
+      "subjectCode": "CSC",
+      "courseNumber": "231H",
+      "longName": "Discrete Structures and Applications to Computer Science (Honors)",
+      "name": "DiscStruc&AppCompSci (Honors)",
+      "description": "This course covers the computer science applications of fundamental mathematical structures. Topics include logic, set theory, function, relations, algorithm, recursion, recurrence relations, principle of counting, graph theory, trees, and Boolean algebra. Students will be expected to complete projects for each topic involving formal proof techniques, mathematical reasoning and/or programming.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881341-1901-01-01",
+      "courseGroupId": "0881341",
+      "code": "CSC 310",
+      "subjectCode": "CSC",
+      "courseNumber": "310",
+      "longName": "Assembler Language and Architecture I",
+      "name": "Assembler Lang and Architect I",
+      "description": "This course is designed to provide a basic knowledge of computer architecture and Assembler Language programming with emphasis on the following areas: main storage organization, instruction sets and addressing, index and displacement registers, interrupts and the program status word.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881351-1901-01-01",
+      "courseGroupId": "0881351",
+      "code": "CSC 330",
+      "subjectCode": "CSC",
+      "courseNumber": "330",
+      "longName": "Data Structures I",
+      "name": "Data Structures I",
+      "description": "This course is an introduction to abstract data structures, their use and implementation. Storage allocation techniques, including stacks, queues, and linked lists and recursive programming will be discussed. Students will be expected to complete several programming assignments illustrating the basic concepts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1364891-1901-01-01",
+      "courseGroupId": "1364891",
+      "code": "CSC 330H",
+      "subjectCode": "CSC",
+      "courseNumber": "330H",
+      "longName": "Data Structures I (Honors)",
+      "name": "Data Structures I (Honors)",
+      "description": "This course is an introduction to abstract data structures, their use and implementation. Storage allocation techniques, including stacks, queues, and linked lists and recursive programming will be discussed. Students will be expected to complete several programming assignments illustrating the basic concepts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1337451-2019-10-01",
+      "courseGroupId": "1337451",
+      "code": "CSC 331",
+      "subjectCode": "CSC",
+      "courseNumber": "331",
+      "longName": "Data Structures",
+      "name": "Data Structures",
+      "description": "This course will introduce students to linear and non-linear data structures, their use and implementation, algorithms, and software engineering techniques. Topics will include: stacks, queues, lined lists, has tables, trees, graphs, searching and sorting techniques. Asymptotic analysis of algorithms and data structures will also be discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 1
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1367581-2019-10-01",
+      "courseGroupId": "1367581",
+      "code": "CSC 331H",
+      "subjectCode": "CSC",
+      "courseNumber": "331H",
+      "longName": "Data Structures (Honors)",
+      "name": "Data Structures (Honors)",
+      "description": "This course will introduce students to linear and non-linear data structures, their use and implementation, algorithms, and software engineering techniques. Topics will include: stacks, queues, lined lists, has tables, trees, graphs, searching and sorting techniques. Asymptotic analysis of algorithms and data structures will also be discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)",
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 1
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1337461-2016-06-01",
+      "courseGroupId": "1337461",
+      "code": "CSC 350",
+      "subjectCode": "CSC",
+      "courseNumber": "350",
+      "longName": "Software Development",
+      "name": "Software Development",
+      "description": "This course covers the fundamentals of software development, including software development life cycle, object-oriented paradigm, design patterns and event-driven programming working in teams. The students are required to develop software applications with graphic user interfaces and databases.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1521491-2016-06-01",
+      "courseGroupId": "1521491",
+      "code": "CSC 350H",
+      "subjectCode": "CSC",
+      "courseNumber": "350H",
+      "longName": "Software Development (Honors)",
+      "name": "Software Development (Honors)",
+      "description": "This course covers the fundamentals of software development, including software development life cycle, object-oriented paradigm, design patterns and event-driven programming working in teams. The students are required to develop software applications with graphic user interfaces and databases.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)",
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "0881361-1901-01-01",
+      "courseGroupId": "0881361",
+      "code": "CSC 410",
+      "subjectCode": "CSC",
+      "courseNumber": "410",
+      "longName": "Assembler Language and Architecture II",
+      "name": "Assem Lang & Arc II",
+      "description": "The students enhance their knowledge of Assembler Language and machine architecture by writing sophisticated programs utilizing indexing, subroutines and linkage conventions. User and system macros, conditional assembly and file input/output operations are covered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881371-2019-04-01",
+      "courseGroupId": "0881371",
+      "code": "CSC 430",
+      "subjectCode": "CSC",
+      "courseNumber": "430",
+      "longName": "Data Structures II",
+      "name": "Data Structures II",
+      "description": "This course introduces students to complex data structures. Topics include the manipulation and uses of trees, graphs and heaps; the design and analysis of various searching and sorting algorithms and their applications.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1364881-1901-01-01",
+      "courseGroupId": "1364881",
+      "code": "CSC 430H",
+      "subjectCode": "CSC",
+      "courseNumber": "430H",
+      "longName": "Data Structures II (Honors)",
+      "name": "Data Structures II (Honors)",
+      "description": "This course introduces the student to more complex data structures. Topics include: the manipulation of trees, graphs and multi-linked structures, design and analysis of searching and sorting algorithms with emphasis on complexity and efficiency and memory management.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881381-1901-01-01",
+      "courseGroupId": "0881381",
+      "code": "CSC 450",
+      "subjectCode": "CSC",
+      "courseNumber": "450",
+      "longName": "Computer Graphics",
+      "name": "Computer Graphics",
+      "description": "This course is an introduction to the principles of interactive computer graphics, including input techniques and devices, display files, and two-and-three-dimensional computer graphics.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881391-1901-01-01",
+      "courseGroupId": "0881391",
+      "code": "CSC 470",
+      "subjectCode": "CSC",
+      "courseNumber": "470",
+      "longName": "Mathematical Foundations of Computer Networking",
+      "name": "Math Fndtns of Comp Networking",
+      "description": "This course presents the mathematical concepts underlying computer networks.  The course introduces probability and stochastic process, queuing analysis and basic graph theory and relates these topics to various layers of the seven layer open systems interface (OSI) organization model of computer networks.  Practical laboratory projects provide concrete illustratration of theoretical concepts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1452651-2018-06-01",
+      "courseGroupId": "1452651",
+      "code": "GIS 101",
+      "subjectCode": "GIS",
+      "courseNumber": "101",
+      "longName": "Digital Earth",
+      "name": "Digital Earth",
+      "description": "This course is designed to introduce students to a new suite of geospatial technologies, as well as the tools that geospatial professionals use to access, manipulate, and display geographic information related to digital earth. It covers the fundamentals of geographic information systems (GIS), remote sensing (RS), global positioning systems (GPS), and cartography (the science and art of map-making). Practical application of geospatial technologies and map creation using a variety of publicly available mapping programs will be discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1236101-1901-01-01",
+      "courseGroupId": "1236101",
+      "code": "GIS 201",
+      "subjectCode": "GIS",
+      "courseNumber": "201",
+      "longName": "Introduction to Geographic Methods",
+      "name": "Intro To Geographic Methods",
+      "description": "This course introduces the means by which geographers analyze the world to better understand geography and geographical processes. It teaches the students various methods for interpreting and analyzing spatial data including cartography, Geographic Information Systems (GIS), remote sensing, spatial statistics and survey research.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1236111-1901-01-01",
+      "courseGroupId": "1236111",
+      "code": "GIS 261",
+      "subjectCode": "GIS",
+      "courseNumber": "261",
+      "longName": "Introduction to Geographic Information Science",
+      "name": "Intro To Geographic Info Sci",
+      "description": "This course focuses on the basic principles and operation of geographic information systems (GIS). Students will study how to use computerized systems for the capture, storage, management, analysis and display of geographically referenced data and their attributes. Professional GIS software packages will be used in lab exercises to provide students with hands-on experience.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1310861-2017-11-01",
+      "courseGroupId": "1310861",
+      "code": "GIS 325",
+      "subjectCode": "GIS",
+      "courseNumber": "325",
+      "longName": "Geographic Information Science Internship",
+      "name": "Geo Info Science Internship",
+      "description": "The objective of the internship is to allow the student to put classroom theory in major into the practice in order to gain work experience. Each student-intern will work 15 hours a week for the length of the semester. Each student-intern is assigned to an internship professor who is knowledgeable about the student's field. The internship professor helps the student secure internship placement in a work site related to the student's major, or assists the student to reconstruction her/his present position as an internship, or develop - by special arrangement  an internship with her/his present employer, and serves as the student's instructor and advisor during the field experience. Student interns are expected to work 15 hours a week, complete a term project assigned by the internship professor, and be evaluated by the work site supervisor. Students to be placed are expected to arrange their schedules so that they are free mornings, or afternoons, Monday-Friday, or two to three full days per week.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "1236121-2019-04-01",
+      "courseGroupId": "1236121",
+      "code": "GIS 361",
+      "subjectCode": "GIS",
+      "courseNumber": "361",
+      "longName": "Advances Geographic Information Science",
+      "name": "Advanced Geographic Info Sci",
+      "description": "This is an advanced course on Geographic Information Science that builds upon the concepts covered in GIS 261. It starts with review of the principles and operation of Geographic Information Systems (GIS). Then, it discusses the topics including geoprocessing, 3-D GIS, geostatistics, map design, map label, and map annotation. Laboratory exercises provide hands-on experience with professional GIS software. The basic programming concepts and skills in GIS application are covered. Students implement a major GIS project for a real world geography issue, which includes processes of system requirement, design, architecture, implementation, and installation.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CIS-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    }
+  ]
+}

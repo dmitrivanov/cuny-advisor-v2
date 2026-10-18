@@ -1,0 +1,116 @@
+[
+  {
+    "id": "DEV-BMC",
+    "name": "Academic Literacy and Linguistics",
+    "url": "https://bmcc.catalog.cuny.edu/departments/DEV-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/academic-literacy/"
+  },
+  {
+    "id": "ACCT-BMC",
+    "name": "Accounting",
+    "url": "https://bmcc.catalog.cuny.edu/departments/ACCT-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/accounting/"
+  },
+  {
+    "id": "ALHLTH-BMC",
+    "name": "Allied Health",
+    "url": "https://bmcc.catalog.cuny.edu/departments/ALHLTH-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/"
+  },
+  {
+    "id": "BUS-BMC",
+    "name": "Business Management",
+    "url": "https://bmcc.catalog.cuny.edu/departments/BUS-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/business-management/"
+  },
+  {
+    "id": "CIS-BMC",
+    "name": "Computer Information Systems",
+    "url": "https://bmcc.catalog.cuny.edu/departments/CIS-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/cis/"
+  },
+  {
+    "id": "COOP-BMC",
+    "name": "Cooperative Education",
+    "url": "https://bmcc.catalog.cuny.edu/departments/COOP-BMC/courses",
+    "web_url": null
+  },
+  {
+    "id": "CRJ-BMC",
+    "name": "Criminal Justice",
+    "url": "https://bmcc.catalog.cuny.edu/departments/CRJ-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/criminal-justice/"
+  },
+  {
+    "id": "ENGL-BMC",
+    "name": "English",
+    "url": "https://bmcc.catalog.cuny.edu/departments/ENGL-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/english/"
+  },
+  {
+    "id": "ETHST-BMC",
+    "name": "Ethnic and Race Studies",
+    "url": "https://bmcc.catalog.cuny.edu/departments/ETHST-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/ethnic-studies/"
+  },
+  {
+    "id": "HE-BMC",
+    "name": "Health Studies",
+    "url": "https://bmcc.catalog.cuny.edu/departments/HE-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/health-studies/"
+  },
+  {
+    "id": "MATH-BMC",
+    "name": "Mathematics",
+    "url": "https://bmcc.catalog.cuny.edu/departments/MATH-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/math/"
+  },
+  {
+    "id": "MAT-BMC",
+    "name": "Media Arts and Technology",
+    "url": "https://bmcc.catalog.cuny.edu/departments/MAT-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/media-arts-and-technology/"
+  },
+  {
+    "id": "MA-BMC",
+    "name": "Music and Art",
+    "url": "https://bmcc.catalog.cuny.edu/departments/MA-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/music-and-art/"
+  },
+  {
+    "id": "NUR-BMC",
+    "name": "Nursing",
+    "url": "https://bmcc.catalog.cuny.edu/departments/NUR-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/nursing/"
+  },
+  {
+    "id": "SCI-BMC",
+    "name": "Science",
+    "url": "https://bmcc.catalog.cuny.edu/departments/SCI-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/science/"
+  },
+  {
+    "id": "SOC-BMC",
+    "name": "Social Sciences and Human Services",
+    "url": "https://bmcc.catalog.cuny.edu/departments/SOC-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/"
+  },
+  {
+    "id": "SPCH-BMC",
+    "name": "Speech, Communications and Theatre Arts",
+    "url": "https://bmcc.catalog.cuny.edu/departments/SPCH-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/speech/"
+  },
+  {
+    "id": "TE-BMC",
+    "name": "Teacher Education",
+    "url": "https://bmcc.catalog.cuny.edu/departments/TE-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/"
+  },
+  {
+    "id": "ML-BMC",
+    "name": "World Languages, Literatures, and Cultures",
+    "url": "https://bmcc.catalog.cuny.edu/departments/ML-BMC/courses",
+    "web_url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/"
+  }
+]

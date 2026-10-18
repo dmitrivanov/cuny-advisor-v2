@@ -30,6 +30,17 @@ def test_only_authorized_workspace_and_conversation_routes_are_registered(client
     schema = client.get("/openapi.json").json()
     prefix = "/api/v1/academic/campuses/{campus_id}/programs/{program_id}/releases/{release_id}"
     assert {path: set(methods) for path, methods in schema["paths"].items()} == {
+        **{
+            path: {"get"}
+            for path in [
+                "/api/v1/bmcc-catalog/snapshots",
+                "/api/v1/bmcc-catalog/{snapshot}/departments",
+                "/api/v1/bmcc-catalog/{snapshot}/sources",
+                "/api/v1/bmcc-catalog/{snapshot}/programs",
+                "/api/v1/bmcc-catalog/{snapshot}/courses",
+                "/api/v1/bmcc-catalog/{snapshot}/courses/{course_id}",
+            ]
+        },
         "/api/v1/health": {"get"},
         "/api/v1/institutions": {"get"},
         "/api/v1/institutions/{slug}": {"get"},

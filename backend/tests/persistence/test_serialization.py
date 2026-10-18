@@ -62,7 +62,8 @@ def test_frozen_migration_matches_metadata():
     generated = [
         str(CreateTable(table).compile(dialect=dialect()))
         for table in metadata.sorted_tables
-        if table.name
+        if not table.name.startswith("browse_")
+        and table.name
         not in {
             "institution_registry_snapshot",
             "institution",

@@ -1,0 +1,3953 @@
+{
+  "department_id": "SCI-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "ab066a56871160b4c082564aed07cf6d2478cbdfd1d34add249858224cb90daf",
+  "records": [
+    {
+      "id": "1231941-1901-01-01",
+      "courseGroupId": "1231941",
+      "code": "AST 106",
+      "subjectCode": "AST",
+      "courseNumber": "106",
+      "longName": "Astronomy: Models",
+      "name": "Astronomy: Models",
+      "description": "This course will focus on how astronomers have used observations to construct models of our Universe. Students will use their own observations (collected in the co-requisite AST 107 course) along with readings and class discussions, to construct and test models of our Universe.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1231951-1901-01-01",
+      "courseGroupId": "1231951",
+      "code": "AST 107",
+      "subjectCode": "AST",
+      "courseNumber": "107",
+      "longName": "Astronomy: Observations",
+      "name": "Astronomy: Observations",
+      "description": "This course will focus on how astronomers have collected observations to test models of our universe. Students will collect their own observations (to be used in the co-requisite AST 106 course for model building) and analyze those observations. Models constructed in AST 106 will suggest observational tests, which will be carried out in AST 107.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1230681-1901-01-01",
+      "courseGroupId": "1230681",
+      "code": "AST 108",
+      "subjectCode": "AST",
+      "courseNumber": "108",
+      "longName": "Astronomy: General Theory",
+      "name": "Astronomy: General Theory",
+      "description": "This course is an introductory survey course of topics in astronomical theory, especially for students who are not science-oriented.  A selected number of basic topics in astronomy are carefully examined and interpreted.  The relevance of the scientist and his/her work to the lives of non-scientists is continually examined.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1230691-1901-01-01",
+      "courseGroupId": "1230691",
+      "code": "AST 109",
+      "subjectCode": "AST",
+      "courseNumber": "109",
+      "longName": "Astronomy: General Observations",
+      "name": "Astronomy: General Observation",
+      "description": "This course serves as an observational introduction to astronomy, especially for students who are not science oriented.  A selected number of basic topics in astronomy are carefully examined and subjected to observational verification.  The relevance of the scientist and his/her work to the lives of non-scientists is continually examined.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877391-2013-05-01",
+      "courseGroupId": "0877391",
+      "code": "AST 110",
+      "subjectCode": "AST",
+      "courseNumber": "110",
+      "longName": "General Astronomy",
+      "name": "General Astronomy",
+      "description": "This course introduces students to the world beyond the earth. The methods of astronomy and our knowledge of the structure of the universe are presented as an ongoing human endeavor that has helped shape modern man as he/she takes his/her first steps into space.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1481981-2013-05-01",
+      "courseGroupId": "1481981",
+      "code": "AST 110H",
+      "subjectCode": "AST",
+      "courseNumber": "110H",
+      "longName": "General Astronomy (Honors)",
+      "name": "General Astronomy (Honors)",
+      "description": "This course introduces students to the world beyond the earth. The methods of astronomy and our knowledge of the structure of the universe are presented as an ongoing human endeavor that has helped shape modern man as he/she takes his/her first steps into space.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1300061-2015-02-23",
+      "courseGroupId": "1300061",
+      "code": "AST 111",
+      "subjectCode": "AST",
+      "courseNumber": "111",
+      "longName": "Astronomy: Observations and Models",
+      "name": "Astronomy: Observation & Model",
+      "description": "This course will focus on how astronomers have made observations, and used those observations to construct models of our universe. Students will collect their own observations and use them to test models of our universe.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-02-23",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1231961-1901-01-01",
+      "courseGroupId": "1231961",
+      "code": "BIO 108",
+      "subjectCode": "BIO",
+      "courseNumber": "108",
+      "longName": "General Biology Theory",
+      "name": "General Biology Theory",
+      "description": "General Biology presents an overview of many important topics in the natural sciences today and provides relevant background material from the physical sciences.  It traces life from its beginning (cells) to the development of multi-cellular organisms.  It covers topics such as evolution, the cell, macromolecules, energy relationships, inheritance, molecular genetics, biotechnology, and body systems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1530701-1901-01-01",
+      "courseGroupId": "1530701",
+      "code": "BIO 108H",
+      "subjectCode": "BIO",
+      "courseNumber": "108H",
+      "longName": "General Biology Theory (Honors)",
+      "name": "General Biology Theory (Honors",
+      "description": "General Biology presents an overview of many important topics in the natural sciences today and provides relevant background material from the physical sciences.  It traces life from its beginning (cells) to the development of multi-cellular organisms.  It covers topics such as evolution, the cell, macromolecules, energy relationships, inheritance, molecular genetics, biotechnology, and body systems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1231981-1901-01-01",
+      "courseGroupId": "1231981",
+      "code": "BIO 109",
+      "subjectCode": "BIO",
+      "courseNumber": "109",
+      "longName": "General Biology",
+      "name": "General Biology",
+      "description": "General Biology presents an overview of many important topics in the natural sciences today and provides relevant background material from the physical sciences.  It traces life from its beginning (cells) to the development of multi-cellular organisms.  It covers topics such as taxonomy, the cell, macromolecules, photosynthesis, inheritance, molecular genetics, and body systems.  This class includes a 1 hour lecture and a 2 hour lab session. The lecture hour will be an expansion of the lecture content covered in the co-requisite class BIO 108 - information needed to carry out experiments in the 2 hour hands-on laboratory experience.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877511-1901-01-01",
+      "courseGroupId": "0877511",
+      "code": "BIO 110",
+      "subjectCode": "BIO",
+      "courseNumber": "110",
+      "longName": "General Biology",
+      "name": "General Biology",
+      "description": "Basic cellular structure, tissue organization, physiological process, reproduction and genetics are studied. Special attention is given to selected zoological specimens with particular emphasis upon man.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1299651-2015-05-01",
+      "courseGroupId": "1299651",
+      "code": "BIO 111",
+      "subjectCode": "BIO",
+      "courseNumber": "111",
+      "longName": "Human Biology",
+      "name": "Human Biology",
+      "description": "Introduction to the structure and function of the human body with emphasis on both the physiological mechanisms in health and disease, as well as concepts and current issues in human biology. Topics include: the molecules of life, cells, tissues, and organ system homeostasis; the skeleton, muscles, the heart, blood, skin, the sensory mechanisms of the eye, ear, taste, touch, and perception; nervous, endocrine, respiratory systems, the brain, genetics, and immune system, infectious diseases, cancer and nutrition.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877521-2025-08-25",
+      "courseGroupId": "0877521",
+      "code": "BIO 210",
+      "subjectCode": "BIO",
+      "courseNumber": "210",
+      "longName": "Biology I",
+      "name": "Biology I",
+      "description": "This two-semester course acquaints students with the basic properties of living systems: metabolism, growth, responsiveness and reproduction at the cellular and organism levels as illustrated by assorted plants and animals. Two terms required.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "MEBI - ME_BIOL_1 (Intro Bio Molecular & Cellular)",
+        "UTBI - UT_BIOL_1 (Molecular and Cellular Biology)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEBI - ME_BIOL_1 (Intro Bio Molecular & Cellular)",
+        "UTBI - UT_BIOL_1 (Molecular and Cellular Biology)"
+      ]
+    },
+    {
+      "id": "0877531-2025-08-25",
+      "courseGroupId": "0877531",
+      "code": "BIO 220",
+      "subjectCode": "BIO",
+      "courseNumber": "220",
+      "longName": "Biology II",
+      "name": "Biology II",
+      "description": "This two-semester course acquaints students with the basic properties of living systems: metabolism, growth, responsiveness and reproduction at the cellular and organism levels as illustrated by assorted plants and animals. Two terms required.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "MEBI - ME_BIOL_2 (Intro Bio Organismic)",
+        "UTBI - UT_BIOL_2 (Organismic Biology)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEBI - ME_BIOL_2 (Intro Bio Organismic)",
+        "UTBI - UT_BIOL_2 (Organismic Biology)"
+      ]
+    },
+    {
+      "id": "1470931-2013-05-01",
+      "courseGroupId": "1470931",
+      "code": "BIO 220H",
+      "subjectCode": "BIO",
+      "courseNumber": "220H",
+      "longName": "Biology II (Honors)",
+      "name": "Biology II (Honors)",
+      "description": "This two-semester course acquaints students with the basic properties of living systems: metabolism, growth, responsiveness and reproduction at the cellular and organism levels as illustrated by assorted plants and animals. Two terms required.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MEBI - ME_BIOL_2 (Intro Bio Organismic)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEBI - ME_BIOL_2 (Intro Bio Organismic)"
+      ]
+    },
+    {
+      "id": "0877541-2018-10-01",
+      "courseGroupId": "0877541",
+      "code": "BIO 230",
+      "subjectCode": "BIO",
+      "courseNumber": "230",
+      "longName": "Fundamentals of Microbiology",
+      "name": "Fundamentals of Microbiology",
+      "description": "BIO 230 is a general Microbiology that teaches students about microorganisms’ evolution, structure, metabolism and genetics. The course also covers the essentials of microbial ecology, the interactions of microorganisms with other living organisms as well as how microorganisms can be used in different industries. The laboratory section will introduce students to several techniques for isolation, culture, differentiation and identification of microorganisms. Also, students will be exposed to current approaches to analyze DNA and proteins.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877551-2025-08-25",
+      "courseGroupId": "0877551",
+      "code": "BIO 240",
+      "subjectCode": "BIO",
+      "courseNumber": "240",
+      "longName": "Genetics",
+      "name": "Genetics",
+      "description": "Genetics is designed as a one-semester course covering the fundamental concepts of classical, molecular, and human genetics. The student gains a background that facilitates a greater understanding of recent advances in molecular biology and human inheritance.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "UTBI - UT_BIOL_6 (Genetics)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "UTBI - UT_BIOL_6 (Genetics)"
+      ]
+    },
+    {
+      "id": "1121151-2013-05-01",
+      "courseGroupId": "1121151",
+      "code": "BIO 260",
+      "subjectCode": "BIO",
+      "courseNumber": "260",
+      "longName": "Cell Biology",
+      "name": "Cell Biology",
+      "description": "The goal of this course is to provide students with a detailed understanding of the molecular mechanisms underlying cellular processes introduced in BIO 210/220- the structure, function and specializations of the cell.  This will be accomplished through a combination of lecture and laboratory sessions providing both theory and application.  The course will include study of subcellular structure and function, gene expression, protein activity, cell regulation and cell-to-cell communication. Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1286201-2014-05-01",
+      "courseGroupId": "1286201",
+      "code": "BIO 270",
+      "subjectCode": "BIO",
+      "courseNumber": "270",
+      "longName": "Plant Biology",
+      "name": "Plant Biology",
+      "description": "This course is designed to provide students with the fundamentals of plant biology such as anatomy, morphology, growth and development, reproduction, genetics, physiology, plant ecology and an overview of evolution and the importance of plants in society. This course includes hands on laboratory experience and life plant materials integrated with the lecture content.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1312751-2015-10-01",
+      "courseGroupId": "1312751",
+      "code": "BIO 283",
+      "subjectCode": "BIO",
+      "courseNumber": "283",
+      "longName": "Biology of Aging",
+      "name": "Biology of Aging",
+      "description": "The Biology of Aging is a course that explores the influence of environment, genetics and nutrition on cellular, morphological and physiological aspects of aging of the human body. It will focus on age-related alterations of the following body systems: integumentary, circulatory, respiratory, nervous, reproductive, immune, urinary and endocrine.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877571-2013-05-01",
+      "courseGroupId": "0877571",
+      "code": "BIO 420",
+      "subjectCode": "BIO",
+      "courseNumber": "420",
+      "longName": "Microbiology",
+      "name": "Microbiology",
+      "description": "Micro-organisms pathogenic to humans: their characteristics, pathogenicity and modes of transmission are studied. Instruction includes a study of the sterile technique and maintenance of the sterile field. Required in selected programs in the Health Sciences; available to other students through Departmental approval.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877601-2024-08-28",
+      "courseGroupId": "0877601",
+      "code": "BIO 425",
+      "subjectCode": "BIO",
+      "courseNumber": "425",
+      "longName": "Anatomy and Physiology I",
+      "name": "Anatomy and Physiology I",
+      "description": "This two-semester course explores the human body as an integrated, functional complex of systems. Terminology, structure and function of each organ-system, with emphasis on their interrelationships, are explained. Required of students in the health services technologies; available to all other students for elective credit.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "MENR - ME_NURS_2 (Anatomy and Physiology I)",
+        "MEHS - ME_HESA_6 (Anatomy and Physiology)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEHS - ME_HESA_6 (Anatomy and Physiology)",
+        "MENR - ME_NURS_2 (Anatomy and Physiology I)"
+      ]
+    },
+    {
+      "id": "1371621-2013-05-01",
+      "courseGroupId": "1371621",
+      "code": "BIO 425H",
+      "subjectCode": "BIO",
+      "courseNumber": "425H",
+      "longName": "Anatomy and Physiology I (Honors)",
+      "name": "Anat & Physiol I (Honors)",
+      "description": "This two-semester course explores the human body as an integrated, functional complex of systems. Terminology, structure and function of each organ-system, with emphasis on their interrelationships, are explained. Required of students in the health services technologies; available to all other students for elective credit.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MENR - ME_NURS_2 (Anatomy and Physiology I)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MENR - ME_NURS_2 (Anatomy and Physiology I)"
+      ]
+    },
+    {
+      "id": "0877611-2013-05-01",
+      "courseGroupId": "0877611",
+      "code": "BIO 426",
+      "subjectCode": "BIO",
+      "courseNumber": "426",
+      "longName": "Anatomy and Physiology II",
+      "name": "Anatomy and Physiology II",
+      "description": "This two-semester course explores the human body as an integrated, functional complex of systems. Terminology, structure and function of each organ-system, with emphasis on their interrelationships, are explained. Required of students in the health services technologies; available to all other students for elective credit.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "MENR - ME_NURS_3 (Anatomy and Physiology II)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MENR - ME_NURS_3 (Anatomy and Physiology II)"
+      ]
+    },
+    {
+      "id": "1366151-2013-05-01",
+      "courseGroupId": "1366151",
+      "code": "BIO 426H",
+      "subjectCode": "BIO",
+      "courseNumber": "426H",
+      "longName": "Anatomy and Physiology II (Honors)",
+      "name": "Anat & Physiol II (Honors)",
+      "description": "This two-semester course explores the human body as an integrated, functional complex of systems. Terminology, structure and function of each organ-system, with emphasis on their interrelationships, are explained. Required of students in the health services technologies; available to all other students for elective credit.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MENR - ME_NURS_3 (Anatomy and Physiology II)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "MENR - ME_NURS_3 (Anatomy and Physiology II)"
+      ]
+    },
+    {
+      "id": "1121171-2013-05-01",
+      "courseGroupId": "1121171",
+      "code": "BTE 201",
+      "subjectCode": "BTE",
+      "courseNumber": "201",
+      "longName": "Introduction to Biotechnology",
+      "name": "Introduction to Biotechnology",
+      "description": "This course introduces the student to theory and laboratory practices in biotechnology with emphasis on the impact of biotechnology on daily life, health, ethics and society.  The course is designed to impart the skills needed for entry-level jobs or to continue on a career path in biotechnology, by exposing students to a variety of careers, laboratory techniques and social issues in the biotechnology industry.  Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 5,
+        "creditHours": {
+          "min": 5,
+          "max": 5,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 5,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1243641-1901-01-01",
+      "courseGroupId": "1243641",
+      "code": "CHE 108",
+      "subjectCode": "CHE",
+      "courseNumber": "108",
+      "longName": "Concepts in Chemistry",
+      "name": "Concepts in Chemistry",
+      "description": "This is a survey course that introduces essential topics in atomic and molecular structure, chemical and physical properties, and chemical reactivity.  These concepts will form a basis for understanding biological applications and environmental issues.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1243651-1901-01-01",
+      "courseGroupId": "1243651",
+      "code": "CHE 109",
+      "subjectCode": "CHE",
+      "courseNumber": "109",
+      "longName": "Concepts in Chemistry Laboratory",
+      "name": "Concepts In Chemistry Lab",
+      "description": "This course investigates chemical concepts through laboratory experiments on structure, chemical reactions, and energy changes.   Experiments will that relate to biological chemistry and environmental measurements will also be included.  Concepts relevant to the laboratory experiments will be discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880421-1901-01-01",
+      "courseGroupId": "0880421",
+      "code": "CHE 110",
+      "subjectCode": "CHE",
+      "courseNumber": "110",
+      "longName": "General Chemistry",
+      "name": "General Chemistry",
+      "description": "This course is designed specifically for the non-science major and should only be taken by students in non-science disciplines: liberal arts, business, etc. It explores the world of atoms and molecules and relates this submicroscope world to the daily life of the student. Topics to be discussed include plastics, foods, the environment, genetics and drugs.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880451-2013-05-01",
+      "courseGroupId": "0880451",
+      "code": "CHE 118",
+      "subjectCode": "CHE",
+      "courseNumber": "118",
+      "longName": "Fundamentals of Chemistry",
+      "name": "Fundamentals of Chemistry",
+      "description": "This is a one-semester course designed especially to meet the needs of students in the Health Technology Programs. Topics include modern atomic theory and an introduction to the molecular basis of matter through the study of chemical principles and reactions. Lecture and laboratory are integrally related.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880461-2013-05-01",
+      "courseGroupId": "0880461",
+      "code": "CHE 120",
+      "subjectCode": "CHE",
+      "courseNumber": "120",
+      "longName": "Fundamentals of Organic Chemistry",
+      "name": "Fund of Organic Chemistry",
+      "description": "This is an introduction to the chemistry of carbon compounds. The lecture emphasizes structure and bonding, reaction mechanisms, synthesis, stereochemistry, and applications to biological chemistry.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880471-2021-06-01",
+      "courseGroupId": "0880471",
+      "code": "CHE 121",
+      "subjectCode": "CHE",
+      "courseNumber": "121",
+      "longName": "Fundamentals General, Organic, Biological Chemistry I",
+      "name": "Gen Org Bio Chem I",
+      "description": "This course is a two-semester course sequence that introduces principles and concepts of general, organic and biological chemistry. The laboratory will provide experimental applications of these chemical topics. They are liberal arts electives. They are recommended for students intending to transfer to bachelor's degree Allied Health Science curricula. CHE 121-122 cannot be granted credit to fulfill degree requirements for Science (A.S.) and Engineering Science (A.S.).Students intending to apply for admission to programs such as Dentistry, Exercise Physiology, Medical Laboratory Science, Medicine, Pharmacy, Physician Assistant, Physical Therapy, or Veterinary Medicine need to enroll in CHE 201 instead of CHE 121 to meet admission or curricula requirements for these programs.Students intending to apply for admission to programs such as Diagnostic Medical Imaging (Sonography}, Exercise Science, Public Health, Radiology, or X-ray technician need to determine whether admission or curricula requirements for these programs require CHE 121 or CHE 201.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880481-2021-06-01",
+      "courseGroupId": "0880481",
+      "code": "CHE 122",
+      "subjectCode": "CHE",
+      "courseNumber": "122",
+      "longName": "Fundamentals General, Organic, Biological Chemistry II",
+      "name": "Gen Org Bio Chem II",
+      "description": "This course is a two-semester course sequence that introduces principles and concepts of general, organic and biological chemistry. The laboratory will provide experimental applications of these chemical topics. They are liberal arts electives. They are recommended for students intending to transfer to bachelor's degree Allied Health Science curricula. CHE 121-122 cannot be granted credit to fulfill degree requirements for Science (A.S.) and Engineering Science (A.S.).Students intending to apply for admission to programs such as Dentistry, Exercise Physiology, Medical Laboratory Science, Medicine, Pharmacy, Physician Assistant, Physical Therapy, or Veterinary Medicine need to enroll in CHE 201 instead of CHE 121 to meet admission or curricula requirements for these programs.Students intending to apply for admission to programs such as Diagnostic Medical Imaging (Sonography}, Exercise Science, Public Health, Radiology, or X-ray technician need to determine whether admission or curricula requirements for these programs require CHE 121 or CHE 201.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880491-1901-01-01",
+      "courseGroupId": "0880491",
+      "code": "CHE 125",
+      "subjectCode": "CHE",
+      "courseNumber": "125",
+      "longName": "Fundamentals of Biochemistry",
+      "name": "Fundamentals of Biochemistry",
+      "description": "This course is an introduction to the principles of biochemistry that studies the structure, function, energetics and metabolism of biomolecules. The laboratory emphasizes biochemical techniques.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880501-2025-08-25",
+      "courseGroupId": "0880501",
+      "code": "CHE 201",
+      "subjectCode": "CHE",
+      "courseNumber": "201",
+      "longName": "Chemistry I",
+      "name": "Chemistry I",
+      "description": "This is the first semester of a two-semester course sequence that involves the study of chemical principles including atomic and molecular theories, molecular structure, and reactivity. The Laboratory will include experiments illustrating the chemical principles. Two terms required. Required in A.S. )Science) and A.S. (Engineering Science). Fulfills science requirements for A.A. (Liberal Arts).Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "MEBI - ME_BIOL_3 (General Chemistry I)",
+        "UTBI - UT_BIOL_3 (General Chemistry I)",
+        "UTEG - UT_EGIN_5 (Chemistry I)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEBI - ME_BIOL_3 (General Chemistry I)",
+        "UTBI - UT_BIOL_3 (General Chemistry I)",
+        "UTEG - UT_EGIN_5 (Chemistry I)"
+      ]
+    },
+    {
+      "id": "0880511-2025-08-25",
+      "courseGroupId": "0880511",
+      "code": "CHE 202",
+      "subjectCode": "CHE",
+      "courseNumber": "202",
+      "longName": "College Chemistry II",
+      "name": "College Chemistry II",
+      "description": "This is the first semester of a two-semester course sequence that involves the study of chemical principles including atomic and molecular theories, molecular structure, and reactivity. The Laboratory will include experiments illustrating the chemical principles. Two terms required. Required in A.S. )Science) and A.S. (Engineering Science). Fulfills science requirements for A.A. (Liberal Arts).Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "MEBI - ME_BIOL_4 (General Chemistry II)",
+        "UTBI - UT_BIOL_4 (General Chemistry II)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEBI - ME_BIOL_4 (General Chemistry II)",
+        "UTBI - UT_BIOL_4 (General Chemistry II)"
+      ]
+    },
+    {
+      "id": "0880521-2013-05-01",
+      "courseGroupId": "0880521",
+      "code": "CHE 205",
+      "subjectCode": "CHE",
+      "courseNumber": "205",
+      "longName": "Quantitative Analysis",
+      "name": "Quantitative Analysis",
+      "description": "This course discusses the principles of classical and instrumental techniques in analytical chemistry. Laboratory experiments include gravimetric, volumetric and instrumental methods of analysis.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 9,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 6
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880551-2013-05-01",
+      "courseGroupId": "0880551",
+      "code": "CHE 230",
+      "subjectCode": "CHE",
+      "courseNumber": "230",
+      "longName": "Organic Chemistry I",
+      "name": "Organic Chemistry I",
+      "description": "This two-semester course sequence is the study of the structure and properties of the fundamental classes of organic compounds with emphasis on reactivity, reaction mechanisms, stereochemistry, electronic theory and applications to allied fields. Two terms are required.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 5,
+        "creditHours": {
+          "min": 5,
+          "max": 5,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 5,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880561-2013-05-01",
+      "courseGroupId": "0880561",
+      "code": "CHE 240",
+      "subjectCode": "CHE",
+      "courseNumber": "240",
+      "longName": "Organic Chemistry II",
+      "name": "Organic Chemistry II",
+      "description": "This two-semester course sequence is the study of the structure and properties of the fundamental classes of organic compounds with emphasis on reactivity, reaction mechanisms, stereochemistry, electronic theory and applications to allied fields. Two terms are required.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 5,
+        "creditHours": {
+          "min": 5,
+          "max": 5,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 5,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1282751-2014-05-01",
+      "courseGroupId": "1282751",
+      "code": "ENV 250",
+      "subjectCode": "ENV",
+      "courseNumber": "250",
+      "longName": "Environmental Science",
+      "name": "Environmental Science",
+      "description": "Environmental Science is a basic science class designed to incorporate the chemical and biological background needed to understand the current environmental issues facing our society. The topics covered include the basic principles of ecology, pollution, population growth, wildlife management, water resources and quality among others. Fundamental to the course is an understanding of scientific method and its application to dealing with complex environmental issues.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884401-1901-01-01",
+      "courseGroupId": "0884401",
+      "code": "ESC 111",
+      "subjectCode": "ESC",
+      "courseNumber": "111",
+      "longName": "Elements of Engineering Design",
+      "name": "Elements of Engineering Design",
+      "description": "This course provides an introduction to engineering practice through hands-on investigations, computer applications, and design projects in the fields of structures and robotics. All investigations and design projects are performed in groups and presented in oral and /or written form. Computers are used for documentation, data analysis and robot control.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 1,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884411-2010-06-01",
+      "courseGroupId": "0884411",
+      "code": "ESC 113",
+      "subjectCode": "ESC",
+      "courseNumber": "113",
+      "longName": "Computer Aided Analysis for Engineering",
+      "name": "Computer Aided Esc",
+      "description": "This course introduces topics important for engineers computer aided analysis techniques are introduced and used for the design, and modeling of engineering systems such as electrical circuits, pipelines, signal and image processing, aircraft engines, orbits and trajectories, protein molecules, and sewer treatment.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2010-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884421-1901-01-01",
+      "courseGroupId": "0884421",
+      "code": "ESC 130",
+      "subjectCode": "ESC",
+      "courseNumber": "130",
+      "longName": "Engineering Graphics",
+      "name": "Engineering Graphics",
+      "description": "This is a course in fundamental engineering drawing and industrial drafting-room practice. Lettering, orthographic projection, auxiliary views, sessions and conventions, pictorials, threads and fasteners, tolerances, detail drawing dimensioning and electrical drawing; introduction to computer-aided graphics are covered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1286211-2014-05-01",
+      "courseGroupId": "1286211",
+      "code": "ESC 131",
+      "subjectCode": "ESC",
+      "courseNumber": "131",
+      "longName": "Engineering Graphics - AutoCAD",
+      "name": "Engineering Graphics - AutoCAD",
+      "description": "This course provides the students with a basic working knowledge of Computer Aided Drafting. Through the use of engineering drawings, students develop skills in the use of a mainstream computer assisted drawing software package like AutoCAD for Civil Engineering. Methods and procedures are developed for solving practical drafting problems encountered in construction projects using Computer Aided Drafting methods. Students will learn the sequence of commands and/or steps required to start, create, save and plot CAD drawings. Skills are also developed in the reading and interpretation of typical working drawings from construction projects.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 3
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 1
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884431-1901-01-01",
+      "courseGroupId": "0884431",
+      "code": "ESC 200",
+      "subjectCode": "ESC",
+      "courseNumber": "200",
+      "longName": "Engineering Mechanics",
+      "name": "Engineering Mechanics",
+      "description": "This is a course in statics and dynamics and designed for engineering students. Among the topics covered are forces, equilibrium, friction, kinematics and dynamics of a particle, work and energy, linear and angular motion, and rotational dynamics of a rigid body.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884441-1901-01-01",
+      "courseGroupId": "0884441",
+      "code": "ESC 201",
+      "subjectCode": "ESC",
+      "courseNumber": "201",
+      "longName": "Engineering Mechanics I (Statics and Particle Kinematics)",
+      "name": "Engineering Mechanics I",
+      "description": "This course is a three-dimensional vector treatment of the static equilibrium of particles and rigid bodies. Topics include: equivalent force and coupled systems, static analysis of trusses, frames machines, friction, properties of surfaces and rigid bodies, particle kinematics, path variables, cylindrical coordinates and relative motion. Elements of design are incorporated in the course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884451-1901-01-01",
+      "courseGroupId": "0884451",
+      "code": "ESC 202",
+      "subjectCode": "ESC",
+      "courseNumber": "202",
+      "longName": "Engineering Mechanics II (Kinematics and Dynamics of Rigid Bodies)",
+      "name": "Engineering Mech II",
+      "description": "This course is a three-dimensional vector treatment of the kinematics of rigid bodies using various coordinate systems. Topics include: relative motion, particle dynamics, Newton's laws, energy and mechanical vibrations. Elements of design are incorporated in the course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884461-1901-01-01",
+      "courseGroupId": "0884461",
+      "code": "ESC 211",
+      "subjectCode": "ESC",
+      "courseNumber": "211",
+      "longName": "Thermodynamics I",
+      "name": "Thermodynamics I",
+      "description": "This course covers introductory concepts and definitions; Absolute temperature, Work, heat, First Law and applications, Second Law, Carnot Theorem, entropy, thermodynamic state variables and functions, reversibility, irreversibility, ideal gas mixtures, mixtures of vapors and gas, humidity calculations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884471-1901-01-01",
+      "courseGroupId": "0884471",
+      "code": "ESC 221",
+      "subjectCode": "ESC",
+      "courseNumber": "221",
+      "longName": "Circuits and Systems I",
+      "name": "Circuits and Systems I",
+      "description": "This course includes circuit elements and their voltage-current relations; Kirchoff's Laws, elementary circuit analysis; continuous signals; differential and difference equations; first order systems and analysis of RLC circuits.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884481-1901-01-01",
+      "courseGroupId": "0884481",
+      "code": "ESC 223",
+      "subjectCode": "ESC",
+      "courseNumber": "223",
+      "longName": "Switching Systems and Logic Design",
+      "name": "Switching Sys & Log",
+      "description": "This course includes the analysis and design of cominational and sequential circuits and their applications to digital systems. The use of integrated circuits in the design of digital circuits is illustrated in the laboratory experiments.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885341-2018-05-01",
+      "courseGroupId": "0885341",
+      "code": "GLY 210",
+      "subjectCode": "GLY",
+      "courseNumber": "210",
+      "longName": "Geology I",
+      "name": "Geology I",
+      "description": "This course covers fundamental principles of geology encompassing the study of minerals and rocks, geological processes, interpretation of topographic and geological maps and techniques of remote sensing. This is a program elective in Engineering Science.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1231121-1901-01-01",
+      "courseGroupId": "1231121",
+      "code": "PHY 108",
+      "subjectCode": "PHY",
+      "courseNumber": "108",
+      "longName": "General Physics Theory",
+      "name": "General Physics Theory",
+      "description": "This course serves as an introduction to general physics theory, especially for students who are not science oriented.  A selected number of basic topics in physics are carefully examined and interpreted. Topics include mechanics, heat and thermodynamics, electromagnetism, optics, atomic and nuclear physics. The relevance of the scientist and his/her work to the lives of non-scientists is continually examined.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1231991-1901-01-01",
+      "courseGroupId": "1231991",
+      "code": "PHY 109",
+      "subjectCode": "PHY",
+      "courseNumber": "109",
+      "longName": "General Physics Experiments",
+      "name": "General Physics Experiments",
+      "description": "General Physics Experiments",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0892921-2013-05-01",
+      "courseGroupId": "0892921",
+      "code": "PHY 110",
+      "subjectCode": "PHY",
+      "courseNumber": "110",
+      "longName": "General Physics",
+      "name": "General Physics",
+      "description": "This course serves as an introduction to physics, especially for students who are not science-oriented. A selected number of basic physical ideas are carefully examined and interpreted non-mathematically. The relevance of the scientist and his/her work to the lives of non-scientists is continually examined.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1366271-2013-05-01",
+      "courseGroupId": "1366271",
+      "code": "PHY 110H",
+      "subjectCode": "PHY",
+      "courseNumber": "110H",
+      "longName": "General Physics (Honors)",
+      "name": "General Physics (Honors)",
+      "description": "This course serves as an introduction to physics, especially for students who are not science-oriented. A selected number of basic physical ideas are carefully examined and interpreted non-mathematically. The relevance of the scientist and his/her work to the lives of non-scientists is continually examined.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0892931-2013-05-01",
+      "courseGroupId": "0892931",
+      "code": "PHY 210",
+      "subjectCode": "PHY",
+      "courseNumber": "210",
+      "longName": "Physics I",
+      "name": "Physics I",
+      "description": "This classroom and laboratory two-semester course includes the study of concepts and principles of physics in the areas of mechanics, heat and thermodynamics, sound, electricity and magnetism, light, and atomic physics plus an introduction to quantum physics and relativity theory. Algebra and simple trigonometry are used.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0892941-2025-08-25",
+      "courseGroupId": "0892941",
+      "code": "PHY 215",
+      "subjectCode": "PHY",
+      "courseNumber": "215",
+      "longName": "University Physics I",
+      "name": "University Physics I",
+      "description": "This is a two-semester course for students in science and engineering. Concepts of calculus are introduced and used when necessary. The lecture and laboratory exercises pertain to mechanics, fluids, heat and thermodynamics, wave motion, sound, electricity, and magnetism, geometric and physical optics and an introduction to modern physics.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "UTEG - UT_EGIN_6 (Physics I)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "UTEG - UT_EGIN_6 (Physics I)"
+      ]
+    },
+    {
+      "id": "1576401-2013-05-01",
+      "courseGroupId": "1576401",
+      "code": "PHY 215H",
+      "subjectCode": "PHY",
+      "courseNumber": "215H",
+      "longName": "University Physics I (Honors)",
+      "name": "University Physics I (Honors)",
+      "description": "This is a two-semester course for students in science and engineering. Concepts of calculus are introduced and used when necessary. The lecture and laboratory exercises pertain to mechanics, fluids, heat and thermodynamics, wave motion, sound, electricity, and magnetism, geometric and physical optics and an introduction to modern physics.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0892951-2013-05-01",
+      "courseGroupId": "0892951",
+      "code": "PHY 220",
+      "subjectCode": "PHY",
+      "courseNumber": "220",
+      "longName": "Physics II",
+      "name": "Physics II",
+      "description": "This classroom and laboratory two-semester course includes the study of concepts and principles of physics in the areas of mechanics, heat and thermodynamics, sound, electricity and magnetism, light, and atomic physics plus an introduction to quantum physics and relativity theory. Algebra and simple trigonometry are used.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0892961-2025-08-25",
+      "courseGroupId": "0892961",
+      "code": "PHY 225",
+      "subjectCode": "PHY",
+      "courseNumber": "225",
+      "longName": "University Physics II",
+      "name": "University Physics II",
+      "description": "This is a two-semester course for students in science and engineering. Concepts of calculus are introduced and used when necessary. The lecture and laboratory exercises pertain to mechanics, fluids, heat and thermodynamics, wave motion, sound, electricity, and magnetism, geometric and physical optics and an introduction to modern physics.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "UTEG - UT_EGIN_7 (Physics II)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "UTEG - UT_EGIN_7 (Physics II)"
+      ]
+    },
+    {
+      "id": "1576451-2013-05-01",
+      "courseGroupId": "1576451",
+      "code": "PHY 225H",
+      "subjectCode": "PHY",
+      "courseNumber": "225H",
+      "longName": "University Physics II (Honors)",
+      "name": "University Physics II (Honors)",
+      "description": "This is a two-semester course for students in science and engineering. Concepts of calculus are introduced and used when necessary. The lecture and laboratory exercises pertain to mechanics, fluids, heat and thermodynamics, wave motion, sound, electricity, and magnetism, geometric and physical optics and an introduction to modern physics.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0892981-2013-05-01",
+      "courseGroupId": "0892981",
+      "code": "PHY 240",
+      "subjectCode": "PHY",
+      "courseNumber": "240",
+      "longName": "Modern Physics",
+      "name": "Modern Physics",
+      "description": "This is an introduction to atomic and nuclear physics, relativity, solid state physics and elementary particles.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0893011-2013-05-01",
+      "courseGroupId": "0893011",
+      "code": "PHY 400",
+      "subjectCode": "PHY",
+      "courseNumber": "400",
+      "longName": "The Physics of Music",
+      "name": "The Physics of Music",
+      "description": "The course is designed to give the student a fundamentally qualitative understanding of all the physical processes associated with the production, reproduction and perception of musical sounds. This course may fulfill the physics requirement in the CCC Curriculum.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894921-1901-01-01",
+      "courseGroupId": "0894921",
+      "code": "SCI 111",
+      "subjectCode": "SCI",
+      "courseNumber": "111",
+      "longName": "Explorations in Scientific Mathematical Research",
+      "name": "Sci/Math Research",
+      "description": "This course will introduce the processes involved in research. Students will be designing and performing experiments and analyzing the results. Objectives are: to understand the scientific method, interpret statistics, and appreciate mathematical research. Computers will be used for statistics, graphing, pattern recognition and word processing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894931-2013-05-01",
+      "courseGroupId": "0894931",
+      "code": "SCI 120",
+      "subjectCode": "SCI",
+      "courseNumber": "120",
+      "longName": "Computer Methods in Science",
+      "name": "Computer Methods in Science",
+      "description": "This course teaches a computer language and emphasizes application of programming methods for the sciences and engineering. Numerical methods will be applied to examples gleaned from physics, chemistry and biology and engineering.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894941-2013-05-01",
+      "courseGroupId": "0894941",
+      "code": "SCI 121",
+      "subjectCode": "SCI",
+      "courseNumber": "121",
+      "longName": "Computer Methods in Science (Pascal)",
+      "name": "Cputr Methds/Pascal",
+      "description": "This course is similar in scope and assignments to SCI 120 but utilizes the Pascal programming language.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894961-2013-01-01",
+      "courseGroupId": "0894961",
+      "code": "SCI 140",
+      "subjectCode": "SCI",
+      "courseNumber": "140",
+      "longName": "Introduction to Microprocessors",
+      "name": "Microprocessors",
+      "description": "This is a study of a typical microprocessor and interfacing techniques. Concepts of electricity and its application to digital circuits are introduced as needed for purposes of control and measurement of analog quantities such as current, voltage, and temperature.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894971-1901-01-01",
+      "courseGroupId": "0894971",
+      "code": "SCI 150",
+      "subjectCode": "SCI",
+      "courseNumber": "150",
+      "longName": "Nutrition",
+      "name": "Nutrition",
+      "description": "This is an introduction to the fundamental principles of human nutrition. The nutrient composition of various foods is examined as well as the manner in which the nutrients are metabolized and used by the human body.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1335571-2016-06-07",
+      "courseGroupId": "1335571",
+      "code": "SCI 151",
+      "subjectCode": "SCI",
+      "courseNumber": "151",
+      "longName": "The Science of Food",
+      "name": "The Science of Food",
+      "description": "The course provides an overview of the scientific principles underlying the nutritional value, storage, handling, preparation and safety of food. There is an emphasis on chemical changes and interactions in food.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-06-07",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894981-1901-01-01",
+      "courseGroupId": "0894981",
+      "code": "SCI 200",
+      "subjectCode": "SCI",
+      "courseNumber": "200",
+      "longName": "Consumer Science",
+      "name": "Consumer Science",
+      "description": "Consumer Science",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0895021-1901-01-01",
+      "courseGroupId": "0895021",
+      "code": "SCI 410",
+      "subjectCode": "SCI",
+      "courseNumber": "410",
+      "longName": "Man and Environment",
+      "name": "Man and Environment",
+      "description": "This course is a study of the interaction of man and his environment. Topics examined include ecology, air and water pollution, pesticides, radioactivity, power generation, noise pollution, waste disposal, population control, food additives, and food contamination.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0895031-2018-10-01",
+      "courseGroupId": "0895031",
+      "code": "SCI 430",
+      "subjectCode": "SCI",
+      "courseNumber": "430",
+      "longName": "Scientific Instrumentation",
+      "name": "Scientific Instrumentation",
+      "description": "This course covers the theory and practice and quantitative method with special attention to instrumentation currently employed such as optical, electro-chemical, chromatographic, and radio-chemical techniques. The physicochemical theory and operating characteristics of the instrumentation are stressed. The laboratory emphasizes measurements of biological and environmental significance.Note: This course satisfies Pathways \"Life and Physical Science\" and \"Scientific World\" areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Life&PhysicalSci",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 4
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0895041-1901-01-01",
+      "courseGroupId": "0895041",
+      "code": "SCI 510",
+      "subjectCode": "SCI",
+      "courseNumber": "510",
+      "longName": "Pathophysiology",
+      "name": "Pathophysiology",
+      "description": "This course studies alterations of normal physiological processes. Included in the course are the basic principles of pathophysiology as well as application of these principles to specific organ systems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0895051-1901-01-01",
+      "courseGroupId": "0895051",
+      "code": "SCI 530",
+      "subjectCode": "SCI",
+      "courseNumber": "530",
+      "longName": "Pharmacology",
+      "name": "Pharmacology",
+      "description": "Fundamental principles and concepts in pharmacology are considered. Particular attention is given to drug action and interaction and to the effect of drugs and toxic substances in the human organism. This course is required in selected programs in Allied Health Sciences; available to all other students for elective credit. It is recommended that students complete HIT 103, Medical Terminology I, before registering for this course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SCI-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

@@ -1,0 +1,2994 @@
+{
+  "department_id": "BUS-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "7da76556ea9c72ae8e3b85b541a59edbb877487d26887d92e87432ecfc636dbd",
+  "records": [
+    {
+      "id": "0875731-1901-01-01",
+      "courseGroupId": "0875731",
+      "code": "ADV 300",
+      "subjectCode": "ADV",
+      "courseNumber": "300",
+      "longName": "Adv Copy and Layout",
+      "name": "Adv Copy and Layout",
+      "description": "Adv Copy and Layout",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878781-2019-02-01",
+      "courseGroupId": "0878781",
+      "code": "BUS 104",
+      "subjectCode": "BUS",
+      "courseNumber": "104",
+      "longName": "Introduction to Business",
+      "name": "Introduction to Business",
+      "description": "This course surveys business and industry in the United States with global growth strategy. Emphasis is placed on building Communication and Quantitative skills, including Excel spreadsheets, and an Ethical Foundation. The course introduces students to concepts in Management, Organizational Structure, Human Resources, Marketing, International Business, Finance, Computer Information Systems, Accounting, and Economics, and encourages students to explore career paths. Required of all Business majors.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1567181-2019-02-01",
+      "courseGroupId": "1567181",
+      "code": "BUS 104H",
+      "subjectCode": "BUS",
+      "courseNumber": "104H",
+      "longName": "Introduction to Business (Honors)",
+      "name": "Introduction to Business (Hon)",
+      "description": "This course surveys business and industry in the United States with global growth strategy. Emphasis is placed on building Communication and Quantitative skills, including Excel spreadsheets, and an Ethical Foundation. The course introduces students to concepts in Management, Organizational Structure, Human Resources, Marketing, International Business, Finance, Computer Information Systems, Accounting, and Economics, and encourages students to explore career paths. Required of all Business majors.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878791-2025-08-25",
+      "courseGroupId": "0878791",
+      "code": "BUS 110",
+      "subjectCode": "BUS",
+      "courseNumber": "110",
+      "longName": "Business Law",
+      "name": "Business Law",
+      "description": "This course surveys briefly the American legal system and the basic law of contracts. Reference is made to typical business transactions and, by a study of pertinent cases, how the various principles of contract law apply to them.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "MEBU - ME_BUSI_2 (Fundamentals of Business Law)",
+        "MEAC - ME_ACCO_2 (Fundamentals of Business Law)",
+        "MEFI - ME_FINA_2 (Fundamentals of Business Law)",
+        "UTAC - UT_ACCT_5 (Fundamentals of Business Law)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEAC - ME_ACCO_2 (Fundamentals of Business Law)",
+        "MEBU - ME_BUSI_2 (Fundamentals of Business Law)",
+        "MEFI - ME_FINA_2 (Fundamentals of Business Law)",
+        "UTAC - UT_ACCT_5 (Fundamentals of Business Law)"
+      ]
+    },
+    {
+      "id": "1368951-2018-02-01",
+      "courseGroupId": "1368951",
+      "code": "BUS 110.5",
+      "subjectCode": "BUS",
+      "courseNumber": "110.5",
+      "longName": "Business Law for Digital Media",
+      "name": "Business Law for Digital Media",
+      "description": "This course surveys the American legal system and the basic law of contracts as it relates to business in the 21st century.  Reference is made to typical business transactions both traditional and electronic, and by a study of pertinent cases, how the various principles of contract law apply to them. Additionally, this course examines at how courts, legislatures, and regulators confront the major legal issues that the Internet poses. Major topics include: how legally-enforceable contracts are made online; how courts determine jurisdiction over online transactions; intellectual property rules as they relate to digital assets such as music, video, and online texts; control over Internet domain names; liability of intermediaries such as Internet Service Providers and search engines; and online privacy protections.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1300051-2015-02-23",
+      "courseGroupId": "1300051",
+      "code": "BUS 121",
+      "subjectCode": "BUS",
+      "courseNumber": "121",
+      "longName": "Personal Finance",
+      "name": "Personal Finance",
+      "description": "Discusses the problems involved in efficient handling of personal finance and consumption expenditure, including consumer protection, taxation, insurance, home financing, and methods of borrowing and investing money. Topics covered will include: goal setting; budgeting; banking and basic financial transactions; building, maintaining and repairing credit; credit report and scores; home/auto ownership; current regulations and practices governing consumer financial transactions, potential risks faced by individuals and families, banking services and products, insurance and investment, and planning for retirement.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-02-23",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878811-1901-01-01",
+      "courseGroupId": "0878811",
+      "code": "BUS 130",
+      "subjectCode": "BUS",
+      "courseNumber": "130",
+      "longName": "Personal Law",
+      "name": "Personal Law",
+      "description": "Personal Law",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878821-2022-11-01",
+      "courseGroupId": "0878821",
+      "code": "BUS 150",
+      "subjectCode": "BUS",
+      "courseNumber": "150",
+      "longName": "Business Communication",
+      "name": "Business Communication",
+      "description": "This course focuses on communication skills expected of college graduates entering into business fields. Students who successfully complete this course will be able to produce professional, clear, concise, evidence-driven, persuasive writing, spoken communication, and visual/graphic communication. The coursewill emphasize the importance of being purpose-oriented and audience aware. Examples of work to be done include writing e-mails, drafting business memos, internal and external business communications, listening skills and interpersonal communication.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878831-1901-01-01",
+      "courseGroupId": "0878831",
+      "code": "BUS 200",
+      "subjectCode": "BUS",
+      "courseNumber": "200",
+      "longName": "Business Organization and Management",
+      "name": "Bus Org & Mgt",
+      "description": "This course covers the total structure and character of modern business from initial organization through grouping of essential functions into operating departments. Management and the decision-making process, financing, operations and marketing considerations are studied, with actual cases used to illustrate problems in small and big businesses.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1507391-1901-01-01",
+      "courseGroupId": "1507391",
+      "code": "BUS 200H",
+      "subjectCode": "BUS",
+      "courseNumber": "200H",
+      "longName": "Business Organization and Management (Honors)",
+      "name": "Bus Org & Mgt (Honors)",
+      "description": "This course covers the total structure and character of modern business from initial organization through grouping of essential functions into operating departments. Management and the decision-making process, financing, operations and marketing considerations are studied, with actual cases used to illustrate problems in small and big businesses.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1300101-2015-02-23",
+      "courseGroupId": "1300101",
+      "code": "BUS 201",
+      "subjectCode": "BUS",
+      "courseNumber": "201",
+      "longName": "International Business",
+      "name": "International Business",
+      "description": "The world environment of business enterprise is surveyed broadly in this course. Emphasis is placed on foreign trade and investment problems, patterns and opportunities. The performance of business functions in an international context and basic terminology of international business are examined.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-02-23",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878841-1901-01-01",
+      "courseGroupId": "0878841",
+      "code": "BUS 210",
+      "subjectCode": "BUS",
+      "courseNumber": "210",
+      "longName": "Business Methods",
+      "name": "Business Methods",
+      "description": "A survey of the fundamental quantitative concepts and tools used in the field of business is presented in this course. Topics in the course include annuities, present value, compound interest, markup and markdown, graphing, equations, inventory, depreciation, breakeven cost, revenue, elasticity, inequalities and certain aspects of linear-programming.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1504071-1901-01-01",
+      "courseGroupId": "1504071",
+      "code": "BUS 210H",
+      "subjectCode": "BUS",
+      "courseNumber": "210H",
+      "longName": "Business Methods (Honors)",
+      "name": "Business Methods (Honors)",
+      "description": "A survey of the fundamental quantitative concepts and tools used in the field of business is presented in this course. Topics in the course include annuities, present value, compound interest, markup and markdown, graphing, equations, inventory, depreciation, breakeven cost, revenue, elasticity, inequalities and certain aspects of linear-programming.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1561741-2024-08-28",
+      "courseGroupId": "1561741",
+      "code": "BUS 219",
+      "subjectCode": "BUS",
+      "courseNumber": "219",
+      "longName": "Business Analytics",
+      "name": "Business Analytics",
+      "description": "This course is designed to equip students with the knowledge and skills required to harness the power of data analytics for effective storytelling in the business context. Students will learn how to collect, analyze, and interpret data to create compelling narratives that inform decision-making and drive business success. The digital age of business requires an understanding of data. This course will give students the right tools to stay relevant. It offers the theoretical understanding of data necessary for students to adapt to the many changes in business, while equipping them with the skills they will need to perform vital daily functions.Students will participate in Simternship rounds to apply their skills in a simulated real-world business environment. By the end of the course, students will be able to walk into any company and help make data-driven business decisions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878851-1901-01-01",
+      "courseGroupId": "0878851",
+      "code": "BUS 220",
+      "subjectCode": "BUS",
+      "courseNumber": "220",
+      "longName": "Managerial Decision Making",
+      "name": "Managerial Decision Making",
+      "description": "This course is designed to develop the student's ability to make decisions as a manager. Cases are used to present the student with a variety of management problems. Students participate in oral and written case analysis which requires identification of the problem, proposal of alternative solutions to it and the choice of one solution based on criteria of profitability and productivity. Students also participate in a management simulation game.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1504231-2020-02-23",
+      "courseGroupId": "1504231",
+      "code": "BUS 220H",
+      "subjectCode": "BUS",
+      "courseNumber": "220H",
+      "longName": "Managerial Decision Making (Honors)",
+      "name": "Manag Decis Making (Honors)",
+      "description": "This course is designed to develop the student's ability to make decisions as a manager. Cases are used to present the student with a variety of management problems. Students participate in oral and written case analysis which requires identification of the problem, proposal of alternative solutions to it and the choice of one solution based on criteria of profitability and productivity. Students also participate in a management simulation game.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-02-23",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1575361-2025-08-25",
+      "courseGroupId": "1575361",
+      "code": "BUS 222",
+      "subjectCode": "BUS",
+      "courseNumber": "222",
+      "longName": "AI in Business",
+      "name": "AI in Business",
+      "description": "This course introduces the foundational concepts of artificial intelligence (AI) and its applications in various industries.  Students will learn about various AI technologies, how AI is integrated into daily work tasks, and the potential of AI to innovate business practices. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878861-1901-01-01",
+      "courseGroupId": "0878861",
+      "code": "BUS 225",
+      "subjectCode": "BUS",
+      "courseNumber": "225",
+      "longName": "Operations Management",
+      "name": "Operations Management",
+      "description": "This course has been designed to prepare the students for further work in decision-making either on the job or in other institutions. The course will make use of computer programs in the construction and solutions of problems such as: production and inventory models; cost volume profit analysis; queuing theory and markov process; and resource allocation, scheduling, and simulation.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878871-1901-01-01",
+      "courseGroupId": "0878871",
+      "code": "BUS 300",
+      "subjectCode": "BUS",
+      "courseNumber": "300",
+      "longName": "Off & Persnl Mgt",
+      "name": "Off & Persnl Mgt",
+      "description": "Off & Persnl Mgt",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0878891-1901-01-01",
+      "courseGroupId": "0878891",
+      "code": "BUS 311",
+      "subjectCode": "BUS",
+      "courseNumber": "311",
+      "longName": "Human Resources Management",
+      "name": "Human Resources Management",
+      "description": "This course is a survey treatment of human resources management attempting to acquaint students with the various aspects of Human Resources Management. It introduces the student to the realm of the Human Resources Manager.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1470671-1901-01-01",
+      "courseGroupId": "1470671",
+      "code": "BUS 311H",
+      "subjectCode": "BUS",
+      "courseNumber": "311H",
+      "longName": "Human Resources Management (Honors)",
+      "name": "Human Resources Mgmt (Honors)",
+      "description": "This course is a survey treatment of human resources management attempting to acquaint students with the various aspects of Human Resources Management. It introduces the student to the realm of the Human Resources Manager.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1508561-2023-02-01",
+      "courseGroupId": "1508561",
+      "code": "BUS 320",
+      "subjectCode": "BUS",
+      "courseNumber": "320",
+      "longName": "Predictive Analytics & Decision Modeling",
+      "name": "Predictive Analytics & Decisio",
+      "description": "This course is tailored towards developing students quantitative reasoning skills including data analysis, statistical thinking, and modeling business decisions using a wide range of case studies. The course will enable students explain the assumptions and interpret the model outcomes using analytical tools such as estimation, simple and multiple regression, forecasting, and optimization. They will learn to use Excel for data analysis.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1286161-2020-10-01",
+      "courseGroupId": "1286161",
+      "code": "BUS 476",
+      "subjectCode": "BUS",
+      "courseNumber": "476",
+      "longName": "Social Entrepreneurship in Emerging Economics",
+      "name": "Soc Entpren Emerging Economics",
+      "description": "This is a study abroad course in which students will understand the unique nature, challenges, resources, and opportunities that affect social ventures in developing economies. Students will earn first-hand the very different environmental conditions under which people live and work in a different part of the world, as well as experience the spirit of social entrepreneurs who find innovative ways to solve social problems within a market economy. Through class meetings, discussions with social entrepreneurs, and on-site visits to different social ventures in India, students will experience both the structural as well as the motivational factors that need to be considered to address these social problems. This class will encourage students to reflect on the social problems that exist in the United States and consider how the innovative organizational models that they have been exposed to in this study abroad program can be applied to the problems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "ELO - IALO (International Learning Opp)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - IALO (International Learning Opp)"
+      ]
+    },
+    {
+      "id": "0884771-1901-01-01",
+      "courseGroupId": "0884771",
+      "code": "FNB 100",
+      "subjectCode": "FNB",
+      "courseNumber": "100",
+      "longName": "Introduction to Finance",
+      "name": "Introduction to Finance",
+      "description": "This course focuses on the three general areas of 1) money and financial institutions, 2) business financial management and 3) investments. These areas are surveyed by covering such topics as value and creation of money, the Federal Reserve System, commercial banks, short and medium term financing, and the behavior of securities markets in relation to financing the business enterprise.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1504081-1901-01-01",
+      "courseGroupId": "1504081",
+      "code": "FNB 100H",
+      "subjectCode": "FNB",
+      "courseNumber": "100H",
+      "longName": "Introduction to Finance (Honors)",
+      "name": "Intro to Finance (Honors)",
+      "description": "This course focuses on the three general areas of 1) money and financial institutions, 2) business financial management and 3) investments. These areas are surveyed by covering such topics as value and creation of money, the Federal Reserve System, commercial banks, short and medium term financing, and the behavior of securities markets in relation to financing the business enterprise.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884781-1901-01-01",
+      "courseGroupId": "0884781",
+      "code": "FNB 220",
+      "subjectCode": "FNB",
+      "courseNumber": "220",
+      "longName": "Commercial Credit and Collections Management",
+      "name": "Coml Cr. & Col Mgt",
+      "description": "Students are introduced to the principles and practices involved in the extension of credit in the business world. The course covers operation of the credit department, including the duties of the credit manager and credit investigators, credit analysis of financial statements, bases for credit judgment, collection procedures, legal problems, accounts receivable, financing, and factoring.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884791-1901-01-01",
+      "courseGroupId": "0884791",
+      "code": "FNB 230",
+      "subjectCode": "FNB",
+      "courseNumber": "230",
+      "longName": "Financial Management",
+      "name": "Financial Management",
+      "description": "This course surveys principles and practices followed in the financial organization and operation of a corporation. Also considered are the financing of new and growing businesses, sources of capital, banking and credit accommodations as well as the handling of other financial matters.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884801-1901-01-01",
+      "courseGroupId": "0884801",
+      "code": "FNB 240",
+      "subjectCode": "FNB",
+      "courseNumber": "240",
+      "longName": "Consumer Credit Management",
+      "name": "Consumer Credit Management",
+      "description": "This course emphasizes the principles, policies and practices followed in the granting of consumer and retail credit, bases for credit judgment, collection policies and procedures, government regulations, retail revolving and installment credit, charge accounts, bank credit card and non-bank credit, and the management of a consumer or retail credit department.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884811-2014-05-01",
+      "courseGroupId": "0884811",
+      "code": "FNB 250",
+      "subjectCode": "FNB",
+      "courseNumber": "250",
+      "longName": "Money and Banking",
+      "name": "Money and Banking",
+      "description": "This course is an analysis of the organization and operation of our financial system, including money and capital markets, commercial banking, and other financial institutions such as commercial finance companies. The relationship between financial and economic activity including monetary and fiscal policy is demonstrated.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1365321-1901-01-01",
+      "courseGroupId": "1365321",
+      "code": "FNB 250H",
+      "subjectCode": "FNB",
+      "courseNumber": "250H",
+      "longName": "Money and Banking (Same as ECO 250) (Honors)",
+      "name": "Money And Banking (Honors)",
+      "description": "This course is an analysis of the organization and operation of our financial system, including money and capital markets, commercial banking, and other financial institutions such as commercial finance companies. The relationship between financial and economic activity including monetary and fiscal policy is demonstrated.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884821-1901-01-01",
+      "courseGroupId": "0884821",
+      "code": "FNB 300",
+      "subjectCode": "FNB",
+      "courseNumber": "300",
+      "longName": "Investments",
+      "name": "Investments",
+      "description": "The principles and practices of investments are analyzed during this course. Students learn to recognize the quantitative and qualitative tests used in judging security values. Attention is given to the legal and financial characteristics of various types of investment securities. Personal portfolio problems and policies are considered in terms of objectives and investment decisions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1286221-2014-05-01",
+      "courseGroupId": "1286221",
+      "code": "HTT 200",
+      "subjectCode": "HTT",
+      "courseNumber": "200",
+      "longName": "Introduction to Hotels, Travel and Tourism",
+      "name": "Intro Hotels, Travel & Tourism",
+      "description": "This course introduces students to the backroom operations of the hotel, travel and tourism industry. Students will learn about career opportunities in airlines/airports; cruise ships and terminals; convention centers and symphony halls, travel agencies and tour operations; leisure and recreational sports activities; travel e-zines and magazines, as well as meetings and special events.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1286241-2014-05-01",
+      "courseGroupId": "1286241",
+      "code": "HTT 201",
+      "subjectCode": "HTT",
+      "courseNumber": "201",
+      "longName": "Hotels, Travel and Tourism Technology",
+      "name": "Hotels, Travel & Tourism Tech",
+      "description": "This course is designed for students to learn the operations of the hotel, travel and tourism industry as impacted by information technology (IT). Students will learn the IT needs of this global business and study the digitization of the back-office processes and value chains in the hospitality, travel and tourism industries that enable organizations to maximize their efficacy and effectiveness.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1286251-2014-05-01",
+      "courseGroupId": "1286251",
+      "code": "HTT 301",
+      "subjectCode": "HTT",
+      "courseNumber": "301",
+      "longName": "World Markets",
+      "name": "World Markets",
+      "description": "This course is designed to analyze the global environment of the hospitality, travel and tourism industry including the current economic, social, competitive, political-legal and technological environment that determines demand. The major purpose of the course is to provide students with a methodology to study the marketing of products and services in the hospitality, travel and tourism industry at a strategic level.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1562991-2024-08-28",
+      "courseGroupId": "1562991",
+      "code": "HTT 350",
+      "subjectCode": "HTT",
+      "courseNumber": "350",
+      "longName": "Customer Experience",
+      "name": "Customer Experience",
+      "description": "This course is designed to examine the way customers feel about an organization based on their experience. Students will be taught practical frameworks to develop sustainable customer experiences and how to foster a customer-first culture in organizations. Through research, literature and experiential Learning Students will explore the skills needed to attract, engage and retain customers.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888041-1901-01-01",
+      "courseGroupId": "0888041",
+      "code": "MAR 100",
+      "subjectCode": "MAR",
+      "courseNumber": "100",
+      "longName": "Introduction to Marketing",
+      "name": "Introduction to Marketing",
+      "description": "The marketing system is described, analyzed and evaluated, including methods, policies and institutions involved in the distribution of goods from producer to consumer. Emphasis is placed on the means of improving efficiency and lowering distribution costs.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1364911-1901-01-01",
+      "courseGroupId": "1364911",
+      "code": "MAR 100H",
+      "subjectCode": "MAR",
+      "courseNumber": "100H",
+      "longName": "Introduction to Marketing (Honors)",
+      "name": "Intro To Marketing (Honors)",
+      "description": "The marketing system is described, analyzed and evaluated, including methods, policies and institutions involved in the distribution of goods from producer to consumer. Emphasis is placed on the means of improving efficiency and lowering distribution costs.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 0,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888061-1901-01-01",
+      "courseGroupId": "0888061",
+      "code": "MAR 210",
+      "subjectCode": "MAR",
+      "courseNumber": "210",
+      "longName": "Consumer Motivation & Behavior",
+      "name": "Consumer Motivation & Behavior",
+      "description": "This course develops the student's understanding of the relevance of consumer motivation and behavior to modern marketing techniques and strategies. It offers insight and information vital to the consumer-oriented firm. The economic, social, and psychological aspects of consumer behavior are explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888071-2020-10-01",
+      "courseGroupId": "0888071",
+      "code": "MAR 220",
+      "subjectCode": "MAR",
+      "courseNumber": "220",
+      "longName": "Essentials of Advertising",
+      "name": "Essentials of Advertising",
+      "description": "This course is designed to provide an introduction to and an overview of advertising, its use as a management tool and its place in the marketing picture. Included are: the approach to creativity, media mathematics, planning and strategy, campaign concepts, research, and media selection.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1368961-2020-10-01",
+      "courseGroupId": "1368961",
+      "code": "MAR 230",
+      "subjectCode": "MAR",
+      "courseNumber": "230",
+      "longName": "Essentials of Public Relations",
+      "name": "Essentials of Public Relations",
+      "description": "The objective of this course is to introduce students to the theory and practice of public relations. Specifically, the students will learn about the shifting relationship between advertising and PR, the roles PR professionals play in organizations and PR firms, market research, strategic planning, dealing with the media and communicating with target audiences, as well as changes under way in the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888081-1901-01-01",
+      "courseGroupId": "0888081",
+      "code": "MAR 300",
+      "subjectCode": "MAR",
+      "courseNumber": "300",
+      "longName": "Sales Principles and Practices",
+      "name": "Sales Principles and Practices",
+      "description": "This course is an overview of the process and management of direct selling. Topics include analyzing a product, evaluating customer needs and buying motives, handling objections, closing sales, and developing the sales-person's personality. Organization and presentation of selling proposals are required.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888101-1901-01-01",
+      "courseGroupId": "0888101",
+      "code": "MAR 320",
+      "subjectCode": "MAR",
+      "courseNumber": "320",
+      "longName": "Retail Organization, Operation and Buying",
+      "name": "Retail Organiz, Op & Buying",
+      "description": "This course studies the management and operations of retail stores. Current practices in store layout, organization, personnel management, service to customers, expense budgeting and control, receiving, and marketing are analyzed. Methods and techniques employed by buyers in selecting new lines, assortment planning, placing orders, pricing and handling, and other phases of the buying job are investigated.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1368971-2020-10-01",
+      "courseGroupId": "1368971",
+      "code": "MAR 330",
+      "subjectCode": "MAR",
+      "courseNumber": "330",
+      "longName": "Marketing Research and Analytics",
+      "name": "Marketing Research & Analytics",
+      "description": "The broad objective of this course is to provide a fundamental understanding of marketing research methods employed by well-managed firms. The course focuses on integrating problem formulation, research design, questionnaire construction, sampling, data collection and data analytics to yield the most valuable information. The course also examines the proper use of data analytic tools, with an emphasis on the interpretation and use of results.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1498551-2020-10-01",
+      "courseGroupId": "1498551",
+      "code": "MAR 330H",
+      "subjectCode": "MAR",
+      "courseNumber": "330H",
+      "longName": "Marketing Research & Analytics (Honors)",
+      "name": "Marketing Res & Analy (Honors)",
+      "description": "The broad objective of this course is to provide a fundamental understanding of marketing research methods employed by well-managed firms. The course focuses on integrating problem formulation, research design, questionnaire construction, sampling, data collection and data analytics to yield the most valuable information. The course also examines the proper use of data analytic tools, with an emphasis on the interpretation and use of results.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1369081-2018-02-01",
+      "courseGroupId": "1369081",
+      "code": "MAR 340",
+      "subjectCode": "MAR",
+      "courseNumber": "340",
+      "longName": "Digital Marketing and Analytics",
+      "name": "Digital Marketing & Analytics",
+      "description": "The two major objectives of this course are to (i) introduce students to current marketing and advertising theory and practices on the Internet using a research-based and framework-driven approach; and (ii) to provide students the opportunity to learn to use various digital analytics methods and tools that companies use for successful implementation of their digital marketing strategies.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1517541-2020-11-01",
+      "courseGroupId": "1517541",
+      "code": "PAN 100",
+      "subjectCode": "PAN",
+      "courseNumber": "100",
+      "longName": "Introduction to Public Affairs and Administration",
+      "name": "Intro Public Affairs & Admin",
+      "description": "This introductory course is set within the context of contemporary political, social, environmental, and economic realities. It examines the policies and processes of governmental, nonprofit, and institutional based programs from a multidisciplinary perspective. Students are introduced to the field and profession of public administration and develop a broad understanding of the public and nonprofit sector while learning to think and act as an ethical community service administration professional.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1517551-2020-11-01",
+      "courseGroupId": "1517551",
+      "code": "PAN 230",
+      "subjectCode": "PAN",
+      "courseNumber": "230",
+      "longName": "Policy Development and Analysis",
+      "name": "Policy Development & Analysis",
+      "description": "This course introduces students to the public policy process and its key institutions and actors (such as legislative bodies, chief executives, administrative agencies, courts, interest groups, advocacy coalitions, and the media). The course emphasizes key parameters of public policy formulation (agenda setting, policy formulation and design, implementation, evaluation) and theories of policy change. Students will be able to differentiate policy types and tools, effectively use evidence in shaping public policy, and will appreciate the importance of context (social, economic, political, and technological) in developing effective policies.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1556771-2020-11-01",
+      "courseGroupId": "1556771",
+      "code": "PAN 230H",
+      "subjectCode": "PAN",
+      "courseNumber": "230H",
+      "longName": "Policy Development and Analysis (Honors)",
+      "name": "Policy Dev & Analysis (Honors)",
+      "description": "This course introduces students to the public policy process and its key institutions and actors (such as legislative bodies, chief executives, administrative agencies, courts, interest groups, advocacy coalitions, and the media). The course emphasizes key parameters of public policy formulation (agenda setting, policy formulation and design, implementation, evaluation) and theories of policy change. Students will be able to differentiate policy types and tools, effectively use evidence in shaping public policy, and will appreciate the importance of context (social, economic, political, and technological) in developing effective policies.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1517561-2020-11-01",
+      "courseGroupId": "1517561",
+      "code": "PAN 240",
+      "subjectCode": "PAN",
+      "courseNumber": "240",
+      "longName": "Research Methods in Nonprofit and Public Administration",
+      "name": "Res Meth NonProf & Pub Adm",
+      "description": "This course provides students an opportunity to develop basic qualitative and quantitative analysis skills that can be applied to public administration, nonprofit management, and policy problems; program evaluations, and critical research questions. This course will emphasize the identification and application of research techniques, interpretation of results and the use of statistics in management decision-making.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1570511-2020-11-01",
+      "courseGroupId": "1570511",
+      "code": "PAN 240H",
+      "subjectCode": "PAN",
+      "courseNumber": "240H",
+      "longName": "Research Methods in Nonprofit and Public Administration (Honors)",
+      "name": "Res Meth NonProf & PubAdm(Hon)",
+      "description": "This course provides students an opportunity to develop basic qualitative and quantitative analysis skills that can be applied to public administration, nonprofit management, and policy problems; program evaluations, and critical research questions. This course will emphasize the identification and application of research techniques, interpretation of results and the use of statistics in management decision-making.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1517571-2020-11-01",
+      "courseGroupId": "1517571",
+      "code": "PAN 250",
+      "subjectCode": "PAN",
+      "courseNumber": "250",
+      "longName": "Performance Measurement: Collecting and Interpreting Data",
+      "name": "Performance Measurement",
+      "description": "The processes of public and nonprofit performance measurement and management are explored in depth in this course. Theories of public and nonprofit performance are reviewed with a clear focus on application in the management setting. Types of measures are reviewed, and their relationships are explored through program logic models. Selection of key performance indicators and proximate measures is discussed. Tools and methods of performance measurement, including benchmarking and trend analysis, are introduced. Data collection, analysis, and reporting are reviewed. Students learn how to align performance measurement with strategic organizational goals and objectives in order to facilitate learning and improved effectiveness",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1521261-2021-03-01",
+      "courseGroupId": "1521261",
+      "code": "RMI 110",
+      "subjectCode": "RMI",
+      "courseNumber": "110",
+      "longName": "Principles of Risk Management and Insurance",
+      "name": "Princ of Risk Mgmt & Insurance",
+      "description": "This course promotes an understanding of individual and enterprise risk management and how the financial consequences of risk exposure can be managed using insurance, risk control and other financing techniques. It specifically examines how insurance offers protection against major risks faced byenterprises and individuals, how the insurance market is structured, and how and why the risk management andinsurance industry is regulated. The course also provides the theories and practical applications from the industry as well as issues related to the furtherance of insurance as a viable risk management solution. This course includes 15 hours of experiential learning component covered through interactions and discussions withprofessionals from the risk management and insurance industry.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1521291-2021-03-01",
+      "courseGroupId": "1521291",
+      "code": "RMI 220",
+      "subjectCode": "RMI",
+      "courseNumber": "220",
+      "longName": "Property and Liability Insurance Principles",
+      "name": "Prop & Liab Insurance Princ",
+      "description": "The course presents the basic principles of insurance, introduces insurance regulation, financial performance, marketing techniques, underwriting, claims, risk management, loss exposure and insurance policies. This course will prepare students to take the AINS 21 exam towards a certification in general insurance.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1521301-2021-03-01",
+      "courseGroupId": "1521301",
+      "code": "RMI 230",
+      "subjectCode": "RMI",
+      "courseNumber": "230",
+      "longName": "Commercial Insurance Principles",
+      "name": "Commercial Insurance Principle",
+      "description": "Analyzes commercial coverage including property, business income, inlandand ocean marine, crime, equipment breakdown, general liability, auto, worker’s compensation, and package policies. Satisfies the requirements for The Institutes AINS 23 examination within the Associate in General Insurance Path A Certification.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1521311-2021-03-01",
+      "courseGroupId": "1521311",
+      "code": "RMI 240",
+      "subjectCode": "RMI",
+      "courseNumber": "240",
+      "longName": "Insurance Operations",
+      "name": "Insurance Operations",
+      "description": "The principal objective of this course is to develop an in-depth and thoroughunderstanding of the unique operations of an insurance company including regulation, underwriting, claims, ratemaking, risk control, the financial accounting process and global strategies (including the use of reinsurance) of an insurance organization. The course will prepare students to take the CPCU 552 exam towards a certification in general insurance.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-03-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894841-2018-02-01",
+      "courseGroupId": "0894841",
+      "code": "SBE 100",
+      "subjectCode": "SBE",
+      "courseNumber": "100",
+      "longName": "Entrepreneurship: Product & Service Creation",
+      "name": "Entrprnrshp: Prdct & Srvc Crtn",
+      "description": "This course examines the building blocks of entrepreneurship, including an analysis of the entrepreneur and exploration of business opportunities. The course includes the investigation and practice of products and service creation. The emphasis will be on applying entrepreneurship concepts to a business idea and developing an entrepreneurial mindset.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1300111-2015-02-23",
+      "courseGroupId": "1300111",
+      "code": "SBE 201",
+      "subjectCode": "SBE",
+      "courseNumber": "201",
+      "longName": "International Business",
+      "name": "International Business",
+      "description": "The world environment of business enterprise is surveyed broadly in this course. Emphasis is placed on foreign trade and investment problems, patterns and opportunities. The performance of business functions in an international context and basic terminology of international business are examined.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-02-23",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894871-1901-01-01",
+      "courseGroupId": "0894871",
+      "code": "SBE 400",
+      "subjectCode": "SBE",
+      "courseNumber": "400",
+      "longName": "Small Business Management",
+      "name": "Small Business Management",
+      "description": "This course covers the scope and trends of small business in the economy. The general functions of management, factors in business success and failure, and the entrepreneur's qualifications are covered. Case studies, mathematical decision making and microcomputer applications are integral parts of the creation of a usable business plan.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898221-1901-01-01",
+      "courseGroupId": "0898221",
+      "code": "TTA 201",
+      "subjectCode": "TTA",
+      "courseNumber": "201",
+      "longName": "Travel Operations",
+      "name": "Travel Operations",
+      "description": "This course is designed to qualify individuals to obtain employment in airlines and steamship companies as travel consultants, reservation agents, and account representatives. In addition, this course is designed for students interested in working and eventually owning their own travel agency. Topics include air, rail and ship transportation systems; ticketing; sales methods; and travel agency financing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "BUS-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

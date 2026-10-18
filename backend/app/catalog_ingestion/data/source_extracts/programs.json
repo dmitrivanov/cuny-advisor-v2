@@ -1,0 +1,337 @@
+[
+  {
+    "group": "Associate in Applied Science degree (A.A.S.)",
+    "name": "Accounting",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/accounting/accounting/"
+  },
+  {
+    "group": "Associate in Applied Science degree (A.A.S.)",
+    "name": "Business Management",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/business-management/"
+  },
+  {
+    "group": "Associate in Applied Science degree (A.A.S.)",
+    "name": "Computer Information Systems",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-information-systems-cis/"
+  },
+  {
+    "group": "Associate in Applied Science degree (A.A.S.)",
+    "name": "Computer Network Technology",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-network-technology/"
+  },
+  {
+    "group": "Associate in Applied Science degree (A.A.S.)",
+    "name": "Health Information Technology",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/about-hit/health-information-technology-program-requirements/"
+  },
+  {
+    "group": "Associate in Applied Science degree (A.A.S.)",
+    "name": "Nursing",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/nursing/nursing-program/"
+  },
+  {
+    "group": "Associate in Applied Science degree (A.A.S.)",
+    "name": "Paramedic",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/paramedic/"
+  },
+  {
+    "group": "Associate in Applied Science degree (A.A.S.)",
+    "name": "Respiratory Therapy",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/respiratory-therapy/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Art Foundations: Art History",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/music-and-art/art-foundations-art-history/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Bilingual Childhood Education",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/bilingual-childhood-education-edb/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Childhood Education",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/childhood-education-edu/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Children and Youth Studies",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/english/children-and-youth-studies/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Communication Studies",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/speech/communication-studies/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Criminal Justice",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/criminal-justice/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Critical Thinking and Justice",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/academic-literacy/critical-thinking-and-justice/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Economics",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/economics/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Ethnic Studies",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/ethnic-studies/ethnic-studies/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Gender and Women’s Studies",
+    "url": "https://www.bmcc.cuny.edu/academics/programs/gender-and-womens-studies/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "History",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/history/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Liberal Arts",
+    "url": "https://www.bmcc.cuny.edu/academics/programs/liberal-arts/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Linguistics",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/academic-literacy/linguistics-and-literacy/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Literacy Studies",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/academic-literacy/literacy-studies/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Modern Languages: French",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/french/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Modern Languages: Italian",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/italian/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Modern Languages: Spanish",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/spanish/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Modern Languages: Spanish Translation and Interpretation",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/modern-languages-spanish-translation-and-interpretation/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Philosophy",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/philosophy/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Political Science",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/political-science/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Psychology",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/psychology/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Secondary Education for Social Studies",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/secondary-education-for-social-studies/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Sociology",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/sociology/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Urban Studies",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/urban-studies/"
+  },
+  {
+    "group": "Associate in Arts degree (A.A.)",
+    "name": "Writing and Literature",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/english/requirements/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Accounting for Forensic Accounting",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/accounting/accounting-for-forensic-accounting/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Animation and Motion Graphics",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/media-arts-and-technology/animation-and-motion-graphics/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Art Foundations: Studio Art",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/music-and-art/art-foundations-studio-art/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Biotechnology Science",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/science/biotechnology-science/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Business Administration",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/business-administration/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Child Care/Early Childhood Education",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/child-care-early-childhood-education/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Community Health Education",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/health-studies/community-health-education/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Computer Science",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Data Science",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/math/data-science/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Digital Marketing",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/digital-marketing/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Engineering Science",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/science/engineering-science/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Entrepreneurship and Innovation",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/sbe/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Financial Management",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/financial-management/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Geographic Information Science (GIS)",
+    "url": "https://www.bmcc.cuny.edu/academics/programs/geographic-information-science-gis/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Gerontology",
+    "url": "https://www.bmcc.cuny.edu/academics/programs/gerontology/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Human Services",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/human-services/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Mathematics",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/math/mathematics-program/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Mathematics and Sciences for Secondary Education",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/secondary-education-program/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Multimedia Programming and Design",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/media-arts-and-technology/multimedia-programming-and-design/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Music",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/music-and-art/music/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Public and Nonprofit Administration",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/public-and-nonprofit-administration/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Public Health",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/health-studies/public-health/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "School Health Education",
+    "url": "https://www.bmcc.cuny.edu/academics/programs/school-health-education-she/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Science",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/science/science/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Science for Forensics",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/science/science-for-forensics/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Science for Health",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/science/science-for-health-professions/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Theatre",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/speech/theatre/"
+  },
+  {
+    "group": "Associate in Science degree (A.S.)",
+    "name": "Video Arts and Technology",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/media-arts-and-technology/video-arts-and-technology/"
+  },
+  {
+    "group": "Certificate Programs",
+    "name": "Accounting Certificate",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/accounting/accounting-certificate-program-acp/"
+  },
+  {
+    "group": "Certificate Programs",
+    "name": "Cybersecurity Certificate",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/cis/cybersecurity-certificate/"
+  },
+  {
+    "group": "Certificate Programs",
+    "name": "Health Informatics Certificate",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/health-informatics-certificate/"
+  },
+  {
+    "group": "Certificate Programs",
+    "name": "Practical Nursing Certificate",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/nursing/practical-nursing-certificate-program/"
+  },
+  {
+    "group": "Certificate Programs",
+    "name": "Spanish Translation for the Health, Legal and Business Professions Certificate",
+    "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/spanish-translation-certificate/"
+  },
+  {
+    "group": "Microcredential",
+    "name": "Cybersecurity",
+    "url": "https://www.bmcc.cuny.edu/cyber-security-micro-credential/"
+  }
+]

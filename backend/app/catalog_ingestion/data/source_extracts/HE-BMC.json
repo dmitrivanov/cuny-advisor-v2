@@ -1,0 +1,2064 @@
+{
+  "department_id": "HE-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "5b9d0ae1bb38f4e9bedf935977a3c35685184bb1ca06135b87603f71db84581a",
+  "records": [
+    {
+      "id": "0885781-2011-06-01",
+      "courseGroupId": "0885781",
+      "code": "HED 100",
+      "subjectCode": "HED",
+      "courseNumber": "100",
+      "longName": "Health Education",
+      "name": "Health Education",
+      "description": "This is an introductory survey course to health education. The course provides students with the knowledge, skills, and behavioral models to enhance their physical, emotional, social, intellectual and spiritual health as well as facilitate their health decision-making ability. The primary areas of instruction include: health and wellness; stress; human sexuality; alcohol, tobacco and substance abuse; nutrition and weight management; and physical fitness. Students who have completed HED 110 - Comprehensive Health Education will not receive credit for this course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885791-1901-01-01",
+      "courseGroupId": "0885791",
+      "code": "HED 104",
+      "subjectCode": "HED",
+      "courseNumber": "104",
+      "longName": "Health, Education, and Wellness",
+      "name": "Health Education & Wellness",
+      "description": "This course is designed to develop positive health related attitudes, values and habits. These traits will promote good physical, mental and social health and wellness. This will be attained by combining a broad spectrum of health related topics with practical experience in a total fitness program.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1576131-2025-05-27",
+      "courseGroupId": "1576131",
+      "code": "HSD 102",
+      "subjectCode": "HSD",
+      "courseNumber": "102",
+      "longName": "Medical Office Assistant",
+      "name": "Medical Office Assistant",
+      "description": "This course introduces essential medical office skills, including phone etiquette, record management, mail handling, appointment scheduling, travel planning, correspondence, and business transactions. It emphasizes customer service and human relations. Students will learn to interact with patients, handle phone calls, schedule appointments, manage medical records, process information, and understand medical ethics and confidentiality. This course will introduce medical terminology.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "EXPR - EXPR (Experimental)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-05-27",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "EXPR - EXPR (Experimental)"
+      ]
+    },
+    {
+      "id": "1559291-2024-08-28",
+      "courseGroupId": "1559291",
+      "code": "HSD 108",
+      "subjectCode": "HSD",
+      "courseNumber": "108",
+      "longName": "Health, Illness and Society",
+      "name": "Health, Illness and Society",
+      "description": "This course explores personal health through the lens of the socio-ecological model, emphasizing social responsibility. The socio-ecological model of health acknowledges that individual health and societal health are deeply intertwined and influence each other in multiple ways. Recognizing this, the curriculum delves into the intricate interplay between personal, interpersonal, and broader socio-ecological factors. By examining how these layers collectively influence well-being, students gain insight into their own health and wellness. The course aims not only to guide students in adopting healthier lifestyles but also to inspire collective action for healthier societies, acknowledging that individual well-being is deeply connected to social and environmental factors. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1092951-2025-08-25",
+      "courseGroupId": "1092951",
+      "code": "HSD 110",
+      "subjectCode": "HSD",
+      "courseNumber": "110",
+      "longName": "Comprehensive Health Education",
+      "name": "Comprehensive Health Education",
+      "description": "This course in health educations offers a comprehensive approach that provides students with the knowledge, skills, and behavioral models to enhance their physical, emotional, social, intellectual and spiritual health as well as facilitate their health decision-making ability. Areas of specialization include: alcohol, tobacco and abused substances, mental and emotional health, human sexuality and family living, nutrition, physical fitness, cardiovascular health, environmental health and health care delivery. HED 110 fulfills all degree requirements for HE 100. Students who have completed HED 100 - Health Education will not receive credit for this course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "MECH - ME_COHL_1 (Intro to Health and Wellness)",
+        "MEPH - ME_PUHE_1 (Intro to Health and Wellness)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MECH - ME_COHL_1 (Intro to Health and Wellness)",
+        "MEPH - ME_PUHE_1 (Intro to Health and Wellness)"
+      ]
+    },
+    {
+      "id": "1472961-2025-08-25",
+      "courseGroupId": "1472961",
+      "code": "HSD 190",
+      "subjectCode": "HSD",
+      "courseNumber": "190",
+      "longName": "Human Sexuality and Society",
+      "name": "Human Sexuality and Society",
+      "description": "This course explores the intersections of sexuality and culture, looking at the social construction of sexuality, the development of sexual and relationship norms through history, and the role of media and popular culture in shaping our understanding of sexuality, gender, and relationships.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1337501-2025-08-25",
+      "courseGroupId": "1337501",
+      "code": "HSD 195",
+      "subjectCode": "HSD",
+      "courseNumber": "195",
+      "longName": "Food, Culture and Society",
+      "name": "Food, Culture and Society",
+      "description": "Students will examine American dining rituals and patterns from colonial times through the 21st Century. Students will examine how historical events of colonization, trade, war, industrialization and weather impacted food consumption and diet in America. Using a socioecological model, students will also examine how American meal patterns are influenced by religion, race, culture, economics and politics.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "MENF - ME_NUFS_3 (Food and Culture)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MENF - ME_NUFS_3 (Food and Culture)"
+      ]
+    },
+    {
+      "id": "1372851-2025-08-25",
+      "courseGroupId": "1372851",
+      "code": "HSD 195H",
+      "subjectCode": "HSD",
+      "courseNumber": "195H",
+      "longName": "Food, Culture and Society (Honors)",
+      "name": "Food, Cultr & Society (Honors)",
+      "description": "Students will examine American dining rituals and patterns from colonial times through the 21st Century. Students will examine how historical events of colonization, trade, war, industrialization and weather impacted food consumption and diet in America. Using a socioecological model, students will also examine how American meal patterns are influenced by religion, race, culture, economics and politics.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885811-2025-08-25",
+      "courseGroupId": "0885811",
+      "code": "HSD 201",
+      "subjectCode": "HSD",
+      "courseNumber": "201",
+      "longName": "Health Education and Exercise",
+      "name": "Health Education and Exercise",
+      "description": "This course will develop positive health related attitudes, values, and habits to promote physical, mental and social wellness. The student will attain a broad spectrum of exercise information and skills and apply that knowledge to those skills in a laboratory fitness program, utilizing appropriate equipment to assess the function of muscular systems during physical performance. Individuals will explore the body's adaptation to aerobic, anaerobic, and resistance training.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885821-2025-08-25",
+      "courseGroupId": "0885821",
+      "code": "HSD 202",
+      "subjectCode": "HSD",
+      "courseNumber": "202",
+      "longName": "Drug Use in American Society",
+      "name": "Drug Use in American Society",
+      "description": "This course examines the use of licit and illicit drugs across cultures within the context of personal health and wellness. The historical, pharmacodynamics, psychological, emotional and social aspects of licit and illicit drug use, as well as drug abuse, will serve as the foundation for this examination.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885831-2025-08-25",
+      "courseGroupId": "0885831",
+      "code": "HSD 210",
+      "subjectCode": "HSD",
+      "courseNumber": "210",
+      "longName": "Contemporary Health Issues",
+      "name": "Contemporary Health Issues",
+      "description": "An advanced seminar in health education, this course concentrates on an in-depth investigation of selected health problems. Emphasis is placed on social aspects of health.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1342501-2025-08-25",
+      "courseGroupId": "1342501",
+      "code": "HSD 211",
+      "subjectCode": "HSD",
+      "courseNumber": "211",
+      "longName": "Critical Health Topics & Issues",
+      "name": "Critical Health Topics & Issue",
+      "description": "This course academically examines topics that health education professionals have identified as: 1) critical to the health and well being of specific populations, 2) relevant to the current state of the nation’s health and healthcare system, 3) representative of recent trends in health practices/theory, or 4) a significant health concern attributable to personal health behavior(s). This course provides for an in-depth analysis of the array of topics germane to the health field. Each semester one or more topics will be offered through this course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "MEHS - ME_HESA_1 (Health Care Delivery)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEHS - ME_HESA_1 (Health Care Delivery)"
+      ]
+    },
+    {
+      "id": "0885841-2025-08-25",
+      "courseGroupId": "0885841",
+      "code": "HSD 215",
+      "subjectCode": "HSD",
+      "courseNumber": "215",
+      "longName": "Habituation and Addiction and Their Prevention",
+      "name": "Hab & Addict & Prev",
+      "description": "This course covers causes of alcoholism and drug abuse. It discusses ways people are introduced to harmful substances, social and personal effects of alcoholism and drug abuse, prevention, and rehabilitation techniques. Methods and materials for the professional student are given special consideration.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885851-2025-08-25",
+      "courseGroupId": "0885851",
+      "code": "HSD 220",
+      "subjectCode": "HSD",
+      "courseNumber": "220",
+      "longName": "Human Sexuality",
+      "name": "Human Sexuality",
+      "description": "This course deals with the physiological, psychological and social aspects of human sexual development and functions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885861-2025-08-25",
+      "courseGroupId": "0885861",
+      "code": "HSD 225",
+      "subjectCode": "HSD",
+      "courseNumber": "225",
+      "longName": "Health Concerns of Women",
+      "name": "Health Concerns of Women",
+      "description": "This health course is aimed to be a practical course for students and to affect their lives in a positive way. It provides an opportunity to gain information and insight into the physical, psychological, and social aspects of women's health concerns.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885871-2025-08-25",
+      "courseGroupId": "0885871",
+      "code": "HSD 230",
+      "subjectCode": "HSD",
+      "courseNumber": "230",
+      "longName": "Consumer Health Survey",
+      "name": "Consumer Health Survey",
+      "description": "Historical events and contemporary factors affecting the availability, control, and monitoring of American Health Care products and services are explored. Such factors include: the private and public financing of health care, public and private monitoring of health care; and the ethical issues of medical care in America. The purpose of the course is not to advocate any particular health care philosophy, product or service, but to provide the student with the skills and factual base for making informed decisions in the health care marketplace.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "ICxFb4n0sD9IY27xGYlf",
+      "courseGroupId": "1585051",
+      "code": "HSD 230H",
+      "subjectCode": "HSD",
+      "courseNumber": "230H",
+      "longName": "Consumer Health Survey (Honors)",
+      "name": "Consumer Health Survey(Honors)",
+      "description": "Historical events and contemporary factors affecting the availability, control, and monitoring of American Health Care products and services are explored. Such factors include: the private and public financing of health care, public and private monitoring of health care; and the ethical issues of medical care in America. The purpose of the course is not to advocate any particular health care philosophy, product or service, but to provide the student with the skills and factual base for making informed decisions in the health care marketplace.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885881-2025-08-25",
+      "courseGroupId": "0885881",
+      "code": "HSD 235",
+      "subjectCode": "HSD",
+      "courseNumber": "235",
+      "longName": "Nutrition for Health",
+      "name": "Nutrition for Health",
+      "description": "This course examines what the National Academy of Sciences recommends for meeting one's nutritional needs. It examines the food, beverages, and supplements that comprise one's diet and assesses their impact on health following digestion, absorption, and metabolism. The course is designed to help students make health informed choices regarding nutritional needs and goals.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "MENF - ME_NUFS_1 (Fundamentals of Nutrition)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MENF - ME_NUFS_1 (Fundamentals of Nutrition)"
+      ]
+    },
+    {
+      "id": "0885891-2025-08-25",
+      "courseGroupId": "0885891",
+      "code": "HSD 240",
+      "subjectCode": "HSD",
+      "courseNumber": "240",
+      "longName": "First Aid, Stafety and Cardio Pulmonary Resuscitation",
+      "name": "First Aid Safety",
+      "description": "Students in this course acquire knowledege essential for safe living,including the causes and preventions of accidents. The students learn the practical skills of first aid and cardio pulmonary resuscitation. Students are eligible for certification provided they meet Red Cross standards.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885901-2025-08-25",
+      "courseGroupId": "0885901",
+      "code": "HSD 250",
+      "subjectCode": "HSD",
+      "courseNumber": "250",
+      "longName": "Stress: Awareness, Understanding and Mangement",
+      "name": "Stress Management",
+      "description": "This course is designed to provide students with a comprehensive overview of the psychological, physical, and social understanding of the stress response. The course will explore the divergent ranges of the human stress response, while emphasizing the use of positive stress in an academic setting. Opportunities will be provided for students to learn concrete scientific measures, gain practical insights, and adapt viable stress management techniques. The purpose of this course is not to advocate any one particular technique, but rather to enable students to make informed decisions about stress management approaches toward enhancing health.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1519001-2025-08-25",
+      "courseGroupId": "1519001",
+      "code": "HSD 250H",
+      "subjectCode": "HSD",
+      "courseNumber": "250H",
+      "longName": "Stress: Awareness, Understanding and Management (Honors)",
+      "name": "Stress Management (Honors)",
+      "description": "This course is designed to provide students with a comprehensive overview of the psychological, physical, and social understanding of the stress response. The course will explore the divergent ranges of the human stress response, while emphasizing the use of positive stress in an academic setting. Opportunities will be provided for students to learn concrete scientific measures, gain practical insights, and adapt viable stress management techniques. The purpose of this course is not to advocate any one particular technique, but rather to enable students to make informed decisions about stress management approaches toward enhancing health.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1342521-2025-08-25",
+      "courseGroupId": "1342521",
+      "code": "HSD 255",
+      "subjectCode": "HSD",
+      "courseNumber": "255",
+      "longName": "Communication Strategies in Health Literacy, Promotion & Programming",
+      "name": "Comm Strategy- Health Literacy",
+      "description": "An introduction to the United States and International field of health communication with an emphasis on theoretical constructs, practical models and applications. This course of study examines the multifaceted nature of health communication and its role in personal health behavior and public health interventions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0885911-2025-08-25",
+      "courseGroupId": "0885911",
+      "code": "HSD 260",
+      "subjectCode": "HSD",
+      "courseNumber": "260",
+      "longName": "Wellness Cardiovascular Care",
+      "name": "Wellness Cardiovascular Care",
+      "description": "This course focuses on preventive heart care utilizing: nutritional plans, cardiovascular stress management, cardiovascular knowledge, and individualized cardiovascular fitness programs. In the classroom and fitness laboratory, students explore, devise and practice educational and fitness strategies to improve their overall cardiovascular health.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1271161-2025-08-25",
+      "courseGroupId": "1271161",
+      "code": "HSD 270",
+      "subjectCode": "HSD",
+      "courseNumber": "270",
+      "longName": "Health Perspectives of Death and Dying",
+      "name": "Hlt Perspctve Of Death & Dying",
+      "description": "The course experience provides students with an understanding of death and dying from a physiological, emotional, spiritual, and behavioral perspective with additional emphasis on legal and ethical issues.  Topics to be explored include: therapeutic care plans as they relate to diseases and disorders of the terminally ill; medical preparation for death, inclusive of DNI (do not intubate), DNR (do not resuscitate) and health proxy laws; an examination of the emotional and physiological impact on the health of the caregiver as well as that of the terminal patient, ; an examination of funeral rituals and grieving practices involved in the healing process of bereavement, as well as unique circumstances of death involving suicide and euthanasia.  Overall, the course explores death within the multiple dimensions of health and wellness on the continuum of the life cycle.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1518991-2025-08-25",
+      "courseGroupId": "1518991",
+      "code": "HSD 270H",
+      "subjectCode": "HSD",
+      "courseNumber": "270H",
+      "longName": "Health Perspectives of Death and Dying (Honors)",
+      "name": "Hlt Per Of Death & Dy (Honors)",
+      "description": "The course experience provides students with an understanding of death and dying from a physiological, emotional, spiritual, and behavioral perspective with additional emphasis on legal and ethical issues.  Topics to be explored include: therapeutic care plans as they relate to diseases and disorders of the terminally ill; medical preparation for death, inclusive of DNI (do not intubate), DNR (do not resuscitate) and health proxy laws; an examination of the emotional and physiological impact on the health of the caregiver as well as that of the terminal patient, ; an examination of funeral rituals and grieving practices involved in the healing process of bereavement, as well as unique circumstances of death involving suicide and euthanasia.  Overall, the course explores death within the multiple dimensions of health and wellness on the continuum of the life cycle.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1353201-2025-08-25",
+      "courseGroupId": "1353201",
+      "code": "HSD 275",
+      "subjectCode": "HSD",
+      "courseNumber": "275",
+      "longName": "HIV/AIDS: Public Health Implications",
+      "name": "HIV/AIDS: Public Hlth Implicat",
+      "description": "This course will provide an overview of the social and behavioral factors which influence the transmission as well as the prevention of HIV/AIDS throughout the world. Students will become familiar with the determinants and distribution of AIDS, and the psychosocial, bio-behavioral, environmental and community factors related to the prevention and control of HIV/AIDS. Students will have an opportunity to explore their own beliefs, values, and approaches to the issues regarding HIV/AIDS, in addition to the cultural, political, social, legal, ethical, spiritual, and public health issues and the perspectives of people living with HIV infection and AIDS that are needed to inform practice and policy.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1527091-2025-08-25",
+      "courseGroupId": "1527091",
+      "code": "HSD 276",
+      "subjectCode": "HSD",
+      "courseNumber": "276",
+      "longName": "Environmental and Occupational Health",
+      "name": "Environ & Occupational Health",
+      "description": "This course introduces students to physical, chemical and biological hazards found in the environment and public health risks associated with workplace and community exposure to them. The historical, economic, and cultural forces contributing to and inhibiting solutions to occupational and environmental safety and public health problems are analyzed. Topics include air and water quality, climate change, waste disposal, occupational health issues, exposure to toxic materials and others.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1352911-2025-08-25",
+      "courseGroupId": "1352911",
+      "code": "HSD 280",
+      "subjectCode": "HSD",
+      "courseNumber": "280",
+      "longName": "History and Principles of Public Health",
+      "name": "History & Princ Public Health",
+      "description": "This course will examine the history of health and illness from a population perspective. The course will present students with past, present, and future key public health topics and their application to public health strategies to prevent or minimize health problems among cultural diverse populations and across the lifespan. This course will present students with foundational knowledge in public health by examining policy practice, and methods in the United States and abroad.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "MEHS - ME_HESA_8 (Introduction to Public Health)",
+        "MEPH - ME_PUHE_2 (Introduction to Public Health)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MEHS - ME_HESA_8 (Introduction to Public Health)",
+        "MEPH - ME_PUHE_2 (Introduction to Public Health)"
+      ]
+    },
+    {
+      "id": "1353161-2025-08-26",
+      "courseGroupId": "1353161",
+      "code": "HSD 285",
+      "subjectCode": "HSD",
+      "courseNumber": "285",
+      "longName": "Social and Behavioral Determinants of Health",
+      "name": "Social & Behavior Determ Hlth",
+      "description": "This course present students a cognitive and affective foundation to explore psychological, social, and cultural determinants of health behavior. Students will explore the several theories and principles that can be used to define how human behaviors and social factors influence health in general and their application for health professionals in community settings. The course will cover social issues and factors that place people in various socioeconomic groups (gender, race, ethnicity, and place of birth) at different risk levels for premature morality and poor health.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1353171-2025-08-25",
+      "courseGroupId": "1353171",
+      "code": "HSD 290",
+      "subjectCode": "HSD",
+      "courseNumber": "290",
+      "longName": "Principles and Practice of Behavior Change",
+      "name": "Prin & Prac of Behavior Change",
+      "description": "This course is designed to instill in students a foundation knowledge in the social and behavioral determinants that influence health status. Students will develop writing skills for effectively communicating about psychosocial issues in public health. The course will provide students with an opportunity to examine the causes of behavior in the home, school, and community settings, examine how environmental variables may be manipulated in order to increase appropriate behavior, models of behavior changes for students, and learn about the legal and ethical issues in behavior change.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1353181-2025-08-25",
+      "courseGroupId": "1353181",
+      "code": "HSD 295",
+      "subjectCode": "HSD",
+      "courseNumber": "295",
+      "longName": "Epidemiology for Public Health Practice",
+      "name": "Epidemiology Public Hlth Prac",
+      "description": "This course presents basic principles and methods of public health epidemiology. Particular emphasis is on applying epidemiologic methods to public health problems such as measures of disease frequency, study designs and bias, effect modification, outbreak investigations, screening, causality and ethical issues. Students will develop skills to interpret and evaluate health information from published epidemiologic studies.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "MEPH - ME_PUHE_3 (Introduction to Epidemiology)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1353191-2025-08-25",
+      "courseGroupId": "1353191",
+      "code": "HSD 296",
+      "subjectCode": "HSD",
+      "courseNumber": "296",
+      "longName": "Biostatistics in Public Health",
+      "name": "Biostatistics in Public Health",
+      "description": "This course will provide students with the basic knowledge and skills of data management, statistical techniques, and measurement in public health research. It will concentrate on interpretation and comprehension of graphical and statistical techniques most often used in public health research and practice. Topics covered will include vital statistics, descriptive and inferential statistics, multi-variable analysis, and measurement methods. Students will acquire practical skills of data management and statistical analysis through the use of computer software.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1271171-2025-08-25",
+      "courseGroupId": "1271171",
+      "code": "HSD 301",
+      "subjectCode": "HSD",
+      "courseNumber": "301",
+      "longName": "Introduction of Community Health Education",
+      "name": "Intro Of Community Health Edu",
+      "description": "Health educators promote, maintain, and improve individual and community health by assisting individuals and communities to adopt healthy behaviors.  This is accomplished primarily through the planning, implementation, monitoring, and evaluation of programs designed to encourage healthy lifestyles, polices, and environments.  The purpose of this course is to provide students with an overview of the field of community health education and an opportunity to develop skills in needs assessment and program planning. We will review the importance of health behavior as a contributor to current public health problems, as well as the role of health education and health promotion in addressing these problems. Students will learn how to use the planning frameworks for conducting needs assessments and designing and evaluating health promotion programs. Theories of health behavior change will be introduced and their applications explored.  Examples of health education and health promotion programs will be presented from health care, community, school and workplace settings.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "MECH - ME_COHL_2 (Intro to Community Health)",
+        "MECH - ME_COHL_3 (Techniques in Comm Health Edu)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MECH - ME_COHL_2 (Intro to Community Health)",
+        "MECH - ME_COHL_3 (Techniques in Comm Health Edu)"
+      ]
+    },
+    {
+      "id": "1271181-2025-08-25",
+      "courseGroupId": "1271181",
+      "code": "HSD 302",
+      "subjectCode": "HSD",
+      "courseNumber": "302",
+      "longName": "Health Counseling",
+      "name": "Health Counseling",
+      "description": "This course is designed to provide health education students with an understanding of theories and models upon which behavior change is based and with strategies to impact health behavior change.  Students will acquire basic health behavior counseling and coaching skills and practice principles involved in motivation and program adherence and retention.   Each student will gain experience working in the field of community health education through a field placement assignment.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "1313631-2025-08-25",
+      "courseGroupId": "1313631",
+      "code": "HSD 310",
+      "subjectCode": "HSD",
+      "courseNumber": "310",
+      "longName": "Aging, Health and Culture: Global Perspectives",
+      "name": "Aging, Health and Culture",
+      "description": "This course will investigate health issues related to aging from a global perspective. Students will understand how culture influences individual responses' to elderly and the aging. The relationship between aging, chronic and degenerative diseases will also be reviewed with special consideration given to the effect of biological changes in elders' process, health functioning and prevention of the effects of physical and mental deterioration of the individual.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1509521-2025-08-25",
+      "courseGroupId": "1509521",
+      "code": "HSD 340",
+      "subjectCode": "HSD",
+      "courseNumber": "340",
+      "longName": "Global Nutrition and Disease",
+      "name": "Global Nutrition and Disease",
+      "description": "This course explores the global aspects of nutrition in relation to health and disease. Students will examine factors that contribute to hunger, malnutrition, nutrition-related diseases and chronic diseases. Students will examine nutrition epidemiology and consequences of malnutrition in terms of morbidity and mortality. Students will also examine political mechanism that affect delivery of quality food and nutrition services, such as legislation, policies and practices. Students will develop cultural competencies needed for effective nutrition intervention as well as explore agricultural techniques needed for sustainable development.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1509531-2025-08-25",
+      "courseGroupId": "1509531",
+      "code": "HSD 341",
+      "subjectCode": "HSD",
+      "courseNumber": "341",
+      "longName": "Nutrition Across the Lifespan",
+      "name": "Nutrition Across the Lifespan",
+      "description": "This course examines current concepts in human nutrition as applied to individual needs that are based uponresearch conducted with gender and age groups in each stage of the life span.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "MENF - ME_NUFS_2 (Nutrition Across the Lifespan)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MENF - ME_NUFS_2 (Nutrition Across the Lifespan)"
+      ]
+    },
+    {
+      "id": "1337511-2025-08-25",
+      "courseGroupId": "1337511",
+      "code": "HSD 476",
+      "subjectCode": "HSD",
+      "courseNumber": "476",
+      "longName": "Cross Cultural Health Education in Peru and the U.S.",
+      "name": "Cross Cult Hlth Edu Peru & U.S",
+      "description": "This Study Abroad course will expose students to the rich history and culture of inhabitants of the Andes. Class sessions will be based in the city of Cusco, Peru, the former capital of the Inca Empire. Cusco is an ancient colonial city built on Inca monuments, and has been declared a World Heritage site by the UN. Field trips and hosting with local families will expose students to the culture, health practices, and beliefs of the Andean people. The course will be based at the Centro Tinku, a cultural center dedicated to exchanges between students and inhabitants of the Andes. Students will compare and contrast Peruvian and U.S. access to health care in colonial times and the present, complementary and alternative medicines, and health outcomes.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [
+        "ELO - IALO (International Learning Opp)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - IALO (International Learning Opp)"
+      ]
+    },
+    {
+      "id": "0892251-1901-01-01",
+      "courseGroupId": "0892251",
+      "code": "PED 143",
+      "subjectCode": "PED",
+      "courseNumber": "143",
+      "longName": "Prog Resist Exer",
+      "name": "Prog Resist Exer",
+      "description": "Prog Resist Exer",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 1,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0892321-1901-01-01",
+      "courseGroupId": "0892321",
+      "code": "PED 153",
+      "subjectCode": "PED",
+      "courseNumber": "153",
+      "longName": "Modern Dance I",
+      "name": "Modern Dance I",
+      "description": "Modern Dance I",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 1,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "HE-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

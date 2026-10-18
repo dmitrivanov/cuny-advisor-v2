@@ -1,0 +1,2400 @@
+{
+  "department_id": "SPCH-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "64bd9dac721ab85ddb1776b8dbda6cff04c23d9ae3ea0752503a1089b4ba345a",
+  "records": [
+    {
+      "id": "1367161-2019-12-01",
+      "courseGroupId": "1367161",
+      "code": "COM 100",
+      "subjectCode": "COM",
+      "courseNumber": "100",
+      "longName": "Introduction to Communication Studies",
+      "name": "Intro to Communication Studies",
+      "description": "Introduction to Communication Studies is a survey course that examines major research areas, perspectives, and theories within the field of communication studies. The course will introduce and review key approaches to the study of human interaction, rhetoric, language, persuasion, and cultural processes across diverse contexts. Specifically, the course provides an interdisciplinary framework from which students will think seriously about how culture and society are constructed in our communicative practices, explore how language and meaning structure our reality, as well as examine the social, cultural, and political impacts of human communication as it unfolds in varied fields including interpersonal communication and conflict resolution, intercultural communication, rhetoric, media studies, as well as organizational and small-group communication.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-12-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1547611-2019-12-01",
+      "courseGroupId": "1547611",
+      "code": "COM 100H",
+      "subjectCode": "COM",
+      "courseNumber": "100H",
+      "longName": "Introduction to Communication Studies (Honors)",
+      "name": "Intro to Comm Studies (Honors)",
+      "description": "Introduction to Communication Studies is a survey course that examines major research areas, perspectives, and theories within the field of communication studies. The course will introduce and review key approaches to the study of human interaction, rhetoric, language, persuasion, and cultural processes across diverse contexts. Specifically, the course provides an interdisciplinary framework from which students will think seriously about how culture and society are constructed in our communicative practices, explore how language and meaning structure our reality, as well as examine the social, cultural, and political impacts of human communication as it unfolds in varied fields including interpersonal communication and conflict resolution, intercultural communication, rhetoric, media studies, as well as organizational and small-group communication.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-12-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1513791-2023-02-01",
+      "courseGroupId": "1513791",
+      "code": "COM 150",
+      "subjectCode": "COM",
+      "courseNumber": "150",
+      "longName": "Introduction to Digital Communication and Culture",
+      "name": "Intro Digital Comm & Culture",
+      "description": "This course introduces students to the major critical methods, policy issues, and creative forms involved in contemporary digital media in the United States and across the globe. The course will foster discussion regarding the ways digital media affects ways of thinking, availability and access to ideas and cultures, ways of storing knowledge and memory, and avenues for cultural resistance and activism. Students will engage with academic and popular texts to analyze the history and evolution of the role of digital communication in human interaction and culture. Through written reflections, analysis of media, lectures, and films, students will consider how digital media functions in educational, professional, and social contexts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0896641-2015-05-01",
+      "courseGroupId": "0896641",
+      "code": "COM 240",
+      "subjectCode": "COM",
+      "courseNumber": "240",
+      "longName": "Interpersonal Communication",
+      "name": "Interpersonal Communication",
+      "description": "The course introduces the basic concepts and theories of interpersonal communication in personal, educational and business settings. This includes a study of self as communicator, the effect of language on others, verbal and nonverbal expression of thoughts and feelings and factors which contribute to effective communication.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0896651-2015-05-01",
+      "courseGroupId": "0896651",
+      "code": "COM 245",
+      "subjectCode": "COM",
+      "courseNumber": "245",
+      "longName": "The Mass Media",
+      "name": "The Mass Media",
+      "description": "The focus of this course is to provide an understanding of the influence and impact on our lives and society by the mass media. The course examines the history, law, technology, economics and politics of the mass media through independent study, field trips, etc. Students are encouraged to be aware of techniques of influence used by the mass media to influence and determine social and political values. In addition, students learn to develop tools for critical analysis of and standards for discriminating consumption of the mass media.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1190991-1901-01-01",
+      "courseGroupId": "1190991",
+      "code": "COM 250",
+      "subjectCode": "COM",
+      "courseNumber": "250",
+      "longName": "Conflict Resolution",
+      "name": "Conflict Resolution",
+      "description": "The emphasis of this course is on developing communication behaviors that productively manage conflict; it is structured to integrate communication theory with practical application. Through readings, lectures,sample conflict cases, and interviews, as well as through in-class discussion and exercises, this course will address both intra-personal and inter-personal conflicts that occur in diverse settings, examine the sources of these conflicts, and analyze the factors that influence how we identify, define, manage,and defuse these conflicts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1499011-1901-01-01",
+      "courseGroupId": "1499011",
+      "code": "COM 250H",
+      "subjectCode": "COM",
+      "courseNumber": "250H",
+      "longName": "Conflict Resolution (Honors)",
+      "name": "Conflict Resolution (Honors)",
+      "description": "The emphasis of this course is on developing communication behaviors that productively manage conflict; it is structured to integrate communication theory with practical application. Through readings, lectures,sample conflict cases, and interviews, as well as through in-class discussion and exercises, this course will address both intra-personal and inter-personal conflicts that occur in diverse settings, examine the sources of these conflicts, and analyze the factors that influence how we identify, define, manage,and defuse these conflicts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1191001-2017-11-01",
+      "courseGroupId": "1191001",
+      "code": "COM 255",
+      "subjectCode": "COM",
+      "courseNumber": "255",
+      "longName": "Intercultural Communication",
+      "name": "Intercultural Communication",
+      "description": "This course is designed to provide an understanding of intercultural principles and perspectives when communicating with people from diverse cultures. Consideration will be given to both verbal and nonverbal communication processes in the \"American\" culture, co-cultures, contact cultures, and popular culture. Through readings, lectures, response papers, and interviews, as well as through in-class discussion and exercises, this course will explore how culture shapes communication, how situations are framed through cultural lenses, and how histories, perceptions, values, contexts, aspects of stereotypes, and ethnocentrism all contribute to the complexity of intercultural communication.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1481291-2017-11-01",
+      "courseGroupId": "1481291",
+      "code": "COM 255H",
+      "subjectCode": "COM",
+      "courseNumber": "255H",
+      "longName": "Intercultural Communication (Honors)",
+      "name": "Intercultural Comm (Honors)",
+      "description": "This course is designed to provide an understanding of intercultural principles and perspectives when communicating with people from diverse cultures. Consideration will be given to both verbal and nonverbal communication processes in the \"American\" culture, co-cultures, contact cultures, and popular culture. Through readings, lectures, response papers, and interviews, as well as through in-class discussion and exercises, this course will explore how culture shapes communication, how situations are framed through cultural lenses, and how histories, perceptions, values, contexts, aspects of stereotypes, and ethnocentrism all contribute to the complexity of intercultural communication.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1191011-1901-01-01",
+      "courseGroupId": "1191011",
+      "code": "COM 260",
+      "subjectCode": "COM",
+      "courseNumber": "260",
+      "longName": "Small Group Communication",
+      "name": "Small Group Communication",
+      "description": "This is a class in small group communication. It covers communication dynamics such as group development, decision-making, discussion, leadership, roles, norms, and conflict. Text and lectures focus on small group communication theory, concepts, and processes. A significant part of the class consists of learning the material through class exercises, participation in a variety of small groups, and reflecting on those experiences.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1290461-2014-10-01",
+      "courseGroupId": "1290461",
+      "code": "COM 265",
+      "subjectCode": "COM",
+      "courseNumber": "265",
+      "longName": "Gender and Communication",
+      "name": "Gender and Communication",
+      "description": "The purpose of this course is to raise students' awareness regarding the ways in which gender is created, maintained, and/or changed through cultural expectations and interaction. Students will gain theoretical insights and develop analytical skills to identify gendered expectations, and to learn how such expectations serve to limit behavior for people of all genders. The course will enhance understanding of how predominant social assumptions and communication norms can devalue and silence women and other non-dominant groups, and how students can become change agents to enhance our collective lives.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1495891-2019-06-01",
+      "courseGroupId": "1495891",
+      "code": "COM 270",
+      "subjectCode": "COM",
+      "courseNumber": "270",
+      "longName": "Introduction to Rhetoric and Public Address",
+      "name": "Intr Rhetoric & Public Address",
+      "description": "Students survey benchmark rhetorical perspectives and apply them to analyze various “texts” of the contemporary public sphere, such as: speech; public oratory; radio; television; film and news media; digital media; images; architectural landscapes and geographic place. Students will be introduced to the history of the rhetorical tradition and become acquainted with a wide range of analytical approaches. This introduction to rhetoric and public address aims at empowering students to actively participate in civic discourse and advocacy by honing their ability to critically analyze and respond to rhetorical appeals.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1250301-2023-05-01",
+      "courseGroupId": "1250301",
+      "code": "COM 361",
+      "subjectCode": "COM",
+      "courseNumber": "361",
+      "longName": "Communication Studies Internship",
+      "name": "Communication Study Internship",
+      "description": "The objective of the internship is to allow the student to put classroom theory in his/her Major into practice in order to gain work experience. Each student-intern will work 15 hours a week for the length of the semester. Each student-intern is assigned to an internship professor (a faculty member who is knowledgeable about the student's field. The internship professor helps the student secure internship placement in a worksite related to the student's major, or assists the student to \"reconstruct\" his/her present position as an internship; or develop-by special arrangement- an internship with his/her present employer, and serves as the student's instructor and advisor during the field experience. Student interns are expected to work 15 hours a week, complete a term project assigned by the internship professor, and be evaluated by the worksite supervisor. Students to be placed are expected to arrange their schedules so that they are free mornings or afternoons, Monday-Friday or two to three full days per week.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "1351891-2024-05-01",
+      "courseGroupId": "1351891",
+      "code": "GWS 100",
+      "subjectCode": "GWS",
+      "courseNumber": "100",
+      "longName": "Introduction to Gender & Women's Studies",
+      "name": "Intro to Gndr & Wmn's Studies",
+      "description": "This introductory-level, interdisciplinary course explores the basic concepts and perspectives of Gender and Women's Studies from an inter-sectional angle; that is, examining the ways in which gender intersects with race, ethnicity, nationality, class, sexuality, sexual identity, disability, and other categories. The concepts of gender - the roles, behaviors, activities, and attributes that a society considers appropriate for men and women - privilege and oppression, inter-sectionality, and feminist praxis will be at the core of this course. After a background in the history and significance of Gender & Women's Studies as a field of study, you will learn to critically examine how institutionalized privilege and oppression shape individual lives and intersecting identity categories.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "Sfc17v15PXOZEdeSPLuD",
+      "courseGroupId": "1584331",
+      "code": "GWS 100H",
+      "subjectCode": "GWS",
+      "courseNumber": "100H",
+      "longName": "Introduction to Gender & Women's Studies (Honors)",
+      "name": "Intro to Gndr &Wmn's Stud(Hon)",
+      "description": "This introductory-level, interdisciplinary course explores the basic concepts and perspectives of Gender and Women's Studies from an inter-sectional angle; that is, examining the ways in which gender intersects with race, ethnicity, nationality, class, sexuality, sexual identity, disability, and other categories. The concepts of gender - the roles, behaviors, activities, and attributes that a society considers appropriate for men and women - privilege and oppression, inter-sectionality, and feminist praxis will be at the core of this course. After a background in the history and significance of Gender & Women's Studies as a field of study, you will learn to critically examine how institutionalized privilege and oppression shape individual lives and intersecting identity categories.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1352391-2017-02-01",
+      "courseGroupId": "1352391",
+      "code": "GWS 300",
+      "subjectCode": "GWS",
+      "courseNumber": "300",
+      "longName": "Gender & Women's Studies Capstone",
+      "name": "Gender & Women's Stud Capstone",
+      "description": "The Gender and Women's Studies Capstone course will be a culmination and synthesis of students' work in the GWS program. Over the course of the semester, students will explore a topic in GWS in-depth; they will sharpen their analytic abilities and critical thinking skills while engaging in an independent research and/or experiential learning project. Through course readings and individual and/or group work, students will apply interdisciplinary concepts, theories and methods to real life experiences, resulting in a research paper or project and a presentation to the class.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1300161-2015-02-23",
+      "courseGroupId": "1300161",
+      "code": "LAT 124",
+      "subjectCode": "LAT",
+      "courseNumber": "124",
+      "longName": "Latin American Theatre and Performance",
+      "name": "Latin American Theatre & Perfo",
+      "description": "This survey course will look at major trends and directions in Latin American theatre by drawing on plays and performance ensembles of the mid-twentieth century to the present. We will look at the work of some of the most influential playwrights, directors, and ensembles as they grapple with their political, national, and cultural contexts, and discuss these artists' dual commitment to social conscience and artistic expression. We will read manifestoes and plays by many of Latin America's major playwrights and performing artists, as well as critical writing by scholars and historians. We will also engage with documentary films and videos of performances.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-02-23",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0896561-2019-06-01",
+      "courseGroupId": "0896561",
+      "code": "SPE 100",
+      "subjectCode": "SPE",
+      "courseNumber": "100",
+      "longName": "Fundamentals of Public Speaking",
+      "name": "Fund of Public Speaking",
+      "description": "The aim of this course is to develop effective skills in speech communication. The student examines how to generate topics and organized ideas, masters elements of audience psychology and practices techniques of speech presentation in a public forum. All elements of speech production and presentation are considered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_CreativeExpression",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1530041-2019-06-01",
+      "courseGroupId": "1530041",
+      "code": "SPE 100H",
+      "subjectCode": "SPE",
+      "courseNumber": "100H",
+      "longName": "Fund of Public Speaking (Honors)",
+      "name": "Fund of Public Speaking (Honor",
+      "description": "The aim of this course is to develop effective skills in speech communication. The student examines how to generate topics and organized ideas, masters elements of audience psychology and practices techniques of speech presentation in a public forum. All elements of speech production and presentation are considered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_CreativeExpression",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0896581-2019-06-01",
+      "courseGroupId": "0896581",
+      "code": "SPE 102",
+      "subjectCode": "SPE",
+      "courseNumber": "102",
+      "longName": "Fundamentals of Public Speaking for Non-Native Speakers",
+      "name": "Fund Public Speak Non-Native",
+      "description": "The aim of this course is to develop effective skills in speech communication. The student examines how to generate topics and organized ideas, masters elements of audience psychology and practices techniques of speech presentation in a public forum. All elements of speech production and presentation are considered. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_CreativeExpression",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0896591-2014-05-01",
+      "courseGroupId": "0896591",
+      "code": "SPE 103",
+      "subjectCode": "SPE",
+      "courseNumber": "103",
+      "longName": "Voice and Articulation",
+      "name": "Voice and Articulation",
+      "description": "This course is designed for those students who wish to improve their speech communication in the business and professional environment. Study of voice and articulation, development of auditory discrimination, utilization of individual and group exercises, and application of speech in group discussions and interviews are covered. This class is particuarly recommended for those whose native language is not English as well as those desiring addition improvement in speech and language.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1166521-1901-01-01",
+      "courseGroupId": "1166521",
+      "code": "SPE 152",
+      "subjectCode": "SPE",
+      "courseNumber": "152",
+      "longName": "Introduction to Contemporary Media",
+      "name": "Intro Contemp Media",
+      "description": "This course introduces the key concepts of preparing a media project with the development of a needs analysis and a treatment for client proposals. The basics of scripting, graphics, and audio and video elements are covered. These elements are then illustrated in detailed discussions of contemporary media, including film and video production. Students progress to discussion of satellite and Internet technologies that include teleconferencing, business, television and video news releases. Multimedia implementation is then covered by analyzing case studies in electronic press kits and website design.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0896611-2014-10-01",
+      "courseGroupId": "0896611",
+      "code": "SPE 210",
+      "subjectCode": "SPE",
+      "courseNumber": "210",
+      "longName": "Oral Interpretation",
+      "name": "Oral Interpretation",
+      "description": "This course is devoted to the reading aloud of various works of literature, such as poetry, prose or drama, in order to develop an awareness of the voice and body as an instrument of communication, and to instill an appreciation of the beauty and sensitivity of the English language.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1481971-2014-10-01",
+      "courseGroupId": "1481971",
+      "code": "SPE 210H",
+      "subjectCode": "SPE",
+      "courseNumber": "210H",
+      "longName": "Oral Interpretation (Honors)",
+      "name": "Oral Interpretation (Honors)",
+      "description": "This course is devoted to the reading aloud of various works of literature, such as poetry, prose or drama, in order to develop an awareness of the voice and body as an instrument of communication, and to instill an appreciation of the beauty and sensitivity of the English language.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0896621-2014-10-01",
+      "courseGroupId": "0896621",
+      "code": "SPE 220",
+      "subjectCode": "SPE",
+      "courseNumber": "220",
+      "longName": "Advanced Public Speaking",
+      "name": "Advanced Public Speaking",
+      "description": "The aim of the course is to provide the student with advanced experiences in the preparation and analysis of oral presentations for professional, nonprofessional, and academic situations. A detailed study of the principles and theories of public speaking is made. The course includes the presentation of student speeches.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0897761-2014-05-01",
+      "courseGroupId": "0897761",
+      "code": "THE 100",
+      "subjectCode": "THE",
+      "courseNumber": "100",
+      "longName": "Introduction to Theatre",
+      "name": "Introduction to Theatre",
+      "description": "The collaborative nature of the theatrical event will be explored in readings, play attendance, papers and creative projects. Contributions of the playwright, actor, director, designer, architect, critic, producer and audience will be investigated through selected periods, genres, theatre spaces and styles of production.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_CreativeExpression",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1365451-1901-01-01",
+      "courseGroupId": "1365451",
+      "code": "THE 100H",
+      "subjectCode": "THE",
+      "courseNumber": "100H",
+      "longName": "Introduction to Theatre (Honors)",
+      "name": "Intro To Theatre (Honors)",
+      "description": "The collaborative nature of the theatrical event will be explored in readings, play attendance, papers and creative projects. Contributions of the playwright, actor, director, designer, architect, critic, producer and audience will be investigated through selected periods, genres, theatre spaces and styles of production.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_CreativeExpression",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0897791-2017-05-01",
+      "courseGroupId": "0897791",
+      "code": "THE 110",
+      "subjectCode": "THE",
+      "courseNumber": "110",
+      "longName": "Acting I",
+      "name": "Acting I",
+      "description": "Basic acting skills, a method of approaching a role, a working vocabulary, and the responsibilities of the actor will be studied through improvisations, theatre games, and performance of monologues or scenes from plays and other dramatic material studied in class.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0897801-2017-05-01",
+      "courseGroupId": "0897801",
+      "code": "THE 115",
+      "subjectCode": "THE",
+      "courseNumber": "115",
+      "longName": "Voice and Movement for the Actor",
+      "name": "Voice & Movement",
+      "description": "An introduction to voice and body work. Students will participate in warm-ups and excersizes that promote concentration, relaxation, trust, vocal resonance, physical flexibility and strength.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 1,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 1
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0897821-1901-01-01",
+      "courseGroupId": "0897821",
+      "code": "THE 121",
+      "subjectCode": "THE",
+      "courseNumber": "121",
+      "longName": "Elements of Production",
+      "name": "Elements of Production",
+      "description": "A comprehensive overview of the fundamentals of professional theatre production, including the basic skills and technical theories involved in scene design, stagecraft, stage properties, costuming, lighting, and sound. Physical theatre layout, crew organization and responsibilities, safety requirements, and practical experience in building and running a production will be taught. Students will serve on a crew for a BMCC theatre event.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0897831-2017-10-01",
+      "courseGroupId": "0897831",
+      "code": "THE 125",
+      "subjectCode": "THE",
+      "courseNumber": "125",
+      "longName": "Scenic Practicum",
+      "name": "Scenic Practicum",
+      "description": "This course provides practical training, working side-by- side with designers and technicians to build and run the current production. Focus is on scenic and prop creation, including an introduction to common tools and basic construction techniques with an emphasis on safety. The areas in which students gain experience are determined by their interest and availability.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 1,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "0897841-2017-10-01",
+      "courseGroupId": "0897841",
+      "code": "THE 126",
+      "subjectCode": "THE",
+      "courseNumber": "126",
+      "longName": "Costume Practicum",
+      "name": "Costume Practicum",
+      "description": "This course provides practical training, working side-by- side with designers and technicians to build and run the current production. Focus is on costume technology and wardrobe crew. The areas a student gains experience are determined by their interest and availability.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 1,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "0897851-2017-05-01",
+      "courseGroupId": "0897851",
+      "code": "THE 127",
+      "subjectCode": "THE",
+      "courseNumber": "127",
+      "longName": "Performance Practicum",
+      "name": "Performance Practicum",
+      "description": "This variable topics course provides practical training in rehearsal, performance and production practices, including acting, stage management, and running crew. The play to be produced will be announced at registration. Enrollment is by audition only. Course may be taken up to three times for credit.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": true,
+        "numberOfRepeats": 3,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0897861-2017-10-01",
+      "courseGroupId": "0897861",
+      "code": "THE 128",
+      "subjectCode": "THE",
+      "courseNumber": "128",
+      "longName": "Special Topics Practicum",
+      "name": "Special Topics Practicum",
+      "description": "This variable topics course provides practical training in an aspect of theatre production, such as lighting, scenic painting, or sound. The student will be introduced to the specialized tools and techniques of the topic, with an emphasis on safety. The major content of the course will focus on the needs of the current production, and the topic for each section announced at registration. May be taken for credit up to three times in three different topic areas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": true,
+        "numberOfRepeats": 3,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "0897881-1901-01-01",
+      "courseGroupId": "0897881",
+      "code": "THE 140",
+      "subjectCode": "THE",
+      "courseNumber": "140",
+      "longName": "Stage Management",
+      "name": "Stage Management",
+      "description": "This course is designed to help students develop the skills and knowledge essential to execute stage management duties in pre-production work, rehearsal and performance of theatrical productions. Students will examine dramatic texts from the perspective of the stage manager. The stage management skills gained will also provide practical insights into many fields, including film, television, special events, and any business where timely, effective communication and coordination between groups is essential.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0897891-2022-06-01",
+      "courseGroupId": "0897891",
+      "code": "THE 141",
+      "subjectCode": "THE",
+      "courseNumber": "141",
+      "longName": "Theatre Management: Exploring Theaters of New York City and Beyond",
+      "name": "Theatre Management",
+      "description": "Drawing from examples and occasional guest speakers from the New York theatre world, this course provides an introduction to the theory, principles and practices of theatre management. Students will create their own fictional theatre company, applying the principles of mission structure, and financial planning. Practical experience in management is gained through crew assignments. Oral and written presentations, resulting in a casework, aim to sharpen communication skills and prepare students for further study in theatre management.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0897911-1901-01-01",
+      "courseGroupId": "0897911",
+      "code": "THE 210",
+      "subjectCode": "THE",
+      "courseNumber": "210",
+      "longName": "Acting II",
+      "name": "Acting II",
+      "description": "Continuation of methods and excersizes introduced in Acting I to develop the actor's skills, moving on to an in-depth study of scene analysis and characterization. Creating an ensemble and exposure to different historical periods will be emphasized.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0897931-2017-05-01",
+      "courseGroupId": "0897931",
+      "code": "THE 220",
+      "subjectCode": "THE",
+      "courseNumber": "220",
+      "longName": "Page-to-Stage",
+      "name": "Page-to-Stage",
+      "description": "This course is designed to give the student experience in all the aspects of bringing a play to production. As the play is cast, rehearsed, designed, built, advertised, and performed for an audience, students will learn about the responsibilities and collaboration between the different participants involved in theatre production. Studnts will have the opportunity to hone their acting skills, and must also contribute to at least one other aspect of the production.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "1359461-2017-05-01",
+      "courseGroupId": "1359461",
+      "code": "THE 222",
+      "subjectCode": "THE",
+      "courseNumber": "222",
+      "longName": "Musical Theatre: Acting the Song, Level I",
+      "name": "Music Theatre: Act Song Lvl I",
+      "description": "This course is the first level of a two-semester sequence in musical theatre singing performance skills. Students will be introduced to acting through song, correct vocal techniques and sound production. The interpretation of lyrics as well as the understanding of character, time period and musical style will be emphasized.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898001-2016-05-01",
+      "courseGroupId": "0898001",
+      "code": "THE 258",
+      "subjectCode": "THE",
+      "courseNumber": "258",
+      "longName": "Theatre Externship",
+      "name": "Theatre Externship",
+      "description": "Students serve as interns in various elements of theatrical production. Technical skills in lighting, sound, scenery, and props are included as well as experience with box office, publicity, and promotion. Students are assigned to the BMCC Tribeca Performing Arts Center or other theatre companies in Manhattan.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 10,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)",
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 10
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)",
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "0898041-1901-01-01",
+      "courseGroupId": "0898041",
+      "code": "THE 280",
+      "subjectCode": "THE",
+      "courseNumber": "280",
+      "longName": "Acting for the Camera",
+      "name": "Acting for the Camera",
+      "description": "This course will train the advanced acting student in natural. proficient acting for the camera. Techniques and acting methods will be taught in BMCC's state-ofthe-art studio; students will work in front of the camera and will be able to view their own performances on tape.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898051-1901-01-01",
+      "courseGroupId": "0898051",
+      "code": "THE 300",
+      "subjectCode": "THE",
+      "courseNumber": "300",
+      "longName": "History of Theatre",
+      "name": "History of Theatre",
+      "description": "A survey of the world from its ritual origins to Jacobean England. Major periods explored through reading and viewing significant plays, study the sociological forces that led to different theatrical forms, theatre architecture, methods of production, playwrights and the relevance of these plays and theatrical forms today.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1337521-2016-06-01",
+      "courseGroupId": "1337521",
+      "code": "THE 305",
+      "subjectCode": "THE",
+      "courseNumber": "305",
+      "longName": "Women in American Theater",
+      "name": "Women in American Theater",
+      "description": "This course explores, analyzes, and examines women’s contribution to US-American theater, beginning with Colonial women up to contemporary women. The course will investigate how omen have contributed and continue to contribute as playwrights, actors, directors, managers, producers, and through women’s collectives to the evolution of US-American theater. Most materials are available to students without costs, through open source material, e-resources, or on reserve in the BMCC library.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1290471-2014-08-27",
+      "courseGroupId": "1290471",
+      "code": "THE 310",
+      "subjectCode": "THE",
+      "courseNumber": "310",
+      "longName": "Advanced Theatre Workshop",
+      "name": "Advanced Theatre Workshop",
+      "description": "This studio course is designed to provide students with advanced creative techniques to deepen their skills as performers. Topics are presented by visiting theatre practitioners in a workshop series. Focus is on creating original work in the following areas: devised work, dance and movement for actors, and solo work. Exercises and improvisation are designed to enhance concentration, imagination, resonance, movement and will culminate into performances after each section. Students will create and workshop performances with a focus on learning new approaches to language, structure and movement. The course emphasizes the collaborative nature of theatre. Appropriate research and reading will be required in addition to artistic assignments.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-08-27",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "0898061-1901-01-01",
+      "courseGroupId": "0898061",
+      "code": "THE 315",
+      "subjectCode": "THE",
+      "courseNumber": "315",
+      "longName": "Playwriting",
+      "name": "Playwriting",
+      "description": "The objective of THE 315: Playwriting is to sharpen students' creative writing skills and to teach them the elements of playwriting and character development.  Through the reading of one-act plays and practice writing exercises each week, students will learn the craft of playwriting. They will write scenes and create their own one-act plays.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1300171-2019-10-01",
+      "courseGroupId": "1300171",
+      "code": "THE 324",
+      "subjectCode": "THE",
+      "courseNumber": "324",
+      "longName": "Latin American Theatre and Performance",
+      "name": "Latin American Theatre & Perfo",
+      "description": "This survey course will look at major trends and directions in Latin American theatre by drawing on plays and performance ensembles of the mid-twentieth century to the present. We will look at the work of some of the most influential playwrights, directors, and ensembles as they grapple with their political, national, and cultural contexts, and discuss these artists' dual commitment to social conscience and artistic expression. We will read manifestoes and plays by many of Latin America's major playwrights and performing artists, as well as critical writing by scholars and historians. We will also engage with documentary films and videos of performances.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1332291-2019-10-01",
+      "courseGroupId": "1332291",
+      "code": "THE 328",
+      "subjectCode": "THE",
+      "courseNumber": "328",
+      "longName": "Acting: Solo Performance",
+      "name": "Acting: Solo Performance",
+      "description": "The aim of this course is to develop students understanding of the history and practice of North American solo performance in the 20th and 21st centuries. Students will booth encounter various artists performance work via readings and archival video, and make their own performances throughout the course of the semester. The course will expand students knowledge of historical solo performances and both character driven and autobiographical performance. The course will also introduce students to the history of performance. The course will also introduce students to the history of performance art and ask them to contemplate its role in the history of solo performance.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "SPCH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

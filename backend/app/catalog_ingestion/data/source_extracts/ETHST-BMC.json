@@ -1,0 +1,4775 @@
+{
+  "department_id": "ETHST-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "ed7f85ce7e4afb8e77397a40d44f898f1aedd345d7641411413c0ce009aac255",
+  "records": [
+    {
+      "id": "0875921-1901-01-01",
+      "courseGroupId": "0875921",
+      "code": "AFL 111",
+      "subjectCode": "AFL",
+      "courseNumber": "111",
+      "longName": "Economics of Urban Communities",
+      "name": "Economics of Urban Communities",
+      "description": "This course introduces the subject of urban economics in historical and social contexts rather than as a strict analytical discipline. The causes and existence of poverty in cities, the management of federal, state and local government programs, the financing of Black enterprises, and conditions of social welfare are considered. Solutions toward developing neglected economics of urban communities are proposed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875931-1901-01-01",
+      "courseGroupId": "0875931",
+      "code": "AFL 112",
+      "subjectCode": "AFL",
+      "courseNumber": "112",
+      "longName": "Economic Development of the Dominican Republic in the 20th Century",
+      "name": "Dom Rep Econ Devel",
+      "description": "This course analyzes the economic policies of the different political regimes in the Dominican Republic from the end of the 19th century to the present. It studies the application and results of these policies-changes brought about by these regimes in trade, industry, agriculture and population. It also examines the influence of the United States on developments in the Dominican economy during this century.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875941-1901-01-01",
+      "courseGroupId": "0875941",
+      "code": "AFL 113",
+      "subjectCode": "AFL",
+      "courseNumber": "113",
+      "longName": "African Development in the 20th Century",
+      "name": "20th Cent Afr Devel",
+      "description": "Problems of African economic and political development since 1900 are analyzed. The emergence of conditions contrary to the goals of independence and African participation in world affairs is explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875961-2016-02-01",
+      "courseGroupId": "0875961",
+      "code": "AFL 151",
+      "subjectCode": "AFL",
+      "courseNumber": "151",
+      "longName": "Political Economy of the Caribbean",
+      "name": "Political Eco Carib",
+      "description": "This is a study of the factors affecting the economies of the English and French speaking countries of the Caribbean region. The effects of international diplomacy, multinational corporate policies, educational and social determinants, and economic policies are evaluated.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875971-2014-05-01",
+      "courseGroupId": "0875971",
+      "code": "AFL 161",
+      "subjectCode": "AFL",
+      "courseNumber": "161",
+      "longName": "Health Problems in Urban Communities (Same as SOC 161)",
+      "name": "Hlth Prob Urban Com",
+      "description": "This course analyzes the relationships between economic and social factors, and the delivery of health care services in urban communities. Attention is given to community needs related to HIV/AIDS, tuberculosis, mortality rates, prevention, and education. Guest lecturers and workshops are presented.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1250311-1901-01-01",
+      "courseGroupId": "1250311",
+      "code": "AFL 210",
+      "subjectCode": "AFL",
+      "courseNumber": "210",
+      "longName": "The Roles of Women in a Changing World (Same as ANT 210)",
+      "name": "The Roles Of Women",
+      "description": "This course analyzes the status and roles of women in cross-cultural perspective. Particular emphasis is given to the socio-cultural forces underlying the women's rights movements in the 19th century and the present resurgence of feminism.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876081-1901-01-01",
+      "courseGroupId": "0876081",
+      "code": "AFN 101",
+      "subjectCode": "AFN",
+      "courseNumber": "101",
+      "longName": "African Art (Same as ART 801)",
+      "name": "African Art (Same as ART 801)",
+      "description": "This is a survey course examining the function and form of African art in its past and present relationships to African cultures. The influence of African art forms on Western art is studied. Lectures, slides and visits to museums and galleries are included.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876091-1901-01-01",
+      "courseGroupId": "0876091",
+      "code": "AFN 102",
+      "subjectCode": "AFN",
+      "courseNumber": "102",
+      "longName": "African-American Art",
+      "name": "African-American Art",
+      "description": "The aesthetic, cultural and social contexts of African American art are studied. Comparative studies of the art created by Haitian and African-American artists are included in the course. (Same as ART 802)",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876101-2013-05-01",
+      "courseGroupId": "0876101",
+      "code": "AFN 121",
+      "subjectCode": "AFN",
+      "courseNumber": "121",
+      "longName": "History of African Civilizations (Same as HIS 121)",
+      "name": "Hist Of African Civilizations",
+      "description": "This course examines African \"civilizations\" from early antiquity to the decline of the West African Empire of Songhay.  Through readings, lectures, discussions and videos, students will be introduced to the major themes and patterns that characterize the various African settlements, states, and empires of antiquity to the close of the seventeenth century.  The course explores the wide range of social and cultural as well as technological and economic change in Africa, and interweaves African agricultural, social, political, cultural, technological, and economic history in relation to developments in the rest of the world, in addition to analyzing factors that influenced daily life such as the lens of ecology, food production, disease, social organization and relationships, culture and spiritual practice.  This course will help to build a well-rounded knowledge base and understanding of the roles of Africa's peoples in human history.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1574861-2013-05-01",
+      "courseGroupId": "1574861",
+      "code": "AFN 121H",
+      "subjectCode": "AFN",
+      "courseNumber": "121H",
+      "longName": "History of African Civilizations (Same as HIS 121) (Honors)",
+      "name": "Hist Of African Civiliz(Honor)",
+      "description": "This course examines African \"civilizations\" from early antiquity to the decline of the West African Empire of Songhay.  Through readings, lectures, discussions and videos, students will be introduced to the major themes and patterns that characterize the various African settlements, states, and empires of antiquity to the close of the seventeenth century.  The course explores the wide range of social and cultural as well as technological and economic change in Africa, and interweaves African agricultural, social, political, cultural, technological, and economic history in relation to developments in the rest of the world, in addition to analyzing factors that influenced daily life such as the lens of ecology, food production, disease, social organization and relationships, culture and spiritual practice.  This course will help to build a well-rounded knowledge base and understanding of the roles of Africa's peoples in human history.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876111-2018-02-01",
+      "courseGroupId": "0876111",
+      "code": "AFN 122",
+      "subjectCode": "AFN",
+      "courseNumber": "122",
+      "longName": "Africa 1500 to Present (Same as HIS 122)",
+      "name": "Africa 1500 To Pres",
+      "description": "Africa from the beginnings of the Atlantic slave trade to the end of Colonialism in the late twentieth century is examined. The effect of Colonialism on economic and cultural patterns in the African diaspora is explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876121-1901-01-01",
+      "courseGroupId": "0876121",
+      "code": "AFN 123",
+      "subjectCode": "AFN",
+      "courseNumber": "123",
+      "longName": "African-American History, 17th Century to 1865 (Same as HIS 123)",
+      "name": "Af-Amer His To 1865",
+      "description": "This course is a systematic examination of the participation of African American people in the political, economic and cultural history of the United States. The involvement of African Americans in abolitionism and in the development of social and cultural institutions in free black communities is analyzed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1581781-1901-01-01",
+      "courseGroupId": "1581781",
+      "code": "AFN 123H",
+      "subjectCode": "AFN",
+      "courseNumber": "123H",
+      "longName": "African-American History, 17th Century to 1865 (Same as HIS 123) (Honors)",
+      "name": "Af-Amer His To 1865 (Honors)",
+      "description": "This course is a systematic examination of the participation of African American people in the political, economic and cultural history of the United States. The involvement of African Americans in abolitionism and in the development of social and cultural institutions in free black communities is analyzed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876131-2013-05-01",
+      "courseGroupId": "0876131",
+      "code": "AFN 124",
+      "subjectCode": "AFN",
+      "courseNumber": "124",
+      "longName": "African-American History, 1865 to Present (Same as HIS 124)",
+      "name": "African-American History",
+      "description": "Reconstructions I and II, the social Darwinist years, Civil Rights activism of the 1960's and the cumulative effects of institutionalized racism are set in an historical framework for comparative study. The course examines the impact of urbanization, institutional racism, economic and political policies on the life experiences of African-Americans. The dynamics of cultural, social and political interactions within the social structure of the nation since 1865 are analyzed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1516381-2013-05-01",
+      "courseGroupId": "1516381",
+      "code": "AFN 124H",
+      "subjectCode": "AFN",
+      "courseNumber": "124H",
+      "longName": "African-American History, 1865 to Present (Same as HIS 124) (Honors)",
+      "name": "African-American Hist (Honors)",
+      "description": "Reconstructions I and II, the social Darwinist years, Civil Rights activism of the 1960's and the cumulative effects of institutionalized racism are set in an historical framework for comparative study. The course examines the impact of urbanization, institutional racism, economic and political policies on the life experiences of African-Americans. The dynamics of cultural, social and political interactions within the social structure of the nation since 1865 are analyzed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876141-1901-01-01",
+      "courseGroupId": "0876141",
+      "code": "AFN 125",
+      "subjectCode": "AFN",
+      "courseNumber": "125",
+      "longName": "Puerto Rican Culture and Folklore",
+      "name": "Puerto Rican Culture Folklore",
+      "description": "This course studies the emergence of a national culture, folklore and identity.  Topics include the Taino, Spanish and African contributions to the creation of a Criollo personality and character and the Puerto Rican family, race relations, the Jibaro, religion, and the arts.  It reviews customs, traditions, celebrations, dances, legends, songs, proverbs, and hero/underdog stories as well as the impact of the United States culture.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876151-1901-01-01",
+      "courseGroupId": "0876151",
+      "code": "AFN 126",
+      "subjectCode": "AFN",
+      "courseNumber": "126",
+      "longName": "Caribbean History (Same as HIS 126)",
+      "name": "Caribbean History",
+      "description": "This course is a survey of the economic, political and cultural institutions which characterize the present nations of the Caribbean, their antecedents in the post-Emancipation period and the prospects for the future.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876161-1901-01-01",
+      "courseGroupId": "0876161",
+      "code": "AFN 127",
+      "subjectCode": "AFN",
+      "courseNumber": "127",
+      "longName": "Haitian History and Culture",
+      "name": "Haitian History and Culture",
+      "description": "This course explores the role of economics, culture, and world diplomacy in the development of the Republic of Haiti since the Revolution of 1791. The impact of Haitian intellectual and popular thought on prose, poetry, and art is examined.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876171-2014-05-01",
+      "courseGroupId": "0876171",
+      "code": "AFN 128",
+      "subjectCode": "AFN",
+      "courseNumber": "128",
+      "longName": "Black Women in the Americas and the Caribbean (Same as ANT 128)",
+      "name": "Blk Women Amer/Cari",
+      "description": "The changing status of women in African traditional societies is compared with changes in the status of Black women in the United States, the Caribbean and Brazil.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1480521-1901-01-01",
+      "courseGroupId": "1480521",
+      "code": "AFN 128H",
+      "subjectCode": "AFN",
+      "courseNumber": "128H",
+      "longName": "Black Women in the Americas and the Caribbean (Honors)",
+      "name": "Blk Women Amer/Cari (Honors)",
+      "description": "The changing status of women in African traditional societies is compared with changes in the status of Black women in the United States, the Caribbean and Brazil.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876181-2014-05-01",
+      "courseGroupId": "0876181",
+      "code": "AFN 129",
+      "subjectCode": "AFN",
+      "courseNumber": "129",
+      "longName": "The Black Man in Contemporary Society (Same as SOC 129)",
+      "name": "Blk Man In Society",
+      "description": "The effects of economic and social factors on socialization, status and levels of achievement among Black men are analyzed. The impact of institutional racism and underachievement on urbanized populations is explored in terms of access, social status and economic differentials.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ]
+    },
+    {
+      "id": "1499021-2014-05-01",
+      "courseGroupId": "1499021",
+      "code": "AFN 129H",
+      "subjectCode": "AFN",
+      "courseNumber": "129H",
+      "longName": "The Black Man in Contemporary Society (Same as SOC 129) (Honors)",
+      "name": "Blk Man In Society (Honors)",
+      "description": "The effects of economic and social factors on socialization, status and levels of achievement among Black men are analyzed. The impact of institutional racism and underachievement on urbanized populations is explored in terms of access, social status and economic differentials.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1550271-2023-08-25",
+      "courseGroupId": "1550271",
+      "code": "AFN 130",
+      "subjectCode": "AFN",
+      "courseNumber": "130",
+      "longName": "The History of Haiti",
+      "name": "The History of Haiti",
+      "description": "This course covers the history of Haiti from the late 15th century to the 21st century. Haiti's uniqueness stems from it being the first country founded by formerly enslaved Africans in the Americas; epitomizing the ultimate paragon of freedom for enslaved peoples throughout the 19th century in the western hemisphere. The course emphasizes the European colonization of the island, the enslavement of Africans, the Haitian Revolution, and Haiti's relationship with other countries, and the contributions of Africans and their descendants on the island. Through studying Haiti, students will have a unique vantage point onto a wealth of topics on modern Caribbean and world history and its struggle for popular democracy.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876191-2023-02-01",
+      "courseGroupId": "0876191",
+      "code": "AFN 152",
+      "subjectCode": "AFN",
+      "courseNumber": "152",
+      "longName": "The Black Radical Tradition",
+      "name": "The Black Radical Tradition",
+      "description": "This course engages with the Black Radical Tradition (BRT), which is a long and diverse practice whose actors are dedicated to confronting anti-blackness and racism rooted in the histories and legacies of slavery and colonialism through scholarship, protest, community organizing and other direct action. In learning about the BRT, students will investigate terms like blackness, anti-blackness, diaspora, racism, class, gender, and sexuality and discuss how categories of difference appear in the literature we read. Students will identify how activists and other community members in and outside the US have put pressure on the structures and campaigns of violence committed against Black peoples. Moreover, we will examine how the BRT is a global exercise resisting colonialism throughout the world and intersecting with traditions like Pan-Africanism and anti-colonial activism.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876201-1901-01-01",
+      "courseGroupId": "0876201",
+      "code": "AFN 154",
+      "subjectCode": "AFN",
+      "courseNumber": "154",
+      "longName": "Sociology of the Black Urban Community",
+      "name": "Social Blk Urb Com",
+      "description": "Current theories of socialization, cultural transformation, and poverty are assessed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ]
+    },
+    {
+      "id": "0876221-1901-01-01",
+      "courseGroupId": "0876221",
+      "code": "AFN 253",
+      "subjectCode": "AFN",
+      "courseNumber": "253",
+      "longName": "The Black Experience in Africa",
+      "name": "The Black Experience in Africa",
+      "description": "This course is designed to provide the student with an introduction to the cultures of selected African nations through travel, structured reading, and lectures conducted on the campuses of African colleges and universities. Requirements include a term paper.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876231-1901-01-01",
+      "courseGroupId": "0876231",
+      "code": "AFN 256",
+      "subjectCode": "AFN",
+      "courseNumber": "256",
+      "longName": "The Contemporary Black Family",
+      "name": "The Contemporary Black Family",
+      "description": "The Black family in current urban/suburban settings and the effects of changing value systems, the single-parent family, crises in education and economic stability are examined. Field visits to selected agencies and institutions are required.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "MESO - ME_SOCY_2 (Social Institutions)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MESO - ME_SOCY_2 (Social Institutions)"
+      ]
+    },
+    {
+      "id": "0876261-1901-01-01",
+      "courseGroupId": "0876261",
+      "code": "AFN 321",
+      "subjectCode": "AFN",
+      "courseNumber": "321",
+      "longName": "African-American Writing From 18th Century to 1940",
+      "name": "Afro-Amer Writing",
+      "description": "This course is a survey of fiction, poetry and commentary by African American writers from the 18th century through the Harlem Renaissance to 1940.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876271-1901-01-01",
+      "courseGroupId": "0876271",
+      "code": "AFN 322",
+      "subjectCode": "AFN",
+      "courseNumber": "322",
+      "longName": "Contemporary Black Writers",
+      "name": "Contemporary Black Writers",
+      "description": "This course is a survey of fictional and non-fictional writing by African Americans from 1940 to the present.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876301-1901-01-01",
+      "courseGroupId": "0876301",
+      "code": "AFN 338",
+      "subjectCode": "AFN",
+      "courseNumber": "338",
+      "longName": "Black Literature of the Caribbean",
+      "name": "Caribbean Black Lit",
+      "description": "The course examines the emergence and growth of a distinct regional literature in English and French speaking nations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876421-2014-05-01",
+      "courseGroupId": "0876421",
+      "code": "ANT 111",
+      "subjectCode": "ANT",
+      "courseNumber": "111",
+      "longName": "Chinese Culture and Heritage",
+      "name": "Chinese Culture and Heritage",
+      "description": "In this course, students will inquire into the nature of classical traditions of Chinese culture.  A range of Chinese texts in translation and associated materials will be explored to develop knowledge of the literary and philosophical foundations of Chinese culture.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876451-2014-05-01",
+      "courseGroupId": "0876451",
+      "code": "ANT 125",
+      "subjectCode": "ANT",
+      "courseNumber": "125",
+      "longName": "Puerto Rican Culture and Folklore",
+      "name": "P.R. Culture & Folklore",
+      "description": "This course studies the emergence of a national culture, folklore and identity.  Topics include the Taino, Spanish and African contributions to the creation of a Criollo personality and character and the Puerto Rican family, race relations, the Jibaro, religion, and the arts.  It reviews customs, traditions, celebrations, dances, legends, songs, proverbs, and hero/underdog stories as well as the impact of the United States culture.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876471-2014-05-01",
+      "courseGroupId": "0876471",
+      "code": "ANT 128",
+      "subjectCode": "ANT",
+      "courseNumber": "128",
+      "longName": "Black Women in the Americas and Caribbean",
+      "name": "Blk Women Amer/Cari",
+      "description": "The changing status of women in African traditional societies is compared with changes in the status of black women in the United States, the Caribbean and Brazil.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876481-2014-05-01",
+      "courseGroupId": "0876481",
+      "code": "ANT 200",
+      "subjectCode": "ANT",
+      "courseNumber": "200",
+      "longName": "Peoples & Cultures of Latin America and the Caribbean",
+      "name": "Ppls & Cultrs Lat Am & Crbn",
+      "description": "This course examines the diverse peoples and cultures that have populated Latin American and the Caribbean region since pre-Columbian times. It discusses the legacy of European colonization and the subsequent struggles for independence, formation of national identities, and the quest for modernization today. The course will place particular emphasis on the production of social movements that respond to social inequality, and conflicting ideologies around ethnicity, race and gender among other factors. The readings illustrate case studies that examine a wide range of topics ecological adaptation, food production, kinship and local politics, medical and religious beliefs and artistic expressions from small-scale rural society to large complex urban centers throughout the continent. It will also explore how globalization, intense migration, and transnationalism have generated new notions of identity in the US today.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1525351-2014-05-01",
+      "courseGroupId": "1525351",
+      "code": "ANT 200H",
+      "subjectCode": "ANT",
+      "courseNumber": "200H",
+      "longName": "Peoples & Cultures of Latin America and the Caribbean",
+      "name": "Ppls & Cultrs Lat Am & Crbn",
+      "description": "This course examines the diverse peoples and cultures that have populated Latin American and the Caribbean region since pre-Columbian times. It discusses the legacy of European colonization and the subsequent struggles for independence, formation of national identities, and the quest for modernization today. The course will place particular emphasis on the production of social movements that respond to social inequality, and conflicting ideologies around ethnicity, race and gender among other factors. The readings illustrate case studies that examine a wide range of topics ecological adaptation, food production, kinship and local politics, medical and religious beliefs and artistic expressions from small-scale rural society to large complex urban centers throughout the continent. It will also explore how globalization, intense migration, and transnationalism have generated new notions of identity in the US today.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876491-2019-12-01",
+      "courseGroupId": "0876491",
+      "code": "ANT 210",
+      "subjectCode": "ANT",
+      "courseNumber": "210",
+      "longName": "The Roles of Women in a Changing World",
+      "name": "Roles Of Women",
+      "description": "This course analyzes the status and roles of women in cross-cultural perspective. Particular emphasis is given to the socio-cultural forces underlying the women's rights movements in the 19th century and the present resurgence of feminism.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-12-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877231-1901-01-01",
+      "courseGroupId": "0877231",
+      "code": "ART 801",
+      "subjectCode": "ART",
+      "courseNumber": "801",
+      "longName": "African Art",
+      "name": "African Art",
+      "description": "This is a survey course examining the function and form of African art in its past and present relationships to African cultures. The influence of African art forms on Western art is studied. Lectures, slides and visits to museums and galleries are included.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877241-1901-01-01",
+      "courseGroupId": "0877241",
+      "code": "ART 802",
+      "subjectCode": "ART",
+      "courseNumber": "802",
+      "longName": "African-American Art",
+      "name": "African-American Art",
+      "description": "The aesthetic, cultural, and social contexts of African-American art are studied.  Comparative studies of art created by Haitian and African-American artists are included in the course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877351-2022-02-01",
+      "courseGroupId": "0877351",
+      "code": "ASN 111",
+      "subjectCode": "ASN",
+      "courseNumber": "111",
+      "longName": "Chinese Culture and History",
+      "name": "Chinese Culture and History",
+      "description": "This course introduces Chinese culture and history, taking into account changes of tradition and inheritance in social, political, economic, and philosophical aspects. Cultural activities from ancient to modern times will also be covered in the class. A brief history of China and its contact with the west will also be explored. Discussion of criticism about the past and present in China will be encouraged. Films, guest speakers, and field visits will be integral to the class.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877361-2017-05-01",
+      "courseGroupId": "0877361",
+      "code": "ASN 114",
+      "subjectCode": "ASN",
+      "courseNumber": "114",
+      "longName": "Asian American History (Same as HIS 114)",
+      "name": "Asian Amer. History",
+      "description": "The Asian American presence from the mid-nineteenth century to the present is studied. Three periods, 1848 to 1943, 1943 to 1965, and 1965 to the present are examined. Topics are designed to focus on the impact of historical processes on the cultural, economic and political experiences of diverse Asian American groups in urban and rural communities. The multi-ethnic aspects of Asian American communities are explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1519831-2017-05-01",
+      "courseGroupId": "1519831",
+      "code": "ASN 114H",
+      "subjectCode": "ASN",
+      "courseNumber": "114H",
+      "longName": "Asian American History (Same as HIS 114) (Honors)",
+      "name": "Asian Amer. History (Honors)",
+      "description": "The Asian American presence from the mid-nineteenth century to the present is studied. Three periods, 1848 to 1943, 1943 to 1965, and 1965 to the present are examined. Topics are designed to focus on the impact of historical processes on the cultural, economic and political experiences of diverse Asian American groups in urban and rural communities. The multi-ethnic aspects of Asian American communities are explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1323321-2016-01-28",
+      "courseGroupId": "1323321",
+      "code": "ASN 129",
+      "subjectCode": "ASN",
+      "courseNumber": "129",
+      "longName": "An Introduction to the Middle East",
+      "name": "Intro to the Middle East",
+      "description": "This course aims to introduce students to the Middle East, from the rise of Islam to contemporary times. It takes a cross-disciplinary approach, designed to allow students the chance to examine the region from a number of different perspectives; not only an historical one, but also those of literature, religion, economics, politics and international relations. It is hoped that at minimum, the course will provide a sound basis by which students might better frame their understanding of the region; at maximum, that it might stimulate a desire to further explore the region in greater depth. Particularly given the tendency of the media to view the region largely in terms of current events, it is hoped that by taking a cross-disciplinary approach, students will come to conceive of the region as multi-dimensional; as a region with rich and varied cultural, historical and intellectual traditions; most importantly, as a region made up of people, of individuals who have many of the same desires and aspirations, the same fears and concerns, as ourselves. Given that the course constitutes a broad cross-disciplinary survey of the Middle East, it will, at times, be necessarily selective, focusing in depth on specific but representative aspects of Middle Eastern civilization. Students are thus encouraged to make reference to the additional reading list towards the end of the syllabus. An additional goal of the course is to consider in a more critical way the manner in which the region is portrayed in the media. Thus, periodically, will be examining issues of topical interest.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-01-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1524311-2016-01-28",
+      "courseGroupId": "1524311",
+      "code": "ASN 129H",
+      "subjectCode": "ASN",
+      "courseNumber": "129H",
+      "longName": "An Introduction to the Middle East (Honors)",
+      "name": "Intro to the Mid East (Honors)",
+      "description": "This course aims to introduce students to the Middle East, from the rise of Islam to contemporary times. It takes a cross-disciplinary approach, designed to allow students the chance to examine the region from a number of different perspectives; not only an historical one, but also those of literature, religion, economics, politics and international relations. It is hoped that at minimum, the course will provide a sound basis by which students might better frame their understanding of the region; at maximum, that it might stimulate a desire to further explore the region in greater depth. Particularly given the tendency of the media to view the region largely in terms of current events, it is hoped that by taking a cross-disciplinary approach, students will come to conceive of the region as multi-dimensional; as a region with rich and varied cultural, historical and intellectual traditions; most importantly, as a region made up of people, of individuals who have many of the same desires and aspirations, the same fears and concerns, as ourselves. Given that the course constitutes a broad cross-disciplinary survey of the Middle East, it will, at times, be necessarily selective, focusing in depth on specific but representative aspects of Middle Eastern civilization. Students are thus encouraged to make reference to the additional reading list towards the end of the syllabus. An additional goal of the course is to consider in a more critical way the manner in which the region is portrayed in the media. Thus, periodically, will be examining issues of topical interest.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-01-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1481951-2021-06-01",
+      "courseGroupId": "1481951",
+      "code": "ASN 211",
+      "subjectCode": "ASN",
+      "courseNumber": "211",
+      "longName": "Asian Americans in NYC",
+      "name": "Asian Americans in NYC",
+      "description": "According to the 2010 census, 1 in 8 New Yorkers are of Asian descent. Yet the histories and identities of Asian American communities in New York City, and on the East Coast more generally, have not been as visible in academic scholarship as Asian Americans on the West Coast. This class will examine the diverse Asian American communities that have populated the city from the late 19th century onwards through topics such as racial segregation, ethnic economies and labor, global and transnational flows, gentrification, community institutions and inter-racial community relations. One of the main goals for this class is for students to experience Asian American spaces in NYC with a scholar’s eye. To this end, the class will study research methods, undertake field trips to Asian American and transnational Asian institutions and organizations, and produce a final paper based on first hand/primary research.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1562231-2025-01-25",
+      "courseGroupId": "1562231",
+      "code": "ASN 214",
+      "subjectCode": "ASN",
+      "courseNumber": "214",
+      "longName": "Asian Pacific Islander American Media Representations",
+      "name": "APIA Media Representations",
+      "description": "This course examines media representations of Asian Pacific Islander Americans (APIAs) through time. It will explore stereotyped media depictions of Asian Pacific Islander Americans, including Yellow Peril and the model minority. Students will analyze how race as a social construction of difference affects and is reproduced by mass media. Additionally, students will compare how gender, sexuality, class, citizenship, and identity are encoded across history. The course will also explore APIA media outside of and in resistance to mainstream American media, including independent cinema that arose from the Asian American movement from the late 60s onwards, digital Internet media production of the 21st century, and transnational media of diasporic APIA communities.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1559301-2025-05-27",
+      "courseGroupId": "1559301",
+      "code": "ASN 225",
+      "subjectCode": "ASN",
+      "courseNumber": "225",
+      "longName": "Asian American Activism and Creative Expression",
+      "name": "Asian Amer Activism Creat Expr",
+      "description": "Through this course, students study the relationship between the activism and creative expression of Asians in the United States. Students will examine the intertwining relationship between the diverse histories of Asians in the United States and the varied works and projects of Asian activists and artists. Students engage with the long and diverse legacy of activists and practitioners who have used various art forms and media (e.g., literary, visual, musical, performance, film) to document, represent, render and reflect upon the diverse histories and experiences of Asians in the US and to combat anti-Asian racism in the US. Expanding awareness of what the arts can be and do, students explore Asian arts and activism as national, diasporic, and interracial phenomena that embody the transcendence and perseverance the Asian spirit in the US.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-05-27",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0877371-1901-01-01",
+      "courseGroupId": "0877371",
+      "code": "ASN 339",
+      "subjectCode": "ASN",
+      "courseNumber": "339",
+      "longName": "Asian American Literature",
+      "name": "Asian American Literature",
+      "description": "Representative works reflecting the collective experiences of Asian American writers are analyzed. Fiction, poetry, drama, and non-fiction written from Chinese, Filipino, Asian Indian, Japanese, Korean, and Southeast Asian cultural perspectives are discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0882711-1901-01-01",
+      "courseGroupId": "0882711",
+      "code": "ECO 112",
+      "subjectCode": "ECO",
+      "courseNumber": "112",
+      "longName": "Economic Development in the Dominican Republic in the 20th Century",
+      "name": "Eco Devel Dominican",
+      "description": "This course analyzes the economic policies of the different political regimes in the Dominican Republic from the end of the 19th century to the present.  It studies the application and results of these policies-changes brought about by these regimes in trade, industry, agriculture and population.  It also examines the influence of the United States on developments in the dominican economy during this century.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0882731-2015-10-01",
+      "courseGroupId": "0882731",
+      "code": "ECO 151",
+      "subjectCode": "ECO",
+      "courseNumber": "151",
+      "longName": "Political Economy of the Caribbean",
+      "name": "Political Eco Carib",
+      "description": "This is a study of the factors affecting the economies of the English and French speaking countries of the Caribbean region.  The effects of international diplomacy, multinational corporate policies, educational and social determinants, and economic policies are evaluated.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884081-1901-01-01",
+      "courseGroupId": "0884081",
+      "code": "ENG 338",
+      "subjectCode": "ENG",
+      "courseNumber": "338",
+      "longName": "Latino/a Literature in the U.S. (Same as LAT 338)",
+      "name": "Latino/a Literature in U.S.",
+      "description": "In this course, works reflecting the experiences of U.S. Latino/a writers in English are analyzed. Students will read, discuss, and write about fiction, nonfiction, poetry and drama by writers such as Julia Alvarez, Rudolfo Anaya, Gloria Anzaldua, Roberto Fernandez, Tato Laviera, Achy Obejas, Abraham Rodriguez Jr., and Piri Thomas. Note: Crosslisted with LAT 338",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1471961-2022-11-01",
+      "courseGroupId": "1471961",
+      "code": "ETH 100",
+      "subjectCode": "ETH",
+      "courseNumber": "100",
+      "longName": "Introduction to Ethnic Studies",
+      "name": "Introduction to Ethnic Studies",
+      "description": "Introduction to Ethnic Studies explores the historical formation of ethnic studies in the United States. The course examines the academic field of Ethnic Studies by raising questions about the ways that race and racism shape our experiences and world across a range of time and places. In an interdisciplinary approach, the course will introduce students to a variety of terms such as ethnicity, race, class, gender, ethnic stratification, etc. The course will also teach students a variety of methodological approaches to doing ethnic studies research and major issues in the field. It places an emphasis on relationships and conflicts between diverse groups, especially how they were treated and defined in relation to each other. Broadly speaking, this course is concerned with how these groups struggle to stake out their place in a highly unequal world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1539171-2022-11-01",
+      "courseGroupId": "1539171",
+      "code": "ETH 100H",
+      "subjectCode": "ETH",
+      "courseNumber": "100H",
+      "longName": "Introduction to Ethnic Studies (Honors)",
+      "name": "Intro to Ethnic Stud (Honors)",
+      "description": "ntroduction to Ethnic Studies explores the historical formation of ethnic studies in the United States. The course examines the academic field of Ethnic Studies by raising questions about the ways that race and racism shape our experiences and world across a range of time and places. In an interdisciplinary approach, the course will introduce students to a variety of terms such as ethnicity, race, class, gender, ethnic stratification, etc. The course will also teach students a variety of methodological approaches to doing ethnic studies research and major issues in the field. It places an emphasis on relationships and conflicts between diverse groups, especially how they were treated and defined in relation to each other. Broadly speaking, this course is concerned with how these groups struggle to stake out their place in a highly unequal world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875951-2022-11-01",
+      "courseGroupId": "0875951",
+      "code": "ETH 125",
+      "subjectCode": "ETH",
+      "courseNumber": "125",
+      "longName": "Comparative Ethnic Studies (Same as SOC 125)",
+      "name": "Comp.Ethnic Studies",
+      "description": "This course surveys the long history of cross-racial and inter-ethnic interactions among immigrants, migrants, people of color and working people in the United States and the wider world from the era of mercantile capitalism in the sixteenth century to the present. By making inroads into the dynamic worlds that indigenous people, people of African and Latin American descent, European Americans, and Asian Americans made and remade, the course aims to reach across borders of all kinds, including national boundaries, to cultivate global, transnational and comparative perspectives on race and ethnicity. In particular, it places emphasis on relationships and conflicts between these diverse groups, especially how they were treated and defined in relation to each other. Broadly, this course is concerned with how these groups struggle to stake out their place in a highly unequal world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1570101-2025-01-25",
+      "courseGroupId": "1570101",
+      "code": "ETH 211",
+      "subjectCode": "ETH",
+      "courseNumber": "211",
+      "longName": "Cultural Approaches to Diplomacy",
+      "name": "Cultural Approach to Diplomacy",
+      "description": "The field of diplomacy is grounded in European and Western tradition. Today, however, multiple attempts are taking place in academic settings as well as in governmental and non-governmental organizations including centers of diplomatic training throughout the world. These discussions center on how to incorporate broader understandings of local and global dynamics into negotiations and peacemaking efforts while also learning from the different perspectives of communities that have not often been traditionally included in such conversations.This course provides an overview of a wide range of topics analyzed from Ethnic Studies and other social science approaches to the world of diplomacy and foreign affairs. By centering on varying understandings of concepts of race and ethnicity that have remained largely overlooked, this class will provide students with a framework that incorporates historical, socioeconomic, political, and cultural analysis and that can shed light to long rooted sources of conflict among ethnic, national, and international communities. These perspectives also help diplomats to seek solutions that acknowledge the different experiences and histories of multiple actors participating across governments and societies.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1471971-2022-11-01",
+      "courseGroupId": "1471971",
+      "code": "ETH 300",
+      "subjectCode": "ETH",
+      "courseNumber": "300",
+      "longName": "Research and Writing Methods",
+      "name": "Research and Writing Methods",
+      "description": "The Ethnic Studies capstone will focus on special topics within the field and expertise of the instructor. It will provide a culminating experience for students by allowing them to explore a topic in-depth, engage in independent research, develop their analytic abilities and critical thinking skills, and apply concepts and theories tonew cases. The capstone course will introduce students to the major theoretical perspectives, the basic researchmethodologies and research design issues, and the central analytical models in Ethnic Studies. Over the course of the semester, each student will engage in independent research that culminates in a research paper or project and a presentation to the class. This course will help students achieve BMCC’s General Education outcomes by developing their understanding of the social sciences, strengthening their communication skills and information and technology literacy, deepening their appreciation for professional values and ethics, and encouraging and assessing critical thinking skills.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 0,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1562681-2025-08-26",
+      "courseGroupId": "1562681",
+      "code": "GLS 100",
+      "subjectCode": "GLS",
+      "courseNumber": "100",
+      "longName": "Introduction to Diplomacy",
+      "name": "Introduction to Diplomacy",
+      "description": "Diplomacy is a centuries-old practice entailing the management of foreign relations between countries. This course provides a general introduction to diplomacy by examining its application from the colonial era into the present-day. The course analyzes the challenges that nations have faced in creating and maintaining diplomatic relations. We explore how world issues like climate change, political conflicts, and migration, as well as the rights of communities marginalized by race, class, ethnicity, religion, gender and other forms of oppression impact foreign policy and diplomacy. We also focus on the histories and perspectives of marginalized ethno-racial groups affected by the policies of the U.S and other powerful western states. The course gives special attention to how these groups conceptualize issues like citizenship, nationhood, belonging, and migration. Students will expand their understandings of diplomacy to incorporate diverse perspectives and critiques that analyze the structures and actors that make up the field.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1573441-2024-05-28",
+      "courseGroupId": "1573441",
+      "code": "GLS 100H",
+      "subjectCode": "GLS",
+      "courseNumber": "100H",
+      "longName": "Introduction to Diplomacy(Hon)",
+      "name": "Introduction to Diplomacy(Hon)",
+      "description": "Diplomacy is a centuries-old practice entailing the management of foreign relations between countries. Developments including transformations in communications technologies and digitization have significantly shaped the practice of modern diplomacy and created numerous obstacles and opportunities for diplomats. Many major world issues like climate change, geo-political conflicts, migration and diaspora and other challenges affect ethnic and transnational communities that are separated by national boundaries today. This course provides an introductory overview of diplomacy with an emphasis on current practices and future directions. It examines the many challenges and opportunities that diplomats and other foreign workers face when they represent their governments abroad. Students will gain a more thorough understanding of diplomacy and learn about its western origins, current practices, future directions, and practical applications. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-05-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886081-1901-01-01",
+      "courseGroupId": "0886081",
+      "code": "HIS 114",
+      "subjectCode": "HIS",
+      "courseNumber": "114",
+      "longName": "Asian American History",
+      "name": "Asian American History",
+      "description": "The Asian American presence from the mid-nineteenth century to the present is studied. Three periods, 1848 to 1943, 1943 to 1965, and 1965 to the present are examined. Topics are designed to focus on the impact of historical processes on the cultural, economic, and political experiences of diverse Asian American groups in urban and rural communities. The multi-ethnic aspects of Asian American communities are explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886101-2013-05-01",
+      "courseGroupId": "0886101",
+      "code": "HIS 121",
+      "subjectCode": "HIS",
+      "courseNumber": "121",
+      "longName": "History of African Civilizations",
+      "name": "Hist Of African Civilizations",
+      "description": "This course examines African \"civilizations\" from early antiquity to the decline of the West African Empire of Songhay.  Through readings, lectures, discussions and videos, students will be introduced to the major themes and patterns that characterize the various African settlements, states, and empires of antiquity to the close of the seventeenth century.  The course explores the wide range of social and cultural as well as technological and economic change in Africa, and interweaves African agricultural, social, political, cultural, technological, and economic history in relation to developments in the rest of the world, in addition to analyzing factors that influenced daily life such as the lens of ecology, food production, disease, social organization and relationships, culture and spiritual practice.  This course will help to build a well-rounded knowledge base and understanding of the roles of Africa's peoples in human history.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886111-1901-01-01",
+      "courseGroupId": "0886111",
+      "code": "HIS 122",
+      "subjectCode": "HIS",
+      "courseNumber": "122",
+      "longName": "Africa 1500 to Present",
+      "name": "Africa 1500 to Present",
+      "description": "Africa from the beginnings of the Atlantic Slave Trade to the end of colonialism in the late twentieth century is examined.  The effect of colonialism on economic and cultural patterns in the African disapora is explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886121-1901-01-01",
+      "courseGroupId": "0886121",
+      "code": "HIS 123",
+      "subjectCode": "HIS",
+      "courseNumber": "123",
+      "longName": "African American History:  17th Century to 1865",
+      "name": "Af-Amer His To 1865",
+      "description": "This course is a systematic examination of the participation of African American people in the political, economic and cultural history of the United States.  The involvement of African Americans in abolitionism and in the development of social and cultural institutions in free black communities is analyzed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886131-2013-05-01",
+      "courseGroupId": "0886131",
+      "code": "HIS 124",
+      "subjectCode": "HIS",
+      "courseNumber": "124",
+      "longName": "African-American History: 1865 to Present",
+      "name": "Afro-Americ History: 1865-Pres",
+      "description": "Reconstructions I and II, the social Darwinist years, civil rights activism of the 1960's and the cumulative effects of institutionalized racism are set in an historical framework for comparative study.  The course examines the impact of urbanization, institutional racism, economic and political policies on the life experiences of African Americans.  The dynamics of cultural, social and political interactions within the social structure of the nation since 1865 are analyzed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886151-1901-01-01",
+      "courseGroupId": "0886151",
+      "code": "HIS 126",
+      "subjectCode": "HIS",
+      "courseNumber": "126",
+      "longName": "Caribbean History",
+      "name": "Caribbean History",
+      "description": "Survey covering from the pre-Columbian cultures, the age of discovery and exploration, colonial structures, independence movements, to contemporary Latin America, with special emphasis on the countries of the mainland (i.e., North, Central and South America).  Students will learn about the traditions and institutions of Latin American civilization including the Iberian conquest and colonization, the role of the Catholic church, economic and social structures, as well as problems related to government, nation-building, race and class relations, wars and Latin America's position in the world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1190681-2012-08-26",
+      "courseGroupId": "1190681",
+      "code": "HIS 129",
+      "subjectCode": "HIS",
+      "courseNumber": "129",
+      "longName": "An Introduction to the Middle East",
+      "name": "Intro to the Middle East",
+      "description": "Recent events have seen a growing interest in that part of the world commonly referred to as the Middle East. This course aims to introduce students to the Middle East, from the rise of Islam to contemporary times. It takes a cross-disciplinary approach, designed to allow students the chance to examine the region from a number of different perspectives; not only an historical one, but also those of literature, religion, economics, politics and international relations. It is hoped that, at minimum, the course will provide a sound basis by which students might better frame their understanding of the region; at maximum, that it might stimulate a desire to further explore the region in greater depth. Particularly, given the tendency if the media to view the region largely in terms of current events, it is hoped that by taking a cross-disciplinary approach, students will come to conceive of the region as a multi-dimensional; as a region with rich and varied cultural, historical and intellectual traditions; most importantly, as a region made up of people, of individuals who have many of the same desires and aspirations, the same fears and concerns, as ourselves. Given that the course constitutes a broad cross-disciplinary survey of the Middle East, it will, at times, be necessarily selective, focusing in depth on specific but representative aspects of Middle Eastern civilization. Students are thus encouraged to make reference to the \"additional reading list\" towards the end of the syllabus. An additional goal of the course is to consider in a more critical way the manner in which the region is portrayed in the media. Thus, periodically, we will be examining issues of topical interest.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2012-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886181-1901-01-01",
+      "courseGroupId": "0886181",
+      "code": "HIS 130",
+      "subjectCode": "HIS",
+      "courseNumber": "130",
+      "longName": "History of Latin America",
+      "name": "History of Latin America",
+      "description": "Survey covering from the pre-Columbian cultures, the age of discovery and exploration, colonial structures, independence movements, to contemporary Latin America, with special emphasis on the countries of the mainland (i.e., North, Central, and South America). Students will learn about the traditions and institutions of Latin American Civilization including the Iberian conquest and colonization, the role of the Catholic Church, economic and social structures, as well as problems related to government, nation-building, race and class relations, wars and Latin America's position in the world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886191-2014-05-01",
+      "courseGroupId": "0886191",
+      "code": "HIS 131",
+      "subjectCode": "HIS",
+      "courseNumber": "131",
+      "longName": "History of Dominican Republic",
+      "name": "History of Dominican Republic",
+      "description": "This course studies the history of the Dominican Republic from the pre-Columbian and colonial periods to the present.  It deals with the geographical, political, social and economic factors that form the Dominican nation.  Emphasis is given to relations with Haiti and North America.  The course also analyzes the position of the Dominican Republic in the community of Latin American nations as well as its place in today's world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887411-2014-05-01",
+      "courseGroupId": "0887411",
+      "code": "LAT 125",
+      "subjectCode": "LAT",
+      "courseNumber": "125",
+      "longName": "Puerto Rican Culture and Folklore",
+      "name": "P.R. Culture & Folk",
+      "description": "This course studies the emergence of a national culture, folklore and identity. Topics include the Taino, Spanish and African contributions to the creation of a criollo personality and character and the Puerto Rican family, race relations, the jibaro, religion, and the arts. It reviews customs, traditions, celebrations, dances, legends, songs, proverbs, and hero/underdog stories as well as the impact of the United States culture. (Same as ANT 125)",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887421-1901-01-01",
+      "courseGroupId": "0887421",
+      "code": "LAT 127",
+      "subjectCode": "LAT",
+      "courseNumber": "127",
+      "longName": "History of Puerto Rico: Discovery through 19th Century",
+      "name": "P.R.Hist To 1900",
+      "description": "This course studies the history of Puerto Rico from the pre-Columbian period to the end of the 19th century. Consideration will be given to political, social, cultural, and economic factors contributing to the emergence of national consciousness in the 19th century and to the events leading to the Spanish-American War in 1898.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887431-1901-01-01",
+      "courseGroupId": "0887431",
+      "code": "LAT 128",
+      "subjectCode": "LAT",
+      "courseNumber": "128",
+      "longName": "History of Puerto Rico: 1900 to Present (Same as HIS 128)",
+      "name": "Hist Of P.R To Pres",
+      "description": "This course studies the historical conditions of Puerto Rico in the 20th century. The transition from a Spanish colony to an American possession is examined. The events and forces that created the present Puerto Rico are studied and analyzed in perspective. The alternatives to the problem of status commonwealth, statehood and independence are studied.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1250321-2018-02-01",
+      "courseGroupId": "1250321",
+      "code": "LAT 130",
+      "subjectCode": "LAT",
+      "courseNumber": "130",
+      "longName": "History of Latin America (Same as HIS 130)",
+      "name": "History Of Latin America",
+      "description": "Survey covering from the pre-Columbian cultures, the age of discovery and exploration, colonial structures, independence movements, to contemporary Latin America, with special emphasis on the countries of the mainland (i.e., North, Central and South America). Students will learn about the traditions and institutions of Latin American civilization including the Iberian conquest and colonization, the role of the Catholic Church, economic and social structures, as well as problems related to government, nation-building, race and class relations, wars and Latin America's position in the world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1517001-2018-02-01",
+      "courseGroupId": "1517001",
+      "code": "LAT 130H",
+      "subjectCode": "LAT",
+      "courseNumber": "130H",
+      "longName": "History of Latin America (Same as HIS 130) (Honors)",
+      "name": "His Of Latin America (Honors)",
+      "description": "Survey covering from the pre-Columbian cultures, the age of discovery and exploration, colonial structures, independence movements, to contemporary Latin America, with special emphasis on the countries of the mainland (i.e., North, Central and South America). Students will learn about the traditions and institutions of Latin American civilization including the Iberian conquest and colonization, the role of the Catholic Church, economic and social structures, as well as problems related to government, nation-building, race and class relations, wars and Latin America's position in the world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887441-2014-05-01",
+      "courseGroupId": "0887441",
+      "code": "LAT 131",
+      "subjectCode": "LAT",
+      "courseNumber": "131",
+      "longName": "History of the Dominican Republic (Same as HIS 131)",
+      "name": "Hist Of Domin Rep",
+      "description": "This course studies the history of the Dominican Republic from the pre-Columbian and Colonial periods to the present. It deals with the geographical, political, social and economic factors that form the Dominican nation. Emphasis is given to relations with Haiti and North America. The course also analyzes the position of the Dominican Republic in the community of Latin American nations as well as its place in today's world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1490051-2020-12-01",
+      "courseGroupId": "1490051",
+      "code": "LAT 140",
+      "subjectCode": "LAT",
+      "courseNumber": "140",
+      "longName": "Introduction to Mexican-American Studies",
+      "name": "Intro to Mexican-American Stud",
+      "description": "This course studies the varied experiences of Mexicans in the United States from an interdisciplinary perspective. Through readings, lectures, media and discussions, students will learn about the historical, social and cultural contributions of Mexican Americans. The course will survey the history and evolution of Mexicans in the United States at the same time that it explores issues culture and identity. While the course emphasizes developments in the 20th and 21st centuries, students will also engage with developments prior to the 20th century. Students will study major political and social events that contributed to the incorporation of Mexicans into US institutions as well as become familiar with current events and perspectives regarding the experiences in today’s society.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-12-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887451-2017-10-01",
+      "courseGroupId": "0887451",
+      "code": "LAT 141",
+      "subjectCode": "LAT",
+      "courseNumber": "141",
+      "longName": "Puerto Rican Music",
+      "name": "Puerto Rican Music",
+      "description": "The course will survey the musical genres of Puerto Rico and how each developed within a historical and social context, beginning with the roleof music in pre-Colombian, European and African cultures up to the present.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1166501-2013-01-05",
+      "courseGroupId": "1166501",
+      "code": "LAT 150",
+      "subjectCode": "LAT",
+      "courseNumber": "150",
+      "longName": "The Latino Experience in the U.S. (Same as SOC 150)",
+      "name": "The Latino Experience In U.S.",
+      "description": "This course studies the varied experiences of Latinos in the United States of America. Through readings, lectures, discussions and fieldwork, students will become familiar with the group and its diverse components from North, Central and South America as well as the Caribbean, while covering representative nationalities such as Mexicans, Salvadorians, Cubans, Colombians, Ecuadorians, Puerto Ricans and Dominicans. The course will survey the history and evolution of Latinos at the same time that it explores issues of culture and identity. Other topics include family, race relations, religion, education, economic incorporation and political participation. Key issues of contemporary interest will also be explored, such as Latinos and immigration, and the impact they have on local, state and nationwide elective office.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-01-05",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ]
+    },
+    {
+      "id": "0887471-1901-01-01",
+      "courseGroupId": "0887471",
+      "code": "LAT 151",
+      "subjectCode": "LAT",
+      "courseNumber": "151",
+      "longName": "Politics of Puerto Rican Communities",
+      "name": "Politics of PR Communities",
+      "description": "This course is an analysis of the political movements and parties of Puerto Rican communities in the U.S.A.; the relationships of these movements and parties toward political development in Puerto Rico; the role of the Puerto Rican in both traditional and radical political movements in the U.S.A.; and how political participation in the American process has come to contribute to a sense of community identity among Puerto Ricans in the U.S.A.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887481-1901-01-01",
+      "courseGroupId": "0887481",
+      "code": "LAT 152",
+      "subjectCode": "LAT",
+      "courseNumber": "152",
+      "longName": "Puerto Rican Experience in Urban U.S. Settings (Same as SOC 152)",
+      "name": "PR Exp in Urban U.S. Settings",
+      "description": "This course studies the peculiar characteristics of the Puerto Rican migration to the U.S. It analyzes the processes of assimilation and adaptation to the American society as opposed to the identity and preservation of Puerto Rican cultural values. The problems of education, housing, health services, family and community, employment, and economic development are given special attention as they relate to the unique experience of the Puerto Rican in the U.S.A.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ]
+    },
+    {
+      "id": "1093111-2014-05-01",
+      "courseGroupId": "1093111",
+      "code": "LAT 200",
+      "subjectCode": "LAT",
+      "courseNumber": "200",
+      "longName": "Peoples & Cultures of Latin America and the Caribbean (Same as ANT 200)",
+      "name": "Ppls & Cultrs Lat Am & Crbn",
+      "description": "This course examines the diverse peoples and cultures that have populated Latin American and the Caribbean region since pre-Columbian times. It discusses the legacy of European colonization and the subsequent struggles for independence, formation of national identities, and the quest for modernization today. The course will place particular emphasis on the production of social movements that respond to social inequality, and conflicting ideologies around ethnicity, race and gender among other factors. The readings illustrate case studies that examine a wide range of topics - ecological adaptation, food production, kinship and local politics, medical and religious beliefs and artistic expressions - from small-scale rural society to large complex urban centers throughout the continent. It will also explore how globalization, intense migration, and transnationalism have generated new notions of identity in the US today.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887491-1901-01-01",
+      "courseGroupId": "0887491",
+      "code": "LAT 233",
+      "subjectCode": "LAT",
+      "courseNumber": "233",
+      "longName": "Modern Languages and Literature Representative Puerto Rican Writers",
+      "name": "Puerto Rican Writers",
+      "description": "This is an intensive study of a group of Puerto Rican writers and their reactions to different periods in the history of their country. The course includes both oral and written analyses of the important works of Eugenio Maria de Hostos, Jose de Diego, Antonio S. Pedreira, Julia de Burgos, J. L. Gonzalez, Luis R. Sanchez, and other selected writers. Each writer is studied as a man/woman reflected in his/her works-his/her unique reactions to the circumstances in which he/she has lived.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887501-1901-01-01",
+      "courseGroupId": "0887501",
+      "code": "LAT 234",
+      "subjectCode": "LAT",
+      "courseNumber": "234",
+      "longName": "The Puerto Rican Family",
+      "name": "The Puerto Rican Family",
+      "description": "This course studies the Puerto Rican family as the primary unit of Puerto Rican society, reflecting the patterns and dynamics of that society. It examines the variations in family structure that have evolved from the Taino, Spanish and African cultures. The historical and economic changes that have transformed Puerto Rican society are analyzed with emphasis on their effect on the family structure. The experience of migration and its impact on the Puerto Rican family are considered. Attention is given to the problems facing the family as the unit of migration.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "MESO - ME_SOCY_2 (Social Institutions)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MESO - ME_SOCY_2 (Social Institutions)"
+      ]
+    },
+    {
+      "id": "0887511-1901-01-01",
+      "courseGroupId": "0887511",
+      "code": "LAT 235",
+      "subjectCode": "LAT",
+      "courseNumber": "235",
+      "longName": "Puerto Rican Theatre",
+      "name": "Puerto Rican Theatre",
+      "description": "This course is a study of the drama written in Puerto Rico during the Spanish Colonial period, its relation to the development of a national identity and its links to the developing drama in Latin America. The course also studies the contemporary dramatic expression both on the island and in the U.S.A., and analyzes the different aspects and problems of a dramatic production. Actors, directors and playwrights are invited for discussions and students are required to see and study local productions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887521-1901-01-01",
+      "courseGroupId": "0887521",
+      "code": "LAT 236",
+      "subjectCode": "LAT",
+      "courseNumber": "236",
+      "longName": "Puerto Rican Economic Development since 1898",
+      "name": "Pr Econ Development",
+      "description": "This course analyzes the history and effects of American economic policies on contemporary Puerto Rico. Economic conditions before the American occupation are examined with the objective of comparing them with the conditions and changes after 1898. The period of sugar as a monoculture is studied as well as the great depression and its impact on Puerto Rico. The coming to power of the Popular Party, with its politics of land reform and economic development, are examined. The economic and social planning that have brought about modern Puerto Rico are analyzed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887531-1901-01-01",
+      "courseGroupId": "0887531",
+      "code": "LAT 237",
+      "subjectCode": "LAT",
+      "courseNumber": "237",
+      "longName": "Puerto Rican Literature: Early Colonial through 19th Century",
+      "name": "Puerto Rican Literature",
+      "description": "This course is a survey of Puerto Rican literature from the Spanish colonial period through the 19th century. It includes a study of the first literary expressions (both in prose and verse), a history of the various literary movements, and representative authors and their works. Written critical analyses and oral reports on selected work are required.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887541-1901-01-01",
+      "courseGroupId": "0887541",
+      "code": "LAT 238",
+      "subjectCode": "LAT",
+      "courseNumber": "238",
+      "longName": "Contemporary Puerto Rican Literature",
+      "name": "Contemp Pr Lit",
+      "description": "This course covers the contemporary literary expression in Puerto Rico. Authors such as Luis Pales Matos, Julia de Burgos, Diaz Alfaro, and other short story writers are studied and evaluated. The course studies and analyzes the modern novel as a reflection of the present Puerto Rican society.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887551-1901-01-01",
+      "courseGroupId": "0887551",
+      "code": "LAT 239",
+      "subjectCode": "LAT",
+      "courseNumber": "239",
+      "longName": "The Short Story in the Spanish Speaking Caribbean",
+      "name": "Short Story Carib",
+      "description": "This course studies the short story as a major form of literary expression in the Spanish speaking countries of the Caribbean: Colombia, Cuba, the Dominican Republic, Puerto Rico, and Venezuela. It studies the development of the short story beginning with Indian legends recreated by Spaniards during the early Colonial period. Examples of short stories written during the different literary movements are studied and analyzed. The relationship between the writer and society is analyzed as well as the common history, culture, and socio-economic problems which are reflected in each story.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887561-1901-01-01",
+      "courseGroupId": "0887561",
+      "code": "LAT 338",
+      "subjectCode": "LAT",
+      "courseNumber": "338",
+      "longName": "Latino/a Literature in the U.S. (Same as ENG 338)",
+      "name": "Latino/Writer In Us",
+      "description": "In this course, works reflecting the experiences of U.S. Latino/a writers in English are analyzed. Students will read, discuss, and write about fiction, nonfiction, poetry and drama by writers such as Julia Alvarez, Rudolfo Anaya, Gloria Anzaldua, Roberto Fernandez, Tato Laviera, Achy Obejas, Abraham Rodriguez Jr., and Piri Thomas.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887591-2022-12-01",
+      "courseGroupId": "0887591",
+      "code": "LAT 475",
+      "subjectCode": "LAT",
+      "courseNumber": "475",
+      "longName": "Latin American & Caribbean Society",
+      "name": "Lat Amer&Carib Soc",
+      "description": "This is a summer course taught abroad in a Latin American or Caribbean country. It offers the student the opportunity to travel, to share, to live and to study in another country. From a global perspective, this course explores the history and culture of a selected Latin American or Caribbean country by focusing on religion, homeland, art, family, identity, film, economic development, social and political movements and environment as they are presented as major themes of current research and in the tangible appreciation of the student.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "ELO - IALO (International Learning Opp)"
+      ],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-12-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - IALO (International Learning Opp)"
+      ]
+    },
+    {
+      "id": "1487201-2022-12-01",
+      "courseGroupId": "1487201",
+      "code": "LAT 475H",
+      "subjectCode": "LAT",
+      "courseNumber": "475H",
+      "longName": "Latin American & Caribbean Society (Honors)",
+      "name": "Lat Amer&Carib Soc (Honors)",
+      "description": "This is a summer course taught abroad in a Latin American or Caribbean country. It offers the student the opportunity to travel, to share, to live and to study in another country. From a global perspective, this course explores the history and culture of a selected Latin American or Caribbean country by focusing on religion, homeland, art, family, identity, film, economic development, social and political movements and environment as they are presented as major themes of current research and in the tangible appreciation of the student.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "ELO - IALO (International Learning Opp)",
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-12-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - IALO (International Learning Opp)"
+      ]
+    },
+    {
+      "id": "0893201-1901-01-01",
+      "courseGroupId": "0893201",
+      "code": "POL 152",
+      "subjectCode": "POL",
+      "courseNumber": "152",
+      "longName": "Modern Black Political Thought",
+      "name": "Modern Black Political Thought",
+      "description": "The origins of nationalist ideologies and political and social action in the United States, Caribbean and Africa are examined.  Political and economic developments since the late 19th century are analyzed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0896301-2014-05-01",
+      "courseGroupId": "0896301",
+      "code": "SOC 125",
+      "subjectCode": "SOC",
+      "courseNumber": "125",
+      "longName": "Comparative Ethnic Studies",
+      "name": "Comparative Ethnic Studies",
+      "description": "This course surveys the long history of cross-racial and inter-ethnic interactions among immigrants, migrants, people of color and working people in the United States and the wider world from the era of mercantile capitalism in the sixteenth century to the present. By making inroads into the dynamic worlds that indigenous people, people of African and Latin American descent, European Americans, and Asian Americans made and remade, the course aims to reach across borders of all kinds, including national boundaries, to cultivate global, transnational and comparative perspectives on race and ethnicity. In particular, it places emphasis on relationships and conflicts between these diverse groups, especially how they were treated and defined in relation to each other. Broadly, this course is concerned with how these groups struggle to stake out their place in a highly unequal world.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0896311-2014-05-01",
+      "courseGroupId": "0896311",
+      "code": "SOC 129",
+      "subjectCode": "SOC",
+      "courseNumber": "129",
+      "longName": "The Black Man in Contemporary Society",
+      "name": "Blk Man In Society",
+      "description": "The effects of economic and social factors on socialization, status and levels of achievement among Black men are analyzed.  The impact of institutional racism and underachievement on urbanized populations is explored in terms of access, social status, and economic differentials.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ]
+    },
+    {
+      "id": "1166581-2013-05-01",
+      "courseGroupId": "1166581",
+      "code": "SOC 150",
+      "subjectCode": "SOC",
+      "courseNumber": "150",
+      "longName": "The Latino Experience in the U.S.",
+      "name": "The Latino Experience In U.S.",
+      "description": "This course studies the varied experiences of Latinos in the United States of America. Through readings, lectures, discussions and fieldwork, students will become familiar with the group and its diverse components from North, Central and South America as well as the Caribbean, while covering representative nationalities such as Mexicans, Salvadorians, Cubans, Colombians, Ecuadorians, Puerto Ricans and Dominicans. The course will survey the history and evolution of Latinos at the same time that it explores issues of culture and identity. Other topics include family, race relations, religion, education, economic incorporation and political participation. Key issues of contemporary interest will also be explored, such as Latinos and immigration, and the impact they have on local, state and nationwide elective office.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ]
+    },
+    {
+      "id": "0896321-1901-01-01",
+      "courseGroupId": "0896321",
+      "code": "SOC 152",
+      "subjectCode": "SOC",
+      "courseNumber": "152",
+      "longName": "Puerto Rican Experience in Urban U.S. Settings",
+      "name": "P.R Exp In Urban Us",
+      "description": "This course studies the peculiar characteristics of the Puerto Rican migration to the U.S.  It analyzes the processes of assimilation and adaptation to the American society as opposed to the identity and  preservation of Puerto Rican cultural values.  The problems of education, housing, health services, family and community, employment, and economic development are given special attention as they relate to the unique experience of the Puerto Rican in the U.S.A.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MESO - ME_SOCY_3 (Social Inequality)"
+      ]
+    },
+    {
+      "id": "0896341-2014-05-01",
+      "courseGroupId": "0896341",
+      "code": "SOC 161",
+      "subjectCode": "SOC",
+      "courseNumber": "161",
+      "longName": "Health Problems in Urban Communities",
+      "name": "Hlth Prob Urban Com",
+      "description": "This course analyzes the relationships between economic and social factors, and the delivery of health care services in urban communities.  Attention is given to community needs related to HIV/AIDS, tuberculosis, mortality rates, prevention and education.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ETHST-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

@@ -340,3 +340,23 @@ fixtures still require the separate documented import and remain partial drafts.
 No Gemini key is needed; do not change `backend/.env.local` for registry setup.
 See [source mapping, categories, API and schema](docs/INSTITUTIONAL_REGISTRY.md)
 and [actual checks/screenshots](docs/PHASE_04B_VERIFICATION.md).
+
+## Phase 04C-1 BMCC source catalog
+
+BMCC Academic Catalog now includes an expandable, read-only course browser over a
+separate **2025–2026 Bulletin** snapshot. Existing **2026–2027** audit drafts remain
+unchanged. From `backend`, with the existing disposable migration-role environment:
+
+```sh
+.venv/bin/python -m alembic upgrade head
+.venv/bin/python -m app.catalog_ingestion.cli report
+.venv/bin/python -m app.catalog_ingestion.cli import
+```
+
+Head is `04c1_001`; repeat import is safe. Start the backend with runtime-role
+`V2_DATABASE_URL` and Gemini disabled as above, start the frontend, open BMCC →
+Academic Catalog → Browse BMCC source catalog, then explicitly choose the browsing
+year. 18 academic departments, 67 program-list entries and 1,263 credit courses are
+represented; prerequisite interpretations and degree requirements remain pending.
+No new key or dependency is needed. [Sources, coverage, refresh and API](docs/BMCC_CATALOG_INGESTION.md)
+and [verification](docs/PHASE_04C1_VERIFICATION.md) distinguish facts from unresolved rules.

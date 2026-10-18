@@ -1,7 +1,8 @@
 "use client";
 import { useState } from "react";
 import { useAdvising } from "./advising-provider";
-import { campuses } from "@/lib/advising/campuses";
+import { useInstitutions } from "./institutions-provider";
+import type { Campus } from "@/lib/advising/campuses";
 import {
   applyUpdate,
   factAt,
@@ -14,27 +15,29 @@ import type { FactKey, ProfileUpdate } from "@/lib/advising/profile";
 import { goalLabels, questions, readiness } from "@/lib/advising/readiness";
 import type { Goal } from "@/lib/advising/profile";
 import type { ModuleId } from "@/lib/workspace/types";
-const institutionId = (value: string) =>
+const institutionId = (value: string, campuses: readonly Campus[]) =>
   campuses.find((c) =>
     [c.id, c.shortName.toLowerCase(), c.name.toLowerCase()].includes(
       value.trim().toLowerCase(),
     ),
   )?.id ?? value.trim();
-function readable(value: unknown): string {
+function readable(value: unknown, campuses: readonly Campus[]): string {
   if (typeof value === "string")
     return campuses.find((c) => c.id === value)?.shortName ?? value;
   if (Array.isArray(value))
     return value.length
-      ? value.map(readable).join("; ")
+      ? value.map((item) => readable(item, campuses)).join("; ")
       : "No courses or previous institutions reported";
   if (value && typeof value === "object") {
     const item = value as Record<string, unknown>;
-    if ("code" in item) return `${item.code} (${readable(item.institutionId)})`;
+    if ("code" in item)
+      return `${item.code} (${readable(item.institutionId, campuses)})`;
     if ("description" in item)
-      return `${readable(item.institutionId)}: ${item.description}`;
-    if ("name" in item) return `${item.name} (${readable(item.institutionId)})`;
+      return `${readable(item.institutionId, campuses)}: ${item.description}`;
+    if ("name" in item)
+      return `${item.name} (${readable(item.institutionId, campuses)})`;
     if ("campusId" in item)
-      return `${readable(item.campusId)} · explicitly selected fictional draft; applicability still needs human review`;
+      return `${readable(item.campusId, campuses)} · explicitly selected fictional draft; applicability still needs human review`;
   }
   return "Information not available";
 }
@@ -46,6 +49,7 @@ function Answer({
   onTool: (id: ModuleId) => void;
 }) {
   const { advising, setAdvising } = useAdvising();
+  const { campuses } = useInstitutions();
   const [value, setValue] = useState("");
   const [institution, setInstitution] = useState("");
   const [confirmed, setConfirmed] = useState(false);
@@ -58,7 +62,7 @@ function Answer({
   const programField =
     field === "currentProgram" || field === "intendedProgram";
   function save(input: ProfileUpdate) {
-    const next = applyUpdate(advising, input);
+    const next = applyUpdate(advising, input, campuses);
     if (next === advising) {
       setError("Check this fictional answer. No information was changed.");
       return;
@@ -80,17 +84,17 @@ function Answer({
             .filter(Boolean)
             .map((code) => ({
               code,
-              institutionId: institutionId(institution),
+              institutionId: institutionId(institution, campuses),
             }));
         if (programField)
           answer = {
             name: value.trim(),
-            institutionId: institutionId(institution),
+            institutionId: institutionId(institution, campuses),
           };
         if (field === "previousInstitutions")
           answer = [
             {
-              institutionId: institutionId(institution),
+              institutionId: institutionId(institution, campuses),
               description: value.trim(),
             },
           ];
@@ -263,6 +267,7 @@ export function AdaptiveProfile({
   onTool: (id: ModuleId) => void;
 }) {
   const { advising, setAdvising } = useAdvising();
+  const { campuses } = useInstitutions();
   const info = readiness(advising);
   const [edit, setEdit] = useState<FactKey>("currentInstitution");
   return (
@@ -393,7 +398,7 @@ export function AdaptiveProfile({
         <p className="my-3 text-xs text-muted">
           Current answer: {factAt(advising, edit).state.replaceAll("_", " ")}
           {factAt(advising, edit).state === "known"
-            ? ` · ${readable((factAt(advising, edit) as { value: unknown }).value)} · ${(factAt(advising, edit) as { provenance: string }).provenance.replaceAll("_", " ")}`
+            ? ` · ${readable((factAt(advising, edit) as { value: unknown }).value, campuses)} · ${(factAt(advising, edit) as { provenance: string }).provenance.replaceAll("_", " ")}`
             : ""}
         </p>
         <Answer key={edit} field={edit} onTool={onTool} />

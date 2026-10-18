@@ -14,7 +14,7 @@ read-only and is never connected. All academic uncertainty remains explicit.
 
 ## Campus entry and conversation
 
-`/` is an interactive CUNY campus selector. BMCC is the only local pilot; all other
+`/` is an interactive CUNY campus selector backed by the persisted Phase 04B institutional registry. BMCC is the only local pilot; all other
 listed assistants are future/unavailable. Click/tap BMCC (or activate its node with Enter/Space) to open
 `/campus/bmcc`, then use supported prompts, adaptive fictional answers and contextual
 tools. Assistant selection does not establish enrollment. No live AI is enabled.
@@ -314,3 +314,29 @@ Without `--live` it makes no requests; no live request runs in CI.
 See [configuration, limits and security](docs/GEMINI_GATEWAY.md),
 [session/confirmation flow](docs/CONVERSATION_ORCHESTRATION.md) and
 [actual checks/screenshots](docs/PHASE_04A_VERIFICATION.md). No deployment is authorized.
+
+## Phase 04B institutional registry setup
+
+The campus landing page now needs the local V2 database, explicit `04b_001`
+migration and registry import. It does not fall back to eight static campuses.
+Follow the role-separated disposable database setup above, then with the migration
+URL already exported, run from `backend`:
+
+```sh
+.venv/bin/python -m alembic upgrade head
+.venv/bin/python -m app.institutions.import_registry
+```
+
+Start FastAPI with runtime-role `V2_DATABASE_URL` and Gemini disabled:
+
+```sh
+GEMINI_ENABLED=false .venv/bin/python -m uvicorn app.main:app --host 127.0.0.1 --port 8000
+```
+
+From `frontend`, run `npm run dev`, then open [campus discovery](http://127.0.0.1:3000/).
+The server-only `API_BASE_URL` defaults to `http://127.0.0.1:8000`.
+The reviewed source scope is 26; only BMCC is a local academic pilot. Academic catalog
+fixtures still require the separate documented import and remain partial drafts.
+No Gemini key is needed; do not change `backend/.env.local` for registry setup.
+See [source mapping, categories, API and schema](docs/INSTITUTIONAL_REGISTRY.md)
+and [actual checks/screenshots](docs/PHASE_04B_VERIFICATION.md).

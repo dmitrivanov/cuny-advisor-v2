@@ -1,0 +1,599 @@
+{
+  "snapshot_id": "cuny-institutions-2026-10-17-r1",
+  "retrieved_on": "2026-10-17",
+  "scope_source": "colleges",
+  "sources": [
+    {
+      "id": "colleges",
+      "url": "https://www.cuny.edu/about/colleges/",
+      "title": "CUNY Colleges & Schools",
+      "retrieved_on": "2026-10-17"
+    },
+    {
+      "id": "directory",
+      "url": "https://www.cuny.edu/about/university-resources/telephone-email-directories/",
+      "title": "CUNY Telephone & Email Directories",
+      "retrieved_on": "2026-10-17"
+    },
+    {
+      "id": "about",
+      "url": "https://www.cuny.edu/about/",
+      "title": "About CUNY: institutional group counts",
+      "retrieved_on": "2026-10-17"
+    },
+    {
+      "id": "medicine",
+      "url": "https://www.cuny.edu/news/gov-hochul-announces-cuny-school-of-medicine-elevated-to-independent-college/",
+      "title": "School of Medicine independent-college announcement (2024-11-19)",
+      "retrieved_on": "2026-10-17"
+    },
+    {
+      "id": "macaulay",
+      "url": "https://macaulay.cuny.edu/about-macaulay/",
+      "title": "Macaulay: honors college and home-campus model",
+      "retrieved_on": "2026-10-17"
+    },
+    {
+      "id": "macaulay-name",
+      "url": "https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/about/administration/offices/communications-marketing/services/marketing-and-branding/download/cuny-colleges/Macaulay_Branding_Guide-1.13.14.pdf",
+      "title": "Macaulay official and common naming guide",
+      "retrieved_on": "2026-10-17"
+    }
+  ],
+  "institutions": [
+    {
+      "id": "baruch",
+      "slug": "baruch",
+      "official_name": "Baruch College",
+      "display_name": "Baruch",
+      "category": "senior_college",
+      "active": true,
+      "website": "http://www.baruch.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Baruch College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "bmcc",
+      "slug": "bmcc",
+      "official_name": "Borough of Manhattan Community College",
+      "display_name": "BMCC",
+      "category": "community_college",
+      "active": true,
+      "website": "https://www.bmcc.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Borough of Manhattan Community College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Community Colleges"
+        }
+      ],
+      "support_status": "pilot"
+    },
+    {
+      "id": "bronx",
+      "slug": "bronx",
+      "official_name": "Bronx Community College",
+      "display_name": "Bronx CC",
+      "category": "community_college",
+      "active": true,
+      "website": "http://www.bcc.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Bronx Community College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Community Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "brooklyn",
+      "slug": "brooklyn",
+      "official_name": "Brooklyn College",
+      "display_name": "Brooklyn",
+      "category": "senior_college",
+      "active": true,
+      "website": "https://www.brooklyn.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Brooklyn College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "ccny",
+      "slug": "ccny",
+      "official_name": "The City College of New York",
+      "display_name": "CCNY",
+      "category": "senior_college",
+      "active": true,
+      "website": "https://www.ccny.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "The City College of New York; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "city-tech",
+      "slug": "city-tech",
+      "official_name": "New York City College of Technology",
+      "display_name": "City Tech",
+      "category": "senior_college",
+      "active": true,
+      "website": "http://www.citytech.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "New York City College of Technology (City Tech); Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "graduate-center",
+      "slug": "graduate-center",
+      "official_name": "CUNY Graduate Center",
+      "display_name": "Graduate Center",
+      "category": "graduate_professional",
+      "active": true,
+      "website": "https://www.gc.cuny.edu/Home",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "CUNY Graduate Center; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Honors and Professional"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "guttman",
+      "slug": "guttman",
+      "official_name": "Stella and Charles Guttman Community College",
+      "display_name": "Guttman",
+      "category": "community_college",
+      "active": true,
+      "website": "http://guttman.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Guttman Community College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Community Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "hostos",
+      "slug": "hostos",
+      "official_name": "Hostos Community College",
+      "display_name": "Hostos",
+      "category": "community_college",
+      "active": true,
+      "website": "http://www.hostos.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Hostos Community College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Community Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "hunter",
+      "slug": "hunter",
+      "official_name": "Hunter College",
+      "display_name": "Hunter",
+      "category": "senior_college",
+      "active": true,
+      "website": "http://www.hunter.cuny.edu/main/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Hunter College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "john-jay",
+      "slug": "john-jay",
+      "official_name": "John Jay College of Criminal Justice",
+      "display_name": "John Jay",
+      "category": "senior_college",
+      "active": true,
+      "website": "http://www.jjay.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "John Jay College of Criminal Justice; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "journalism",
+      "slug": "journalism",
+      "official_name": "Craig Newmark Graduate School of Journalism",
+      "display_name": "Journalism",
+      "category": "graduate_professional",
+      "active": true,
+      "website": "https://www.journalism.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Craig Newmark Graduate School of Journalism; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Honors and Professional"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "kingsborough",
+      "slug": "kingsborough",
+      "official_name": "Kingsborough Community College",
+      "display_name": "Kingsborough",
+      "category": "community_college",
+      "active": true,
+      "website": "https://www.kbcc.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Kingsborough Community College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Community Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "labor-urban",
+      "slug": "labor-urban",
+      "official_name": "CUNY School of Labor and Urban Studies",
+      "display_name": "Labor & Urban",
+      "category": "graduate_professional",
+      "active": true,
+      "website": "http://slu.cuny.edu/",
+      "classification_note": "Grouped with CUNY graduate/professional schools; also offers undergraduate study. Category is institutional grouping, not an exclusive degree-level claim.",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "CUNY School of Labor and Urban Studies; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Honors and Professional"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "laguardia",
+      "slug": "laguardia",
+      "official_name": "LaGuardia Community College",
+      "display_name": "LaGuardia",
+      "category": "community_college",
+      "active": true,
+      "website": "https://www.laguardia.edu/home/Default.aspx",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "LaGuardia Community College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Community Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "law",
+      "slug": "law",
+      "official_name": "CUNY School of Law",
+      "display_name": "Law",
+      "category": "graduate_professional",
+      "active": true,
+      "website": "https://www.law.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "CUNY School of Law; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Honors and Professional"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "lehman",
+      "slug": "lehman",
+      "official_name": "Lehman College",
+      "display_name": "Lehman",
+      "category": "senior_college",
+      "active": true,
+      "website": "http://www.lehman.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Lehman College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "macaulay",
+      "slug": "macaulay",
+      "official_name": "William E. Macaulay Honors College at The City University of New York",
+      "display_name": "Macaulay",
+      "category": "honors_college",
+      "active": true,
+      "website": "https://macaulay.cuny.edu/",
+      "classification_note": "Consortial honors college: students enroll at a home CUNY college. Registry inclusion does not create separate degree requirements or duplicate home-campus catalogs.",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Macaulay Honors College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Honors and Professional"
+        },
+        {
+          "source_id": "macaulay",
+          "locator": "Macaulay at CUNY: home-campus enrollment"
+        },
+        {
+          "source_id": "macaulay-name",
+          "locator": "Our name and how to use it: formal name versus common name"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "medgar-evers",
+      "slug": "medgar-evers",
+      "official_name": "Medgar Evers College",
+      "display_name": "Medgar Evers",
+      "category": "senior_college",
+      "active": true,
+      "website": "https://www.mec.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Medgar Evers College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "medicine",
+      "slug": "medicine",
+      "official_name": "CUNY School of Medicine",
+      "display_name": "Medicine",
+      "category": "graduate_professional",
+      "active": true,
+      "website": "https://medicine.cuny.edu/",
+      "classification_note": "Listed separately in the current CUNY colleges directory; 2024 announcement describes transition from CCNY to an independent graduate-level professional institution. No claim about completed accreditation transition.",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "CUNY School of Medicine; Website link"
+        },
+        {
+          "source_id": "medicine",
+          "locator": "Independent graduate-level professional institution announcement"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "professional-studies",
+      "slug": "professional-studies",
+      "official_name": "CUNY School of Professional Studies",
+      "display_name": "Professional Studies",
+      "category": "graduate_professional",
+      "active": true,
+      "website": "https://sps.cuny.edu/",
+      "classification_note": "Grouped with CUNY graduate/professional schools; also offers undergraduate study. Category is institutional grouping, not an exclusive degree-level claim.",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "CUNY School of Professional Studies; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Honors and Professional"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "public-health",
+      "slug": "public-health",
+      "official_name": "CUNY Graduate School of Public Health and Health Policy",
+      "display_name": "Public Health",
+      "category": "graduate_professional",
+      "active": true,
+      "website": "http://sph.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "CUNY Graduate School of Public Health and Health Policy; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Honors and Professional"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "queens",
+      "slug": "queens",
+      "official_name": "Queens College",
+      "display_name": "Queens",
+      "category": "senior_college",
+      "active": true,
+      "website": "https://qc.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Queens College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "queensborough",
+      "slug": "queensborough",
+      "official_name": "Queensborough Community College",
+      "display_name": "Queensborough",
+      "category": "community_college",
+      "active": true,
+      "website": "http://www.qcc.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "Queensborough Community College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Community Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "staten-island",
+      "slug": "staten-island",
+      "official_name": "College of Staten Island",
+      "display_name": "Staten Island",
+      "category": "senior_college",
+      "active": true,
+      "website": "https://www.csi.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "College of Staten Island; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    },
+    {
+      "id": "york",
+      "slug": "york",
+      "official_name": "York College",
+      "display_name": "York",
+      "category": "senior_college",
+      "active": true,
+      "website": "https://www.york.cuny.edu/",
+      "classification_note": "",
+      "sources": [
+        {
+          "source_id": "colleges",
+          "locator": "York College; Website link"
+        },
+        {
+          "source_id": "directory",
+          "locator": "Senior Colleges"
+        }
+      ],
+      "support_status": "planned"
+    }
+  ]
+}

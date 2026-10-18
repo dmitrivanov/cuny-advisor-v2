@@ -1,0 +1,111 @@
+{
+  "source_url": "https://www.cuny.edu/about/colleges/",
+  "retrieved_on": "2026-10-17",
+  "html_sha256": "773b1e3e54a15fffb28ebdd259db3abc741e49550fec72cf5d9089bc5c36cdd8",
+  "entries": [
+    {
+      "listing_name": "Baruch College",
+      "website": "http://www.baruch.cuny.edu/"
+    },
+    {
+      "listing_name": "Borough of Manhattan Community College",
+      "website": "https://www.bmcc.cuny.edu/"
+    },
+    {
+      "listing_name": "Bronx Community College",
+      "website": "http://www.bcc.cuny.edu/"
+    },
+    {
+      "listing_name": "Brooklyn College",
+      "website": "https://www.brooklyn.edu/"
+    },
+    {
+      "listing_name": "College of Staten Island",
+      "website": "https://www.csi.cuny.edu/"
+    },
+    {
+      "listing_name": "Craig Newmark Graduate School of Journalism",
+      "website": "https://www.journalism.cuny.edu/"
+    },
+    {
+      "listing_name": "CUNY Graduate Center",
+      "website": "https://www.gc.cuny.edu/Home"
+    },
+    {
+      "listing_name": "CUNY Graduate School of Public Health and Health Policy",
+      "website": "http://sph.cuny.edu/"
+    },
+    {
+      "listing_name": "CUNY School of Labor and Urban Studies",
+      "website": "http://slu.cuny.edu/"
+    },
+    {
+      "listing_name": "CUNY School of Law",
+      "website": "https://www.law.cuny.edu/"
+    },
+    {
+      "listing_name": "CUNY School of Medicine",
+      "website": "https://medicine.cuny.edu/"
+    },
+    {
+      "listing_name": "CUNY School of Professional Studies",
+      "website": "https://sps.cuny.edu/"
+    },
+    {
+      "listing_name": "Guttman Community College",
+      "website": "http://guttman.cuny.edu/"
+    },
+    {
+      "listing_name": "Hostos Community College",
+      "website": "http://www.hostos.cuny.edu/"
+    },
+    {
+      "listing_name": "Hunter College",
+      "website": "http://www.hunter.cuny.edu/main/"
+    },
+    {
+      "listing_name": "John Jay College of Criminal Justice",
+      "website": "http://www.jjay.cuny.edu/"
+    },
+    {
+      "listing_name": "Kingsborough Community College",
+      "website": "https://www.kbcc.cuny.edu/"
+    },
+    {
+      "listing_name": "LaGuardia Community College",
+      "website": "https://www.laguardia.edu/home/Default.aspx"
+    },
+    {
+      "listing_name": "Lehman College",
+      "website": "http://www.lehman.cuny.edu/"
+    },
+    {
+      "listing_name": "Macaulay Honors College",
+      "website": "https://macaulay.cuny.edu/"
+    },
+    {
+      "listing_name": "Medgar Evers College",
+      "website": "https://www.mec.cuny.edu/"
+    },
+    {
+      "listing_name": "New York City College of Technology (City Tech)",
+      "website": "http://www.citytech.cuny.edu/"
+    },
+    {
+      "listing_name": "Queens College",
+      "website": "https://qc.cuny.edu"
+    },
+    {
+      "listing_name": "Queensborough Community College",
+      "website": "http://www.qcc.cuny.edu/"
+    },
+    {
+      "listing_name": "The City College of New York",
+      "website": "https://www.ccny.cuny.edu/"
+    },
+    {
+      "listing_name": "York College",
+      "website": "https://www.york.cuny.edu/"
+    }
+  ]
+}

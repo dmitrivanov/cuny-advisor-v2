@@ -1,6 +1,9 @@
 import { test } from "node:test";
 import assert from "node:assert/strict";
-import { campuses, hasAcademicTools } from "../src/lib/advising/campuses.ts";
+import fixture from "../tests/fixtures/institutions.json" with { type: "json" };
+import { decodeRegistry } from "../src/lib/advising/campuses.ts";
+const campuses = decodeRegistry(fixture);
+import { hasAcademicTools } from "../src/lib/advising/campuses.ts";
 import {
   initialAdvising,
   applyUpdate,
@@ -16,9 +19,9 @@ import {
   validateProposal,
 } from "../src/lib/advising/orchestration.ts";
 const put = (state, key, value) =>
-  applyUpdate(state, { key, fact: reported(value) });
-test("eight accurately scoped campuses; only BMCC pilot; choosing assistant never enrolls", () => {
-  assert.equal(campuses.length, 8);
+  applyUpdate(state, { key, fact: reported(value) }, campuses);
+test("database registry projection; only BMCC pilot; choosing assistant never enrolls", () => {
+  assert.equal(campuses.length, fixture.institutions.length);
   assert.deepEqual(
     campuses.filter((c) => hasAcademicTools(c.id)).map((c) => c.id),
     ["bmcc"],
@@ -234,6 +237,7 @@ test("known correction invalidates dependent program/catalog; never changes assi
   });
   const proposal = interpretBounded(
     "Actually, I'm studying at LaGuardia, not BMCC.",
+    campuses,
   );
   assert.ok(validateProposal(proposal, s));
   s = applyUpdate(s, proposal.updates[0]);

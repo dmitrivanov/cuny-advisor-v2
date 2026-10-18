@@ -1,24 +1,23 @@
 # Multi-campus frontend foundation — Phase 03B
 
 Implemented local prototype, 2026-10-17. BMCC is the only operational **project
-pilot**, not an institutionally approved assistant. No AI or production service.
+pilot**, not an institutionally approved assistant. Optional Phase 04A AI remains disabled for Phase 04B verification; no production service.
 
 ## Registry and capability boundary
 
-`frontend/src/lib/advising/campuses.ts` is presentation/capability metadata:
-identity, slug, accurate name/type, project assistant availability and art-directed
-positions. It contains no courses, requirements, equivalencies or campus-specific
-chat logic. Eight names and community/senior classifications were checked against
-[CUNY's official directory](https://www.cuny.edu/about/university-resources/telephone-email-directories/)
-on 2026-10-17 (Senior Colleges and Community Colleges sections). These metadata
-facts do not validate academic rules or imply approval. The displayed eight are
-a representative subset, not an assertion of the university's complete count.
+Phase 04B replaces the original eight-campus static subset with the normalized,
+versioned [institutional registry](INSTITUTIONAL_REGISTRY.md). PostgreSQL → FastAPI
+→ the Next.js proxy/context supplies 26 source-backed institutions, including
+specialized graduate/professional and consortial honors institutions. Frontend
+`campuses.ts` contains validated projection types, aliases derived from loaded rows,
+illustrative placement and an explicit BMCC capability guard; no institutional dataset.
+Loading, empty and unavailable states never substitute the old eight entries.
 
-BMCC is `pilot`; CCNY, LaGuardia, Queensborough, Hunter, Baruch, Brooklyn and Queens
-are `planned`. Availability is a local product decision, not a college fact.
-`hasAcademicTools` is the shared explicit capability predicate. Future activation
-requires more than adding a node: separately reviewed catalogs, capability routing,
-academic/security tests and owner authorization. No other campus inherits BMCC rules.
+BMCC alone is `pilot`; the remaining 25 are `planned`. These statuses are separately
+stored project decisions, not official institutional facts. New academic activation
+requires reviewed catalogs, capability routing, security tests and owner authorization.
+No other campus inherits BMCC rules. Desktop uses two rings; responsive four-/two-column
+node grids keep the expanded scope accessible without overlapping targets.
 
 ## Owner-review entry interaction
 

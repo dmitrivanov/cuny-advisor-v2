@@ -286,3 +286,26 @@ summary { cursor:pointer; min-height:var(--size-control); align-content:center; 
 }
 @media(prefers-reduced-motion:reduce){.campus-landing *,.campus-landing *::after {transition:none!important;animation:none!important;}}
 @media(forced-colors:active){.campus-node,.campus-orb,.campus-tooltip,.campus-notice{border:1px solid CanvasText;box-shadow:none;}.campus-node[data-receded="true"]{opacity:1;}}
+
+/* Phase 04B scales public registry presentation without changing its semantics. */
+.registry-summary { margin-top:.5rem; color:var(--night-muted); font-size:.75rem; }
+.constellation { height:70rem; }
+.constellation--pending { height:12rem; }
+.campus-node { width:7.5rem; }
+.campus-node-label { max-width:100%; }
+.campus-tooltip { top:clamp(1rem,calc(var(--detail-y) + 5rem),calc(100% - 12rem)); }
+@media(max-width:69rem){
+ .constellation { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); height:auto; gap:1.5rem .75rem; padding-block:2.5rem; }
+ .campus-node,.campus-node[data-emphasized="true"] { position:relative; left:auto; top:auto; width:100%; min-height:8rem; transform:none; align-content:center; }
+ .constellation-edges,.network-label { display:none; }
+ .constellation-orbit { inset:3% 4%; }
+ .campus-tooltip { position:fixed; top:auto; bottom:1rem; left:50%; max-width:calc(100vw - 2rem); }
+ .campus-node-label { font-size:.75rem; }
+ .constellation--pending { display:block; height:12rem; }
+}
+@media(max-width:40rem){
+ .constellation { grid-template-columns:repeat(2,minmax(0,1fr)); gap:1rem; }
+ .campus-node,.campus-node[data-emphasized="true"] { left:auto; min-height:7rem; }
+ .campus-tooltip { bottom:1rem; }
+ .constellation--pending { display:block; }
+}

@@ -1,4 +1,5 @@
-import { campuses } from "./campuses.ts";
+import { institutionId } from "./campuses.ts";
+import type { Campus } from "./campuses.ts";
 export type Provenance =
   | "student_reported"
   | "student_confirmed"
@@ -269,18 +270,12 @@ export function validateUpdate(input: unknown): input is ProfileUpdate {
 export function applyUpdate(
   state: AdvisingState,
   input: unknown,
+  campuses: readonly Campus[] = [],
 ): AdvisingState {
   if (!validateUpdate(input)) return state;
   const { key } = input;
   let fact = input.fact;
-  const institution = (value: string) =>
-    campuses.find((campus) =>
-      [
-        campus.id,
-        campus.shortName.toLowerCase(),
-        campus.name.toLowerCase(),
-      ].includes(value.trim().toLowerCase()),
-    )?.id ?? value.trim();
+  const institution = (value: string) => institutionId(value, campuses);
   if (fact.state === "known") {
     if (key === "currentInstitution" || key === "destination")
       fact = { ...fact, value: institution(fact.value as string) };

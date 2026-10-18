@@ -88,3 +88,12 @@ involved. Explicit migration/import is now required for campus discovery; regist
 failure never substitutes a static campus subset. Existing academic request/response
 contracts and context requirements are unchanged. See [full registry contract,
 response example and setup](INSTITUTIONAL_REGISTRY.md).
+
+## Phase 04C-1 BMCC source browsing
+
+The read-only `/api/v1/bmcc-catalog` family discovers retained browse snapshots and
+returns departments, program identities, sources, paginated/searchable courses and
+individual course evidence. `/api/bmcc-catalog/...` is the fixed-route Next.js proxy.
+Browsing snapshot identity/year is separate from the existing academic release
+context; these records cannot replace selector/evaluator input. See [complete routes,
+query limits, error semantics and import instructions](BMCC_CATALOG_INGESTION.md).

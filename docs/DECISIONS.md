@@ -349,3 +349,25 @@ no static frontend fallback. Placement remains frontend-only. BMCC alone has too
 The 26-node constellation retains desktop rings and responsive fixed-target grids.
 No dependencies or academic logic changes, Gemini calls, deployment or Phase 04C.
 See [details](INSTITUTIONAL_REGISTRY.md) and [evidence](PHASE_04B_VERIFICATION.md).
+
+## Phase 04C-1 — separate source-browsing snapshots from audit releases
+
+Decision, 2026-10-17: use the explicitly labeled 2025–2026 BMCC College Bulletin
+as the primary year-bound source for this ingestion. Current program/department
+website identities and rule text are supporting evidence with unconfirmed year.
+Do not combine them with existing 2026–2027 draft audit fixtures or replace those
+fixtures. Source verification remains distinct from institutional academic approval.
+
+Preserve original descriptions/rule blocks, exact credit ranges, source hashes and
+locators; quarantine conflicting duplicate course codes rather than select a winner.
+Treat missing prerequisite fields and opaque requisite IDs as unresolved. New typed
+AND/OR/grade/placement/permission/concurrency/program condition representation has
+no new evaluator behavior; no structured BMCC rule is promoted without usable,
+year-bound verified evidence. Program page-host links are not governance ownership.
+
+Use explicit offline staging/review/import, seven append-only browse tables,
+SELECT-only runtime and complete projection/hash checks. API and on-demand course
+browser are read-only and cannot feed unreviewed courses to old audit releases.
+Full degree requirements, publication authority/workflow, source-policy reconciliation
+and additional campus catalogs remain separately gated. No Gemini or new dependency.
+[Design and source coverage](BMCC_CATALOG_INGESTION.md), [verification](PHASE_04C1_VERIFICATION.md).

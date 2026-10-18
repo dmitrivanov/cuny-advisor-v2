@@ -1,0 +1,3356 @@
+{
+  "department_id": "MAT-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "6f8c7d1e22f68e251898e6456360b0b14c2d123fbeea5d416ec33318a0a391a0",
+  "records": [
+    {
+      "id": "0889741-2020-10-01",
+      "courseGroupId": "0889741",
+      "code": "ANI 260",
+      "subjectCode": "ANI",
+      "courseNumber": "260",
+      "longName": "Introduction to 2D Animation",
+      "name": "Introduction to 2D Animation",
+      "description": "Students will learn to design and create motion graphics for multimedia, building projects appropriate both for internet applications and for film and video. Students will learn how to use a vector-based animation program such as flash MX and animation and visual effects compositing programs to create orginal work. An emphasis will be placed on planning projects and developing narratives through the use of storyboards.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898591-2024-01-25",
+      "courseGroupId": "0898591",
+      "code": "ANI 301",
+      "subjectCode": "ANI",
+      "courseNumber": "301",
+      "longName": "Introduction to Motion Graphics and Visual Effects",
+      "name": "Intro to Motion Graphics",
+      "description": "This course offers an introduction to the fundamentals of creating motion graphics and visual effects for a variety of media projects. Students will develop foundation design skills, apply animation principles in time-based visualizations, and illustrate a working knowledge of visual storytelling and industry-standard motion graphics, compositing, and visual effects applications. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1513721-2020-06-01",
+      "courseGroupId": "1513721",
+      "code": "ANI 360",
+      "subjectCode": "ANI",
+      "courseNumber": "360",
+      "longName": "2D Animation Projects",
+      "name": "2D Animation Projects",
+      "description": "This is a 2D animation production course following MMP 260. Students will use an industry standard 2D animation software, to make original animations in traditional hand-drawn animation as well as cutout and stop-motion animation. Students will learn production pipeline techniques for creating animation for broadcast, film and effects animation. Students will learn to design characters and objects and to choreograph scenes; controlling character movement, lighting, sound, and camera direction. Small groups will produce short animations. Upon completion of the course, each student should have a “demo reel ready” completed animation",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Compensatory Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898631-2022-11-01",
+      "courseGroupId": "0898631",
+      "code": "ANI 401",
+      "subjectCode": "ANI",
+      "courseNumber": "401",
+      "longName": "Introduction to 3D Animations",
+      "name": "Introduction to 3D Animations",
+      "description": "Students will learn to construct 3D motion graphics for video, film, game, multimedia, and internet applications.  Students will use advanced CGI program to make original animations in a three-coordinate space.  Students will learn to model three-dimensional objects and to choreograph scenes, controlling character movement, lighting, sound and camera directions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1301211-2021-07-01",
+      "courseGroupId": "1301211",
+      "code": "ANI 402",
+      "subjectCode": "ANI",
+      "courseNumber": "402",
+      "longName": "3D Animation Projects",
+      "name": "3D Animation Projects",
+      "description": "This course follows ANI 401. Students will use an advanced CGI program, to make original animations in a three-coordinate space. Students will model three-dimensional objects and choreograph scenes, controlling character movement, lighting, sound, and camera direction. Small groups will produce short animations. Special attention will be paid to intermediate techniques, such as animating phonemes, rigging soft bodies, and adding dynamic fields. Compositing and post production workflow for proper rendering will be included in this course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557481-2024-01-25",
+      "courseGroupId": "1557481",
+      "code": "ANI 411",
+      "subjectCode": "ANI",
+      "courseNumber": "411",
+      "longName": "Introduction to Virtual Production",
+      "name": "Intro to Virtual Production",
+      "description": "Students will learn the basics of real-time rendering in Unreal Engine, and will leave with a completed project that demonstrates proficiency in both the engine and its application across several stages of production. While primarily related to motion picture production, the course will also show students how to create content across a variety of practical and artistic use cases.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1lSxIJ7egiIUr4Nu5fix",
+      "courseGroupId": "L2tI0r3Xe4Eg0d7HdB6D",
+      "code": "ANI412",
+      "subjectCode": "ANI",
+      "courseNumber": "412",
+      "longName": "Virtual Production Projects",
+      "name": "Virtual Production Projects",
+      "description": "This course builds on the fundamentals of virtual production introduced in ANI 411. Students will learn how to use industry-standard virtual filmmaking tools to create fully animated computer-generated cinematic sequences. The course will cover advanced topics such as lighting, shading, and rendering techniques, as well as the use of motion capture and facial animation. Students will also explore the use of real-time compositing and visual effects in virtual production. By the end of this course, students will have gained a comprehensive understanding of virtual production workflows and techniques, and will have developed a fully CGI short film. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "numberOfCredits": 3
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": null,
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1559311-2025-08-25",
+      "courseGroupId": "1559311",
+      "code": "MEA 111",
+      "subjectCode": "MEA",
+      "courseNumber": "111",
+      "longName": "Animated Paper",
+      "name": "Animated Paper",
+      "description": "In this course we will explore traditional and digital techniques to create animated paper-based projects, including paper mechanisms, AR (Augmented Reality) posters, and collaborative/interactive picture books!  We will work iteratively, from brainstorm sessions and sketches, to fully realized prototypes. The course takes place in the BMCC Makerspace which offers a range of digital production tools (i.e: vinyl cutters, laser cutter, 3D printer, laptops, tablets, and imaging software), which we will use to bring students' unique stories and visual approaches to life, while acquiring in-demand computing skills.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1329151-2017-05-01",
+      "courseGroupId": "1329151",
+      "code": "MEA 201",
+      "subjectCode": "MEA",
+      "courseNumber": "201",
+      "longName": "Professional Development and Career Planning in Media Arts and Technology",
+      "name": "Prof Devel & Car Plan in Media",
+      "description": "In this course students are instructed in industry appropriate methods to creatively plan their careers. Students learn about selfassessment, career exploration, and practical job search skills. In this course, students will identify the techniques used to identify target markets, negotiate with clients, apply sound business management principles, and successfully self-promote. The course includes the following topics: how to identify and classify your career needs, interests, values, and skills; researching occupational and organizational alternatives; job search techniques and resources for employment; resume and cover letter preparation; portfolio presentation; job interviewing and follow-up.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1455241-2018-05-01",
+      "courseGroupId": "1455241",
+      "code": "MEA 211",
+      "subjectCode": "MEA",
+      "courseNumber": "211",
+      "longName": "Introduction to Digital Fabrication and Physical Computing",
+      "name": "Intro Digital Fabr & Phys Comp",
+      "description": "In this hands-on course, students will learn how to create physical interfaces for interacting with technology. Students will be introduced to digital fabrication techniques. They will learn how to program micro-controllers and how to build simple circuits. An emphasis will be placed on building and revising prototypes.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1313161-2015-08-01",
+      "courseGroupId": "1313161",
+      "code": "MEA 300",
+      "subjectCode": "MEA",
+      "courseNumber": "300",
+      "longName": "Topics in Media Arts and Technology",
+      "name": "Topics in Media Arts and Tech",
+      "description": "MEA 300 will focus on a specific theme, concept, technology or methodology to be announced in advance. Topics for the following semester will be made available by the Media Arts and Technology Department during registration. Each section of the course will cover in depth a single special topic related to media arts and technology, such as one of the following: User Experience Design, Physical Computing, 3D and Laser Printing, Game Design, Documentary Film Production, Experimental Film, Journalism, Media Production, Project Management, Interactive Media, Augmented Reality, Virtual Reality, Television News Production.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": true,
+        "numberOfRepeats": 3,
+        "numberOfCredits": 9,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-08-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1329161-2024-08-28",
+      "courseGroupId": "1329161",
+      "code": "MEA 371",
+      "subjectCode": "MEA",
+      "courseNumber": "371",
+      "longName": "Media Arts and Technology Internship",
+      "name": "Media Arts & Tech Internship",
+      "description": "The objective of the internship course is to support qualified MEA students who are prepared to gain work experience in their academic field. Each student–intern is assigned to a faculty-advisor/coordinator with expertise in the student's field at least one semester before starting MEA 371. The coordinator will assist the student in securing an internship placement in a work site related to the student's major, help the student to \"reconstruct\" their present position as an internship, or develop - by special arrangement - an internship with their current employer. Over a semester, the Media Arts and Technology Internship expects approximately 150 work hours from the student, including but not limited to a minimum of 90 hours of work at the internship site. In this course, MEA Students are expected to work with faculty to apply to and secure an internship, complete a showcase quality term project/paper, and be evaluated by their internship work-site supervisor and the assigned faculty advisor/coordinator. Students are expected to arrange their schedules so that they are free mornings or afternoons, Monday-Friday, or two to three full days per week so they are available for the internship site work.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": "11.5",
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "1329171-2016-04-18",
+      "courseGroupId": "1329171",
+      "code": "MEA 372",
+      "subjectCode": "MEA",
+      "courseNumber": "372",
+      "longName": "Media Arts and Technology Internship II",
+      "name": "Media Arts & Tech Intern II",
+      "description": "The objective of the second internship is to allow the student to put classroom theory in her/his major into practice in order to gain work experience in the event they elect to take a second internship. Each student–intern is assigned to a coordinator who is knowledgeable about the student's field.  The coordinator helps the student secure internship placement in a work site related to the student's major, or assists the student to \"reconstruct\" her/his present position as an internship, or develop ¾ by special arrangement ¾ an internship with her/his present employer, and serves as the student's instructor and advisor during the field experience. Over a semester the Media Arts and Technology Internship requires a total of 150 hours, including but not limited to, hours at the internship site. In this course MEA Students are expected to: intern approximately 10 hours a week, complete a term project assigned by the coordinator, and be evaluated by the work site supervisor. Students to be placed are expected to arrange their schedules so that they are free mornings or afternoons, Monday-Friday, or two to three full days per week.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [
+        "EXPR - EXPR (Experimental)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-04-18",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "EXPR - EXPR (Experimental)"
+      ]
+    },
+    {
+      "id": "1546921-1901-01-01",
+      "courseGroupId": "1546921",
+      "code": "MES 1",
+      "subjectCode": "MES",
+      "courseNumber": "1",
+      "longName": "Media Studies Elective",
+      "name": "Media Studies Elective",
+      "description": "Media Studies Elective",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": true,
+        "numberOfRepeats": 99,
+        "numberOfCredits": 999,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 0,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 0,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [
+        "BKCR - BKCR (Blanket Credit)"
+      ],
+      "requirementDesignation": "Message Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 0
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1235301-2020-10-01",
+      "courseGroupId": "1235301",
+      "code": "MES 140",
+      "subjectCode": "MES",
+      "courseNumber": "140",
+      "longName": "Introduction to Moving Image",
+      "name": "Introduction to Moving Image",
+      "description": "Introduction to the Moving Image gives students an introductory grounding in the history, aesthetics, and critical theory of narrative and non-narrative motion pictures, television, and animation.  Students will gain a global perspective of how moving image works evolved from the birth of cinema to the current multiplicity of screens and screen works; special attention will be drawn to the theoretical and practical techniques unique to moving images and the tension between the media's apparent \"realism\" and the manipulations required to achieve it.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1232781-2014-05-01",
+      "courseGroupId": "1232781",
+      "code": "MES 152",
+      "subjectCode": "MES",
+      "courseNumber": "152",
+      "longName": "Introduction to Contemporary Media",
+      "name": "Intro To Contemporary Media",
+      "description": "This course introduces students to varied applications of contemporary media in business, entertainment, and the public sector. Students study the processes of media production, the systems for media distribution, and the roles of media professionals. The course surveys the history of modern communications and the terminology of the media industry. Students examine the complex connections between technology, content, style, and audience response in the creation of media productions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1232791-1901-01-01",
+      "courseGroupId": "1232791",
+      "code": "MES 153",
+      "subjectCode": "MES",
+      "courseNumber": "153",
+      "longName": "Script Writing",
+      "name": "Script Writing",
+      "description": "This course focuses on writing treatments and scripts for the screen and video. Students learn the basics of visualizing narratives in 3-act structure; how to identify fiction and non-fiction genres; how to create character and story; how to research and write treatments and outlines; how to write single-column screenplays for narratives and two-column scripts for documentary scripts; and how to give and receive critiques on script work. Throughout, students will develop the basic skills necessary to write and revise scripts for upper-level VAT production classes and beyond.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_CreativeExpression",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1464191-1901-01-01",
+      "courseGroupId": "1464191",
+      "code": "MES 153H",
+      "subjectCode": "MES",
+      "courseNumber": "153H",
+      "longName": "Script Writing (Honors)",
+      "name": "Script Writing (Honors)",
+      "description": "This course focuses on writing treatments and scripts for the screen and video. Students learn the basics of visualizing narratives in 3-act structure; how to identify fiction and non-fiction genres; how to create character and story; how to research and write treatments and outlines; how to write single-column screenplays for narratives and two-column scripts for documentary scripts; and how to give and receive critiques on script work. Throughout, students will develop the basic skills necessary to write and revise scripts for upper-level VAT production classes and beyond.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_CreativeExpression",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1520621-2021-06-01",
+      "courseGroupId": "1520621",
+      "code": "MES 160",
+      "subjectCode": "MES",
+      "courseNumber": "160",
+      "longName": "World History of Animation",
+      "name": "World History of Animation",
+      "description": "World History of Animation introduces students to seminal works of animation across time and cultures. The course discusses the evolution of the art form through the lens of technical innovations, socio-political contexts, and aesthetic movements. Students will study works ranging from large productions to independent and experimental shorts, and the influence of different international productions on one another, including Asian and European works and creators.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1582411-1901-01-01",
+      "courseGroupId": "1582411",
+      "code": "MES 163",
+      "subjectCode": "MES",
+      "courseNumber": "163",
+      "longName": "Animation Screenwriting",
+      "name": "Animation Screenwriting",
+      "description": "Animation Screenwriting for films/series combines three-act structure narrative with creative visual writing. Notable animated films and series episodes with their screenplays and teleplays will be used as case study research. Using this inspiration, students will imaginatively invent their own animated  universe and tell a story within it. The course covers a progressive and scaffolded aesthetic, technical and cultural impact approach to writing an animation screenplay with accompanying storyboards and pre-visualization. Students will brainstorm, outline, world-build, design characters, create unique dialogue, plot narrative design and revise multiple screenplay drafts in order to storyboard and record previs. An industry standard 11-page screenplay/teleplay will serve as the Mid-Term Project, and an accompanying storyboard with character design, background design, dialogue/narration and music/sound effects previs will be the Final Exam Project. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [
+        "EXPR - EXPR (Experimental)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "EXPR - EXPR (Experimental)"
+      ]
+    },
+    {
+      "id": "1540241-2022-07-01",
+      "courseGroupId": "1540241",
+      "code": "MES 251",
+      "subjectCode": "MES",
+      "courseNumber": "251",
+      "longName": "Television Writing",
+      "name": "Television Writing",
+      "description": "This course will focus on writing television outlines and scripts for network, premium cable outlets, and streaming services. Students will learn the basics of developing concepts, creating character, and breaking story. They will discover how to properly format television scripts and how to research and write television bible documents including outlines, description of the world documents, and episode springboards. This course will allow students to participate in a Writers’ Room environment as they receive instruction on how to give and receive critiques on script work. Ultimately, each student will cultivate the basic skills necessary to write and develop television scripts for upper-level production classes and beyond.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1093421-2010-06-30",
+      "courseGroupId": "1093421",
+      "code": "MMA 100",
+      "subjectCode": "MMA",
+      "courseNumber": "100",
+      "longName": "Foundations of Digital Graphic Design",
+      "name": "Founds Digital Graph Dsgn",
+      "description": "This image-based course will introduce graphic design as the foundation upon which effective visual communication is built. Investigation of the elements and principles of graphic design will lead to specific design problems and their solution. The development of ideas and the ability to communicate them effectively will be covered. Discussion of both vector and bitmap-based digital graphic platforms will begin progress toward industry-standard computer proficiency.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2010-06-30",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1093441-2021-02-01",
+      "courseGroupId": "1093441",
+      "code": "MMA 215",
+      "subjectCode": "MMA",
+      "courseNumber": "215",
+      "longName": "Typography and Layout",
+      "name": "Typography and Layout",
+      "description": "This course will explore type design and its application in visual communication. Students will study the formal qualities of type faces and their historical origin. Students will learn to manipulate type properties to design meaningful and effective graphic communication. The use of industry-standard desktop publishing software will be covered as well and will be applied to a range of typographic solutions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1565121-2021-02-01",
+      "courseGroupId": "1565121",
+      "code": "MMA 215H",
+      "subjectCode": "MMA",
+      "courseNumber": "215H",
+      "longName": "Typography and Layout (Honors)",
+      "name": "Typography and Layout (Honors)",
+      "description": "This course will explore type design and its application in visual communication. Students will study the formal qualities of type faces and their historical origin. Students will learn to manipulate type properties to design meaningful and effective graphic communication. The use of industry-standard desktop publishing software will be covered as well and will be applied to a range of typographic solutions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1093451-2021-02-01",
+      "courseGroupId": "1093451",
+      "code": "MMA 225",
+      "subjectCode": "MMA",
+      "courseNumber": "225",
+      "longName": "Digital Imaging for Graphic Design",
+      "name": "Digi Imag Grap Design",
+      "description": "This course continues the study of digital imaging as it relates to graphic design. A core philosophy of this class is the introduction of photographic images as a basis for approaching 2D design concepts. During the semester, this class covers digital input, editing, archiving, and begins to study digital output. Artistic, theoretical, and technical aspects of digital imaging will be considered. Conceptual and technical digital shooting assignments will be assigned to expand students' skills and support topics covered in class. Reading and writing will focus on the use of technology in propelling digital imaging and design.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1565131-2021-02-01",
+      "courseGroupId": "1565131",
+      "code": "MMA 225H",
+      "subjectCode": "MMA",
+      "courseNumber": "225H",
+      "longName": "Digital Imaging for Graphic Design (Honors)",
+      "name": "Digi Imag Grap Design (Honors)",
+      "description": "This course continues the study of digital imaging as it relates to graphic design. A core philosophy of this class is the introduction of photographic images as a basis for approaching 2D design concepts. During the semester, this class covers digital input, editing, archiving, and begins to study digital output. Artistic, theoretical, and technical aspects of digital imaging will be considered. Conceptual and technical digital shooting assignments will be assigned to expand students' skills and support topics covered in class. Reading and writing will focus on the use of technology in propelling digital imaging and design.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1093461-2021-02-01",
+      "courseGroupId": "1093461",
+      "code": "MMA 235",
+      "subjectCode": "MMA",
+      "courseNumber": "235",
+      "longName": "Visual Communication and Design",
+      "name": "Visual Comm Design",
+      "description": "This class builds upon principles and skills learned in Foundations of Digital Design. Students will apply the principles underlying effective visual communication to increasingly complex design problems. Projects may include poster design, symbols and logos, editorial design, information design, visual identity and branding and other design systems. Critical analysis of design problems and the creative design process will be emphasized. Students will complete reading and writing assignments in addition to problems in visual communications and design.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889691-2013-05-01",
+      "courseGroupId": "0889691",
+      "code": "MMP 100",
+      "subjectCode": "MMP",
+      "courseNumber": "100",
+      "longName": "Introduction to Multimedia",
+      "name": "Introduction to Multimedia",
+      "description": "This course introduces students to the fundamentals of multimedia production. In a hands-on class, students will learn the essentials of program design and authoring software in an integrated computer environment. Students will learn how to combine graphics, audio and text to create programs for industrial and educational applications.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889701-2019-10-01",
+      "courseGroupId": "0889701",
+      "code": "MMP 200",
+      "subjectCode": "MMP",
+      "courseNumber": "200",
+      "longName": "Multimedia Design",
+      "name": "Multimedia Design",
+      "description": "Building on the principles learned in introduction to multimedia, students will learn to manipulate graphics and text in more sophisticated ways for use in print layout as well as multimedia. An emphasis will be placed on design concepts for the creation of pages.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557511-2024-01-25",
+      "courseGroupId": "1557511",
+      "code": "MMP 202",
+      "subjectCode": "MMP",
+      "courseNumber": "202",
+      "longName": "Introduction to User Experience Design",
+      "name": "Intro User Experience Design",
+      "description": "In this course students will study the processes and tools used to create meaningful and enjoyable human interactions with digital products. Working individually and in groups, students will explore solutions to user experience problems, focusing on understanding users? needs and mindsets. Employing a variety of methods of user research, design and usability testing, students will practice the UX design cycle and will present their insights in class presentations and portfolio posts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1176641-1901-01-01",
+      "courseGroupId": "1176641",
+      "code": "MMP 210",
+      "subjectCode": "MMP",
+      "courseNumber": "210",
+      "longName": "Multimedia Programming I",
+      "name": "Multimedia Programming I",
+      "description": "This course introduces the basic concepts of programming for multimedia. Students will learn the principles of object-oriented programming and how to create scripts for the manipulation of graphics, audio and text to construct a web-based multimedia presentation.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889711-1901-01-01",
+      "courseGroupId": "0889711",
+      "code": "MMP 220",
+      "subjectCode": "MMP",
+      "courseNumber": "220",
+      "longName": "Programming for Multimedia",
+      "name": "Programming for Multimedia",
+      "description": "This course introduces the basic concepts of programming for multimedia. Students will learn the principles of object oriented programming and how to create scripts for the manipulation of video, graphics, and text to construct a complete multimedia presentation.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889721-1901-01-01",
+      "courseGroupId": "0889721",
+      "code": "MMP 230",
+      "subjectCode": "MMP",
+      "courseNumber": "230",
+      "longName": "Interaction Design with Multimedia Programming",
+      "name": "Interact Des with Multi Pgmng",
+      "description": "Students will learn to design interfaces and manipulate graphics, text, video and other multimedia elements through a scripting language such as flash actionscript. An emphasis will be placed on planning projects and using programming concepts for the development of games, e-commerce and dynamic multimedia applications.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889731-1901-01-01",
+      "courseGroupId": "0889731",
+      "code": "MMP 240",
+      "subjectCode": "MMP",
+      "courseNumber": "240",
+      "longName": "Web Design",
+      "name": "Web Design",
+      "description": "This course will introduce student to the process and techniques of web design. Effective website desing and site architecture will be explored through class assignments and critique of existing websites. Hands-on-experience designing web pages while using web authoring software and coding HTML manually will be emphasized. Graphic, audio, and animation applications, which allow for image and sound development, will be introduced.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1190471-2012-08-26",
+      "courseGroupId": "1190471",
+      "code": "MMP 250",
+      "subjectCode": "MMP",
+      "courseNumber": "250",
+      "longName": "Digital Film Fundamentals",
+      "name": "Digital Film Fundamentals",
+      "description": "This course is a comprehensive, workshop-style survey that explores the fundamental concepts and skills required to produce nonfiction digital video pieces. Taught from the ground up, this class will explore planning and pre-production, pitching the concept, basic camera usage, sound recording, interview techniques and non-linear editing strategies. There will be an emphasis on group dynamics, accurate documentation, and rotating crew positions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2012-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1513731-2020-06-01",
+      "courseGroupId": "1513731",
+      "code": "MMP 270",
+      "subjectCode": "MMP",
+      "courseNumber": "270",
+      "longName": "Introduction to Video Game Design",
+      "name": "Intro to Video Game Design",
+      "description": "This course introduces game design principles and video game production practices. Game history, theory and design principles will be covered through lecture, discussion and readings. Readings in the form of texts, videos and games will be assigned for written analysis and discussion. The course will review game production historically and current practices for game development including software, environments and production process. Students will learn topics such as character design, setting and level design, interaction programming, sound design, user testing design and analysis, presenting ideas, giving and interpreting critique and feedback. Production assignments include asset creation of graphics, animation and sound, programming game interactions, creating user testing forms and concept presentations. Students will work individually and/or in groups to develop and complete a video game throughout the semester. Game production environments such as Web/JavaScript, Unity, Unreal Engine, Game Maker, Godot Engine or others could be used. Asset creation will be done with software such as Photoshop, Illustrator, Animate, Piskel, cfxr, Audacity, Audio Tool and others.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Compensatory Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557501-2024-01-25",
+      "courseGroupId": "1557501",
+      "code": "MMP 271",
+      "subjectCode": "MMP",
+      "courseNumber": "271",
+      "longName": "3D Game Development",
+      "name": "3D Game Development",
+      "description": "This course introduces students to design and production practices used in the development of games and other interactive experiences using 3D graphics. The course will cover the fundamentals of 3D asset management, scene design, scripting, interactivity, sound design and other topics related to 3D design. The class will introduce students to production using a game engine such as Godot Engine, Unity or Unreal Engine. Students will learn the process of publishing games or 3D scenes as video games and other platforms which may include augmented reality, virtual reality or other 3D platforms. These topics will build on practices introduced in MMP 100 and other multimedia courses. The class assignments and evaluations are project based and students will produce at least three 3D scenes for one or more platforms and create documentation of the production process and finished scenes for use in a portfolio.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Laboratory",
+          "contactHours": 2
+        },
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889751-1901-01-01",
+      "courseGroupId": "0889751",
+      "code": "MMP 280",
+      "subjectCode": "MMP",
+      "courseNumber": "280",
+      "longName": "Type in Motion",
+      "name": "Type in Motion",
+      "description": "This course will cover the fundamentals of animated type. It will adapt and expand traditional typographic principles for dynamic and interactive media. Students will explore typographic elements in space and time with the objective of creating meaningful and expressive animation. Computer animation techniques will be introduced and demonstrated in class. Potential applications include websites, online advertisements, movie titles and broadcast design.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1190401-1901-01-01",
+      "courseGroupId": "1190401",
+      "code": "MMP 301",
+      "subjectCode": "MMP",
+      "courseNumber": "301",
+      "longName": "Introduction to Video Graphics",
+      "name": "Introduction to Video Graphics",
+      "description": "This course offers an introduction to designing two-dimensional computer generated video graphics. Students create graphics to television productions, such as opening titles for programs to be used in live studio situations and for integration in post-production editing. Students are introduced to motion graphics in 2D and 2+D digital graphic applications.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1176651-1901-01-01",
+      "courseGroupId": "1176651",
+      "code": "MMP 310",
+      "subjectCode": "MMP",
+      "courseNumber": "310",
+      "longName": "Multimedia Programming II",
+      "name": "Multimedia Programming II",
+      "description": "This course builds on the programming, media manipulation and presentation skills developed in MMP 210 - Multimedia Programming I. Students will learn the multimedia application design process, from planning through production. Using media creation and programming software tools, students will build user-friendly web and multimedia applications.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889761-1901-01-01",
+      "courseGroupId": "0889761",
+      "code": "MMP 320",
+      "subjectCode": "MMP",
+      "courseNumber": "320",
+      "longName": "Multimedia Networks",
+      "name": "Multimedia Networks",
+      "description": "This course will introduce the fundamentals of computer communications and its effects on multimedia applications, the OSI reference model, communication protocols, transmission media will be discussed and their impact on the performance of multimedia applications will be examined. Different network design strategies and their tradeoffs will be addressed to enhance students' understanding of computer networks for multimedia.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889771-1901-01-01",
+      "courseGroupId": "0889771",
+      "code": "MMP 340",
+      "subjectCode": "MMP",
+      "courseNumber": "340",
+      "longName": "Content Development For The Web",
+      "name": "Cont.Develfortheweb",
+      "description": "This course teaches principles and practices of writing and editing for the web.  It covers issues such as writing for an online audience, structuring content across web pages and integrating text with other media elements.  Emphasis is given to writing strategies that exploit the interactive capabilities of the web.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1176661-2019-06-01",
+      "courseGroupId": "1176661",
+      "code": "MMP 350",
+      "subjectCode": "MMP",
+      "courseNumber": "350",
+      "longName": "Advanced Web Design",
+      "name": "Advanced Web Design",
+      "description": "This course gives the students the tools to build standards compliant, accessible, dynamic websites. Students will incorporate client-side and server-side scripting with advanced CSS to create intuitive and interactive web interfaces. The learning will take place in the context of a content management system. Contemporary web development processes and platforms will be explored. A foundational knowledge of programming concepts, HTML, CSS and design for the web is required for this course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889781-1901-01-01",
+      "courseGroupId": "0889781",
+      "code": "MMP 401",
+      "subjectCode": "MMP",
+      "courseNumber": "401",
+      "longName": "Introduction to 3D Animations",
+      "name": "Introduction to 3D Animations",
+      "description": "Students will learn to construct 3D motion graphics for video, film, game, mutlimedia, and internet applications. Students will use advanced CGI program to make original animations in a three-coordinate space. Students will learn to model three-dimensional space. Students will learn to model three-dimensional objects and to choreograph scenes, controlling character movement, lighting, sound and camera directions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889791-1901-01-01",
+      "courseGroupId": "0889791",
+      "code": "MMP 420",
+      "subjectCode": "MMP",
+      "courseNumber": "420",
+      "longName": "Distributed Multimedia Applications",
+      "name": "Dist. Multmedia App",
+      "description": "This course will introduce the concept of designing and constructing a distributed multimedia presentation. It will cover issues of synchronization between applications, partitioning of relevant applications and interaction management for multimedia applications distributed over a network. The students will be expected to design and implement a simple distributed multimedia application.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0889801-2019-06-01",
+      "courseGroupId": "0889801",
+      "code": "MMP 460",
+      "subjectCode": "MMP",
+      "courseNumber": "460",
+      "longName": "Multimedia Project Lab",
+      "name": "Multimedia Project Lab",
+      "description": "Students will work collaboratively to plan, design and create a complete project to be stored on a CD ROM. Projects may be drawn from such applications as: information kiosks; computer-assisted instruction; and creation of world wide web sites.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "0898441-2019-10-01",
+      "courseGroupId": "0898441",
+      "code": "VAT 100",
+      "subjectCode": "VAT",
+      "courseNumber": "100",
+      "longName": "Introduction to Video Technology",
+      "name": "Intro to Video Tech",
+      "description": "This course explains how video technology works and how that technology is put into practice to create video content. It covers the fundamentals of contemporary media technology including understanding video image formation, data compression,as well as picture and sound generation and manipulation. Lab exercises introduce students to the operations of cameras, videorecording systems, lighting instruments, microphones and the uses of SMPTE Time Code. Students also learn basic practical and aesthetic concepts of filmmaking by pre-producing and filming inclass exercises.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898451-1901-01-01",
+      "courseGroupId": "0898451",
+      "code": "VAT 150",
+      "subjectCode": "VAT",
+      "courseNumber": "150",
+      "longName": "Introduction to Corporate Media Applications",
+      "name": "Corporate Media Applications",
+      "description": "This course introduces students to the many industrial applications of the state-of-the-art media. New technologies and current industrial communication problems are covered. Students study the history of modern communications and each student is given a glossary of technical terms. The course covers corporate needs for artists, designers, photographers, camera operators, video-technicians, multi-image programmers, lighting technicians, and film and video editors.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898461-1901-01-01",
+      "courseGroupId": "0898461",
+      "code": "VAT 151",
+      "subjectCode": "VAT",
+      "courseNumber": "151",
+      "longName": "Script to Screen",
+      "name": "Script to Screen",
+      "description": "This coursse will cover all aspects of the pre-production phase of media production. Students will learn how to write treatments and scripts for documentary and news formats, corporate and industrial videos, public service announcements, commercials, screenplays and teleplays. The course will also cover such aspects of pre-production as script breakdown, budgeting, scheduling, crew hiring, equipment rental and securing locations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898471-2011-08-25",
+      "courseGroupId": "0898471",
+      "code": "VAT 152",
+      "subjectCode": "VAT",
+      "courseNumber": "152",
+      "longName": "Introduction to Contemporary Media",
+      "name": "Intro Contemp Media",
+      "description": "This course introduces students to varied applications of contemporary media in business, entertainment, and the public sector. Students study the processes of media production, the systems for media distribution, and the roles of media professionals. The course surveys the history of modern communications and the terminology of the media industry. Students examine the complex connections between technology, content, style, and audience response in the creation of media productions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1093121-2010-06-30",
+      "courseGroupId": "1093121",
+      "code": "VAT 153",
+      "subjectCode": "VAT",
+      "courseNumber": "153",
+      "longName": "Script Writing",
+      "name": "Script Writing",
+      "description": "This course focuses on writing treatments and scripts for the screen and video. Students learn the basics of visualizing narratives in 3-act structure; how to identify fiction and non-fiction genres; how to create character and story; how to research and write treatments and outlines; how to write single-column screenplays for narratives and two-column scripts for documentary scripts; and how to give and receive critiques on script work. Throughout, students will develop the basic skills necessary to write and revise scripts for upper-level VAT production classes and beyond.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2010-06-30",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898481-1901-01-01",
+      "courseGroupId": "0898481",
+      "code": "VAT 160",
+      "subjectCode": "VAT",
+      "courseNumber": "160",
+      "longName": "TV Studio Production for Business I",
+      "name": "Studio Prod Bus I",
+      "description": "This is a \"hands-on\" course designed to teach students every aspect of studio television production. Students learn how to produce industrial videotapes for: training programs, corporate \"news\" shows, public service television spots, point-of-purchase productions, executive communications messages, new product introductions, management seminars, and sales incentive programs. Instruction is given in basic production skills such as the operation of: cameras, studio lighting, audio switcher/fader, slide and motion picture film chain, and special effects generator. Students perform the basic functions of a T.V. studio director, floor manager and technical director.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898491-2017-10-01",
+      "courseGroupId": "0898491",
+      "code": "VAT 161",
+      "subjectCode": "VAT",
+      "courseNumber": "161",
+      "longName": "TV Studio Production I",
+      "name": "TV Studio Production I",
+      "description": "This course is an introduction to all aspects of basic studio television production. Students produce multi-camera TV programs in a fully equipped TV studio. Students learn to perform the functions of a director, floor manager, camera operator, audio engineer, lighting director, and technical director.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898501-2017-10-01",
+      "courseGroupId": "0898501",
+      "code": "VAT 165",
+      "subjectCode": "VAT",
+      "courseNumber": "165",
+      "longName": "Sound for Performance/Digital Media I",
+      "name": "Sound Perf/D Med I",
+      "description": "This course is an introduction to the use of audio technology in theatre, television, motion pictures and multimedia. Students will be introduced to the fundamental principles of acoustics and sound recording. Tools, such as various mixing boards, microphones and recorders, will be introduced in the context of theatrical and television production. Sound design for live venues and multimedia presentations will be introduced as well. Assignments will include practical exercises. Lab assignments are required.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898511-1901-01-01",
+      "courseGroupId": "0898511",
+      "code": "VAT 170",
+      "subjectCode": "VAT",
+      "courseNumber": "170",
+      "longName": "Remote Production/Video Editing I",
+      "name": "Remte Prod/Vid Ed 1",
+      "description": "Students learn how to produce, shoot, and edit industrial videotapes on campus, using 1/2'' and 3/4'' equipment. Productions include pre-planned, scripted projects as well as use of interview techniques and electronic news gathering.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898521-2022-07-01",
+      "courseGroupId": "0898521",
+      "code": "VAT 171",
+      "subjectCode": "VAT",
+      "courseNumber": "171",
+      "longName": "Remote Production/Video Editing I",
+      "name": "Remt Prod/Vid Edi I",
+      "description": "Students in this course write, produce, film, direct, and edit original projects as they learn directing and editing concepts and skills for both fiction and non-fiction digital filmmaking. Emphasis is given to post-production techniques, from basic video and audio editing to final exporting. The class is taught in a state-of-the-art digital lab using industry-standard software. This course builds upon the knowledge that students acquired in VAT 100-Introduction to Video Technology and MES 153- Script Writing, including the fundamentals of writing, directing, camera operation, lighting and sound recording.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898531-1901-01-01",
+      "courseGroupId": "0898531",
+      "code": "VAT 260",
+      "subjectCode": "VAT",
+      "courseNumber": "260",
+      "longName": "TV Studio Production for Business II",
+      "name": "Stud Tv Prod II",
+      "description": "This \"hands-on\" course is designed to further teach students all aspects of studio television production. Students learn how to produce industrial videotapes for training programs, corporate \"news\" shows, public service television spots, point-of-purchase productions, executive communications messages, new product introductions, management seminars, and sales incentive programs. In addition, each student learns to create, develop, and produce programming for cable television.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898541-1901-01-01",
+      "courseGroupId": "0898541",
+      "code": "VAT 261",
+      "subjectCode": "VAT",
+      "courseNumber": "261",
+      "longName": "TV Studio Production II",
+      "name": "TV Studio Production II",
+      "description": "This course builds upon VAT 161 and focuses on the skills needed to successfully plan and complete a multi-camera professional studio production. Students master the techniques and workflow required to produce programming according to industry standards and practices.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898551-2018-07-01",
+      "courseGroupId": "0898551",
+      "code": "VAT 265",
+      "subjectCode": "VAT",
+      "courseNumber": "265",
+      "longName": "Sound for Performance/Digital Media II",
+      "name": "Sound Perf/D Med II",
+      "description": "This course concentrates on the post-production aspects of audio production.  Sound effects editing, Automatic Dialogue Replacement (ADR), Foley editing and music replacement will be covered in the context of television and motion picture post-production.  Mastering of recordings for distribution will also be covered.  Students will be expected to work on projects using media server technology, allowing for simultaneous picture and sound editing.  Collaborative projects will also be included.  Lab assignments are required.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898571-1901-01-01",
+      "courseGroupId": "0898571",
+      "code": "VAT 271",
+      "subjectCode": "VAT",
+      "courseNumber": "271",
+      "longName": "Remote Production/Video Editing II",
+      "name": "Remote Prod/Video Editing II",
+      "description": "This course builds upon VAT 171. It reinforces the skills needed to successfully plan, shoot, edit, and refine remote video productions. The course includes advanced techniques in digital cinematography, digital editing and audio and visual effects.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898601-1901-01-01",
+      "courseGroupId": "0898601",
+      "code": "VAT 302",
+      "subjectCode": "VAT",
+      "courseNumber": "302",
+      "longName": "Lighting for Television",
+      "name": "Lighting for Television",
+      "description": "This course will cover the fundamentals of lighting for television. Students will learn the principals of lighting techniques and study the various types of instruments and peripherals used. Besides lectures, there will be hands-on demonstrations both in the studio and on location.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0898611-2022-11-01",
+      "courseGroupId": "0898611",
+      "code": "VAT 303",
+      "subjectCode": "VAT",
+      "courseNumber": "303",
+      "longName": "Cinematography",
+      "name": "Cinematography",
+      "description": "This course teaches students about the art and techniques of digital cinematography. Topics are: the use of studio and remote digital video cameras; lighting for digital cinematography; camera movement,  camera angles, continuity, and composition; interpreting a director's vision; and digital workflow. Throughout the course, the history and art of cinematography is explored through screenings, text and other analyses.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Compensatory Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1540031-2022-07-01",
+      "courseGroupId": "1540031",
+      "code": "VAT 310",
+      "subjectCode": "VAT",
+      "courseNumber": "310",
+      "longName": "Experimental Film",
+      "name": "Experimental Film",
+      "description": "This course will explore the use of moving pictures (film, video, and digital) as a form of expression and as an innovative means to strengthen media literacy utilizing both narrative and non-narrative strategies. Noteworthy works from the annals of avant-garde film and video will be screened and reviewed as a basis for the concepts and techniques that will be employed. The course includes advanced techniques in digital cinematography, digital editing and audio and visual effects. The hands-on video projects for this course include the Experimental Expeditioncollaboration, the Abstract Expressionist, Structural, and the Word and Image Interaction videos.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Compensatory Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1540201-2022-07-01",
+      "courseGroupId": "1540201",
+      "code": "VAT 311",
+      "subjectCode": "VAT",
+      "courseNumber": "311",
+      "longName": "Directing Actors for Camera",
+      "name": "Directing Actors for Camera",
+      "description": "Directing Actors for Camera focuses on directors working with actors and actors working with directors on preparing and presenting scenes in both three-camera and single camera environments. Working in actors enrolled in a simultaneously scheduled section of THE 280 Acting for the Camera, directors will audition/cast, prepare/rehearse, and direct/perform three scenes that present increasing levels of complexity that will then be edited and presented on video. Classes will be conducted in fully equipped production spaces utilizing professional cameras and editing suites. Students’ work is screened, discussed and critiqued to deepen their understanding of the art and craft of directing/being directed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Compensatory Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1540211-2022-07-01",
+      "courseGroupId": "1540211",
+      "code": "VAT 312",
+      "subjectCode": "VAT",
+      "courseNumber": "312",
+      "longName": "Multi-Camera Remote Production",
+      "name": "Multi-Camera Remote Production",
+      "description": "VAT 312 is a Multi-Camera Television Field Production class designed to further develop students' growth as television producers, directors and crew members. Building on skills developed in VAT 161, the course combines theoretical, practical, and intuitive approaches to aesthetic, organizational, and ethical problems specific to the production of televised event coverage as found throughout the broadcast industry. Students will be exposed to a range of creative and technical challenges associated with live remote production. Communication protocols, multi-camera switching, graphic design and production, audio aesthetics and engineering systems integration are the primary areas of concentration.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Compensatory Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1540231-2022-07-01",
+      "courseGroupId": "1540231",
+      "code": "VAT 313",
+      "subjectCode": "VAT",
+      "courseNumber": "313",
+      "longName": "Documentary Production",
+      "name": "Documentary Production",
+      "description": "This course introduces students to the art and craft of documentary filmmaking. A focus on analyzing non-fiction filmmaking history, storytelling techniques, genres, approaches, and current practices will take place throughout the semester. Students will learn about documentary proposal research and writing, budgeting, pre-production, production, and editing as they develop and write a proposal and produce, shoot, edit, and revise a short documentary video project for use in their portfolios.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MAT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Compensatory Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

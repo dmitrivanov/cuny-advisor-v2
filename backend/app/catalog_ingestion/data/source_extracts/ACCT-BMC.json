@@ -1,0 +1,830 @@
+{
+  "department_id": "ACCT-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "fa60341dc8f77c4c29e0a93396394287af1d265a0bed1a3e4c7c0c6b705aa716",
+  "records": [
+    {
+      "id": "0875411-2025-08-25",
+      "courseGroupId": "0875411",
+      "code": "ACC 122",
+      "subjectCode": "ACC",
+      "courseNumber": "122",
+      "longName": "Accounting Principles I",
+      "name": "Accounting Principles I",
+      "description": "The course covers the fundamental principles of accounting and the practical use of accounting tools and techniques. Topics covered include the definition and scope of accounting, accounting records and processes, books of original and subsequent entry, work sheets, adjusting and closing entries, accounting for cash, accounting for negotiable instruments, and accounting for plant assets. An investigation is made of accounting for service businesses and trading concerns.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [
+        "UTAC - UT_ACCT_1 (Principle of Accounting I)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "UTAC - UT_ACCT_1 (Principle of Accounting I)"
+      ]
+    },
+    {
+      "id": "1323331-2024-08-28",
+      "courseGroupId": "1323331",
+      "code": "ACC 150",
+      "subjectCode": "ACC",
+      "courseNumber": "150",
+      "longName": "Personal Accounting and Financial Literacy",
+      "name": "Personal Acc & Fin Literacy",
+      "description": "This introductory course provides a hands-on approach to understanding and analyzing the major components of personal accounting and financial literacy. Topics include establishing financial goals, personal taxation, managing personal debt and credit, budgeting household expenses, saving and investment strategies, insurance, and retirement planning. The course has a 1-hour lab component in which students will learn to use basic Excel applications and simulations as it relates to personal accounting and financial planning. ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875441-2025-08-25",
+      "courseGroupId": "0875441",
+      "code": "ACC 222",
+      "subjectCode": "ACC",
+      "courseNumber": "222",
+      "longName": "Accounting Principles II",
+      "name": "Accounting Principles II",
+      "description": "This continuation of Accounting I progresses from elementary to more advanced accounting concepts and conventions, including the use of accounting data in managerial decision making. Among topics covered are voucher system, partnership accounting, payroll preparation and taxes, and accounting for corporations. Study is made of accounting involved in the interpretation of financial statements, budgetary control, statement of cash flows, and management reports and analyses.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [
+        "UTAC - UT_ACCT_2 (Principle of Accounting II)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "UTAC - UT_ACCT_2 (Principle of Accounting II)"
+      ]
+    },
+    {
+      "id": "0875461-2021-04-01",
+      "courseGroupId": "0875461",
+      "code": "ACC 231",
+      "subjectCode": "ACC",
+      "courseNumber": "231",
+      "longName": "Accounting Applications on Microcomputers",
+      "name": "Acc Applications On Microcomp",
+      "description": "This course provides accounting students with the opportunity to solve accounting problems through the use of microcomputers. Areas in which students will prepare computerized accounting records and reports include journals, ledgers, trial balance, accounts receivable, accounts payable and payroll. The course will introduce students to basic accounting documentation, and processing flowcharts of different accounting functions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875481-2021-04-01",
+      "courseGroupId": "0875481",
+      "code": "ACC 241",
+      "subjectCode": "ACC",
+      "courseNumber": "241",
+      "longName": "Taxation: Federal",
+      "name": "Taxation: Federal",
+      "description": "Students are provided with fundamental knowledge of the Federal taxation laws and preparation of related tax returns. Federal income taxes for individuals, partnerships, and corporations are studied, and actual returns are prepared. Various items of payroll withholding and reporting procedures are discussed, and basic tax planning is explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1364801-2021-04-01",
+      "courseGroupId": "1364801",
+      "code": "ACC 241H",
+      "subjectCode": "ACC",
+      "courseNumber": "241H",
+      "longName": "Taxation: Federal (Honors)",
+      "name": "Taxation: Federal (Honors)",
+      "description": "Students are provided with fundamental knowledge of the Federal taxation laws and preparation of related tax returns. Federal income taxes for individuals, partnerships, and corporations are studied, and actual returns are prepared. Various items of payroll withholding and reporting procedures are discussed, and basic tax planning is explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1310821-2015-05-01",
+      "courseGroupId": "1310821",
+      "code": "ACC 242",
+      "subjectCode": "ACC",
+      "courseNumber": "242",
+      "longName": "Taxation of Business Entities",
+      "name": "Taxation of Business Entities",
+      "description": "This course outlines the basic tax structure of the corporation and the partnership entity. Coverage includes the organization of the corporate and partnership entity, the capital structure, the determination and distribution of income, redemptions, liquidations, and reorganizations. Coverage also includes the taxation of the small business corporations. This course is designed to provide theoretical and practical experience with tie-ins to applicable tax forms. The case study method will be used where applicable. A class project or research paper will be required.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875471-2025-08-25",
+      "courseGroupId": "0875471",
+      "code": "ACC 330",
+      "subjectCode": "ACC",
+      "courseNumber": "330",
+      "longName": "Intermediate Accounting I",
+      "name": "Intermediate Accounting I",
+      "description": "The course begins with a review of the accounting process. Topics covered include balance sheet presentation, the time value of money, accounting for cash, receivables, inventory cost and valuation procedures, plant and equipment accounting, including acquisition use, retirement and special valuation problems, accounting for intangible assets, current liabilities and contingencies. Attention is given to the theory pronouncements issued by the Financial Accounting Standards Board and other standard-setting bodies.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [
+        "UTAC - UT_ACCT_3 (Intermediate Accounting I)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "UTAC - UT_ACCT_3 (Intermediate Accounting I)"
+      ]
+    },
+    {
+      "id": "1529751-2021-04-01",
+      "courseGroupId": "1529751",
+      "code": "ACC 330H",
+      "subjectCode": "ACC",
+      "courseNumber": "330H",
+      "longName": "Intermediate Accounting I (Honors)",
+      "name": "Intermediate Accounting I (Hon",
+      "description": "The course begins with a review of the accounting process. Topics covered include balance sheet presentation, the time value of money, accounting for cash, receivables, inventory cost and valuation procedures, plant and equipment accounting, including acquisition use, retirement and special valuation problems, accounting for intangible assets, current liabilities and contingencies. Attention is given to the theory pronouncements issued by the Financial Accounting Standards Board and other standard-setting bodies.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875511-2021-04-01",
+      "courseGroupId": "0875511",
+      "code": "ACC 331",
+      "subjectCode": "ACC",
+      "courseNumber": "331",
+      "longName": "Accounting Information Systems",
+      "name": "Accounting Information Systems",
+      "description": "The course provides accounting students with the opportunity to become familiar with accounting information systems, systems and documentation flowcharts, information concepts and applications to the different areas in the transaction processing system. The course also covers accounting control procedures that are commonly used to detect, correct and prevent deficiencies in internal control, administrative control and in the transaction processing system for both the manual and computerized accounting processing systems. The course will include basic analysis and design of accounting information systems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1482841-2021-04-01",
+      "courseGroupId": "1482841",
+      "code": "ACC 331H",
+      "subjectCode": "ACC",
+      "courseNumber": "331H",
+      "longName": "Accounting Information Systems (Honors)",
+      "name": "Accounting Info Sys (Honors)",
+      "description": "The course provides accounting students with the opportunity to become familiar with accounting information systems, systems and documentation flowcharts, information concepts and applications to the different areas in the transaction processing system. The course also covers accounting control procedures that are commonly used to detect, correct and prevent deficiencies in internal control, administrative control and in the transaction processing system for both the manual and computerized accounting processing systems. The course will include basic analysis and design of accounting information systems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875491-2025-08-25",
+      "courseGroupId": "0875491",
+      "code": "ACC 350",
+      "subjectCode": "ACC",
+      "courseNumber": "350",
+      "longName": "Cost Accounting I",
+      "name": "Cost Accounting I",
+      "description": "Emphasis is placed on the conceptual, analytical and practical aspects of cost accounting as a tool for planning and controlling the operations of a business. Topics studied include the cost accounting cycle, the job order cost system, process costing, allocation of costs, joint and by-product costs, payroll accounting and budgeting.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [
+        "UTAC - UT_ACCT_4 (Cost Accounting I)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "UTAC - UT_ACCT_4 (Cost Accounting I)"
+      ]
+    },
+    {
+      "id": "0875501-2024-08-28",
+      "courseGroupId": "0875501",
+      "code": "ACC 360",
+      "subjectCode": "ACC",
+      "courseNumber": "360",
+      "longName": "Government and Not-For-Profit Accounting",
+      "name": "Government Not-For-Profit Acct",
+      "description": "This course introduces the theory and concepts underlying financial accounting, control and reporting in governmental and not-for-profit organizations. It covers fund accounting, budget and control issues, revenue and expense recognition, financial reporting, accounting procedures and issues of reporting for both governmental and not-for-profit entities.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1282001-2024-08-28",
+      "courseGroupId": "1282001",
+      "code": "ACC 370",
+      "subjectCode": "ACC",
+      "courseNumber": "370",
+      "longName": "Forensic Accounting & Fraud Analysis",
+      "name": "Forensic Acc & Fraud Analysis",
+      "description": "The course is an introduction to Forensic Accounting and Fraud Analysis. Topics include the nature of fraud, fraud prevention, fraud detection, financial statement fraud, revenue and inventory fraud, liability and asset fraud, inadequate disclosure fraud and fraud in E-commerce.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875521-1901-01-01",
+      "courseGroupId": "0875521",
+      "code": "ACC 430",
+      "subjectCode": "ACC",
+      "courseNumber": "430",
+      "longName": "Intermediate Accounting II",
+      "name": "Intermediate Accounting II",
+      "description": "The course is a continuation of Intermediate Accounting I. A detailed study is made of the accounting for long term debt, investments in stocks and bonds, leases, pensions, accounting for income taxes and inflation accounting. Other topical coverage includes EPS, revenue recognition, preparation of the income statement, and the statement of cash flows. The stockholders' equity section of the balance sheet is examined, with particular reference to the accounting for capital stock, additional paid-in capital, and retained earnings. Attention is given to pronouncements issued by the Financial Accounting Standards Board and other standard-setting bodies.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0875541-1901-01-01",
+      "courseGroupId": "0875541",
+      "code": "ACC 451",
+      "subjectCode": "ACC",
+      "courseNumber": "451",
+      "longName": "Cost Accounting II",
+      "name": "Cost Accounting II",
+      "description": "The uses of cost accounting concepts and methods that are used to guide management in controlling operations and in making decisions are studied. Topics covered include cost-profit-volume analysis, standard cost, flexible and capital budgeting, inventory planning and control, direct costing, and the contribution margin approach to product costing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ACCT-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

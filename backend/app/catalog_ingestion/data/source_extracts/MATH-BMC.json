@@ -1,0 +1,2712 @@
+{
+  "department_id": "MATH-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "9478f0dd986fcdcaae529d1dea6ef207c511d727f11fbc5cac3e9ce6f2a0ac65",
+  "records": [
+    {
+      "id": "1155941-2011-06-30",
+      "courseGroupId": "1155941",
+      "code": "MAT 8",
+      "subjectCode": "MAT",
+      "courseNumber": "8",
+      "longName": "Basic Mathematics",
+      "name": "Basic Mathematics",
+      "description": "This is a course in arithmetic skills and the rudiments of algebra. Topics covered include whole numbers, fractions, decimals, percents, proportions, signed numbers, and solving simple linear equations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Remedial Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-30",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888271-2017-06-01",
+      "courseGroupId": "0888271",
+      "code": "MAT 12",
+      "subjectCode": "MAT",
+      "courseNumber": "12",
+      "longName": "Basic Arithmetic and Algebra",
+      "name": "Basic Arithmetic and Algebra",
+      "description": "This course is a combination of arithmetic and elementary algebra. It includes the arithmetic of integers, fractions, decimals, and percent. In addition, such topics as signed numbers, algebraic representation, operations with polynomials, factoring, the solution of simultaneous linear equations of two variables, and graphing are covered. Students who passed MAT 12, MAT 14, MAT 41, MAT 51, MAT 56, MAT 160, MAT 161, MAT 56.5, MAT 150.5 cannot take MAT 161.5.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "REME - MATH (Math Exit Course)"
+      ],
+      "requirementDesignation": "Remedial Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1306861-2017-06-01",
+      "courseGroupId": "1306861",
+      "code": "MAT 14",
+      "subjectCode": "MAT",
+      "courseNumber": "14",
+      "longName": "Mathematics Literacy with Computational Support",
+      "name": "Mathematics Literacy with Comp",
+      "description": "This developmental course provides an alternative and accelerated pathway to the college-level liberal arts mathematics courses. The course will focus on applications of numerical reasoning to make sense of the world around us. Applications of arithmetic, proportional reasoning and algebra are emphasized. Lessons focusing directly on supporting students computational skills are embedded in the course according to relevance to the following topic. This course cannot be used as a prerequisite for MAT 056 and is not suited for Science, Technology, Engineering or Math (STEM) students. Students who passed MAT 12, MAT 14, MAT 41, MAT 51, MAT 56, MAT 160, MAT 161, MAT 56.5, MAT 150.5 cannot take MAT 161.5.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "REME - MATH (Math Exit Course)"
+      ],
+      "requirementDesignation": "Remedial Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1166511-2017-06-01",
+      "courseGroupId": "1166511",
+      "code": "MAT 41",
+      "subjectCode": "MAT",
+      "courseNumber": "41",
+      "longName": "Mathematics Literacy - Quantway I",
+      "name": "Math Literacy I",
+      "description": "This developmental course provides an alternative and accelerated pathway to the college-level liberal arts mathematics courses. The course will focus on applications of numerical reason to make sense of the world around us. Applications of arithmetic, proportional reasoning and algebra are emphasized. This course cannot be used as a prerequisite for MAT 056 and is not suited for Science, Technology, Engineering or Mathematics (STEM) students. Students who passed MAT 12, MAT 14, MAT 41, MAT 51, MAT 56, MAT 160, MAT 161, MAT 56.5, MAT 150.5 cannot take MAT 161.5.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "REME - MATH (Math Exit Course)"
+      ],
+      "requirementDesignation": "Remedial Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888281-2017-06-01",
+      "courseGroupId": "0888281",
+      "code": "MAT 51",
+      "subjectCode": "MAT",
+      "courseNumber": "51",
+      "longName": "Elementary Algebra",
+      "name": "Elementary Algebra",
+      "description": "This course is the first algebra course offered at the College. It includes such topics as algebraic representation, signed numbers, operations with polynomials, factoring, the solution of linear equations, the coordinate system, the solution of simultaneous linear equations of two variables, and graphing. This course is designed to prepare students for the CUNY Freshman Skills Assessment Test required for transfer to the upper division of CUNY, as well as for more advanced math courses. If a student passes MAT 12, the student should not register for MAT 51, since MAT 12 combines MAT 8 and MAT 51. Students who passed MAT 12, MAT 14, MAT 41, MAT 51, MAT 56, MAT 160, MAT 161, MAT 56.5, MAT 150.5 cannot take MAT 161.5.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "REME - MATH (Math Exit Course)"
+      ],
+      "requirementDesignation": "Remedial Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888311-2018-02-01",
+      "courseGroupId": "0888311",
+      "code": "MAT 56",
+      "subjectCode": "MAT",
+      "courseNumber": "56",
+      "longName": "Intermediate Algebra and Trigonometry",
+      "name": "Intermediate Algebra & Trigon",
+      "description": "This course is the second algebra course offered at the college. It is open to students who have completed elementary algebra or its equivalent. It includes such topics as: factoring, solutions of linear and quadratic equations, trigonometric relationships, exponents, logarithms, and the graphs of quadratic equations. Students who passed MAT 56.5 or MAT 206.5 cannot take MAT 56.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Remedial Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1355431-2018-02-01",
+      "courseGroupId": "1355431",
+      "code": "MAT 56.5",
+      "subjectCode": "MAT",
+      "courseNumber": "56.5",
+      "longName": "Elementary and Intermediate Algebra with Trigonometry",
+      "name": "Elem & Interm Algeb with Trig",
+      "description": "This course is a combination of elementary algebra and intermediate algebra including trigonometry. It includes such topics as properties of real numbers, polynomials and factoring, equations and inequalities in one and two variables, systems of linear equations and inequalities, rational expressions and functions, rational exponents and roots, quadratic functions, exponential and logarithmic functions, and an introduction to trigonometry. This course is recommended for eligible students that wish to take a one-semester accelerated path to MAT 206. Students who passed MAT 12, MAT 14, MAT 41, MAT 51, MAT 56, MAT 160, MAT 161, MAT 56.5, MAT 150.5, MAT 161.5, or MAT 206.5 cannot take MAT 56.5.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 7,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 7,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "REME - MATH (Math Exit Course)"
+      ],
+      "requirementDesignation": "Remedial Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 7
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888321-2014-05-01",
+      "courseGroupId": "0888321",
+      "code": "MAT 100",
+      "subjectCode": "MAT",
+      "courseNumber": "100",
+      "longName": "Fundamentals of Mathematics I",
+      "name": "Fundamentals of Mathematics I",
+      "description": "This course includes the study of several mathematical systems. The role of mathematics in modern culture, the role of postulational thinking in all of mathematics, and the scientific method are discussed. The course considers topics such as: the nature of axioms, truth and validity; the concept of number; the concept of set; scales of notation; and groups and fields.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888331-1901-01-01",
+      "courseGroupId": "0888331",
+      "code": "MAT 101",
+      "subjectCode": "MAT",
+      "courseNumber": "101",
+      "longName": "Fundamentals of Math I",
+      "name": "Fundamentals of Math I",
+      "description": "Fundamentals of Math I",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888351-2021-07-01",
+      "courseGroupId": "0888351",
+      "code": "MAT 104",
+      "subjectCode": "MAT",
+      "courseNumber": "104",
+      "longName": "Mathematics for Health Sciences",
+      "name": "Math For Health Sci",
+      "description": "This course covers computations and measurements essential in the health science professional fields with an emphasis on nursing. Topics include units and systems of measurement, reconstitution of powdered medications, oral and parenteral dosage calculations, adult and pediatric dosage calculations based on body weight, intravenous calculations, and pediatric medication calculations. Students who passed MAT 104.5 cannot take MAT 104 course. Students who passed MAT 104 course cannot take MAT 104.5 course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "MENR - ME_NURS_4 (Math & Quantitative Reasoning)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2021-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MENR - ME_NURS_4 (Math & Quantitative Reasoning)"
+      ]
+    },
+    {
+      "id": "1526541-2022-04-01",
+      "courseGroupId": "1526541",
+      "code": "MAT 104.5",
+      "subjectCode": "MAT",
+      "courseNumber": "104.5",
+      "longName": "Mathematics for Health Sciences with Elementary Algebra",
+      "name": "Math for Hlth Sci w/ Elem Alg",
+      "description": "This course covers computations and measurements essential in the health science professional fields with an emphasis on nursing. Topics include systems of measurement and conversions, dosage computations by formula, dimensional analysis, and ratio-proportion methods, reconstitution of powdered medications, oral and parenteral dosage calculations, adult and pediatric dosage calculations based on body weight and body surface area (BSA), intravenous calculations, titration, and pediatric and critical care medication calculations. Supplemental co-requisite topics from elementary algebra and quantitative literacy cover review of real numbers, fractions and decimals, linear models, proportional reasoning, basic linear and literal equations, exponents, radicals, and operations related to health care professions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 5,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "MENR - ME_NURS_4 (Math & Quantitative Reasoning)"
+      ],
+      "requirementDesignation": "DLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": [
+        "MENR - ME_NURS_4 (Math & Quantitative Reasoning)"
+      ]
+    },
+    {
+      "id": "0888361-2013-05-01",
+      "courseGroupId": "0888361",
+      "code": "MAT 109",
+      "subjectCode": "MAT",
+      "courseNumber": "109",
+      "longName": "Mathematics for Respiratory Therapy",
+      "name": "Math For Resp Thera",
+      "description": "This course covers topics in intermediate algebra and emphasizes problems and applications in respiratory therapy. It includes such topics as: algebraic representation, factoring, approximate numbers, significant digits and scientific notation, first and second degree equations with applications, ratio and proportions, square roots, radicals and exponents, logarithms, graphing linear equations, vectors and the metric system.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1186581-2013-05-01",
+      "courseGroupId": "1186581",
+      "code": "MAT 110",
+      "subjectCode": "MAT",
+      "courseNumber": "110",
+      "longName": "Fundamentals of Mathematics I",
+      "name": "Fundamentals of Mathematics I",
+      "description": "This course includes the study of several mathematical systems. The role of mathematics in modern culture, the role of postulational thinking in all mathematics, and the scientific method are discussed.  The course considers topics such as the nature of axiom, truth and validity; the concept of number; the concept of set; scales of notation, and groups and fields.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1533121-2022-07-01",
+      "courseGroupId": "1533121",
+      "code": "MAT 110.5",
+      "subjectCode": "MAT",
+      "courseNumber": "110.5",
+      "longName": "Fundamentals of Mathematics I with Algebra",
+      "name": "Fund Math I w/ Algebra",
+      "description": "MAT 110.5 is a Fundamentals in Mathematics course with algebra concepts useful in the selected topics. This course includes the study of several mathematical systems after covering the selected algebraic concepts. The role of mathematics in modern culture and the role of postulative thinking in all mathematics are discussed. The course considers topics such as the nature of axiom, truth and validity, the notion of a set, groups, and counting principles",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 5,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "DLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888371-1901-01-01",
+      "courseGroupId": "0888371",
+      "code": "MAT 111",
+      "subjectCode": "MAT",
+      "courseNumber": "111",
+      "longName": "Explorations in Scientific Mathematical Research",
+      "name": "Sci/Math Research",
+      "description": "This course will introduce the processes involved in research. Students will be designing and performing experiments and analyzing the results. Objectives are-to understand the scientific method, interpret statistics, and appreciate mathematical research. Computers will be used for statistics, graphing, patter recognition, and word processing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888381-1901-01-01",
+      "courseGroupId": "0888381",
+      "code": "MAT 114",
+      "subjectCode": "MAT",
+      "courseNumber": "114",
+      "longName": "Math Elem. Ed. I",
+      "name": "Math Elem. Ed. I",
+      "description": "Math Elem. Ed. I",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888401-1901-01-01",
+      "courseGroupId": "0888401",
+      "code": "MAT 125",
+      "subjectCode": "MAT",
+      "courseNumber": "125",
+      "longName": "Modern Applied Mathematics",
+      "name": "Modern Applied Mathematics",
+      "description": "This course is a survey of modern mathematics and its applications developed after the 18th century. The emphasis is on using mathematics to model the political, economic and aesthetic aspects of modern day society. Topics include graph theory, linear programming, game theory, number theory, and mathematical growth and patterns.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888411-2024-08-28",
+      "courseGroupId": "0888411",
+      "code": "MAT 150",
+      "subjectCode": "MAT",
+      "courseNumber": "150",
+      "longName": "Introduction to Statistics",
+      "name": "Introduction to Statistics",
+      "description": "This course covers basic statistics, including: measures of central tendency, measures of dispersion, graphs, correlation, the regression line, confidence intervals, the significance of differences, and hypothesis testing, including z-tests, t-tests, and chi-square tests.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "MEHS - ME_HESA_2 (Introductory Statistics)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEHS - ME_HESA_2 (Introductory Statistics)"
+      ]
+    },
+    {
+      "id": "1346831-2018-10-01",
+      "courseGroupId": "1346831",
+      "code": "MAT 150.5",
+      "subjectCode": "MAT",
+      "courseNumber": "150.5",
+      "longName": "Introduction to Statistics with Algebra",
+      "name": "Intro Statistics w/ Algebra",
+      "description": "Statistics with algebra is a statistics course (4 credits and 60 hours) with an additional 30 hours focusing on elementary algebraic concepts useful in statistics. After covering the selected algebraic concepts, the course covers the study of basic statistics. It includes measures of central tendency, measures of dispersion, graphs, probability, the binomial distribution, the normal distribution, sampling distributions, the chi-square distribution, t-tests, estimation and hypothesis testing, correlation and regression. Students who passed MAT 12, MAT 14, MAT 41, MAT 51, MAT 56, MAT 160, MAT 161, MAT 56.5, MAT 150.5 cannot take MAT 161.5.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "DLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1533101-2022-07-01",
+      "courseGroupId": "1533101",
+      "code": "MAT 156",
+      "subjectCode": "MAT",
+      "courseNumber": "156",
+      "longName": "College Algebra",
+      "name": "College Algebra",
+      "description": "This course is a college algebra course. Topics include algebra of the real numbers, algebraic, exponential and logarithmic functions and their graphs, systems of linear equations, inequalities and absolute values.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1533111-2022-07-01",
+      "courseGroupId": "1533111",
+      "code": "MAT 156.5",
+      "subjectCode": "MAT",
+      "courseNumber": "156.5",
+      "longName": "Elementary and College Algebra",
+      "name": "Elementary and College Algebra",
+      "description": "This course combines topics from elementary and college algebra. Topics include algebra of the real numbers, algebraic, exponential and logarithmic functions and their graphs, systems of linear equations, inequalities and absolute values.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 5,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "DLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557331-2024-01-25",
+      "courseGroupId": "1557331",
+      "code": "MAT 157",
+      "subjectCode": "MAT",
+      "courseNumber": "157",
+      "longName": "College Algebra with Trigonometry",
+      "name": "College Algebra with Trig",
+      "description": "This course is a college algebra course including an introduction to trigonometry. Topics include algebra of the real numbers, algebraic and exponential functions and their graphs, systems of linear equations, inequalities and absolute values, right angle trigonometry, and an introduction to trigonometric functions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557341-2024-01-25",
+      "courseGroupId": "1557341",
+      "code": "MAT 157.5",
+      "subjectCode": "MAT",
+      "courseNumber": "157.5",
+      "longName": "Elementary and College Algebra with Trigonometry",
+      "name": "Elem and College Alg with Trig",
+      "description": "This course combines topics from elementary and college algebra including an introduction to trigonometry. Topics include algebra of the real numbers, algebraic and exponential functions and their graphs, systems of linear equations, inequalities and absolute values, right angle trigonometry and an introduction to trigonometric functions.  ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Developmental Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888421-2017-06-01",
+      "courseGroupId": "0888421",
+      "code": "MAT 160",
+      "subjectCode": "MAT",
+      "courseNumber": "160",
+      "longName": "Quantitative Reasoning",
+      "name": "Quantitative Reasoning",
+      "description": "The course aims to teach students how to think competently about quantitative information. Students learn how to take real world problems, translate them into mathematics, and solve them. Topics include thinking critically, numbers in the real world, financial management, statistical reasoning, probability, and mathematical modeling. Students who passed MAT 12, MAT 14, MAT 41, MAT 51, MAT 56, MAT 160, MAT 161, MAT 56.5, MAT 150.5 cannot take MAT 161.5.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1186591-2017-06-01",
+      "courseGroupId": "1186591",
+      "code": "MAT 161",
+      "subjectCode": "MAT",
+      "courseNumber": "161",
+      "longName": "Topics in Quantitative Reasoning",
+      "name": "Quantitative Reasoning",
+      "description": "This course aims to teach students how to think competently about quantitative information. Students learn how to take real world problems, translate them into the language of mathematics, and solve them. Topics include thinking critically, numbers in the real world, financial management, statistical reasoning, probability, and mathematical modeling. This course satisfies the mathematic requirement for the CUNY Core. It is recommended for students who do not intend to pursue mathematics, science or any curriculum requiring the students to take Calculus.  Note: This course satisfies the Pathways: Mathematical & Quantitative Reasoning requirement. Students who passed MAT 12, MAT 14, MAT 41, MAT 51, MAT 56, MAT 160, MAT 161, MAT 56.5, MAT 150.5 cannot take MAT 161.5.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1356871-2022-04-01",
+      "courseGroupId": "1356871",
+      "code": "MAT 161.5",
+      "subjectCode": "MAT",
+      "courseNumber": "161.5",
+      "longName": "Mathematics Literacy and Quantitative Reasoning",
+      "name": "Math Literacy/Quant Reasoning",
+      "description": "This course aims to teach students how to interpret quantitative information, analyze quantitative data, and make inferences in contexts involving mathematical concepts. Topics include proportional reasoning, interpreting percentages, units and measurement, thinking critically, numbers in the real world, financial management, statistical reasoning, probability, and linear and exponential modeling. This course satisfies the mathematics requirement for the CUNY Pathways. This course cannot be used as a prerequisite for MAT 56 and is not suited for Science, Technology, Engineering or Mathematics (STEM) majors or any major that requires MAT 56.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "DLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888441-2017-06-01",
+      "courseGroupId": "0888441",
+      "code": "MAT 200",
+      "subjectCode": "MAT",
+      "courseNumber": "200",
+      "longName": "Introduction to Discrete Mathematics",
+      "name": "Introduction to Discrete Math",
+      "description": "This course covers fundamental mathematical topics associated with computer information systems, including: numeration systems; sets and logic; Boolean algebra, functions, and elementary switching theory; combinatorics; mathematical induction; permutations; combinations; binomial coefficients; and distributions. This course will satisfy the math requirement for students in Business Administration, Computer Operations, Computer Programming, Computer Science or Accounting. Prerequisites to this course should be taken in the first semester or as early as possible.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888471-1901-01-01",
+      "courseGroupId": "0888471",
+      "code": "MAT 204",
+      "subjectCode": "MAT",
+      "courseNumber": "204",
+      "longName": "Math Found For Calc",
+      "name": "Math Found For Calc",
+      "description": "Math Found For Calc",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888491-2025-08-25",
+      "courseGroupId": "0888491",
+      "code": "MAT 206",
+      "subjectCode": "MAT",
+      "courseNumber": "206",
+      "longName": "Precalculus",
+      "name": "Precalculus",
+      "description": "This course covers basic algebraic and trigonometric skills, algebraic equations, and functions. Topics include: mathematical induction, complex numbers, and the binomial theorem.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "MEBI - ME_BIOL_5 (Pre-Calculus)",
+        "MECI - ME_COIS_1 (Pre-Calculus)",
+        "UTBI - UT_BIOL_5 (Pre-Calculus)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEBI - ME_BIOL_5 (Pre-Calculus)",
+        "MECI - ME_COIS_1 (Pre-Calculus)",
+        "UTBI - UT_BIOL_5 (Pre-Calculus)"
+      ]
+    },
+    {
+      "id": "1367141-2018-10-01",
+      "courseGroupId": "1367141",
+      "code": "MAT 206.5",
+      "subjectCode": "MAT",
+      "courseNumber": "206.5",
+      "longName": "Intermediate Algebra & Precalculus (Same as MAT 206)",
+      "name": "Intermed Algebra & Precalculus",
+      "description": "This course integrates Intermediate Algebra and Trigonometry with Precalculus. Topics include properties of real numbers, polynomials and factoring, equations and inequalities in one and two variables, systems of linear equations, rational expressions and functions, rational exponents and roots, quadratic functions, exponential and logarithmic functions, and trigonometric functions.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 8,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "DLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-10-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 8
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1482001-2013-05-01",
+      "courseGroupId": "1482001",
+      "code": "MAT 206H",
+      "subjectCode": "MAT",
+      "courseNumber": "206H",
+      "longName": "Precalculus (Honors)",
+      "name": "Precalculus (Honors)",
+      "description": "This course covers basic algebraic and trigonometric skills, algebraic equations, and functions. Topics include: mathematical induction, complex numbers, and the binomial theorem.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MEBI - ME_BIOL_5 (Pre-Calculus)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEBI - ME_BIOL_5 (Pre-Calculus)"
+      ]
+    },
+    {
+      "id": "0888511-1901-01-01",
+      "courseGroupId": "0888511",
+      "code": "MAT 208",
+      "subjectCode": "MAT",
+      "courseNumber": "208",
+      "longName": "Mathematical Problem Solving",
+      "name": "Mathematical Problem Solving",
+      "description": "This is a Liberal Arts elective course. It will focus on the general steps in the problem-solving process and the use of problem-solving strategies espoused by Polya, et al. Problems will include non-routine exercises taken from mathematics journals and competitions, and famous problems from the history of mathematics.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888521-2013-05-01",
+      "courseGroupId": "0888521",
+      "code": "MAT 209",
+      "subjectCode": "MAT",
+      "courseNumber": "209",
+      "longName": "Statistics",
+      "name": "Statistics",
+      "description": "This course covers statistical concepts and techniques with applications. Topics include probability, random variables, the binomial distribution, the hyper-geometric distribution, measures of central tendency, the normal distribution, precision and confidence intervals, sample design and computer projects.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "MEEC - ME_ECON_3 (Introductory Statistics)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": [
+        "MEEC - ME_ECON_3 (Introductory Statistics)"
+      ]
+    },
+    {
+      "id": "0888531-2024-05-28",
+      "courseGroupId": "0888531",
+      "code": "MAT 214",
+      "subjectCode": "MAT",
+      "courseNumber": "214",
+      "longName": "Mathematics for Elementary Education I",
+      "name": "Math For Elementary Edu I",
+      "description": "This course covers the first half of the mathematics recommended by the National Council of Teachers of Mathematics (NCTM) for prospective elementary school teachers, including problem solving, sets, logic, numeration, computation, integers, rational and real numbers, and number theory. This course meets the mathematics requirement only for students in the ECE program. Students who have taken MAT 100 may not receive credit for this course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-05-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888551-1901-01-01",
+      "courseGroupId": "0888551",
+      "code": "MAT 216",
+      "subjectCode": "MAT",
+      "courseNumber": "216",
+      "longName": "Mathematics for Elementary Education II",
+      "name": "Math For Elementary Edu II",
+      "description": "This course covers the second half of the mathematics recommended by NCTM for prospective elementary school teachers, including probability, statistics, plane and transformational geometry, congruence and similarity. This course meets the mathematics requirements only for students in the ECE program. Students who have taken MAT 150 may not receive credit for this course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1190461-2012-08-26",
+      "courseGroupId": "1190461",
+      "code": "MAT 300",
+      "subjectCode": "MAT",
+      "courseNumber": "300",
+      "longName": "Introduction to Geometry",
+      "name": "Introduction to Geometry",
+      "description": "An introduction to Euclidean geometry and some topics from non-Euclidean Geometry. Topics to be covered in Euclidean geometry include foundations of geometry such as lines, angles, triangles, polygons, circles, solids as well as coordinate geometry and transformations. Non-Euclidean geometry will cover a brief introduction to axiom systems, parallelism and hyperbolic geometry.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2012-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888571-2025-08-26",
+      "courseGroupId": "0888571",
+      "code": "MAT 301",
+      "subjectCode": "MAT",
+      "courseNumber": "301",
+      "longName": "Analytic Geometry and Calculus I",
+      "name": "Analytic Geometry & Calc I",
+      "description": "This is an integrated course in analytic geometry and calculus, applied to functions of a single variable. It covers a study of rectangular coordinates in the plane, equations of conic sections, functions, limits, continuity, related rates, differentiation of algebraic and transcendental functions, Rolle's Theorem, the Mean Value Theorem, maxima and minima, and integration.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "MECS - ME_COSC_1 (Calc-I or Analy Geo & Calc-I)",
+        "UTMA - UT_MATH_1 (Calculus I)",
+        "UTCO - UT_COSC_3 (Calc I or Analytic Geo/Calc-I)",
+        "UTEG - UT_EGIN_1 (Calculus I)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "MECS - ME_COSC_1 (Calc-I or Analy Geo & Calc-I)",
+        "UTCO - UT_COSC_3 (Calc I or Analytic Geo/Calc-I)",
+        "UTEG - UT_EGIN_1 (Calculus I)",
+        "UTMA - UT_MATH_1 (Calculus I)"
+      ]
+    },
+    {
+      "id": "1581581-2025-08-26",
+      "courseGroupId": "1581581",
+      "code": "MAT 301H",
+      "subjectCode": "MAT",
+      "courseNumber": "301H",
+      "longName": "Analytic Geometry and Calculus I (Honors)",
+      "name": "Analytic Geometry &Calc I(Hon)",
+      "description": "This is an integrated course in analytic geometry and calculus, applied to functions of a single variable. It covers a study of rectangular coordinates in the plane, equations of conic sections, functions, limits, continuity, related rates, differentiation of algebraic and transcendental functions, Rolle's Theorem, the Mean Value Theorem, maxima and minima, and integration.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MECS - ME_COSC_1 (Calc-I or Analy Geo & Calc-I)",
+        "UTCO - UT_COSC_3 (Calc I or Analytic Geo/Calc-I)",
+        "UTEG - UT_EGIN_1 (Calculus I)",
+        "UTMA - UT_MATH_1 (Calculus I)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "MECS - ME_COSC_1 (Calc-I or Analy Geo & Calc-I)",
+        "UTCO - UT_COSC_3 (Calc I or Analytic Geo/Calc-I)",
+        "UTEG - UT_EGIN_1 (Calculus I)",
+        "UTMA - UT_MATH_1 (Calculus I)"
+      ]
+    },
+    {
+      "id": "0888581-2025-08-26",
+      "courseGroupId": "0888581",
+      "code": "MAT 302",
+      "subjectCode": "MAT",
+      "courseNumber": "302",
+      "longName": "Analytic Geometry and Calculus II",
+      "name": "Analytic Geom  & Calc II",
+      "description": "This course is an introduction to the concepts of integration. It covers the integration of algebraic and transcendental functions. Topics include the anti-derivative, the definite integral, areas, volumes, applications, the improper integral, infinite sequences and series, Taylor’s Theorem. MAT 302 has a computer laboratory component. Students utilize computer software such as graphing packages, a computer algebra system, and a mathematical word processor to complete laboratory assignments associated with their calculus course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "MECS - ME_COSC_2 (Calc-II or Analy Geo & Calc-II)",
+        "UTMA - UT_MATH_2 (Calculus II)",
+        "UTCO - UT_COSC_4 (Calc-II or AnalyticGeo/Calc-II)",
+        "UTEG - UT_EGIN_2 (Calculus II)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "MECS - ME_COSC_2 (Calc-II or Analy Geo & Calc-II)",
+        "UTCO - UT_COSC_4 (Calc-II or AnalyticGeo/Calc-II)",
+        "UTEG - UT_EGIN_2 (Calculus II)",
+        "UTMA - UT_MATH_2 (Calculus II)"
+      ]
+    },
+    {
+      "id": "1581591-2025-08-26",
+      "courseGroupId": "1581591",
+      "code": "MAT 302H",
+      "subjectCode": "MAT",
+      "courseNumber": "302H",
+      "longName": "Analytic Geometry and Calculus II (Honors)",
+      "name": "Analytic Geom  & Calc II (Hon)",
+      "description": "This course is an introduction to the concepts of integration. It covers the integration of algebraic and transcendental functions. Topics include the anti-derivative, the definite integral, areas, volumes, applications, the improper integral, infinite sequences and series, Taylor’s Theorem. MAT 302 has a computer laboratory component. Students utilize computer software such as graphing packages, a computer algebra system, and a mathematical word processor to complete laboratory assignments associated with their calculus course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MECS - ME_COSC_2 (Calc-II or Analy Geo & Calc-II)",
+        "UTCO - UT_COSC_4 (Calc-II or AnalyticGeo/Calc-II)",
+        "UTEG - UT_EGIN_2 (Calculus II)",
+        "UTMA - UT_MATH_2 (Calculus II)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "MECS - ME_COSC_2 (Calc-II or Analy Geo & Calc-II)",
+        "UTCO - UT_COSC_4 (Calc-II or AnalyticGeo/Calc-II)",
+        "UTEG - UT_EGIN_2 (Calculus II)",
+        "UTMA - UT_MATH_2 (Calculus II)"
+      ]
+    },
+    {
+      "id": "0888591-2025-08-26",
+      "courseGroupId": "0888591",
+      "code": "MAT 303",
+      "subjectCode": "MAT",
+      "courseNumber": "303",
+      "longName": "Analytic Geometry and Calculus III",
+      "name": "Anal Geom Cal III",
+      "description": "This is the third course of a three-semester integrated study of analytic geometry and the concepts of differential and integral calculus. In this course the student is introduced to multivariable functions, with derivatives and integrals, and their applications. Topics include limits, derivatives (partial and directional), the gradient, double and triple integrals, alternate coordinate systems and derivatives and integrals in those coordinates, vector fields and their operators, the Fundamental Theorem of Line Integrals, Green’s Theorem, and applications. MAT 303 has a computer laboratory component. Students utilize computer software such as graphing packages, a computer algebra system, and a mathematical word processor to complete laboratory assignments associated with their calculus course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "UTMA - UT_MATH_3 (Calculus III)",
+        "UTEG - UT_EGIN_3 (Calculus III)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "UTEG - UT_EGIN_3 (Calculus III)",
+        "UTMA - UT_MATH_3 (Calculus III)"
+      ]
+    },
+    {
+      "id": "UlGAzlnI6e2Rzgzx6ESO",
+      "courseGroupId": "1585651",
+      "code": "MAT 303H",
+      "subjectCode": "MAT",
+      "courseNumber": "303H",
+      "longName": "Analytic Geometry and Calculus III (Honors)",
+      "name": "Anal Geom Cal III (Honors)",
+      "description": "This is the third course of a three-semester integrated study of analytic geometry and the concepts of differential and integral calculus. In this course the student is introduced to multivariable functions, with derivatives and integrals, and their applications. Topics include limits, derivatives (partial and directional), the gradient, double and triple integrals, alternate coordinate systems and derivatives and integrals in those coordinates, vector fields and their operators, the Fundamental Theorem of Line Integrals, Green’s Theorem, and applications. MAT 303 has a computer laboratory component. Students utilize computer software such as graphing packages, a computer algebra system, and a mathematical word processor to complete laboratory assignments associated with their calculus course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "UTEG - UT_EGIN_3 (Calculus III)",
+        "UTMA - UT_MATH_3 (Calculus III)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "UTEG - UT_EGIN_3 (Calculus III)",
+        "UTMA - UT_MATH_3 (Calculus III)"
+      ]
+    },
+    {
+      "id": "1337531-2016-06-01",
+      "courseGroupId": "1337531",
+      "code": "MAT 310",
+      "subjectCode": "MAT",
+      "courseNumber": "310",
+      "longName": "Bridge to Advanced Mathematics",
+      "name": "Bridge to Advanced Mathematics",
+      "description": "This course is designed to prepare students for an advanced mathematics curriculum by providing a transition from Calculus to abstract mathematics. The course explores the logical and foundational structures of mathematics, with an emphasis on understanding and writing proofs. Topics include logic, methods of proof, mathematical induction, axiomatic approach to group theory, number theory, set theory, relations and functions, Cantor’s theory of countability, and the development of the real number system. Throughout the course, students will be actively engaged in understanding, verifying and writing proofs, and will be introduced to methods of mathematics research.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888601-2025-08-26",
+      "courseGroupId": "0888601",
+      "code": "MAT 315",
+      "subjectCode": "MAT",
+      "courseNumber": "315",
+      "longName": "Linear Algebra",
+      "name": "Linear Algebra",
+      "description": "This course covers matrices, determinants, systems of linear equations, vector spaces, eigenvalues and eigenvectors, Boolean algebra, switching circuits, Boolean functions, minimal forms, Karnaugh maps.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "UTMA - UT_MATH_4 (Linear Algebra)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "UTMA - UT_MATH_4 (Linear Algebra)"
+      ]
+    },
+    {
+      "id": "0888611-2013-05-01",
+      "courseGroupId": "0888611",
+      "code": "MAT 320",
+      "subjectCode": "MAT",
+      "courseNumber": "320",
+      "longName": "Abstract Algebra",
+      "name": "Abstract Algebra",
+      "description": "This course covers the standard material comprising an introduction to group and ring theory: set theory and mappings; groups, normal subgroups, and quotient groups; Sylow's Theorem; rings, ideals, and quotient rings, Euclidean rings, polynomial rings.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1546491-2023-02-01",
+      "courseGroupId": "1546491",
+      "code": "MAT 409",
+      "subjectCode": "MAT",
+      "courseNumber": "409",
+      "longName": "Probability and Statistics for Data Science",
+      "name": "Probability&Stats for Data Sci",
+      "description": "This course applies concepts of probability and statistics to large data sets using the R programming language for computation and data visualization. Topics include exploratory data analysis (both univariate and multivariate), probability and probability distributions (both discrete and continuous), hypothesis tests and confidence intervals for µ, p, and s, Goodness-of-fit test, ANOVA, linear and logistic regression.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1546511-2023-02-01",
+      "courseGroupId": "1546511",
+      "code": "MAT 415",
+      "subjectCode": "MAT",
+      "courseNumber": "415",
+      "longName": "Linear Algebra for Data Science",
+      "name": "Linear Algebra for Data Sci",
+      "description": "The course covers the usual topics of a linear algebra course (e.g., vector spaces, matrices, eigenvectors). The course also covers special topics geared toward data science (e.g., Markov chains, PCA, LDA) as well as programing in Jupyter IDE.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Compensatory Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1546521-2023-02-01",
+      "courseGroupId": "1546521",
+      "code": "MAT 420",
+      "subjectCode": "MAT",
+      "courseNumber": "420",
+      "longName": "An Introduction to Machine Learning",
+      "name": "Intro to Machine Learning",
+      "description": "This course is an introduction to machine learning principles and techniques. The mathematics and applications of the following topics will be covered: generalization, point estimation, neural networks with an emphasis on the perceptron and generalizations, non-linear separation, dimension reduction and various supervised algorithms such as K-nearest neighbor. Time permitting, topic models and support vector machines will be discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888641-1901-01-01",
+      "courseGroupId": "0888641",
+      "code": "MAT 470",
+      "subjectCode": "MAT",
+      "courseNumber": "470",
+      "longName": "Mathematical Foundations of Computer Networking",
+      "name": "Found Comp Network",
+      "description": "This course presents the mathematical concepts underlying computer networks.  The course introduces probability and stochastic process, queuing analysis and basic graph theory and relates these topics to various layers of the seven layer Open Systems Interface (OSI) organization model of computer networks.  Practical laboratory projects provide concrete illustratration of theoretical concepts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888651-2025-08-26",
+      "courseGroupId": "0888651",
+      "code": "MAT 501",
+      "subjectCode": "MAT",
+      "courseNumber": "501",
+      "longName": "Ordinary Differential Equations",
+      "name": "Ord Diff Equations",
+      "description": "This is a first course in the theoretical and applied aspects of ordinary differential equations. Topics include: first-order equations, exact equations, linear equations, series solutions, Laplace transforms, Fourier series and boundary value problems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [
+        "UTMA - UT_MATH_5 (Differential Equations)",
+        "UTEG - UT_EGIN_4 (Differential Equations)"
+      ],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "UTEG - UT_EGIN_4 (Differential Equations)",
+        "UTMA - UT_MATH_5 (Differential Equations)"
+      ]
+    },
+    {
+      "id": "0888661-1901-01-01",
+      "courseGroupId": "0888661",
+      "code": "MAT 505",
+      "subjectCode": "MAT",
+      "courseNumber": "505",
+      "longName": "History of Mathematics",
+      "name": "History of Mathematics",
+      "description": "The course follows the growth of mathematics from its empirical nature in Egypt and Babylonia to its deductive character in ancient Greece wherein the roots of the calculus will be identified. The concept of number and the development of algebra, with Hindu, Arabic and medieval contributions are discussed. The rise of analytic geometry, the calculus, and the function concept are examined. Finally, the trend towards greater rigor and abstraction is considered including formal axiomatic systems and Godel's Incompleteness Theorem.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0888671-2013-05-01",
+      "courseGroupId": "0888671",
+      "code": "MAT 601",
+      "subjectCode": "MAT",
+      "courseNumber": "601",
+      "longName": "Advanced Calculus I",
+      "name": "Advanced Calculus I",
+      "description": "The course presents the logical structure on which the foundations of the calculus have been based: construction of the real number system, mathematical induction, limits and continuity in precise formulation, functions of several variables, point sets in higher dimensions; uniform continuity, and elements of partial differentiation.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "MATH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_RC_Mathtcl&QuantveReasng",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

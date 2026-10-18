@@ -329,3 +329,14 @@ interaction and absent under reduced motion. No dashboard or module menu was add
 BMCC chat shows a concise Google Gemini privacy notice only when the local backend is configured. Without consent, existing supported prompts remain. After consent, natural messages show user/AI-labelled responses, loading, safe fallback and allowlisted action buttons. Proposed profile/goal changes appear in a compact Apply/Discard review; stale context disables Apply. Confirmation recomputes the existing one-question readiness flow. No wizard, dashboard or default grades. Catalog/selector/progress retain exact context and unresolved outcomes.
 
 See [Gemini gateway](GEMINI_GATEWAY.md), [orchestration](CONVERSATION_ORCHESTRATION.md) and [verification](PHASE_04A_VERIFICATION.md).
+
+## Phase 04C-1 source-catalog browsing
+
+In BMCC Academic Catalog, expand “Browse BMCC source catalog”, explicitly choose a
+retained browsing snapshot, search code/title/description and filter offering units.
+Course descriptions expose exact credit ranges/hours, source dates/locators and
+provisional/unresolved prerequisite evidence. Program identities are browse metadata,
+not complete degree requirements. Return to chatbot preserves the established workspace.
+The existing program/release selector below still controls the older draft degree
+modules only; browsing does not change that context or select courses into an audit.
+No registration, complete audit, other-campus functionality or Gemini is implied.

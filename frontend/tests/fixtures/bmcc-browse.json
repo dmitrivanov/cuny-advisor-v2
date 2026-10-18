@@ -1,0 +1,2385 @@
+{
+  "snapshot": [
+    {
+      "snapshot_id": "bmcc-bulletin-2025-2026-20261017-r1",
+      "catalog_year": "2025-2026",
+      "campus_id": "bmcc"
+    }
+  ],
+  "departments": [
+    {
+      "id": "DEV-BMC",
+      "name": "Academic Literacy and Linguistics",
+      "bulletin_name": "Academic Literacy and Linguistics",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/academic-literacy/",
+      "prefixes": [
+        "ACL",
+        "ANT",
+        "CRT",
+        "ESL",
+        "LIN",
+        "PHI"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Academic Literacy and Linguistics",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "ACCT-BMC",
+      "name": "Accounting",
+      "bulletin_name": "Accounting",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/accounting/",
+      "prefixes": [
+        "ACC"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Accounting",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "ALHLTH-BMC",
+      "name": "Allied Health Sciences",
+      "bulletin_name": "Allied Health",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/",
+      "prefixes": [
+        "EMC",
+        "HIT",
+        "RTT"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Allied Health Sciences",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "BUS-BMC",
+      "name": "Business Management",
+      "bulletin_name": "Business Management",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/",
+      "prefixes": [
+        "ADV",
+        "BUS",
+        "FNB",
+        "HTT",
+        "MAR",
+        "PAN",
+        "RMI",
+        "SBE",
+        "TTA"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Business Management",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "CIS-BMC",
+      "name": "Computer Information Systems",
+      "bulletin_name": "Computer Information Systems",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/",
+      "prefixes": [
+        "CIS",
+        "CSC",
+        "GIS"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Computer Information Systems",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "COOP-BMC",
+      "name": "Cooperative Education",
+      "bulletin_name": "Cooperative Education",
+      "kind": "offering_unit",
+      "url": "https://bmcc.catalog.cuny.edu/departments/COOP-BMC/courses",
+      "prefixes": [
+        "CED"
+      ],
+      "evidence": [
+        {
+          "source_id": "bulletin-COOP-BMC",
+          "locator": "Course offering unit",
+          "catalog_year": "2025-2026"
+        }
+      ]
+    },
+    {
+      "id": "CRJ-BMC",
+      "name": "Criminology and Criminal Justice",
+      "bulletin_name": "Criminal Justice",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/criminal-justice/",
+      "prefixes": [
+        "CRJ"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Criminology and Criminal Justice",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "ENGL-BMC",
+      "name": "English",
+      "bulletin_name": "English",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/english/",
+      "prefixes": [
+        "CYS",
+        "ENG"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "English",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "ETHST-BMC",
+      "name": "Ethnic and Race Studies",
+      "bulletin_name": "Ethnic and Race Studies",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/ethnic-studies/",
+      "prefixes": [
+        "AFL",
+        "AFN",
+        "ANT",
+        "ART",
+        "ASN",
+        "ECO",
+        "ENG",
+        "ETH",
+        "GLS",
+        "HIS",
+        "LAT",
+        "POL",
+        "SOC"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Ethnic and Race Studies",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "HE-BMC",
+      "name": "Health Studies",
+      "bulletin_name": "Health Studies",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/health-studies/",
+      "prefixes": [
+        "HED",
+        "HSD",
+        "PED"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Health Studies",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "MATH-BMC",
+      "name": "Mathematics",
+      "bulletin_name": "Mathematics",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/math/",
+      "prefixes": [
+        "MAT"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Mathematics",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "MAT-BMC",
+      "name": "Media Arts and Technology",
+      "bulletin_name": "Media Arts and Technology",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/media-arts-and-technology/",
+      "prefixes": [
+        "ANI",
+        "MEA",
+        "MES",
+        "MMA",
+        "MMP",
+        "VAT"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Media Arts and Technology",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "MA-BMC",
+      "name": "Music and Art",
+      "bulletin_name": "Music and Art",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/music-and-art/",
+      "prefixes": [
+        "ART",
+        "MUS"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Music and Art",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "NUR-BMC",
+      "name": "Nursing",
+      "bulletin_name": "Nursing",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/nursing/",
+      "prefixes": [
+        "LPN",
+        "NUR"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Nursing",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "SCI-BMC",
+      "name": "Science",
+      "bulletin_name": "Science",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/science/",
+      "prefixes": [
+        "AST",
+        "BIO",
+        "BTE",
+        "CHE",
+        "ENV",
+        "ESC",
+        "GLY",
+        "PHY",
+        "SCI"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Science",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "SOC-BMC",
+      "name": "Social Sciences and Human Services",
+      "bulletin_name": "Social Sciences and Human Services",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/",
+      "prefixes": [
+        "ANT",
+        "ECO",
+        "GEO",
+        "HIS",
+        "HUM",
+        "PHI",
+        "POL",
+        "PSY",
+        "SOC",
+        "URB"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Social Sciences and Human Services",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "SPCH-BMC",
+      "name": "Speech, Communications and Theatre Arts",
+      "bulletin_name": "Speech, Communications and Theatre Arts",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/speech/",
+      "prefixes": [
+        "COM",
+        "GWS",
+        "LAT",
+        "SPE",
+        "THE"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Speech, Communications and Theatre Arts",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "TE-BMC",
+      "name": "Teacher Education",
+      "bulletin_name": "Teacher Education",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/",
+      "prefixes": [
+        "ECE",
+        "EDB",
+        "EDS",
+        "EDU"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "Teacher Education",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "ML-BMC",
+      "name": "World Languages, Literatures, and Cultures",
+      "bulletin_name": "World Languages, Literatures, and Cultures",
+      "kind": "academic_department",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/",
+      "prefixes": [
+        "ARB",
+        "ASL",
+        "CHI",
+        "FRN",
+        "ITL",
+        "PRT",
+        "SPN",
+        "SSC",
+        "TRS",
+        "WLI"
+      ],
+      "evidence": [
+        {
+          "source_id": "department-index",
+          "locator": "World Languages, Literatures, and Cultures",
+          "catalog_year": null
+        }
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "bmcc-program-accounting-aas",
+      "name": "Accounting",
+      "credential": "AAS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/accounting/accounting/",
+      "catalog_year": null,
+      "department_ids": [
+        "ACCT-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Applied Science degree (A.A.S.) / Accounting",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-business-management-aas",
+      "name": "Business Management",
+      "credential": "AAS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/business-management/",
+      "catalog_year": null,
+      "department_ids": [
+        "BUS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Applied Science degree (A.A.S.) / Business Management",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-cis-aas",
+      "name": "Computer Information Systems",
+      "credential": "AAS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-information-systems-cis/",
+      "catalog_year": null,
+      "department_ids": [
+        "CIS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Applied Science degree (A.A.S.) / Computer Information Systems",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-computer-network-technology-aas",
+      "name": "Computer Network Technology",
+      "credential": "AAS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-network-technology/",
+      "catalog_year": null,
+      "department_ids": [
+        "CIS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Applied Science degree (A.A.S.) / Computer Network Technology",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-health-information-technology-aas",
+      "name": "Health Information Technology",
+      "credential": "AAS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/about-hit/health-information-technology-program-requirements/",
+      "catalog_year": null,
+      "department_ids": [
+        "ALHLTH-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Applied Science degree (A.A.S.) / Health Information Technology",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-nursing-aas",
+      "name": "Nursing",
+      "credential": "AAS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/nursing/nursing-program/",
+      "catalog_year": null,
+      "department_ids": [
+        "NUR-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Applied Science degree (A.A.S.) / Nursing",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-paramedic-aas",
+      "name": "Paramedic",
+      "credential": "AAS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/paramedic/",
+      "catalog_year": null,
+      "department_ids": [
+        "ALHLTH-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Applied Science degree (A.A.S.) / Paramedic",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-respiratory-therapy-aas",
+      "name": "Respiratory Therapy",
+      "credential": "AAS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/respiratory-therapy/",
+      "catalog_year": null,
+      "department_ids": [
+        "ALHLTH-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Applied Science degree (A.A.S.) / Respiratory Therapy",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-art-foundations-art-history-aa",
+      "name": "Art Foundations: Art History",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/music-and-art/art-foundations-art-history/",
+      "catalog_year": null,
+      "department_ids": [
+        "MA-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Art Foundations: Art History",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-bilingual-childhood-education-aa",
+      "name": "Bilingual Childhood Education",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/bilingual-childhood-education-edb/",
+      "catalog_year": null,
+      "department_ids": [
+        "TE-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Bilingual Childhood Education",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-childhood-education-aa",
+      "name": "Childhood Education",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/childhood-education-edu/",
+      "catalog_year": null,
+      "department_ids": [
+        "TE-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Childhood Education",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-children-and-youth-studies-aa",
+      "name": "Children and Youth Studies",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/english/children-and-youth-studies/",
+      "catalog_year": null,
+      "department_ids": [
+        "ENGL-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Children and Youth Studies",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-communication-studies-aa",
+      "name": "Communication Studies",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/speech/communication-studies/",
+      "catalog_year": null,
+      "department_ids": [
+        "SPCH-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Communication Studies",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-criminal-justice-aa",
+      "name": "Criminal Justice",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/criminal-justice/",
+      "catalog_year": null,
+      "department_ids": [
+        "SOC-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Criminal Justice",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-critical-thinking-and-justice-aa",
+      "name": "Critical Thinking and Justice",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/academic-literacy/critical-thinking-and-justice/",
+      "catalog_year": null,
+      "department_ids": [
+        "DEV-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Critical Thinking and Justice",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-economics-aa",
+      "name": "Economics",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/economics/",
+      "catalog_year": null,
+      "department_ids": [
+        "SOC-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Economics",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-ethnic-studies-aa",
+      "name": "Ethnic Studies",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/ethnic-studies/ethnic-studies/",
+      "catalog_year": null,
+      "department_ids": [
+        "ETHST-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Ethnic Studies",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-gender-and-women-s-studies-aa",
+      "name": "Gender and Women\u2019s Studies",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/programs/gender-and-womens-studies/",
+      "catalog_year": null,
+      "department_ids": [],
+      "relationship": "unresolved",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Gender and Women\u2019s Studies",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-history-aa",
+      "name": "History",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/history/",
+      "catalog_year": null,
+      "department_ids": [
+        "SOC-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / History",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-liberal-arts-aa",
+      "name": "Liberal Arts",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/programs/liberal-arts/",
+      "catalog_year": null,
+      "department_ids": [],
+      "relationship": "unresolved",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Liberal Arts",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-linguistics-aa",
+      "name": "Linguistics",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/academic-literacy/linguistics-and-literacy/",
+      "catalog_year": null,
+      "department_ids": [
+        "DEV-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Linguistics",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-literacy-studies-aa",
+      "name": "Literacy Studies",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/academic-literacy/literacy-studies/",
+      "catalog_year": null,
+      "department_ids": [
+        "DEV-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Literacy Studies",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-modern-languages-french-aa",
+      "name": "Modern Languages: French",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/french/",
+      "catalog_year": null,
+      "department_ids": [
+        "ML-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Modern Languages: French",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-modern-languages-italian-aa",
+      "name": "Modern Languages: Italian",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/italian/",
+      "catalog_year": null,
+      "department_ids": [
+        "ML-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Modern Languages: Italian",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-modern-languages-spanish-aa",
+      "name": "Modern Languages: Spanish",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/spanish/",
+      "catalog_year": null,
+      "department_ids": [
+        "ML-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Modern Languages: Spanish",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-modern-languages-spanish-translation-and-interpretation-aa",
+      "name": "Modern Languages: Spanish Translation and Interpretation",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/modern-languages-spanish-translation-and-interpretation/",
+      "catalog_year": null,
+      "department_ids": [
+        "ML-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Modern Languages: Spanish Translation and Interpretation",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-philosophy-aa",
+      "name": "Philosophy",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/philosophy/",
+      "catalog_year": null,
+      "department_ids": [
+        "SOC-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Philosophy",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-political-science-aa",
+      "name": "Political Science",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/political-science/",
+      "catalog_year": null,
+      "department_ids": [
+        "SOC-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Political Science",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-psychology-aa",
+      "name": "Psychology",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/psychology/",
+      "catalog_year": null,
+      "department_ids": [
+        "SOC-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Psychology",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-secondary-education-for-social-studies-aa",
+      "name": "Secondary Education for Social Studies",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/secondary-education-for-social-studies/",
+      "catalog_year": null,
+      "department_ids": [
+        "TE-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Secondary Education for Social Studies",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-sociology-aa",
+      "name": "Sociology",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/sociology/",
+      "catalog_year": null,
+      "department_ids": [
+        "SOC-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Sociology",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-urban-studies-aa",
+      "name": "Urban Studies",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/urban-studies/",
+      "catalog_year": null,
+      "department_ids": [
+        "SOC-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Urban Studies",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-writing-and-literature-aa",
+      "name": "Writing and Literature",
+      "credential": "AA",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/english/requirements/",
+      "catalog_year": null,
+      "department_ids": [
+        "ENGL-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Arts degree (A.A.) / Writing and Literature",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-accounting-for-forensic-accounting-as",
+      "name": "Accounting for Forensic Accounting",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/accounting/accounting-for-forensic-accounting/",
+      "catalog_year": null,
+      "department_ids": [
+        "ACCT-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Accounting for Forensic Accounting",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-animation-and-motion-graphics-as",
+      "name": "Animation and Motion Graphics",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/media-arts-and-technology/animation-and-motion-graphics/",
+      "catalog_year": null,
+      "department_ids": [
+        "MAT-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Animation and Motion Graphics",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-art-foundations-studio-art-as",
+      "name": "Art Foundations: Studio Art",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/music-and-art/art-foundations-studio-art/",
+      "catalog_year": null,
+      "department_ids": [
+        "MA-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Art Foundations: Studio Art",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-biotechnology-science-as",
+      "name": "Biotechnology Science",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/science/biotechnology-science/",
+      "catalog_year": null,
+      "department_ids": [
+        "SCI-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Biotechnology Science",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-business-administration-as",
+      "name": "Business Administration",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/business-administration/",
+      "catalog_year": null,
+      "department_ids": [
+        "BUS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Business Administration",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-child-care-early-childhood-education-as",
+      "name": "Child Care/Early Childhood Education",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/child-care-early-childhood-education/",
+      "catalog_year": null,
+      "department_ids": [
+        "TE-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Child Care/Early Childhood Education",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-community-health-education-as",
+      "name": "Community Health Education",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/health-studies/community-health-education/",
+      "catalog_year": null,
+      "department_ids": [
+        "HE-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Community Health Education",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-cs-as",
+      "name": "Computer Science",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-science/",
+      "catalog_year": null,
+      "department_ids": [
+        "CIS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Computer Science",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-data-science-as",
+      "name": "Data Science",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/math/data-science/",
+      "catalog_year": null,
+      "department_ids": [
+        "MATH-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Data Science",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-digital-marketing-as",
+      "name": "Digital Marketing",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/digital-marketing/",
+      "catalog_year": null,
+      "department_ids": [
+        "BUS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Digital Marketing",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-engineering-science-as",
+      "name": "Engineering Science",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/science/engineering-science/",
+      "catalog_year": null,
+      "department_ids": [
+        "SCI-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Engineering Science",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-entrepreneurship-and-innovation-as",
+      "name": "Entrepreneurship and Innovation",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/sbe/",
+      "catalog_year": null,
+      "department_ids": [
+        "BUS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Entrepreneurship and Innovation",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-financial-management-as",
+      "name": "Financial Management",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/financial-management/",
+      "catalog_year": null,
+      "department_ids": [
+        "BUS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Financial Management",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-geographic-information-science-gis-as",
+      "name": "Geographic Information Science (GIS)",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/programs/geographic-information-science-gis/",
+      "catalog_year": null,
+      "department_ids": [],
+      "relationship": "unresolved",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Geographic Information Science (GIS)",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-gerontology-as",
+      "name": "Gerontology",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/programs/gerontology/",
+      "catalog_year": null,
+      "department_ids": [],
+      "relationship": "unresolved",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Gerontology",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-human-services-as",
+      "name": "Human Services",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/human-services/",
+      "catalog_year": null,
+      "department_ids": [
+        "SOC-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Human Services",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-mathematics-as",
+      "name": "Mathematics",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/math/mathematics-program/",
+      "catalog_year": null,
+      "department_ids": [
+        "MATH-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Mathematics",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-mathematics-and-sciences-for-secondary-education-as",
+      "name": "Mathematics and Sciences for Secondary Education",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/secondary-education-program/",
+      "catalog_year": null,
+      "department_ids": [
+        "TE-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Mathematics and Sciences for Secondary Education",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-multimedia-programming-and-design-as",
+      "name": "Multimedia Programming and Design",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/media-arts-and-technology/multimedia-programming-and-design/",
+      "catalog_year": null,
+      "department_ids": [
+        "MAT-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Multimedia Programming and Design",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-music-as",
+      "name": "Music",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/music-and-art/music/",
+      "catalog_year": null,
+      "department_ids": [
+        "MA-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Music",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-public-and-nonprofit-administration-as",
+      "name": "Public and Nonprofit Administration",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/public-and-nonprofit-administration/",
+      "catalog_year": null,
+      "department_ids": [
+        "BUS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Public and Nonprofit Administration",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-public-health-as",
+      "name": "Public Health",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/health-studies/public-health/",
+      "catalog_year": null,
+      "department_ids": [
+        "HE-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Public Health",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-school-health-education-as",
+      "name": "School Health Education",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/programs/school-health-education-she/",
+      "catalog_year": null,
+      "department_ids": [],
+      "relationship": "unresolved",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / School Health Education",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-science-as",
+      "name": "Science",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/science/science/",
+      "catalog_year": null,
+      "department_ids": [
+        "SCI-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Science",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-science-for-forensics-as",
+      "name": "Science for Forensics",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/science/science-for-forensics/",
+      "catalog_year": null,
+      "department_ids": [
+        "SCI-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Science for Forensics",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-science-for-health-as",
+      "name": "Science for Health",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/science/science-for-health-professions/",
+      "catalog_year": null,
+      "department_ids": [
+        "SCI-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Science for Health",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-theatre-as",
+      "name": "Theatre",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/speech/theatre/",
+      "catalog_year": null,
+      "department_ids": [
+        "SPCH-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Theatre",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-video-arts-and-technology-as",
+      "name": "Video Arts and Technology",
+      "credential": "AS",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/media-arts-and-technology/video-arts-and-technology/",
+      "catalog_year": null,
+      "department_ids": [
+        "MAT-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Associate in Science degree (A.S.) / Video Arts and Technology",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-accounting-certificate-certificate",
+      "name": "Accounting Certificate",
+      "credential": "certificate",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/accounting/accounting-certificate-program-acp/",
+      "catalog_year": null,
+      "department_ids": [
+        "ACCT-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Certificate Programs / Accounting Certificate",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-cybersecurity-certificate-certificate",
+      "name": "Cybersecurity Certificate",
+      "credential": "certificate",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/cybersecurity-certificate/",
+      "catalog_year": null,
+      "department_ids": [
+        "CIS-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Certificate Programs / Cybersecurity Certificate",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-health-informatics-certificate-certificate",
+      "name": "Health Informatics Certificate",
+      "credential": "certificate",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/health-informatics-certificate/",
+      "catalog_year": null,
+      "department_ids": [
+        "ALHLTH-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Certificate Programs / Health Informatics Certificate",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-practical-nursing-certificate-certificate",
+      "name": "Practical Nursing Certificate",
+      "credential": "certificate",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/nursing/practical-nursing-certificate-program/",
+      "catalog_year": null,
+      "department_ids": [
+        "NUR-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Certificate Programs / Practical Nursing Certificate",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-spanish-translation-for-the-health-legal-and-business-professions-certificate-certificate",
+      "name": "Spanish Translation for the Health, Legal and Business Professions Certificate",
+      "credential": "certificate",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/spanish-translation-certificate/",
+      "catalog_year": null,
+      "department_ids": [
+        "ML-BMC"
+      ],
+      "relationship": "page_host_only",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Certificate Programs / Spanish Translation for the Health, Legal and Business Professions Certificate",
+          "catalog_year": null
+        }
+      ]
+    },
+    {
+      "id": "bmcc-program-cybersecurity-microcredential",
+      "name": "Cybersecurity",
+      "credential": "microcredential",
+      "url": "https://www.bmcc.cuny.edu/cyber-security-micro-credential/",
+      "catalog_year": null,
+      "department_ids": [],
+      "relationship": "unresolved",
+      "requirement_sources": [],
+      "status": "identity_source_verified_requirements_pending",
+      "evidence": [
+        {
+          "source_id": "program-index",
+          "locator": "Microcredential / Cybersecurity",
+          "catalog_year": null
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "department-index",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "69652a1ed065d6bf2adf6dc0edb4d0b292e43a0b044be90960d860e1c4898208",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "program-index",
+      "url": "https://www.bmcc.cuny.edu/academics/programs/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "a3af11d11bd42c40ff6e6e0b8017e2270cef7fc90ab71f697c26383aae9212a3",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support",
+      "url": "https://www.bmcc.cuny.edu/academics/courses/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "300e4b220466cc0e14599c4f7294c1247b2bc378f3d9bfa97fc66d67077dcda5",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "maps",
+      "url": "https://www.bmcc.cuny.edu/academics/advisement/advisement-resources/academic-program-maps/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "731886f293ad9c93385fa2e0ba4a1d7b9c2d976f9d409868789618ba4fffb6d3",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "bulletin-DEV-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/DEV-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "4dd72ca722f7c24ad9dd2240735bfc3196d19081d34974c4f4cd8d742bf59eb2",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-ACCT-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/ACCT-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "b1372ed9019aa276ddf5a8cc2a87109269a2f323727739b5c3d6a3f83ea5a3b5",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-ALHLTH-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/ALHLTH-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "ab5bb3edff943c1e30e46d79bf752aeafa958a54e5d2483a0a6f99a35efab69c",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-BUS-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/BUS-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "1236e17f01ce80e07085d2005516b75eee9036b98b083f2e283919d2baa754ab",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-CIS-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/CIS-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "063a1aef89288d038747dfc4ef640816d9ba4b6682ec416c2dfa6dd1e2c495ac",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-COOP-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/COOP-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "3e320a6e1f7009f3eae7d1f1d8261b8c4ea6d773f132299f8fbb8b0799f9d827",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-CRJ-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/CRJ-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "443b0b31d3a68cd6c7fdf8228c905b965db655806a1305c58e112d2d6e724a95",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-ENGL-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/ENGL-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "0392f40b13041124d10135661c1eebc565e2723f1d104a5afe8fd64097cea885",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-ETHST-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/ETHST-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "46413fb6d349a6d9fabd14844b89af764fefd84e75417cdae5ba52a06e0bdafd",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-HE-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/HE-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "af7e2d82fd439bea0068a392eded97da62d31d7bb11811dddf23663b57945896",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-MATH-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/MATH-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "2750cc0099dee073e34632705c712fcd10d9517bb8b9132322b46c05896790b9",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-MAT-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/MAT-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "4b56708d4e4862f2424f263aef6315f69d2101d082fefaeeb7be55334da78a69",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-MA-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/MA-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "472e9b8d1cb194c65f329ca7f82059757007945d110fe32f0694206ae3517319",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-NUR-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/NUR-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "0576276256d34cd4b3c262eda951b774c12a29f25218001465e88115cbf919dd",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-SCI-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/SCI-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "e838c6775948bed937f5486d5377ab6122e493993bc37fdc16098367ae180353",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-SOC-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/SOC-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "5711c3d2728d9bdd555dae273d58289b4ab1730513a9b79ea88015e0ff28db89",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-SPCH-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/SPCH-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "ba28a8f53c9de5146e9ba049a6ffdfb30536fc1d7b20ca857eae1b70e469fd9e",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-TE-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/TE-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "208a0d0e6017c8941332bf00cf1c7dd3e46959db197f8208dd146127823069a6",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "bulletin-ML-BMC",
+      "url": "https://bmcc.catalog.cuny.edu/departments/ML-BMC/courses",
+      "retrieved_on": "2026-10-17",
+      "sha256": "f5a4921ac67d84ca886a27d90853ee49f7deb91074074bfd23ecfe1e471f70fe",
+      "format": "bulletin_ssr",
+      "catalog_year": "2025-2026"
+    },
+    {
+      "id": "support-0",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/academic-literacy/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "61c097abb3300e43ef2b2c6068a46e461c5d473c9643d943f88bea51e5922be2",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-1",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/accounting/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "6086157ee6116d73868d91e5792bce15ef9353c4c32c0383ae57f008ba0aef4c",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-2",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/allied-health/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "e22cd0b595d08b3ebc19775909209251ce042e450286af125ea700a13064e3d0",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-3",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/business-management/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "051712446a42c311fa3a6800517dc91ba5a77771f4184ddd5cd6e19db140dfdc",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-4",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/cis/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "2a4d3bdb4d909b003c1d747b3629fbf3006184efbf5eae8150515f12d61874fd",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-5",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/criminal-justice/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "d2fb2d8b18e3924620f61c5f934724316789a3dd6399d8f1d24b3456af136d5e",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-6",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/ethnic-studies/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "7faefbfa5e381d0f7ed012850196691c7693f81787ccae1d175e1c18db6f9709",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-7",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/health-studies/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "6d625ecf0a64646946133916a7df39ab09187513595c98818ddfb3b04aab8195",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-8",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/math/course-listings",
+      "retrieved_on": "2026-10-17",
+      "sha256": "183efb416834941705d08f6a19b5521204d84b4ba5edfc9d946e756199bc22fa",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-9",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/media-arts-and-technology/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "bf0b0b19fb54742e3ef8eb2c800105298c8eaf70d68686c1de08bdfd2903f12d",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-10",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/music-and-art/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "65a11f8f004f0de0395f461ddf71a3ac78b644a287686a9c8b23da3b4d572f95",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-11",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/nursing/course-listings",
+      "retrieved_on": "2026-10-17",
+      "sha256": "3ccc5aa0b8a78622743ff4745e1002fb7c5a79e0fa015335bc66c116f1699358",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-12",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/science/course-listings",
+      "retrieved_on": "2026-10-17",
+      "sha256": "8039ca57bd355bfb9263d0a2f1797f7da6bc86fd0d61257ac23d09e4712362c1",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-13",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/social-sciences/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "417a8dc1a3a4f4b505f3c75d05ecbf27c2df75e52c92cb2a8a08119ee05c3db1",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-14",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/speech/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "98bcac66a759df82a3b96b864aeb87428affb650f3a29829c1639264eb955757",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-15",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/teacher-education/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "4af0243864612d699d0b80c1b4ec00d3785895c2a416602f96cdca9b8b44bef7",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-16",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/modern-languages/course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "92496a67e370b4fd304a98c211f39fef01c173f2753e6b08b3fa071ebd3780f7",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    },
+    {
+      "id": "support-17",
+      "url": "https://www.bmcc.cuny.edu/academics/departments/english/english-department-course-listings/",
+      "retrieved_on": "2026-10-17",
+      "sha256": "5948b3e7ee5768cef3c39832c89b529280d67bd8e300e7394a1cc40e1172f455",
+      "format": "visible_dom_extract",
+      "catalog_year": null
+    }
+  ],
+  "page": {
+    "snapshot_id": "bmcc-bulletin-2025-2026-20261017-r1",
+    "catalog_year": "2025-2026",
+    "total": 3,
+    "offset": 0,
+    "limit": 20,
+    "items": [
+      {
+        "id": "bmcc-bulletin-1235291",
+        "code": "CSC 101",
+        "source_code": "CSC 101",
+        "prefix": "CSC",
+        "number": "101",
+        "title": "Principles in Information Technology and Computation",
+        "description": "This course introduces the student to the principles and theories of computation and information processing.  The topics include hardware and software organization, data representation, algorithm development and networking principles.  Special emphasis will be placed on creation of knowledge from data; the impact of computation on daily life; role of abstraction in solving problems; and implementation of algorithms on a variety of platforms including the Internet.",
+        "description_original": "This course introduces the student to the principles and theories of computation and information processing.  The topics include hardware and software organization, data representation, algorithm development and networking principles.  Special emphasis will be placed on creation of knowledge from data; the impact of computation on daily life; role of abstraction in solving problems; and implementation of algorithms on a variety of platforms including the Internet.",
+        "credits_min": "3",
+        "credits_max": "3",
+        "contact_hours": "4",
+        "lecture_hours": "4",
+        "lab_hours": null,
+        "department_ids": [
+          "CIS-BMC"
+        ],
+        "designations": [],
+        "prerequisite": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "corequisite": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "minimum_grade": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "placement_permission": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "enrollment_restrictions": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "cross_listing": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "catalog_year": "2025-2026",
+        "effective_start": "2015-09-01",
+        "effective_end": null,
+        "evidence": [
+          {
+            "source_id": "bulletin-CIS-BMC",
+            "locator": "CSC 101 / 1235291-2015-09-01",
+            "catalog_year": "2025-2026"
+          }
+        ],
+        "status": "facts_source_verified_rules_pending"
+      },
+      {
+        "id": "bmcc-bulletin-0888571",
+        "code": "MAT 301",
+        "source_code": "MAT 301",
+        "prefix": "MAT",
+        "number": "301",
+        "title": "Analytic Geometry and Calculus I",
+        "description": "This is an integrated course in analytic geometry and calculus, applied to functions of a single variable. It covers a study of rectangular coordinates in the plane, equations of conic sections, functions, limits, continuity, related rates, differentiation of algebraic and transcendental functions, Rolle's Theorem, the Mean Value Theorem, maxima and minima, and integration.",
+        "description_original": "This is an integrated course in analytic geometry and calculus, applied to functions of a single variable. It covers a study of rectangular coordinates in the plane, equations of conic sections, functions, limits, continuity, related rates, differentiation of algebraic and transcendental functions, Rolle's Theorem, the Mean Value Theorem, maxima and minima, and integration.",
+        "credits_min": "4",
+        "credits_max": "4",
+        "contact_hours": "6",
+        "lecture_hours": "6",
+        "lab_hours": null,
+        "department_ids": [
+          "MATH-BMC"
+        ],
+        "designations": [
+          "MECS - ME_COSC_1 (Calc-I or Analy Geo & Calc-I)",
+          "UTCO - UT_COSC_3 (Calc I or Analytic Geo/Calc-I)",
+          "UTEG - UT_EGIN_1 (Calculus I)",
+          "UTMA - UT_MATH_1 (Calculus I)"
+        ],
+        "prerequisite": {
+          "text": "This is an integrated course in analytic geometry and calculus, applied to functions of a single variable. It covers a study of rectangular coordinates in the plane, equations of conic sections, functions, limits, continuity, related rates, differentiation of algebraic and transcendental functions, Rolle's Theorem, the Mean Value Theorem, maxima and minima, and integration.\nPrerequisite: MAT 206 or MAT 206.5Course Syllabus",
+          "raw_reference": null,
+          "status": "provisional",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [
+            {
+              "source_id": "support-8",
+              "locator": "#sect_tile_35 / MAT 301",
+              "catalog_year": null
+            }
+          ],
+          "academic_review": "required"
+        },
+        "corequisite": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "minimum_grade": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "placement_permission": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "enrollment_restrictions": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "cross_listing": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "catalog_year": "2025-2026",
+        "effective_start": "2025-08-26",
+        "effective_end": null,
+        "evidence": [
+          {
+            "source_id": "bulletin-MATH-BMC",
+            "locator": "MAT 301 / 0888571-2025-08-26",
+            "catalog_year": "2025-2026"
+          }
+        ],
+        "status": "facts_source_verified_rules_pending"
+      },
+      {
+        "id": "bmcc-bulletin-0888581",
+        "code": "MAT 302",
+        "source_code": "MAT 302",
+        "prefix": "MAT",
+        "number": "302",
+        "title": "Analytic Geometry and Calculus II",
+        "description": "This course is an introduction to the concepts of integration. It covers the integration of algebraic and transcendental functions. Topics include the anti-derivative, the definite integral, areas, volumes, applications, the improper integral, infinite sequences and series, Taylor\u2019s Theorem. MAT 302 has a computer laboratory component. Students utilize computer software such as graphing packages, a computer algebra system, and a mathematical word processor to complete laboratory assignments associated with their calculus course.",
+        "description_original": "This course is an introduction to the concepts of integration. It covers the integration of algebraic and transcendental functions. Topics include the anti-derivative, the definite integral, areas, volumes, applications, the improper integral, infinite sequences and series, Taylor\u2019s Theorem. MAT 302 has a computer laboratory component. Students utilize computer software such as graphing packages, a computer algebra system, and a mathematical word processor to complete laboratory assignments associated with their calculus course.",
+        "credits_min": "4",
+        "credits_max": "4",
+        "contact_hours": "6",
+        "lecture_hours": "6",
+        "lab_hours": null,
+        "department_ids": [
+          "MATH-BMC"
+        ],
+        "designations": [
+          "MECS - ME_COSC_2 (Calc-II or Analy Geo & Calc-II)",
+          "UTCO - UT_COSC_4 (Calc-II or AnalyticGeo/Calc-II)",
+          "UTEG - UT_EGIN_2 (Calculus II)",
+          "UTMA - UT_MATH_2 (Calculus II)"
+        ],
+        "prerequisite": {
+          "text": "This course is an introduction to the concepts of integration. It covers the integration of algebraic and transcendental functions. Topics include the anti-derivative, the definite integral, areas, volumes, applications, the improper integral, infinite sequences and series, Taylor's Theorem. MAT 302 has a computer laboratory component. Students utilize computer software such as graphing packages, a computer algebra system, and a mathematical word processor to complete laboratory assignments associated with their calculus course.\nPrerequisite: MAT 301Course Syllabus",
+          "raw_reference": null,
+          "status": "provisional",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [
+            {
+              "source_id": "support-8",
+              "locator": "#sect_tile_36 / MAT 302",
+              "catalog_year": null
+            }
+          ],
+          "academic_review": "required"
+        },
+        "corequisite": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "minimum_grade": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "placement_permission": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "enrollment_restrictions": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "cross_listing": {
+          "text": null,
+          "raw_reference": null,
+          "status": "unresolved",
+          "expression": {
+            "op": "unknown",
+            "reason": "Source did not establish a structured interpretation"
+          },
+          "evidence": [],
+          "academic_review": "required"
+        },
+        "catalog_year": "2025-2026",
+        "effective_start": "2025-08-26",
+        "effective_end": null,
+        "evidence": [
+          {
+            "source_id": "bulletin-MATH-BMC",
+            "locator": "MAT 302 / 0888581-2025-08-26",
+            "catalog_year": "2025-2026"
+          }
+        ],
+        "status": "facts_source_verified_rules_pending"
+      }
+    ]
+  }
+}

@@ -1,9 +1,25 @@
 # Implementation roadmap
 
 Status: proposed sequence with bounded implementation, 2026-10-17.
-Phases 03A/03B and 04A are merged. Phase 04B institutional registry is implemented locally for owner PR review; Phase 04C remains gated.
+Phases 03A/03B and 04A are merged. Phase 04B is merged through PR #12. Phase 04C-1 BMCC source browsing/ingestion is implemented for owner PR review; Phase 04C-2 remains gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
+
+## Phase 04C-1 — BMCC catalog ingestion (implemented for owner review)
+
+Source-backed 2025–2026 Bulletin browsing snapshot, separate from existing 2026–2027
+CS/CIS audit drafts. Explicit source collection, offline staging, source-fact review,
+coverage/discrepancy reporting and immutable migration/import. 18 academic departments
+plus one offering unit, 67 program-list identities, 1,263 credit courses. Two ambiguous
+Italian codes remain quarantined; all new structured eligibility interpretations remain
+unresolved. Supporting website texts have unconfirmed year applicability.
+
+Read-only source catalog API and an on-demand BMCC course browser preserve chat-first
+UX, exact credits, four-column selector/progress and existing releases. No requirement
+publication, evaluator change, other-campus activation, Gemini, student records,
+registration or deployment. [Design, sources and coverage](BMCC_CATALOG_INGESTION.md),
+[actual verification](PHASE_04C1_VERIFICATION.md). Dedicated PR requires owner review.
+Full program-specific requirements and validation belong to separately authorized 04C-2.
 
 ## Phase 04B — Institutional registry (implemented for owner review)
 
@@ -17,7 +33,7 @@ Acceptance evidence: [registry design/source mapping](INSTITUTIONAL_REGISTRY.md)
 [executed verification](PHASE_04B_VERIFICATION.md), full PostgreSQL regressions,
 responsive browser checks and actual local PostgreSQL → FastAPI → Next.js workflow.
 Gemini live verification remains pending/unavailable, not an exit dependency here.
-Owner must review the dedicated PR before merge. No Phase 04C work has started.
+Historical Phase 04B delivery required owner review; it is now merged through PR #12.
 
 ## Phase 03B — Multi-campus profile foundation (implemented, historical slice)
 

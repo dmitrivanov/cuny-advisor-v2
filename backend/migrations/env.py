@@ -7,6 +7,7 @@ from sqlalchemy import text
 
 from app.persistence.config import SCHEMA, local_engine
 from app.persistence.schema import metadata
+from app.catalog_ingestion import schema as browse_schema  # noqa: F401
 
 if context.is_offline_mode():
     raise RuntimeError(

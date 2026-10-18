@@ -1,0 +1,684 @@
+{
+  "department_id": "CRJ-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "c1fc02b1b25ae9b20c27ced95673e95e15595ca61615894506d2cef4ee4cdaad",
+  "records": [
+    {
+      "id": "0881231-2025-08-26",
+      "courseGroupId": "0881231",
+      "code": "CRJ 101",
+      "subjectCode": "CRJ",
+      "courseNumber": "101",
+      "longName": "Introduction to Criminal Justice",
+      "name": "Intro Criminal Justice",
+      "description": "Criminal Justice is the field that studies formal social control. This course covers the processing of crime by agents of formal control (police, courts, and institutional corrections). The general focus is on understanding the complex interactions of structures and agents in the system. Of particular concern are discretion and diversity in law enforcement, due process in criminal courts, and the punishment-rehabilitation dichotomy in corrections. The ultimate goal is to provide a critical foundation that prepares students for the challenges of a career in criminal justice.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [
+        "MECJ - ME_CRIM_2 (Intro to Criminal Justice)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MECJ - ME_CRIM_2 (Intro to Criminal Justice)"
+      ]
+    },
+    {
+      "id": "1367061-2025-08-26",
+      "courseGroupId": "1367061",
+      "code": "CRJ 101H",
+      "subjectCode": "CRJ",
+      "courseNumber": "101H",
+      "longName": "Introduction to Criminal Justice (Honors)",
+      "name": "Intr Criminal Justice (Honors)",
+      "description": "Criminal Justice is the field that studies formal social control. This course covers the processing of crime by agents of formal control (police, courts, and institutional corrections). The general focus is on understanding the complex interactions of structures and agents in the system. Of particular concern are discretion and diversity in law enforcement, due process in criminal courts, and the punishment-rehabilitation dichotomy in corrections. The ultimate goal is to provide a critical foundation that prepares students for the challenges of a career in criminal justice.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MECJ - ME_CRIM_2 (Intro to Criminal Justice)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MECJ - ME_CRIM_2 (Intro to Criminal Justice)"
+      ]
+    },
+    {
+      "id": "0881241-2025-08-26",
+      "courseGroupId": "0881241",
+      "code": "CRJ 102",
+      "subjectCode": "CRJ",
+      "courseNumber": "102",
+      "longName": "Criminology",
+      "name": "Criminology",
+      "description": "This is an introductory and foundational course in the study of crime and justice. It is designed to introduce students to the various historical and contemporary theories and empirical research used to understand deviant and criminal behavior. This course takes a critical approach to the study of the definition and measurement of crime, as well as applications of these theories to practice and in policy. Offending and victimization, as these relate to specificcrime types (i.e., white collar crime, violent crime, sex crime, drug related crimes, etc.) will be explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [
+        "MECJ - ME_CRIM_3 (Criminology)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MECJ - ME_CRIM_3 (Criminology)"
+      ]
+    },
+    {
+      "id": "1364871-2025-08-26",
+      "courseGroupId": "1364871",
+      "code": "CRJ 102H",
+      "subjectCode": "CRJ",
+      "courseNumber": "102H",
+      "longName": "Criminology (Honors)",
+      "name": "Criminology (Honors)",
+      "description": "This is an introductory and foundational course in the study of crime and justice. It is designed to introduce students to the various historical and contemporary theories and empirical research used to understand deviant and criminal behavior. This course takes a critical approach to the study of the definition and measurement of crime, as well as applications of these theories to practice and in policy. Offending and victimization, as these relate to specificcrime types (i.e., white collar crime, violent crime, sex crime, drug related crimes, etc.) will be explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "MECJ - ME_CRIM_3 (Criminology)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MECJ - ME_CRIM_3 (Criminology)"
+      ]
+    },
+    {
+      "id": "1337381-2025-08-26",
+      "courseGroupId": "1337381",
+      "code": "CRJ 200",
+      "subjectCode": "CRJ",
+      "courseNumber": "200",
+      "longName": "Constitutional Law",
+      "name": "Constitutional Law",
+      "description": "This course provides a historical overview of the relationship of the states of the Bill of Rights, and how the Supreme Court has interpreted the powers of the federal government. The effect of the due process clause of the Fourteenth Amendment on the application of the Bill of Rights to the states is examined through a study of the leading Supreme Court decisions related to criminal justice. Topics include characteristics and powers of the three branches of government, the principles governing the operation of the Bill of Rights, and the variables affecting the formulation of judicial policy.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881251-2025-08-26",
+      "courseGroupId": "0881251",
+      "code": "CRJ 201",
+      "subjectCode": "CRJ",
+      "courseNumber": "201",
+      "longName": "Policing",
+      "name": "Policing",
+      "description": "This course is intended to broaden the student's understanding of the origins and development of law enforcement agencies in the United States. Moreover, the course will examine the complex role of the police in a democratic society in the criminal justice system. An emphasis will be placed on recruitment, the training process and the importance of diversity, particularly among larger police departments in the U.S. The course will also examine contemporary legal issues and modern strategies such as community, evidence-based, intelligence-led and predictive policing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [
+        "MECJ - ME_CRIM_1 (Intro to Law Enforcement)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "MECJ - ME_CRIM_1 (Intro to Law Enforcement)"
+      ]
+    },
+    {
+      "id": "1364861-2025-08-26",
+      "courseGroupId": "1364861",
+      "code": "CRJ 201H",
+      "subjectCode": "CRJ",
+      "courseNumber": "201H",
+      "longName": "Policing (Honors)",
+      "name": "Policing (Honors)",
+      "description": "This course is intended to broaden the student's understanding of the origins and development of law enforcement agencies in the United States. Moreover, the course will examine the complex role of the police in a democratic society in the criminal justice system. An emphasis will be placed on recruitment, the training process and the importance of diversity, particularly among larger police departments in the U.S. The course will also examine contemporary legal issues and modern strategies such as community, evidence-based, intelligence-led and predictive policing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881261-2025-08-26",
+      "courseGroupId": "0881261",
+      "code": "CRJ 202",
+      "subjectCode": "CRJ",
+      "courseNumber": "202",
+      "longName": "Corrections",
+      "name": "Corrections",
+      "description": "This course examines the history of criminal punishment in Western society, emphasizing the United States. The course highlights social forces (political, religious, economic, and technological) shaping punishment; reviews commontheories (deterrence, retribution, rehabilitation, incapacitation, and restoration) and examines how theory relates to policy. The course takes a critical approach to correctional systems and policies by considering disparities and structural inequalities. Empirical evidence is used to examine contemporary crises of punishment (i.e., mass incarceration, school-to-prison pipeline) as well as prison culture, staffing, privatization, and prisoner civil rights. Alternatives to traditional punishment, especially restorative justice models, are explored.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881271-2025-08-26",
+      "courseGroupId": "0881271",
+      "code": "CRJ 203",
+      "subjectCode": "CRJ",
+      "courseNumber": "203",
+      "longName": "Criminal Law",
+      "name": "Criminal Law",
+      "description": "This is an introductory course in the study of criminal law. The focus is on how it functions in and affects modern society, with a particular emphasis on understanding both the objectives and the limitations of law as an apparatus ofsocial control. This course will cover the principles underlying the definition of crime, the purpose of punishment, and the general doctrines, such as attempt, causation and conspiracy. Throughout the course, a review of U.S. Supreme Court ruling and their role in the evolving nature of theory of criminal law will also be covered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881281-2025-08-26",
+      "courseGroupId": "0881281",
+      "code": "CRJ 204",
+      "subjectCode": "CRJ",
+      "courseNumber": "204",
+      "longName": "Criminal Justice and the Urban Community",
+      "name": "Crim Just Urb Commu",
+      "description": "This course takes a critical approach to the study of crime and justice in urban settings. Course materials examine contemporary crime-related issues that affect urban communities within a historical and sociological context. The course highlights the intersections of deviant behavior and the criminal justice system within the structures of class, race, gender, and power inequalities. Topics explored may include racial profiling, juvenile delinquency, media representations of crime, policing, the war on drugs, and prisoner re-entry.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1367371-2025-08-26",
+      "courseGroupId": "1367371",
+      "code": "CRJ 204H",
+      "subjectCode": "CRJ",
+      "courseNumber": "204H",
+      "longName": "Criminal Justice and the Urban Community (Honors)",
+      "name": "Crim Just Urb Commu (Honors)",
+      "description": "This course takes a critical approach to the study of crime and justice in urban settings. Course materials examine contemporary crime-related issues that affect urban communities within a historical and sociological context. The course highlights the intersections of deviant behavior and the criminal justice system within the structures of class, race, gender, and power inequalities. Topics explored may include racial profiling, juvenile delinquency, media representations of crime, policing, the war on drugs, and prisoner re-entry.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1480801-2025-08-26",
+      "courseGroupId": "1480801",
+      "code": "CRJ 300",
+      "subjectCode": "CRJ",
+      "courseNumber": "300",
+      "longName": "Selected Topics in Criminology",
+      "name": "Selected Topics in Criminology",
+      "description": "This course will explore a significant topic, concept, theme or methodology ofinterest in the field of criminology, which studies crime as a social phenomenon. Topics for the following semester will be chosen by the instructor and will be made available during registration. Each section of the course will cover in depth a single special topic related to criminology, such as one of the following: Race and Crime; Gender and Crime; Media/Culture and Crime; Drugs and Crime; Theories of Juvenile Offending and Justice; Critical Criminology; Cultural Criminology; Crime and Social Problems; Criminal Deviance; Green Criminology; Elite Crime/White Collar Crime; Cyber Criminology; Organized Crime; Immigration (or Migration and crime); Victimology; Violent Crime; Fear of Crime; Perspectives on Terrorism; Narrative, Ethnographic or Qualitative Methodologies; Feminist Criminology.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1480811-2025-08-26",
+      "courseGroupId": "1480811",
+      "code": "CRJ 301",
+      "subjectCode": "CRJ",
+      "courseNumber": "301",
+      "longName": "Selected Topics in Criminal Justice",
+      "name": "Selected Topics in Crim Just",
+      "description": "This course will study a significant topic, concept, theme or methodology ofinterest in the field of criminal justice, including an understanding of institutional theory and practice. Topics for the following semester will be chosen by the instructor and will be made available during registration. Each Section of the course will cover in depth a single special topic related to criminal justice, such as one of the following: Administration of justice (policing, corrections, and /or courts); Comparative Criminal Justice (policing, corrections, and/or courts); Class, Sexuality and/or Gender and the Law; Immigration and the Law; Criminal Justice Ethics; Civil rights and Criminal Procedure; Criminal Law; Jurisprudence; Probation and Parole; Practices of Counter Terrorism; Juvenile Justice.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "CRJ-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

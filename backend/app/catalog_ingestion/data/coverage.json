@@ -1,0 +1,110 @@
+{
+  "snapshot_id": "bmcc-bulletin-2025-2026-20261017-r1",
+  "source_units": 19,
+  "academic_departments": 18,
+  "program_listing_entries": 67,
+  "programs_by_credential": {
+    "AA": 25,
+    "AS": 28,
+    "AAS": 8,
+    "certificate": 5,
+    "microcredential": 1
+  },
+  "course_listing_rows": 1278,
+  "unique_listed_codes": 1276,
+  "imported_credit_courses": 1263,
+  "excluded": [
+    {
+      "code": "ESL 49",
+      "reason": "non_credit"
+    },
+    {
+      "code": "ESL 54",
+      "reason": "non_credit"
+    },
+    {
+      "code": "ESL 96",
+      "reason": "non_credit"
+    },
+    {
+      "code": "MAT 8",
+      "reason": "non_credit"
+    },
+    {
+      "code": "MAT 12",
+      "reason": "non_credit"
+    },
+    {
+      "code": "MAT 14",
+      "reason": "non_credit"
+    },
+    {
+      "code": "MAT 41",
+      "reason": "non_credit"
+    },
+    {
+      "code": "MAT 51",
+      "reason": "non_credit"
+    },
+    {
+      "code": "MAT 56",
+      "reason": "non_credit"
+    },
+    {
+      "code": "MAT 56.5",
+      "reason": "non_credit"
+    },
+    {
+      "code": "MES 1",
+      "reason": "non_credit"
+    }
+  ],
+  "conflicting_codes": [
+    "ITL 180E",
+    "ITL 190E"
+  ],
+  "courses_with_description": 1263,
+  "courses_with_prerequisite_text": 656,
+  "field_coverage": {
+    "contact_hours": {
+      "captured": 1263,
+      "denominator": 1263
+    },
+    "lecture_hours": {
+      "captured": 1242,
+      "denominator": 1263
+    },
+    "lab_hours": {
+      "captured": 70,
+      "denominator": 1263
+    }
+  },
+  "rule_text_coverage": {
+    "prerequisite": {
+      "captured": 656,
+      "denominator": 1263
+    },
+    "corequisite": {
+      "captured": 125,
+      "denominator": 1263
+    },
+    "minimum_grade": {
+      "captured": 30,
+      "denominator": 1263
+    },
+    "placement_permission": {
+      "captured": 324,
+      "denominator": 1263
+    },
+    "enrollment_restrictions": {
+      "captured": 18,
+      "denominator": 1263
+    },
+    "cross_listing": {
+      "captured": 21,
+      "denominator": 1263
+    }
+  },
+  "verified_structured_rules": 0,
+  "program_department_page_links": 61
+}

@@ -1,6 +1,7 @@
 "use client";
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
 import Link from "next/link";
+import { BmccCourseBrowser } from "./bmcc-course-browser";
 import { useInstitutions } from "@/components/campus/institutions-provider";
 import { useAdvising } from "@/components/campus/advising-provider";
 import { AdaptiveProfile } from "@/components/campus/adaptive-profile";
@@ -677,6 +678,7 @@ export function Workspace({ campus }: { campus: Campus }) {
               </p>
             ) : (
               <>
+                {state.active === "catalog" && <BmccCourseBrowser />}
                 <div className="module-context">
                   <p className="text-sm">
                     {summary

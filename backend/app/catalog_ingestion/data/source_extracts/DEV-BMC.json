@@ -1,0 +1,3313 @@
+{
+  "department_id": "DEV-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "f959b8307a946e9509f422e1f0340f02c69f35fa4b532e8bfed39f76b2a59e05",
+  "records": [
+    {
+      "id": "1533141-2024-08-28",
+      "courseGroupId": "1533141",
+      "code": "ACL 100",
+      "subjectCode": "ACL",
+      "courseNumber": "100",
+      "longName": "Creative Literacies",
+      "name": "Creative Literacies",
+      "description": "This course is an inquiry-driven, creative course through which students will experiment with a range of multidisciplinary methods employed by creative thinkers (e.g., artists, activists, scientists, business leaders, advertisers, educators) and apply those methods to complete creative projects related to the field of literacy and language studies. Students will employ a range of multiliteracy strategies for creative thinking to make visible the processes involved in the acts of observing, imagining, envisioning, innovative problem-solving, and creating. Exploring how individuals use the tools of creativity for purposes of inquiry and creation in a wide range of literacy- and language-based contexts and practices, students will examine the relationship between experience and creative expression (e.g., creation and identity; creation as activist practice; creation as an act of healing). Students will reflect on their processes and explore how creation is also an act of learning.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1538691-2025-01-25",
+      "courseGroupId": "1538691",
+      "code": "ACL 110",
+      "subjectCode": "ACL",
+      "courseNumber": "110",
+      "longName": "Literacy for the Humanities",
+      "name": "Literacy for the Humanities",
+      "description": "Students will learn academic strategies for reading and writing effectively and critically in the humanities and related fields (e.g., anthropology, law, political science, philosophy, religion, etc.). Students will apply strategies for navigating and interpreting an array of authentic texts in the humanities by focusing on vocabulary, grammatical and rhetorical choices, and authorial awareness. This course will ultimately help students think, read, and write like experts in the humanities.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1561971-2025-01-25",
+      "courseGroupId": "1561971",
+      "code": "ACL 115",
+      "subjectCode": "ACL",
+      "courseNumber": "115",
+      "longName": "AI Literacies for Innovative Thinking",
+      "name": "AI Literacies Innovative Thnkg",
+      "description": "Design thinking is a method of innovative thinking and critical reasoning that is a creative, empathy-driven, and transdisciplinary approach to solving real-world, theoretical/academic, “wicked”, and hypothetical problems. In this class, students practice the principles of design thinking and hone the information and critical literacy skills required to effectively, critically, and innovative employ generative artificial intelligence (AI) to solve problems in their respective fields of study. Specific attention will be paid to the strengths and limitations of generative AI and its ever-evolving nature. Through class discussions, interactive activities, group projects, and user-driver projects, students become flexible, proactive, and forward-thinking individuals with skill sets that are highly desirable in a range of increasing technology-driven academic and career settings. This course will be of interest to students in a variety of programs from business, marketing, and entrepreneurship to education, engineering, the arts and sciences, and allied health. This class will partially meet in a computer lab to allow for students to practice strategically and academic employing generative AI.\n\nThis course is a collaboration between Academic Literacy & Linguistics and Business Management. The course is housed in and scheduled by Academic Literacy & Linguistics and taught by faculty in both departments.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1538851-2022-07-01",
+      "courseGroupId": "1538851",
+      "code": "ACL 120",
+      "subjectCode": "ACL",
+      "courseNumber": "120",
+      "longName": "Reading for Justice and Law",
+      "name": "Reading for Justice and Law",
+      "description": "This course will familiarize students with critical concepts that shape the U.S. legal system, and its administration of justice, with a concentration on reading to understand the relationship between law and justice and its impact on our daily lives. As such, students will learn about the systems and institutions that shape the legal framework of the United States through the reading of various texts, including, but not limited to, case studies, memoirs, scholarly articles, and investigative reports. Readings and discussions will center around the foundational elements of the U.S. legal system, such as the Constitution and the criminal justice system which students will critically analyze through varied legal and philosophical lenses. Topics may include theories of justice and law, with a focus on the penal system, trial by jury, the death penalty, and practical applications of legal vocabulary. Critical reading skills and comprehension of the lexicon of law and basic legal concepts will be prioritized throughout the course.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1556241-2024-01-25",
+      "courseGroupId": "1556241",
+      "code": "ACL 125",
+      "subjectCode": "ACL",
+      "courseNumber": "125",
+      "longName": "Introduction to the Study of Literacy: Interdisciplinary Perspectives",
+      "name": "Intro to the Study of Literacy",
+      "description": "This course introduces students to a broad range of conversations in the interdisciplinary field of literacy studies. Students will examine the relationship between the individual (and their processes and practices), ?written? discourse (the discursive meaning of signs and structures), and social context. Students will discuss how scholars and practitioners from multiple disciplines and fields (e.g., arts, humanities, social/behavioral sciences, and natural sciences) have constructed the field of literacy studies, how they frame conversations to guide their scholarship and work, and how they employ varied and interdisciplinary methodologies to study and/or engage with literacy-based phenomena. To help students understand the interdisciplinary nature of the field, students will practice applying and blending disciplinary lenses to participate in and create interdisciplinary conversations about literacy processes, practices, and events. Special attention will be paid to the relationship between literacy practices, democracy, justice, and solidarity.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1565991-2024-08-28",
+      "courseGroupId": "1565991",
+      "code": "ACL 135",
+      "subjectCode": "ACL",
+      "courseNumber": "135",
+      "longName": "Critical Literacies & Empowerment",
+      "name": "Crit Literacies & Empowerment",
+      "description": "This is a personal and practical course through which students explore their own literacy processes and practices, reflecting upon the role that literacy has played in shaping their own lives, experiences, and identities and interrogating ideologies they hold about literacy and literate practice. Reflecting upon the ways in which they have been socialized into literacy practices, students will examine how their own literacy practices have been valued or negated, discuss literacy practices as both markers of identity and as tools for building identity, and reflect upon the relationship between their own literacy practices and their personal agency, voice, community engagement, and socioeconomic capital. A key aspect of this course will be engaging students in critical discussions of the concept of “cultural literacy” and its relationship to power, applying these discussions to their own lives.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1502841-2024-08-28",
+      "courseGroupId": "1502841",
+      "code": "ACL 150",
+      "subjectCode": "ACL",
+      "courseNumber": "150",
+      "longName": "Literacy in the United States",
+      "name": "Literacy in the United States",
+      "description": "This course asks students to investigate the varieties of literacy behaviors in American society as sociocultural phenomena. Students will be exposed to the research of major scholars in the interdisciplinary field of literacy research (e.g., New Literacy Studies) as a means of considering the role literacy and literacy behavior plays, both historically and in a contemporary context, in a diverse American society. Students will analyze the various definitions of literacy and track the development of multiple literacies in American society, specifically studying the transmission of literacy as a cultural value, particularly in oppressed communities. The course will provide the students with the opportunity to analyze and reflect on their personal relationship with literacy and opportunities for upward mobility in a stratified United States.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557351-2024-08-28",
+      "courseGroupId": "1557351",
+      "code": "ACL 150H",
+      "subjectCode": "ACL",
+      "courseNumber": "150H",
+      "longName": "Literacy in the United States (Honors)",
+      "name": "Literacy in the US (Honors)",
+      "description": "Literacy in American Society asks students to investigate the varieties of literacy behaviors in American society as sociocultural phenomena. Students will be exposed to the research of major scholars in the interdisciplinary field of literacy research (e.g., New Literacy Studies) as a means of considering the role literacy and literacy behavior plays, both historically and in a contemporary context, in a diverse American society. Students will analyze the various definitions of literacy and track the development of multiple literacies in American society, specifically studying the transmission of literacy as a cultural value, particularly in oppressed communities. The course will provide the students with the opportunity to analyze and reflect on their personal relationship with literacy and opportunities for upward mobility in a stratified United States.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1538861-2022-07-01",
+      "courseGroupId": "1538861",
+      "code": "ACL 175",
+      "subjectCode": "ACL",
+      "courseNumber": "175",
+      "longName": "The Literacy & Language Practices of Activism & Social Change",
+      "name": "Lit/Lang Prac Actvsm & SocChg",
+      "description": "Reflecting on activist texts and language events as part of the literacy traditions of democracy, students will examine, through critical literacy perspectives, how activism and activist practice are situated as literacy practices. Students will learn about the links between literacy and activism. Through frameworks like discourse and rhetorical analysis, students will critically analyze how identity and agency/empowerment are enacted in a broad range of activist texts and language events from across the globe. Specifically, students will analyze the varied ways that diverse activists with different perspectives employ a tradition of discursive and rhetorical strategies to create their movements in conversation with historic and contemporary texts/language events of social change.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1506951-2023-04-01",
+      "courseGroupId": "1506951",
+      "code": "ACL 195",
+      "subjectCode": "ACL",
+      "courseNumber": "195",
+      "longName": "Literacy, Development, and Social Justice",
+      "name": "Literacy, Dev, and Soc Justice",
+      "description": "In this course, students will examine how, in both “developed” and “developing” contexts, local, national, and global policies and institutions affect an individual’s socialization into and acquisition of literacy (e.g., in educational and social contexts). Specifically, students will examine how socialization into and acquisition of literacy relate to the civic participation and socioeconomic opportunities of members of marginalized and minority communities (e.g., communities organized around gender, class, colonial status, race/ethnicity/tribal affiliation, sexuality, and/or religious sect). Students will analyze, through intersectional and postcolonial lenses, how cultural conventions (e.g., norms, prejudices, hierarchies, and traditions) influence and are influenced by local, national, and global policies related to literacy practices and education (particularly as they relate to gender). Further, students will examine how, in an increasingly globalized and neocolonial world, conceptions of and access to literacies can affect a) the maintenance of cultural values and practices and b) an individual’s rights, agency, and mobility (particularly as these phenomena relate to gender). Emphasis will be on how literacy acquisition, civic participation, social justice, and socioeconomic opportunities relate to how gendered individuals are valued, perceived, and defined in various cultural contexts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1578281-2023-04-01",
+      "courseGroupId": "1578281",
+      "code": "ACL 195H",
+      "subjectCode": "ACL",
+      "courseNumber": "195H",
+      "longName": "Literacy, Development, and Social Justice (Honors)",
+      "name": "Lit, Dev, and Soc Just (Hon)",
+      "description": "In this course, students will examine how, in both “developed” and “developing” contexts, local, national, and global policies and institutions affect an individual’s socialization into and acquisition of literacy (e.g., in educational and social contexts). Specifically, students will examine how socialization into and acquisition of literacy relate to the civic participation and socioeconomic opportunities of members of marginalized and minority communities (e.g., communities organized around gender, class, colonial status, race/ethnicity/tribal affiliation, sexuality, and/or religious sect). Students will analyze, through intersectional and postcolonial lenses, how cultural conventions (e.g., norms, prejudices, hierarchies, and traditions) influence and are influenced by local, national, and global policies related to literacy practices and education (particularly as they relate to gender). Further, students will examine how, in an increasingly globalized and neocolonial world, conceptions of and access to literacies can affect a) the maintenance of cultural values and practices and b) an individual’s rights, agency, and mobility (particularly as these phenomena relate to gender). Emphasis will be on how literacy acquisition, civic participation, social justice, and socioeconomic opportunities relate to how gendered individuals are valued, perceived, and defined in various cultural contexts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1354141-2023-04-01",
+      "courseGroupId": "1354141",
+      "code": "ACL 200",
+      "subjectCode": "ACL",
+      "courseNumber": "200",
+      "longName": "Literacy Practices: Birth through Adolescence",
+      "name": "Literacy Practices:Birth-Adole",
+      "description": "This course is designed to help students understand a) how diverse children and adolescents learn, acquire, and utilize literacy skills and engage in literacy practices in varied contexts and b) how to support children’s literacy and development through culturally relevant practices. Students will analyze how cultural values affect beliefs about what it means to be literate in childhood and adolescence, and students will examine the relationship between cultural values, literacy practices, families, and communities. Students will practice meaningful strategies that will help them understand how to integrate literacy into family and community-based settings.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2023-04-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1565921-2024-08-28",
+      "courseGroupId": "1565921",
+      "code": "ACL 201",
+      "subjectCode": "ACL",
+      "courseNumber": "201",
+      "longName": "Libraries, Archives, & Literacies",
+      "name": "Lib, Archives, & Literacies",
+      "description": "Focusing on the nature of libraries and archives as sites of justice, empowerment, resistance, and agency for diverse communities, this interdisciplinary course examines the special role that libraries and archives, as community organizations, play in both building individuals' literacy practices and expanding communities' access to literacy. In both historical and contemporaneous contexts, students will critically examine the ways in which diverse communities build libraries and archives and establish them as educational, communal, and cultural sites. Students engage with topics including, but not limited to, the role of the public library and archive as publicly funded literacy space, the diverse range of libraries and archives, the practices of resource selection and censorship, the role of the library in times of disaster, the role that space and design play in supporting literacy practices, and questions about how libraries and archives evolve to support the ever-expanding literacy needs of the communities they serve. Students will visit and observe libraries and archives in the New York City region.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1565941-2024-08-28",
+      "courseGroupId": "1565941",
+      "code": "ACL 205",
+      "subjectCode": "ACL",
+      "courseNumber": "205",
+      "longName": "Health Literacies",
+      "name": "Health Literacies",
+      "description": "This interdisciplinary course asks students to examine the literacy skills individuals must possess in order to navigate complex discourses related to health and medicine and make informed decisions about physical and mental healthcare. Students will learn about and apply literacy strategies that diverse individuals across the lifespan (e.g., individuals with literacy and/or language [dis]abilities, ELLs, seniors) can employ to access, decode, comprehend, reason about, and apply the discourses of health and medicine. Through practical, hands-on activities, students will hone health literacy skills vital for both self-care and empathic advocacy of those in their care (e.g., children, siblings, parents). Students will also interrogate the role that health professionals and a range of organizations, including employers, can play in supporting individuals’ health literacies. Special attention will be paid to the role that access to health literacies play in building a socially just society.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1565951-2025-08-26",
+      "courseGroupId": "1565951",
+      "code": "ACL 215",
+      "subjectCode": "ACL",
+      "courseNumber": "215",
+      "longName": "Literacies & Incarceration",
+      "name": "Literacies & Incarceration",
+      "description": "This interdisciplinary course critically examines the literacy identities, practices and initiatives of diverse incarcerated and post-incarcerated populations as well as those populations at risk for incarceration in the US penal system. Students will engage with scholarship, artifacts, personal narratives and testimonials, evaluating and analyzing debates and depictions of prison literacy policy and programs, including in various media. Furthermore, students will consider the design, implementation, and effectiveness of varied prison literacy initiatives and programs that target incarcerated and post-incarcerated populations. Students will also reflect on the impact of incarcerated individuals' literacy identities and practices in connection with their families and the immediate and the broader communities of which they are part.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-08-26",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1565961-2024-08-28",
+      "courseGroupId": "1565961",
+      "code": "ACL 225",
+      "subjectCode": "ACL",
+      "courseNumber": "225",
+      "longName": "Adult Literacy Practices",
+      "name": "Adult Literacy Practices",
+      "description": "This interdisciplinary survey course introduces students to the role that the multiliteracies play in both the private and social lives of adults. Students will explore the relationships between adults’ identities, personal experiences, social worlds, and their literacy practices, examining how literacy practices help adults build community, engage in personal growth and exploration, acquire cultural capital, and engage in leisure and pleasure. Students will also critically analyze how access to organizational literacies (e.g., workplace, senior care) shape adults’ personal agencies, identities, communities, and access to social capital and power. Interrogating and troubling a broad range of ideologies about adult literacy, students will also explore how adults utilize literacy skills and practices to access their voices, dissent or resist, and advocate for social change. Special attention will be paid to empathically understanding the role that literacy practices play in the private and social lives of seniors.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1359031-2024-01-25",
+      "courseGroupId": "1359031",
+      "code": "ACL 250",
+      "subjectCode": "ACL",
+      "courseNumber": "250",
+      "longName": "Literacy & Language Disabilities",
+      "name": "Literacy & Lang Disabilities",
+      "description": "Through this course, students will learn about diverse perspectives about language and literacy development, specifically atypical development, of children (birth through adolescence). Students will confront questions facing scholars regarding typical and atypical development as well as the nature of typical and atypical second and multiple language development. Specific attention will be paid to language disorders, language delays, dyslexia and developmental disorders related to language and literacy.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1565971-2024-08-28",
+      "courseGroupId": "1565971",
+      "code": "ACL 275",
+      "subjectCode": "ACL",
+      "courseNumber": "275",
+      "longName": "Selected Topics in Literacy & Language Studies",
+      "name": "Topics in Lit & Lang Studies",
+      "description": "This course introduces students to a specific topic, concept, theme, or methodology in the interdisciplinary field of literacy and language studies. Topics will be designated by the respective professor with a sample syllabus approved by the respective program committee. The approved course description and learning outcomes for the respective selected topic will be made available to students during advisement and registration. Examples of future topics may include “literacies in contexts of disaster”, “cross-cultural perspectives of literacy”, “literacies, militaries, and veterans”, “bibliotherapy, literacy, and healing”, and more. Any course that is in collaboration with another department or proposed by a faculty member of another department must be signed off by the other department before being offered. Students can earn credit for ACL 275 only once in their academic career.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1565981-2024-08-28",
+      "courseGroupId": "1565981",
+      "code": "ACL 300",
+      "subjectCode": "ACL",
+      "courseNumber": "300",
+      "longName": "Critical Local Literacies: Literacy Inquiry in the New York City Region",
+      "name": "Crit Local Lit: Inquiry in NYC",
+      "description": "In this capstone research course, students will critically examine the ways in which literacy is practiced and manifested in diverse communities located in New York City (NYC) and its surrounding region. Under guidance of the course instructor, students will design and implement independent inquiry projects that blend and apply interdisciplinary methods and frameworks, investigating literacy-based phenomena in the NYC region. Attention will be paid to learning about scholarship on urban and geographic literacies and applying this knowledge to the NYC region.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0876431-2013-05-01",
+      "courseGroupId": "0876431",
+      "code": "ANT 115",
+      "subjectCode": "ANT",
+      "courseNumber": "115",
+      "longName": "Language and Culture",
+      "name": "Language and Culture",
+      "description": "This course will introduce students to linguistics, the study of language, and language in multicultural urban settings, including topics such as children's language acquisition, bilingual families and bilingual education, language and gender, different varieties of English and contemporary language use. The readings will draw on works in linguistics, literature, sociology, anthropology, and related topics. Students will improve critical reading and thinking skills and produce reflective and expository writing based on the readings in connection with their own experiences and backgrounds.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0881291-2013-05-01",
+      "courseGroupId": "0881291",
+      "code": "CRT 100",
+      "subjectCode": "CRT",
+      "courseNumber": "100",
+      "longName": "Critical Thinking (Same as PHI 115)",
+      "name": "Critical Thinking",
+      "description": "This course is designed to develop the mind and help sharpen students' ability to think clearly, logically, thoroughly, critically and effectively.  Through substantive readings, structured writings assignments and ongoing discussions, students will learn to use analytical skills in reading, writing, oral presentations, researching, and listening.  Students will examine concrete examples from their own experience and readings and contemporary issues in the media to learn how to analyze issues, solve problems and make informed decisions in academic, professional, and personal lives.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1343111-2025-01-25",
+      "courseGroupId": "1343111",
+      "code": "CRT 100.6",
+      "subjectCode": "CRT",
+      "courseNumber": "100.6",
+      "longName": "Critical Thinking for ESL Reading & Writing Proficiency",
+      "name": "Crit Think ESL Read/Writ Prof",
+      "description": "This course combines Critical Thinking (CRT 100) with the highest level of ESL. Critical Thinking is designed to develop the mind and help sharpen students' ability to think clearly, logically, thoroughly, critically, and effectively.  Through substantive readings, structured writing assignments and ongoing discussions, students will learn to use analytical skills in reading, writing, oral presentations, researching, and listening. Students will examine concrete examples from their own experience and readings and contemporary issues in the media to learn how to analyze issues, solve problems, and make informed decisions in their academic, professional, and personal lives.\n\nWhile studying Critical Thinking, ESL students will also study advanced level reading and writing to master and apply a full range of college-level reading and writing skills including critical comprehension, flexible rates of reading, essay organization, paragraph development, sentence structure, vocabulary and word choice, content, and study strategies. Students read and respond to a variety of texts and use argumentation, narrative, and description as modes of developing ideas in writing.\n\nStudents will receive an earned grade in CRT 100.6, which is equivalent to a grade earned in CRT 100.\n\nThis is an accelerated course that combines credit-bearing and developmental content.  Passing CRT 100.6 meets the reading and writing proficiency milestone requirements. Students who pass CRT 100.6 are exempt from further ESL reading and writing courses. CRT 100.6 may not be taken by students who have passed CRT 100 or are exempt from reading and writing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "REME - WRIT (Writing Exit Course)"
+      ],
+      "requirementDesignation": "DLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1366211-2013-05-01",
+      "courseGroupId": "1366211",
+      "code": "CRT 100H",
+      "subjectCode": "CRT",
+      "courseNumber": "100H",
+      "longName": "Critical Thinking (Same as PHI 115) (Honors)",
+      "name": "Critical Thinking (Honors)",
+      "description": "This course is designed to develop the mind and help sharpen students' ability to think clearly, logically, thoroughly, critically and effectively.  Through substantive readings, structured writings assignments and ongoing discussions, students will learn to use analytical skills in reading, writing, oral presentations, researching, and listening.  Students will examine concrete examples from their own experience and readings and contemporary issues in the media to learn how to analyze issues, solve problems and make informed decisions in academic, professional, and personal lives.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1368941-1901-01-01",
+      "courseGroupId": "1368941",
+      "code": "CRT 120",
+      "subjectCode": "CRT",
+      "courseNumber": "120",
+      "longName": "Critical Thinking and Social Justice",
+      "name": "Critical Thnkng & Social Just",
+      "description": "In this course, students will build and apply critical thinking skills, including making and evaluating arguments, to questions of social inequalities, especially those related to race, class, gender, and sexual orientation. Using a variety of historical, literary and theoretical texts, students will look at ways that existing power structures benefit some groups and limit or oppress others. Students will be asked to reflect on their own experiences and attitudes and consider what they can do to build a more just and equal society.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1566001-2024-08-28",
+      "courseGroupId": "1566001",
+      "code": "CRT 125",
+      "subjectCode": "CRT",
+      "courseNumber": "125",
+      "longName": "Critical Thinking & Popular Culture",
+      "name": "Crit Thinking & Pop Culture",
+      "description": "In this course students learn to apply a toolkit of critical thinking strategies to create, analyze, and evaluate arguments about a range of popular culture figures, texts, and artifacts.  Exploring the ways in which popular culture becomes a part of individuals’ cultural literacies and schemes of knowledge, students will reflect upon their own interactions with popular culture and the impact these texts have on how they construct knowledge of the world in which they live.  Students will also explore a variety of lenses of critical analysis, learning to infuse these lenses into arguments they make.  Instructors may theme their sections to focus on particular aspects of popular culture.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1368931-2019-05-01",
+      "courseGroupId": "1368931",
+      "code": "CRT 150",
+      "subjectCode": "CRT",
+      "courseNumber": "150",
+      "longName": "Critical Thinking and Scientific Inquiry",
+      "name": "Critical Thnkng & Sci Inquiry",
+      "description": "This course develops students’ abilities to reason well about scientific claims, scientific research, and the nature, value, and limits of scientific inquiry. To reason well about scientific claims, students understand and apply central scientific concepts, such as experiment, explanation, cause, effect, correlation, random sampling, testability, prediction, verification, and falsification. In addition, students evaluate instances of reasoning with such concepts by evaluating arguments for and against scientific claims and assessing the significance of possible outcomes of experiments. To reason well about the nature, value, and limits of scientific inquiry, students are introduced to central issues in the philosophy of science, such as the demarcation between science and pseudo-science, the reliability of scientific research, and the (un)reasonableness of beliefs about claims, such as moral and other normative claims, that fall outside the scope of sciences.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1368621-2024-08-28",
+      "courseGroupId": "1368621",
+      "code": "CRT 196",
+      "subjectCode": "CRT",
+      "courseNumber": "196",
+      "longName": "Queer Theories",
+      "name": "Queer Theories",
+      "description": "This course engages students in critical inquiry through the lenses of queer theories (e.g., theories related to the LGBTQI + spectra). Emphasizing how queer theories help thinkers across disciplines engage in observing, viewing/positioning, examining, analyzing, and constructing queer subjects, this course asks students to examine how, within and between disciplines, a) thinkers’ perceptions and investigations are influenced by ideologies related to queerness and b) thinkers employ queer theories to create diverse ways of seeing/thinking, constructing/creating about the body, gender, sex/sexuality/sexual identities. Particular attention will be paid to how queer subjects have been pathologized and marginalized and how ideologies about queer populations affect reception of creative, scholarly, and professional works.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1569001-2024-08-28",
+      "courseGroupId": "1569001",
+      "code": "CRT 196H",
+      "subjectCode": "CRT",
+      "courseNumber": "196H",
+      "longName": "Queer Theories (Honors)",
+      "name": "Queer Theories (Honors)",
+      "description": "This course engages students in critical inquiry through the lenses of queer theories (e.g., theories related to the LGBTQI + spectra). Emphasizing how queer theories help thinkers across disciplines engage in observing, viewing/positioning, examining, analyzing, and constructing queer subjects, this course asks students to examine how, within and between disciplines, a) thinkers’ perceptions and investigations are influenced by ideologies related to queerness and b) thinkers employ queer theories to create diverse ways of seeing/thinking, constructing/creating about the body, gender, sex/sexuality/sexual identities. Particular attention will be paid to how queer subjects have been pathologized and marginalized and how ideologies about queer populations affect reception of creative, scholarly, and professional works.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1538871-2024-08-28",
+      "courseGroupId": "1538871",
+      "code": "CRT 200",
+      "subjectCode": "CRT",
+      "courseNumber": "200",
+      "longName": "Introduction to Semiotics",
+      "name": "Introduction to Semiotics",
+      "description": "This course introduces students to the field of semiotics, or the study of signs. Students will be exposed to an array of topics, such as the relationship between signs and meaning, the creations and functions of structures. the performative nature of signs, the fictions and imaginings of language, the cultural reproduction of signs of oppression and privilege, and the development of linguistic and non-linguistic code (e.g., emoji). Students will examine key scholarship in the fields of semiotics (e.g., Saussure, Pierce, Barthes, Eco, as well as more contemporaryscholars) and understand historic, contemporary, and emerging debates in the field. Special emphasis is on teaching students to employ semiotics as a lens to analyze an array of signs, codes, and related phenomena employed in their social worlds and/or communities of practice.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1538971-2022-07-01",
+      "courseGroupId": "1538971",
+      "code": "CRT 210",
+      "subjectCode": "CRT",
+      "courseNumber": "210",
+      "longName": "Community Building and Education in Theory and Action",
+      "name": "Commun Bldg & Ed Theory/Action",
+      "description": "This course is a study of the special relationship between community building and education, with emphasis on the ways that community organizations, like churches, youth groups, and libraries, can integrate learning as a tool for empowering individuals of all ages within their local communities. Grounded in understanding the relationship between prospective social justice, community organizations, and education, students will explore theoretical underpinnings of learning of diverse populations and question their beliefs about the dyad of knowledgeable otherand the learner. More specifically, students will investigate how formal and informal schemes are constructed so as to guide learning in community based organizations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1538981-2022-07-01",
+      "courseGroupId": "1538981",
+      "code": "CRT 220",
+      "subjectCode": "CRT",
+      "courseNumber": "220",
+      "longName": "Critical Thinking through Virtue Theory",
+      "name": "Crit Think thru Virtue Theory",
+      "description": "A primary concern of critical thinking is making good or warranted decisions about what to believe or do in a given context. In both moral philosophy and the theory of knowledge, virtue theorists argue that virtues such as benevolence, justice, and open-mindedness enable people to reliably make good decisions about both practical and theoretical matters. This course surveys contemporary philosophical literature on the nature and value of both moral and intellectual virtue. Additionally, a number of particular intellectual virtues, such as curiosity, appropriate trust, or intellectual humility, are examined in detail.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1472671-2019-05-01",
+      "courseGroupId": "1472671",
+      "code": "CRT 245",
+      "subjectCode": "CRT",
+      "courseNumber": "245",
+      "longName": "Critical Thinking and Media Literacy",
+      "name": "Crit Thinking & Media Literacy",
+      "description": "Critical Thinking and Media Literacy is a course designed to help students become truth-seekers in the world of new media. Students develop a critical understanding of the nature of diverse media discourses – including aims to inform, entertain, and persuade – and evaluate their contents for veracity. This course exposes the students to two sets of basic concepts: First, epistemic concepts such as truth, falsity, knowledge, and belief; and second, media concepts, including both traditional (e.g., news, commentary, reporting) and contemporary ones (e.g., social networks, new media, fake news, click-bait). In addition, it provides them with analytical methods to interpret different kinds of media contents, as well as to write critical media analyses.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1539851-2022-07-01",
+      "courseGroupId": "1539851",
+      "code": "CRT 250",
+      "subjectCode": "CRT",
+      "courseNumber": "250",
+      "longName": "Critical Data Literacy",
+      "name": "Critical Data Literacy",
+      "description": "Critical Data Literacy is a course designed to help students acquire higher-level inductive reasoning skills. Students will develop understanding of various ways to model practical problems using statistical and probabilistic reasoning. The course will focus on foundational methods of critical reasoning under uncertainty and will aim at helping students understand the philosophical and conceptual background of the effort to draw appropriate conclusions on the basis of partial information. It will explore the relationship between truth and data, helping students understand the philosophical underpinnings of concepts such as probability, certainty, conjecture, inference, and data-based reasoning. The course will also explore the main challenges of inductive thinking and help students recognize fallacies in data interpretation.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1566011-2024-08-28",
+      "courseGroupId": "1566011",
+      "code": "CRT 275",
+      "subjectCode": "CRT",
+      "courseNumber": "275",
+      "longName": "Critical Thinking: Conspiracy Theories",
+      "name": "Crit Think: Consp Theories",
+      "description": "This course examines belief in conspiracy theories from epistemological, ethical, and psychological perspectives. Central issues include: Given that conspiracies have occurred in history, is it ever reasonable to believe in a conspiracy theory? What exactly counts as a conspiracy theory? What are the primary psychological, social, and ideological sources of belief in conspiracy theories? What moral and political dangers may be associated with unreasonable belief in (some types of) conspiracy theories? Given such dangers, is it ever justifiable to suppress discussion of such theories? ",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-08-28",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1539861-2022-07-01",
+      "courseGroupId": "1539861",
+      "code": "CRT 295",
+      "subjectCode": "CRT",
+      "courseNumber": "295",
+      "longName": "Critical Thinking Approaches to Religion",
+      "name": "Crit Thnk Approach to Religion",
+      "description": "“Religion” might be defined as a way of life organized around shared experiences, beliefs, and social practices that relate to a “higher” or “ultimate power.” A critical approach to religion should explore what might be valuable as well as questionable in a number of real-life examples, at least some of which intersect with students’ own experience. Topics include the relation of faith to reason (both philosophical and scientific), miracles (signs, visitations, trances, visions, effective prayer), religious diversity, the relation of religion to ethics, and the social and political function of religion. Students will explore scholarly answers to these questions, and this course aims to lead students in thinking, speaking, and writing about questions on religion, in an effort to come to a greater understanding of what religion means to them and what it means to the world in which they live.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1539881-2022-07-01",
+      "courseGroupId": "1539881",
+      "code": "CRT 300",
+      "subjectCode": "CRT",
+      "courseNumber": "300",
+      "longName": "Being Bodied: The Discourses and Rhetorics of (Dis)ability, Illness, Violence, Trauma, & Healing",
+      "name": "Being Bodied: Discourse/Rhetor",
+      "description": "This course serves as an introduction to the discourses and rhetorics of (dis)ability(e.g., physical and/or mental), illness, violence, and trauma, as informed by the fields of (dis)ability and violence studies and crip theory. Students will interrogate how individuals construct, through language, notions of the body, particularly the (dis)abled, ill, and/or violated body. Further, students will investigate language related to the ways that individuals experience and/or internalize traumas related to the body. Specifically, students will critically analyze the discursive relationships between institutional power and identification, empowerment, and agency. Studying a broad range of texts and speech events, particular emphasis will be placed on the ways that individuals employ literacy and linguistic practices and events for purposes of healing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1539891-2022-07-01",
+      "courseGroupId": "1539891",
+      "code": "CRT 310",
+      "subjectCode": "CRT",
+      "courseNumber": "310",
+      "longName": "Critical Thinking through Legal Reasoning",
+      "name": "Crit Thnkng thru Legal Reason",
+      "description": "This course asks how lawyers, judges, and legislators think and reason differently from the general public, and uses the study of legal analysis to develop the mind and sharpen students’ ability to think clearly, logically, thoroughly, critically, and effectively. This course is designed to teach skills useful in analyzing the reasoning structures found in judicial decisions, and in applying those structures to the constructionof new arguments. The topics we will consider focus on both deductive and inductive reasoning skills, and questions of textual interpretation. The deductive skills studied will include: the application of general principles to specific cases as found in the application of constitutional standards to specific laws, especially including the application of rights to legal questions, and the application of laws to particular cases. The inductive skills studied will include: evaluating proof based on the standards of evidence found at various levels of the legal system and the justification behind this plurality of standards; reasoning from specific cases to general principles; reasoning from analogy in the application of previous rulings to novel cases; the analysis of precedent, in general, as a unique inductive method. Finally, we will consider different processes of textual interpretation including debates between originalism, textualism, intentionalism, and pragmatism as demonstrated in the interpretation of foundational legal texts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1539901-2022-07-01",
+      "courseGroupId": "1539901",
+      "code": "CRT 350",
+      "subjectCode": "CRT",
+      "courseNumber": "350",
+      "longName": "Conceptualizing Violence",
+      "name": "Conceptualizing Violence",
+      "description": "This course critically measures and evaluates the concept of violence. It examines how historical and mainstream definitions of violence establish what acts are perceived as violence and which are not, which acts are recognized by the law and which are not, and who is perceived as victim or perpetrator. It explores the contributions from various disciplines to understandings of violence.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1557361-2022-07-01",
+      "courseGroupId": "1557361",
+      "code": "CRT 350H",
+      "subjectCode": "CRT",
+      "courseNumber": "350H",
+      "longName": "Conceptualizing Violence (Honors)",
+      "name": "Conceptualizing Violence (Hon)",
+      "description": "This course critically measures and evaluates the concept of violence. It examines how historical and mainstream definitions of violence establish what acts are perceived as violence and which are not, which acts are recognized by the law and which are not, and who is perceived as victim or perpetrator. It explores the contributions from various disciplines to understandings of violence.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884491-2020-02-01",
+      "courseGroupId": "0884491",
+      "code": "ESL 49",
+      "subjectCode": "ESL",
+      "courseNumber": "49",
+      "longName": "English as a Second Language",
+      "name": "English as a Second Language",
+      "description": "This course is designed to support the improvement of writing skills of ESL 54 students. It is obligatory for one semester for all incoming ESL students whose placement shows a need for instruction at this level.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "ESL - ESL (ESL)"
+      ],
+      "requirementDesignation": "Remedial Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884541-2020-02-01",
+      "courseGroupId": "0884541",
+      "code": "ESL 54",
+      "subjectCode": "ESL",
+      "courseNumber": "54",
+      "longName": "English as a Second Language",
+      "name": "English as a Second Language",
+      "description": "This course is designed to improve the reading, writing, listening, and speaking skills of beginning and low-intermediate level students. It is obligatory for one semester for all incoming ESL students whose placement shows a need for instruction at this level.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 9,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 9,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 9,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "ESL - ESL (ESL)"
+      ],
+      "requirementDesignation": "Remedial Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 9
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0884711-1901-01-01",
+      "courseGroupId": "0884711",
+      "code": "ESL 84",
+      "subjectCode": "ESL",
+      "courseNumber": "84",
+      "longName": "Intensive Writing",
+      "name": "Intensive Writing",
+      "description": "Intensive Writing",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "ESL - ESL (ESL)"
+      ],
+      "requirementDesignation": "Developmental Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1306781-2022-07-01",
+      "courseGroupId": "1306781",
+      "code": "ESL 96",
+      "subjectCode": "ESL",
+      "courseNumber": "96",
+      "longName": "Intensive Reading and Writing",
+      "name": "Intensive Reading and Writing",
+      "description": "ESL 96 is an intensive integrated skills course that emphasizes academic writing and critical reading for ESL students. It focuses on basic components of effective writing and reading, including essay organization, paragraph development, sentence structure, word choice, and content. Students demonstrate comprehension of texts of varying lengths and genres by reading and responding to a variety of texts and using argumentation, narrative, and description as modes of developing ideas in writing. Students demonstrate critical reading skills related to analysis, synthesis, and evaluation. This course is designed to help students master and apply a full range of college-level reading and writing skills in English.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 0,
+        "creditHours": {
+          "min": 0,
+          "max": 0,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "ESL - ESL (ESL)",
+        "REME - READ (Reading Exit Course)",
+        "REME - WRIT (Writing Exit Course)"
+      ],
+      "requirementDesignation": "Remedial Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0887771-2013-05-01",
+      "courseGroupId": "0887771",
+      "code": "LIN 100",
+      "subjectCode": "LIN",
+      "courseNumber": "100",
+      "longName": "Language and Culture (Same as ANT 115)",
+      "name": "Language And Culture",
+      "description": "This course will introduce the student to the study of language in multicultural urban settings. The course will introduce related topics, such as bilingual/bidialectal families and bilingual education, language and gender, literacy in a changing, technological society, child language acquisition, and different dialects and registers of English. The readings will draw on works in linguistics, literature and related fields. Students will work on critical reading and produce writing based on the readings in connections with their own experiences and backgrounds.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1372741-2025-01-25",
+      "courseGroupId": "1372741",
+      "code": "LIN 100.6",
+      "subjectCode": "LIN",
+      "courseNumber": "100.6",
+      "longName": "Language & Culture for ESL Reading & Writing Proficiency",
+      "name": "Lang Culture ESL R/W Prof",
+      "description": "This course combines Language and Culture (LIN 100) with the highest level of ESL. This course will introduce the student to the study of Language and Culture. The course will introduce related topics, such as bilingual/bidialectal families and bilingual education, language and gender, literacy in a changing, technological society, child language acquisition, and different dialects and registers of English. The readings will draw on works in linguistics, literature and related fields. Students will work on critical reading and produce writing based on the readings in connections with their own experiences and backgrounds.\n\nWhile studying Linguistics, ESL students will also study advanced level reading and writing to master and apply a full range of college-level reading and writing skills including critical comprehension, flexible rates of reading, essay organization, paragraph development, sentence structure, vocabulary and word choice, content, and study strategies. Students read and respond to a variety of texts and use argumentation, narrative, and description as modes of developing ideas in writing.\n\nStudents will receive an earned grade in LIN 100.6 that is equivalent to a grade earned in LIN 100.\n\nThis is an accelerated course that combines credit-bearing and developmental content.  Passing LIN 100.6 meets the reading and writing proficiency milestone requirements. Students who pass LIN 100.6 are exempt from further ESL reading and writing courses. LIN 100.6 may not be taken by students who have passed LIN 100 or are exempt from reading and writing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "REME - WRIT (Writing Exit Course)"
+      ],
+      "requirementDesignation": "DLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2025-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1364841-2013-05-01",
+      "courseGroupId": "1364841",
+      "code": "LIN 100H",
+      "subjectCode": "LIN",
+      "courseNumber": "100H",
+      "longName": "Language and Culture (Same as ANT 115) (Honors)",
+      "name": "Language And Culture (Honors)",
+      "description": "This course will introduce the student to the study of language in multicultural urban settings. The course will introduce related topics, such as bilingual/bidialectal families and bilingual education, language and gender, literacy in a changing, technological society, child language acquisition, and different dialects and registers of English. The readings will draw on works in linguistics, literature and related fields. Students will work on critical reading and produce writing based on the readings in connections with their own experiences and backgrounds.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1354151-2018-02-01",
+      "courseGroupId": "1354151",
+      "code": "LIN 101",
+      "subjectCode": "LIN",
+      "courseNumber": "101",
+      "longName": "Introduction to Linguistics",
+      "name": "Introduction to Linguistics",
+      "description": "This course will introduce students to linguistics, the scientific study of language. Students will apply methods of scientific inquiry (including the scientific method) to linguistic systems (phonological, morphological, syntactic, semantic, and pragmatic) and language phenomena and events. Specifically, students will engage in observation of linguistic phenomena, collection of data, generation and testing of hypotheses, analysis of and interpretations of data, application and evaluation of theory, in order to form conclusions about linguistic phenomena.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1372751-2020-02-01",
+      "courseGroupId": "1372751",
+      "code": "LIN 101.6",
+      "subjectCode": "LIN",
+      "courseNumber": "101.6",
+      "longName": "Introduction to Linguistics for ESL 95",
+      "name": "Intro to Linguistics for ESL95",
+      "description": "This course combines Introduction to Linguistics (LIN 101) and Intensive Writing (ESL 95). This course will introduce students to linguistics, the scientific study of language. Students will apply methods of scientific inquiry (including the scientific method) to linguistic systems (phonological, morphological, syntactic, semantic, and pragmatic) and language phenomena and events. Specifically, students will engage in observation of linguistic phenomena, collection of data, generation and testing of hypotheses, analysis of and interpretations of data, application and evaluation of theory, in order to form conclusions about linguistic phenomena. Students will receive an earned grade in LIN 101.6 that is equivalent to a grade earned in LIN 101. This is an accelerated course that combines credit-bearing and developmental content. Passing LIN 101.6 meets the writing proficiency milestone requirement; students who pass LIN 101.6 are exempt from further ESL courses. LIN 101.6 may not be taken by students who have passed LIN 101 or ESL 95 or are exempt from ESL courses.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Developmental Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1486341-2018-02-01",
+      "courseGroupId": "1486341",
+      "code": "LIN 101H",
+      "subjectCode": "LIN",
+      "courseNumber": "101H",
+      "longName": "Introduction to Linguistics (Honors)",
+      "name": "Intro to Linguistics (Honors)",
+      "description": "This course will introduce students to linguistics, the scientific study of language. Students will apply methods of scientific inquiry (including the scientific method) to linguistic systems (phonological, morphological, syntactic, semantic, and pragmatic) and language phenomena and events. Specifically, students will engage in observation of linguistic phenomena, collection of data, generation and testing of hypotheses, analysis of and interpretations of data, application and evaluation of theory, in order to form conclusions about linguistic phenomena.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_ScientificWorld",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2018-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1286181-2014-05-01",
+      "courseGroupId": "1286181",
+      "code": "LIN 110",
+      "subjectCode": "LIN",
+      "courseNumber": "110",
+      "longName": "The Structure of English",
+      "name": "The Structure of English",
+      "description": "This course is designed to provide students with an understanding of the grammatical structures of standard American English, allowing them to read, write, and interpret written texts critically and efficiently Through analysis and discovery, students will learn to evaluate the grammaticality of the written work they produce in their academic coursework. In addition, students will explore a variety of writing genres and styles, and learn to manipulate language more effectively, enriching both their production and understanding of written texts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2014-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1539911-2022-07-01",
+      "courseGroupId": "1539911",
+      "code": "LIN 125",
+      "subjectCode": "LIN",
+      "courseNumber": "125",
+      "longName": "Language and Religion",
+      "name": "Language and Religion",
+      "description": "This 3-credit, 100-level course offers a broad introduction to the complex relationship between language and religion. The course will focus on the intersection of language use and religious beliefs and practice as a lens for better understanding interaction in social context and analyzing the nature of human behavior in society. This course benefits from its interdisciplinary roots in linguistics, sociology, anthropology, education, and religious studies. This course seeks to turn language use and religion, two areas in which students often have a lot of personal experience, into objects of scholarly inquiry. In addition to introducing students to a set of theoretical perspectives through discussion of a wide range of texts and videos, this course will also incorporate discovery-based research projects that promote high-impact and reflective learning, as students learn about the practical, symbolic, and affective power of language in religious communities and practices in New York City.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1358941-2024-01-25",
+      "courseGroupId": "1358941",
+      "code": "LIN 130",
+      "subjectCode": "LIN",
+      "courseNumber": "130",
+      "longName": "Phonetics and Phonology",
+      "name": "Phonetics and Phonology",
+      "description": "This course is designed to provide students with an understanding of the sound system of English, with a focus on Standard American English and non-standard dialects of American English. The course will introduce students to the physical production of sounds as well as the mental perception of sounds and how they pattern in English, allowing students to notice and identify the distinct sounds of English, and to develop an awareness of the rich variation within the language. The course will also introduce students to phonetic transcription, highlighting the contrast between sound and spelling, particularly in English.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1354161-2017-06-01",
+      "courseGroupId": "1354161",
+      "code": "LIN 140",
+      "subjectCode": "LIN",
+      "courseNumber": "140",
+      "longName": "World/Global Englishes",
+      "name": "World/Global Englishes",
+      "description": "The survey course will introduce students to varieties of English around the world (e.g., African and Caribbean varieties of English, English based Pidgins and Creoles). Students will be introduced to theories of language variation, examine forces that contribute to variation (e.g., colonization, language contact, and globalization), and describe the impact of English on other languages.  Attitudes toward different varieties of English will be explored, with students analyzing how we perceive varieties of English and how these perceptions affect linguistic identities and ideologies. Implications of global variations of English for educational practices and language learning will also be discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Wld Cultrs&GlblIssues",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1354171-2024-01-25",
+      "courseGroupId": "1354171",
+      "code": "LIN 150",
+      "subjectCode": "LIN",
+      "courseNumber": "150",
+      "longName": "Language, Race, and Ethnicity",
+      "name": "Language, Race, and Ethnicity",
+      "description": "This course explores historical, cultural, and theoretical perspectives on the relationship between language, race, and ethnicity in the United States and its territories. It examines how language is understood to reflect, reproduce, and/or challenge and defy racial and ethnic boundaries, and how ideas about race and ethnicity influence the ways in which people use and construe language. It covers topics such as racialization and racism, ethnicization, notions of authenticity, repertoire, codeswitching and style shifting, linguistic mocking and linguistic racism, language ideology, and identity formation. This course will examine language varieties such as Black American English and its cross-racial uses by other groups, Chicano English and Spanglish, Hawaiian English, and American Indian English.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1516621-2020-11-01",
+      "courseGroupId": "1516621",
+      "code": "LIN 150.6",
+      "subjectCode": "LIN",
+      "courseNumber": "150.6",
+      "longName": "Language, Race, and Ethnicity for ESL 95",
+      "name": "Language, Race, and Ethnicity",
+      "description": "This course combines Language, Race, and Ethnicity (LIN 150) and Intensive Writing (ESL 95). This course explores historical, cultural, and theoretical perspectives on the relationship between language, race, and ethnicity in the United States and its territories. It examines how language is understood to reflect, reproduce, and/or challenge and defy racial and ethnic boundaries, and howideas about race and ethnicity influence the ways in which people use and construe language. It covers topics such as racialization and racism, ethnicization, notions of authenticity, repertoire, codeswitching and style shifting, linguistic mocking and linguistic racism, language ideology, and identity formation. This course will examine language varieties such as Black American English and its cross-racial uses by other groups, Chicano English and Spanglish, Asian American English,Hawaiian English, and American Indian English.This is an accelerated course that combines credit-bearing and developmental content. Passing LIN 150.6 meets the writing proficiency milestone requirement; students who pass LIN 150.6 are exempt from further ESL courses. LIN 150.6 may not be taken by students who have passed LIN 150 or ESL 95 or are exempt from writing.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "EXPR - EXPR (Experimental)",
+        "REME - WRIT (Writing Exit Course)"
+      ],
+      "requirementDesignation": "Developmental Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2020-11-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": [
+        "EXPR - EXPR (Experimental)"
+      ]
+    },
+    {
+      "id": "1517831-2017-06-01",
+      "courseGroupId": "1517831",
+      "code": "LIN 150H",
+      "subjectCode": "LIN",
+      "courseNumber": "150H",
+      "longName": "Language, Race, and Ethnicity in the US and Its Territories (Honors)",
+      "name": "Lan,Rac,and Eth in theUS(Honor",
+      "description": "This course explores historical, cultural, and theoretical perspectives on the relationship between language, race, and ethnicity in the United States and its territories. It examines how language is understood to reflect, reproduce, and/or challenge and defy racial and ethnic boundaries, and how ideas about race and ethnicity influence the ways in which people use and construe language. It covers topics such as racialization and racism, ethnicization, notions of authenticity, repertoire, codeswitching and style shifting, linguistic mocking and linguistic racism, language ideology, and identity formation. This course will examine language varieties such as Black American English and its cross-racial uses by other groups, Chicano English and Spanglish, Hawaiian English, and American Indian English.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)"
+      ],
+      "requirementDesignation": "RLA_FC_USExprienceinitsDivrsty",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1359001-2017-06-01",
+      "courseGroupId": "1359001",
+      "code": "LIN 200",
+      "subjectCode": "LIN",
+      "courseNumber": "200",
+      "longName": "Language Acquisition",
+      "name": "Language Acquisition",
+      "description": "The first part of this course introduces students to theories of first language acquisition (e.g., developmental sequence, innateness hypothesis). In the second part of the course, students will become familiar with the theories of second language acquisition and factors such as motivation, age, learning styles that affect language learning. Students will develop an awareness of processes involved in language acquisition, both first and second.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1539921-2022-07-01",
+      "courseGroupId": "1539921",
+      "code": "LIN 201",
+      "subjectCode": "LIN",
+      "courseNumber": "201",
+      "longName": "Language in the Helping Professions",
+      "name": "Lang in the Helping Profession",
+      "description": "This course will explore how the discourse used in therapeutic and social welfare contexts reveals identities, attitudes, value/belief systems, and emotional states. We will investigate what we can learn about the therapist/social worker -client/patient relationship from the discourse each party uses, and what we can discover about the individuals involved through the language used. We will examine how people use verbal and non-verbal language to convey emotional stances and to make moral judgments, and students will examine how the language we use changes depending on who we are speaking to and what the context is (e.g. therapy, casework, child protection, etc.). Real-world data are presented in class in order for students to apply their learning of each topic to everyday practice, and the class culminates in a discourse-based process recording project, preparing students for the kind of real-world tasks required in the field. While students will focus on using discourse analysis in order to better understand social work practice and therapeutic talk, the subject matter of the course will be of interest, and use, to anyone interested in a detailed knowledge of how language, both verbal and non verbal, is used to convey emotional stances and to make moral judgments.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2022-07-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1359011-2017-06-01",
+      "courseGroupId": "1359011",
+      "code": "LIN 210",
+      "subjectCode": "LIN",
+      "courseNumber": "210",
+      "longName": "Foundations of Bilingualism",
+      "name": "Foundations of Bilingualism",
+      "description": "This introductory course provides an overview of the psychological, social, and political aspects of bilingualism. Topics covered include definitions of bilingualism, language development in bilingual children, the linguistic behaviors of bilingual speakers, language loss and maintenance, and socio-political issues pertaining to bilingual language policy and planning.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1359021-2024-01-25",
+      "courseGroupId": "1359021",
+      "code": "LIN 220",
+      "subjectCode": "LIN",
+      "courseNumber": "220",
+      "longName": "Language Teaching Practices",
+      "name": "Language Teaching Practices",
+      "description": "This course will provide students with an understanding of the theoretical foundations and principles of language instruction and language learning. Special emphasis will be on studying pedagogical approaches to TESOL that address the learning needs of diverse language learners in multiple settings (e.g. one-on-one or small group tutoring vs. classroom). Topics will include relationships between and identities of practitioners and learners (e.g. racial, ethnic, linguistic, typical and atypical), research-based methodologies, teaching for productive and receptive language skills, and the relationship between curriculum planning, assessment, and feedback.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2024-01-25",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1359041-1901-01-01",
+      "courseGroupId": "1359041",
+      "code": "LIN 240",
+      "subjectCode": "LIN",
+      "courseNumber": "240",
+      "longName": "Language and Power",
+      "name": "Language and Power",
+      "description": "Through this course, students will analyze how power manifests itself through language and how people use language to create, reproduce, or resist/defy power. By studying the relationship between language and capital, language and institutionalized oppression (e.g. racism, ethnocentrism), and language and activism, students will explore the relationship between language, inequity, domination, and resistance. Students will analyze, through applying Critical Discourse Analysis to language events related to politics, policy, media, and institutional interaction, the power and perceived value of certain dialects and languages (e.g., discrimination towards and ideologies about languages/dialects). Students will engage with relevant critical social and linguistic theories relating to power.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1306831-2015-05-01",
+      "courseGroupId": "1306831",
+      "code": "LIN 250",
+      "subjectCode": "LIN",
+      "courseNumber": "250",
+      "longName": "Forensic Linguistics",
+      "name": "Forensic Linguistics",
+      "description": "This three credit, 200-level course will explore the complex relationship between language and the law. The course critically considers the role of language and its power in the legal process. Three branches of forensic linguistics (handwriting, phonology, and discourse analysis) will be discussed. We will examine the work of dialectologists, creolists, and graphologists who have used linguistic evidence to interpret evidence (e.g., blackmail and ransom notes), and voice and spectrogram analysis will also be discussed. The course will also examine how linguists are involved in the legal process when they serve as expert witnesses.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1499841-2015-05-01",
+      "courseGroupId": "1499841",
+      "code": "LIN 250H",
+      "subjectCode": "LIN",
+      "courseNumber": "250H",
+      "longName": "Forensic Linguistics (Honors)",
+      "name": "Forensic Linguistics (Honors)",
+      "description": "This three credit, 200-level course will explore the complex relationship between language and the law. The course critically considers the role of language and its power in the legal process. Three branches of forensic linguistics (handwriting, phonology, and discourse analysis) will be discussed. We will examine the work of dialectologists, creolists, and graphologists who have used linguistic evidence to interpret evidence (e.g., blackmail and ransom notes), and voice and spectrogram analysis will also be discussed. The course will also examine how linguists are involved in the legal process when they serve as expert witnesses.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [
+        "HON - HON (Campus Honors)",
+        "ELO - RFS (Research/ Field Study)"
+      ],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2015-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - RFS (Research/ Field Study)"
+      ]
+    },
+    {
+      "id": "1348521-2017-02-01",
+      "courseGroupId": "1348521",
+      "code": "LIN 300",
+      "subjectCode": "LIN",
+      "courseNumber": "300",
+      "longName": "Language, Gender, and Sexuality",
+      "name": "Language, Gender, & Sexuality",
+      "description": "This course introduces students to the study of language events related to gender and sexuality. Practicing framing, speech act analysis, and discourse analysis, students will examine the relationship between cultural values, language, gender, and sexuality. Students will analyze, with examples from global languages, how gender and sexuality affect language use and communities of practice as well as language affects understandings of gender and sexuality.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1166561-2013-05-01",
+      "courseGroupId": "1166561",
+      "code": "PHI 115",
+      "subjectCode": "PHI",
+      "courseNumber": "115",
+      "longName": "Critical Thinking",
+      "name": "Critical Thinking",
+      "description": "This course is designed to develop the mind and help sharpen students' ability to think clearly, logically, thoroughly, critically and effectively.  Through substantive readings, structured writings assignments and ongoing discussions, students will learn to use analytical skills in reading, writing, oral presentations, researching, and listening.  Students will examine concrete examples from their own experience and readings and contemporary issues in the media to learn how to analyze issues, solve problems and make informed decisions in academic, professional, and personal lives.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "DEV-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "RLA_FC_Individual&Society",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2013-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

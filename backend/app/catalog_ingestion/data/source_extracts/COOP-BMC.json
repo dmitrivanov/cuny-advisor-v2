@@ -1,0 +1,786 @@
+{
+  "department_id": "COOP-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "a91182d34dd43a0f960d5bed80811e02e8d9ba9399bacb48861caa733f4d441d",
+  "records": [
+    {
+      "id": "0879751-1901-01-01",
+      "courseGroupId": "0879751",
+      "code": "CED 201",
+      "subjectCode": "CED",
+      "courseNumber": "201",
+      "longName": "Career Planning (Classroom Course)",
+      "name": "Career Planning",
+      "description": "This course will help you explore and plan your career and develop practical job search skills. In the course you will: Explore what careers are best suited for you. Understand how to network with professionals in your field. How will you benefit from completing this course? You will learn more about yourself. You will become aware of and better understand the corporate culture. You will have a professional resume. You will learn how to interview effectively.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0879861-2016-05-01",
+      "courseGroupId": "0879861",
+      "code": "CED 301",
+      "subjectCode": "CED",
+      "courseNumber": "301",
+      "longName": "Accounting Internship I",
+      "name": "Accounting Internship I",
+      "description": "Interns can expect to perform various duties related to their major during the internship semester. Sample internship duties may include one or more of the following: Accounts Payable, Accounts Receivable, Auditing, Balancing, Bank Reconciliations, Billing, Budgeting, Cost Accounting, Debiting/Crediting, Financial Statements, General Ledger Entries, Journal Entries, Payroll, Posting, and Taxation while utilizing Accounting Computer Software Packages, Spreadsheet Programs, and a wide variety of general office skills.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "0879871-2016-05-01",
+      "courseGroupId": "0879871",
+      "code": "CED 305",
+      "subjectCode": "CED",
+      "courseNumber": "305",
+      "longName": "Liberal Arts Internship I",
+      "name": "Liberal Arts Internship I",
+      "description": "Interns can expect to perform various duties related to their major during the internship semester. Sample internship duties may include one or more of the following: Interns will enhance and develop editorial, counseling or communication skills; sales, marketing, or computer skills; design, record-keeping, or research skills; government and public service.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "0879891-1901-01-01",
+      "courseGroupId": "0879891",
+      "code": "CED 311",
+      "subjectCode": "CED",
+      "courseNumber": "311",
+      "longName": "Computer Information Systems Internship I",
+      "name": "CIS Internship I",
+      "description": "Cis Internship I",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0879901-2016-05-01",
+      "courseGroupId": "0879901",
+      "code": "CED 315",
+      "subjectCode": "CED",
+      "courseNumber": "315",
+      "longName": "Computer Information Systems Internship I",
+      "name": "Cis Internship I",
+      "description": "Interns can expect to perform various duties related to their major during the internship semester. Sample internship duties may include one or more of the following: Writing, modifying, testing and running programs; setting-up personal computers and peripherals, installing software and hardware for PC users, troubleshooting user problems, assisting with computer network maintenance; creating and maintaining databases and spreadsheets.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "0879971-1901-01-01",
+      "courseGroupId": "0879971",
+      "code": "CED 345",
+      "subjectCode": "CED",
+      "courseNumber": "345",
+      "longName": "Multimedia Internship I",
+      "name": "Multimedia Internship I",
+      "description": "Interns can expect to perform various duties related to their major during the internship semester. Sample internship duties may include one or more of the following: Creating animated presentations; developing storefront websites for clients; implementing designs to be incorporated into a web page; designing magazine covers, business cards, collages, posters and other publicity items through the application of a range of graphics software such as PhotoShop, Director, Adobe Illustrator, Fireworks, and Freehand.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0879991-1901-01-01",
+      "courseGroupId": "0879991",
+      "code": "CED 351",
+      "subjectCode": "CED",
+      "courseNumber": "351",
+      "longName": "Office Administration Internship I",
+      "name": "Off Admin Intship I",
+      "description": "Each student intern is assigned to a coordinator (a faculty member in the Department of Cooperative Education) who is knowledgeable about the student's field. The coordinator helps the student secure internship placement and serves as the student's instructor and advisor during the field experience. In addition, the student has a unique opportunity to discuss and evaluate broader goals and career objectives on an individual basis. Cooperative Education interns are expected to: work fifteen (15) hours a week, complete a term project assigned by the coordinator, and be evaluated by the worksite supervisor. Most students work part-time, fifteen (15) hours per week, a minimum of 150 hours per semester, in a field related to their majors while remaining full-time students and receive two (2) academic credits. When possible, employers will offer interns a stipend or hourly pay. A student may accept a volunteer (non-paid) rather than a paid assignment in order to complete the necessary internship requirements.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880011-2016-05-01",
+      "courseGroupId": "0880011",
+      "code": "CED 361",
+      "subjectCode": "CED",
+      "courseNumber": "361",
+      "longName": "Business Management Internship I",
+      "name": "Business Mgmt Internship I",
+      "description": "Each student intern is assigned to a coordinator (a faculty member in the Department of Cooperative Education) who is knowledgeable about the student's field. The coordinator helps the student secure internship placement and serves as the student's instructor and advisor during the field experience. In addition, the student has a unique opportunity to discuss and evaluate broader goals and career objectives on an individual basis. Cooperative Education interns are expected to: work fifteen (15) hours a week, complete a term project assigned by the coordinator, and be evaluated by the worksite supervisor. Most students work part-time, fifteen (15) hours per week, a minimum of 150 hours per semester, in a field related to their majors while remaining full-time students and receive two (2) academic credits. When possible, employers will offer interns a stipend or hourly pay. A student may accept a volunteer (non-paid) rather than a paid assignment in order to complete the necessary internship requirements.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "0880021-2019-02-01",
+      "courseGroupId": "0880021",
+      "code": "CED 365",
+      "subjectCode": "CED",
+      "courseNumber": "365",
+      "longName": "Small Business Entrepreneurship Internship I",
+      "name": "Small Bus Enteprshp Inrnshp I",
+      "description": "Interns can expect to perform various duties related to their major during the internship semester. Sample internship duties may include one or more of the following: Data entry, providing customer service, developing advertising/marketing materials, recording financial transactions, processing travel reservations, promoting sales, conducting front desk operations, assisting in small business operations, and performing a variety of other business-related tasks.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2019-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "0880041-1901-01-01",
+      "courseGroupId": "0880041",
+      "code": "CED 371",
+      "subjectCode": "CED",
+      "courseNumber": "371",
+      "longName": "Video Arts and Technology Internship I",
+      "name": "Vat Internship I",
+      "description": "Each student intern is assigned to a coordinator (a faculty member in the Department of Cooperative Education) who is knowledgeable about the student's field. The coordinator helps the student secure internship placement and serves as the student's instructor and advisor during the field experience. In addition, the student has a unique opportunity to discuss and evaluate broader goals and career objectives on an individual basis. Cooperative Education interns are expected to: work fifteen (15) hours a week, complete a term project assigned by the coordinator, and be evaluated by the worksite supervisor. Most students work part-time, fifteen (15) hours per week, a minimum of 150 hours per semester, in a field related to their majors while remaining full-time students and receive two (2) academic credits. When possible, employers will offer interns a stipend or hourly pay. A student may accept a volunteer (non-paid) rather than a paid assignment in order to complete the necessary internship requirements.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880111-2016-05-01",
+      "courseGroupId": "0880111",
+      "code": "CED 405",
+      "subjectCode": "CED",
+      "courseNumber": "405",
+      "longName": "Liberal Arts Internship II",
+      "name": "Liberal Arts Internship II",
+      "description": "Interns can expect to perform various duties related to their major during the internship semester. Sample internship duties may include one or more of the following: Interns will enhance and develop editorial, counseling or communication skills; sales, marketing, or computer skills; design, record-keeping, or research skills; government and public service.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "0880141-2016-05-01",
+      "courseGroupId": "0880141",
+      "code": "CED 415",
+      "subjectCode": "CED",
+      "courseNumber": "415",
+      "longName": "Computer Information Systems Internship II",
+      "name": "CIS Internship II",
+      "description": "Business Management Internships include students in the following areas of study:  Finance and Banking, General Management, Marketing, and Travel and Tourism.  Liberal Arts Internships include students majoring in Business Administration, and Liberal Arts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [
+        "ELO - INTERN (Internship)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2016-05-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - INTERN (Internship)"
+      ]
+    },
+    {
+      "id": "0880221-1901-01-01",
+      "courseGroupId": "0880221",
+      "code": "CED 451",
+      "subjectCode": "CED",
+      "courseNumber": "451",
+      "longName": "Office Administration Internship II",
+      "name": "Off Internship II",
+      "description": "Business Management Internships include students in the following areas of study:  Finance and Banking, General Management, Marketing, and Travel and Tourism.  Liberal Arts Internships include students majoring in Business Administration, and Liberal Arts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880241-1901-01-01",
+      "courseGroupId": "0880241",
+      "code": "CED 461",
+      "subjectCode": "CED",
+      "courseNumber": "461",
+      "longName": "Business Management Internship II",
+      "name": "Bus Mgt Intern II",
+      "description": "Business Management Internships include students in the following areas of study:  Finance and Banking, General Management, Marketing, and Travel and Tourism.  Liberal Arts Internships include students majoring in Business Administration, and Liberal Arts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0880261-1901-01-01",
+      "courseGroupId": "0880261",
+      "code": "CED 471",
+      "subjectCode": "CED",
+      "courseNumber": "471",
+      "longName": "Video Arts and Technology Internship II",
+      "name": "Vat Internship II",
+      "description": "Business Management Internships include students in the following areas of study:  Finance and Banking, General Management, Marketing, and Travel and Tourism.  Liberal Arts Internships include students majoring in Business Administration, and Liberal Arts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "COOP-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Internship",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

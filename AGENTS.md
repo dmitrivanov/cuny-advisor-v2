@@ -1,25 +1,24 @@
 # Repository instructions
 
-## Current authorization: Phase 04B — CUNY institutional registry
+## Current authorization: Phase 04C-1 — BMCC catalog ingestion
 
-Work on `feature/phase04b-institutional-registry` from updated main containing
-merged Phase 04A PR #11 and generated frontend agent instructions. Authorized:
-official institutional-source research, normalized versioned registry tables and
-explicit migrations/imports in disposable V2 PostgreSQL, read-only registry API,
-Next.js constellation integration, tests/screenshots/docs, commit/push and PR.
-Preserve frontend/AGENTS.md and read the installed Next.js docs before frontend edits.
+Work on `feature/phase04c1-bmcc-catalog` from current main with merged PR #12.
+Authorized: official BMCC Bulletin/department/program/course/map research, explicit
+source capture and staging/coverage reconciliation, versioned BMCC catalog ingestion
+in disposable V2 PostgreSQL, read-only browsing API and existing BMCC UI integration,
+regression tests, documentation, scoped commit/push and a dedicated PR.
+Preserve generated frontend/AGENTS.md; read installed Next.js docs before frontend edits.
 
-Preserve existing academic identities, catalog fixtures/history, evaluator, exact
-credits, uncertainty and BMCC functionality. No new academic rules, curriculum
-scraping/population, other-campus academic services, real student data, accounts,
-production resources, V1 access, merge or deployment. Registry support status is
-project capability, never academic/institutional approval. Do not modify or inspect
-backend/.env.local; Gemini connectivity is unavailable and unnecessary for 04B.
-
-Respect existing services and unrelated work. Explicitly migrate/import only the
-reviewed registry into disposable V2 resources; no implicit startup DDL/seed. Run
-applicable checks, open the dedicated PR and stop for owner review. No Phase 04C
-implementation or history rewrite. Permanent restrictions below remain in force.
+Keep catalog years separate. Preserve original rule text and source provenance;
+only unambiguous source-verified interpretations may be structured. Missing rules
+remain unresolved. Source verification is not institutional academic approval.
+Preserve existing releases, evaluator semantics, exact credit strings and uncertainty.
+Full program degree-requirement ingestion belongs to separately authorized 04C-2.
+No other-campus activation, real records, enrollment/registration, production/V1
+resources, accounts, Gemini calls, merge, deployment or later-phase implementation.
+Do not inspect/change backend/.env.local; no key is needed. Respect source access
+restrictions and existing local services; explicit migration/import only, no startup
+network, DDL or seed. Leave the dedicated PR for owner review; no history rewrite.
 
 V1 is strictly read-only at reference commit
 `ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
@@ -96,6 +95,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 04B authorization
+The Phase 00 deliverable was documentation only. Current Phase 04C-1 authorization
 is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

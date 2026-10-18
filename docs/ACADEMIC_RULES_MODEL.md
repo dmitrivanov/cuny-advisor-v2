@@ -192,3 +192,15 @@ The earlier Phase 02B recommendation above is historical; only this bounded
 evidence work is now authorized. Proposed persistence is documented in
 [PERSISTENCE_DESIGN_PHASE_02C.md](PERSISTENCE_DESIGN_PHASE_02C.md), not implemented.
 The [policy matrix](ACADEMIC_POLICY_EVIDENCE.md) records human decisions still needed.
+
+## Phase 04C-1 ingestion representation boundary
+
+Source browsing reuses Completed/minimum-grade-rank, Unknown and NoConditions and
+preserves recursive all/any semantics. Additional placement/test/permission/concurrent/
+program leaves describe evidence without adding evaluator operators. Provisional,
+missing and conflicting rule text must carry Unknown; source-verified structured
+interpretations require original text and explicit year evidence. No new BMCC rule
+is promoted in this snapshot, and no browse AST enters the existing evaluator.
+Synthetic representation tests are not verified academic policy. Full prerequisite
+reconciliation and program requirements remain separately reviewed future work.
+See [ingestion design](BMCC_CATALOG_INGESTION.md).

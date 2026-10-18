@@ -298,3 +298,24 @@ invented catalogs. Explicit error/empty states replace static metadata fallback.
 See [registry contract and source mapping](INSTITUTIONAL_REGISTRY.md) and
 [verification](PHASE_04B_VERIFICATION.md). The source scope is 26 as retrieved on
 2026-10-17, not a permanently assumed CUNY total. Phase 04C remains proposed.
+
+## Implemented Phase 04C-1 source-browsing boundary
+
+`backend/app/catalog_ingestion/` owns public-source captures, typed staging, coverage
+and bounded review artifacts, append-only browse snapshots and their integrity-checked
+projections. Seven new tables under `cuny_advisor_v2` follow `04b_001` via `04c1_001`.
+Canonical JSONB and exact Decimal strings follow existing persistence conventions;
+composite FKs protect same-snapshot department relations. Runtime gets SELECT only.
+No new dependency, implicit migration, startup network or academic release mutation.
+
+The 2025–2026 Bulletin snapshot remains distinct from 2026–2027 audit releases.
+Current website program identities and supporting rule text retain null year
+applicability. No structured eligibility rule is newly promoted; typed representation
+of additional condition kinds is browse evidence only and never enters the unchanged
+pure evaluator. Full degree requirements belong to 04C-2.
+
+Read-only `/api/v1/bmcc-catalog` discovery/resources and the loopback Next.js proxy
+power an on-demand Academic Catalog browser. Exact snapshot selection, text search,
+pagination, offering-unit filters and evidence disclosures cannot add unreviewed
+courses to the existing selector/progress context. See [source mapping/schema/API](BMCC_CATALOG_INGESTION.md)
+and [verification](PHASE_04C1_VERIFICATION.md). BMCC alone remains operational.

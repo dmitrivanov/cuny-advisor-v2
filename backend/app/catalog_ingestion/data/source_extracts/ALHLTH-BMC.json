@@ -1,0 +1,2162 @@
+{
+  "department_id": "ALHLTH-BMC",
+  "catalog_id": "YiimrCscg9IpPRh0XQeo",
+  "catalog_year": "2025-2026",
+  "html_sha256": "17c7d877145819a84e9fe357766a959db6bc230685b898add3359e62ee48a0b8",
+  "records": [
+    {
+      "id": "0883371-1901-01-01",
+      "courseGroupId": "0883371",
+      "code": "EMC 100",
+      "subjectCode": "EMC",
+      "courseNumber": "100",
+      "longName": "Emergency Medical Care",
+      "name": "Emergency Medical Care",
+      "description": "This course is a training program to provide the students with the necessary basic skills and knowledge to deal with a broad spectrum of illness and injuries in the pre-hospital care phase of emergency medicine. Upon successful completion of the course, students will take the New York State Emergency Medical Technical Certification Examination. Once certified, and upon completion of certain fundamental core courses, the student will be eligible to take the advanced paramedic level courses of the program. The course will be offered in the fall and spring semesters only.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 8
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883381-1901-01-01",
+      "courseGroupId": "0883381",
+      "code": "EMC 101",
+      "subjectCode": "EMC",
+      "courseNumber": "101",
+      "longName": "Emergency Medical Care Paramedic I",
+      "name": "Emerg Med Care Par I",
+      "description": "This course provides students with the knowledge of human anatomy and physiology as required for the understanding of assessing and treating victims of sudden illness or injury. Pathophysiology and management of problems, patient assessment, and techniques of management of the cardiovascular system and respiratory system, as well as all other systems, are introduced.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 6,
+        "creditHours": {
+          "min": 6,
+          "max": 6,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 9,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 9
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883391-1901-01-01",
+      "courseGroupId": "0883391",
+      "code": "EMC 102",
+      "subjectCode": "EMC",
+      "courseNumber": "102",
+      "longName": "Emergency Medical Care/Paramedic II",
+      "name": "Emer Med Care/Para II",
+      "description": "This course provides students with the knowledge of assessing victims of sudden illness or injury with the understanding of the underlying anatomy and physiology of the affected tissue, organ, or system. Students will also be given an understanding of appropriate treatment modalities for certain disease entities and injuries. Students will also be provided with the knowledge and skills required for treating victims of sudden illness or injury as pre-hospital care givers.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 6,
+        "creditHours": {
+          "min": 6,
+          "max": 6,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 9,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 9
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883401-1901-01-01",
+      "courseGroupId": "0883401",
+      "code": "EMC 201",
+      "subjectCode": "EMC",
+      "courseNumber": "201",
+      "longName": "Emergency Medical Care/Paramedic III",
+      "name": "Emer Med Care/Par III",
+      "description": "This course provides students with the knowledge of appropriate assessment of the cardiac patient, the knowledge and skill to read normal electrocardiograms, recognize cardiac arrhythmias on same, operate and interpret electrocardiograms. It also provides students with the skills to use a defibrillator, and to perform defibrillation and synchronized cardioversion. Students are also provided with knowledge of local, general, and systemic effects of specific drugs, as well as the absorption rates via intravenous, subcutaneous, oral, transtracheal, and intramuscular routes of administration. Students are provided with the knowledge of the effects of alpha and beta receptors in the heart, lungs, and arteries, as well as beta blockers. Students are also provided with the knowledge of dose, dilution, action, indications and use, precautions, incompatibility, contraindications, side effects, antidotes of specific drugs, and skills of administering drugs.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 6,
+        "creditHours": {
+          "min": 6,
+          "max": 6,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 9,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 9
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883411-1901-01-01",
+      "courseGroupId": "0883411",
+      "code": "EMC 202",
+      "subjectCode": "EMC",
+      "courseNumber": "202",
+      "longName": "Emergency Medical Care/Paramedic IV",
+      "name": "Emerg Medical Care/Paramed IV",
+      "description": "This course provides students with the knowledge and skills required to perform physical examination on patients with suspected injury to the head, spinal cord, cervical spine, neurologic problems, and general seizures. It also provides students with the knowledge and skills to recognize symptoms of diabetes mellitus, insulin shock, hypoglycemia, hyperglycemia, and treatment of same. In addition, students are provided with the knowledge of appropriate treatment of a patient who has ingested poison. Students are provided with the knowledge and skill required to catheterize both male and female urinary bladders. Students are also provided with the knowledge and skills required to arrive at a decision to transport patients in labor, or to prepare for delivery, as well as functioning in all childbirth possibilities. Students are provided with the knowledge and skills of management in mass casualty situations,  situations involving a battered or sexually abused child, and situations involving emotionally disturbed patients who are combative.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 6,
+        "creditHours": {
+          "min": 6,
+          "max": 6,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 9,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 9
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883431-1901-01-01",
+      "courseGroupId": "0883431",
+      "code": "EMC 301",
+      "subjectCode": "EMC",
+      "courseNumber": "301",
+      "longName": "Emergency Medical Care/Paramedic Clinical Internship I",
+      "name": "EMC/Para Clinic Intrn I",
+      "description": "Students are provided with clinical training experience at the Cardiac Catheterization Laboratory, City Morgue, and with the Hospital Phlebotomy team. Students will also perform clinical service in the Emergency Department, Operating Room, and with the Paramedic Ambulance. Students will acquire further experience in the Labor and Delivery Suite, Intensive Care Unit, Pediatric Department, and Psychiatric Emergency Department.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 1,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 5,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 5
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883441-1901-01-01",
+      "courseGroupId": "0883441",
+      "code": "EMC 302",
+      "subjectCode": "EMC",
+      "courseNumber": "302",
+      "longName": "Emergency Medical Care/Paramedic Internship II",
+      "name": "Emc/Par Clin Int II",
+      "description": "In this second EMC/Paramedical clinical rotation course students continue their work in the hospital emergency room. In addition, clinical rotations are provided for experiences on the paramedical (advance life support) ambulance, in the operating room, and in the New York City Medical Examiner's Office.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 10,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 10
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0883451-1901-01-01",
+      "courseGroupId": "0883451",
+      "code": "EMC 303",
+      "subjectCode": "EMC",
+      "courseNumber": "303",
+      "longName": "Emergency Medical Care/Paramedic Internship III",
+      "name": "EMC/Para Clin Int III",
+      "description": "In this final EMC/Paramedic clinical rotation course students complete their required hours in the hospital emergency room and on the Paramedic (A.L.S.) ambulance. Additional development of knowledge and skills is provided in the labor and delivery rooms, psychiatric facilities, ICU/CCU, Cardiac Catheterization laboratory, pediatric neonatal clinic and well baby clinic.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 15,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 15
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886451-1901-01-01",
+      "courseGroupId": "0886451",
+      "code": "HIT 103",
+      "subjectCode": "HIT",
+      "courseNumber": "103",
+      "longName": "Medical Terminology I",
+      "name": "Medical Terminology I",
+      "description": "This is the first part of a two-semester course which includes a development of medical terminology in a logical sequence. Medical terms are used in a limited number of body systems. Special attention is given to presenting medical terms in their proper context as related to: anatomy and physiology, pathology, clinical procedures, laboratory tests and abbreviations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1153871-2011-06-30",
+      "courseGroupId": "1153871",
+      "code": "HIT 106",
+      "subjectCode": "HIT",
+      "courseNumber": "106",
+      "longName": "Pathology of Diseases I",
+      "name": "Pathology of Diseases I",
+      "description": "This is the first of two courses that focuses on the diagnosis and treatment of body systems. Students will learn the cause, risk factors, treatment, and prevention of diseases of the body. Students are required to review medical charts and identify diseases and procedures relevant for billing purposes according to the current official ICD-CM coding guidelines.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-30",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1153881-2011-06-30",
+      "courseGroupId": "1153881",
+      "code": "HIT 107",
+      "subjectCode": "HIT",
+      "courseNumber": "107",
+      "longName": "Health Record Systems",
+      "name": "Health Record Systems",
+      "description": "This course prepares the student to identify an incomplete medical record. The various hospital departments (e.g. finance, risk management, quality assurance) and regulating agencies (e.g. JCAHO), as they relate to the medical record will be covered. Students will also be exposed to alternate sites for medical charts (e.g. prison).",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-30",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1153891-2011-06-30",
+      "courseGroupId": "1153891",
+      "code": "HIT 108",
+      "subjectCode": "HIT",
+      "courseNumber": "108",
+      "longName": "Health Data Information, Storage and Retrieval",
+      "name": "Health Data Information",
+      "description": "This course begins with an overview of the Health Information Management (HIM) profession. Topics include contents of different types of medical records, required standards for chart documentation, divisions within the HIM department, and chart flow throughout the department. It also covers the development and use of primary and secondary indexes and registries, numbering and filing systems, and methodologies utilized for the retention, retrieval, and destruction of medical documents. Utilizing the internet, students will learn to access health-related databases and evaluate the different vendors offering filing systems and storage, including microfilm and computer hardware/software. Utilizing materials in the classroom, students will create patient charts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-30",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1348411-2017-02-01",
+      "courseGroupId": "1348411",
+      "code": "HIT 110",
+      "subjectCode": "HIT",
+      "courseNumber": "110",
+      "longName": "Medical Terminology",
+      "name": "Medical Terminology",
+      "description": "This course introduces students to medical terms and abbreviations associated with each body system and applicable diseases as well as associated diagnostic and therapeutic tests. Students are also introduced to the anatomy and physiology for each body system and pharmacology options for treatment of diseases including name and category of medication and method of delivery. The correlation between medical terms, diagnosis and treatment of diseases, and medical coding is also covered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1348431-2017-02-01",
+      "courseGroupId": "1348431",
+      "code": "HIT 111",
+      "subjectCode": "HIT",
+      "courseNumber": "111",
+      "longName": "Introduction to Health Information Management",
+      "name": "Intro to Health Info Mgmt",
+      "description": "This course introduces students to a variety of functions and credentials associated with the health information management (HIM) profession. Students are also introduced to the legal requirements regarding documentation based on type of facility, health information technologies specific to the profession, and organizations that provide data that influences health care services.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1348441-2017-02-01",
+      "courseGroupId": "1348441",
+      "code": "HIT 112",
+      "subjectCode": "HIT",
+      "courseNumber": "112",
+      "longName": "Principles of Health Care Reimbursement",
+      "name": "Prin of Health Care Reimburse",
+      "description": "This course will expose students to the different types of health insurance, payment systems based on type of service provided (e.g. long term, ambulatory, acute, outpatient, rehab, home health, and skilled nursing), components of the billing process, and the monitoring and controlling functions of the revenue cycle. Students will also be introduced to strategies to improve the delivery and payment of healthcare services (e.g. value-based, pay-for-performance).",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886481-1901-01-01",
+      "courseGroupId": "0886481",
+      "code": "HIT 203",
+      "subjectCode": "HIT",
+      "courseNumber": "203",
+      "longName": "Medical Terminology II",
+      "name": "Medical Terminology II",
+      "description": "This course is a continuation and advanced study of medical terms. Basic fundamentals of word analysis are applied in a continued study of medical terms by body systems. Medical terminology is applied in case reports, X-ray reports, operative and diagnostic lists, drug descriptions and other medical contexts.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886491-1901-01-01",
+      "courseGroupId": "0886491",
+      "code": "HIT 204",
+      "subjectCode": "HIT",
+      "courseNumber": "204",
+      "longName": "Health Statistics",
+      "name": "Health Statistics",
+      "description": "This course provides an in-depth coverage of statistical computations relevant to hospital inpatient and outpatient services. Common statistical collection and display methodologies used for administrative decisions are covered.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886511-2017-02-01",
+      "courseGroupId": "0886511",
+      "code": "HIT 206",
+      "subjectCode": "HIT",
+      "courseNumber": "206",
+      "longName": "Pathology and Pharmacology",
+      "name": "Pathology and Pharmacology",
+      "description": "This course is designed to provide Medical Record students with the ability to interpret medical records when coding diagnoses, according to the International Classification of Diseases, 9th Revision Clinical Modification (ICD-9-CM), when making case reports or abstracts and when tabulating data for group studies of diseases.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1166541-1901-01-01",
+      "courseGroupId": "1166541",
+      "code": "HIT 207",
+      "subjectCode": "HIT",
+      "courseNumber": "207",
+      "longName": "Coding and Classifications Systems I",
+      "name": "Code & Class Systems I",
+      "description": "This course covers the historical development and current medical coding systems for diagnoses, procedures, and reimbursement systems. Students will gain entry-level competency in the use of the current ICD-CM coding system by coding inpatient charts and assigning a diagnostic related group (DRG), utilizing an internet based coding program. Students will also complete coding exercises within and outside of the classroom covering specific diseases (e.g., AIDS, Neoplasms) to learn applicable coding guidelines.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1166551-1901-01-01",
+      "courseGroupId": "1166551",
+      "code": "HIT 208",
+      "subjectCode": "HIT",
+      "courseNumber": "208",
+      "longName": "Pathology of Diseases II",
+      "name": "Pathology of Diseases II",
+      "description": "This is a continuation of HIT 106, Pathology of Diseases I, that focuses on the diagnosis and treatment of body systems. Students will learn the cause, risk factors, treatment, and prevention of diseases of the body. Students are required to review medical charts and identify diseases and procedures relevant for billing purposes according to the current official ICD-CM coding guidelines.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1348501-2017-02-01",
+      "courseGroupId": "1348501",
+      "code": "HIT 209",
+      "subjectCode": "HIT",
+      "courseNumber": "209",
+      "longName": "ICD-CM PCS Coding",
+      "name": "ICD-CM PCS Coding",
+      "description": "Students will learn to apply the diagnostic and procedural coding guidelines for the current ICD-CM/PCS coding systems. Students will review inpatient charts and assign the appropriate codes for diagnoses and procedures, enter the codes into an Encoder, and assign a diagnostic related group (DRG). Students will also complete coding exercises covering specific diseases (e.g., AIDS, Neoplasms) and procedures to learn applicable coding guidelines.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886521-2011-08-01",
+      "courseGroupId": "0886521",
+      "code": "HIT 210",
+      "subjectCode": "HIT",
+      "courseNumber": "210",
+      "longName": "Professional Practice Experience I",
+      "name": "Professional Practice Expr I",
+      "description": "This is a supervised learning experience in affiliated clinical sites which enables the student to acquire competence in medical record procedures directly related to the course content of all previous HIT courses. Some of the functions and areas students will learn about are filing, registration, and requests for patient information",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 32,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-08-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 32
+        }
+      ],
+      "catalog_attributes": [
+        "ELO - CPP (Clinical Preparation Practicum)"
+      ]
+    },
+    {
+      "id": "1349761-2017-02-01",
+      "courseGroupId": "1349761",
+      "code": "HIT 215",
+      "subjectCode": "HIT",
+      "courseNumber": "215",
+      "longName": "HIM Medical Legal Applications",
+      "name": "HIM Medical Legal Applications",
+      "description": "This course covers all federal and state laws that are applicable to the HIM profession. It will also cover the legal principles applicable to malpractice, New York State statutes, different types and completeness of consent forms requirements, legally acceptable release of confidential medical information including special situations (e.g. mental, drug dependence or AIDS diagnoses), and legal terms utilized within the profession. Ethical requirements of HIM professionals will also be discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886541-1901-01-01",
+      "courseGroupId": "0886541",
+      "code": "HIT 331",
+      "subjectCode": "HIT",
+      "courseNumber": "331",
+      "longName": "Medicolegal Applications",
+      "name": "Medicolegal Applications",
+      "description": "This course covers the legal principles applicable to malpractice; New York State Health Code statutes; confidentiality and informed consent requirements; procedures for the release of medical information and response to subpoena duces tecum.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886551-2017-02-01",
+      "courseGroupId": "0886551",
+      "code": "HIT 332",
+      "subjectCode": "HIT",
+      "courseNumber": "332",
+      "longName": "Performance Improvement and Data Analysis",
+      "name": "Perform Improve & Data Analysi",
+      "description": "This course covers the use of review methodologies required by third party reimbursement agencies to insure that patients receive appropriate medical care. The principles of form design and control procedures will be examined.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1153901-2011-06-30",
+      "courseGroupId": "1153901",
+      "code": "HIT 333",
+      "subjectCode": "HIT",
+      "courseNumber": "333",
+      "longName": "Coding and Classifications Systems II",
+      "name": "Code & Class Systems II",
+      "description": "This course is a continuation of HIT 207 ? Medical Coding I and covers the historical development and current medical coding systems for diagnoses, procedures, and reimbursement systems. Students will gain entry-level competency in the use of the current ICD-CM coding system by coding inpatient charts and assigning a diagnostic related group (DRG), utilizing an internet based coding program. Students will also complete coding exercises within and outside of the classroom covering the coding of procedures, diagnostic, and therapeutic options applicable to all body systems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-30",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "1348511-2017-02-01",
+      "courseGroupId": "1348511",
+      "code": "HIT 334",
+      "subjectCode": "HIT",
+      "courseNumber": "334",
+      "longName": "CPT/HCPCS Coding",
+      "name": "CPT/HCPCS Coding",
+      "description": "This course is a continuation of HIT 209 in further learning the current ICD-CM and Current Procedural Terminology (CPT) coding system. Students are required to code ambulatory and inpatient charts utilizing a software to assign a Diagnostic Related Group. Students will be introduced to other coding systems and clinical terminologies (HCPCS, SNOMED) and perform in class activities of each coding system.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 6
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886561-2011-06-01",
+      "courseGroupId": "0886561",
+      "code": "HIT 421",
+      "subjectCode": "HIT",
+      "courseNumber": "421",
+      "longName": "Coding and Classifications Systems III",
+      "name": "Code/Class Systems III",
+      "description": "This course is a continuation of HIT 330 and focuses on medical coding systems which are utilized for reimbursement of health care services.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2011-06-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886571-1901-01-01",
+      "courseGroupId": "0886571",
+      "code": "HIT 422",
+      "subjectCode": "HIT",
+      "courseNumber": "422",
+      "longName": "Health Care Delivery Systems",
+      "name": "Health Care Delivery Systems",
+      "description": "This advanced course serves to integrate medical record science skills and technology into widely used functions. Topics include the organization and function of a Cancer Registry, responsibilities of medical staff committees and the requirements of health care accrediting agencies as these relate to health information technology.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 1,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 1
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886581-2017-02-01",
+      "courseGroupId": "0886581",
+      "code": "HIT 423",
+      "subjectCode": "HIT",
+      "courseNumber": "423",
+      "longName": "Management in the HIM Department",
+      "name": "Management in the HIM Dept",
+      "description": "This course covers the theories and techniques of management. Students demonstrate their knowledge and understanding through laboratory exercises. This is a required course in the HIT curriculum.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "2017-02-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0886591-1901-01-01",
+      "courseGroupId": "0886591",
+      "code": "HIT 430",
+      "subjectCode": "HIT",
+      "courseNumber": "430",
+      "longName": "Medical Record Clinical Practicum",
+      "name": "Prof Practic Exp II",
+      "description": "This is a supervised learning experience in affiliated clinical sites which enables the student to acquire competence in medical record procedures.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 12,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 12
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894711-1901-01-01",
+      "courseGroupId": "0894711",
+      "code": "RTT 100",
+      "subjectCode": "RTT",
+      "courseNumber": "100",
+      "longName": "Fundamentals of Respiratory Therapy",
+      "name": "Fund Respir Therapy",
+      "description": "Students are given the knowledge, skills, and attitudes basic to all patient care, with special emphasis on the basic science principles applicable to medical gases, pressure breathing devices, gas exchange, artificial ventilation and respiration. This course also involves the study and operation of basic respiratory therapy equipment such as cannulae, masks and tents, nebulizers, flowmeters and regulators, oxygen analyzers and oxygen supply systems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 8,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 8
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894721-1901-01-01",
+      "courseGroupId": "0894721",
+      "code": "RTT 101",
+      "subjectCode": "RTT",
+      "courseNumber": "101",
+      "longName": "Introduction to Respiratory Therapy Equipment",
+      "name": "Intro Resp Therapy Equipment",
+      "description": "This laboratory course gives the student the opportunity for hands-on learning of equipment found in Respiratory Therapy departments of affiliated hospitals. The student observes, operates, disassembles and reassembles equipment until fully competent at setting up, operating and trouble shooting. Students become familiar with equipment used in respiratory care prior to use in direct patient contact.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 1,
+        "creditHours": {
+          "min": 1,
+          "max": 1,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 1,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 1,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894731-1901-01-01",
+      "courseGroupId": "0894731",
+      "code": "RTT 201",
+      "subjectCode": "RTT",
+      "courseNumber": "201",
+      "longName": "Respiratory Therapy I",
+      "name": "Respiratory Therapy I",
+      "description": "This continuation of applied science principles is fundamental to Respiratory Therapy. Special emphasis is placed on the theory of airway management, respiratory diseases, introductory pharmacology, ventilators used in IPPB therapy, acid-base chemistry and a knowledge of emergency care.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894741-1901-01-01",
+      "courseGroupId": "0894741",
+      "code": "RTT 202",
+      "subjectCode": "RTT",
+      "courseNumber": "202",
+      "longName": "Respiratory Therapy Clinical Practicum I",
+      "name": "RTT Clinic Pract I",
+      "description": "This is a supervised clinical experience in Respiratory Therapy hospital affiliations. Students work with patients utilizing equipment such as oxygen catheters and cannulae, masks, tents, nebulizers, flowmeters and regulators, oxygen analyzers and oxygen supply sytems.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 9,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 9
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894751-1901-01-01",
+      "courseGroupId": "0894751",
+      "code": "RTT 210",
+      "subjectCode": "RTT",
+      "courseNumber": "210",
+      "longName": "Respiratory Therapy Summer Clinical Practicum",
+      "name": "Rtt Summer Cln Prac",
+      "description": "This course is a 10-week, 40-hour-per-week practicum required of students registered in the Respiratory Therapy curriculum. The Respiratory Therapy Summer Clinical Practicum is a continuation of the clinical training and experience introduced during the second semester of the program (RTT 201 and RTT 202). The schedule is structured to rotate groups in the class through various participating clinical facilities where students will have patient bedside instruction and practice in IPPB, oxygen therapy, aerosol treatment and ventilation, and bedside intensive care for adults and pediatric patients.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 6,
+        "creditHours": {
+          "min": 6,
+          "max": 6,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 40,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 6,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 6,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 40
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894761-1901-01-01",
+      "courseGroupId": "0894761",
+      "code": "RTT 301",
+      "subjectCode": "RTT",
+      "courseNumber": "301",
+      "longName": "Respiratory Therapy II",
+      "name": "Respiratory Therapy II",
+      "description": "Skills in patient care are further developed and emphasis is placed on continuous ventilation and acid-base chemistry. The physiology of the cardio-pulmonary system, the ethical and legal implications, and responsibilities relating to Respiratory Therapy services are discussed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894771-1901-01-01",
+      "courseGroupId": "0894771",
+      "code": "RTT 302",
+      "subjectCode": "RTT",
+      "courseNumber": "302",
+      "longName": "Respiratory Therapy Clinical Practicum II",
+      "name": "RTT Clinic Pract II",
+      "description": "This is a continuation of the supervised hospital Respiratory Therapy clinical experiences dealing with complex patient equipment such as ventilators, resuscitators, respirators, use of blood-gas analyzers, and aerosol apparatus.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 16,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 16
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894781-1901-01-01",
+      "courseGroupId": "0894781",
+      "code": "RTT 310",
+      "subjectCode": "RTT",
+      "courseNumber": "310",
+      "longName": "Cardio-Respiratory Physiology",
+      "name": "Cardio-Respiratory Physiology",
+      "description": "This course exceeds the scope of Anatomy and Physiology I & II, and stresses physiological properties of the heart, blood vessels and lungs, particularly as they are interrelated and as they contribute to preserving the integrity of the human nervous system. The material is taught in a clinically-oriented manner to reinforce those aspects of cardio-pulmonary physiology most relevant to the care of patients.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894791-1901-01-01",
+      "courseGroupId": "0894791",
+      "code": "RTT 320",
+      "subjectCode": "RTT",
+      "courseNumber": "320",
+      "longName": "Pulmonary Function Testing",
+      "name": "Pulmonary Function Testing",
+      "description": "This course introduces students to the most common tests of pulmonary function in adults and children. Students will be required to perform these tests and interpret their significance.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 3
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894801-1901-01-01",
+      "courseGroupId": "0894801",
+      "code": "RTT 401",
+      "subjectCode": "RTT",
+      "courseNumber": "401",
+      "longName": "Respiratory Therapy III",
+      "name": "Respiratory Therapy III",
+      "description": "This course provides students with a knowledge of the various methods of sterilization, diseases and problems resulting in respiratory failure, cardio-pulmonary function testing and diagnosis, pediatric respiratory care, percussive therapy and postural drainage, and administrative responsibilities of the therapist. Preparation is included for the Credentialing Examinations.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 3,
+        "creditHours": {
+          "min": 3,
+          "max": 3,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 3,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 3,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 4
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894821-1901-01-01",
+      "courseGroupId": "0894821",
+      "code": "RTT 403",
+      "subjectCode": "RTT",
+      "courseNumber": "403",
+      "longName": "Respiratory Therapy Clinical Practicum III",
+      "name": "RTT Clinic Pract III",
+      "description": "This last course of supervised hospital Respiratory Therapy clinical experience continues emphasis on administration of Respiratory Therapy care to patients with additional work in hospital departmental operation, including patient record-keeping, reporting and charting. Interdisciplinary team relationships are also stressed.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 4,
+        "creditHours": {
+          "min": 4,
+          "max": 4,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 16,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 4,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 4,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 16
+        }
+      ],
+      "catalog_attributes": []
+    },
+    {
+      "id": "0894831-1901-01-01",
+      "courseGroupId": "0894831",
+      "code": "RTT 410",
+      "subjectCode": "RTT",
+      "courseNumber": "410",
+      "longName": "Fundamentals of Clinical Medicine",
+      "name": "Fund Clin Medicine",
+      "description": "This course is an assimilation of the basic and clinical sciences from several areas of medicine, to help students develop a deeper understanding of the patho-physiological consequences of such diseases as asthma, atelectasis, pneumonia, pulmonary embolism, infant respiratory distress syndrome and others. Independent study and student participation in teaching are encouraged.",
+      "credits": {
+        "courseCount": 1,
+        "repeatable": false,
+        "numberOfRepeats": 1,
+        "numberOfCredits": 2,
+        "creditHours": {
+          "min": 2,
+          "max": 2,
+          "operator": ""
+        },
+        "contactHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "academicProgressHours": {
+          "value": 2,
+          "operator": ""
+        },
+        "financialAidHours": {
+          "value": 2,
+          "operator": ""
+        }
+      },
+      "departments": [
+        "ALHLTH-BMC"
+      ],
+      "attributes": [],
+      "requirementDesignation": "Regular Non-Liberal Arts",
+      "requirementGroup": null,
+      "consent": null,
+      "effectiveStartDate": "1901-01-01",
+      "effectiveEndDate": null,
+      "alternativeCode": null,
+      "components": [
+        {
+          "name": "Lecture",
+          "contactHours": 2
+        }
+      ],
+      "catalog_attributes": []
+    }
+  ]
+}

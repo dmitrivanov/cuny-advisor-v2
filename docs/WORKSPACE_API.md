@@ -78,3 +78,13 @@ persisted CS/CIS/synthetic releases. All Phase 02A–02C tests remain. Browser t
 intercept the academic API with explicitly labeled reviewed public fixture responses;
 these establish UI behavior, **not** browser-to-PostgreSQL end-to-end proof. No SQLite.
 Actual final test counts and CI evidence are recorded in the PR.
+
+## Phase 04B public institutional registry
+
+Registry metadata is separate from catalog discovery. `GET /api/v1/institutions`
+and `GET /api/v1/institutions/{slug}` read persisted, integrity-checked institutional
+snapshots. The no-store Next.js proxy is `/api/institutions`; no writes or AI are
+involved. Explicit migration/import is now required for campus discovery; registry
+failure never substitutes a static campus subset. Existing academic request/response
+contracts and context requirements are unchanged. See [full registry contract,
+response example and setup](INSTITUTIONAL_REGISTRY.md).

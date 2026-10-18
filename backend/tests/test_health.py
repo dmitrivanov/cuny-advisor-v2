@@ -31,6 +31,8 @@ def test_only_authorized_workspace_and_conversation_routes_are_registered(client
     prefix = "/api/v1/academic/campuses/{campus_id}/programs/{program_id}/releases/{release_id}"
     assert {path: set(methods) for path, methods in schema["paths"].items()} == {
         "/api/v1/health": {"get"},
+        "/api/v1/institutions": {"get"},
+        "/api/v1/institutions/{slug}": {"get"},
         "/api/v1/conversation/status": {"get"},
         "/api/v1/conversation/session": {"post"},
         "/api/v1/conversation": {"post"},

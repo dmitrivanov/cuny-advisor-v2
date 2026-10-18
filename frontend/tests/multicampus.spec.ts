@@ -1,6 +1,7 @@
 import { test, expect } from "@playwright/test";
 import type { Page } from "@playwright/test";
 import releases from "./fixtures/releases.json" with { type: "json" };
+import institutionFixture from "./fixtures/institutions.json" with { type: "json" };
 import cs from "./fixtures/catalog-cs.json" with { type: "json" };
 import cis from "./fixtures/catalog-cis.json" with { type: "json" };
 test.use({
@@ -38,7 +39,9 @@ test("graph-first landing exposes contextual details and a dismissible unavailab
   await expect(
     page.getByRole("heading", { name: "Choose your campus." }),
   ).toBeVisible();
-  await expect(page.locator(".campus-node")).toHaveCount(8);
+  await expect(page.locator(".campus-node")).toHaveCount(
+    institutionFixture.institutions.length,
+  );
   await expect(info(page)).toHaveCount(0);
   await shot(page, "landing-1440");
   await node(page, "BMCC").focus();

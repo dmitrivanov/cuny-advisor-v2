@@ -1,4 +1,5 @@
-import { campuses, hasAcademicTools } from "./campuses.ts";
+import { hasAcademicTools } from "./campuses.ts";
+import type { Campus } from "./campuses.ts";
 import { reported, validateUpdate } from "./profile.ts";
 import { goalLabels } from "./readiness.ts";
 import type { AdvisingState, Goal, ProfileUpdate } from "./profile.ts";
@@ -42,7 +43,10 @@ export function validateProposal(
     )
   );
 }
-export function interpretBounded(text: string): ConversationProposal | null {
+export function interpretBounded(
+  text: string,
+  campuses: readonly Campus[] = [],
+): ConversationProposal | null {
   const normalized = text
     .trim()
     .toLowerCase()

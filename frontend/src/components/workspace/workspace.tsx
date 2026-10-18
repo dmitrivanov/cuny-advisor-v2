@@ -1,6 +1,7 @@
 "use client";
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
 import Link from "next/link";
+import { useInstitutions } from "@/components/campus/institutions-provider";
 import { useAdvising } from "@/components/campus/advising-provider";
 import { AdaptiveProfile } from "@/components/campus/adaptive-profile";
 import {
@@ -54,6 +55,7 @@ type Message = {
 };
 export function Workspace({ campus }: { campus: Campus }) {
   const { advising, setAdvising } = useAdvising();
+  const { campuses } = useInstitutions();
   useEffect(
     () => setAdvising((current) => switchCampus(current, campus.id)),
     [campus.id, setAdvising],
@@ -247,12 +249,13 @@ export function Workspace({ campus }: { campus: Campus }) {
   }
   function sendLocal(text: string) {
     if (!text.trim()) return;
-    const proposal = interpretBounded(text);
+    const proposal = interpretBounded(text, campuses);
     const accepted = proposal && validateProposal(proposal, advising);
     if (accepted)
       setAdvising((current) => {
         let next = proposal.goal ? setGoal(current, proposal.goal) : current;
-        for (const update of proposal.updates) next = applyUpdate(next, update);
+        for (const update of proposal.updates)
+          next = applyUpdate(next, update, campuses);
         return next;
       });
     const reply: Guidance = accepted

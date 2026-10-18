@@ -4,6 +4,8 @@ Status: target architecture with bounded local implementation, 2026-10-17.
 The skeleton, design system, bounded Phase 02A/02B prototypes and Phase 02C local
 persistence adapter and bounded Phase 02D workspace plus Phase 03A frontend refinement are implemented; broader
 services below remain targets.
+Phase 03B campus/profile foundation, merged Phase 04A optional gateway and the local
+Phase 04B institutional registry are also implemented. See current slice below.
 Evidence classifications and external sources: [PRD](PRD.md).
 
 ## Current Phase 02A implementation boundary
@@ -278,3 +280,21 @@ are unchanged. No student persistence, real data, official approval or deploymen
 Backend-only google-genai adapter, strict proposal contracts, loopback-only bounded conversation API and same-origin proxy add opt-in fictional natural conversation. Existing Phase 03B profile/readiness and academic services remain authoritative. Every model profile/goal change requires confirmation and a matching state snapshot. Academic facts stay in sourced deterministic modules; no generated academic retrieval or database chat storage. No schema, fixture or evaluator changes.
 
 See [Gemini gateway](GEMINI_GATEWAY.md), [orchestration](CONVERSATION_ORCHESTRATION.md) and [verification](PHASE_04A_VERIFICATION.md).
+
+## Implemented Phase 04B institutional boundary
+
+Five append-only public registry tables extend the existing isolated V2 schema
+through `04b_001`; academic persistence and pure evaluation remain unchanged.
+The migration-role importer validates reviewed source facts in one transaction,
+reuses campus identities, and verifies a canonical digest on import and read.
+Runtime has SELECT only on these new tables. Versioned source/revision references
+are scoped by composite FKs; identity/support changes require reviewed migrations.
+
+Typed read-only `/api/v1/institutions` and `/{slug}` routes feed a no-store Next.js
+proxy, shared context and server-rendered campus routes. No source fetching or AI
+is used at runtime. Only layout remains frontend-owned. BMCC is the only pilot;
+source verification never grants academic authority. Other institutions have no
+invented catalogs. Explicit error/empty states replace static metadata fallback.
+See [registry contract and source mapping](INSTITUTIONAL_REGISTRY.md) and
+[verification](PHASE_04B_VERIFICATION.md). The source scope is 26 as retrieved on
+2026-10-17, not a permanently assumed CUNY total. Phase 04C remains proposed.

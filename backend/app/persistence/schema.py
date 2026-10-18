@@ -233,3 +233,85 @@ requirement.append_constraint(
         "release_category",
     )
 )
+
+# Phase 04B: public registry snapshots are separate from academic catalog payloads.
+registry_snapshot = sa.Table(
+    "institution_registry_snapshot",
+    metadata,
+    col("snapshot_id", True),
+    sa.Column("retrieved_on", sa.Date, nullable=False),
+    col("scope_source"),
+    col("digest"),
+    sa.Column("institution_count", sa.Integer, nullable=False),
+    sa.CheckConstraint("length(digest)=64"),
+    sa.CheckConstraint("institution_count >= 0"),
+)
+institution = sa.Table(
+    "institution",
+    metadata,
+    col("institution_id", True),
+    col("slug"),
+    col("support_status"),
+    fk(["institution_id"], ["campus_id"], "campus"),
+    sa.UniqueConstraint("slug"),
+    sa.CheckConstraint("institution_id ~ '^[a-z][a-z0-9-]{0,79}$'"),
+    sa.CheckConstraint("slug ~ '^[a-z][a-z0-9-]{0,79}$'"),
+    sa.CheckConstraint("support_status IN ('pilot','planned')"),
+    sa.CheckConstraint("support_status <> 'pilot' OR institution_id = 'bmcc'"),
+)
+registry_source = sa.Table(
+    "institution_registry_source",
+    metadata,
+    col("snapshot_id", True),
+    col("source_id", True),
+    col("url"),
+    col("title"),
+    sa.Column("retrieved_on", sa.Date, nullable=False),
+    fk(["snapshot_id"], ["snapshot_id"], "institution_registry_snapshot"),
+    sa.UniqueConstraint("snapshot_id", "url"),
+    sa.CheckConstraint("url ~ '^https?://'"),
+)
+institution_revision = sa.Table(
+    "institution_revision",
+    metadata,
+    col("snapshot_id", True),
+    col("institution_id", True),
+    col("official_name"),
+    col("display_name"),
+    col("category"),
+    sa.Column("active", sa.Boolean, nullable=False),
+    col("website"),
+    col("classification_note"),
+    fk(["snapshot_id"], ["snapshot_id"], "institution_registry_snapshot"),
+    fk(["institution_id"], ["institution_id"], "institution"),
+    sa.UniqueConstraint("snapshot_id", "official_name"),
+    sa.CheckConstraint(
+        "category IN ('community_college','senior_college','graduate_professional','honors_college')"
+    ),
+    sa.CheckConstraint("length(official_name)>0 AND length(display_name)>0"),
+    sa.CheckConstraint("website ~ '^https?://'"),
+)
+institution_source = sa.Table(
+    "institution_source_reference",
+    metadata,
+    col("snapshot_id", True),
+    col("institution_id", True),
+    col("source_id", True),
+    col("locator"),
+    fk(
+        ["snapshot_id", "institution_id"],
+        ["snapshot_id", "institution_id"],
+        "institution_revision",
+    ),
+    fk(
+        ["snapshot_id", "source_id"],
+        ["snapshot_id", "source_id"],
+        "institution_registry_source",
+    ),
+)
+sa.Index(
+    "ix_institution_revision_category",
+    "category",
+    postgresql_include=["institution_id"],
+    _table=institution_revision,
+)

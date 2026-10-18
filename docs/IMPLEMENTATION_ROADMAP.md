@@ -1,11 +1,25 @@
 # Implementation roadmap
 
 Status: proposed sequence with bounded implementation, 2026-10-17.
-Phase 03A merged through PR #9; Phase 03B multi-campus/profile refinement is authorized. Later implementation remains gated.
+Phases 03A/03B and 04A are merged. Phase 04B institutional registry is implemented locally for owner PR review; Phase 04C remains gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
 
-## Phase 03B — Multi-campus profile foundation (current bounded slice)
+## Phase 04B — Institutional registry (implemented for owner review)
+
+Reviewed 2026-10-17 CUNY scope: 26 institutions, 11 senior / 7 community /
+7 graduate-professional / 1 consortial honors. Append-only normalized tables,
+explicit migration/import, typed read-only API and API-driven constellation replace
+the static subset. BMCC alone retains academic tools. No new curriculum, academic
+rules, records, provider changes, production deployment or institutional approval.
+
+Acceptance evidence: [registry design/source mapping](INSTITUTIONAL_REGISTRY.md),
+[executed verification](PHASE_04B_VERIFICATION.md), full PostgreSQL regressions,
+responsive browser checks and actual local PostgreSQL → FastAPI → Next.js workflow.
+Gemini live verification remains pending/unavailable, not an exit dependency here.
+Owner must review the dedicated PR before merge. No Phase 04C work has started.
+
+## Phase 03B — Multi-campus profile foundation (implemented, historical slice)
 
 Typed campus registry and premium constellation entry; BMCC-scoped shared chat;
 campus-neutral profile/session evidence and deterministic goal-dependent readiness/

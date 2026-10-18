@@ -3,10 +3,12 @@ import Link from "next/link";
 import { AcademicIcon } from "@/components/academic-icon";
 import { useState, useEffect } from "react";
 import type { CSSProperties } from "react";
-import { campuses, campusById } from "@/lib/advising/campuses";
+import { campusById, categoryLabels } from "@/lib/advising/campuses";
+import { useInstitutions } from "./institutions-provider";
 import { useRouter } from "next/navigation";
 /** No randomness, map coordinates, institutional logos or transfer-edge semantics. */
 export function CampusLanding() {
+  const { campuses, loading, error, retry } = useInstitutions();
   const [notice, setNotice] = useState<string | null>(null);
   const [hovered, setHovered] = useState<string | null>(null);
   const [focused, setFocused] = useState<string | null>(null);
@@ -19,7 +21,7 @@ export function CampusLanding() {
       url.searchParams.get("program") &&
       url.searchParams.get("release")
     ) {
-      const match = campusById(campus);
+      const match = campusById(campus, campuses);
       if (match)
         router.replace(`/campus/${match.slug}${url.search}${url.hash}`);
     } else if (
@@ -34,8 +36,8 @@ export function CampusLanding() {
       ].includes(url.hash)
     )
       router.replace(`/campus/bmcc${url.search}${url.hash}`);
-  }, [router]);
-  const active = campusById(hovered ?? focused ?? "");
+  }, [router, campuses]);
+  const active = campusById(hovered ?? focused ?? "", campuses);
   return (
     <main className="campus-landing">
       <a className="skip-link" href="#campus-list">
@@ -55,13 +57,36 @@ export function CampusLanding() {
       </header>
       <section className="constellation-intro">
         <h1>Choose your campus.</h1>
+        {loading && (
+          <p role="status">Loading the CUNY institutional registry…</p>
+        )}
+        {error && (
+          <div role="alert">
+            <p>{error}</p>
+            <button className="source-link" onClick={retry}>
+              Retry institution registry
+            </button>
+          </div>
+        )}
+        {!loading && !error && campuses.length === 0 && (
+          <p role="status">
+            No institutions have been imported. Run the reviewed local registry
+            import.
+          </p>
+        )}
+        {!loading && !error && campuses.length > 0 && (
+          <p className="registry-summary">
+            {campuses.length} institutions · BMCC is the only local academic
+            pilot.
+          </p>
+        )}
       </section>
       <section
         className="constellation-layout"
         aria-label="CUNY campus selection"
       >
         <div
-          className="constellation"
+          className={`constellation ${loading || error || !campuses.length ? "constellation--pending" : ""}`}
           data-active={active?.id}
           data-interacting={!!(hovered || focused || notice)}
           onMouseLeave={() => setHovered(null)}
@@ -85,13 +110,10 @@ export function CampusLanding() {
                 <path
                   key={c.id}
                   data-emphasized={active?.id === c.id || active?.id === "bmcc"}
-                  d={`M 39 49 Q ${(39 + c.visualPosition.x) / 2} ${c.visualPosition.y} ${c.visualPosition.x} ${c.visualPosition.y}`}
+                  d={`M 50 50 Q ${(50 + c.visualPosition.x) / 2} ${c.visualPosition.y} ${c.visualPosition.x} ${c.visualPosition.y}`}
                 />
               ))}
           </svg>
-          <p className="network-label" aria-hidden="true">
-            CUNY <span>CONNECTED POSSIBILITIES</span>
-          </p>
           {campuses.map((c) => (
             <button
               key={c.id}
@@ -135,12 +157,20 @@ export function CampusLanding() {
                     ? "LAG"
                     : ((
                         {
+                          bmcc: "BMCC",
+                          ccny: "CCNY",
                           hunter: "HC",
                           baruch: "BC",
                           brooklyn: "BK",
                           queens: "QC",
                         } as Record<string, string>
-                      )[c.id] ?? c.shortName)}
+                      )[c.id] ??
+                      c.shortName
+                        .split(" ")
+                        .map((word) => word[0])
+                        .join("")
+                        .slice(0, 3)
+                        .toUpperCase())}
               </span>
               <span className="campus-node-label">
                 {c.shortName}
@@ -165,6 +195,10 @@ export function CampusLanding() {
               }
             >
               <strong>{active.name}</strong>
+              <span>{categoryLabels[active.type]}</span>
+              {active.classificationNote && (
+                <span>{active.classificationNote}</span>
+              )}
               <span>
                 {active.assistantAvailability === "pilot"
                   ? "Local pilot available · Opens an assistant, not enrollment."
@@ -176,8 +210,9 @@ export function CampusLanding() {
         {notice && (
           <div className="campus-notice" role="status" aria-live="polite">
             <p>
-              <strong>{campusById(notice)?.shortName}</strong> · Assistant
-              unavailable. This campus is planned for a future release.
+              <strong>{campusById(notice, campuses)?.shortName}</strong> ·
+              Assistant unavailable. This campus is planned for a future
+              release.
             </p>
             <button
               type="button"
@@ -197,7 +232,7 @@ export function CampusLanding() {
             {campuses.map((c) => (
               <li key={c.id}>
                 <span>
-                  {c.name} —{" "}
+                  {c.name} · {categoryLabels[c.type]} —{" "}
                   {c.assistantAvailability === "pilot"
                     ? "Local pilot"
                     : "Future / unavailable"}

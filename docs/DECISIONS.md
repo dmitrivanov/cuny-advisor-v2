@@ -330,3 +330,22 @@ run 39073305717 did not upload its trace, limiting retrospective root-cause evid
 Owner authorized this branch from merged PR #10 (ab940ac). Use maintained google-genai, configurable stable gemini-3.8-flash (official docs checked 2026-10-17), explicit local dotenv entry point with environment precedence, disabled-by-default provider and per-message external-AI consent. Keep profiles transient, all model changes pending, and deterministic readiness/action/academic authority intact. Conservatively defer academic answers to existing sourced modules; provider text is unverified. Rate limits are process-local, not production authentication or a dollar budget. No automatic live calls, real records, deployment or next-phase work.
 
 See [Gemini gateway](GEMINI_GATEWAY.md), [orchestration](CONVERSATION_ORCHESTRATION.md) and [verification](PHASE_04A_VERIFICATION.md).
+
+## Phase 04B — source-backed institutional registry
+
+Decision, 2026-10-17: use the current official CUNY colleges listing for membership
+and outbound websites, corroborated by About, directory, Medicine announcement and
+Macaulay sources. Retrieved scope is 26; classify 11 senior, 7 community, 7 graduate /
+professional, 1 consortial honors. Record older directory omissions and degree-model
+ambiguities explicitly. Registry verification is distinct from academic/institutional
+approval. Project IDs, short labels and support decisions are identified as such.
+
+Use five normalized append-only tables, immutable source snapshots, exact projection
+hash verification and SELECT-only runtime privileges. Reuse existing campus keys
+without rewriting catalog data. Explicit offline import is idempotent and atomic;
+no startup seeding or runtime web research. Identity/support changes require a
+reviewed migration. Typed read-only API is the sole institutional metadata source;
+no static frontend fallback. Placement remains frontend-only. BMCC alone has tools.
+The 26-node constellation retains desktop rings and responsive fixed-target grids.
+No dependencies or academic logic changes, Gemini calls, deployment or Phase 04C.
+See [details](INSTITUTIONAL_REGISTRY.md) and [evidence](PHASE_04B_VERIFICATION.md).

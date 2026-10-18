@@ -51,7 +51,7 @@ def test_00_migration_and_empty_downgrade(engine):
             connection.scalar(
                 sa.text("SELECT version_num FROM cuny_advisor_v2.alembic_version")
             )
-            == "02c_001"
+            == "04b_001"
         )
         if connection.scalar(sa.select(sa.func.count()).select_from(db.binding)):
             pytest.skip("empty-only downgrade requires a fresh disposable database")

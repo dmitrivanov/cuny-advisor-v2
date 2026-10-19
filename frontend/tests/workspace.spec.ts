@@ -36,13 +36,16 @@ async function choose(page: Page, index = csIndex) {
   await page.getByLabel("Program / catalog release").selectOption(key(index));
   await expect(
     page
-      .getByRole("heading", {
-        name: index === csIndex ? "Major Requirements" : "Required Common Core",
-        exact: true,
-      })
-      .or(page.getByRole("heading", { name: "Requirements & categories" }))
+      .getByRole("combobox", { name: "Add completed courses" })
       .or(page.getByRole("button", { name: "Run deterministic preview" })),
   ).toBeVisible();
+  const grouped = page.getByText("Browse the four academic categories", {
+    exact: true,
+  });
+  if (await grouped.count()) {
+    const details = grouped.locator("..");
+    if ((await details.getAttribute("open")) === null) await grouped.click();
+  }
 }
 async function openTool(page: Page, name: string) {
   await page
@@ -137,7 +140,7 @@ test("conversation actions → focused selector → chat → preview retain cont
     page.getByRole("heading", { name: "Requirement outcomes" }),
   ).toBeVisible();
   await expect(
-    page.getByText(/overall degree status: unresolved/),
+    page.getByText(/overall degree status: unresolved/i),
   ).toBeVisible();
 });
 
@@ -204,18 +207,24 @@ test("shared selection and exact allocation survive chat; deselection and releas
     .check();
   for (const box of await page.getByRole("checkbox", { name: /MAT 301/ }).all())
     await expect(box).toBeChecked();
+  await page
+    .getByText("Review details & optional credit proposals", { exact: true })
+    .click();
   await page.getByLabel("Apply MAT 301 to").selectOption({ index: 1 });
   await page
     .getByLabel("Proposed credits for MAT 301")
     .fill("3.00000000000000000000100");
   await back(page);
   await openTool(page, "Completed Courses");
+  await page
+    .getByText("Review details & optional credit proposals", { exact: true })
+    .click();
   await expect(page.getByLabel("Proposed credits for MAT 301")).toHaveValue(
     "3.00000000000000000000100",
   );
   await choose(page, cisIndex);
   await expect(
-    page.getByRole("heading", { name: "Selected once · 0 courses" }),
+    page.getByRole("status").filter({ hasText: "0 courses selected" }),
   ).toBeVisible();
   await expect(page.getByLabel("Apply MAT 301 to")).toHaveCount(0);
 });
@@ -243,11 +252,11 @@ test("unavailable catalog exposes safe error only inside a tool", async ({
   );
   await page.goto("/campus/bmcc#completed");
   await expect(
-    page.getByRole("alert").filter({ hasText: "README" }),
+    page.getByRole("alert").filter({ hasText: "temporarily unavailable" }),
   ).toBeVisible();
   await back(page);
   await expect(
-    page.getByRole("alert").filter({ hasText: "README" }),
+    page.getByRole("alert").filter({ hasText: "temporarily unavailable" }),
   ).toHaveCount(0);
 });
 
@@ -383,29 +392,33 @@ test("refresh and browser history restore exact context only; same-context navig
     `/campus/bmcc?campus=${item.campus_id}&program=${item.program_id}&release=${item.release_id}#completed`,
   );
   await page
-    .getByRole("checkbox", { name: /MAT 301/ })
-    .first()
-    .check();
+    .getByRole("combobox", { name: "Add completed courses" })
+    .fill("MAT 301");
+  await page
+    .getByRole("combobox", { name: "Add completed courses" })
+    .press("Enter");
   await back(page);
   await page.goBack();
   await expect(
-    page.getByRole("heading", { name: "Selected once · 1 courses" }),
+    page.getByRole("status").filter({ hasText: "1 courses selected" }),
   ).toBeVisible();
   await choose(page, cisIndex);
   await expect(
-    page.getByRole("heading", { name: "Selected once · 0 courses" }),
+    page.getByRole("status").filter({ hasText: "0 courses selected" }),
   ).toBeVisible();
   await page.goBack();
   await expect(
-    page.getByRole("heading", { name: "Selected once · 0 courses" }),
+    page.getByRole("status").filter({ hasText: "0 courses selected" }),
   ).toBeVisible();
   await page
-    .getByRole("checkbox", { name: /MAT 301/ })
-    .first()
-    .check();
+    .getByRole("combobox", { name: "Add completed courses" })
+    .fill("MAT 301");
+  await page
+    .getByRole("combobox", { name: "Add completed courses" })
+    .press("Enter");
   await page.reload();
   await expect(
-    page.getByRole("heading", { name: "Selected once · 0 courses" }),
+    page.getByRole("status").filter({ hasText: "0 courses selected" }),
   ).toBeVisible();
   expect(
     await page.evaluate(() => [localStorage.length, sessionStorage.length]),

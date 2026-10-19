@@ -1,11 +1,25 @@
 # Implementation roadmap
 
-Status: proposed sequence with bounded implementation, 2026-10-17.
-Phases 03A/03B and 04A are merged. Phase 04B is merged through PR #12. Phase 04C-1 BMCC source browsing/ingestion is merged through PR #13. Phase 04C-UX is implemented for owner PR review; Phase 04C-2 remains gated.
+Status: proposed sequence with bounded implementation, 2026-10-19.
+Phases 03A/03B and 04A are merged. Phase 04B is merged through PR #12. Phase 04C-1 BMCC source browsing/ingestion is merged through PR #13. Phase 04C-UX is merged through PR #14. Phase 04D is implemented for owner PR review; full requirement ingestion remains gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
 
-## Phase 04C-UX — Academic Explorer (implemented for owner review)
+## Phase 04D — Degree maps and compact history (implemented for owner review)
+
+Read-only source-checked graph projection on the existing scoped catalog API;
+interactive, bounded program maps with automatic display layout, course details,
+collapse, directional focus and accessible list. Compact course search/chips reuse
+canonical session selections/allocations. One backend preview drives map/progress,
+with stale-response protection and release-specific hypothetical assumptions.
+
+CS/CIS draft map membership is partial and source-backed; neither draft currently
+has a usable verified prerequisite edge. Browse catalog years remain separate. No
+new academic rule, source ingestion, full audit, enrollment, student persistence,
+Gemini call, database migration, other-campus activation or production work.
+[Design and limits](DEGREE_MAPS_PHASE_04D.md), [verification](PHASE_04D_VERIFICATION.md).
+
+## Phase 04C-UX — Academic Explorer (merged, PR #14)
 
 Student-facing Departments / Programs / Courses views, source-linked course panel /
 mobile sheet, independent deep-link/search/history context, and local chat navigation.

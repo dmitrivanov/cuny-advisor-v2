@@ -186,7 +186,7 @@ test("BMCC legacy deep link migrates deliberately; mismatched campus context is 
   );
   await expect(page).toHaveURL(/\/campus\/bmcc\?/);
   await expect(
-    page.getByRole("heading", { name: "Major Requirements", exact: true }),
+    page.getByRole("combobox", { name: "Add completed courses" }),
   ).toBeVisible();
   await page.goto("/campus/bmcc?campus=ccny&program=p&release=r#catalog");
   await expect(
@@ -278,9 +278,11 @@ test("exploration opens contextual module without collecting planning preference
       ]),
     );
   await page
-    .getByRole("checkbox", { name: /MAT 301/ })
-    .first()
-    .check();
+    .getByRole("combobox", { name: "Add completed courses" })
+    .fill("MAT 301");
+  await page
+    .getByRole("combobox", { name: "Add completed courses" })
+    .press("Enter");
   await page
     .getByRole("button", {
       name: "Use these fictional completed courses in my profile",

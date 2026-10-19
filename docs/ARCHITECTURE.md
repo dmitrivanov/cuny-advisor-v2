@@ -1,6 +1,6 @@
 # Architecture
 
-Status: target architecture with bounded local implementation, 2026-10-17.
+Status: target architecture with bounded local implementation, 2026-10-19.
 The skeleton, design system, bounded Phase 02A/02B prototypes and Phase 02C local
 persistence adapter and bounded Phase 02D workspace plus Phase 03A frontend refinement are implemented; broader
 services below remain targets.
@@ -319,3 +319,18 @@ power an on-demand Academic Catalog browser. Exact snapshot selection, text sear
 pagination, offering-unit filters and evidence disclosures cannot add unreviewed
 courses to the existing selector/progress context. See [source mapping/schema/API](BMCC_CATALOG_INGESTION.md)
 and [verification](PHASE_04C1_VERIFICATION.md). BMCC alone remains operational.
+
+## Implemented Phase 04D degree-map boundary
+
+The existing scoped catalog DTO adds a read-only `degree_map` projection. Backend
+source checks govern authoritative membership/prerequisite edges; the immutable
+release, evaluator, schema and source catalog remain unchanged. Namespaced graph
+nodes retain exact identities, condition groups and credit strings. Incomplete data
+never declares a complete map. See [projection and coverage](DEGREE_MAPS_PHASE_04D.md).
+
+Next.js reuses the pinned React Flow dependency with bounded automatic visual layout,
+collapse, focus and a shared accessible list. No graph interaction mutates academic
+rules. Compact history uses the existing selection/allocation reducer; one parent
+preview controller calls the existing hypothetical endpoint, invalidates stale
+results and shares outcomes between map/progress. No client-side satisfaction or
+credit arithmetic, new database, student-history persistence or model integration.

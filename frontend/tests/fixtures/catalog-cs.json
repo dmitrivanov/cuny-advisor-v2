@@ -190,11 +190,11 @@
         "section": "MAT 206, MAT 206.5, MAT 301 and MAT 302",
         "state": "provisional",
         "year_confirmed": false,
-        "note": "Current course text observed; 2026–2027 applicability, grades and placement alternatives not confirmed.",
+        "note": "Current course text observed; 2026\u20132027 applicability, grades and placement alternatives not confirmed.",
         "publisher": "BMCC",
         "campus_id": "bmcc",
         "program_id": "bmcc-program-cs-as",
-        "claim_scope": "bmcc-program-cs-as: MAT 206, MAT 206.5, MAT 301 and MAT 302. Current course text observed; 2026–2027 applicability, grades and placement alternatives not confirmed.",
+        "claim_scope": "bmcc-program-cs-as: MAT 206, MAT 206.5, MAT 301 and MAT 302. Current course text observed; 2026\u20132027 applicability, grades and placement alternatives not confirmed.",
         "published_on": null,
         "revised_on": null,
         "effective_on": null,
@@ -285,11 +285,11 @@
         "section": "MAT 206, MAT 206.5, MAT 301 and MAT 302",
         "state": "provisional",
         "year_confirmed": false,
-        "note": "Course chain corroborated by department page; exact 2026–2027 grade/placement applicability unconfirmed.",
+        "note": "Course chain corroborated by department page; exact 2026\u20132027 grade/placement applicability unconfirmed.",
         "publisher": "BMCC",
         "campus_id": "bmcc",
         "program_id": "bmcc-program-cs-as",
-        "claim_scope": "bmcc-program-cs-as: MAT 206, MAT 206.5, MAT 301 and MAT 302. Course chain corroborated by department page; exact 2026–2027 grade/placement applicability unconfirmed.",
+        "claim_scope": "bmcc-program-cs-as: MAT 206, MAT 206.5, MAT 301 and MAT 302. Course chain corroborated by department page; exact 2026\u20132027 grade/placement applicability unconfirmed.",
         "published_on": null,
         "revised_on": null,
         "effective_on": null,
@@ -358,14 +358,14 @@
         "url": "https://www.cuny.edu/wp-content/uploads/sites/4/page-assets/about/administration/offices/undergraduate-studies/pathways/about/policies/Guidelines_5_24_13_Final_Updated_3.15.18_accessible.pdf",
         "retrieved_on": "2026-10-16",
         "catalog_year": "2026-2027",
-        "section": "pp. 3–4 / STEM area choice, proficiency and waivers",
+        "section": "pp. 3\u20134 / STEM area choice, proficiency and waivers",
         "state": "provisional",
         "year_confirmed": false,
         "note": "Observed official text; target-year applicability and authorized academic interpretation remain unconfirmed.",
         "publisher": "CUNY",
         "campus_id": "bmcc",
         "program_id": null,
-        "claim_scope": "Historical guidelines separate proficiency, Common Core exemption and zero-credit waivers. Current BMCC 2026–2027 applicability needs review.",
+        "claim_scope": "Historical guidelines separate proficiency, Common Core exemption and zero-credit waivers. Current BMCC 2026\u20132027 applicability needs review.",
         "published_on": null,
         "revised_on": "2018-03-15",
         "effective_on": null,
@@ -464,7 +464,7 @@
         "publisher": "BMCC",
         "campus_id": "bmcc",
         "program_id": null,
-        "claim_scope": "General transfer summary still requires evaluation and equivalence; update date does not establish 2026–2027 policy applicability.",
+        "claim_scope": "General transfer summary still requires evaluation and equivalence; update date does not establish 2026\u20132027 policy applicability.",
         "published_on": null,
         "revised_on": "2025-03-13",
         "effective_on": null,
@@ -1769,5 +1769,888 @@
       ]
     }
   ],
-  "limitation": "Draft catalog. Source verification is not institutional approval. Partial data is not a complete audit."
+  "limitation": "Draft catalog. Source verification is not institutional approval. Partial data is not a complete audit.",
+  "degree_map": {
+    "release_id": "bmcc-cs-as-2026-2027-draft-2",
+    "campus_id": "bmcc",
+    "program_id": "bmcc-program-cs-as",
+    "catalog_year": "2026-2027",
+    "complete": false,
+    "nodes": [
+      {
+        "id": "course:bmcc-course-mat-206",
+        "kind": "course",
+        "label": "MAT 206",
+        "course_id": "bmcc-course-mat-206",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "unresolved"
+      },
+      {
+        "id": "course:bmcc-course-mat-206dot5",
+        "kind": "course",
+        "label": "MAT 206.5",
+        "course_id": "bmcc-course-mat-206dot5",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "unresolved"
+      },
+      {
+        "id": "course:bmcc-course-mat-301",
+        "kind": "course",
+        "label": "MAT 301",
+        "course_id": "bmcc-course-mat-301",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "unresolved"
+      },
+      {
+        "id": "course:bmcc-course-mat-302",
+        "kind": "course",
+        "label": "MAT 302",
+        "course_id": "bmcc-course-mat-302",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-phy-215",
+        "kind": "course",
+        "label": "PHY 215",
+        "course_id": "bmcc-course-phy-215",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "unresolved"
+      },
+      {
+        "id": "course:bmcc-course-csc-101",
+        "kind": "course",
+        "label": "CSC 101",
+        "course_id": "bmcc-course-csc-101",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "unresolved"
+      },
+      {
+        "id": "course:bmcc-course-csc-111",
+        "kind": "course",
+        "label": "CSC 111",
+        "course_id": "bmcc-course-csc-111",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "unresolved"
+      },
+      {
+        "id": "course:bmcc-course-csc-211",
+        "kind": "course",
+        "label": "CSC 211",
+        "course_id": "bmcc-course-csc-211",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-csc-215",
+        "kind": "course",
+        "label": "CSC 215",
+        "course_id": "bmcc-course-csc-215",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-csc-231",
+        "kind": "course",
+        "label": "CSC 231",
+        "course_id": "bmcc-course-csc-231",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-csc-331",
+        "kind": "course",
+        "label": "CSC 331",
+        "course_id": "bmcc-course-csc-331",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-csc-350",
+        "kind": "course",
+        "label": "CSC 350",
+        "course_id": "bmcc-course-csc-350",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-spe-100",
+        "kind": "course",
+        "label": "SPE 100",
+        "course_id": "bmcc-course-spe-100",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-spe-102",
+        "kind": "course",
+        "label": "SPE 102",
+        "course_id": "bmcc-course-spe-102",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-317",
+        "kind": "course",
+        "label": "CIS 317",
+        "course_id": "bmcc-course-cis-317",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "unresolved"
+      },
+      {
+        "id": "course:bmcc-course-cis-345",
+        "kind": "course",
+        "label": "CIS 345",
+        "course_id": "bmcc-course-cis-345",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "unresolved"
+      },
+      {
+        "id": "course:bmcc-course-cis-359",
+        "kind": "course",
+        "label": "CIS 359",
+        "course_id": "bmcc-course-cis-359",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-362",
+        "kind": "course",
+        "label": "CIS 362",
+        "course_id": "bmcc-course-cis-362",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-364",
+        "kind": "course",
+        "label": "CIS 364",
+        "course_id": "bmcc-course-cis-364",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-385",
+        "kind": "course",
+        "label": "CIS 385",
+        "course_id": "bmcc-course-cis-385",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-395",
+        "kind": "course",
+        "label": "CIS 395",
+        "course_id": "bmcc-course-cis-395",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-csc-103",
+        "kind": "course",
+        "label": "CSC 103",
+        "course_id": "bmcc-course-csc-103",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-gis-201",
+        "kind": "course",
+        "label": "GIS 201",
+        "course_id": "bmcc-course-gis-201",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-316",
+        "kind": "course",
+        "label": "CIS 316",
+        "course_id": "bmcc-course-cis-316",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-272",
+        "kind": "course",
+        "label": "CIS 272",
+        "course_id": "bmcc-course-cis-272",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-285",
+        "kind": "course",
+        "label": "CIS 285",
+        "course_id": "bmcc-course-cis-285",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-csc-203",
+        "kind": "course",
+        "label": "CSC 203",
+        "course_id": "bmcc-course-csc-203",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-375",
+        "kind": "course",
+        "label": "CIS 375",
+        "course_id": "bmcc-course-cis-375",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:english",
+        "kind": "requirement",
+        "label": "English Composition",
+        "course_id": null,
+        "requirement_id": "english",
+        "credits": "6",
+        "verification": "unresolved"
+      },
+      {
+        "id": "requirement:math",
+        "kind": "requirement",
+        "label": "Mathematical and Quantitative Reasoning",
+        "course_id": null,
+        "requirement_id": "math",
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "condition:[\"requirement:math\"]",
+        "kind": "any",
+        "label": "One of",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:life-science",
+        "kind": "requirement",
+        "label": "Life and Physical Sciences",
+        "course_id": null,
+        "requirement_id": "life-science",
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:creative",
+        "kind": "requirement",
+        "label": "Creative Expression",
+        "course_id": null,
+        "requirement_id": "creative",
+        "credits": "3",
+        "verification": "unresolved"
+      },
+      {
+        "id": "requirement:individual",
+        "kind": "requirement",
+        "label": "Individual and Society",
+        "course_id": null,
+        "requirement_id": "individual",
+        "credits": "3",
+        "verification": "unresolved"
+      },
+      {
+        "id": "requirement:us",
+        "kind": "requirement",
+        "label": "U.S. Experience in Its Diversity",
+        "course_id": null,
+        "requirement_id": "us",
+        "credits": "3",
+        "verification": "unresolved"
+      },
+      {
+        "id": "requirement:world",
+        "kind": "requirement",
+        "label": "World Cultures and Global Issues",
+        "course_id": null,
+        "requirement_id": "world",
+        "credits": "3",
+        "verification": "unresolved"
+      },
+      {
+        "id": "requirement:scientific",
+        "kind": "requirement",
+        "label": "Scientific World",
+        "course_id": null,
+        "requirement_id": "scientific",
+        "credits": "6",
+        "verification": "source_verified"
+      },
+      {
+        "id": "condition:[\"requirement:scientific\"]",
+        "kind": "all",
+        "label": "All of",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:creative-advice",
+        "kind": "requirement",
+        "label": "Speech course advice",
+        "course_id": null,
+        "requirement_id": "creative-advice",
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "condition:[\"requirement:creative-advice\"]",
+        "kind": "any",
+        "label": "One of",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:csc-211",
+        "kind": "requirement",
+        "label": "CSC 211",
+        "course_id": null,
+        "requirement_id": "csc-211",
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:csc-215",
+        "kind": "requirement",
+        "label": "CSC 215",
+        "course_id": null,
+        "requirement_id": "csc-215",
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:csc-231",
+        "kind": "requirement",
+        "label": "CSC 231",
+        "course_id": null,
+        "requirement_id": "csc-231",
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:csc-331",
+        "kind": "requirement",
+        "label": "CSC 331",
+        "course_id": null,
+        "requirement_id": "csc-331",
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:csc-350",
+        "kind": "requirement",
+        "label": "CSC 350",
+        "course_id": null,
+        "requirement_id": "csc-350",
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:mat-302",
+        "kind": "requirement",
+        "label": "MAT 302",
+        "course_id": null,
+        "requirement_id": "mat-302",
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:general-elective",
+        "kind": "requirement",
+        "label": "General Elective / STEM variant allocation pending",
+        "course_id": null,
+        "requirement_id": "general-elective",
+        "credits": "4",
+        "verification": "unresolved"
+      },
+      {
+        "id": "requirement:major-electives",
+        "kind": "requirement",
+        "label": "Program Electives",
+        "course_id": null,
+        "requirement_id": "major-electives",
+        "credits": "6",
+        "verification": "source_verified"
+      },
+      {
+        "id": "condition:[\"requirement:major-electives\"]",
+        "kind": "credits",
+        "label": "At least 6 credits",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      }
+    ],
+    "edges": [
+      {
+        "id": "membership:[\"requirement:math\",\"condition:[\\\"requirement:math\\\"]\"]",
+        "source": "requirement:math",
+        "target": "condition:[\"requirement:math\"]",
+        "relation": "membership",
+        "source_ids": [
+          "program-f1"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:math\\\"]\",\"course:bmcc-course-mat-206\"]",
+        "source": "condition:[\"requirement:math\"]",
+        "target": "course:bmcc-course-mat-206",
+        "relation": "membership",
+        "source_ids": [
+          "program-f1"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:math\\\"]\",\"course:bmcc-course-mat-301\"]",
+        "source": "condition:[\"requirement:math\"]",
+        "target": "course:bmcc-course-mat-301",
+        "relation": "membership",
+        "source_ids": [
+          "program-f1"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:life-science\",\"course:bmcc-course-phy-215\"]",
+        "source": "requirement:life-science",
+        "target": "course:bmcc-course-phy-215",
+        "relation": "membership",
+        "source_ids": [
+          "program-f2"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:scientific\",\"condition:[\\\"requirement:scientific\\\"]\"]",
+        "source": "requirement:scientific",
+        "target": "condition:[\"requirement:scientific\"]",
+        "relation": "membership",
+        "source_ids": [
+          "program-f5"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:scientific\\\"]\",\"course:bmcc-course-csc-101\"]",
+        "source": "condition:[\"requirement:scientific\"]",
+        "target": "course:bmcc-course-csc-101",
+        "relation": "membership",
+        "source_ids": [
+          "program-f5"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:scientific\\\"]\",\"course:bmcc-course-csc-111\"]",
+        "source": "condition:[\"requirement:scientific\"]",
+        "target": "course:bmcc-course-csc-111",
+        "relation": "membership",
+        "source_ids": [
+          "program-f5"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:creative-advice\",\"condition:[\\\"requirement:creative-advice\\\"]\"]",
+        "source": "requirement:creative-advice",
+        "target": "condition:[\"requirement:creative-advice\"]",
+        "relation": "membership",
+        "source_ids": [
+          "program-f4"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:creative-advice\\\"]\",\"course:bmcc-course-spe-100\"]",
+        "source": "condition:[\"requirement:creative-advice\"]",
+        "target": "course:bmcc-course-spe-100",
+        "relation": "membership",
+        "source_ids": [
+          "program-f4"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:creative-advice\\\"]\",\"course:bmcc-course-spe-102\"]",
+        "source": "condition:[\"requirement:creative-advice\"]",
+        "target": "course:bmcc-course-spe-102",
+        "relation": "membership",
+        "source_ids": [
+          "program-f4"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:csc-211\",\"course:bmcc-course-csc-211\"]",
+        "source": "requirement:csc-211",
+        "target": "course:bmcc-course-csc-211",
+        "relation": "membership",
+        "source_ids": [
+          "program-major"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:csc-215\",\"course:bmcc-course-csc-215\"]",
+        "source": "requirement:csc-215",
+        "target": "course:bmcc-course-csc-215",
+        "relation": "membership",
+        "source_ids": [
+          "program-major"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:csc-231\",\"course:bmcc-course-csc-231\"]",
+        "source": "requirement:csc-231",
+        "target": "course:bmcc-course-csc-231",
+        "relation": "membership",
+        "source_ids": [
+          "program-major"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:csc-331\",\"course:bmcc-course-csc-331\"]",
+        "source": "requirement:csc-331",
+        "target": "course:bmcc-course-csc-331",
+        "relation": "membership",
+        "source_ids": [
+          "program-major"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:csc-350\",\"course:bmcc-course-csc-350\"]",
+        "source": "requirement:csc-350",
+        "target": "course:bmcc-course-csc-350",
+        "relation": "membership",
+        "source_ids": [
+          "program-major"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:mat-302\",\"course:bmcc-course-mat-302\"]",
+        "source": "requirement:mat-302",
+        "target": "course:bmcc-course-mat-302",
+        "relation": "membership",
+        "source_ids": [
+          "program-major"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:major-electives\",\"condition:[\\\"requirement:major-electives\\\"]\"]",
+        "source": "requirement:major-electives",
+        "target": "condition:[\"requirement:major-electives\"]",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-317\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-317",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-345\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-345",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-359\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-359",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-362\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-362",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-364\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-364",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-385\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-385",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-395\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-395",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-csc-103\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-csc-103",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-gis-201\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-gis-201",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-316\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-316",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-272\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-272",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-285\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-285",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-csc-203\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-csc-203",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:major-electives\\\"]\",\"course:bmcc-course-cis-375\"]",
+        "source": "condition:[\"requirement:major-electives\"]",
+        "target": "course:bmcc-course-cis-375",
+        "relation": "membership",
+        "source_ids": [
+          "program-f6"
+        ],
+        "verification": "source_verified"
+      }
+    ],
+    "groups": [
+      {
+        "id": "english",
+        "label": "English Composition",
+        "column": "Required Common Core",
+        "kind": "required",
+        "target_credits": "6"
+      },
+      {
+        "id": "math",
+        "label": "Mathematical and Quantitative Reasoning",
+        "column": "Required Common Core",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "life-science",
+        "label": "Life and Physical Sciences",
+        "column": "Required Common Core",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "creative",
+        "label": "Creative Expression",
+        "column": "Flexible Core",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "individual",
+        "label": "Individual and Society",
+        "column": "Flexible Core",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "us",
+        "label": "U.S. Experience in Its Diversity",
+        "column": "Flexible Core",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "world",
+        "label": "World Cultures and Global Issues",
+        "column": "Flexible Core",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "scientific",
+        "label": "Scientific World",
+        "column": "Flexible Core",
+        "kind": "required",
+        "target_credits": "6"
+      },
+      {
+        "id": "creative-advice",
+        "label": "Speech course advice",
+        "column": "Flexible Core",
+        "kind": "recommended",
+        "target_credits": null
+      },
+      {
+        "id": "csc-211",
+        "label": "CSC 211",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "csc-215",
+        "label": "CSC 215",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "csc-231",
+        "label": "CSC 231",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "4"
+      },
+      {
+        "id": "csc-331",
+        "label": "CSC 331",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "csc-350",
+        "label": "CSC 350",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "mat-302",
+        "label": "MAT 302",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "4"
+      },
+      {
+        "id": "general-elective",
+        "label": "General Elective / STEM variant allocation pending",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "4"
+      },
+      {
+        "id": "major-electives",
+        "label": "Program Electives",
+        "column": "Major Electives",
+        "kind": "required",
+        "target_credits": "6"
+      }
+    ]
+  }
 }

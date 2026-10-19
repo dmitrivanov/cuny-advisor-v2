@@ -340,3 +340,22 @@ not complete degree requirements. Return to chatbot preserves the established wo
 The existing program/release selector below still controls the older draft degree
 modules only; browsing does not change that context or select courses into an audit.
 No registration, complete audit, other-campus functionality or Gemini is implied.
+
+## Phase 04D program maps and compact history
+
+From chat, a supported-program prompt offers a compact preview and Degree Map action.
+Choose a catalog edition explicitly. Academic Explorer Programs also exposes separate
+year-labeled draft maps. Browse-only identities retain their honest limited-data
+view; the 2025–2026 catalog does not fill 2026–2027 draft gaps.
+
+The map defaults to a scoped Major Requirements view, with course cards, collapsible
+groups, path direction/focus, pan/zoom/fit and a shared list (initial on mobile).
+Direct single-course requirements may share the course card; alternatives retain
+explicit group relations. Native detail dialogs preserve focus and year boundaries.
+The compact selector uses search, suggestions and removable reported-course chips;
+optional disclosures preserve allocations and the established four-column organization.
+
+After explicit hypothetical assumption/first run, course/credit-proposal changes
+refresh one canonical backend preview shared by map and progress. A late response
+cannot overwrite a newer selection. Release changes require new acknowledgment.
+See [behavior, evidence and limitations](DEGREE_MAPS_PHASE_04D.md).

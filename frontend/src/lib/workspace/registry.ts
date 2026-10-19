@@ -26,8 +26,7 @@ export const modules: readonly ModuleDefinition[] = [
   {
     id: "completed",
     name: "Completed Courses",
-    description:
-      "Explore hypothetical completed courses in four academic columns.",
+    description: "Search courses and review your hypothetical course history.",
     target: "#completed",
     availability: "active",
     context: ["release", "selections"],
@@ -40,6 +39,15 @@ export const modules: readonly ModuleDefinition[] = [
     target: "#catalog",
     availability: "active",
     context: ["campus", "program", "year", "release"],
+    actions: ["browse"],
+  },
+  {
+    id: "map",
+    name: "Degree Map",
+    description: "Explore a limited, source-backed program map.",
+    target: "#map",
+    availability: "limited",
+    context: ["release", "selections", "allocations"],
     actions: ["browse"],
   },
   {
@@ -88,7 +96,7 @@ export function programName(id: string): string {
     {
       "bmcc-program-cs-as": "Computer Science A.S.",
       "bmcc-program-cis-aas": "Computer Information Systems A.A.S. (partial)",
-    }[id] ?? id
+    }[id] ?? "Program name unavailable"
   );
 }
 export type Guidance = {

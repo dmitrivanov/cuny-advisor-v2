@@ -13,7 +13,7 @@ async function request<T>(path: string, init?: RequestInit): Promise<T> {
         ? "This release was not found in the requested campus/program. Choose an available release."
         : response.status === 422
           ? "Invalid selection or allocation. Check course identities and exact positive credit amounts."
-          : "Catalog service unavailable. Start the local backend and V2 PostgreSQL, export V2_DATABASE_URL, migrate and import reviewed fixtures (README).";
+          : "Academic information is temporarily unavailable. Please try again.";
     throw new Error(message);
   }
   return response.json() as Promise<T>;
@@ -45,8 +45,15 @@ export const getCatalog = (item: Summary, signal?: AbortSignal) =>
       throw new Error("Invalid catalog response");
     return value;
   });
-export const getProgress = (item: Summary, state: WorkspaceState) =>
+export const getProgressBody = (
+  item: Summary,
+  body: ReturnType<typeof previewBody>,
+  signal?: AbortSignal,
+) =>
   request<Progress>(`${releasePath(item)}/preview`, {
     method: "POST",
-    body: JSON.stringify(previewBody(state)),
+    body: JSON.stringify(body),
+    signal,
   });
+export const getProgress = (item: Summary, state: WorkspaceState) =>
+  getProgressBody(item, previewBody(state));

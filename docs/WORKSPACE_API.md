@@ -97,3 +97,16 @@ individual course evidence. `/api/bmcc-catalog/...` is the fixed-route Next.js p
 Browsing snapshot identity/year is separate from the existing academic release
 context; these records cannot replace selector/evaluator input. See [complete routes,
 query limits, error semantics and import instructions](BMCC_CATALOG_INGESTION.md).
+
+## Phase 04D additive visual projection
+
+The existing release-scoped GET adds `degree_map`: exact campus/program/release/year,
+`complete: false`, namespaced typed nodes, distinct source-linked `membership` and
+`prerequisite` edges, and requirement-group metadata. Existing `release` / `columns`
+remain intact. The projection is read-only, evidence-filtered and does not evaluate
+satisfaction. Provisional/missing/unsupported relations do not create edges.
+
+No endpoint, mutation, schema or engine semantics changed. The same hypothetical
+POST serves one frontend preview controller shared by map/progress. Client request
+cancellation and exact-input keys hide stale results; frontend code does not evaluate
+requirements. See [Phase 04D](DEGREE_MAPS_PHASE_04D.md).

@@ -1,0 +1,875 @@
+{
+  "release": {
+    "schema_version": "1",
+    "id": "synthetic-degree-map-fixture",
+    "campus_id": "bmcc",
+    "catalog_year": "2026-2027",
+    "program": {
+      "id": "bmcc-program-cs-as",
+      "campus_id": "bmcc"
+    },
+    "credential": "AS",
+    "state": "draft",
+    "sources": [
+      {
+        "id": "synthetic",
+        "url": null,
+        "retrieved_on": "2026-10-16",
+        "catalog_year": "2026-2027",
+        "section": "Synthetic tests",
+        "state": "synthetic",
+        "year_confirmed": false,
+        "note": "Fictional rules only",
+        "publisher": null,
+        "campus_id": null,
+        "program_id": null,
+        "claim_scope": null,
+        "published_on": null,
+        "revised_on": null,
+        "effective_on": null,
+        "conflicts_with": [],
+        "academic_review": "required"
+      }
+    ],
+    "categories": [
+      {
+        "id": "shared-math",
+        "label": "Shared mathematical vocabulary"
+      }
+    ],
+    "courses": [
+      {
+        "identity": {
+          "id": "m206",
+          "campus_id": "bmcc"
+        },
+        "version_id": "m206:2026-2027",
+        "code": "M206",
+        "title": "Synthetic m206",
+        "credits": "4",
+        "discipline": "math",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "m301",
+          "campus_id": "bmcc"
+        },
+        "version_id": "m301:2026-2027",
+        "code": "M301",
+        "title": "Synthetic m301",
+        "credits": "4",
+        "discipline": "math",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": {
+          "id": "synthetic-map-path",
+          "expression": {
+            "op": "all",
+            "children": [
+              {
+                "op": "any",
+                "children": [
+                  {
+                    "op": "completed",
+                    "course_id": "m206",
+                    "minimum_grade_rank": null
+                  },
+                  {
+                    "op": "completed",
+                    "course_id": "c101",
+                    "minimum_grade_rank": null
+                  }
+                ]
+              },
+              {
+                "op": "completed",
+                "course_id": "c111",
+                "minimum_grade_rank": null
+              }
+            ]
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        },
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "m302",
+          "campus_id": "bmcc"
+        },
+        "version_id": "m302:2026-2027",
+        "code": "M302",
+        "title": "Synthetic m302",
+        "credits": "4",
+        "discipline": "math",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": {
+          "id": "synthetic-map-next",
+          "expression": {
+            "op": "completed",
+            "course_id": "m301",
+            "minimum_grade_rank": null
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        },
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "c101",
+          "campus_id": "bmcc"
+        },
+        "version_id": "c101:2026-2027",
+        "code": "C101",
+        "title": "Synthetic c101",
+        "credits": "3",
+        "discipline": "computing",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "c111",
+          "campus_id": "bmcc"
+        },
+        "version_id": "c111:2026-2027",
+        "code": "C111",
+        "title": "Synthetic c111",
+        "credits": "4",
+        "discipline": "computing",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "e1",
+          "campus_id": "bmcc"
+        },
+        "version_id": "e1:2026-2027",
+        "code": "E1",
+        "title": "Synthetic e1",
+        "credits": "3",
+        "discipline": "computing",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "e2",
+          "campus_id": "bmcc"
+        },
+        "version_id": "e2:2026-2027",
+        "code": "E2",
+        "title": "Synthetic e2",
+        "credits": "3",
+        "discipline": "computing",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "speech1",
+          "campus_id": "bmcc"
+        },
+        "version_id": "speech1:2026-2027",
+        "code": "SPEECH1",
+        "title": "Synthetic speech1",
+        "credits": "3",
+        "discipline": "speech",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      },
+      {
+        "identity": {
+          "id": "speech2",
+          "campus_id": "bmcc"
+        },
+        "version_id": "speech2:2026-2027",
+        "code": "SPEECH2",
+        "title": "Synthetic speech2",
+        "credits": "3",
+        "discipline": "speech",
+        "source_ids": [
+          "synthetic"
+        ],
+        "prerequisite": null,
+        "corequisite": null,
+        "offering_status": "unknown"
+      }
+    ],
+    "requirements": [
+      {
+        "id": "math",
+        "label": "math",
+        "column": "Required Common Core",
+        "category_id": "shared-math",
+        "kind": "required",
+        "target_credits": "3",
+        "rule": {
+          "id": "math-rule",
+          "expression": {
+            "op": "any",
+            "children": [
+              {
+                "op": "completed",
+                "course_id": "m206",
+                "minimum_grade_rank": null
+              },
+              {
+                "op": "completed",
+                "course_id": "m301",
+                "minimum_grade_rank": null
+              }
+            ]
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      },
+      {
+        "id": "major-calculus",
+        "label": "major-calculus",
+        "column": "Major Requirements",
+        "category_id": null,
+        "kind": "required",
+        "target_credits": "4",
+        "rule": {
+          "id": "major-calculus-rule",
+          "expression": {
+            "op": "completed",
+            "course_id": "m302",
+            "minimum_grade_rank": null
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      },
+      {
+        "id": "scientific",
+        "label": "scientific",
+        "column": "Flexible Core",
+        "category_id": null,
+        "kind": "required",
+        "target_credits": "6",
+        "rule": {
+          "id": "scientific-rule",
+          "expression": {
+            "op": "all",
+            "children": [
+              {
+                "op": "completed",
+                "course_id": "c101",
+                "minimum_grade_rank": null
+              },
+              {
+                "op": "completed",
+                "course_id": "c111",
+                "minimum_grade_rank": null
+              }
+            ]
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      },
+      {
+        "id": "speech-advice",
+        "label": "speech-advice",
+        "column": "Flexible Core",
+        "category_id": null,
+        "kind": "recommended",
+        "target_credits": null,
+        "rule": {
+          "id": "speech-advice-rule",
+          "expression": {
+            "op": "any",
+            "children": [
+              {
+                "op": "completed",
+                "course_id": "speech1",
+                "minimum_grade_rank": null
+              },
+              {
+                "op": "completed",
+                "course_id": "speech2",
+                "minimum_grade_rank": null
+              }
+            ]
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      },
+      {
+        "id": "electives",
+        "label": "electives",
+        "column": "Major Electives",
+        "category_id": null,
+        "kind": "required",
+        "target_credits": "6",
+        "rule": {
+          "id": "electives-rule",
+          "expression": {
+            "op": "credits",
+            "eligible": [
+              "e1",
+              "e2"
+            ],
+            "minimum": "6"
+          },
+          "source_ids": [
+            "synthetic"
+          ]
+        }
+      }
+    ],
+    "constraints": [
+      {
+        "id": "discipline-cap",
+        "expression": {
+          "op": "discipline_cap",
+          "maximum": 2
+        },
+        "source_ids": [
+          "synthetic"
+        ]
+      }
+    ],
+    "declared_totals": [],
+    "issues": []
+  },
+  "columns": [
+    {
+      "title": "Required Common Core",
+      "groups": [
+        {
+          "requirement_id": "math",
+          "label": "math",
+          "kind": "required",
+          "target_credits": "3",
+          "course_ids": [
+            "m206",
+            "m301"
+          ],
+          "condition_label": "Alternative modeled conditions"
+        }
+      ]
+    },
+    {
+      "title": "Flexible Core",
+      "groups": [
+        {
+          "requirement_id": "scientific",
+          "label": "scientific",
+          "kind": "required",
+          "target_credits": "6",
+          "course_ids": [
+            "c101",
+            "c111"
+          ],
+          "condition_label": "All modeled conditions apply"
+        },
+        {
+          "requirement_id": "speech-advice",
+          "label": "speech-advice",
+          "kind": "recommended",
+          "target_credits": null,
+          "course_ids": [
+            "speech1",
+            "speech2"
+          ],
+          "condition_label": "Alternative modeled conditions"
+        }
+      ]
+    },
+    {
+      "title": "Major Requirements",
+      "groups": [
+        {
+          "requirement_id": "major-calculus",
+          "label": "major-calculus",
+          "kind": "required",
+          "target_credits": "4",
+          "course_ids": [
+            "m302"
+          ],
+          "condition_label": "Specified course condition"
+        }
+      ]
+    },
+    {
+      "title": "Major Electives",
+      "groups": [
+        {
+          "requirement_id": "electives",
+          "label": "electives",
+          "kind": "required",
+          "target_credits": "6",
+          "course_ids": [
+            "e1",
+            "e2"
+          ],
+          "condition_label": "Explicit credit allocation required"
+        }
+      ]
+    }
+  ],
+  "degree_map": {
+    "release_id": "synthetic-degree-map-fixture",
+    "campus_id": "bmcc",
+    "program_id": "bmcc-program-cs-as",
+    "catalog_year": "2026-2027",
+    "complete": false,
+    "nodes": [
+      {
+        "id": "course:m206",
+        "kind": "course",
+        "label": "M206",
+        "course_id": "m206",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "synthetic"
+      },
+      {
+        "id": "course:m301",
+        "kind": "course",
+        "label": "M301",
+        "course_id": "m301",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "synthetic"
+      },
+      {
+        "id": "course:m302",
+        "kind": "course",
+        "label": "M302",
+        "course_id": "m302",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "synthetic"
+      },
+      {
+        "id": "course:c101",
+        "kind": "course",
+        "label": "C101",
+        "course_id": "c101",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "synthetic"
+      },
+      {
+        "id": "course:c111",
+        "kind": "course",
+        "label": "C111",
+        "course_id": "c111",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "synthetic"
+      },
+      {
+        "id": "course:e1",
+        "kind": "course",
+        "label": "E1",
+        "course_id": "e1",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "synthetic"
+      },
+      {
+        "id": "course:e2",
+        "kind": "course",
+        "label": "E2",
+        "course_id": "e2",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "synthetic"
+      },
+      {
+        "id": "course:speech1",
+        "kind": "course",
+        "label": "SPEECH1",
+        "course_id": "speech1",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "synthetic"
+      },
+      {
+        "id": "course:speech2",
+        "kind": "course",
+        "label": "SPEECH2",
+        "course_id": "speech2",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "synthetic"
+      },
+      {
+        "id": "requirement:math",
+        "kind": "requirement",
+        "label": "math",
+        "course_id": null,
+        "requirement_id": "math",
+        "credits": "3",
+        "verification": "synthetic"
+      },
+      {
+        "id": "condition:[\"requirement:math\"]",
+        "kind": "any",
+        "label": "One of",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "synthetic"
+      },
+      {
+        "id": "requirement:major-calculus",
+        "kind": "requirement",
+        "label": "major-calculus",
+        "course_id": null,
+        "requirement_id": "major-calculus",
+        "credits": "4",
+        "verification": "synthetic"
+      },
+      {
+        "id": "requirement:scientific",
+        "kind": "requirement",
+        "label": "scientific",
+        "course_id": null,
+        "requirement_id": "scientific",
+        "credits": "6",
+        "verification": "synthetic"
+      },
+      {
+        "id": "condition:[\"requirement:scientific\"]",
+        "kind": "all",
+        "label": "All of",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "synthetic"
+      },
+      {
+        "id": "requirement:speech-advice",
+        "kind": "requirement",
+        "label": "speech-advice",
+        "course_id": null,
+        "requirement_id": "speech-advice",
+        "credits": null,
+        "verification": "synthetic"
+      },
+      {
+        "id": "condition:[\"requirement:speech-advice\"]",
+        "kind": "any",
+        "label": "One of",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "synthetic"
+      },
+      {
+        "id": "requirement:electives",
+        "kind": "requirement",
+        "label": "electives",
+        "course_id": null,
+        "requirement_id": "electives",
+        "credits": "6",
+        "verification": "synthetic"
+      },
+      {
+        "id": "condition:[\"requirement:electives\"]",
+        "kind": "credits",
+        "label": "At least 6 credits",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "synthetic"
+      },
+      {
+        "id": "condition:[\"prerequisite:m301\"]",
+        "kind": "all",
+        "label": "All of",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "synthetic"
+      },
+      {
+        "id": "condition:[\"prerequisite:m301\",0]",
+        "kind": "any",
+        "label": "One of",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "synthetic"
+      }
+    ],
+    "edges": [
+      {
+        "id": "membership:[\"requirement:math\",\"condition:[\\\"requirement:math\\\"]\"]",
+        "source": "requirement:math",
+        "target": "condition:[\"requirement:math\"]",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:math\\\"]\",\"course:m206\"]",
+        "source": "condition:[\"requirement:math\"]",
+        "target": "course:m206",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:math\\\"]\",\"course:m301\"]",
+        "source": "condition:[\"requirement:math\"]",
+        "target": "course:m301",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"requirement:major-calculus\",\"course:m302\"]",
+        "source": "requirement:major-calculus",
+        "target": "course:m302",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"requirement:scientific\",\"condition:[\\\"requirement:scientific\\\"]\"]",
+        "source": "requirement:scientific",
+        "target": "condition:[\"requirement:scientific\"]",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:scientific\\\"]\",\"course:c101\"]",
+        "source": "condition:[\"requirement:scientific\"]",
+        "target": "course:c101",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:scientific\\\"]\",\"course:c111\"]",
+        "source": "condition:[\"requirement:scientific\"]",
+        "target": "course:c111",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"requirement:speech-advice\",\"condition:[\\\"requirement:speech-advice\\\"]\"]",
+        "source": "requirement:speech-advice",
+        "target": "condition:[\"requirement:speech-advice\"]",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:speech-advice\\\"]\",\"course:speech1\"]",
+        "source": "condition:[\"requirement:speech-advice\"]",
+        "target": "course:speech1",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:speech-advice\\\"]\",\"course:speech2\"]",
+        "source": "condition:[\"requirement:speech-advice\"]",
+        "target": "course:speech2",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"requirement:electives\",\"condition:[\\\"requirement:electives\\\"]\"]",
+        "source": "requirement:electives",
+        "target": "condition:[\"requirement:electives\"]",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:electives\\\"]\",\"course:e1\"]",
+        "source": "condition:[\"requirement:electives\"]",
+        "target": "course:e1",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:electives\\\"]\",\"course:e2\"]",
+        "source": "condition:[\"requirement:electives\"]",
+        "target": "course:e2",
+        "relation": "membership",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "prerequisite:[\"condition:[\\\"prerequisite:m301\\\"]\",\"course:m301\"]",
+        "source": "condition:[\"prerequisite:m301\"]",
+        "target": "course:m301",
+        "relation": "prerequisite",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "prerequisite:[\"condition:[\\\"prerequisite:m301\\\",0]\",\"condition:[\\\"prerequisite:m301\\\"]\"]",
+        "source": "condition:[\"prerequisite:m301\",0]",
+        "target": "condition:[\"prerequisite:m301\"]",
+        "relation": "prerequisite",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "prerequisite:[\"course:m206\",\"condition:[\\\"prerequisite:m301\\\",0]\"]",
+        "source": "course:m206",
+        "target": "condition:[\"prerequisite:m301\",0]",
+        "relation": "prerequisite",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "prerequisite:[\"course:c101\",\"condition:[\\\"prerequisite:m301\\\",0]\"]",
+        "source": "course:c101",
+        "target": "condition:[\"prerequisite:m301\",0]",
+        "relation": "prerequisite",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "prerequisite:[\"course:c111\",\"condition:[\\\"prerequisite:m301\\\"]\"]",
+        "source": "course:c111",
+        "target": "condition:[\"prerequisite:m301\"]",
+        "relation": "prerequisite",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      },
+      {
+        "id": "prerequisite:[\"course:m301\",\"course:m302\"]",
+        "source": "course:m301",
+        "target": "course:m302",
+        "relation": "prerequisite",
+        "source_ids": [
+          "synthetic"
+        ],
+        "verification": "synthetic"
+      }
+    ],
+    "groups": [
+      {
+        "id": "math",
+        "label": "math",
+        "column": "Required Common Core",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "major-calculus",
+        "label": "major-calculus",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "4"
+      },
+      {
+        "id": "scientific",
+        "label": "scientific",
+        "column": "Flexible Core",
+        "kind": "required",
+        "target_credits": "6"
+      },
+      {
+        "id": "speech-advice",
+        "label": "speech-advice",
+        "column": "Flexible Core",
+        "kind": "recommended",
+        "target_credits": null
+      },
+      {
+        "id": "electives",
+        "label": "electives",
+        "column": "Major Electives",
+        "kind": "required",
+        "target_credits": "6"
+      }
+    ]
+  },
+  "limitation": "Draft catalog. Source verification is not institutional approval. Partial data is not a complete audit."
+}

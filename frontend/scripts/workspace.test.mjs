@@ -132,7 +132,7 @@ test("mocked API discovery/catalog/preview preserve explicit context and hypothe
 for (const [status, phrase] of [
   [404, /not found/],
   [422, /Invalid selection/],
-  [503, /README/],
+  [503, /temporarily unavailable/],
 ])
   test(`HTTP ${status} has safe actionable error`, async () => {
     mock.method(

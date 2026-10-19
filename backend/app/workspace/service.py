@@ -17,6 +17,7 @@ from app.academic.contracts import (
 )
 from app.academic.evaluation import eligibility, evaluate
 from app.academic.projections import selector_columns
+from .degree_map import DegreeMapView, degree_map_view
 
 
 class ReleaseSummary(Contract):
@@ -45,6 +46,7 @@ class WorkspaceColumn(Contract):
 class CatalogView(Contract):
     release: Release
     columns: tuple[WorkspaceColumn, ...]
+    degree_map: DegreeMapView
     limitation: str = (
         "Draft catalog. Source verification is not institutional approval. Partial data is not a complete audit."
     )
@@ -70,6 +72,7 @@ def referenced_courses(expression):
 def catalog_view(release):
     return CatalogView(
         release=release,
+        degree_map=degree_map_view(release),
         columns=tuple(
             WorkspaceColumn(
                 title=column.title,

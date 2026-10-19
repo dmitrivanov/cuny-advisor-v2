@@ -1,26 +1,25 @@
 # Repository instructions
 
-## Current authorization: Phase 04C-UX — Academic Explorer and pathways
+## Current authorization: Phase 04D — Degree maps and compact course history
 
-Work on `feature/phase04c-ux-academic-explorer` from updated main with merged PR #13.
-Authorized: premium student-facing Departments/Programs/Courses explorer, accessible
-course detail panel/sheet, contextual chat/deep-link navigation, bounded interactive
-pathway visualization, read-only pinned V1 graph inspection, dependency evaluation,
-regression tests/screenshots/docs, scoped commit/push and dedicated owner-review PR.
-Preserve frontend/AGENTS.md; read installed Next.js documentation before frontend edits.
+Work on `feature/phase04d-degree-maps` from main with merged PRs #13 and #14.
+Authorized: release-bound interactive program maps, source-checked read-only graph
+projection, automatic visual layout, compact course-history selection, shared
+hypothetical progress results, validated local chat actions, tests/screenshots/docs,
+scoped commit/push and a dedicated review PR. Preserve frontend/AGENTS.md and read
+installed Next.js docs before frontend changes.
 
-Preserve source facts, catalog years, existing releases/data, selector, progress,
-pure evaluator, exact credits and institutional isolation. No fabricated real graph
-edges or program ownership from page-host links. Only verified structured relations
-may create authoritative edges; otherwise use an explicit real-data empty state and
-separate synthetic demonstration. Visualization/traversal is never eligibility.
-Remove technical clutter from student views without hiding uncertainty or errors.
+Use one canonical selection/allocation state and the unchanged deterministic engine.
+Separate verified requirement membership from verified prerequisite relations and
+from student-reported selections. Keep the 2025–2026 browse snapshot separate from
+2026–2027 CS/CIS drafts; incomplete maps remain explicitly limited. Graph layout,
+collapse, highlighting and UI selection cannot award credit or approve academics.
 
-No new academic rules, catalog ingestion/rewrites, degree requirements, student data,
+No new academic rules, catalog rewrites, database migrations/seeding, student records,
 production resources, other-campus activation, accounts, registration, Gemini calls,
-merge, deploy or later phase. Do not inspect/change backend/.env.local. Respect local
-services; no migration or seed required for this UX phase. Stop at the review PR;
-no history rewrite.
+merge, deploy, history rewrite or subsequent phase. Do not inspect/change
+backend/.env.local. Preserve all unrelated work and existing local services.
+Stop at the owner-review PR.
 
 V1 is strictly read-only at reference commit
 `ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
@@ -97,6 +96,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 04C-UX authorization
+The Phase 00 deliverable was documentation only. Current Phase 04D authorization
 is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

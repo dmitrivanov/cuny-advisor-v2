@@ -2,6 +2,7 @@ export type ModuleId =
   | "chat"
   | "completed"
   | "catalog"
+  | "map"
   | "progress"
   | "planner"
   | "transcripts"
@@ -51,6 +52,7 @@ export type Group = {
   course_ids: string[];
 };
 export type Catalog = {
+  degree_map?: import("./degree-map.ts").DegreeMap;
   release: {
     id: string;
     campus_id: string;

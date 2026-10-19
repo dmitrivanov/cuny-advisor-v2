@@ -19,7 +19,7 @@
         "section": "Required Common Core / Notes",
         "state": "source_verified",
         "year_confirmed": true,
-        "note": "Program Notes explicitly identify 2026–2027; source verification is not institutional approval.",
+        "note": "Program Notes explicitly identify 2026\u20132027; source verification is not institutional approval.",
         "publisher": "BMCC",
         "campus_id": "bmcc",
         "program_id": "bmcc-program-cis-aas",
@@ -38,7 +38,7 @@
         "section": "Flexible Core / Notes",
         "state": "source_verified",
         "year_confirmed": true,
-        "note": "Program Notes explicitly identify 2026–2027; source verification is not institutional approval.",
+        "note": "Program Notes explicitly identify 2026\u20132027; source verification is not institutional approval.",
         "publisher": "BMCC",
         "campus_id": "bmcc",
         "program_id": "bmcc-program-cis-aas",
@@ -57,7 +57,7 @@
         "section": "Curriculum Requirements / Notes",
         "state": "source_verified",
         "year_confirmed": true,
-        "note": "Program Notes explicitly identify 2026–2027; source verification is not institutional approval.",
+        "note": "Program Notes explicitly identify 2026\u20132027; source verification is not institutional approval.",
         "publisher": "BMCC",
         "campus_id": "bmcc",
         "program_id": "bmcc-program-cis-aas",
@@ -73,10 +73,10 @@
         "url": "https://www.bmcc.cuny.edu/academics/departments/cis/computer-information-systems-cis/",
         "retrieved_on": "2026-10-16",
         "catalog_year": "2026-2027",
-        "section": "Footnotes 1–2 / Program Electives / Electives",
+        "section": "Footnotes 1\u20132 / Program Electives / Electives",
         "state": "source_verified",
         "year_confirmed": true,
-        "note": "Program Notes explicitly identify 2026–2027; source verification is not institutional approval.",
+        "note": "Program Notes explicitly identify 2026\u20132027; source verification is not institutional approval.",
         "publisher": "BMCC",
         "campus_id": "bmcc",
         "program_id": "bmcc-program-cis-aas",
@@ -485,7 +485,7 @@
       },
       {
         "id": "cis-scientific",
-        "label": "Scientific World — grouping needs review",
+        "label": "Scientific World \u2014 grouping needs review",
         "column": "Flexible Core",
         "category_id": "scientific",
         "kind": "required",
@@ -578,7 +578,7 @@
       },
       {
         "id": "cis-other-electives",
-        "label": "Other Electives — pool incomplete",
+        "label": "Other Electives \u2014 pool incomplete",
         "column": "Major Requirements",
         "category_id": null,
         "kind": "required",
@@ -657,7 +657,7 @@
       "groups": [
         {
           "requirement_id": "cis-scientific",
-          "label": "Scientific World — grouping needs review",
+          "label": "Scientific World \u2014 grouping needs review",
           "kind": "required",
           "target_credits": null,
           "course_ids": [
@@ -684,7 +684,7 @@
         },
         {
           "requirement_id": "cis-other-electives",
-          "label": "Other Electives — pool incomplete",
+          "label": "Other Electives \u2014 pool incomplete",
           "kind": "required",
           "target_credits": "3",
           "course_ids": [],
@@ -718,5 +718,464 @@
       ]
     }
   ],
-  "limitation": "Draft catalog. Source verification is not institutional approval. Partial data is not a complete audit."
+  "limitation": "Draft catalog. Source verification is not institutional approval. Partial data is not a complete audit.",
+  "degree_map": {
+    "release_id": "bmcc-cis-aas-2026-2027-draft-1",
+    "campus_id": "bmcc",
+    "program_id": "bmcc-program-cis-aas",
+    "catalog_year": "2026-2027",
+    "complete": false,
+    "nodes": [
+      {
+        "id": "course:bmcc-course-mat-157",
+        "kind": "course",
+        "label": "MAT 157",
+        "course_id": "bmcc-course-mat-157",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-mat-206",
+        "kind": "course",
+        "label": "MAT 206",
+        "course_id": "bmcc-course-mat-206",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-mat-301",
+        "kind": "course",
+        "label": "MAT 301",
+        "course_id": "bmcc-course-mat-301",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-csc-101",
+        "kind": "course",
+        "label": "CSC 101",
+        "course_id": "bmcc-course-csc-101",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-csc-110",
+        "kind": "course",
+        "label": "CSC 110",
+        "course_id": "bmcc-course-csc-110",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-csc-111",
+        "kind": "course",
+        "label": "CSC 111",
+        "course_id": "bmcc-course-csc-111",
+        "requirement_id": null,
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-345",
+        "kind": "course",
+        "label": "CIS 345",
+        "course_id": "bmcc-course-cis-345",
+        "requirement_id": null,
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-gis-101",
+        "kind": "course",
+        "label": "GIS 101",
+        "course_id": "bmcc-course-gis-101",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-gis-201",
+        "kind": "course",
+        "label": "GIS 201",
+        "course_id": "bmcc-course-gis-201",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-359",
+        "kind": "course",
+        "label": "CIS 359",
+        "course_id": "bmcc-course-cis-359",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-362",
+        "kind": "course",
+        "label": "CIS 362",
+        "course_id": "bmcc-course-cis-362",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-364",
+        "kind": "course",
+        "label": "CIS 364",
+        "course_id": "bmcc-course-cis-364",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-459",
+        "kind": "course",
+        "label": "CIS 459",
+        "course_id": "bmcc-course-cis-459",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-490",
+        "kind": "course",
+        "label": "CIS 490",
+        "course_id": "bmcc-course-cis-490",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-316",
+        "kind": "course",
+        "label": "CIS 316",
+        "course_id": "bmcc-course-cis-316",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-272",
+        "kind": "course",
+        "label": "CIS 272",
+        "course_id": "bmcc-course-cis-272",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-285",
+        "kind": "course",
+        "label": "CIS 285",
+        "course_id": "bmcc-course-cis-285",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "course:bmcc-course-cis-375",
+        "kind": "course",
+        "label": "CIS 375",
+        "course_id": "bmcc-course-cis-375",
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:cis-math",
+        "kind": "requirement",
+        "label": "Mathematical and Quantitative Reasoning",
+        "course_id": null,
+        "requirement_id": "cis-math",
+        "credits": "4",
+        "verification": "source_verified"
+      },
+      {
+        "id": "condition:[\"requirement:cis-math\"]",
+        "kind": "any",
+        "label": "One of",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:cis-english",
+        "kind": "requirement",
+        "label": "English Composition",
+        "course_id": null,
+        "requirement_id": "cis-english",
+        "credits": "6",
+        "verification": "unresolved"
+      },
+      {
+        "id": "requirement:cis-scientific",
+        "kind": "requirement",
+        "label": "Scientific World \u2014 grouping needs review",
+        "course_id": null,
+        "requirement_id": "cis-scientific",
+        "credits": null,
+        "verification": "unresolved"
+      },
+      {
+        "id": "requirement:cis-major-network",
+        "kind": "requirement",
+        "label": "CIS 345",
+        "course_id": null,
+        "requirement_id": "cis-major-network",
+        "credits": "3",
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:cis-program-electives",
+        "kind": "requirement",
+        "label": "Program Electives",
+        "course_id": null,
+        "requirement_id": "cis-program-electives",
+        "credits": "6",
+        "verification": "source_verified"
+      },
+      {
+        "id": "condition:[\"requirement:cis-program-electives\"]",
+        "kind": "credits",
+        "label": "At least 6 credits",
+        "course_id": null,
+        "requirement_id": null,
+        "credits": null,
+        "verification": "source_verified"
+      },
+      {
+        "id": "requirement:cis-other-electives",
+        "kind": "requirement",
+        "label": "Other Electives \u2014 pool incomplete",
+        "course_id": null,
+        "requirement_id": "cis-other-electives",
+        "credits": "3",
+        "verification": "unresolved"
+      }
+    ],
+    "edges": [
+      {
+        "id": "membership:[\"requirement:cis-math\",\"condition:[\\\"requirement:cis-math\\\"]\"]",
+        "source": "requirement:cis-math",
+        "target": "condition:[\"requirement:cis-math\"]",
+        "relation": "membership",
+        "source_ids": [
+          "cis-required"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-math\\\"]\",\"course:bmcc-course-mat-157\"]",
+        "source": "condition:[\"requirement:cis-math\"]",
+        "target": "course:bmcc-course-mat-157",
+        "relation": "membership",
+        "source_ids": [
+          "cis-required"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-math\\\"]\",\"course:bmcc-course-mat-206\"]",
+        "source": "condition:[\"requirement:cis-math\"]",
+        "target": "course:bmcc-course-mat-206",
+        "relation": "membership",
+        "source_ids": [
+          "cis-required"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-math\\\"]\",\"course:bmcc-course-mat-301\"]",
+        "source": "condition:[\"requirement:cis-math\"]",
+        "target": "course:bmcc-course-mat-301",
+        "relation": "membership",
+        "source_ids": [
+          "cis-required"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:cis-major-network\",\"course:bmcc-course-cis-345\"]",
+        "source": "requirement:cis-major-network",
+        "target": "course:bmcc-course-cis-345",
+        "relation": "membership",
+        "source_ids": [
+          "cis-curriculum"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"requirement:cis-program-electives\",\"condition:[\\\"requirement:cis-program-electives\\\"]\"]",
+        "source": "requirement:cis-program-electives",
+        "target": "condition:[\"requirement:cis-program-electives\"]",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-gis-101\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-gis-101",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-gis-201\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-gis-201",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-cis-359\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-cis-359",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-cis-362\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-cis-362",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-cis-364\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-cis-364",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-cis-459\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-cis-459",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-cis-490\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-cis-490",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-cis-316\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-cis-316",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-cis-272\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-cis-272",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-cis-285\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-cis-285",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      },
+      {
+        "id": "membership:[\"condition:[\\\"requirement:cis-program-electives\\\"]\",\"course:bmcc-course-cis-375\"]",
+        "source": "condition:[\"requirement:cis-program-electives\"]",
+        "target": "course:bmcc-course-cis-375",
+        "relation": "membership",
+        "source_ids": [
+          "cis-electives"
+        ],
+        "verification": "source_verified"
+      }
+    ],
+    "groups": [
+      {
+        "id": "cis-math",
+        "label": "Mathematical and Quantitative Reasoning",
+        "column": "Required Common Core",
+        "kind": "required",
+        "target_credits": "4"
+      },
+      {
+        "id": "cis-english",
+        "label": "English Composition",
+        "column": "Required Common Core",
+        "kind": "required",
+        "target_credits": "6"
+      },
+      {
+        "id": "cis-scientific",
+        "label": "Scientific World \u2014 grouping needs review",
+        "column": "Flexible Core",
+        "kind": "required",
+        "target_credits": null
+      },
+      {
+        "id": "cis-major-network",
+        "label": "CIS 345",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "3"
+      },
+      {
+        "id": "cis-program-electives",
+        "label": "Program Electives",
+        "column": "Major Electives",
+        "kind": "required",
+        "target_credits": "6"
+      },
+      {
+        "id": "cis-other-electives",
+        "label": "Other Electives \u2014 pool incomplete",
+        "column": "Major Requirements",
+        "kind": "required",
+        "target_credits": "3"
+      }
+    ]
+  }
 }

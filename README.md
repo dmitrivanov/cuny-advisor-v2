@@ -371,3 +371,17 @@ Browsing does not assign or change the explicit audit context used by Completed
 Courses and Degree Progress. React Flow is the added runtime visualization package.
 [UX boundaries](docs/ACADEMIC_EXPLORER_UX.md) ·
 [Verification and screenshots](docs/PHASE_04C_UX_VERIFICATION.md).
+
+## Phase 04D degree maps and compact history
+
+“Tell me about Computer Science” or “Open degree map” opens a draft program map
+with explicit edition selection. “Focus MAT 301”, “Show prerequisites for MAT 301”,
+and “Show remaining requirements” offer bounded local navigation without Gemini.
+History search/chips and optional four-category browsing share the same reducer;
+map/progress share backend outcomes after an explicit fictional assumption/first run.
+No record is verified or saved. CS/CIS maps remain incomplete, with no usable verified
+prerequisite edges under current evidence; descriptions are not borrowed across years.
+
+Restart your local backend when reviewing the additive catalog DTO; no migration or
+fixture import is required. [Design](docs/DEGREE_MAPS_PHASE_04D.md) ·
+[Verification/screenshots](docs/PHASE_04D_VERIFICATION.md).

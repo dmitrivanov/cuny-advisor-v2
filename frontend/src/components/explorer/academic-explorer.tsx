@@ -16,6 +16,8 @@ import {
   type ExplorerTarget,
   type ExplorerView,
 } from "@/lib/catalog/navigation";
+import type { Summary } from "@/lib/workspace/types";
+import { programName } from "@/lib/workspace/registry";
 import { CourseDetail } from "./course-detail";
 const PathwayView = dynamic(
   () => import("./pathway-view").then((m) => m.PathwayView),
@@ -80,7 +82,13 @@ const views: Record<
     subtitle: "Explore the steps behind a course.",
   },
 };
-export function AcademicExplorer() {
+export function AcademicExplorer({
+  programMaps = [],
+  openProgramMap,
+}: {
+  programMaps?: Summary[];
+  openProgramMap?: (item: Summary) => void;
+}) {
   const [target, setTarget] = useState<ExplorerTarget>({ view: "departments" }),
     [attempt, setAttempt] = useState(0),
     [draft, setDraft] = useState("");
@@ -322,6 +330,29 @@ export function AcademicExplorer() {
         </div>
       ) : (
         <>
+          {target.view === "programs" && !program && programMaps.length > 0 && (
+            <section aria-label="Supported program maps">
+              <h3 className="font-semibold mb-3">Explore a program map</h3>
+              <p className="text-sm text-muted mb-4">
+                Separate draft editions with limited requirements. These do not
+                use the browsing catalog year above.
+              </p>
+              <div className="explorer-collection-grid">
+                {programMaps
+                  .filter((p) => p.campus_id === "bmcc")
+                  .map((p) => (
+                    <button
+                      key={p.release_id}
+                      className="explorer-collection-card"
+                      onClick={() => openProgramMap?.(p)}
+                    >
+                      <h3>{programName(p.program_id)}</h3>
+                      <span>{p.catalog_year} · Draft degree map ↗</span>
+                    </button>
+                  ))}
+              </div>
+            </section>
+          )}
           {target.view !== "pathways" && !program && (
             <form
               className="explorer-search"

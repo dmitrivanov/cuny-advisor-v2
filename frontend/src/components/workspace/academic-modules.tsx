@@ -2,18 +2,19 @@
 import { useState } from "react";
 import type { Dispatch } from "react";
 import { GlassButton } from "@/components/ui/glass-button";
-import { getProgress } from "@/lib/workspace/api";
-import { courseTitle, selectorColumns } from "@/lib/workspace/presentation";
-import { previewBody } from "@/lib/workspace/state";
+import type { PreviewController } from "./use-preview";
+import {
+  courseTitle,
+  selectorColumns,
+  studentReason,
+} from "@/lib/workspace/presentation";
 import type { Action } from "@/lib/workspace/state";
 import type {
   Catalog,
   Course,
   Group,
-  Progress,
   Result,
   RuleExpression,
-  Summary,
   WorkspaceState,
 } from "@/lib/workspace/types";
 
@@ -146,12 +147,7 @@ function Reason({ result }: { result: Result }) {
       <span className={`outcome outcome--${result.status}`}>
         {result.status}
       </span>
-      <span className="ml-2 text-sm">{result.reason.replaceAll("_", " ")}</span>
-      {result.source_ids?.length ? (
-        <p className="mt-1 text-xs text-muted">
-          Sources: {result.source_ids.join(", ")}
-        </p>
-      ) : null}
+      <span className="ml-2 text-sm">{studentReason(result.reason)}</span>
       {result.children.map((child, index) => (
         <Reason key={index} result={child} />
       ))}
@@ -280,7 +276,7 @@ export function CatalogExplorer({
     </div>
   );
 }
-export function CompletedCourses({
+export function GroupedCourses({
   state,
   dispatch,
 }: {
@@ -435,120 +431,19 @@ export function CompletedCourses({
             unresolved.
           </p>
         )}
-      <section className="mt-6 rounded-card border border-line bg-soft p-5">
-        <h2 className="font-semibold">
-          Selected once · {state.selected.length} courses
-        </h2>
-        <p className="mt-2 text-sm text-muted">
-          Explicit optional allocations below feed the deterministic preview. No
-          automatic allocation or credit splitting is performed. Credits are
-          exact strings; enter the amount to propose.
-        </p>
-        {state.selected.length === 0 && (
-          <p className="mt-3 text-sm">No courses selected yet.</p>
-        )}
-        {state.selected.map((id) => {
-          const course = catalog.release.courses.find(
-            (course) => course.identity.id === id,
-          )!;
-          const value = state.assignments[id] ?? {
-            requirement_id: "",
-            credits: "",
-          };
-          const groups = catalog.columns
-            .flatMap((column) => column.groups)
-            .filter((group) => group.course_ids.includes(id));
-          return (
-            <div className="mt-5 border-t border-line pt-4" key={id}>
-              <p className="mb-3 text-sm">
-                <CourseLabel course={course} />
-              </p>
-              <div className="grid gap-3 sm:grid-cols-2">
-                <label className="field-label">
-                  Apply {course.code} to
-                  <select
-                    className="workspace-input"
-                    value={value.requirement_id}
-                    onChange={(event) =>
-                      dispatch({
-                        type: "assign",
-                        course: id,
-                        value: { ...value, requirement_id: event.target.value },
-                      })
-                    }
-                  >
-                    <option value="">No allocation proposed</option>
-                    {groups.map((group) => (
-                      <option
-                        key={group.requirement_id}
-                        value={group.requirement_id}
-                      >
-                        {group.label}
-                      </option>
-                    ))}
-                  </select>
-                </label>
-                <label className="field-label">
-                  Proposed credits for {course.code}
-                  <input
-                    className="workspace-input"
-                    inputMode="decimal"
-                    value={value.credits}
-                    disabled={!value.requirement_id}
-                    placeholder="Enter exact credits"
-                    onChange={(event) =>
-                      dispatch({
-                        type: "assign",
-                        course: id,
-                        value: { ...value, credits: event.target.value },
-                      })
-                    }
-                  />
-                </label>
-              </div>
-              <button
-                className="source-link mt-2 text-sm"
-                onClick={() => dispatch({ type: "toggle", course: id })}
-              >
-                Remove {course.code}
-              </button>
-            </div>
-          );
-        })}
-      </section>
     </div>
   );
 }
 export function DegreeProgress({
   state,
-  summary,
+  preview,
 }: {
   state: WorkspaceState;
-  summary: Summary;
+  preview: PreviewController;
 }) {
-  const [assumed, setAssumed] = useState(false);
-  const [busy, setBusy] = useState(false);
-  const [response, setResponse] = useState<{
-    key: string;
-    value?: Progress;
-    error?: string;
-  } | null>(null);
-  const key = JSON.stringify([summary, previewBody(state)]);
-  async function run() {
-    setBusy(true);
-    try {
-      setResponse({ key, value: await getProgress(summary, state) });
-    } catch (error) {
-      setResponse({
-        key,
-        error: error instanceof Error ? error.message : "Preview failed",
-      });
-    } finally {
-      setBusy(false);
-    }
-  }
-  const current = response?.key === key ? response : null;
-  const snapshot = current?.value?.snapshot;
+  const { assumed, setAssumed, run, busy, error, value, stale } = preview;
+  const current = value || error ? { value, error } : null;
+  const snapshot = value?.snapshot;
   return (
     <div className="space-y-5">
       <p className="text-sm text-muted">
@@ -572,16 +467,16 @@ export function DegreeProgress({
       <GlassButton onClick={run} disabled={!assumed || busy}>
         {busy ? "Evaluating hypothetical inputs…" : "Run deterministic preview"}
       </GlassButton>
-      {!response && (
+      {!current && !busy && (
         <p className="text-sm text-muted">
           No evaluation yet. Use Completed Courses to select courses and
           optionally propose allocations.
         </p>
       )}
-      {response && !current && (
+      {stale && (
         <p role="status">
-          Context or selection changed. Run a fresh preview; previous results
-          are hidden.
+          Context or selection changed. Updating preview; previous results are
+          hidden.
         </p>
       )}
       {current?.error && (
@@ -594,7 +489,7 @@ export function DegreeProgress({
           <p className="workspace-notice">{current.value.limitation}</p>
           {current.value.issues.map((issue) => (
             <p key={issue} className="mt-3 text-sm">
-              Unresolved: {issue}
+              Unresolved: {studentReason(issue)}
             </p>
           ))}
           {snapshot && (
@@ -609,13 +504,10 @@ export function DegreeProgress({
                   <dd>{snapshot.allocated_credits}</dd>
                 </div>
               </dl>
-              <p className="mb-4 text-sm">
-                Engine {snapshot.engine_version} · overall degree status:
-                unresolved
-              </p>
+              <p className="mb-4 text-sm">Overall degree status: unresolved</p>
               {snapshot.issues.map((issue, index) => (
                 <p key={index} className="mb-3 text-sm">
-                  Issue: {issue}
+                  Issue: {studentReason(issue)}
                 </p>
               ))}
               <h3 className="text-lg font-semibold">Requirement outcomes</h3>

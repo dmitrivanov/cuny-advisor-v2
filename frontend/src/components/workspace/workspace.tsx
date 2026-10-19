@@ -1,6 +1,19 @@
 "use client";
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+import { CompactCourses } from "./compact-courses";
+import {
+  mapIntent,
+  mapURL,
+  readMapTarget,
+  type MapTarget,
+} from "@/lib/workspace/map-navigation";
+import { usePreview } from "./use-preview";
+const DegreeMap = dynamic(
+  () => import("@/components/explorer/degree-map").then((m) => m.DegreeMap),
+  { ssr: false, loading: () => <p role="status">Opening your program map…</p> },
+);
 import { AcademicExplorer } from "@/components/explorer/academic-explorer";
 import {
   explorerIntent,
@@ -45,7 +58,7 @@ import {
 import { initialState, workspaceReducer } from "@/lib/workspace/state";
 import type { Guidance } from "@/lib/workspace/registry";
 import type { ModuleId, Summary } from "@/lib/workspace/types";
-import { CompletedCourses, DegreeProgress } from "./academic-modules";
+import { DegreeProgress } from "./academic-modules";
 
 const contextKey = (
   item: Pick<Summary, "campus_id" | "program_id" | "release_id">,
@@ -56,6 +69,7 @@ type Message = {
   actions?: ModuleId[];
   ai?: boolean;
   explorer?: ExplorerTarget;
+  mapTarget?: MapTarget;
 };
 export function Workspace({ campus }: { campus: Campus }) {
   const { advising, setAdvising } = useAdvising();
@@ -78,6 +92,7 @@ export function Workspace({ campus }: { campus: Campus }) {
   const headingRef = useRef<HTMLHeadingElement>(null);
   const returnFocus = useRef<HTMLElement | null>(null);
   const previousModule = useRef<ModuleId>("chat");
+  const [mapTarget, setMapTarget] = useState<MapTarget>({});
   const [input, setInput] = useState("");
   const [aiAvailable, setAiAvailable] = useState(false);
   const [consent, setConsent] = useState(false);
@@ -118,6 +133,7 @@ export function Workspace({ campus }: { campus: Campus }) {
   }, [messages]);
   const readLocation = useCallback(() => {
     const url = new URL(window.location.href);
+    setMapTarget(readMapTarget(url.search));
     dispatch({ type: "navigate", module: moduleFromHash(url.hash) });
     const parts = ["campus", "program", "release"].map((name) =>
       url.searchParams.get(name),
@@ -169,7 +185,7 @@ export function Workspace({ campus }: { campus: Campus }) {
     };
   }, [readLocation]);
   useEffect(() => {
-    if (state.active === "chat" || state.active === "catalog") return;
+    if (state.active === "chat") return;
     const controller = new AbortController();
     listReleases(controller.signal)
       .then((items) => {
@@ -244,6 +260,9 @@ export function Workspace({ campus }: { campus: Campus }) {
     for (const name of ["campus", "program", "release"])
       url.searchParams.delete(name);
     if (item) {
+      url.searchParams.set("map_program", item.program_id);
+      url.searchParams.delete("focus_code");
+      url.searchParams.delete("path_direction");
       url.searchParams.set("campus", item.campus_id);
       url.searchParams.set("program", item.program_id);
       url.searchParams.set("release", item.release_id);
@@ -261,6 +280,11 @@ export function Workspace({ campus }: { campus: Campus }) {
     );
     window.dispatchEvent(new Event("explorer:navigate"));
   }
+  function openMap(target: MapTarget) {
+    navigate("map");
+    window.history.replaceState(null, "", mapURL(window.location.href, target));
+    setMapTarget(target);
+  }
   function sendLocal(text: string) {
     if (!text.trim()) return;
     const proposal = interpretBounded(text, campuses);
@@ -272,6 +296,36 @@ export function Workspace({ campus }: { campus: Campus }) {
           next = applyUpdate(next, update, campuses);
         return next;
       });
+    const degreeDestination = mapIntent(text);
+    if (degreeDestination) {
+      setMessages((items) => [
+        ...items.slice(-37),
+        { role: "you", text: text.trim().slice(0, 600) },
+        {
+          role: "guide",
+          text: degreeDestination.program
+            ? "Explore this program’s limited degree map. Choose its catalog edition explicitly; this is not a complete degree plan."
+            : "Open your degree map to inspect source-backed requirements and verified pathways.",
+          actions: ["map"],
+          mapTarget: degreeDestination,
+        },
+      ]);
+      setInput("");
+      return;
+    }
+    if (/^show (?:my )?remaining requirements[.!?]*$/i.test(text.trim())) {
+      setMessages((items) => [
+        ...items.slice(-37),
+        { role: "you", text },
+        {
+          role: "guide",
+          text: "Review remaining and unresolved outcomes from the deterministic preview.",
+          actions: ["progress"],
+        },
+      ]);
+      setInput("");
+      return;
+    }
     const destination = explorerIntent(text);
     const reply: Guidance = destination
       ? {
@@ -291,7 +345,13 @@ export function Workspace({ campus }: { campus: Campus }) {
   }
   async function send(text: string) {
     if (!text.trim() || busy) return;
-    if (explorerIntent(text) || !aiAvailable || !consent) {
+    if (
+      mapIntent(text) ||
+      /^show (?:my )?remaining requirements[.!?]*$/i.test(text.trim()) ||
+      explorerIntent(text) ||
+      !aiAvailable ||
+      !consent
+    ) {
       sendLocal(text);
       return;
     }
@@ -397,6 +457,11 @@ export function Workspace({ campus }: { campus: Campus }) {
           )?.revision_id ?? "explicit deep link",
       }
     : null;
+  const preview = usePreview(state, summary);
+  const mapMismatch =
+    state.active === "map" &&
+    mapTarget.program &&
+    catalog?.release.program.id !== mapTarget.program;
   const isChat = state.active === "chat";
   return (
     <div className="workspace-root">
@@ -482,6 +547,12 @@ export function Workspace({ campus }: { campus: Campus }) {
                   <p className="whitespace-pre-wrap text-sm leading-7">
                     {message.text}
                   </p>
+                  {message.mapTarget?.program && (
+                    <div className="program-map-preview">
+                      <strong>{programName(message.mapTarget.program)}</strong>
+                      <span>Limited draft map · choose a catalog edition</span>
+                    </div>
+                  )}
                   {message.actions && (
                     <div className="mt-3 flex flex-wrap gap-2">
                       {message.actions.map((id) => (
@@ -489,9 +560,11 @@ export function Workspace({ campus }: { campus: Campus }) {
                           key={id}
                           className="action-card"
                           onClick={() =>
-                            id === "catalog" && message.explorer
-                              ? openExplorer(message.explorer)
-                              : navigate(id)
+                            id === "map"
+                              ? openMap(message.mapTarget ?? {})
+                              : id === "catalog" && message.explorer
+                                ? openExplorer(message.explorer)
+                                : navigate(id)
                           }
                         >
                           Open {modules.find((item) => item.id === id)!.name}{" "}
@@ -708,7 +781,13 @@ export function Workspace({ campus }: { campus: Campus }) {
                       {catalogError.message}
                     </p>
                   )}
-                  <AcademicExplorer />
+                  <AcademicExplorer
+                    programMaps={releases ?? []}
+                    openProgramMap={(item) => {
+                      choose(contextKey(item));
+                      openMap({ program: item.program_id });
+                    }}
+                  />
                 </>
               ) : (
                 <p className="workspace-notice">
@@ -731,7 +810,7 @@ export function Workspace({ campus }: { campus: Campus }) {
                       Program / catalog release
                       <select
                         className="workspace-input"
-                        value={selection}
+                        value={mapMismatch ? "" : selection}
                         onChange={(event) => choose(event.target.value)}
                         disabled={!releases}
                       >
@@ -746,16 +825,23 @@ export function Workspace({ campus }: { campus: Campus }) {
                               Requested deep-linked release
                             </option>
                           )}
-                        {releases?.map((item) => (
-                          <option
-                            key={contextKey(item)}
-                            value={contextKey(item)}
-                          >
-                            {item.campus_id.toUpperCase()} ·{" "}
-                            {programName(item.program_id)} · {item.catalog_year}{" "}
-                            · {item.release_id}
-                          </option>
-                        ))}
+                        {releases
+                          ?.filter(
+                            (item) =>
+                              state.active !== "map" ||
+                              !mapTarget.program ||
+                              item.program_id === mapTarget.program,
+                          )
+                          .map((item) => (
+                            <option
+                              key={contextKey(item)}
+                              value={contextKey(item)}
+                            >
+                              {item.campus_id.toUpperCase()} ·{" "}
+                              {programName(item.program_id)} ·{" "}
+                              {item.catalog_year}{" "}
+                            </option>
+                          ))}
                       </select>
                     </label>
                     <p className="mt-2 text-xs text-muted">
@@ -810,9 +896,50 @@ export function Workspace({ campus }: { campus: Campus }) {
                   </div>
                 ) : (
                   <>
+                    {state.active === "map" &&
+                      summary &&
+                      (mapMismatch ? (
+                        <p className="workspace-notice">
+                          Choose a catalog edition for{" "}
+                          {programName(mapTarget.program!)} above. Your existing
+                          history stays in its current context until you choose.
+                        </p>
+                      ) : (
+                        <>
+                          {mapTarget.courseCode &&
+                            !catalog.release.courses.some(
+                              (c) => c.code === mapTarget.courseCode,
+                            ) && (
+                              <p role="status" className="workspace-notice">
+                                That course isn’t captured in this edition.
+                                Choose an available course.
+                              </p>
+                            )}
+                          <DegreeMap
+                            key={`${catalog.release.id}:${mapTarget.courseCode ?? ""}:${mapTarget.direction ?? "both"}`}
+                            initialDirection={mapTarget.direction}
+                            initialFocus={
+                              catalog.release.courses.find(
+                                (c) => c.code === mapTarget.courseCode,
+                              )?.identity.id
+                            }
+                            state={state}
+                            dispatch={dispatch}
+                            preview={preview}
+                            openHistory={() => navigate("completed")}
+                            openProgress={() => navigate("progress")}
+                          />
+                        </>
+                      ))}
                     {state.active === "completed" && (
                       <>
-                        <CompletedCourses state={state} dispatch={dispatch} />
+                        <CompactCourses state={state} dispatch={dispatch} />
+                        <button
+                          className="explorer-text-button mt-4"
+                          onClick={() => navigate("map")}
+                        >
+                          Return to degree map →
+                        </button>
                         <button
                           className="action-card mt-4"
                           onClick={() =>
@@ -845,7 +972,15 @@ export function Workspace({ campus }: { campus: Campus }) {
                       </>
                     )}
                     {state.active === "progress" && summary && (
-                      <DegreeProgress state={state} summary={summary} />
+                      <>
+                        <DegreeProgress state={state} preview={preview} />
+                        <button
+                          className="explorer-text-button mt-4"
+                          onClick={() => navigate("map")}
+                        >
+                          Return to degree map →
+                        </button>
+                      </>
                     )}
                     <button
                       className="action-card mt-4"

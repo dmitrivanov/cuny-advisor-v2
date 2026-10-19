@@ -1,11 +1,22 @@
 # Implementation roadmap
 
 Status: proposed sequence with bounded implementation, 2026-10-17.
-Phases 03A/03B and 04A are merged. Phase 04B is merged through PR #12. Phase 04C-1 BMCC source browsing/ingestion is implemented for owner PR review; Phase 04C-2 remains gated.
+Phases 03A/03B and 04A are merged. Phase 04B is merged through PR #12. Phase 04C-1 BMCC source browsing/ingestion is merged through PR #13. Phase 04C-UX is implemented for owner PR review; Phase 04C-2 remains gated.
 No schedule, staffing, institutional participation, or infrastructure is committed.
 Later phases require explicit user authorization and the gates below.
 
-## Phase 04C-1 — BMCC catalog ingestion (implemented for owner review)
+## Phase 04C-UX — Academic Explorer (implemented for owner review)
+
+Student-facing Departments / Programs / Courses views, source-linked course panel /
+mobile sheet, independent deep-link/search/history context, and local chat navigation.
+Verified program membership remains unavailable. Real pathways have an empty state;
+a bounded, explicitly fictional AND/OR graph demonstrates bidirectional traversal,
+pan/zoom/fit, keyboard/list and reduced motion. React Flow is the only direct added
+dependency. Existing audit releases, selector/progress, registry and database remain
+unchanged. No new academic rules, production work or later-phase implementation.
+[UX design](ACADEMIC_EXPLORER_UX.md), [verification](PHASE_04C_UX_VERIFICATION.md).
+
+## Phase 04C-1 — BMCC catalog ingestion (merged, PR #13)
 
 Source-backed 2025–2026 Bulletin browsing snapshot, separate from existing 2026–2027
 CS/CIS audit drafts. Explicit source collection, offline staging, source-fact review,

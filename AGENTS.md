@@ -1,24 +1,26 @@
 # Repository instructions
 
-## Current authorization: Phase 04C-1 — BMCC catalog ingestion
+## Current authorization: Phase 04C-UX — Academic Explorer and pathways
 
-Work on `feature/phase04c1-bmcc-catalog` from current main with merged PR #12.
-Authorized: official BMCC Bulletin/department/program/course/map research, explicit
-source capture and staging/coverage reconciliation, versioned BMCC catalog ingestion
-in disposable V2 PostgreSQL, read-only browsing API and existing BMCC UI integration,
-regression tests, documentation, scoped commit/push and a dedicated PR.
-Preserve generated frontend/AGENTS.md; read installed Next.js docs before frontend edits.
+Work on `feature/phase04c-ux-academic-explorer` from updated main with merged PR #13.
+Authorized: premium student-facing Departments/Programs/Courses explorer, accessible
+course detail panel/sheet, contextual chat/deep-link navigation, bounded interactive
+pathway visualization, read-only pinned V1 graph inspection, dependency evaluation,
+regression tests/screenshots/docs, scoped commit/push and dedicated owner-review PR.
+Preserve frontend/AGENTS.md; read installed Next.js documentation before frontend edits.
 
-Keep catalog years separate. Preserve original rule text and source provenance;
-only unambiguous source-verified interpretations may be structured. Missing rules
-remain unresolved. Source verification is not institutional academic approval.
-Preserve existing releases, evaluator semantics, exact credit strings and uncertainty.
-Full program degree-requirement ingestion belongs to separately authorized 04C-2.
-No other-campus activation, real records, enrollment/registration, production/V1
-resources, accounts, Gemini calls, merge, deployment or later-phase implementation.
-Do not inspect/change backend/.env.local; no key is needed. Respect source access
-restrictions and existing local services; explicit migration/import only, no startup
-network, DDL or seed. Leave the dedicated PR for owner review; no history rewrite.
+Preserve source facts, catalog years, existing releases/data, selector, progress,
+pure evaluator, exact credits and institutional isolation. No fabricated real graph
+edges or program ownership from page-host links. Only verified structured relations
+may create authoritative edges; otherwise use an explicit real-data empty state and
+separate synthetic demonstration. Visualization/traversal is never eligibility.
+Remove technical clutter from student views without hiding uncertainty or errors.
+
+No new academic rules, catalog ingestion/rewrites, degree requirements, student data,
+production resources, other-campus activation, accounts, registration, Gemini calls,
+merge, deploy or later phase. Do not inspect/change backend/.env.local. Respect local
+services; no migration or seed required for this UX phase. Stop at the review PR;
+no history rewrite.
 
 V1 is strictly read-only at reference commit
 `ba499bc078a4889ed7ed4ad2f381a5c6950753d3`: never edit, format, install there,
@@ -95,6 +97,6 @@ compliance, performance, or institutional endorsement without supporting review.
 ## Historical Phase 00 completion
 
 The eleven Phase 00 Markdown files established the planning baseline.
-The Phase 00 deliverable was documentation only. Current Phase 04C-1 authorization
+The Phase 00 deliverable was documentation only. Current Phase 04C-UX authorization
 is defined above and supersedes the previous phase restrictions within
 that limited scope; later phases remain unauthorized.

@@ -241,7 +241,7 @@ test("unavailable catalog exposes safe error only inside a tool", async ({
   await page.route("**/api/academic/**", (route) =>
     route.fulfill({ status: 503, json: { detail: "private" } }),
   );
-  await page.goto("/campus/bmcc#catalog");
+  await page.goto("/campus/bmcc#completed");
   await expect(
     page.getByRole("alert").filter({ hasText: "README" }),
   ).toBeVisible();
@@ -255,7 +255,7 @@ test("empty catalog is explicit and never fabricated", async ({ page }) => {
   await page.route("**/api/academic/**", (route) =>
     route.fulfill({ json: [] }),
   );
-  await page.goto("/campus/bmcc#catalog");
+  await page.goto("/campus/bmcc#completed");
   await expect(page.getByText(/No catalog releases imported/)).toBeVisible();
 });
 
@@ -268,7 +268,7 @@ test("missing exact release displays a safe scope error", async ({ page }) => {
     ),
   );
   await page.goto(
-    "/campus/bmcc?campus=bmcc&program=missing&release=missing#catalog",
+    "/campus/bmcc?campus=bmcc&program=missing&release=missing#completed",
   );
   await expect(
     page.getByRole("alert").filter({ hasText: "not found" }),

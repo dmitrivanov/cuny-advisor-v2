@@ -240,3 +240,14 @@ Text tokens have additional contrast regressions. Focus uses a warm high-contras
 outline. Only BMCC has an entry action. Other campuses show unavailable text rather
 than a disabled fake chat or fabricated academic content. Source/type metadata is
 verified in [multi-campus architecture](MULTICAMPUS_ARCHITECTURE.md).
+
+## Academic Explorer extension (Phase 04C-UX)
+
+The bounded explorer uses local `--explorer-*` semantic tokens in
+`frontend/src/components/explorer/explorer.css`, keeping typography, pale surfaces,
+indigo actions, card radius and restrained shadow consistent with the shared system.
+Native dialogs use an opaque reading surface, desktop side panel and mobile sheet.
+Source qualifications appear with the relevant condition rather than on every card.
+The graph uses directional labels, borders/line patterns and a textual alternative;
+reduced motion and forced colors have explicit rules. See
+[UX behavior and evidence](ACADEMIC_EXPLORER_UX.md).

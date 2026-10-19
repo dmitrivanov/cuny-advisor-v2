@@ -1,7 +1,13 @@
 "use client";
 import { useCallback, useEffect, useReducer, useRef, useState } from "react";
 import Link from "next/link";
-import { BmccCourseBrowser } from "./bmcc-course-browser";
+import { AcademicExplorer } from "@/components/explorer/academic-explorer";
+import {
+  explorerIntent,
+  explorerURL,
+  validTarget,
+  type ExplorerTarget,
+} from "@/lib/catalog/navigation";
 import { useInstitutions } from "@/components/campus/institutions-provider";
 import { useAdvising } from "@/components/campus/advising-provider";
 import { AdaptiveProfile } from "@/components/campus/adaptive-profile";
@@ -39,11 +45,7 @@ import {
 import { initialState, workspaceReducer } from "@/lib/workspace/state";
 import type { Guidance } from "@/lib/workspace/registry";
 import type { ModuleId, Summary } from "@/lib/workspace/types";
-import {
-  CatalogExplorer,
-  CompletedCourses,
-  DegreeProgress,
-} from "./academic-modules";
+import { CompletedCourses, DegreeProgress } from "./academic-modules";
 
 const contextKey = (
   item: Pick<Summary, "campus_id" | "program_id" | "release_id">,
@@ -53,6 +55,7 @@ type Message = {
   text: string;
   actions?: ModuleId[];
   ai?: boolean;
+  explorer?: ExplorerTarget;
 };
 export function Workspace({ campus }: { campus: Campus }) {
   const { advising, setAdvising } = useAdvising();
@@ -166,7 +169,7 @@ export function Workspace({ campus }: { campus: Campus }) {
     };
   }, [readLocation]);
   useEffect(() => {
-    if (state.active === "chat") return;
+    if (state.active === "chat" || state.active === "catalog") return;
     const controller = new AbortController();
     listReleases(controller.signal)
       .then((items) => {
@@ -248,6 +251,16 @@ export function Workspace({ campus }: { campus: Campus }) {
     window.history.pushState(null, "", url);
     readLocation();
   }
+  function openExplorer(target: ExplorerTarget) {
+    if (!validTarget(target)) return;
+    navigate("catalog");
+    window.history.replaceState(
+      null,
+      "",
+      explorerURL(window.location.href, target),
+    );
+    window.dispatchEvent(new Event("explorer:navigate"));
+  }
   function sendLocal(text: string) {
     if (!text.trim()) return;
     const proposal = interpretBounded(text, campuses);
@@ -259,9 +272,16 @@ export function Workspace({ campus }: { campus: Campus }) {
           next = applyUpdate(next, update, campuses);
         return next;
       });
-    const reply: Guidance = accepted
-      ? { text: proposal.message, actions: proposal.actions }
-      : guidance(text);
+    const destination = explorerIntent(text);
+    const reply: Guidance = destination
+      ? {
+          text: "Explore BMCC’s academic possibilities. Browsing does not change your advising selections.",
+          actions: ["catalog"],
+          explorer: destination,
+        }
+      : accepted
+        ? { text: proposal.message, actions: proposal.actions }
+        : guidance(text);
     setMessages((items) => [
       ...items.slice(-37),
       { role: "you", text: text.trim().slice(0, 600) },
@@ -271,7 +291,7 @@ export function Workspace({ campus }: { campus: Campus }) {
   }
   async function send(text: string) {
     if (!text.trim() || busy) return;
-    if (!aiAvailable || !consent) {
+    if (explorerIntent(text) || !aiAvailable || !consent) {
       sendLocal(text);
       return;
     }
@@ -468,7 +488,11 @@ export function Workspace({ campus }: { campus: Campus }) {
                         <button
                           key={id}
                           className="action-card"
-                          onClick={() => navigate(id)}
+                          onClick={() =>
+                            id === "catalog" && message.explorer
+                              ? openExplorer(message.explorer)
+                              : navigate(id)
+                          }
                         >
                           Open {modules.find((item) => item.id === id)!.name}{" "}
                           <span aria-hidden="true">↗</span>
@@ -676,9 +700,23 @@ export function Workspace({ campus }: { campus: Campus }) {
                 Not implemented. No upload, planner, reporting or handoff
                 service is available.
               </p>
+            ) : state.active === "catalog" ? (
+              campus.id === "bmcc" ? (
+                <>
+                  {catalogError?.key === "" && (
+                    <p role="alert" className="workspace-notice mb-4">
+                      {catalogError.message}
+                    </p>
+                  )}
+                  <AcademicExplorer />
+                </>
+              ) : (
+                <p className="workspace-notice">
+                  Academic exploration is available for BMCC only.
+                </p>
+              )
             ) : (
               <>
-                {state.active === "catalog" && <BmccCourseBrowser />}
                 <div className="module-context">
                   <p className="text-sm">
                     {summary
@@ -772,13 +810,6 @@ export function Workspace({ campus }: { campus: Campus }) {
                   </div>
                 ) : (
                   <>
-                    {state.active === "catalog" && (
-                      <CatalogExplorer
-                        catalog={catalog}
-                        state={state}
-                        dispatch={dispatch}
-                      />
-                    )}
                     {state.active === "completed" && (
                       <>
                         <CompletedCourses state={state} dispatch={dispatch} />

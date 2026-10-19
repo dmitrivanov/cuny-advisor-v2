@@ -360,3 +360,14 @@ year. 18 academic departments, 67 program-list entries and 1,263 credit courses 
 represented; prerequisite interpretations and degree requirements remain pending.
 No new key or dependency is needed. [Sources, coverage, refresh and API](docs/BMCC_CATALOG_INGESTION.md)
 and [verification](docs/PHASE_04C1_VERIFICATION.md) distinguish facts from unresolved rules.
+
+## Phase 04C-UX Academic Explorer
+
+From BMCC chat, “Open academic explorer”, “Explore programs”, or “Browse courses”
+opens the read-only explorer. Department and program relationships are displayed only
+when established. Courses have keyboard-accessible source-linked details; pathways
+currently show a real-data empty state and a separate fictional interactive demo.
+Browsing does not assign or change the explicit audit context used by Completed
+Courses and Degree Progress. React Flow is the added runtime visualization package.
+[UX boundaries](docs/ACADEMIC_EXPLORER_UX.md) ·
+[Verification and screenshots](docs/PHASE_04C_UX_VERIFICATION.md).

@@ -18,6 +18,7 @@ export type Department = {
   id: string;
   name: string;
   kind: string;
+  url?: string;
   prefixes: string[];
 };
 export type Program = {
@@ -74,9 +75,7 @@ export async function browseGet<T>(
     signal,
   });
   if (!r.ok)
-    throw new Error(
-      "BMCC source catalog unavailable. Check the explicit local import, then retry.",
-    );
+    throw new Error("The BMCC catalog is unavailable. Please try again.");
   return r.json() as Promise<T>;
 }
 export function coursePage(input: unknown, snapshot: string): CoursePage {

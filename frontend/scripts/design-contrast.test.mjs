@@ -3,7 +3,7 @@ import { readFileSync } from "node:fs";
 import test from "node:test";
 
 // No browser/framework dependency: guard the palette against contrast regressions.
-const css = readFileSync(new URL("../src/app/globals.css", import.meta.url), "utf8");
+const css = readFileSync(new URL("../src/app/globals.css", import.meta.url), "utf8") + readFileSync(new URL("../src/components/explorer/explorer.css", import.meta.url), "utf8");
 const colors = Object.fromEntries([...css.matchAll(/--([\w-]+):\s*(#[\da-f]{6});/gi)]
   .map(([, name, hex]) => [name, hex]));
 
@@ -47,3 +47,9 @@ test("Campus action text and focus remain legible", () => {
   assert.ok(contrast("night", "night-accent") >= 4.5);
   assert.ok(contrast("night-accent", "night-panel") >= 3);
 });
+
+for (const foreground of ["explorer-ink", "explorer-muted", "explorer-accent"]) {
+  test(`${foreground}: normal text meets 4.5:1 on explorer surfaces`, () => {
+    for (const background of ["surface-solid", "explorer-tint"]) assert.ok(contrast(foreground, background) >= 4.5);
+  });
+}

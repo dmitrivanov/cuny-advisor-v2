@@ -371,3 +371,20 @@ browser are read-only and cannot feed unreviewed courses to old audit releases.
 Full degree requirements, publication authority/workflow, source-policy reconciliation
 and additional campus catalogs remain separately gated. No Gemini or new dependency.
 [Design and source coverage](BMCC_CATALOG_INGESTION.md), [verification](PHASE_04C1_VERIFICATION.md).
+
+## Phase 04C-UX — browsing, academic relationships and visual pathways
+
+Decision, 2026-10-18: retain the `catalog` navigation contract with the student-facing
+name Academic Explorer. Separate browsing edition/deep-link context from the explicit
+audit release; Departments, Programs and Courses are independent entry points.
+Page-host evidence does not establish program ownership or course membership.
+
+Use a native accessible course dialog and on-demand React Flow 12.12.0. Defer ELK:
+small bounded graphs use explicit deterministic positions without an extra layout
+engine. Real courses currently have no verified structured prerequisite edges; show
+an honest empty state and a separately labeled fictional AND/OR demonstration.
+Graph traversal/positions/highlighting cannot change academic truth. Local navigation
+uses allowlisted module actions plus validated optional explorer destinations; Gemini
+does not gain arbitrary navigation or academic authority. No API/schema/data/evaluator
+changes, additional campus activation, production work or subsequent phase.
+[UX and evidence boundaries](ACADEMIC_EXPLORER_UX.md).

@@ -1,6 +1,9 @@
+import type { ExplorerTarget } from "../catalog/navigation.ts";
 import type { ModuleId } from "./types.ts";
-export type ContextInput = "campus" | "program" | "year" | "release" | "selections" | "allocations";
-export type ModuleAction = "navigate" | "select" | "allocate" | "browse" | "evaluate-hypothetical";
+export type ContextInput =
+  "campus" | "program" | "year" | "release" | "selections" | "allocations";
+export type ModuleAction =
+  "navigate" | "select" | "allocate" | "browse" | "evaluate-hypothetical";
 export type ModuleDefinition = {
   id: ModuleId;
   name: string;
@@ -32,9 +35,8 @@ export const modules: readonly ModuleDefinition[] = [
   },
   {
     id: "catalog",
-    name: "Academic Catalog",
-    description:
-      "Browse persisted draft courses, requirements and source evidence.",
+    name: "Academic Explorer",
+    description: "Discover BMCC departments, programs, courses, and pathways.",
     target: "#catalog",
     availability: "active",
     context: ["campus", "program", "year", "release"],
@@ -89,10 +91,15 @@ export function programName(id: string): string {
     }[id] ?? id
   );
 }
-export type Guidance = { text: string; actions: ModuleId[] };
+export type Guidance = {
+  text: string;
+  actions: ModuleId[];
+  explorer?: ExplorerTarget;
+};
 const intents: Record<string, Guidance> = {
   "show me the academic programs": {
-    text: "Open the catalog to choose from the persisted program releases. No catalog year is selected automatically.",
+    explorer: { view: "programs" },
+    text: "Explore BMCC programs. Browsing does not assign an advising catalog.",
     actions: ["catalog"],
   },
   "open completed courses": {
@@ -104,7 +111,8 @@ const intents: Record<string, Guidance> = {
     actions: ["catalog", "progress"],
   },
   "show the computer science catalog": {
-    text: "Open Academic Catalog and explicitly choose Computer Science A.S. and a release. Context will not change without your selection.",
+    explorer: { view: "courses", q: "CSC" },
+    text: "Explore Computer Science courses. Your advising context stays unchanged.",
     actions: ["catalog"],
   },
 };
